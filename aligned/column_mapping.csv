@@ -341,8 +341,43 @@ year,original,canonical,level
 2023,"ide.editor.features.Run / debug or edit code on remote machines (remote hosts, VMs, etc.)",ide.editor.features.Run / debug or edit code on remote machines,normalized
 2023,environments.isolate.venv (standard library),environments.isolate.venv,normalized
 2023,environments.isolate.virtualenv (Python package),environments.isolate.virtualenv,normalized
+2023,dependency.tools.Pip,dependency.tools.pip,normalized
 2023,dependency.store.I don’t store dependency information,dependency.store.I don't store dependency information,normalized
 2023,packages.install.from.Other Conda channels (conda-forge or similar),packages.install.from.Other Conda channels,normalized
 2023,binary.modules.language.C,binary.modules.language.C++,normalized
 2023,binary.modules.language.C++,binary.modules.language.C++__dup1,exact
 2023,"learning.source.Online coding schools and MOOCs (Codecademy, JetBrains Academy, Coursera, edX, Udacity, etc_)",learning.source.Online coding schools and MOOCs,normalized
+2024,other.purposes.DevOps / systems administration / writing automation scripts,other.purposes.DevOps / System administration / Writing automation scripts,normalized
+2024,"other.purposes.Multimedia applications development (apps handling various types of multimedia content, e_g_ audio, graphics, etc_)",other.purposes.Multimedia applications development,normalized
+2024,how.involved.DevOps / systems administration / writing automation scripts,how.involved.DevOps / System administration / Writing automation scripts,normalized
+2024,"how.involved.Multimedia applications development (apps handling various types of multimedia content, e.g. audio, graphics, etc.)",how.involved.Multimedia applications development,normalized
+2024,"how.involved.Other, please specify:","how.involved.Other, please specify",normalized
+2024,python.version.upgrade.I don’t update,python.version.upgrade.I don't update,normalized
+2024,"python.version.upgrade.OS-wide package-management tool (via apt-get, yum, homebrew, etc_)",python.version.upgrade.OS-wide package-management tool,normalized
+2024,python.version.why.The version I’m using meets all my needs,python.version.why.The version I'm using meets all my needs,normalized
+2024,python.version.why.I haven’t had the time to update,python.version.why.I haven't had the time to update,normalized
+2024,python.version.why.I’m concerned about the stability of the latest Python version,python.version.why.I'm concerned about the stability of the latest Python version,normalized
+2024,python.version.why.It is our organization’s policy to only use a specific Python version,python.version.why.It is our organization's policy to only use a specific Python version,normalized
+2024,python.version.why.I wasn’t aware that the latest Python version is available,python.version.why.I wasn't aware that the latest Python version is available,normalized
+2024,python.version.why.I don’t have the necessary permission(s) to update my Python version,python.version.why.I don't have the necessary permission(s) to update my Python version,normalized
+2024,run.in.cloud.On a platform-as-a-service (such as Heroku or Google App Engine),run.in.cloud.On a platform-as-a-service,normalized
+2024,run.in.cloud.Serverless (such as via AWS Lambda or Cloud Functions),run.in.cloud.Serverless,normalized
+2024,develop.for.cloud.Locally with virtualenv (or similar),develop.for.cloud.Locally with virtualenv,normalized
+2024,"develop.for.cloud.In remote development environments (like Gitpod, GitHub Codespaces, etc_)",develop.for.cloud.In remote development environments,normalized
+2024,"ai.tools.coding.CodeGPT plugin in JetBrains IDEs (IntelliJ IDEA, PyCharm, PhpStorm, etc_)",ai.tools.coding.CodeGPT plugin in JetBrains IDEs,normalized
+2024,ai.tools.coding.Google Gemini (previously Bard),ai.tools.coding.Google Gemini,normalized
+2024,ai.tools.coding.Amazon Q Developer (previously CodeWhisperer),ai.tools.coding.Amazon Q Developer,normalized
+2024,ai.tools.coding.Gemini Code Assist (previously Duet AI for Developers),ai.tools.coding.Gemini Code Assist,normalized
+2024,orm.I don’t do database development,orm.I don't do database development,normalized
+2024,documentation.tool.Swagger (OpenAPI),documentation.tool.Swagger,normalized
+2024,jupyter.vscode,jupyter.Visual Studio Code,normalized
+2024,ide.editor.Python Tools for Visual Studio (PTVS),ide.editor.Python Tools for Visual Studio,normalized
+2024,ide.editor.features.Use code linting (programs that analyze code for potential errors),ide.editor.features.Use code linting,normalized
+2024,"ide.editor.features.Run / debug or edit code on remote machines (remote hosts, VMs, etc.)",ide.editor.features.Run / debug or edit code on remote machines,normalized
+2024,environments.isolate.venv (standard library),environments.isolate.venv,normalized
+2024,environments.isolate.virtualenv (Python package),environments.isolate.virtualenv,normalized
+2024,dependency.store.I don’t store dependency information,dependency.store.I don't store dependency information,normalized
+2024,packages.install.from.Other Conda channels (conda-forge or similar),packages.install.from.Other Conda channels,normalized
+2024,binary.modules.language.C,binary.modules.language.C++,normalized
+2024,binary.modules.language.C++,binary.modules.language.C++__dup1,exact
+2024,"learning.source.Online coding schools and MOOCs (Codecademy, JetBrains Academy, Coursera, edX, Udacity, etc_)",learning.source.Online coding schools and MOOCs,normalized

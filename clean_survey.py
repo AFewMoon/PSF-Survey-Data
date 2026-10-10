@@ -27,6 +27,7 @@ FILES: dict[int, str] = {
     2021: "2021_2021_sharing_data_outside.csv",
     2022: "2022_2022_sharing_data_outside.csv",
     2023: "2023_2023_sharing_data_outside.csv",
+    2024: "2024_2024_sharing_data_outside.csv",
 }
 
 # 统一缺失标记（注意 'None' 是合法选项文本，不作缺失处理）

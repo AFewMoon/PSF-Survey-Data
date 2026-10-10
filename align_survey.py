@@ -23,7 +23,7 @@ import pandas as pd
 ROOT = Path(__file__).resolve().parent
 IN_DIR = ROOT / "cleaned"
 OUT_DIR = ROOT / "aligned"
-YEARS = [2019, 2020, 2021, 2022, 2023]  # 取标准值时旧->新，新年份优先
+YEARS = [2019, 2020, 2021, 2022, 2023, 2024]  # 取标准值时旧->新，新年份优先
 
 # ---------------------------------------------------------------- 归一工具
 
@@ -283,7 +283,8 @@ def main() -> None:
     master = pd.concat(
         [dfs[y].assign(year=y)[["year"] + common] for y in YEARS], ignore_index=True
     )
-    master.to_csv(OUT_DIR / "survey_2019_2023_master.csv", index=False)
+    master_name = f"survey_{YEARS[0]}_{YEARS[-1]}_master.csv"
+    master.to_csv(OUT_DIR / master_name, index=False)
 
     col_map.to_csv(OUT_DIR / "column_mapping.csv", index=False)
     val_map.to_csv(OUT_DIR / "value_mapping.csv", index=False)

@@ -1,6 +1,6 @@
 # PSF Survey 数据清洗报告
 
-生成时间：2026-10-10 12:01
+生成时间：2026-10-10 17:24
 清洗管线：clean_survey.py（缺失标记归空 -> 列名规范化 -> 去空/去重 -> 多选归一 -> 数值转换）
 
 | 年份 | 行数(前/后) | 列数(前/后) | 空列 | 空行 | 重复行 | 重复列 | 多选归一 | 数值列 |
@@ -10,6 +10,7 @@
 | 2021 | 23616/23201 | 387/387 | 0 | 0 | 415 | 0 | 356 | 0 |
 | 2022 | 23288/23009 | 403/403 | 0 | 0 | 279 | 0 | 344 | 0 |
 | 2023 | 25701/25324 | 491/491 | 0 | 0 | 377 | 0 | 417 | 0 |
+| 2024 | 29268/28997 | 573/573 | 0 | 0 | 271 | 0 | 492 | 0 |
 
 ## 2019 年详情
 
@@ -146,6 +147,29 @@
 - `how.involved.Multimedia applications development (apps handling various types of multimedia content, e.g. audio, graphics, etc.)`：94.2%
 - `how.involved.Embedded development`：93.9%
 - `how.involved.MLOps`：93.1%
+
+### 列名映射（前 20 条）
+
+- `ide.editor.features.Use autocompletion  in your editor` -> `ide.editor.features.Use autocompletion in your editor`
+- （共 1 列重命名）
+
+
+## 2024 年详情
+
+源文件：`2024_2024_sharing_data_outside.csv`
+
+### 缺失率最高的列
+
+- `jupyter.intellij`：99.3%
+- `documentation.tool.Other language, please specify`：99.0%
+- `documentation.tool.Other systems, please specify`：98.0%
+- `python2.version.most`：96.9%
+- `how.involved.Mobile development`：94.8%
+- `how.involved.Other, please specify:`：94.7%
+- `how.involved.Embedded development`：94.2%
+- `how.involved.Multimedia applications development (apps handling various types of multimedia content, e.g. audio, graphics, etc.)`：93.4%
+- `how.involved.Game development`：91.8%
+- `how.involved.Computer graphics`：91.1%
 
 ### 列名映射（前 20 条）
 

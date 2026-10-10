@@ -1,8 +1,8 @@
 # PSF Survey Data
 
-对 Python Software Foundation（PSF）年度 Python 开发者调查（2019–2023）原始数据进行清洗与跨年对齐，产出可分析的分年数据集与跨年总表。
+对 Python Software Foundation（PSF）年度 Python 开发者调查（2019–2024）原始数据进行清洗与跨年对齐，产出可分析的分年数据集与跨年总表。
 
-Cleaned and cross-year aligned datasets built from the raw Python Developers Survey (2019–2023) run by the Python Software Foundation.
+Cleaned and cross-year aligned datasets built from the raw Python Developers Survey (2019–2024) run by the Python Software Foundation.
 
 [中文](#中文) | [English](#english)
 
@@ -12,7 +12,7 @@ Cleaned and cross-year aligned datasets built from the raw Python Developers Sur
 
 ### 数据来源与版权
 
-- 原始数据由 **JetBrains** 提供，源自 **PSF** 主办的年度 Python 开发者调查（2019–2023 公开分享数据）。
+- 原始数据由 **JetBrains** 提供，源自 **PSF** 主办的年度 Python 开发者调查（2019–2023 来自 PSF-Survey-Data-Playground 公开仓库；2024 来自 JetBrains 官方结果页发布的 Google Drive 公开文件夹）。
 - **原始调查数据版权归 JetBrains / PSF 所有**，本仓库许可证不覆盖根目录下 9 个原始 `*.csv` 数据文件。
 - 本仓库许可证（GPL-3.0）仅覆盖清洗/对齐脚本与文档。
 
@@ -25,12 +25,15 @@ PSF-Survey-Data/
 ├── 2021_2021_sharing_data_outside.csv     # 原始数据 2021（387 列 × 23,616 行）
 ├── 2022_2022_sharing_data_outside.csv     # 原始数据 2022（403 列 × 23,288 行）
 ├── 2023_2023_sharing_data_outside.csv     # 原始数据 2023（491 列 × 25,701 行）
+├── 2024_2024_sharing_data_outside.csv     # 原始数据 2024（573 列 × 29,268 行）
 ├── *_questions_outside.csv                # 各年问题清单（2019 年无独立清单）
 ├── clean_survey.py                        # 清洗管线脚本
 ├── align_survey.py                        # 跨年对齐管线脚本
 ├── cleaned/                               # 清洗产物 + cleaning_report.md
 └── aligned/                               # 对齐产物 + 跨年总表 + 映射表
 ```
+
+> 2024 年原始数据（zip 压缩包及问题清单/结构 PDF/Readme）发布于 JetBrains 2024 结果页链接的 Google Drive 公开文件夹，问题清单与主数据已提取至根目录。
 
 ### 环境要求与用法
 
@@ -50,10 +53,11 @@ python align_survey.py    # 2. 跨年对齐 + 合并总表
 | 2021 | 23,616 × 387 | 23,201 × 387 | 356 | 153 |
 | 2022 | 23,288 × 403 | 23,009 × 403 | 344 | 153 |
 | 2023 | 25,701 × 491 | 25,324 × 491 | 417 | 153 |
+| 2024 | 29,268 × 573 | 28,997 × 573 | 492 | 153 |
 
 **清洗**：缺失标记归空（`NA`/`N/A` 等）→ 列名规范化 → 去全空行/列与重复行 → 多选二值列归一为 0/1 → 数值类型转换 → 全角标点统一。
 
-**对齐**：列名三级匹配（精确同名 → 文本归一 → 组路径重映射 + 同义词表），2019 年问题文本表头映射到 2020–2023 的 `前缀.选项` 命名方案，类别列取值文案统一，按共有列纵向合并为跨年总表 `aligned/survey_2019_2023_master.csv`（含 `year` 列）。跨年共有列由 42 列提升至 153 列。
+**对齐**：列名三级匹配（精确同名 → 文本归一 → 组路径重映射 + 同义词表），2019 年问题文本表头映射到 2020–2024 的 `前缀.选项` 命名方案，类别列取值文案统一，按共有列纵向合并为跨年总表 `aligned/survey_2019_2024_master.csv`（185,632 行 × 154 列，含 `year` 列）。跨年共有列由 42 列提升至 153 列。
 
 ### 已知数据质量问题
 
@@ -72,13 +76,13 @@ python align_survey.py    # 2. 跨年对齐 + 合并总表
 
 ### Data Provenance & Copyright
 
-- Raw data was provided by **JetBrains** and originates from the annual **Python Developers Survey** run by the **Python Software Foundation** (2019–2023 public sharing datasets).
+- Raw data was provided by **JetBrains** and originates from the annual **Python Developers Survey** run by the **Python Software Foundation** (2019–2023 from the public PSF-Survey-Data-Playground repository; 2024 from the Google Drive folder published on the official JetBrains 2024 results page).
 - **The raw survey data is copyrighted by JetBrains / PSF.** The repository license does **not** cover the 9 raw `*.csv` data files in the root.
 - The repository license (GPL-3.0) applies only to the cleaning/alignment scripts and documentation.
 
 ### Layout & Usage
 
-Root contains the 5 raw main-dataset CSVs (one per year) plus per-year question lists. `cleaned/` holds per-year cleaned datasets with `cleaning_report.md`; `aligned/` holds per-year aligned datasets, the master table `survey_2019_2023_master.csv` (156,635 rows × 154 cols incl. `year`), column/value mapping CSVs, and `alignment_report.md`.
+Root contains the 6 raw main-dataset CSVs (one per year) plus per-year question lists. `cleaned/` holds per-year cleaned datasets with `cleaning_report.md`; `aligned/` holds per-year aligned datasets, the master table `survey_2019_2024_master.csv` (185,632 rows × 154 cols incl. `year`), column/value mapping CSVs, and `alignment_report.md`.
 
 Requires Python 3.14+ and pandas:
 

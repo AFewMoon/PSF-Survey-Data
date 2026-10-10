@@ -4,10 +4,10 @@
 
 ## 项目背景
 
-对 PSF（Python Software Foundation）年度 Python 开发者调查 2019–2023 的原始公开数据做清洗与跨年对齐。产出：
+对 PSF（Python Software Foundation）年度 Python 开发者调查 2019–2024 的原始公开数据做清洗与跨年对齐。产出：
 
 1. `cleaned/`：各年清洗后数据 + 清洗报告
-2. `aligned/`：列名/取值统一后的分年数据、跨年总表 `survey_2019_2023_master.csv`、映射表与对齐报告
+2. `aligned/`：列名/取值统一后的分年数据、跨年总表 `survey_2019_2024_master.csv`（文件名随脚本 `YEARS` 动态生成）、映射表与对齐报告
 
 数据由 JetBrains 提供并源自 PSF 年度调查，**原始数据版权归 JetBrains / PSF 所有**。仓库许可证 GPL-3.0 仅覆盖脚本与文档。
 
@@ -23,7 +23,7 @@ PSF-Survey-Data/
 │   └── cleaning_report.md
 ├── aligned/                          # 对齐产物（由脚本生成，不手工编辑）
 │   ├── cleaned_aligned_<year>.csv
-│   ├── survey_2019_2023_master.csv   # 156,635 行 × 154 列（含 year 列）
+│   ├── survey_2019_2024_master.csv   # 185,632 行 × 154 列（含 year 列）
 │   ├── column_mapping.csv            # 列名映射（year, original, canonical, level）
 │   ├── value_mapping.csv             # 取值映射（year, column, original, canonical）
 │   └── alignment_report.md
@@ -40,7 +40,7 @@ PSF-Survey-Data/
 - **多选题**：清洗后为二值列 `0/1`（int64），列名为 `前缀.选项`；含 `__dup` 后缀的是同名冲突列，内容不同，勿合并。
 - **年份结构差异**：
   - 2019 原始表头为完整问题文本（`问题:选项`），清洗时已映射到统一命名；核心列如 `is.python.main`、`python.years`、`years.of.coding`。
-  - 2020–2023 表头为 `前缀.题目.选项` 点分结构；部分组路径跨年不一致（如 2020 `data.frameworks` vs 2023 `frameworks.ml`、`isolate.environments` vs `environments.isolate`），已在 `align_survey.py` 的 `GROUP_PATH_CANON` 统一。
+  - 2020–2024 表头为 `前缀.题目.选项` 点分结构；部分组路径跨年不一致（如 2020 `data.frameworks` vs 2023 `frameworks.ml`、`isolate.environments` vs `environments.isolate`），已在 `align_survey.py` 的 `GROUP_PATH_CANON` 统一。2024 新增 `ai`/`bi`/`region`/`trusted` 前缀，结构与其他年份一致。
 - **上游数据质量问题**：2020 年原始文件含 12,554 个全空行（已删）；2020 年问题清单仅有表头；2019 年 `is.python.main` 约 25% 缺失。
 
 ## 脚本用法与修改约定
