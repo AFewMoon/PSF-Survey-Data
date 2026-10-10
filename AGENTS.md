@@ -18,6 +18,7 @@ PSF-Survey-Data/
 ├── <year>_*.csv                      # 原始数据（只读，禁止修改/重命名/删除）
 ├── clean_survey.py                   # 清洗管线（cleaned/ 的唯一来源）
 ├── align_survey.py                   # 对齐管线（aligned/ 的唯一来源）
+├── analyze_survey.py                 # 统计分析管线（analysis/ 的唯一来源）
 ├── cleaned/                          # 清洗产物（由脚本生成，不手工编辑）
 │   ├── cleaned_<year>.csv
 │   └── cleaning_report.md
@@ -27,7 +28,7 @@ PSF-Survey-Data/
 │   ├── column_mapping.csv            # 列名映射（year, original, canonical, level）
 │   ├── value_mapping.csv             # 取值映射（year, column, original, canonical）
 │   └── alignment_report.md
-├── analysis/                         # 分析报告（analysis_report.md）
+├── analysis/                         # 分析报告（analysis_report.md）+ stats/ 分主题统计 CSV
 ├── charts/                           # 统计图表（由 plot_survey.py 生成）
 ├── tutorial/                         # 数据清洗/对齐/统计/分析教材（多章 Markdown，含练习与答案）
 └── README.md / AGENTS.md / LICENSE

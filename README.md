@@ -29,8 +29,10 @@ PSF-Survey-Data/
 ├── *_questions_outside.csv                # 各年问题清单（2019 年无独立清单）
 ├── clean_survey.py                        # 清洗管线脚本
 ├── align_survey.py                        # 跨年对齐管线脚本
+├── analyze_survey.py                      # 统计分析脚本（2024 画像 + 跨年趋势）
 ├── cleaned/                               # 清洗产物 + cleaning_report.md
-└── aligned/                               # 对齐产物 + 跨年总表 + 映射表
+├── aligned/                               # 对齐产物 + 跨年总表 + 映射表
+└── analysis/                              # 分析产物 + analysis_report.md + stats/
 ```
 
 > 2024 年原始数据（zip 压缩包及问题清单/结构 PDF/Readme）发布于 JetBrains 2024 结果页链接的 Google Drive 公开文件夹，问题清单与主数据已提取至根目录。
@@ -42,7 +44,17 @@ PSF-Survey-Data/
 ```powershell
 python clean_survey.py    # 1. 清洗（默认全部年份，可指定：python clean_survey.py 2023）
 python align_survey.py    # 2. 跨年对齐 + 合并总表
+python analyze_survey.py  # 3. 统计分析（2024 画像 + 跨年趋势）
 ```
+
+### 分析要点（详见 [analysis/analysis_report.md](analysis/analysis_report.md)）
+
+- **2024 样本**：28,997 份回复；85.8% 受访者以 Python 为主要语言。
+- **经验结构**：30.4% 的受访者编程经验不足 1 年，人群持续年轻化。
+- **最常用其他语言**：JavaScript（40.5%）、HTML/CSS（37.1%）、SQL（36.2%）、Bash/Shell（30.9%）。
+- **AI 编码工具**（2024 新增专题）：ChatGPT 53.2%、GitHub Copilot 25.2%、Google Gemini 15.0%、Anthropic Claude 10.9%。
+- **数据库**：PostgreSQL 居首（31.3%），SQLite 23.8%、MySQL 20.0%。
+- **次要 IDE**：Visual Studio Code 13.1%、Jupyter Notebook 12.2%、Vim 9.7%。
 
 ### 数据处理概要
 
@@ -89,7 +101,17 @@ Requires Python 3.14+ and pandas:
 ```powershell
 python clean_survey.py    # 1. clean all years (or: python clean_survey.py 2023)
 python align_survey.py    # 2. align columns/values + build master table
+python analyze_survey.py  # 3. statistics & trends (2024 profile + 2019-2024)
 ```
+
+### Key Findings (see [analysis/analysis_report.md](analysis/analysis_report.md))
+
+- **2024 sample**: 28,997 responses; 85.8% use Python as their main language.
+- **Experience**: 30.4% of respondents have less than 1 year of coding experience.
+- **Most-used other languages**: JavaScript (40.5%), HTML/CSS (37.1%), SQL (36.2%), Bash/Shell (30.9%).
+- **AI coding tools** (new in 2024): ChatGPT 53.2%, GitHub Copilot 25.2%, Google Gemini 15.0%, Anthropic Claude 10.9%.
+- **Databases**: PostgreSQL leads (31.3%), followed by SQLite (23.8%) and MySQL (20.0%).
+- **Secondary IDEs**: Visual Studio Code 13.1%, Jupyter Notebook 12.2%, Vim 9.7%.
 
 Cleaning: normalize missing tokens, drop empty rows/columns and duplicates, binarize multi-select columns to 0/1, convert numeric columns, unify punctuation. Alignment: 3-level column matching (exact → normalized text → group-path remapping + synonym table), per-year value canonicalization, then vertical concat on the 153 common columns (up from 42).
 

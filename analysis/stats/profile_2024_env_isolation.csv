@@ -1,0 +1,11 @@
+option,pct
+venv,36.6
+virtualenv,15.0
+Conda,11.2
+Poetry,10.6
+uv,6.6
+I do not use any tools to isolate Python environments,6.0
+Pipenv,4.6
+Other,2.5
+virtualenvwrapper,1.7
+Hatch,1.1

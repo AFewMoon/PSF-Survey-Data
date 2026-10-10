@@ -1,0 +1,11 @@
+option,2023,2024
+An in-house solution,3.5,3.8
+Huggingface,2.4,3.4
+Amazon Sagemaker,2.3,2.7
+MLFlow,2.0,2.3
+None,2.2,2.3
+AzureML,1.7,2.1
+Databricks,1.1,1.3
+VertexAI,1.0,1.3
+Nvidia Triton,0.9,1.0
+Kubeflow,0.9,0.9

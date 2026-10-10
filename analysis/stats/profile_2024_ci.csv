@@ -1,0 +1,16 @@
+option,pct
+GitHub Actions,22.5
+None,22.1
+Gitlab CI,14.0
+Jenkins / Hudson,7.6
+Azure DevOps,5.2
+AWS CodePipeline / AWS CodeStar,3.0
+Google Cloud Build,2.7
+Bitbucket Pipelines,2.2
+CircleCI,2.1
+A custom tool,1.8
+Other,1.3
+JetBrains Space,1.2
+Travis CI,0.9
+Bamboo,0.9
+TeamCity,0.8

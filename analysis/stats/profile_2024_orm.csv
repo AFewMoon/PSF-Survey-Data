@@ -1,0 +1,12 @@
+option,pct
+SQLAlchemy,25.4
+I don't do database development,23.0
+Django ORM,16.6
+Raw SQL,7.8
+SQLModel,6.3
+Other,2.4
+SQLObject,1.8
+Peewee,1.3
+Tortoise ORM,1.0
+Dejavu,0.8
+PonyORM,0.7

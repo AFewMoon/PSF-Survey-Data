@@ -1,0 +1,16 @@
+option,pct
+FastAPI,30.1
+Django,27.8
+Flask,27.5
+Requests,26.3
+Asyncio,18.8
+Django REST Framework,15.7
+None,15.6
+httpx,11.9
+aiohttp,10.5
+Streamlit,9.5
+Starlette,6.1
+Other,5.3
+web2py,2.7
+Tornado,1.9
+Pyramid,1.8

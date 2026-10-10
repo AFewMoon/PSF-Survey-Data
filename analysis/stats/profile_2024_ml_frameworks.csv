@@ -1,0 +1,16 @@
+option,pct
+PyTorch,17.6
+SciKit-Learn,16.2
+TensorFlow,13.1
+Sklearn,12.2
+SciPy,11.2
+Keras,8.0
+Huggingface Transformers,7.5
+XGBoost,6.2
+NLTK,5.2
+PyTorch Lightning,3.9
+spaCy,3.8
+Huggingface Diffusers,3.2
+LightGBM,2.8
+CatBoost,2.2
+Jax,1.1

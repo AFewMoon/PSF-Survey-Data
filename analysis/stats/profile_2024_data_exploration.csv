@@ -1,0 +1,15 @@
+option,pct
+pandas,28.9
+NumPy,27.0
+Spark,5.9
+Polars,5.6
+Airflow,5.3
+An in-house solution,3.0
+Dask,2.4
+None,1.8
+Other,1.7
+Kubeflow,1.1
+Dagster,1.0
+Ray,1.0
+Prefect,0.9
+Luigi,0.4

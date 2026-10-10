@@ -1,0 +1,16 @@
+option,pct
+PostgreSQL,31.3
+SQLite,23.8
+MySQL,20.0
+MongoDB,12.5
+None,12.0
+Redis,11.6
+MS SQL Server,7.6
+MariaDB,7.0
+DynamoDB,3.7
+Oracle Database,3.5
+Other,3.3
+BigQuery,2.8
+Amazon Redshift,2.3
+Neo4j,1.7
+Firebase Realtime Database,1.6
