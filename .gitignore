@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# IDE / OS
+.vscode/
+.idea/
+Thumbs.db
+Desktop.ini
+
+# 临时调试脚本
+_*.py
