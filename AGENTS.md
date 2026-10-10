@@ -27,6 +27,9 @@ PSF-Survey-Data/
 │   ├── column_mapping.csv            # 列名映射（year, original, canonical, level）
 │   ├── value_mapping.csv             # 取值映射（year, column, original, canonical）
 │   └── alignment_report.md
+├── analysis/                         # 分析报告（analysis_report.md）
+├── charts/                           # 统计图表（由 plot_survey.py 生成）
+├── tutorial/                         # 数据清洗/对齐/统计/分析教材（多章 Markdown，含练习与答案）
 └── README.md / AGENTS.md / LICENSE
 ```
 
