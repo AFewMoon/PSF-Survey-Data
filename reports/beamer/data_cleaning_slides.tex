@@ -81,7 +81,7 @@
 
 % ---------------------------------------------------------------- 02 关键数字
 \begin{frame}{这两周交付了什么}
-  \lead{做的事情不多：把六份原始 CSV 洗成六份能直接读的表，脚本可以重跑。}
+  \lead{把六份原始 CSV 洗成六份能直接读的表，脚本可以重跑。}
 
   \begin{columns}[T,onlytextwidth]
     \column{0.235\textwidth}\kpi{6}{个年份，2019--2024}{calm}
@@ -109,31 +109,31 @@
 
 % ---------------------------------------------------------------- 04 学习路径
 \begin{frame}{两周的路径}
-  \lead{按第 1 到第 3 章的顺序走，每学一段就到真实数据上跑一遍。}
+  \lead{不套模板，从数据本身的问题出发，一个问题一个问题往下问。}
 
   \begin{columns}[T,onlytextwidth]
     \column{0.235\textwidth}\raggedright
       {\color{calm}\bfseries\Large 01}\\[1mm]{\bfseries 认数据}\\[0.6mm]
-      {\scriptsize\color{muted}第 1 章}\\[1.6mm]
-      {\scriptsize 行列多少、表头什么风格、缺失率什么水平，先看不动手。}
+      {\scriptsize\color{muted}列数在涨吗？}\\[1.6mm]
+      {\scriptsize 行列多少，表头有几种，\\缺失到什么程度。\\先看不写。}
     \column{0.235\textwidth}\raggedright
       {\color{calm}\bfseries\Large 02}\\[1mm]{\bfseries 定口径}\\[0.6mm]
-      {\scriptsize\color{muted}第 2 章}\\[1.6mm]
-      {\scriptsize 缺失怎么表示、分母是谁，这些先定下来再写代码。}
+      {\scriptsize\color{muted}缺失怎么算？}\\[1.6mm]
+      {\scriptsize 没回答、写了 NA、答了 None 是三件事，定了再动手。}
     \column{0.235\textwidth}\raggedright
       {\color{accent}\bfseries\Large 03}\\[1mm]{\bfseries 洗单元格}\\[0.6mm]
-      {\scriptsize\color{muted}第 2 章}\\[1.6mm]
+      {\scriptsize\color{muted}哪些行是废的？}\\[1.6mm]
       {\scriptsize 空白、标点、全角半角，还有整行重复。}
     \column{0.235\textwidth}\raggedright
       {\color{good}\bfseries\Large 04}\\[1mm]{\bfseries 规范列名}\\[0.6mm]
-      {\scriptsize\color{muted}第 3 章}\\[1.6mm]
+      {\scriptsize\color{muted}说的是同一件事吗？}\\[1.6mm]
       {\scriptsize 问句表头转点分，多选题拆成 0/1 列。}
   \end{columns}
 
-  \vspace{4mm}
-  {\small 教程每章末尾有练习，我基本都拿这个仓库的真实数据做，做完顺手校一下数量对不对。}
+  \vspace{3mm}
+  {\small 顺序是问题推出来的，不是抄来的。每问完一步就回数据里数一遍，数不对就说明上一步的口径错了。}
 
-  \src{来源：\code{tutorial/} 第 1--3 章}
+  \src{数据：仓库根目录六份原始 CSV 与 \code{cleaned/} 下的清洗产物}
 \end{frame}
 
 % ---------------------------------------------------------------- 05 缺失口径
@@ -252,7 +252,7 @@
 
   \begin{columns}[T,onlytextwidth]
     \column{0.47\textwidth}
-      {\bfseries\color{good} 站得住的几点}\\[2mm]
+      {\bfseries\color{good} 已经做的}\\[2mm]
       {\small
         \begin{itemize}\setlength{\itemsep}{0.8mm}
           \item 口径写在代码里：缺失标记、分母、二值化规则都能查到出处。
