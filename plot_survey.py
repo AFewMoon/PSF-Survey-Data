@@ -1,6 +1,6 @@
 """plot_survey.py — PSF/JetBrains Python 开发者调查跨年统计图表生成脚本。
 
-数据源：aligned/survey_2019_2023_master.csv（只读，产物写入 charts/）。
+数据源：aligned/survey_2019_2024_master.csv（只读，产物写入 charts/）。
 依赖：pandas、numpy、matplotlib（本项目新增绘图依赖）。
 
 用法：
@@ -23,11 +23,11 @@ import pandas as pd
 # 配置区：路径、年份、列清单、口径映射（修改图表口径只改这里）
 # ---------------------------------------------------------------------------
 ROOT = Path(__file__).resolve().parent
-MASTER = ROOT / "aligned" / "survey_2019_2023_master.csv"
+MASTER = ROOT / "aligned" / "survey_2019_2024_master.csv"
 CHARTS_DIR = ROOT / "charts"
 
-YEARS = [2019, 2020, 2021, 2022, 2023]
-PALETTE = ["#4C72B0", "#DD8452", "#55A868", "#C44E52", "#8172B3"]
+YEARS = [2019, 2020, 2021, 2022, 2023, 2024]
+PALETTE = ["#4C72B0", "#DD8452", "#55A868", "#C44E52", "#8172B3", "#937860"]
 
 SINGLE_COLS = [
     "is.python.main",
