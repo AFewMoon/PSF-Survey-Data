@@ -84,6 +84,7 @@ def parse_llm_alignment(path: Path) -> dict[str, int]:
     text = path.read_text(encoding="utf-8")
     where = str(path)
     groups = _search(r"题目组：(\d+) 个（其中 (\d+) 个", text, where)
+    pairs = _search(r"候选对判定：(\d+) 对（接受 (\d+) 对）", text, where)
     return {
         "shared": int(_search(r"跨年共有列：(\d+)", text, where).group(1)),
         "groups": int(groups.group(1)),
@@ -93,6 +94,10 @@ def parse_llm_alignment(path: Path) -> dict[str, int]:
         "values": int(_search(r"取值统一记录：(\d+)", text, where).group(1)),
         "dups": int(_search(r"`__dup` 冲突列：(\d+)", text, where).group(1)),
         "rows": int(_search(r"总表行数：(\d+)", text, where).group(1)),
+        "pairs": int(pairs.group(1)),
+        "pairs_ok": int(pairs.group(2)),
+        # 按人工词表统一写法是可选统计，报告里没有就记 0，不阻断绘图
+        "snapped": int(m.group(1)) if (m := re.search(r"按人工词表统一写法 (\d+) 处", text)) else 0,
     }
 
 
@@ -168,7 +173,7 @@ def _finish(fig: plt.Figure, path: Path) -> Path:
 
 
 # ---------------------------------------------------------------------------
-# 图 1：列覆盖——人工 153、LLM 40、原交集 42、实交集 36
+# 图 1：列覆盖——人工 153、LLM 110、原交集 42、实交集 105
 # ---------------------------------------------------------------------------
 def fig_coverage(rule: dict[str, int], llm: dict[str, int], parity: dict[str, object],
                  path: Path) -> Path:
@@ -233,7 +238,7 @@ def fig_mapping_scale(rule: dict[str, int], llm: dict[str, int], path: Path) -> 
 
 
 # ---------------------------------------------------------------------------
-# 图 3：对账结构——并集 157 列如何拆成 36 / 117 / 4
+# 图 3：对账结构——并集 158 列如何拆成 105 / 48 / 5
 # ---------------------------------------------------------------------------
 def fig_parity(parity: dict[str, object], path: Path) -> Path:
     matched = int(parity["matched"])
@@ -291,8 +296,8 @@ def main() -> None:
         raise ValueError("匹配列数大于规则管线列数，parity 解析有误")
     if int(parity["rule_cols"]) != rule["shared"] or int(parity["llm_cols"]) != llm["shared"]:
         raise ValueError("parity 报告列数与对齐报告不一致，先核对报告")
-    if int(parity["matched"]) != 36 or llm["shared"] != 40:
-        raise ValueError("预期 36/40 的匹配关系发生变化，需同步讲述稿与幻灯片")
+    if int(parity["matched"]) != 105 or llm["shared"] != 110:
+        raise ValueError("预期 105/110 的匹配关系发生变化，需同步讲述稿与幻灯片")
 
     made = [
         fig_coverage(rule, llm, parity, FIG_DIR / "f1_coverage.png"),
@@ -305,6 +310,8 @@ def main() -> None:
     print("[kpi] LLM 管线  列 %d；重命名 %d；取值统一 %d；__dup %d；行 %d"
           % (llm["shared"], llm["renamed"], llm["values"], llm["dups"], llm["rows"]))
     print("[kpi] LLM 决策  组 %d（改路径 %d）；同义簇 %d" % (llm["groups"], llm["remapped"], llm["clusters"]))
+    print("[kpi] 逐对判定  候选对 %d（接受 %d）；按词表统一写法 %d 处"
+          % (llm["pairs"], llm["pairs_ok"], llm["snapped"]))
     print("[kpi] parity   匹配 %d / Jaccard %.1f%%；仅规则 %d；仅 LLM %d；并集 %d"
           % (parity["matched"], parity["jaccard"], parity["rule_cols"] - parity["matched"],
              parity["llm_cols"] - parity["matched"],

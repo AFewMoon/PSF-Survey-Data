@@ -42,7 +42,7 @@
     {\color{#3}\bfseries\LARGE #1}\\[0.4mm]{\scriptsize\color{black!75}#2}
   \end{tcolorbox}}
 
-\title{从 153 列到 40 列}
+\title{从 153 列到 110 列}
 \subtitle{跨年对齐：人工映射与本地小模型的两条路}
 \author{汇报人：曾子睿}
 \date{2026 年 11 月}
@@ -52,7 +52,7 @@
 % ---------------------------------------------------------------- 01 封面
 \begin{frame}[plain]
   \vspace*{1mm}
-  {\color{ink}\bfseries\fontsize{26}{30}\selectfont 从 153 列到 40 列\par}
+  {\color{ink}\bfseries\fontsize{26}{30}\selectfont 从 153 列到 110 列\par}
   \vspace{2mm}
   {\large\color{muted}跨年对齐：人工映射与本地小模型的两条路\par}
   \vspace{4mm}
@@ -64,7 +64,7 @@
       \node[anchor=west,font=\bfseries\large,text=ink] at (0.5,1.25) {42 个跨年共有列};
       \draw[->,line width=1.3pt,calm] (4.8,1.35) -- (7.0,1.35);
       \node[anchor=west,font=\bfseries\large,text=calm] at (7.2,1.35) {153（人工）};
-      \node[anchor=west,font=\small,text=accent] at (7.2,0.65) {40（本地 4B 模型）};
+      \node[anchor=west,font=\small,text=accent] at (7.2,0.65) {110（本地 4B 模型）};
       \node[anchor=west,font=\scriptsize,text=muted] at (0.5,0.55) {203,643 行 → 185,632 行};
     \end{tikzpicture}
   \end{center}
@@ -76,7 +76,7 @@
 
 % ---------------------------------------------------------------- 02 成果
 \begin{frame}{一页看清成果}
-  \lead{人工路线交付完整总表；LLM 路线列数少，但两边都有的 36 列几乎逐格一致。}
+  \lead{人工路线交付完整总表；LLM 路线少 43 列，但两边都有的 105 列几乎逐格一致。}
 
   \begin{columns}[T,onlytextwidth]
     \column{0.235\textwidth}\kpi{153}{跨年共有列（原 42）}{calm}
@@ -91,9 +91,9 @@
       \includegraphics[width=\linewidth,height=0.28\textheight,keepaspectratio]{../figures/f1_coverage.png}
     \column{0.44\textwidth}
       {\scriptsize
-        LLM：40 列 · 171 条重命名\\
-        9 个同义簇 · 取值 0 条\\
-        36 列重叠，非空率差 $\geq$1pp：\textbf{0 条}\\
+        LLM：110 列 · 305 条重命名\\
+        31 个同义簇 · 取值 5,217 条（单元格）\\
+        105 列重叠，非空率差 $\geq$1pp：\textbf{0 条}\\
         同主题最大差 \textbf{0.1pp}（12 条对比）\\
         总行数 185,586，比人工少 46
       }
@@ -172,25 +172,26 @@
   \begin{columns}[T,onlytextwidth]
     \column{0.49\textwidth}
       {\scriptsize
-        \textbf{230 个决策文件}：clean 149、align 58、stats 14，其余 9 个。\\
-        首次全量约 30 分钟；命中缓存 2.6 分钟。
+        \textbf{304 个决策文件}：clean 149、align 130、stats 14，其余 11 个。\\
+        首次全量约 30 分钟；命中缓存 2.7 分钟。
       }
     \column{0.49\textwidth}
       {\scriptsize
-        组路径 21 处改道、选项同义簇 9 个；\\
-        取值统一 0 条——4B 的归并建议几乎都是整列塌缩，被护栏全部拒绝。
+        组路径 20 处改道、选项同义簇 31 个；\\
+        逐对判定 162 对（接受 34 对），取值统一 5,217 条——\\
+        4B 不生成写法，只答“是不是同一个”。
       }
   \end{columns}
 
   \vspace{1.8mm}
   {\scriptsize\color{muted}
-    护栏：路径必须合法 · 选项簇 $\leq$4 且 $\leq$50\% · 整组塌缩一律拒 · 删行 $\leq$60\% · 删列 $\leq$20\%。}
+    护栏：Yes/No 禁改道版本路径 · 题型冲突拒合 · 选项指纹 Jaccard $\geq$0.2 · 结构不得重复拼接 · 簇 $\leq$4 且 $\leq$50\%。}
 
   \src{来源：\code{llm/README.md}；\code{llm/decisions/} 计数；\code{llm/reports/alignment\_report.md}}
 \end{frame}
 
 % ---------------------------------------------------------------- 06 对账
-\begin{frame}{对账：覆盖差 113 列，重叠部分几乎一样}
+\begin{frame}{对账：覆盖差 43 列，重叠部分几乎一样}
   \lead{名字对了、语义错了，比没对齐更难发现。}
 
   \begin{center}
@@ -200,14 +201,16 @@
   \begin{columns}[T,onlytextwidth]
     \column{0.47\textwidth}
       {\scriptsize
-        并集 157 = 36 匹配 + 117 仅人工 + 4 仅 LLM；Jaccard 22.9\%。\\
-        36 个匹配列非空率差 $\geq$1pp：\textbf{0 条}；同主题最大差 0.1pp。
+        并集 158 = 105 匹配 + 48 仅人工 + 5 仅 LLM；Jaccard 66.5\%。\\
+        105 个匹配列非空率差 $\geq$1pp：\textbf{0 条}；同主题最大差 0.1pp。\\
+        2023/2024 人工映射未进提示词，105 是留出测试成绩。
       }
     \column{0.50\textwidth}
       {\scriptsize
-        反例：\code{is.python.main} 被映射成 \code{ide.python\_version}。\\
+        改造前的反例：\code{is.python.main} 被映射成 \code{ide.python\_version}。\\
         路径合法，但语义是“是否以 Python 为主”，不是版本；\\
-        2019 年五个来源列并成一组，四个版本列变 \code{\_\_dup}。
+        2019 年五个来源列并成一组，四个版本列变 \code{\_\_dup}。\\
+        现在取值指纹护栏直接拒掉。
       }
   \end{columns}
 
@@ -223,15 +226,15 @@
       {\bfseries\color{good} 能交给模型}\\[1.5mm]
       {\scriptsize
         \begin{itemize}\setlength{\itemsep}{0.8mm}
+          \item 逐对判同题、判同义：只答 a/b，聚簇交给代码。
           \item 新一年的组路径候选，人工只审 diff。
-          \item 对账时的第二双眼睛：先让它找差异，再回代码验。
-          \item 把差异写成解释草稿，数字由脚本回填。
+          \item 对账差异草稿，数字由脚本回填。
         \end{itemize}}
     \column{0.49\textwidth}
       {\bfseries\color{warn} 必须留给人}\\[1.5mm]
       {\scriptsize
         \begin{itemize}\setlength{\itemsep}{0.8mm}
-          \item 取值归并终审：4B 只会整列塌缩。
+          \item 命名终审：候选路径与选项写法由人工词表定。
           \item 删行删列：宁可少删，不能误删。
           \item 数字与结论：叙述可润色，数值以 CSV 为准。
         \end{itemize}}
@@ -239,7 +242,7 @@
 
   \vspace{2mm}
   {\scriptsize\color{muted}
-    下一步：组路径映射加选项级证据（看到 Yes/No 就拒绝“版本”路径）；parity 从 36 列扩到 153 列的分主题抽样。}
+    下一步：给跨年改名题补名称证据（\code{develop.for.cloud}、\code{orm}、\code{unittesting} 仍判 \code{keep}）；被拒映射进人工确认队列；统计与图表跟对齐产物自动重跑。}
 
   \src{谢谢大家！}
 \end{frame}

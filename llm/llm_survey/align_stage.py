@@ -652,7 +652,7 @@ def write_report(result: AlignResult, years: list[int], master_rows: int,
     lines = ["# LLM 驱动跨年对齐报告", "", f"生成时间：{reporting.now_str()}", ""]
     lines.append(
         f"模型：`{config.MODEL}`（temperature={config.TEMPERATURE}, seed={config.SEED}）｜"
-        "管线：封闭集选组路径 → 候选对逐对归并选项 → 重命名 → 逐对归并单选取值 → 共有列纵向合并"
+        "管线：组路径快对齐 → 逐对判同题 → 闭集命名 → 重命名 → 候选对归并选项/取值 → 共有列纵向合并"
     )
     lines += ["", "## 对齐统计", ""]
     lines.append(f"- 跨年共有列：{len(result.common_cols)}")
