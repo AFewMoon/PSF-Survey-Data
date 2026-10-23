@@ -1,0 +1,221 @@
+{
+  "stage": "clean_semantics",
+  "model": "qwen3.5:4b",
+  "model_digest": "d8b0f5e9760cd168",
+  "prompt_version": "clean-semantics-v2",
+  "input_hash": "49aa0c39ccba6b95fe123030a2dceeb8",
+  "created_at": "2026-10-23T18:41:18",
+  "duration_s": 12.83,
+  "output_tokens": 959,
+  "fallback": false,
+  "error": "",
+  "manual_edit": false,
+  "reviewed": false,
+  "payload_summary": {
+    "year": 2019,
+    "batch": "R:What other language(s) do you use?…Game development: What do you use Python for?",
+    "n": 18
+  },
+  "response": {
+    "columns": [
+      {
+        "column": "R:What other language(s) do you use?",
+        "kind": "multi_option",
+        "group": "languages.r",
+        "option": "R",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "flags 显示 multi_like，全列仅含选项名与 NA",
+        "year": 2019
+      },
+      {
+        "column": "Ruby:What other language(s) do you use?",
+        "kind": "multi_option",
+        "group": "languages.ruby",
+        "option": "Ruby",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "flags 显示 multi_like，全列仅含选项名与 NA",
+        "year": 2019
+      },
+      {
+        "column": "Rust:What other language(s) do you use?",
+        "kind": "multi_option",
+        "group": "languages.rust",
+        "option": "Rust",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "flags 显示 multi_like，全列仅含选项名与 NA",
+        "year": 2019
+      },
+      {
+        "column": "Scala:What other language(s) do you use?",
+        "kind": "multi_option",
+        "group": "languages.scala",
+        "option": "Scala",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "flags 显示 multi_like，全列仅含选项名与 NA",
+        "year": 2019
+      },
+      {
+        "column": "SQL:What other language(s) do you use?",
+        "kind": "multi_option",
+        "group": "languages.sql",
+        "option": "SQL",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "flags 显示 multi_like，全列仅含选项名与 NA",
+        "year": 2019
+      },
+      {
+        "column": "Swift:What other language(s) do you use?",
+        "kind": "multi_option",
+        "group": "languages.swift",
+        "option": "Swift",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "flags 显示 multi_like，全列仅含选项名与 NA",
+        "year": 2019
+      },
+      {
+        "column": "TypeScript:What other language(s) do you use?",
+        "kind": "multi_option",
+        "group": "languages.typescript",
+        "option": "TypeScript",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "flags 显示 multi_like，全列仅含选项名与 NA",
+        "year": 2019
+      },
+      {
+        "column": "Visual Basic:What other language(s) do you use?",
+        "kind": "multi_option",
+        "group": "languages.visual_basic",
+        "option": "Visual Basic",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "flags 显示 multi_like，全列仅含选项名与 NA",
+        "year": 2019
+      },
+      {
+        "column": "How long have you been programming in Python?",
+        "kind": "numeric",
+        "group": "experience.duration",
+        "option": "",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "flags 显示 numeric_like，取值为年限区间，视为数值型答案",
+        "year": 2019
+      },
+      {
+        "column": "How many years of professional coding experience do you have?",
+        "kind": "numeric",
+        "group": "experience.duration",
+        "option": "",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "flags 显示 numeric_like，取值为年限区间，视为数值型答案",
+        "year": 2019
+      },
+      {
+        "column": "For what purposes do you mainly use Python?",
+        "kind": "multi_option",
+        "group": "purposes.python",
+        "option": "For work",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "flags 显示 multi_like，全列仅含选项名与 NA，其余选项未出现故不列",
+        "year": 2019
+      },
+      {
+        "column": "Computer graphics: What do you use Python for?",
+        "kind": "multi_option",
+        "group": "purposes.python.graphics",
+        "option": "Computer graphics",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "flags 显示 multi_like，全列仅含选项名与 NA",
+        "year": 2019
+      },
+      {
+        "column": "Data analysis: What do you use Python for?",
+        "kind": "multi_option",
+        "group": "purposes.python.data_analysis",
+        "option": "Data analysis",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "flags 显示 multi_like，全列仅含选项名与 NA",
+        "year": 2019
+      },
+      {
+        "column": "Desktop development: What do you use Python for?",
+        "kind": "multi_option",
+        "group": "purposes.python.desktop",
+        "option": "Desktop development",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "flags 显示 multi_like，全列仅含选项名与 NA",
+        "year": 2019
+      },
+      {
+        "column": "DevOps / System administration / Writing automation scripts: What do you use Python for?",
+        "kind": "multi_option",
+        "group": "purposes.python.devops",
+        "option": "DevOps / System administration / Writing automation scripts",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "flags 显示 multi_like，全列仅含选项名与 NA，截断部分视为完整选项",
+        "year": 2019
+      },
+      {
+        "column": "Educational purposes: What do you use Python for?",
+        "kind": "multi_option",
+        "group": "purposes.python.educational",
+        "option": "Educational purposes",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "flags 显示 multi_like，全列仅含选项名与 NA",
+        "year": 2019
+      },
+      {
+        "column": "Embedded development: What do you use Python for?",
+        "kind": "multi_option",
+        "group": "purposes.python.embedded",
+        "option": "Embedded development",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "flags 显示 multi_like，全列仅含选项名与 NA",
+        "year": 2019
+      },
+      {
+        "column": "Game development: What do you use Python for?",
+        "kind": "multi_option",
+        "group": "purposes.python.game",
+        "option": "Game development",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "flags 显示 multi_like，全列仅含选项名与 NA",
+        "year": 2019
+      }
+    ]
+  }
+}

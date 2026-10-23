@@ -1,0 +1,51 @@
+{
+  "stage": "option_alias",
+  "model": "qwen3.5:4b",
+  "model_digest": "d8b0f5e9760cd168",
+  "prompt_version": "option-alias-v1",
+  "input_hash": "48966a41e8e6e855090cce6c5f076f87",
+  "created_at": "2026-10-23T19:16:57",
+  "duration_s": 2.27,
+  "output_tokens": 142,
+  "fallback": false,
+  "error": "",
+  "manual_edit": false,
+  "reviewed": false,
+  "payload_summary": {
+    "groups": 3,
+    "values": 37
+  },
+  "response": {
+    "groups": [
+      {
+        "name": "ai.tools.coding",
+        "options": [
+          {
+            "variants": [
+              "Amazon Q Developer (previously CodeWhisperer)",
+              "CodeWhisperer"
+            ],
+            "canonical": "Amazon Q Developer (previously CodeWhisperer)",
+            "reason": "保留完整名称及旧称信息"
+          },
+          {
+            "variants": [
+              "CodeGPT plugin in JetBrains IDEs (IntelliJ IDEA, PyCharm, PhpStorm, etc_)",
+              "CodeGPT plugin in VS Code"
+            ],
+            "canonical": "CodeGPT plugin in VS Code",
+            "reason": "仅合并特定 IDE 插件写法，未合并其他"
+          },
+          {
+            "variants": [
+              "GitHub Copilot",
+              "Copilot"
+            ],
+            "canonical": "GitHub Copilot",
+            "reason": "保留完整品牌名，Copilot 为通用简称"
+          }
+        ]
+      }
+    ]
+  }
+}

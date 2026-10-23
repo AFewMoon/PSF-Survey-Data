@@ -1,0 +1,193 @@
+{
+  "stage": "clean_semantics",
+  "model": "qwen3.5:4b",
+  "model_digest": "d8b0f5e9760cd168",
+  "prompt_version": "clean-semantics-v2",
+  "input_hash": "efec751b17b4648f2d1533fa93c34143",
+  "created_at": "2026-10-23T18:55:31",
+  "duration_s": 12.61,
+  "output_tokens": 961,
+  "fallback": false,
+  "error": "",
+  "manual_edit": false,
+  "reviewed": false,
+  "payload_summary": {
+    "year": 2022,
+    "batch": "how.involved.Computer graphics…python.version.upgrade.ActivePython",
+    "n": 18
+  },
+  "response": {
+    "columns": [
+      {
+        "column": "how.involved.Computer graphics",
+        "kind": "multi_level",
+        "group": "how.involved.Computer graphics",
+        "option": "",
+        "missing_tokens": [],
+        "reason": "flags 显示全列为「选项 + 程度」格式",
+        "year": 2022
+      },
+      {
+        "column": "how.involved.Network programming",
+        "kind": "multi_level",
+        "group": "how.involved.Network programming",
+        "option": "",
+        "missing_tokens": [],
+        "reason": "flags 显示全列为「选项 + 程度」格式",
+        "year": 2022
+      },
+      {
+        "column": "how.involved.Game development",
+        "kind": "multi_level",
+        "group": "how.involved.Game development",
+        "option": "",
+        "missing_tokens": [],
+        "reason": "flags 显示全列为「选项 + 程度」格式",
+        "year": 2022
+      },
+      {
+        "column": "how.involved.Multimedia applications development",
+        "kind": "multi_level",
+        "group": "how.involved.Multimedia applications development",
+        "option": "",
+        "missing_tokens": [],
+        "reason": "flags 显示全列为「选项 + 程度」格式",
+        "year": 2022
+      },
+      {
+        "column": "how.involved.Embedded development",
+        "kind": "multi_level",
+        "group": "how.involved.Embedded development",
+        "option": "",
+        "missing_tokens": [],
+        "reason": "flags 显示全列为「选项 + 程度」格式",
+        "year": 2022
+      },
+      {
+        "column": "how.involved.Programming of web parsers / scrapers / crawlers",
+        "kind": "multi_option",
+        "group": "how.involved.Programming of web parsers / scrapers / crawlers",
+        "option": "Programming of web parsers / scrapers / crawlers",
+        "missing_tokens": [],
+        "reason": "flags 显示全列取值恒等于列名",
+        "year": 2022
+      },
+      {
+        "column": "how.involved.Other - Write In:",
+        "kind": "free_text",
+        "group": "how.involved.Other",
+        "option": "",
+        "missing_tokens": [],
+        "reason": "flags 显示为自由文本结构，非结构化",
+        "year": 2022
+      },
+      {
+        "column": "are.you.datascientist",
+        "kind": "single_choice",
+        "group": "are.you.datascientist",
+        "option": "Yes",
+        "missing_tokens": [
+          "No",
+          "Other"
+        ],
+        "reason": "列名含选项，top 显示三个独立选项",
+        "year": 2022
+      },
+      {
+        "column": "python.version.most",
+        "kind": "single_choice",
+        "group": "python.version.most",
+        "option": "Python 3",
+        "missing_tokens": [
+          "Python 2"
+        ],
+        "reason": "列名含选项，top 显示两个独立选项",
+        "year": 2022
+      },
+      {
+        "column": "python2.version.most",
+        "kind": "single_choice",
+        "group": "python2.version.most",
+        "option": "Python 2_0",
+        "missing_tokens": [
+          "Python 2_7",
+          "Python 2_3",
+          "Python 2_1",
+          "Python 2_2",
+          "Python 2_5"
+        ],
+        "reason": "列名含选项，top 显示多个独立选项",
+        "year": 2022
+      },
+      {
+        "column": "python3.version.most",
+        "kind": "single_choice",
+        "group": "python3.version.most",
+        "option": "Python 3_10",
+        "missing_tokens": [
+          "Python 3_9",
+          "Python 3_8",
+          "Python 3_7",
+          "Python 3_6",
+          "Python 3_5 or lower"
+        ],
+        "reason": "列名含选项，top 显示多个独立选项",
+        "year": 2022
+      },
+      {
+        "column": "python.version.upgrade.Somebody else manages Python updates for me",
+        "kind": "multi_option",
+        "group": "python.version.upgrade.Somebody else manages Python updates for me",
+        "option": "Somebody else manages Python updates for me",
+        "missing_tokens": [],
+        "reason": "flags 显示全列取值恒等于列名",
+        "year": 2022
+      },
+      {
+        "column": "python.version.upgrade.Python_org",
+        "kind": "multi_option",
+        "group": "python.version.upgrade.Python_org",
+        "option": "Python_org",
+        "missing_tokens": [],
+        "reason": "flags 显示全列取值恒等于列名",
+        "year": 2022
+      },
+      {
+        "column": "python.version.upgrade.Build from source",
+        "kind": "multi_option",
+        "group": "python.version.upgrade.Build from source",
+        "option": "Build from source",
+        "missing_tokens": [],
+        "reason": "flags 显示全列取值恒等于列名",
+        "year": 2022
+      },
+      {
+        "column": "python.version.upgrade.Automatic upgrade via cloud provider",
+        "kind": "multi_option",
+        "group": "python.version.upgrade.Automatic upgrade via cloud provider",
+        "option": "Automatic upgrade via cloud provider",
+        "missing_tokens": [],
+        "reason": "flags 显示全列取值恒等于列名",
+        "year": 2022
+      },
+      {
+        "column": "python.version.upgrade.Anaconda",
+        "kind": "multi_option",
+        "group": "python.version.upgrade.Anaconda",
+        "option": "Anaconda",
+        "missing_tokens": [],
+        "reason": "flags 显示全列取值恒等于列名",
+        "year": 2022
+      },
+      {
+        "column": "python.version.upgrade.ActivePython",
+        "kind": "multi_option",
+        "group": "python.version.upgrade.ActivePython",
+        "option": "ActivePython",
+        "missing_tokens": [],
+        "reason": "flags 显示全列取值恒等于列名",
+        "year": 2022
+      }
+    ]
+  }
+}

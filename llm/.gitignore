@@ -1,0 +1,8 @@
+# 逐年中转数据：可由 decisions/ 中的模型决策缓存完全复现（命中缓存约 2.6 分钟），
+# 且与根目录 cleaned/、aligned/ 内容高度重复，故不入库（约 386 MB）。
+cleaned/*.csv
+aligned/cleaned_aligned_llm_*.csv
+
+# Python
+__pycache__/
+*.py[cod]

@@ -1,0 +1,185 @@
+{
+  "stage": "clean_semantics",
+  "model": "qwen3.5:4b",
+  "model_digest": "d8b0f5e9760cd168",
+  "prompt_version": "clean-semantics-v2",
+  "input_hash": "d2b8900b3a726a7ea56dac9c1f91ce4f",
+  "created_at": "2026-10-23T18:36:58",
+  "duration_s": 12.1,
+  "output_tokens": 909,
+  "fallback": false,
+  "error": "",
+  "manual_edit": false,
+  "reviewed": false,
+  "payload_summary": {
+    "year": 2024,
+    "batch": "learning.source.AI Tools…job.role.Technical support",
+    "n": 18
+  },
+  "response": {
+    "columns": [
+      {
+        "column": "learning.source.AI Tools",
+        "kind": "multi_option",
+        "group": "learning.source.AI Tools",
+        "option": "AI Tools",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值等于列名选项",
+        "year": 2024
+      },
+      {
+        "column": "learning.source.Online coding schools and MOOCs (Codecademy, JetBrains Academy, Coursera, edX, Udacity, etc_)",
+        "kind": "multi_option",
+        "group": "learning.source.Online coding schools and MOOCs (Codecademy, JetBrains Academy, Coursera, edX, Udacity, etc_)",
+        "option": "Online coding schools and MOOCs (Codecademy, Jet",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值等于列名选项",
+        "year": 2024
+      },
+      {
+        "column": "learning.source.Paid trainer / consultant / mentor",
+        "kind": "multi_option",
+        "group": "learning.source.Paid trainer / consultant / mentor",
+        "option": "Paid trainer / consultant / mentor",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值等于列名选项",
+        "year": 2024
+      },
+      {
+        "column": "learning.source.Conferences / events",
+        "kind": "multi_option",
+        "group": "learning.source.Conferences / events",
+        "option": "Conferences / events",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值等于列名选项",
+        "year": 2024
+      },
+      {
+        "column": "learning.source.Tech magazines / printed media",
+        "kind": "multi_option",
+        "group": "learning.source.Tech magazines / printed media",
+        "option": "Tech magazines / printed media",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值等于列名选项",
+        "year": 2024
+      },
+      {
+        "column": "learning.source.Other",
+        "kind": "multi_option",
+        "group": "learning.source.Other",
+        "option": "Other",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值等于列名选项",
+        "year": 2024
+      },
+      {
+        "column": "job.team",
+        "kind": "multi_option",
+        "group": "job.team",
+        "option": "As part of a team",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值等于列名选项",
+        "year": 2024
+      },
+      {
+        "column": "team.size",
+        "kind": "multi_option",
+        "group": "team.size",
+        "option": "2–7 people",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值等于列名选项",
+        "year": 2024
+      },
+      {
+        "column": "employment.status",
+        "kind": "multi_option",
+        "group": "employment.status",
+        "option": "Fully employed by a company / organization",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值等于列名选项",
+        "year": 2024
+      },
+      {
+        "column": "company.size",
+        "kind": "multi_option",
+        "group": "company.size",
+        "option": "51–500",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值等于列名选项",
+        "year": 2024
+      },
+      {
+        "column": "company.industry",
+        "kind": "multi_option",
+        "group": "company.industry",
+        "option": "Information Technology / Software Development",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值等于列名选项",
+        "year": 2024
+      },
+      {
+        "column": "company.develop.for",
+        "kind": "multi_option",
+        "group": "company.develop.for",
+        "option": "Information Technology / Software Development",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值等于列名选项",
+        "year": 2024
+      },
+      {
+        "column": "job.role.DBA",
+        "kind": "multi_option",
+        "group": "job.role.DBA",
+        "option": "DBA",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值等于列名选项",
+        "year": 2024
+      },
+      {
+        "column": "job.role.Architect",
+        "kind": "multi_option",
+        "group": "job.role.Architect",
+        "option": "Architect",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值等于列名选项",
+        "year": 2024
+      },
+      {
+        "column": "job.role.QA engineer",
+        "kind": "multi_option",
+        "group": "job.role.QA engineer",
+        "option": "QA engineer",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值等于列名选项",
+        "year": 2024
+      },
+      {
+        "column": "job.role.Developer / Programmer",
+        "kind": "multi_option",
+        "group": "job.role.Developer / Programmer",
+        "option": "Developer / Programmer",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值等于列名选项",
+        "year": 2024
+      },
+      {
+        "column": "job.role.Technical writer",
+        "kind": "multi_option",
+        "group": "job.role.Technical writer",
+        "option": "Technical writer",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值等于列名选项",
+        "year": 2024
+      },
+      {
+        "column": "job.role.Technical support",
+        "kind": "multi_option",
+        "group": "job.role.Technical support",
+        "option": "Technical support",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值等于列名选项",
+        "year": 2024
+      }
+    ]
+  }
+}

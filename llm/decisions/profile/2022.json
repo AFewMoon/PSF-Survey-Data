@@ -1,0 +1,6208 @@
+{
+  "year": 2022,
+  "profile_version": 4,
+  "rows": 23288,
+  "cols": 403,
+  "empty_rows": 0,
+  "empty_cols": [],
+  "dup_rows": 279,
+  "dup_col_groups": [],
+  "columns": [
+    {
+      "name": "is.python.main",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 84.8,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": false,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "31e6f535de3da50b",
+      "top": [
+        "Yes",
+        "No, I use Python as a secondary language"
+      ]
+    },
+    {
+      "name": "other.lang.None",
+      "non_empty_pct": 13.5,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "728a4044427e37db",
+      "top": [
+        "None"
+      ]
+    },
+    {
+      "name": "other.lang.Java",
+      "non_empty_pct": 19.3,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "ec8acc0570068986",
+      "top": [
+        "Java"
+      ]
+    },
+    {
+      "name": "other.lang.JavaScript",
+      "non_empty_pct": 37.4,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "9f6020b69c0fdb94",
+      "top": [
+        "JavaScript"
+      ]
+    },
+    {
+      "name": "other.lang.C/C++",
+      "non_empty_pct": 28.6,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "7f08fc6d0f215c7b",
+      "top": [
+        "C/C++"
+      ]
+    },
+    {
+      "name": "other.lang.PHP",
+      "non_empty_pct": 9.4,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "2b366be151ef2077",
+      "top": [
+        "PHP"
+      ]
+    },
+    {
+      "name": "other.lang.C#",
+      "non_empty_pct": 11.3,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "be7f80b64836c33d",
+      "top": [
+        "C#"
+      ]
+    },
+    {
+      "name": "other.lang.Ruby",
+      "non_empty_pct": 2.4,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "cc49b6c78578f6f5",
+      "top": [
+        "Ruby"
+      ]
+    },
+    {
+      "name": "other.lang.Bash / Shell",
+      "non_empty_pct": 30.5,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "19b001110baec293",
+      "top": [
+        "Bash / Shell"
+      ]
+    },
+    {
+      "name": "other.lang.Objective-C",
+      "non_empty_pct": 1.2,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "f33d53822965c04e",
+      "top": [
+        "Objective-C"
+      ]
+    },
+    {
+      "name": "other.lang.Go",
+      "non_empty_pct": 8.5,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "d3fff209555430d9",
+      "top": [
+        "Go"
+      ]
+    },
+    {
+      "name": "other.lang.Visual Basic",
+      "non_empty_pct": 3.8,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "c7ccfdfcf386c3e3",
+      "top": [
+        "Visual Basic"
+      ]
+    },
+    {
+      "name": "other.lang.Scala",
+      "non_empty_pct": 1.9,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "37134f2a8e2b0c7d",
+      "top": [
+        "Scala"
+      ]
+    },
+    {
+      "name": "other.lang.SQL",
+      "non_empty_pct": 34.3,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "a319167b7bdeaad1",
+      "top": [
+        "SQL"
+      ]
+    },
+    {
+      "name": "other.lang.Kotlin",
+      "non_empty_pct": 3.4,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "7c2a4fbe766795bd",
+      "top": [
+        "Kotlin"
+      ]
+    },
+    {
+      "name": "other.lang.R",
+      "non_empty_pct": 6.1,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "4279edc7f482912f",
+      "top": [
+        "R"
+      ]
+    },
+    {
+      "name": "other.lang.Swift",
+      "non_empty_pct": 1.9,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "07cac088ea0f3dee",
+      "top": [
+        "Swift"
+      ]
+    },
+    {
+      "name": "other.lang.Clojure",
+      "non_empty_pct": 1.3,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "df630f5a25d562f9",
+      "top": [
+        "Clojure"
+      ]
+    },
+    {
+      "name": "other.lang.Perl",
+      "non_empty_pct": 1.8,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "530613ff878194aa",
+      "top": [
+        "Perl"
+      ]
+    },
+    {
+      "name": "other.lang.Rust",
+      "non_empty_pct": 6.8,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "dd3b23aaea11e29b",
+      "top": [
+        "Rust"
+      ]
+    },
+    {
+      "name": "other.lang.Groovy",
+      "non_empty_pct": 1.6,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "08d79c7a80c8658f",
+      "top": [
+        "Groovy"
+      ]
+    },
+    {
+      "name": "other.lang.TypeScript",
+      "non_empty_pct": 11.1,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "860962b5d278b9f9",
+      "top": [
+        "TypeScript"
+      ]
+    },
+    {
+      "name": "other.lang.CoffeeScript",
+      "non_empty_pct": 1.2,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "83305f452d4889ad",
+      "top": [
+        "CoffeeScript"
+      ]
+    },
+    {
+      "name": "other.lang.HTML/CSS",
+      "non_empty_pct": 36.0,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "a4a6ddb3b75f8e49",
+      "top": [
+        "HTML/CSS"
+      ]
+    },
+    {
+      "name": "other.lang.Other",
+      "non_empty_pct": 7.5,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "b1ff22f088fc4e5d",
+      "top": [
+        "Other"
+      ]
+    },
+    {
+      "name": "python.years",
+      "non_empty_pct": 99.9,
+      "n_unique": 5,
+      "top_share": 28.9,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": false,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "24b29568342e52c2",
+      "top": [
+        "3–5 years",
+        "Less than 1 year",
+        "1–2 years",
+        "6–10 years",
+        "11+ years"
+      ]
+    },
+    {
+      "name": "years.of.coding",
+      "non_empty_pct": 100.0,
+      "n_unique": 5,
+      "top_share": 33.1,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": false,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "7bfc7f8c77685f1c",
+      "top": [
+        "Less than 1 year",
+        "1–2 years",
+        "3–5 years",
+        "11+ years",
+        "6–10 years"
+      ]
+    },
+    {
+      "name": "main.purposes",
+      "non_empty_pct": 99.8,
+      "n_unique": 3,
+      "top_share": 50.6,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": false,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "044f49e944b3b305",
+      "top": [
+        "Both for work and personal",
+        "For personal, educational  or side projects",
+        "For work"
+      ]
+    },
+    {
+      "name": "other.purposes.Educational purposes",
+      "non_empty_pct": 26.5,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "bd490503d07640cb",
+      "top": [
+        "Educational purposes"
+      ]
+    },
+    {
+      "name": "other.purposes.Data analysis",
+      "non_empty_pct": 51.1,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "1b2ea6481e5bd1d2",
+      "top": [
+        "Data analysis"
+      ]
+    },
+    {
+      "name": "other.purposes.DevOps / System administration / Writing automation scripts",
+      "non_empty_pct": 34.3,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "f4c11885fa0f2b5e",
+      "top": [
+        "DevOps / System administration / Writing automat"
+      ]
+    },
+    {
+      "name": "other.purposes.Software testing / Writing automated tests",
+      "non_empty_pct": 24.9,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "dcb332ad891b4861",
+      "top": [
+        "Software testing / Writing automated tests"
+      ]
+    },
+    {
+      "name": "other.purposes.Software prototyping",
+      "non_empty_pct": 20.4,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "60826ad4136e4b0d",
+      "top": [
+        "Software prototyping"
+      ]
+    },
+    {
+      "name": "other.purposes.Web development",
+      "non_empty_pct": 42.5,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "62a744c4594adb50",
+      "top": [
+        "Web development"
+      ]
+    },
+    {
+      "name": "other.purposes.Machine learning",
+      "non_empty_pct": 35.7,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "31735f61c3696566",
+      "top": [
+        "Machine learning"
+      ]
+    },
+    {
+      "name": "other.purposes.Mobile development",
+      "non_empty_pct": 6.3,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "9786f9d06d7aced2",
+      "top": [
+        "Mobile development"
+      ]
+    },
+    {
+      "name": "other.purposes.Desktop development",
+      "non_empty_pct": 18.5,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "73474757860163cf",
+      "top": [
+        "Desktop development"
+      ]
+    },
+    {
+      "name": "other.purposes.Computer graphics",
+      "non_empty_pct": 12.5,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "6ab2437534fd2c79",
+      "top": [
+        "Computer graphics"
+      ]
+    },
+    {
+      "name": "other.purposes.Network programming",
+      "non_empty_pct": 16.9,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "363f91a3adcf63fd",
+      "top": [
+        "Network programming"
+      ]
+    },
+    {
+      "name": "other.purposes.Game development",
+      "non_empty_pct": 9.1,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "65b33241e3a4b94c",
+      "top": [
+        "Game development"
+      ]
+    },
+    {
+      "name": "other.purposes.Multimedia applications development",
+      "non_empty_pct": 5.6,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "d5e4a87dd17edf46",
+      "top": [
+        "Multimedia applications development"
+      ]
+    },
+    {
+      "name": "other.purposes.Embedded development",
+      "non_empty_pct": 7.8,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "4c8425fbb8da5bfa",
+      "top": [
+        "Embedded development"
+      ]
+    },
+    {
+      "name": "other.purposes.Programming of web parsers / scrapers / crawlers",
+      "non_empty_pct": 29.6,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "dca2c834643604fb",
+      "top": [
+        "Programming of web parsers / scrapers / crawlers"
+      ]
+    },
+    {
+      "name": "other.purposes.Other",
+      "non_empty_pct": 6.3,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "d88c9f60d9f262db",
+      "top": [
+        "Other"
+      ]
+    },
+    {
+      "name": "use.python.most",
+      "non_empty_pct": 78.5,
+      "n_unique": 16,
+      "top_share": 21.8,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": false,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "e8f05300e4aa39db",
+      "top": [
+        "Web development",
+        "Data analysis",
+        "Machine learning",
+        "DevOps / System administration / Writing automat",
+        "Educational purposes",
+        "Other"
+      ]
+    },
+    {
+      "name": "how.involved.Educational purposes",
+      "non_empty_pct": 25.4,
+      "n_unique": 3,
+      "top_share": 43.9,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": false,
+      "level_like": true,
+      "redacted": false,
+      "col_hash": "0e9f6636ecf54692",
+      "top": [
+        "Educational purposes : primary activity",
+        "Educational purposes : hobby",
+        "Educational purposes : secondary activity"
+      ]
+    },
+    {
+      "name": "how.involved.Data analysis",
+      "non_empty_pct": 49.0,
+      "n_unique": 3,
+      "top_share": 47.6,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": false,
+      "level_like": true,
+      "redacted": false,
+      "col_hash": "ee1cb2608db0188c",
+      "top": [
+        "Data analysis : primary activity",
+        "Data analysis : secondary activity",
+        "Data analysis : hobby"
+      ]
+    },
+    {
+      "name": "how.involved.DevOps / System administration / Writing automation scripts",
+      "non_empty_pct": 32.8,
+      "n_unique": 3,
+      "top_share": 44.7,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": false,
+      "level_like": true,
+      "redacted": false,
+      "col_hash": "3c4cb3acd979e1b5",
+      "top": [
+        "DevOps / System administration / Writing automat",
+        "DevOps / System administration / Writing automat",
+        "DevOps / System administration / Writing automat"
+      ]
+    },
+    {
+      "name": "how.involved.Software testing / Writing automated tests",
+      "non_empty_pct": 23.9,
+      "n_unique": 3,
+      "top_share": 46.8,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": false,
+      "level_like": true,
+      "redacted": false,
+      "col_hash": "b69c4ae46ad00408",
+      "top": [
+        "Software testing / Writing automated tests : sec",
+        "Software testing / Writing automated tests : pri",
+        "Software testing / Writing automated tests : hob"
+      ]
+    },
+    {
+      "name": "how.involved.Software prototyping",
+      "non_empty_pct": 19.5,
+      "n_unique": 3,
+      "top_share": 41.7,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": false,
+      "level_like": true,
+      "redacted": false,
+      "col_hash": "689b055ebffdad3c",
+      "top": [
+        "Software prototyping : primary activity",
+        "Software prototyping : secondary activity",
+        "Software prototyping : hobby"
+      ]
+    },
+    {
+      "name": "how.involved.Web development",
+      "non_empty_pct": 40.9,
+      "n_unique": 3,
+      "top_share": 60.6,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": false,
+      "level_like": true,
+      "redacted": false,
+      "col_hash": "b8c707318fadb0e0",
+      "top": [
+        "Web development : primary activity",
+        "Web development : secondary activity",
+        "Web development : hobby"
+      ]
+    },
+    {
+      "name": "how.involved.Machine learning",
+      "non_empty_pct": 34.1,
+      "n_unique": 3,
+      "top_share": 45.5,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": false,
+      "level_like": true,
+      "redacted": false,
+      "col_hash": "904a0e043ad38a92",
+      "top": [
+        "Machine learning : primary activity",
+        "Machine learning : secondary activity",
+        "Machine learning : hobby"
+      ]
+    },
+    {
+      "name": "how.involved.Mobile development",
+      "non_empty_pct": 5.7,
+      "n_unique": 3,
+      "top_share": 35.9,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": false,
+      "level_like": true,
+      "redacted": false,
+      "col_hash": "f47025fe3df5c073",
+      "top": [
+        "Mobile development : primary activity",
+        "Mobile development : secondary activity",
+        "Mobile development : hobby"
+      ]
+    },
+    {
+      "name": "how.involved.Desktop development",
+      "non_empty_pct": 17.5,
+      "n_unique": 3,
+      "top_share": 38.2,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": false,
+      "level_like": true,
+      "redacted": false,
+      "col_hash": "a0ee90b3ccc74c53",
+      "top": [
+        "Desktop development : primary activity",
+        "Desktop development : secondary activity",
+        "Desktop development : hobby"
+      ]
+    },
+    {
+      "name": "how.involved.Computer graphics",
+      "non_empty_pct": 11.3,
+      "n_unique": 3,
+      "top_share": 33.7,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": false,
+      "level_like": true,
+      "redacted": false,
+      "col_hash": "9c0c05437729a84e",
+      "top": [
+        "Computer graphics : hobby",
+        "Computer graphics : secondary activity",
+        "Computer graphics : primary activity"
+      ]
+    },
+    {
+      "name": "how.involved.Network programming",
+      "non_empty_pct": 15.9,
+      "n_unique": 3,
+      "top_share": 40.1,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": false,
+      "level_like": true,
+      "redacted": false,
+      "col_hash": "1b65d13c71875c7a",
+      "top": [
+        "Network programming : secondary activity",
+        "Network programming : primary activity",
+        "Network programming : hobby"
+      ]
+    },
+    {
+      "name": "how.involved.Game development",
+      "non_empty_pct": 8.3,
+      "n_unique": 3,
+      "top_share": 53.2,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": false,
+      "level_like": true,
+      "redacted": false,
+      "col_hash": "dbfb35e3c904c8cf",
+      "top": [
+        "Game development : hobby",
+        "Game development : primary activity",
+        "Game development : secondary activity"
+      ]
+    },
+    {
+      "name": "how.involved.Multimedia applications development",
+      "non_empty_pct": 5.1,
+      "n_unique": 3,
+      "top_share": 36.4,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": false,
+      "level_like": true,
+      "redacted": false,
+      "col_hash": "464a02870247fcc3",
+      "top": [
+        "Multimedia applications development : hobby",
+        "Multimedia applications development : primary ac",
+        "Multimedia applications development : secondary "
+      ]
+    },
+    {
+      "name": "how.involved.Embedded development",
+      "non_empty_pct": 7.4,
+      "n_unique": 3,
+      "top_share": 36.8,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": false,
+      "level_like": true,
+      "redacted": false,
+      "col_hash": "6520a1a00fc45c19",
+      "top": [
+        "Embedded development : primary activity",
+        "Embedded development : hobby",
+        "Embedded development : secondary activity"
+      ]
+    },
+    {
+      "name": "how.involved.Programming of web parsers / scrapers / crawlers",
+      "non_empty_pct": 28.4,
+      "n_unique": 3,
+      "top_share": 39.3,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": false,
+      "level_like": true,
+      "redacted": false,
+      "col_hash": "fe22f4cb015e14c0",
+      "top": [
+        "Programming of web parsers / scrapers / crawlers",
+        "Programming of web parsers / scrapers / crawlers",
+        "Programming of web parsers / scrapers / crawlers"
+      ]
+    },
+    {
+      "name": "how.involved.Other - Write In:",
+      "non_empty_pct": 6.0,
+      "n_unique": 3,
+      "top_share": 71.6,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": false,
+      "level_like": false,
+      "redacted": true,
+      "col_hash": "377102b2a6641e53",
+      "value_shape": {
+        "note": "自由文本，样本已脱敏，仅给出结构特征",
+        "len_min": 13,
+        "len_median": 24,
+        "len_max": 26
+      }
+    },
+    {
+      "name": "are.you.datascientist",
+      "non_empty_pct": 57.6,
+      "n_unique": 3,
+      "top_share": 60.6,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": false,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "cf6354c4de166ea7",
+      "top": [
+        "No",
+        "Yes",
+        "Other"
+      ]
+    },
+    {
+      "name": "python.version.most",
+      "non_empty_pct": 89.1,
+      "n_unique": 2,
+      "top_share": 93.5,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": false,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "c47073cbb6f8ba5d",
+      "top": [
+        "Python 3",
+        "Python 2"
+      ]
+    },
+    {
+      "name": "python2.version.most",
+      "non_empty_pct": 5.8,
+      "n_unique": 8,
+      "top_share": 29.2,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": false,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "6996c2a96a40f0db",
+      "top": [
+        "Python 2_0",
+        "Python 2_7",
+        "Python 2_3",
+        "Python 2_1",
+        "Python 2_2",
+        "Python 2_5"
+      ]
+    },
+    {
+      "name": "python3.version.most",
+      "non_empty_pct": 83.3,
+      "n_unique": 6,
+      "top_share": 44.7,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": false,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "82b458a471367fa9",
+      "top": [
+        "Python 3_10",
+        "Python 3_9",
+        "Python 3_8",
+        "Python 3_7",
+        "Python 3_6",
+        "Python 3_5 or lower"
+      ]
+    },
+    {
+      "name": "python.version.upgrade.I don’t update",
+      "non_empty_pct": 10.2,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "0aa4b9a330adeffe",
+      "top": [
+        "I don’t update"
+      ]
+    },
+    {
+      "name": "python.version.upgrade.Somebody else manages Python updates for me",
+      "non_empty_pct": 5.3,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "233f1c9abd0a3ac8",
+      "top": [
+        "Somebody else manages Python updates for me"
+      ]
+    },
+    {
+      "name": "python.version.upgrade.Python_org",
+      "non_empty_pct": 33.2,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "cc611b1cfe01f193",
+      "top": [
+        "Python_org"
+      ]
+    },
+    {
+      "name": "python.version.upgrade.Build from source",
+      "non_empty_pct": 5.5,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "3b04067848d677de",
+      "top": [
+        "Build from source"
+      ]
+    },
+    {
+      "name": "python.version.upgrade.Automatic upgrade via cloud provider",
+      "non_empty_pct": 4.1,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "a92e90391f64da75",
+      "top": [
+        "Automatic upgrade via cloud provider"
+      ]
+    },
+    {
+      "name": "python.version.upgrade.Anaconda",
+      "non_empty_pct": 15.3,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "ba6ff2c5d5b0e2f9",
+      "top": [
+        "Anaconda"
+      ]
+    },
+    {
+      "name": "python.version.upgrade.ActivePython",
+      "non_empty_pct": 2.0,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "dc7ff5bef6aa74de",
+      "top": [
+        "ActivePython"
+      ]
+    },
+    {
+      "name": "python.version.upgrade.Intel Distribution for Python",
+      "non_empty_pct": 1.9,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "db8cdd3258fd7ce0",
+      "top": [
+        "Intel Distribution for Python"
+      ]
+    },
+    {
+      "name": "python.version.upgrade.OS-provided Python (via apt-get, yum, homebrew, etc_)",
+      "non_empty_pct": 23.4,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "3f69934ef60f8182",
+      "top": [
+        "OS-provided Python (via apt-get, yum, homebrew, "
+      ]
+    },
+    {
+      "name": "python.version.upgrade.pyenv",
+      "non_empty_pct": 14.2,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "8d2aed1dcbe67a82",
+      "top": [
+        "pyenv"
+      ]
+    },
+    {
+      "name": "python.version.upgrade.pythonz",
+      "non_empty_pct": 1.7,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "a30f3baa5b037e61",
+      "top": [
+        "pythonz"
+      ]
+    },
+    {
+      "name": "python.version.upgrade.I use Docker containers",
+      "non_empty_pct": 14.7,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "a89ded3eaa7bb601",
+      "top": [
+        "I use Docker containers"
+      ]
+    },
+    {
+      "name": "python.version.upgrade.Other",
+      "non_empty_pct": 3.0,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "0922feac97f9aa21",
+      "top": [
+        "Other"
+      ]
+    },
+    {
+      "name": "isolate.environments.None",
+      "non_empty_pct": 20.8,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "f8b9e23246e16993",
+      "top": [
+        "None"
+      ]
+    },
+    {
+      "name": "isolate.environments.Virtualenv",
+      "non_empty_pct": 43.2,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "520b8e47bb7d149a",
+      "top": [
+        "Virtualenv"
+      ]
+    },
+    {
+      "name": "isolate.environments.Pipenv",
+      "non_empty_pct": 14.6,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "deefdf1d3a8a6143",
+      "top": [
+        "Pipenv"
+      ]
+    },
+    {
+      "name": "isolate.environments.Poetry",
+      "non_empty_pct": 12.2,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "821c9192d385a52e",
+      "top": [
+        "Poetry"
+      ]
+    },
+    {
+      "name": "isolate.environments.Conda",
+      "non_empty_pct": 19.3,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "a12b4e7b3c6c8b31",
+      "top": [
+        "Conda"
+      ]
+    },
+    {
+      "name": "isolate.environments.Docker",
+      "non_empty_pct": 27.4,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "d5384241ca6f2870",
+      "top": [
+        "Docker"
+      ]
+    },
+    {
+      "name": "isolate.environments.Vagrant  / virtual machines",
+      "non_empty_pct": 5.0,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "410763773414d5de",
+      "top": [
+        "Vagrant  / virtual machines"
+      ]
+    },
+    {
+      "name": "isolate.environments.Other",
+      "non_empty_pct": 3.3,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "fd796c22445432c4",
+      "top": [
+        "Other"
+      ]
+    },
+    {
+      "name": "web.frameworks.None",
+      "non_empty_pct": 23.1,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "622ea0f097bd502b",
+      "top": [
+        "None"
+      ]
+    },
+    {
+      "name": "web.frameworks.Django",
+      "non_empty_pct": 32.6,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "390b425a4e9f02b5",
+      "top": [
+        "Django"
+      ]
+    },
+    {
+      "name": "web.frameworks.web2py",
+      "non_empty_pct": 3.7,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "487f3a591b16c5ae",
+      "top": [
+        "web2py"
+      ]
+    },
+    {
+      "name": "web.frameworks.Bottle",
+      "non_empty_pct": 2.8,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "c9cde7cd21425054",
+      "top": [
+        "Bottle"
+      ]
+    },
+    {
+      "name": "web.frameworks.CherryPy",
+      "non_empty_pct": 3.3,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "324a698a20361d71",
+      "top": [
+        "CherryPy "
+      ]
+    },
+    {
+      "name": "web.frameworks.Flask",
+      "non_empty_pct": 32.6,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "cbc07d4f34e50f95",
+      "top": [
+        "Flask "
+      ]
+    },
+    {
+      "name": "web.frameworks.Hug",
+      "non_empty_pct": 1.4,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "9f8c2dc885449b15",
+      "top": [
+        "Hug"
+      ]
+    },
+    {
+      "name": "web.frameworks.Pyramid",
+      "non_empty_pct": 2.8,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "470fce504a0980e1",
+      "top": [
+        "Pyramid "
+      ]
+    },
+    {
+      "name": "web.frameworks.Tornado",
+      "non_empty_pct": 3.1,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "fbd72da5953e7c65",
+      "top": [
+        "Tornado"
+      ]
+    },
+    {
+      "name": "web.frameworks.Falcon",
+      "non_empty_pct": 1.8,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "e28e4dec2645a863",
+      "top": [
+        "Falcon"
+      ]
+    },
+    {
+      "name": "web.frameworks.FastAPI",
+      "non_empty_pct": 21.1,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "300283764d00647c",
+      "top": [
+        "FastAPI"
+      ]
+    },
+    {
+      "name": "web.frameworks.Other",
+      "non_empty_pct": 4.1,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "00d667843a8d37dd",
+      "top": [
+        "Other"
+      ]
+    },
+    {
+      "name": "data.frameworks.None",
+      "non_empty_pct": 19.6,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "5130725c24d5bf6d",
+      "top": [
+        "None"
+      ]
+    },
+    {
+      "name": "data.frameworks.PyTorch",
+      "non_empty_pct": 17.7,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "580fe7f7eeca4c79",
+      "top": [
+        "PyTorch"
+      ]
+    },
+    {
+      "name": "data.frameworks.NumPy",
+      "non_empty_pct": 50.7,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "9db43aa50e984ea3",
+      "top": [
+        "NumPy"
+      ]
+    },
+    {
+      "name": "data.frameworks.SciPy",
+      "non_empty_pct": 25.0,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "39d0ea17635cb569",
+      "top": [
+        "SciPy"
+      ]
+    },
+    {
+      "name": "data.frameworks.Pandas",
+      "non_empty_pct": 48.0,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "e932c57463a345fc",
+      "top": [
+        "Pandas"
+      ]
+    },
+    {
+      "name": "data.frameworks.Matplotlib",
+      "non_empty_pct": 36.9,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "2d4aa6d38df72084",
+      "top": [
+        "Matplotlib"
+      ]
+    },
+    {
+      "name": "data.frameworks.Seaborn",
+      "non_empty_pct": 16.2,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "4772ba0a51335855",
+      "top": [
+        "Seaborn"
+      ]
+    },
+    {
+      "name": "data.frameworks.SciKit-Learn",
+      "non_empty_pct": 24.1,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "1ae2f4224779415b",
+      "top": [
+        "SciKit-Learn"
+      ]
+    },
+    {
+      "name": "data.frameworks.Keras",
+      "non_empty_pct": 14.4,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "9cf4afb859b963ab",
+      "top": [
+        "Keras"
+      ]
+    },
+    {
+      "name": "data.frameworks.TensorFlow",
+      "non_empty_pct": 19.4,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "fb7b5301d9ce9617",
+      "top": [
+        "TensorFlow"
+      ]
+    },
+    {
+      "name": "data.frameworks.Theano",
+      "non_empty_pct": 1.4,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "462ee930c44609a2",
+      "top": [
+        "Theano"
+      ]
+    },
+    {
+      "name": "data.frameworks.NLTK",
+      "non_empty_pct": 8.7,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "fdf8ab1b68de940c",
+      "top": [
+        "NLTK"
+      ]
+    },
+    {
+      "name": "data.frameworks.MXNet",
+      "non_empty_pct": 2.0,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "00ba63a90f5ef79d",
+      "top": [
+        "MXNet"
+      ]
+    },
+    {
+      "name": "data.frameworks.Gensim",
+      "non_empty_pct": 3.4,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "6413ad39e73c5954",
+      "top": [
+        "Gensim"
+      ]
+    },
+    {
+      "name": "data.frameworks.Other",
+      "non_empty_pct": 2.9,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "863038dd03855330",
+      "top": [
+        "Other"
+      ]
+    },
+    {
+      "name": "other.frameworks.None",
+      "non_empty_pct": 15.9,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "bb3e0284377c511b",
+      "top": [
+        "None"
+      ]
+    },
+    {
+      "name": "other.frameworks.Requests",
+      "non_empty_pct": 40.7,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "ff4a192e67f75eb7",
+      "top": [
+        "Requests"
+      ]
+    },
+    {
+      "name": "other.frameworks.aiohttp",
+      "non_empty_pct": 11.4,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "07603919eebc7073",
+      "top": [
+        "aiohttp"
+      ]
+    },
+    {
+      "name": "other.frameworks.httpx",
+      "non_empty_pct": 10.5,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "c65c3bbcca8208b1",
+      "top": [
+        "httpx"
+      ]
+    },
+    {
+      "name": "other.frameworks.PyQT",
+      "non_empty_pct": 13.0,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "9f92950b13d859bd",
+      "top": [
+        "PyQT"
+      ]
+    },
+    {
+      "name": "other.frameworks.PyGTK",
+      "non_empty_pct": 3.0,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "9be24e34e9ae2b6a",
+      "top": [
+        "PyGTK"
+      ]
+    },
+    {
+      "name": "other.frameworks.wxPython",
+      "non_empty_pct": 4.1,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "27507127e4fd8022",
+      "top": [
+        "wxPython"
+      ]
+    },
+    {
+      "name": "other.frameworks.Pillow",
+      "non_empty_pct": 24.8,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "a28f3984ca552f0e",
+      "top": [
+        "Pillow"
+      ]
+    },
+    {
+      "name": "other.frameworks.Tkinter",
+      "non_empty_pct": 16.9,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "cee9028ca157ad95",
+      "top": [
+        "Tkinter"
+      ]
+    },
+    {
+      "name": "other.frameworks.Pygame",
+      "non_empty_pct": 10.3,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "2de8818657094b9c",
+      "top": [
+        "Pygame"
+      ]
+    },
+    {
+      "name": "other.frameworks.Twisted",
+      "non_empty_pct": 3.1,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "e1856c8788131444",
+      "top": [
+        "Twisted"
+      ]
+    },
+    {
+      "name": "other.frameworks.Asyncio",
+      "non_empty_pct": 20.7,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "ee2cc581a4510e79",
+      "top": [
+        "Asyncio"
+      ]
+    },
+    {
+      "name": "other.frameworks.Kivy",
+      "non_empty_pct": 5.4,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "5469f7206a20913f",
+      "top": [
+        "Kivy"
+      ]
+    },
+    {
+      "name": "other.frameworks.Six",
+      "non_empty_pct": 5.4,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "7910c6a02ffd6678",
+      "top": [
+        "Six"
+      ]
+    },
+    {
+      "name": "other.frameworks.Scrapy",
+      "non_empty_pct": 12.5,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "cace4f037a72ec09",
+      "top": [
+        "Scrapy"
+      ]
+    },
+    {
+      "name": "other.frameworks.Other",
+      "non_empty_pct": 5.1,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "74d3fe7140a0411a",
+      "top": [
+        "Other"
+      ]
+    },
+    {
+      "name": "cloud.platform.None",
+      "non_empty_pct": 27.3,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "311361847b56187d",
+      "top": [
+        "None"
+      ]
+    },
+    {
+      "name": "cloud.platform.Google Cloud Platform",
+      "non_empty_pct": 17.9,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "034f5b34638bb839",
+      "top": [
+        "Google Cloud Platform"
+      ]
+    },
+    {
+      "name": "cloud.platform.AWS",
+      "non_empty_pct": 26.2,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "20fb7b59a92803f8",
+      "top": [
+        "AWS"
+      ]
+    },
+    {
+      "name": "cloud.platform.Microsoft Azure",
+      "non_empty_pct": 13.3,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "bf47954aef3cb15c",
+      "top": [
+        "Microsoft Azure"
+      ]
+    },
+    {
+      "name": "cloud.platform.Rackspace",
+      "non_empty_pct": 1.3,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "df68e431a270fb4a",
+      "top": [
+        "Rackspace"
+      ]
+    },
+    {
+      "name": "cloud.platform.Heroku",
+      "non_empty_pct": 10.8,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "2c5b86874685da3b",
+      "top": [
+        "Heroku"
+      ]
+    },
+    {
+      "name": "cloud.platform.DigitalOcean",
+      "non_empty_pct": 8.7,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "6c83c8ef106b7152",
+      "top": [
+        "DigitalOcean"
+      ]
+    },
+    {
+      "name": "cloud.platform.Linode",
+      "non_empty_pct": 3.6,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "d4d6ca47f93e54bd",
+      "top": [
+        "Linode"
+      ]
+    },
+    {
+      "name": "cloud.platform.PythonAnywhere",
+      "non_empty_pct": 7.3,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "3ac067010d88a6f3",
+      "top": [
+        "PythonAnywhere"
+      ]
+    },
+    {
+      "name": "cloud.platform.OpenShift",
+      "non_empty_pct": 2.5,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "f7787f8fc5bd604b",
+      "top": [
+        "OpenShift"
+      ]
+    },
+    {
+      "name": "cloud.platform.OpenStack",
+      "non_empty_pct": 3.3,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "ee5005c882afefd5",
+      "top": [
+        "OpenStack"
+      ]
+    },
+    {
+      "name": "cloud.platform.Other",
+      "non_empty_pct": 4.6,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "5db3e5084dbfcf54",
+      "top": [
+        "Other"
+      ]
+    },
+    {
+      "name": "run.in.cloud.None of the following",
+      "non_empty_pct": 5.1,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "2db2055a8c3f77a6",
+      "top": [
+        "None of the following"
+      ]
+    },
+    {
+      "name": "run.in.cloud.In virtual machines",
+      "non_empty_pct": 22.2,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "b544f74c0f2f6970",
+      "top": [
+        "In virtual machines"
+      ]
+    },
+    {
+      "name": "run.in.cloud.Within containers",
+      "non_empty_pct": 24.9,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "155ada75c7bd8b74",
+      "top": [
+        "Within containers"
+      ]
+    },
+    {
+      "name": "run.in.cloud.On a Platform-as-a-Service (such as Heroku or Google App Engine)",
+      "non_empty_pct": 14.7,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "7e8892b1f3b07038",
+      "top": [
+        "On a Platform-as-a-Service (such as Heroku or Go"
+      ]
+    },
+    {
+      "name": "run.in.cloud.Serverless (such as AWS Lambda or Cloud Functions)",
+      "non_empty_pct": 14.7,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "c2dbd0c16efc00cf",
+      "top": [
+        "Serverless (such as AWS Lambda or Cloud Function"
+      ]
+    },
+    {
+      "name": "run.in.cloud.Other",
+      "non_empty_pct": 1.1,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "6befde13878f0dfb",
+      "top": [
+        "Other"
+      ]
+    },
+    {
+      "name": "develop.for.cloud.None of the following",
+      "non_empty_pct": 4.7,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "a6540f1a09c043ee",
+      "top": [
+        "None of the following"
+      ]
+    },
+    {
+      "name": "develop.for.cloud.With local system interpreter",
+      "non_empty_pct": 10.1,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "5c7326d5838320d6",
+      "top": [
+        "With local system interpreter"
+      ]
+    },
+    {
+      "name": "develop.for.cloud.Locally with virtualenv (or similar)",
+      "non_empty_pct": 26.1,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "5705aa96ba7fef06",
+      "top": [
+        "Locally with virtualenv (or similar)"
+      ]
+    },
+    {
+      "name": "develop.for.cloud.In Docker containers",
+      "non_empty_pct": 20.9,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "3fb3c9ea999cb3aa",
+      "top": [
+        "In Docker containers"
+      ]
+    },
+    {
+      "name": "develop.for.cloud.In virtual machines",
+      "non_empty_pct": 12.6,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "f3c4b5fbbb2e1c76",
+      "top": [
+        "In virtual machines"
+      ]
+    },
+    {
+      "name": "develop.for.cloud.In remote development environments",
+      "non_empty_pct": 10.8,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "be510e2655922266",
+      "top": [
+        "In remote development environments"
+      ]
+    },
+    {
+      "name": "develop.for.cloud.Directly in the production environment",
+      "non_empty_pct": 5.6,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "f4cdee104310faa1",
+      "top": [
+        "Directly in the production environment"
+      ]
+    },
+    {
+      "name": "develop.for.cloud.Other",
+      "non_empty_pct": 0.5,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "4f5390b869c393bf",
+      "top": [
+        "Other"
+      ]
+    },
+    {
+      "name": "devenv.os.Windows",
+      "non_empty_pct": 47.0,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "4926939f0822f75f",
+      "top": [
+        "Windows"
+      ]
+    },
+    {
+      "name": "devenv.os.Linux",
+      "non_empty_pct": 47.4,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "3ac0b6587e59e814",
+      "top": [
+        "Linux"
+      ]
+    },
+    {
+      "name": "devenv.os.macOS",
+      "non_empty_pct": 21.4,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "7546fc60ac4a6490",
+      "top": [
+        "macOS"
+      ]
+    },
+    {
+      "name": "devenv.os.BSD",
+      "non_empty_pct": 2.3,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "62eccb8127f0c04a",
+      "top": [
+        "BSD"
+      ]
+    },
+    {
+      "name": "devenv.os.Other",
+      "non_empty_pct": 1.0,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "6ff8bf206daf7658",
+      "top": [
+        "Other"
+      ]
+    },
+    {
+      "name": "unittesting.None",
+      "non_empty_pct": 28.2,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "f08d5f2b9bea7f17",
+      "top": [
+        "None"
+      ]
+    },
+    {
+      "name": "unittesting.pytest",
+      "non_empty_pct": 41.2,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "ed8df9a1442a2fba",
+      "top": [
+        "pytest"
+      ]
+    },
+    {
+      "name": "unittesting.nose",
+      "non_empty_pct": 3.0,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "b4d6630d29c7525d",
+      "top": [
+        "nose"
+      ]
+    },
+    {
+      "name": "unittesting.unittest",
+      "non_empty_pct": 19.8,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "c5a373202c76e074",
+      "top": [
+        "unittest"
+      ]
+    },
+    {
+      "name": "unittesting.doctest",
+      "non_empty_pct": 4.9,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "e07b3ad084cce69b",
+      "top": [
+        "doctest"
+      ]
+    },
+    {
+      "name": "unittesting.tox",
+      "non_empty_pct": 4.6,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "39224e4ca830eb31",
+      "top": [
+        "tox"
+      ]
+    },
+    {
+      "name": "unittesting.Hypothesis",
+      "non_empty_pct": 3.8,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "555c89af9dd1d48b",
+      "top": [
+        "Hypothesis"
+      ]
+    },
+    {
+      "name": "unittesting.mock",
+      "non_empty_pct": 8.4,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "16cf74701e71e5e7",
+      "top": [
+        "mock"
+      ]
+    },
+    {
+      "name": "unittesting.Other",
+      "non_empty_pct": 1.1,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "e60c74e28b5cad42",
+      "top": [
+        "Other"
+      ]
+    },
+    {
+      "name": "orm.No database development",
+      "non_empty_pct": 25.8,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "e56d41f055de943f",
+      "top": [
+        "No database development"
+      ]
+    },
+    {
+      "name": "orm.Raw SQL",
+      "non_empty_pct": 12.4,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "c22606642cb5a5a5",
+      "top": [
+        "Raw SQL"
+      ]
+    },
+    {
+      "name": "orm.Django ORM",
+      "non_empty_pct": 21.2,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "9585b246c582b972",
+      "top": [
+        "Django ORM"
+      ]
+    },
+    {
+      "name": "orm.SQLAlchemy",
+      "non_empty_pct": 26.3,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "0219f0876f509c1b",
+      "top": [
+        "SQLAlchemy"
+      ]
+    },
+    {
+      "name": "orm.Peewee",
+      "non_empty_pct": 2.4,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "b8014f2d152ac060",
+      "top": [
+        "Peewee"
+      ]
+    },
+    {
+      "name": "orm.Dejavu",
+      "non_empty_pct": 1.6,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "97a7fc0459a608a8",
+      "top": [
+        "Dejavu"
+      ]
+    },
+    {
+      "name": "orm.PonyORM",
+      "non_empty_pct": 2.0,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "350cb0e24985a437",
+      "top": [
+        "PonyORM"
+      ]
+    },
+    {
+      "name": "orm.SQLObject",
+      "non_empty_pct": 6.2,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "91e1614ee145a3f8",
+      "top": [
+        "SQLObject"
+      ]
+    },
+    {
+      "name": "orm.Tortoise ORM",
+      "non_empty_pct": 2.4,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "34f722a83671d9ca",
+      "top": [
+        "Tortoise ORM"
+      ]
+    },
+    {
+      "name": "orm.Other",
+      "non_empty_pct": 2.8,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "e0d0f9ac3645a600",
+      "top": [
+        "Other"
+      ]
+    },
+    {
+      "name": "database.None",
+      "non_empty_pct": 13.9,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "c5d0fd10dd445733",
+      "top": [
+        "None"
+      ]
+    },
+    {
+      "name": "database.DB2",
+      "non_empty_pct": 1.8,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "01f76f3c9a3b192c",
+      "top": [
+        "DB2"
+      ]
+    },
+    {
+      "name": "database.MS SQL Server",
+      "non_empty_pct": 9.1,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "31d7601fd58b7393",
+      "top": [
+        "MS SQL Server"
+      ]
+    },
+    {
+      "name": "database.MySQL",
+      "non_empty_pct": 27.9,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "11b8915b6d480897",
+      "top": [
+        "MySQL"
+      ]
+    },
+    {
+      "name": "database.Oracle Database",
+      "non_empty_pct": 5.2,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "566672066ee41611",
+      "top": [
+        "Oracle Database"
+      ]
+    },
+    {
+      "name": "database.PostgreSQL",
+      "non_empty_pct": 31.7,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "607da30e777246eb",
+      "top": [
+        "PostgreSQL"
+      ]
+    },
+    {
+      "name": "database.SQLite",
+      "non_empty_pct": 27.8,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "f7e1ce9f0687df37",
+      "top": [
+        "SQLite"
+      ]
+    },
+    {
+      "name": "database.Cassandra",
+      "non_empty_pct": 1.9,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "804f388bc1c84c22",
+      "top": [
+        "Cassandra"
+      ]
+    },
+    {
+      "name": "database.Couchbase",
+      "non_empty_pct": 1.3,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "37fc8c8d06d380b2",
+      "top": [
+        "Couchbase"
+      ]
+    },
+    {
+      "name": "database.HBase",
+      "non_empty_pct": 1.3,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "a556327bc2759748",
+      "top": [
+        "HBase"
+      ]
+    },
+    {
+      "name": "database.MongoDB",
+      "non_empty_pct": 14.8,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "3a19be14fad6f8cc",
+      "top": [
+        "MongoDB"
+      ]
+    },
+    {
+      "name": "database.Neo4j",
+      "non_empty_pct": 2.3,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "a6d1b492c49cd585",
+      "top": [
+        "Neo4j"
+      ]
+    },
+    {
+      "name": "database.Redis",
+      "non_empty_pct": 12.1,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "1ec694dedb23e99e",
+      "top": [
+        "Redis"
+      ]
+    },
+    {
+      "name": "database.Amazon Redshift",
+      "non_empty_pct": 3.3,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "c5cc6b7ae2e759b6",
+      "top": [
+        "Amazon Redshift"
+      ]
+    },
+    {
+      "name": "database.h2",
+      "non_empty_pct": 1.4,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "c77bedefac6652a0",
+      "top": [
+        "h2"
+      ]
+    },
+    {
+      "name": "database.Other",
+      "non_empty_pct": 4.4,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "c9e923bf2e92d4f2",
+      "top": [
+        "Other"
+      ]
+    },
+    {
+      "name": "bigdata.None",
+      "non_empty_pct": 52.5,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "4470cca10d0c248c",
+      "top": [
+        "None"
+      ]
+    },
+    {
+      "name": "bigdata.Apache Beam",
+      "non_empty_pct": 2.2,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "9ff2320d610b23b9",
+      "top": [
+        "Apache Beam"
+      ]
+    },
+    {
+      "name": "bigdata.Apache Flink",
+      "non_empty_pct": 2.1,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "2e5d30a138fd1cca",
+      "top": [
+        "Apache Flink"
+      ]
+    },
+    {
+      "name": "bigdata.Apache Hadoop/MapReduce",
+      "non_empty_pct": 4.8,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "5897298434ab64a1",
+      "top": [
+        "Apache Hadoop/MapReduce"
+      ]
+    },
+    {
+      "name": "bigdata.Apache Hive",
+      "non_empty_pct": 3.9,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "a7f0f9c216692c43",
+      "top": [
+        "Apache Hive"
+      ]
+    },
+    {
+      "name": "bigdata.Apache Samza",
+      "non_empty_pct": 1.4,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "de8e183b809548e5",
+      "top": [
+        "Apache Samza"
+      ]
+    },
+    {
+      "name": "bigdata.Apache Kafka",
+      "non_empty_pct": 7.5,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "b80a0d312172cfef",
+      "top": [
+        "Apache Kafka"
+      ]
+    },
+    {
+      "name": "bigdata.Apache Spark",
+      "non_empty_pct": 9.4,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "dbebe88db4729c63",
+      "top": [
+        "Apache Spark"
+      ]
+    },
+    {
+      "name": "bigdata.Apache Tez",
+      "non_empty_pct": 1.3,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "b24453aeba99ffd3",
+      "top": [
+        "Apache Tez"
+      ]
+    },
+    {
+      "name": "bigdata.Dask",
+      "non_empty_pct": 4.2,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "e803cc1e52ae9110",
+      "top": [
+        "Dask"
+      ]
+    },
+    {
+      "name": "bigdata.ClickHouse",
+      "non_empty_pct": 2.1,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "9755371495700728",
+      "top": [
+        "ClickHouse"
+      ]
+    },
+    {
+      "name": "bigdata.Other",
+      "non_empty_pct": 1.1,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "3e2eaf5dc039fd51",
+      "top": [
+        "Other"
+      ]
+    },
+    {
+      "name": "ci.None",
+      "non_empty_pct": 26.8,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "fd0fbdce63aa26fc",
+      "top": [
+        "None"
+      ]
+    },
+    {
+      "name": "ci.GitHub Actions",
+      "non_empty_pct": 26.8,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "124d61a43e77b508",
+      "top": [
+        "GitHub Actions"
+      ]
+    },
+    {
+      "name": "ci.Gitlab CI",
+      "non_empty_pct": 17.0,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "c10d387660c5cdeb",
+      "top": [
+        "Gitlab CI"
+      ]
+    },
+    {
+      "name": "ci.Jenkins / Hudson",
+      "non_empty_pct": 12.1,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "9a88477bee1ef285",
+      "top": [
+        "Jenkins / Hudson"
+      ]
+    },
+    {
+      "name": "ci.TeamCity",
+      "non_empty_pct": 2.3,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "f4768cc265a824f1",
+      "top": [
+        "TeamCity"
+      ]
+    },
+    {
+      "name": "ci.Bamboo",
+      "non_empty_pct": 2.2,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "c06f64a097ba70aa",
+      "top": [
+        "Bamboo"
+      ]
+    },
+    {
+      "name": "ci.Travis CI",
+      "non_empty_pct": 3.3,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "4d417dd2b009d5a2",
+      "top": [
+        "Travis CI"
+      ]
+    },
+    {
+      "name": "ci.CircleCI",
+      "non_empty_pct": 4.2,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "c60102a550350182",
+      "top": [
+        "CircleCI"
+      ]
+    },
+    {
+      "name": "ci.CruiseControl",
+      "non_empty_pct": 1.3,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "0834946abf7b53e2",
+      "top": [
+        "CruiseControl"
+      ]
+    },
+    {
+      "name": "ci.Bitbucket Pipelines",
+      "non_empty_pct": 4.5,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "852bf3e8d4061608",
+      "top": [
+        "Bitbucket Pipelines"
+      ]
+    },
+    {
+      "name": "ci.AppVeyor",
+      "non_empty_pct": 1.7,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "13aa52ad4080a2e4",
+      "top": [
+        "AppVeyor"
+      ]
+    },
+    {
+      "name": "ci.Other",
+      "non_empty_pct": 3.2,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "02d18a8ba0e87254",
+      "top": [
+        "Other"
+      ]
+    },
+    {
+      "name": "configuration.management.None",
+      "non_empty_pct": 50.1,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "6891cee1e7729c30",
+      "top": [
+        "None"
+      ]
+    },
+    {
+      "name": "configuration.management.Salt",
+      "non_empty_pct": 2.9,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "c7dbe6b4b1662c9f",
+      "top": [
+        "Salt"
+      ]
+    },
+    {
+      "name": "configuration.management.Puppet",
+      "non_empty_pct": 4.2,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "63c25ea97ba16bed",
+      "top": [
+        "Puppet"
+      ]
+    },
+    {
+      "name": "configuration.management.Chef",
+      "non_empty_pct": 3.1,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "442d7b8f9c7a46ef",
+      "top": [
+        "Chef"
+      ]
+    },
+    {
+      "name": "configuration.management.Ansible",
+      "non_empty_pct": 11.8,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "7112fe9e50416944",
+      "top": [
+        "Ansible"
+      ]
+    },
+    {
+      "name": "configuration.management.Custom solution",
+      "non_empty_pct": 8.6,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "ec4ac616f2c3d06f",
+      "top": [
+        "Custom solution"
+      ]
+    },
+    {
+      "name": "configuration.management.Other",
+      "non_empty_pct": 1.9,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "69f201f3b842e432",
+      "top": [
+        "Other"
+      ]
+    },
+    {
+      "name": "documentation.tool.I don’t use any documentation tools",
+      "non_empty_pct": 46.3,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "eb41422d57e8a63d",
+      "top": [
+        "I don’t use any documentation tools"
+      ]
+    },
+    {
+      "name": "documentation.tool.Sphinx",
+      "non_empty_pct": 16.8,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "d9c244d87240f652",
+      "top": [
+        "Sphinx"
+      ]
+    },
+    {
+      "name": "documentation.tool.MKDocs",
+      "non_empty_pct": 8.7,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "3ac2b9caa38bad17",
+      "top": [
+        "MKDocs"
+      ]
+    },
+    {
+      "name": "documentation.tool.Doxygen",
+      "non_empty_pct": 6.0,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "bbbdd4e5f0b0b61f",
+      "top": [
+        "Doxygen"
+      ]
+    },
+    {
+      "name": "documentation.tool.Other",
+      "non_empty_pct": 3.8,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "a218c9ce06ede217",
+      "top": [
+        "Other"
+      ]
+    },
+    {
+      "name": "ide.main",
+      "non_empty_pct": 75.3,
+      "n_unique": 20,
+      "top_share": 37.4,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": false,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "a64ca1574200f69e",
+      "top": [
+        "VS Code",
+        "PyCharm Professional Edition",
+        "PyCharm Community Edition",
+        "Jupyter Notebook",
+        "Vim",
+        "None"
+      ]
+    },
+    {
+      "name": "ide.editor.None",
+      "non_empty_pct": 9.6,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "6fc2ebbf02adf621",
+      "top": [
+        "None"
+      ]
+    },
+    {
+      "name": "ide.editor.PyCharm Professional Edition",
+      "non_empty_pct": 6.4,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "321de0c059d7a0a8",
+      "top": [
+        "PyCharm Professional Edition"
+      ]
+    },
+    {
+      "name": "ide.editor.Other",
+      "non_empty_pct": 2.9,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "acea2bffa36d8053",
+      "top": [
+        "Other"
+      ]
+    },
+    {
+      "name": "ide.editor.PyCharm Community Edition",
+      "non_empty_pct": 12.4,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "7ea9d31b2cf222f1",
+      "top": [
+        "PyCharm Community Edition"
+      ]
+    },
+    {
+      "name": "ide.editor.Sublime Text",
+      "non_empty_pct": 8.6,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "79be2179c1ebd509",
+      "top": [
+        "Sublime Text"
+      ]
+    },
+    {
+      "name": "ide.editor.Vim",
+      "non_empty_pct": 12.9,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "127e10eace55055b",
+      "top": [
+        "Vim"
+      ]
+    },
+    {
+      "name": "ide.editor.Atom",
+      "non_empty_pct": 3.7,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "02b2344c93c20137",
+      "top": [
+        "Atom"
+      ]
+    },
+    {
+      "name": "ide.editor.VS Code",
+      "non_empty_pct": 17.7,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "dd1cae2b77a3692d",
+      "top": [
+        "VS Code"
+      ]
+    },
+    {
+      "name": "ide.editor.Eclipse + Pydev",
+      "non_empty_pct": 1.4,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "79a31a590a2a7e74",
+      "top": [
+        "Eclipse + Pydev"
+      ]
+    },
+    {
+      "name": "ide.editor.JupyterLab",
+      "non_empty_pct": 9.2,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "1a8d06f7707290c4",
+      "top": [
+        "JupyterLab"
+      ]
+    },
+    {
+      "name": "ide.editor.Jupyter Notebook",
+      "non_empty_pct": 16.3,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "5f86b62b13958d64",
+      "top": [
+        "Jupyter Notebook"
+      ]
+    },
+    {
+      "name": "ide.editor.IntelliJ IDEA",
+      "non_empty_pct": 3.0,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "a0d4728bafec6917",
+      "top": [
+        "IntelliJ IDEA"
+      ]
+    },
+    {
+      "name": "ide.editor.NotePad++",
+      "non_empty_pct": 9.8,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "c10a0db0bd2c5493",
+      "top": [
+        "NotePad++"
+      ]
+    },
+    {
+      "name": "ide.editor.IDLE",
+      "non_empty_pct": 5.8,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "679bf9f693f9b64d",
+      "top": [
+        "IDLE"
+      ]
+    },
+    {
+      "name": "ide.editor.Emacs",
+      "non_empty_pct": 1.9,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "d56f223b055e51de",
+      "top": [
+        "Emacs"
+      ]
+    },
+    {
+      "name": "ide.editor.Python Tools for Visual Studio (PTVS)",
+      "non_empty_pct": 3.5,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "03a617f99e5f543d",
+      "top": [
+        "Python Tools for Visual Studio (PTVS)"
+      ]
+    },
+    {
+      "name": "ide.editor.Spyder",
+      "non_empty_pct": 4.1,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "13ec46b6b041daf5",
+      "top": [
+        "Spyder"
+      ]
+    },
+    {
+      "name": "ide.editor.Neovim",
+      "non_empty_pct": 3.4,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "63ad37a4c1740bdf",
+      "top": [
+        "Neovim"
+      ]
+    },
+    {
+      "name": "ide.editor.Nano",
+      "non_empty_pct": 5.7,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "6df8fcf5e7773e7b",
+      "top": [
+        "Nano"
+      ]
+    },
+    {
+      "name": "ide.editor.Wing IDE",
+      "non_empty_pct": 0.6,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "98e121e1cf710943",
+      "top": [
+        "Wing IDE"
+      ]
+    },
+    {
+      "name": "several.projects",
+      "non_empty_pct": 73.1,
+      "n_unique": 3,
+      "top_share": 41.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": false,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "b9460dadedcfcd70",
+      "top": [
+        "Yes, I work on one main and several side project",
+        "Yes, I work on many different projects",
+        "No,  I only work on one project"
+      ]
+    },
+    {
+      "name": "ide.editor.features.autocompletion",
+      "non_empty_pct": 54.0,
+      "n_unique": 3,
+      "top_share": 64.3,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": false,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "e267fcf041e1df31",
+      "top": [
+        "Often",
+        "From timeto time",
+        "Never orAlmost never"
+      ]
+    },
+    {
+      "name": "ide.editor.features.debugger",
+      "non_empty_pct": 54.1,
+      "n_unique": 3,
+      "top_share": 41.8,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": false,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "a0c6dba5ec74ee10",
+      "top": [
+        "Often",
+        "From timeto time",
+        "Never orAlmost never"
+      ]
+    },
+    {
+      "name": "ide.editor.features.refactor",
+      "non_empty_pct": 53.8,
+      "n_unique": 3,
+      "top_share": 47.3,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": false,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "9aab5ac1bcfdbea1",
+      "top": [
+        "Often",
+        "From timeto time",
+        "Never orAlmost never"
+      ]
+    },
+    {
+      "name": "ide.editor.features.vcs",
+      "non_empty_pct": 53.9,
+      "n_unique": 3,
+      "top_share": 68.1,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": false,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "4047b603892a305e",
+      "top": [
+        "Often",
+        "From timeto time",
+        "Never orAlmost never"
+      ]
+    },
+    {
+      "name": "ide.editor.features.linting",
+      "non_empty_pct": 53.7,
+      "n_unique": 3,
+      "top_share": 53.9,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": false,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "2766b20555c7ed44",
+      "top": [
+        "Often",
+        "From timeto time",
+        "Never orAlmost never"
+      ]
+    },
+    {
+      "name": "ide.editor.features.virtualenv",
+      "non_empty_pct": 54.3,
+      "n_unique": 3,
+      "top_share": 64.1,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": false,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "60bc9613e2866226",
+      "top": [
+        "Often",
+        "From timeto time",
+        "Never orAlmost never"
+      ]
+    },
+    {
+      "name": "ide.editor.features.sql",
+      "non_empty_pct": 54.4,
+      "n_unique": 3,
+      "top_share": 43.9,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": false,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "95e584eedb1fe8d3",
+      "top": [
+        "Often",
+        "From timeto time",
+        "Never orAlmost never"
+      ]
+    },
+    {
+      "name": "ide.editor.features.remote",
+      "non_empty_pct": 53.5,
+      "n_unique": 3,
+      "top_share": 34.5,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": false,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "4a21d7fb0595cab0",
+      "top": [
+        "From timeto time",
+        "Never orAlmost never",
+        "Often"
+      ]
+    },
+    {
+      "name": "ide.editor.features.profiler",
+      "non_empty_pct": 53.2,
+      "n_unique": 3,
+      "top_share": 51.9,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": false,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "2679a81fba2b2e31",
+      "top": [
+        "Never orAlmost never",
+        "From timeto time",
+        "Often"
+      ]
+    },
+    {
+      "name": "ide.editor.features.tests",
+      "non_empty_pct": 53.9,
+      "n_unique": 3,
+      "top_share": 40.2,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": false,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "8d7cb4f91c0091a8",
+      "top": [
+        "Often",
+        "From timeto time",
+        "Never orAlmost never"
+      ]
+    },
+    {
+      "name": "ide.editor.features.coverage",
+      "non_empty_pct": 53.1,
+      "n_unique": 3,
+      "top_share": 45.6,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": false,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "9872af11da5e8c5e",
+      "top": [
+        "Never orAlmost never",
+        "From timeto time",
+        "Often"
+      ]
+    },
+    {
+      "name": "ide.editor.features.typehint",
+      "non_empty_pct": 53.5,
+      "n_unique": 3,
+      "top_share": 44.9,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": false,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "d87cc6e749b47d61",
+      "top": [
+        "Often",
+        "From timeto time",
+        "Never orAlmost never"
+      ]
+    },
+    {
+      "name": "ide.editor.features.ci",
+      "non_empty_pct": 53.3,
+      "n_unique": 3,
+      "top_share": 36.5,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": false,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "651f41a386c2a433",
+      "top": [
+        "Often",
+        "Never orAlmost never",
+        "From timeto time"
+      ]
+    },
+    {
+      "name": "ide.editor.features.issue",
+      "non_empty_pct": 53.2,
+      "n_unique": 3,
+      "top_share": 36.9,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": false,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "0151faa1ca0dfc9e",
+      "top": [
+        "Never orAlmost never",
+        "Often",
+        "From timeto time"
+      ]
+    },
+    {
+      "name": "ide.editor.features.nosql",
+      "non_empty_pct": 53.3,
+      "n_unique": 3,
+      "top_share": 54.9,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": false,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "4a72d2739c686639",
+      "top": [
+        "Never orAlmost never",
+        "From timeto time",
+        "Often"
+      ]
+    },
+    {
+      "name": "nps.main.ide",
+      "non_empty_pct": 69.6,
+      "n_unique": 11,
+      "top_share": 49.4,
+      "numeric_like": true,
+      "binary_like": false,
+      "multi_like": false,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "8de7de6c535a8783",
+      "top": [
+        "10",
+        "9",
+        "8",
+        "7",
+        "6",
+        "5"
+      ]
+    },
+    {
+      "name": "environments.isolate.virtualenv",
+      "non_empty_pct": 26.0,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "385b43bc5e95227a",
+      "top": [
+        "virtualenv"
+      ]
+    },
+    {
+      "name": "environments.isolate.venv",
+      "non_empty_pct": 30.0,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "dad2126143d14061",
+      "top": [
+        "venv"
+      ]
+    },
+    {
+      "name": "environments.isolate.virtualenvwrapper",
+      "non_empty_pct": 4.5,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "ebcaeab4c58077e5",
+      "top": [
+        "virtualenvwrapper"
+      ]
+    },
+    {
+      "name": "environments.isolate.hatch",
+      "non_empty_pct": 1.9,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "7e05f45e8a8d2fd5",
+      "top": [
+        "hatch"
+      ]
+    },
+    {
+      "name": "environments.isolate.Poetry",
+      "non_empty_pct": 10.9,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "a0afd8e23e99f3e0",
+      "top": [
+        "Poetry"
+      ]
+    },
+    {
+      "name": "environments.isolate.pipenv",
+      "non_empty_pct": 9.4,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "4e5fe3a00a63cf89",
+      "top": [
+        "pipenv"
+      ]
+    },
+    {
+      "name": "environments.isolate.Conda",
+      "non_empty_pct": 14.6,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "46d763c7c4e86810",
+      "top": [
+        "Conda"
+      ]
+    },
+    {
+      "name": "environments.isolate.I do not use any tools to isolate Python environments",
+      "non_empty_pct": 10.1,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "6f6f7025e21a2fad",
+      "top": [
+        "I do not use any tools to isolate Python environ"
+      ]
+    },
+    {
+      "name": "environments.isolate.Other - Write In",
+      "non_empty_pct": 2.2,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "c33fe8755fa99284",
+      "top": [
+        "Other - Write In"
+      ]
+    },
+    {
+      "name": "environments.container",
+      "non_empty_pct": 69.5,
+      "n_unique": 3,
+      "top_share": 35.3,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": false,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "83a1840a18c03356",
+      "top": [
+        "No, I do not use a virtual environment in contai",
+        "No, I do not use containers",
+        "Yes, I use a virtual environment in containers"
+      ]
+    },
+    {
+      "name": "venv.I use venv directly",
+      "non_empty_pct": 29.3,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "015aec2761a4fae8",
+      "top": [
+        "I use venv directly"
+      ]
+    },
+    {
+      "name": "venv.I use it via Poetry",
+      "non_empty_pct": 9.1,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "074aa7ffe09d1a57",
+      "top": [
+        "I use it via Poetry"
+      ]
+    },
+    {
+      "name": "venv.I use it via Pipenv",
+      "non_empty_pct": 8.1,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "a009acf76e78fda3",
+      "top": [
+        "I use it via Pipenv"
+      ]
+    },
+    {
+      "name": "venv.I use it via virtualenv",
+      "non_empty_pct": 16.0,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "50494813624d01f7",
+      "top": [
+        "I use it via virtualenv"
+      ]
+    },
+    {
+      "name": "venv.I use it via tox",
+      "non_empty_pct": 2.8,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "83ce204ca472d8ac",
+      "top": [
+        "I use it via tox"
+      ]
+    },
+    {
+      "name": "venv.I don’t know",
+      "non_empty_pct": 7.9,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "b2ae91ccbc4347d5",
+      "top": [
+        "I don’t know"
+      ]
+    },
+    {
+      "name": "venv.No, I do not use venv",
+      "non_empty_pct": 12.4,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "3254bff57d4d7179",
+      "top": [
+        "No, I do not use venv"
+      ]
+    },
+    {
+      "name": "venv.Other",
+      "non_empty_pct": 0.8,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "d247f72a2306fb2a",
+      "top": [
+        "Other"
+      ]
+    },
+    {
+      "name": "packaging.tools.None / I'm not sure",
+      "non_empty_pct": 5.6,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "13104b9935c9828f",
+      "top": [
+        "None / I'm not sure"
+      ]
+    },
+    {
+      "name": "packaging.tools.pip",
+      "non_empty_pct": 53.0,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "e4443ff2d0fe3b49",
+      "top": [
+        "pip"
+      ]
+    },
+    {
+      "name": "packaging.tools.Conda",
+      "non_empty_pct": 16.2,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "d3b98aea521c6923",
+      "top": [
+        "Conda"
+      ]
+    },
+    {
+      "name": "packaging.tools.pipenv",
+      "non_empty_pct": 8.6,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "724678e9b5707f39",
+      "top": [
+        "pipenv"
+      ]
+    },
+    {
+      "name": "packaging.tools.Poetry",
+      "non_empty_pct": 10.4,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "14fff7826a4303fd",
+      "top": [
+        "Poetry"
+      ]
+    },
+    {
+      "name": "packaging.tools.venv (standard library)",
+      "non_empty_pct": 20.4,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "dc93b7c49b0e1c81",
+      "top": [
+        "venv (standard library)"
+      ]
+    },
+    {
+      "name": "packaging.tools.virtualenv",
+      "non_empty_pct": 12.8,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "c34065c87afabb05",
+      "top": [
+        "virtualenv"
+      ]
+    },
+    {
+      "name": "packaging.tools.flit",
+      "non_empty_pct": 1.0,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "a9b5fc03c9e2c862",
+      "top": [
+        "flit"
+      ]
+    },
+    {
+      "name": "packaging.tools.tox",
+      "non_empty_pct": 3.5,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "c72e88e45b6d5437",
+      "top": [
+        "tox"
+      ]
+    },
+    {
+      "name": "packaging.tools.PDM",
+      "non_empty_pct": 1.2,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "8c8c41f5756cc2dc",
+      "top": [
+        "PDM"
+      ]
+    },
+    {
+      "name": "packaging.tools.twine",
+      "non_empty_pct": 6.1,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "77883b82c5bfd42b",
+      "top": [
+        "twine"
+      ]
+    },
+    {
+      "name": "packaging.tools.Containers (eg via Docker)",
+      "non_empty_pct": 18.1,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": false,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "9c3417796f1587a3",
+      "top": [
+        "Containers (eg: via Docker)"
+      ]
+    },
+    {
+      "name": "packaging.tools.Virtual machines",
+      "non_empty_pct": 7.5,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "0ac35adbcc74142b",
+      "top": [
+        "Virtual machines"
+      ]
+    },
+    {
+      "name": "packaging.tools.Workplace specific proprietary solution",
+      "non_empty_pct": 1.5,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "b6181ea70077d54c",
+      "top": [
+        "Workplace specific proprietary solution"
+      ]
+    },
+    {
+      "name": "packaging.tools.Other",
+      "non_empty_pct": 1.3,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "20b1cd341018d52c",
+      "top": [
+        "Other"
+      ]
+    },
+    {
+      "name": "dependency.version",
+      "non_empty_pct": 69.5,
+      "n_unique": 2,
+      "top_share": 54.6,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": false,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "ee5d1cd31afab9f4",
+      "top": [
+        "No",
+        "Yes"
+      ]
+    },
+    {
+      "name": "dependency.store.None",
+      "non_empty_pct": 1.4,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "7f0287a607df5711",
+      "top": [
+        "None"
+      ]
+    },
+    {
+      "name": "dependency.store.requirements_txt",
+      "non_empty_pct": 21.7,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "5465d95b30d1087c",
+      "top": [
+        "requirements_txt"
+      ]
+    },
+    {
+      "name": "dependency.store.pyproject_toml",
+      "non_empty_pct": 10.5,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "2f069304b2d2a39d",
+      "top": [
+        "pyproject_toml"
+      ]
+    },
+    {
+      "name": "dependency.store.pipfile_lock",
+      "non_empty_pct": 4.8,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "b701a01fa6bb57c0",
+      "top": [
+        "pipfile_lock"
+      ]
+    },
+    {
+      "name": "dependency.store.poetry_lock",
+      "non_empty_pct": 7.9,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "04ca02d0a5e690ae",
+      "top": [
+        "poetry_lock"
+      ]
+    },
+    {
+      "name": "dependency.store.Conda environment_yml",
+      "non_empty_pct": 3.6,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "a348985d959f044e",
+      "top": [
+        "Conda environment_yml"
+      ]
+    },
+    {
+      "name": "dependency.store.pip constraints_txt",
+      "non_empty_pct": 1.9,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "b82c5adfffdd4746",
+      "top": [
+        "pip constraints_txt"
+      ]
+    },
+    {
+      "name": "dependency.store.Other",
+      "non_empty_pct": 1.3,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "1806543e9f3a547d",
+      "top": [
+        "Other"
+      ]
+    },
+    {
+      "name": "dependency.tools.None",
+      "non_empty_pct": 8.8,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "c9bee5cd9d5a4d90",
+      "top": [
+        "None"
+      ]
+    },
+    {
+      "name": "dependency.tools.pipenv",
+      "non_empty_pct": 8.9,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "2f4989d52f9661ef",
+      "top": [
+        "pipenv"
+      ]
+    },
+    {
+      "name": "dependency.tools.poetry",
+      "non_empty_pct": 9.6,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "329f13ccb6ffb23f",
+      "top": [
+        "poetry"
+      ]
+    },
+    {
+      "name": "dependency.tools.pip-tools",
+      "non_empty_pct": 8.0,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "f2867cff8b5dc856",
+      "top": [
+        "pip-tools"
+      ]
+    },
+    {
+      "name": "dependency.tools.Other",
+      "non_empty_pct": 1.1,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "b4ec95f153d43840",
+      "top": [
+        "Other"
+      ]
+    },
+    {
+      "name": "dependency.update.None",
+      "non_empty_pct": 32.6,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "78bbbff765a87dfa",
+      "top": [
+        "None"
+      ]
+    },
+    {
+      "name": "dependency.update.Dependabot",
+      "non_empty_pct": 9.8,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "8e33ec9443cbd104",
+      "top": [
+        "Dependabot"
+      ]
+    },
+    {
+      "name": "dependency.update.PyUp",
+      "non_empty_pct": 4.1,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "4289fa0d46ca4327",
+      "top": [
+        "PyUp"
+      ]
+    },
+    {
+      "name": "dependency.update.Custom tools, e_g_ a cron job or scheduled CI task",
+      "non_empty_pct": 5.1,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "972f80891f3ff7ac",
+      "top": [
+        "Custom tools, e_g_ a cron job or scheduled CI ta"
+      ]
+    },
+    {
+      "name": "dependency.update.No, my application dependencies are updated manually",
+      "non_empty_pct": 21.2,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "e230221dd177da1e",
+      "top": [
+        "No, my application dependencies are updated manu"
+      ]
+    },
+    {
+      "name": "dependency.update.Other",
+      "non_empty_pct": 1.0,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "04b19628807ae00f",
+      "top": [
+        "Other"
+      ]
+    },
+    {
+      "name": "packages.install.None",
+      "non_empty_pct": 3.1,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "ffebbae78973b778",
+      "top": [
+        "None"
+      ]
+    },
+    {
+      "name": "packages.install.pip",
+      "non_empty_pct": 58.6,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "a713e62ac39e5161",
+      "top": [
+        "pip"
+      ]
+    },
+    {
+      "name": "packages.install.easy_install",
+      "non_empty_pct": 4.4,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "143a7bde817ec3ba",
+      "top": [
+        "easy_install"
+      ]
+    },
+    {
+      "name": "packages.install.Conda",
+      "non_empty_pct": 15.4,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "5d7f4a6c8e6f48cc",
+      "top": [
+        "Conda"
+      ]
+    },
+    {
+      "name": "packages.install.Poetry",
+      "non_empty_pct": 10.5,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "2b8a822d2c0573b3",
+      "top": [
+        "Poetry"
+      ]
+    },
+    {
+      "name": "packages.install.pip-sync",
+      "non_empty_pct": 2.3,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "6fb884cf2d5ff9a5",
+      "top": [
+        "pip-sync"
+      ]
+    },
+    {
+      "name": "packages.install.pipx",
+      "non_empty_pct": 4.0,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "dd4e3576c78731dc",
+      "top": [
+        "pipx"
+      ]
+    },
+    {
+      "name": "packages.install.Other",
+      "non_empty_pct": 1.7,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "b7455371a78490e2",
+      "top": [
+        "Other"
+      ]
+    },
+    {
+      "name": "packages.install.from.I’m not sure",
+      "non_empty_pct": 6.6,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "d12afc76818c6d56",
+      "top": [
+        "I’m not sure"
+      ]
+    },
+    {
+      "name": "packages.install.from.PyPI",
+      "non_empty_pct": 51.0,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "7c85ffd2df3b3ac4",
+      "top": [
+        "PyPI"
+      ]
+    },
+    {
+      "name": "packages.install.from.Local source",
+      "non_empty_pct": 11.9,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "61fdfe7acf0c46a2",
+      "top": [
+        "Local source"
+      ]
+    },
+    {
+      "name": "packages.install.from.Internal mirror of PyPI",
+      "non_empty_pct": 7.2,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "6a9cf7bd927a3798",
+      "top": [
+        "Internal mirror of PyPI"
+      ]
+    },
+    {
+      "name": "packages.install.from.Private Python Package Index",
+      "non_empty_pct": 7.6,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "f784f67be21a6a93",
+      "top": [
+        "Private Python Package Index"
+      ]
+    },
+    {
+      "name": "packages.install.from.Anaconda",
+      "non_empty_pct": 11.4,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "35f93a9f3ca755ab",
+      "top": [
+        "Anaconda"
+      ]
+    },
+    {
+      "name": "packages.install.from.Default Conda channel",
+      "non_empty_pct": 6.1,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "49b6b76288a81bd3",
+      "top": [
+        "Default Conda channel"
+      ]
+    },
+    {
+      "name": "packages.install.from.conda-forge Conda channel",
+      "non_empty_pct": 7.4,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "d0076c6a875c7d1f",
+      "top": [
+        "conda-forge Conda channel"
+      ]
+    },
+    {
+      "name": "packages.install.from.Other Conda channel",
+      "non_empty_pct": 2.4,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "f85a30bea81651ea",
+      "top": [
+        "Other Conda channel"
+      ]
+    },
+    {
+      "name": "packages.install.from.GitHub",
+      "non_empty_pct": 22.6,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "ea18e5a8e3e46154",
+      "top": [
+        "GitHub"
+      ]
+    },
+    {
+      "name": "packages.install.from.Artifactory",
+      "non_empty_pct": 2.9,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "126d39550d626369",
+      "top": [
+        "Artifactory"
+      ]
+    },
+    {
+      "name": "packages.install.from.GitLab",
+      "non_empty_pct": 5.9,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "87016239e49c16aa",
+      "top": [
+        "GitLab"
+      ]
+    },
+    {
+      "name": "packages.install.from.From Linux distribution",
+      "non_empty_pct": 8.5,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "155fb14b601d5142",
+      "top": [
+        "From Linux distribution"
+      ]
+    },
+    {
+      "name": "packages.install.from.Other",
+      "non_empty_pct": 1.0,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "37f7eca1a718e305",
+      "top": [
+        "Other"
+      ]
+    },
+    {
+      "name": "app.do",
+      "non_empty_pct": 68.4,
+      "n_unique": 2,
+      "top_share": 56.5,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": false,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "02ac2d9ec7381a7f",
+      "top": [
+        "Yes",
+        "No"
+      ]
+    },
+    {
+      "name": "app.tools.None / I'm not sure",
+      "non_empty_pct": 9.8,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "5a65e945fc541bf3",
+      "top": [
+        "None / I'm not sure"
+      ]
+    },
+    {
+      "name": "app.tools.Setuptools",
+      "non_empty_pct": 15.4,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "a32114ede3223e07",
+      "top": [
+        "Setuptools"
+      ]
+    },
+    {
+      "name": "app.tools.build",
+      "non_empty_pct": 8.3,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "8ae59a8812cadc61",
+      "top": [
+        "build"
+      ]
+    },
+    {
+      "name": "app.tools.Wheel",
+      "non_empty_pct": 11.0,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "083b0dfbc7b9decb",
+      "top": [
+        "Wheel"
+      ]
+    },
+    {
+      "name": "app.tools.Enscons",
+      "non_empty_pct": 1.1,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "ae6ff4539f8270f8",
+      "top": [
+        "Enscons"
+      ]
+    },
+    {
+      "name": "app.tools.pex",
+      "non_empty_pct": 1.0,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "67db95ec152848c1",
+      "top": [
+        "pex"
+      ]
+    },
+    {
+      "name": "app.tools.Flit",
+      "non_empty_pct": 1.2,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "9bcc714113fe5f45",
+      "top": [
+        "Flit"
+      ]
+    },
+    {
+      "name": "app.tools.Poetry",
+      "non_empty_pct": 7.4,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "e156b84f9660af62",
+      "top": [
+        "Poetry"
+      ]
+    },
+    {
+      "name": "app.tools.conda-build",
+      "non_empty_pct": 2.7,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "33f2f58ccf8e3e35",
+      "top": [
+        "conda-build"
+      ]
+    },
+    {
+      "name": "app.tools.maturin",
+      "non_empty_pct": 0.7,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "0cb51a695781b6d5",
+      "top": [
+        "maturin"
+      ]
+    },
+    {
+      "name": "app.tools.PDM-PEP517",
+      "non_empty_pct": 0.9,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "2a8ec8a0c5b682dc",
+      "top": [
+        "PDM-PEP517"
+      ]
+    },
+    {
+      "name": "app.tools.Other",
+      "non_empty_pct": 1.5,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "8d9e90e9711a1f77",
+      "top": [
+        "Other"
+      ]
+    },
+    {
+      "name": "app.publish",
+      "non_empty_pct": 68.4,
+      "n_unique": 2,
+      "top_share": 73.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": false,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "2b72f6c6d3109b04",
+      "top": [
+        "No",
+        "Yes"
+      ]
+    },
+    {
+      "name": "app.publish.where.PyPI",
+      "non_empty_pct": 11.3,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "f1d332af6503584f",
+      "top": [
+        "PyPI"
+      ]
+    },
+    {
+      "name": "app.publish.where.Private Python Package Index",
+      "non_empty_pct": 7.0,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "1c21b532674f9cf6",
+      "top": [
+        "Private Python Package Index"
+      ]
+    },
+    {
+      "name": "app.publish.where.Internal mirror of PyPI",
+      "non_empty_pct": 2.6,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "9b17e79f41a1d650",
+      "top": [
+        "Internal mirror of PyPI"
+      ]
+    },
+    {
+      "name": "app.publish.where.conda-forge",
+      "non_empty_pct": 1.4,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "09de5204a76551ad",
+      "top": [
+        "conda-forge"
+      ]
+    },
+    {
+      "name": "app.publish.where.Other",
+      "non_empty_pct": 1.1,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "de2e9cc25b7be815",
+      "top": [
+        "Other"
+      ]
+    },
+    {
+      "name": "libraries.do",
+      "non_empty_pct": 68.4,
+      "n_unique": 2,
+      "top_share": 66.1,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": false,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "840a874f7b5b9156",
+      "top": [
+        "No",
+        "Yes"
+      ]
+    },
+    {
+      "name": "libraries.tools.Setuptools",
+      "non_empty_pct": 13.6,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "07f25b8c095ed8fa",
+      "top": [
+        "Setuptools"
+      ]
+    },
+    {
+      "name": "libraries.tools.build",
+      "non_empty_pct": 6.8,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "cf1d7e5df3e39bcd",
+      "top": [
+        "build"
+      ]
+    },
+    {
+      "name": "libraries.tools.Wheel",
+      "non_empty_pct": 9.0,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "5990d492f999a6cc",
+      "top": [
+        "Wheel"
+      ]
+    },
+    {
+      "name": "libraries.tools.Enscons",
+      "non_empty_pct": 0.9,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "a6d0877c5fe7f898",
+      "top": [
+        "Enscons"
+      ]
+    },
+    {
+      "name": "libraries.tools.pex",
+      "non_empty_pct": 0.7,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "164ecc8a096b508a",
+      "top": [
+        "pex"
+      ]
+    },
+    {
+      "name": "libraries.tools.Flit",
+      "non_empty_pct": 1.1,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "579f47949b485c57",
+      "top": [
+        "Flit"
+      ]
+    },
+    {
+      "name": "libraries.tools.Poetry",
+      "non_empty_pct": 5.7,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "5165a14fbb802a81",
+      "top": [
+        "Poetry"
+      ]
+    },
+    {
+      "name": "libraries.tools.conda-build",
+      "non_empty_pct": 1.8,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "ec0cd38a06c44534",
+      "top": [
+        "conda-build"
+      ]
+    },
+    {
+      "name": "libraries.tools.maturin",
+      "non_empty_pct": 0.4,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "75cec13c9388640b",
+      "top": [
+        "maturin"
+      ]
+    },
+    {
+      "name": "libraries.tools.PDM-PEP517",
+      "non_empty_pct": 0.5,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "8e04925db7f63ff7",
+      "top": [
+        "PDM-PEP517"
+      ]
+    },
+    {
+      "name": "libraries.tools.Other",
+      "non_empty_pct": 0.8,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "68f03047ee433549",
+      "top": [
+        "Other"
+      ]
+    },
+    {
+      "name": "libraries.publish",
+      "non_empty_pct": 68.4,
+      "n_unique": 2,
+      "top_share": 72.3,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": false,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "618806c4523f2fc1",
+      "top": [
+        "No",
+        "Yes"
+      ]
+    },
+    {
+      "name": "libraries.publish.where.PyPI",
+      "non_empty_pct": 12.0,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "a9372893f6bc4f7f",
+      "top": [
+        "PyPI"
+      ]
+    },
+    {
+      "name": "libraries.publish.where.Private Python Package Index",
+      "non_empty_pct": 7.2,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "a759e1bdf7de760b",
+      "top": [
+        "Private Python Package Index"
+      ]
+    },
+    {
+      "name": "libraries.publish.where.Internal mirror of PyPI",
+      "non_empty_pct": 2.8,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "15d401dfa1a75019",
+      "top": [
+        "Internal mirror of PyPI"
+      ]
+    },
+    {
+      "name": "libraries.publish.where.conda-forge",
+      "non_empty_pct": 1.6,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "e4b2afe41bdef6d0",
+      "top": [
+        "conda-forge"
+      ]
+    },
+    {
+      "name": "libraries.publish.where.Other",
+      "non_empty_pct": 0.9,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "44a6881f76e1a256",
+      "top": [
+        "Other"
+      ]
+    },
+    {
+      "name": "job.team",
+      "non_empty_pct": 67.8,
+      "n_unique": 3,
+      "top_share": 49.1,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": false,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "310d76983c5f8579",
+      "top": [
+        "Work on your own project(s) independently",
+        "Work in a team",
+        "Work as an external consultant or trainer"
+      ]
+    },
+    {
+      "name": "team.size",
+      "non_empty_pct": 31.3,
+      "n_unique": 5,
+      "top_share": 67.5,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": false,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "6435c5d9538d824f",
+      "top": [
+        "2-7 people",
+        "8-12 people",
+        "13-20 people",
+        "21-40 people",
+        "More than 40 people"
+      ]
+    },
+    {
+      "name": "employment.status",
+      "non_empty_pct": 67.8,
+      "n_unique": 8,
+      "top_share": 59.1,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": false,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "143fb7a095ef64f6",
+      "top": [
+        "Fully employed by a company / organization",
+        "Student",
+        "Freelancer (a person pursuing a profession witho",
+        "Working student",
+        "Self-employed (a person earning income directly ",
+        "Partially employed by a company / organization"
+      ]
+    },
+    {
+      "name": "company.size",
+      "non_empty_pct": 52.2,
+      "n_unique": 8,
+      "top_share": 26.2,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": false,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "6861bd3abfe84a2d",
+      "top": [
+        "51–500",
+        "More than 5,000",
+        "11–50",
+        "2–10",
+        "1,001–5,000",
+        "501–1,000"
+      ]
+    },
+    {
+      "name": "company.industry",
+      "non_empty_pct": 52.1,
+      "n_unique": 24,
+      "top_share": 38.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": false,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "9889c65eb23b03fe",
+      "top": [
+        "Information Technology / Software Development",
+        "Other",
+        "Education / Training",
+        "Science",
+        "Accounting / Finance / Insurance",
+        "Medicine / Health"
+      ]
+    },
+    {
+      "name": "company.develop.for",
+      "non_empty_pct": 19.8,
+      "n_unique": 24,
+      "top_share": 50.3,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": false,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "aa19bbf086b2eddb",
+      "top": [
+        "Information Technology / Software Development",
+        "Other",
+        "Accounting / Finance / Insurance",
+        "Manufacturing",
+        "Sales / Distribution / Business Development",
+        "Logistics/ Transportation"
+      ]
+    },
+    {
+      "name": "job.role.DBA",
+      "non_empty_pct": 2.7,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "0eb0cf9dd99dc615",
+      "top": [
+        "DBA"
+      ]
+    },
+    {
+      "name": "job.role.Architect",
+      "non_empty_pct": 7.9,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "70d0c7ec0cdd2389",
+      "top": [
+        "Architect"
+      ]
+    },
+    {
+      "name": "job.role.QA engineer",
+      "non_empty_pct": 3.0,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "bf1d47f626280e67",
+      "top": [
+        "QA engineer"
+      ]
+    },
+    {
+      "name": "job.role.Developer / Programmer",
+      "non_empty_pct": 33.7,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "7d6ad8dd323deeb5",
+      "top": [
+        "Developer / Programmer"
+      ]
+    },
+    {
+      "name": "job.role.Technical writer",
+      "non_empty_pct": 2.3,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "1cfc4969a66977d5",
+      "top": [
+        "Technical writer"
+      ]
+    },
+    {
+      "name": "job.role.Technical support",
+      "non_empty_pct": 5.0,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "667e454414d6b424",
+      "top": [
+        "Technical support"
+      ]
+    },
+    {
+      "name": "job.role.Data analyst",
+      "non_empty_pct": 10.0,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "27d2cc25778a34bd",
+      "top": [
+        "Data analyst"
+      ]
+    },
+    {
+      "name": "job.role.Business analyst",
+      "non_empty_pct": 2.6,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "5538e1feb30b235a",
+      "top": [
+        "Business analyst"
+      ]
+    },
+    {
+      "name": "job.role.Team lead",
+      "non_empty_pct": 8.7,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "e620b1f4afdbb8f1",
+      "top": [
+        "Team lead"
+      ]
+    },
+    {
+      "name": "job.role.Product manager",
+      "non_empty_pct": 3.2,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "ea71712c7c3ac1bc",
+      "top": [
+        "Product manager"
+      ]
+    },
+    {
+      "name": "job.role.CIO / CEO / CTO",
+      "non_empty_pct": 3.1,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "d811da737a2789e2",
+      "top": [
+        "CIO / CEO / CTO"
+      ]
+    },
+    {
+      "name": "job.role.Systems analyst",
+      "non_empty_pct": 3.5,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "15ed21b31fd1d27c",
+      "top": [
+        "Systems analyst"
+      ]
+    },
+    {
+      "name": "job.role.Other",
+      "non_empty_pct": 6.7,
+      "n_unique": 1,
+      "top_share": 100.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "8fdf3a95e11c2b0a",
+      "top": [
+        "Other"
+      ]
+    },
+    {
+      "name": "age",
+      "non_empty_pct": 67.3,
+      "n_unique": 6,
+      "top_share": 37.4,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": false,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "1aeb626822d3b4bf",
+      "top": [
+        "21–29",
+        "30–39",
+        "40–49",
+        "18–20",
+        "50–59",
+        "60 or older"
+      ]
+    },
+    {
+      "name": "gender",
+      "non_empty_pct": 66.5,
+      "n_unique": 5,
+      "top_share": 87.8,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": false,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "361172df790b2bec",
+      "top": [
+        "Male",
+        "Female",
+        "Prefer not to say",
+        "Non-binary, genderqueer, or gender non-conformin",
+        "Other, please specify:"
+      ]
+    },
+    {
+      "name": "country",
+      "non_empty_pct": 67.3,
+      "n_unique": 68,
+      "top_share": 19.3,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": false,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "4a39b09f14fbd0e3",
+      "top": [
+        "United States",
+        "India",
+        "Other country",
+        "Germany",
+        "China Mainland",
+        "United Kingdom"
+      ]
+    }
+  ]
+}

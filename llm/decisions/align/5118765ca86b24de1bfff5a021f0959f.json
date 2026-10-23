@@ -1,0 +1,80 @@
+{
+  "stage": "option_alias",
+  "model": "qwen3.5:4b",
+  "model_digest": "d8b0f5e9760cd168",
+  "prompt_version": "option-alias-v1",
+  "input_hash": "5118765ca86b24de1bfff5a021f0959f",
+  "created_at": "2026-10-23T19:16:55",
+  "duration_s": 8.58,
+  "output_tokens": 625,
+  "fallback": false,
+  "error": "",
+  "manual_edit": false,
+  "reviewed": false,
+  "payload_summary": {
+    "groups": 8,
+    "values": 94
+  },
+  "response": {
+    "groups": [
+      {
+        "name": "frameworks.support",
+        "options": [
+          {
+            "variants": [
+              "Asyncio",
+              "BeautifulSoup",
+              "Django",
+              "Django REST Framework",
+              "FastAPI",
+              "Flask",
+              "Hypothesis",
+              "None",
+              "OpenCV-Python",
+              "Other",
+              "Pillow",
+              "PyQT",
+              "PySide",
+              "Pydantic",
+              "Pygame",
+              "Requests",
+              "Scrapy",
+              "Starlette",
+              "Streamlit",
+              "Tkinter",
+              "aiohttp",
+              "attrs",
+              "doctest",
+              "httpx",
+              "mock",
+              "pytest",
+              "tox",
+              "unittest"
+            ],
+            "canonical": "None",
+            "reason": "无写法差异，均为独立实体"
+          }
+        ]
+      },
+      {
+        "name": "dashboard.libraries",
+        "options": [
+          {
+            "variants": [
+              "Gradio",
+              "None",
+              "Other",
+              "Panel",
+              "Plotly Dash",
+              "Streamlit",
+              "Tensorboard",
+              "Voila"
+            ],
+            "canonical": "None",
+            "reason": "无写法差异，均为独立实体"
+          }
+        ]
+      }
+    ]
+  }
+}

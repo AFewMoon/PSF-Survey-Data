@@ -1,0 +1,185 @@
+{
+  "stage": "clean_semantics",
+  "model": "qwen3.5:4b",
+  "model_digest": "d8b0f5e9760cd168",
+  "prompt_version": "clean-semantics-v2",
+  "input_hash": "0dfb98bcf26a1a70db98dfff4caa69dc",
+  "created_at": "2026-10-23T18:46:58",
+  "duration_s": 10.19,
+  "output_tokens": 747,
+  "fallback": false,
+  "error": "",
+  "manual_edit": false,
+  "reviewed": false,
+  "payload_summary": {
+    "year": 2020,
+    "batch": "data.frameworks.NLTK…other.frameworks.Scrapy",
+    "n": 18
+  },
+  "response": {
+    "columns": [
+      {
+        "column": "data.frameworks.NLTK",
+        "kind": "multi_option",
+        "group": "data.frameworks",
+        "option": "NLTK",
+        "missing_tokens": [],
+        "reason": "flags 显示全列恒等于选项文本",
+        "year": 2020
+      },
+      {
+        "column": "data.frameworks.MXNet",
+        "kind": "multi_option",
+        "group": "data.frameworks",
+        "option": "MXNet",
+        "missing_tokens": [],
+        "reason": "flags 显示全列恒等于选项文本",
+        "year": 2020
+      },
+      {
+        "column": "data.frameworks.Gensim",
+        "kind": "multi_option",
+        "group": "data.frameworks",
+        "option": "Gensim",
+        "missing_tokens": [],
+        "reason": "flags 显示全列恒等于选项文本",
+        "year": 2020
+      },
+      {
+        "column": "data.frameworks.Other",
+        "kind": "multi_option",
+        "group": "data.frameworks",
+        "option": "Other",
+        "missing_tokens": [],
+        "reason": "flags 显示全列恒等于选项文本",
+        "year": 2020
+      },
+      {
+        "column": "other.frameworks.None",
+        "kind": "multi_option",
+        "group": "other.frameworks",
+        "option": "None",
+        "missing_tokens": [],
+        "reason": "flags 显示全列恒等于选项文本",
+        "year": 2020
+      },
+      {
+        "column": "other.frameworks.Requests",
+        "kind": "multi_option",
+        "group": "other.frameworks",
+        "option": "Requests",
+        "missing_tokens": [],
+        "reason": "flags 显示全列恒等于选项文本",
+        "year": 2020
+      },
+      {
+        "column": "other.frameworks.aiohttp",
+        "kind": "multi_option",
+        "group": "other.frameworks",
+        "option": "aiohttp",
+        "missing_tokens": [],
+        "reason": "flags 显示全列恒等于选项文本",
+        "year": 2020
+      },
+      {
+        "column": "other.frameworks.PyQT",
+        "kind": "multi_option",
+        "group": "other.frameworks",
+        "option": "PyQT",
+        "missing_tokens": [],
+        "reason": "flags 显示全列恒等于选项文本",
+        "year": 2020
+      },
+      {
+        "column": "other.frameworks.PyGTK",
+        "kind": "multi_option",
+        "group": "other.frameworks",
+        "option": "PyGTK",
+        "missing_tokens": [],
+        "reason": "flags 显示全列恒等于选项文本",
+        "year": 2020
+      },
+      {
+        "column": "other.frameworks.wxPython",
+        "kind": "multi_option",
+        "group": "other.frameworks",
+        "option": "wxPython",
+        "missing_tokens": [],
+        "reason": "flags 显示全列恒等于选项文本",
+        "year": 2020
+      },
+      {
+        "column": "other.frameworks.Pillow",
+        "kind": "multi_option",
+        "group": "other.frameworks",
+        "option": "Pillow",
+        "missing_tokens": [],
+        "reason": "flags 显示全列恒等于选项文本",
+        "year": 2020
+      },
+      {
+        "column": "other.frameworks.Tkinter",
+        "kind": "multi_option",
+        "group": "other.frameworks",
+        "option": "Tkinter",
+        "missing_tokens": [],
+        "reason": "flags 显示全列恒等于选项文本",
+        "year": 2020
+      },
+      {
+        "column": "other.frameworks.Pygame",
+        "kind": "multi_option",
+        "group": "other.frameworks",
+        "option": "Pygame",
+        "missing_tokens": [],
+        "reason": "flags 显示全列恒等于选项文本",
+        "year": 2020
+      },
+      {
+        "column": "other.frameworks.Twisted",
+        "kind": "multi_option",
+        "group": "other.frameworks",
+        "option": "Twisted",
+        "missing_tokens": [],
+        "reason": "flags 显示全列恒等于选项文本",
+        "year": 2020
+      },
+      {
+        "column": "other.frameworks.Asyncio",
+        "kind": "multi_option",
+        "group": "other.frameworks",
+        "option": "Asyncio",
+        "missing_tokens": [],
+        "reason": "flags 显示全列恒等于选项文本",
+        "year": 2020
+      },
+      {
+        "column": "other.frameworks.Kivy",
+        "kind": "multi_option",
+        "group": "other.frameworks",
+        "option": "Kivy",
+        "missing_tokens": [],
+        "reason": "flags 显示全列恒等于选项文本",
+        "year": 2020
+      },
+      {
+        "column": "other.frameworks.Six",
+        "kind": "multi_option",
+        "group": "other.frameworks",
+        "option": "Six",
+        "missing_tokens": [],
+        "reason": "flags 显示全列恒等于选项文本",
+        "year": 2020
+      },
+      {
+        "column": "other.frameworks.Scrapy",
+        "kind": "multi_option",
+        "group": "other.frameworks",
+        "option": "Scrapy",
+        "missing_tokens": [],
+        "reason": "flags 显示全列恒等于选项文本",
+        "year": 2020
+      }
+    ]
+  }
+}

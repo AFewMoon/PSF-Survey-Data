@@ -1,0 +1,68 @@
+{
+  "stage": "option_alias",
+  "model": "qwen3.5:4b",
+  "model_digest": "d8b0f5e9760cd168",
+  "prompt_version": "option-alias-v1",
+  "input_hash": "aec83b5aa7c0040a7e862a0da5ad7f41",
+  "created_at": "2026-10-23T19:16:25",
+  "duration_s": 2.84,
+  "output_tokens": 132,
+  "fallback": false,
+  "error": "",
+  "manual_edit": false,
+  "reviewed": false,
+  "payload_summary": {
+    "groups": 8,
+    "values": 148
+  },
+  "response": {
+    "groups": [
+      {
+        "name": "other.lang",
+        "options": [
+          {
+            "variants": [
+              "Bash / Shell",
+              "Bash"
+            ],
+            "canonical": "Bash",
+            "reason": "斜杠分隔的别名与全称"
+          },
+          {
+            "variants": [
+              "C/C++",
+              "C++"
+            ],
+            "canonical": "C++",
+            "reason": "斜杠分隔的别名与全称"
+          },
+          {
+            "variants": [
+              "HTML/CSS",
+              "HTML"
+            ],
+            "canonical": "HTML",
+            "reason": "斜杠分隔的别名与全称"
+          },
+          {
+            "variants": [
+              "None",
+              "None"
+            ],
+            "canonical": "None",
+            "reason": "无差异，保留原样"
+          },
+          {
+            "variants": [
+              "Other",
+              "Other - Write In",
+              "Other - Write In"
+            ],
+            "canonical": "Other",
+            "reason": "通用词与带说明的变体"
+          }
+        ]
+      }
+    ]
+  }
+}

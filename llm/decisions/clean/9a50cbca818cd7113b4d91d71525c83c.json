@@ -1,0 +1,185 @@
+{
+  "stage": "clean_semantics",
+  "model": "qwen3.5:4b",
+  "model_digest": "d8b0f5e9760cd168",
+  "prompt_version": "clean-semantics-v2",
+  "input_hash": "9a50cbca818cd7113b4d91d71525c83c",
+  "created_at": "2026-10-23T19:02:52",
+  "duration_s": 9.86,
+  "output_tokens": 745,
+  "fallback": false,
+  "error": "",
+  "manual_edit": false,
+  "reviewed": false,
+  "payload_summary": {
+    "year": 2023,
+    "batch": "documentation.tool.Sphinx…ide.editor.PyCharm Professional Edition",
+    "n": 18
+  },
+  "response": {
+    "columns": [
+      {
+        "column": "documentation.tool.Sphinx",
+        "kind": "multi_option",
+        "group": "documentation.tool",
+        "option": "Sphinx",
+        "missing_tokens": [],
+        "reason": "flags 显示全列等于选项文本",
+        "year": 2023
+      },
+      {
+        "column": "documentation.tool.Wiki",
+        "kind": "multi_option",
+        "group": "documentation.tool",
+        "option": "Wiki",
+        "missing_tokens": [],
+        "reason": "flags 显示全列等于选项文本",
+        "year": 2023
+      },
+      {
+        "column": "documentation.tool.Postman",
+        "kind": "multi_option",
+        "group": "documentation.tool",
+        "option": "Postman",
+        "missing_tokens": [],
+        "reason": "flags 显示全列等于选项文本",
+        "year": 2023
+      },
+      {
+        "column": "documentation.tool.Swagger (OpenAPI)",
+        "kind": "multi_option",
+        "group": "documentation.tool",
+        "option": "Swagger (OpenAPI)",
+        "missing_tokens": [],
+        "reason": "flags 显示全列等于选项文本",
+        "year": 2023
+      },
+      {
+        "column": "documentation.tool.MKDocs",
+        "kind": "multi_option",
+        "group": "documentation.tool",
+        "option": "MKDocs",
+        "missing_tokens": [],
+        "reason": "flags 显示全列等于选项文本",
+        "year": 2023
+      },
+      {
+        "column": "documentation.tool.Doxygen",
+        "kind": "multi_option",
+        "group": "documentation.tool",
+        "option": "Doxygen",
+        "missing_tokens": [],
+        "reason": "flags 显示全列等于选项文本",
+        "year": 2023
+      },
+      {
+        "column": "documentation.tool.Other systems, please specify",
+        "kind": "free_text",
+        "group": "documentation.tool",
+        "option": "",
+        "missing_tokens": [],
+        "reason": "value_shape 注明为自由文本",
+        "year": 2023
+      },
+      {
+        "column": "documentation.tool.rST",
+        "kind": "multi_option",
+        "group": "documentation.tool",
+        "option": "rST",
+        "missing_tokens": [],
+        "reason": "flags 显示全列等于选项文本",
+        "year": 2023
+      },
+      {
+        "column": "documentation.tool.Markdown",
+        "kind": "multi_option",
+        "group": "documentation.tool",
+        "option": "Markdown",
+        "missing_tokens": [],
+        "reason": "flags 显示全列等于选项文本",
+        "year": 2023
+      },
+      {
+        "column": "documentation.tool.Other language, please specify",
+        "kind": "free_text",
+        "group": "documentation.tool",
+        "option": "",
+        "missing_tokens": [],
+        "reason": "value_shape 注明为自由文本",
+        "year": 2023
+      },
+      {
+        "column": "ide.main",
+        "kind": "single_choice",
+        "group": "ide",
+        "option": "Visual Studio Code, PyCharm Professional Edition, PyCharm Community Edition, None, Neovim, Vim",
+        "missing_tokens": [],
+        "reason": "n_unique 为 21 且 top 包含多个选项",
+        "year": 2023
+      },
+      {
+        "column": "vscode.wrangler",
+        "kind": "multi_option",
+        "group": "vscode.wrangler",
+        "option": "No, I'm not sure, Yes",
+        "missing_tokens": [],
+        "reason": "top 显示三个选项且非 binary_like",
+        "year": 2023
+      },
+      {
+        "column": "jupyter.vscode",
+        "kind": "multi_option",
+        "group": "jupyter.vscode",
+        "option": "Yes, No",
+        "missing_tokens": [],
+        "reason": "top 显示两个选项且非 binary_like",
+        "year": 2023
+      },
+      {
+        "column": "jupyter.intellij",
+        "kind": "multi_option",
+        "group": "jupyter.intellij",
+        "option": "No, Yes",
+        "missing_tokens": [],
+        "reason": "top 显示两个选项且非 binary_like",
+        "year": 2023
+      },
+      {
+        "column": "jupyter.pycharm",
+        "kind": "multi_option",
+        "group": "jupyter.pycharm",
+        "option": "No, Yes",
+        "missing_tokens": [],
+        "reason": "top 显示两个选项且非 binary_like",
+        "year": 2023
+      },
+      {
+        "column": "jupyter.dataspell",
+        "kind": "multi_option",
+        "group": "jupyter.dataspell",
+        "option": "Yes, No",
+        "missing_tokens": [],
+        "reason": "top 显示两个选项且非 binary_like",
+        "year": 2023
+      },
+      {
+        "column": "ide.editor.None",
+        "kind": "multi_option",
+        "group": "ide.editor",
+        "option": "None",
+        "missing_tokens": [],
+        "reason": "flags 显示全列等于选项文本",
+        "year": 2023
+      },
+      {
+        "column": "ide.editor.PyCharm Professional Edition",
+        "kind": "multi_option",
+        "group": "ide.editor",
+        "option": "PyCharm Professional Edition",
+        "missing_tokens": [],
+        "reason": "flags 显示全列等于选项文本",
+        "year": 2023
+      }
+    ]
+  }
+}

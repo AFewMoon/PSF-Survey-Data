@@ -1,0 +1,185 @@
+{
+  "stage": "clean_semantics",
+  "model": "qwen3.5:4b",
+  "model_digest": "d8b0f5e9760cd168",
+  "prompt_version": "clean-semantics-v2",
+  "input_hash": "304df4c3254b3a0b48d4c395271748eb",
+  "created_at": "2026-10-23T18:58:25",
+  "duration_s": 9.95,
+  "output_tokens": 754,
+  "fallback": false,
+  "error": "",
+  "manual_edit": false,
+  "reviewed": false,
+  "payload_summary": {
+    "year": 2022,
+    "batch": "packages.install.from.From Linux distribution…app.publish.where.Private Python Package Index",
+    "n": 18
+  },
+  "response": {
+    "columns": [
+      {
+        "column": "packages.install.from.From Linux distribution",
+        "kind": "multi_option",
+        "group": "packages.install.from",
+        "option": "From Linux distribution",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列等于列名",
+        "year": 2022
+      },
+      {
+        "column": "packages.install.from.Other",
+        "kind": "multi_option",
+        "group": "packages.install.from",
+        "option": "Other",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列等于列名",
+        "year": 2022
+      },
+      {
+        "column": "app.do",
+        "kind": "single_choice",
+        "group": "app.do",
+        "option": "",
+        "missing_tokens": [],
+        "reason": "flags 含 numeric_like 且为 Yes/No 单选",
+        "year": 2022
+      },
+      {
+        "column": "app.tools.None / I'm not sure",
+        "kind": "multi_option",
+        "group": "app.tools",
+        "option": "None / I'm not sure",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列等于列名",
+        "year": 2022
+      },
+      {
+        "column": "app.tools.Setuptools",
+        "kind": "multi_option",
+        "group": "app.tools",
+        "option": "Setuptools",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列等于列名",
+        "year": 2022
+      },
+      {
+        "column": "app.tools.build",
+        "kind": "multi_option",
+        "group": "app.tools",
+        "option": "build",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列等于列名",
+        "year": 2022
+      },
+      {
+        "column": "app.tools.Wheel",
+        "kind": "multi_option",
+        "group": "app.tools",
+        "option": "Wheel",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列等于列名",
+        "year": 2022
+      },
+      {
+        "column": "app.tools.Enscons",
+        "kind": "multi_option",
+        "group": "app.tools",
+        "option": "Enscons",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列等于列名",
+        "year": 2022
+      },
+      {
+        "column": "app.tools.pex",
+        "kind": "multi_option",
+        "group": "app.tools",
+        "option": "pex",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列等于列名",
+        "year": 2022
+      },
+      {
+        "column": "app.tools.Flit",
+        "kind": "multi_option",
+        "group": "app.tools",
+        "option": "Flit",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列等于列名",
+        "year": 2022
+      },
+      {
+        "column": "app.tools.Poetry",
+        "kind": "multi_option",
+        "group": "app.tools",
+        "option": "Poetry",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列等于列名",
+        "year": 2022
+      },
+      {
+        "column": "app.tools.conda-build",
+        "kind": "multi_option",
+        "group": "app.tools",
+        "option": "conda-build",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列等于列名",
+        "year": 2022
+      },
+      {
+        "column": "app.tools.maturin",
+        "kind": "multi_option",
+        "group": "app.tools",
+        "option": "maturin",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列等于列名",
+        "year": 2022
+      },
+      {
+        "column": "app.tools.PDM-PEP517",
+        "kind": "multi_option",
+        "group": "app.tools",
+        "option": "PDM-PEP517",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列等于列名",
+        "year": 2022
+      },
+      {
+        "column": "app.tools.Other",
+        "kind": "multi_option",
+        "group": "app.tools",
+        "option": "Other",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列等于列名",
+        "year": 2022
+      },
+      {
+        "column": "app.publish",
+        "kind": "single_choice",
+        "group": "app.publish",
+        "option": "",
+        "missing_tokens": [],
+        "reason": "flags 含 numeric_like 且为 Yes/No 单选",
+        "year": 2022
+      },
+      {
+        "column": "app.publish.where.PyPI",
+        "kind": "multi_option",
+        "group": "app.publish.where",
+        "option": "PyPI",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列等于列名",
+        "year": 2022
+      },
+      {
+        "column": "app.publish.where.Private Python Package Index",
+        "kind": "multi_option",
+        "group": "app.publish.where",
+        "option": "Private Python Package Index",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列等于列名",
+        "year": 2022
+      }
+    ]
+  }
+}

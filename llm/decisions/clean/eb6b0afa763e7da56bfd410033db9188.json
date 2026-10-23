@@ -1,0 +1,68 @@
+{
+  "stage": "clean_semantics",
+  "model": "qwen3.5:4b",
+  "model_digest": "d8b0f5e9760cd168",
+  "prompt_version": "clean-semantics-v2",
+  "input_hash": "eb6b0afa763e7da56bfd410033db9188",
+  "created_at": "2026-10-23T19:04:14",
+  "duration_s": 3.12,
+  "output_tokens": 221,
+  "fallback": false,
+  "error": "",
+  "manual_edit": false,
+  "reviewed": false,
+  "payload_summary": {
+    "year": 2023,
+    "batch": "job.role.Systems analyst…country",
+    "n": 5
+  },
+  "response": {
+    "columns": [
+      {
+        "column": "job.role.Systems analyst",
+        "kind": "multi_option",
+        "group": "job.role",
+        "option": "Systems analyst",
+        "missing_tokens": [],
+        "reason": "flags 显示全列等于选项文本，确认为多选题选项列",
+        "year": 2023
+      },
+      {
+        "column": "job.role.Other",
+        "kind": "multi_option",
+        "group": "job.role",
+        "option": "Other",
+        "missing_tokens": [],
+        "reason": "flags 显示全列等于选项文本，确认为多选题选项列",
+        "year": 2023
+      },
+      {
+        "column": "age",
+        "kind": "numeric",
+        "group": "demographics.age",
+        "option": "",
+        "missing_tokens": [],
+        "reason": "虽含连字符但数值型，且 flags 提示为数字，视为数值型答案",
+        "year": 2023
+      },
+      {
+        "column": "gender",
+        "kind": "multi_option",
+        "group": "demographics.gender",
+        "option": "Male",
+        "missing_tokens": [],
+        "reason": "flags 未显示 multi_like，但选项为离散类别，判定为多选题选项列",
+        "year": 2023
+      },
+      {
+        "column": "country",
+        "kind": "multi_option",
+        "group": "demographics.country",
+        "option": "United States",
+        "missing_tokens": [],
+        "reason": "flags 未显示 multi_like，但选项为离散类别，判定为多选题选项列",
+        "year": 2023
+      }
+    ]
+  }
+}

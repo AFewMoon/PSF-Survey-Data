@@ -1,0 +1,281 @@
+{
+  "stage": "group_path",
+  "model": "qwen3.5:4b",
+  "model_digest": "d8b0f5e9760cd168",
+  "prompt_version": "group-path-v1",
+  "input_hash": "f4a360ed61b0580ac369f6764d4e778b",
+  "created_at": "2026-10-23T19:19:32",
+  "duration_s": 16.0,
+  "output_tokens": 1235,
+  "fallback": false,
+  "error": "",
+  "manual_edit": false,
+  "reviewed": false,
+  "payload_summary": {
+    "n_groups": 52
+  },
+  "response": {
+    "groups": [
+      {
+        "name": "ml.deployment",
+        "canonical": "ml.deployment",
+        "reason": "已是标准形式，无需调整。"
+      },
+      {
+        "name": "ml.training",
+        "canonical": "ml.training",
+        "reason": "已是标准形式，无需调整。"
+      },
+      {
+        "name": "monorepo",
+        "canonical": "monorepo",
+        "reason": "已是标准形式，无需调整。"
+      },
+      {
+        "name": "most.of.the.time.do.you",
+        "canonical": "most.of.the.time.do.you",
+        "reason": "已是标准形式，无需调整。"
+      },
+      {
+        "name": "nps.main.ide",
+        "canonical": "nps.main.ide",
+        "reason": "已是标准形式，无需调整。"
+      },
+      {
+        "name": "opensource",
+        "canonical": "opensource",
+        "reason": "已是标准形式，无需调整。"
+      },
+      {
+        "name": "opensource.description",
+        "canonical": "opensource.description",
+        "reason": "已是标准形式，无需调整。"
+      },
+      {
+        "name": "orm",
+        "canonical": "orm",
+        "reason": "已是标准形式，无需调整。"
+      },
+      {
+        "name": "other.-.write.in",
+        "canonical": "other.write.in",
+        "reason": "移除多余点号，统一格式。"
+      },
+      {
+        "name": "other.-.write.in.what.data.science.framework.s.do.you.use.in.addition.to.python",
+        "canonical": "other.write.in.what.data.science.frameworks.do.you.use.in.addition.to.python",
+        "reason": "移除多余点号，统一格式。"
+      },
+      {
+        "name": "other.frameworks",
+        "canonical": "other.frameworks",
+        "reason": "已是标准形式，无需调整。"
+      },
+      {
+        "name": "other.lang",
+        "canonical": "other.lang",
+        "reason": "已是标准形式，无需调整。"
+      },
+      {
+        "name": "other.purposes",
+        "canonical": "other.purposes",
+        "reason": "已是标准形式，无需调整。"
+      },
+      {
+        "name": "other.write.in.what.editors.ides.do.you.use.for.python.development.in.addition.to.your.primary.ide",
+        "canonical": "other.write.in.what.editors.ides.do.you.use.for.python.development.in.addition.to.your.primary.ide",
+        "reason": "已是标准形式，无需调整。"
+      },
+      {
+        "name": "other.write.in.what.web.frameworks.libraries.do.you.use.in.addition.to.python",
+        "canonical": "other.write.in.what.web.frameworks.libraries.do.you.use.in.addition.to.python",
+        "reason": "已是标准形式，无需调整。"
+      },
+      {
+        "name": "packages.install",
+        "canonical": "packages.install",
+        "reason": "已是标准形式，无需调整。"
+      },
+      {
+        "name": "packages.install.from",
+        "canonical": "packages.install.from",
+        "reason": "已是标准形式，无需调整。"
+      },
+      {
+        "name": "packaging.tools",
+        "canonical": "packaging.tools",
+        "reason": "已是标准形式，无需调整。"
+      },
+      {
+        "name": "purposes.python",
+        "canonical": "purposes.python",
+        "reason": "已是标准形式，无需调整。"
+      },
+      {
+        "name": "purposes.python.graphics",
+        "canonical": "purposes.python.graphics",
+        "reason": "已是标准形式，无需调整。"
+      },
+      {
+        "name": "python",
+        "canonical": "python",
+        "reason": "已是标准形式，无需调整。"
+      },
+      {
+        "name": "python.version",
+        "canonical": "python.version",
+        "reason": "已是标准形式，无需调整。"
+      },
+      {
+        "name": "python.version.most",
+        "canonical": "python.version.most",
+        "reason": "已是标准形式，无需调整。"
+      },
+      {
+        "name": "python.version.upgrade",
+        "canonical": "python.version.upgrade",
+        "reason": "已是标准形式，无需调整。"
+      },
+      {
+        "name": "python.version.why",
+        "canonical": "python.version.why",
+        "reason": "已是标准形式，无需调整。"
+      },
+      {
+        "name": "python.years",
+        "canonical": "python.years",
+        "reason": "已是标准形式，无需调整。"
+      },
+      {
+        "name": "python2.version",
+        "canonical": "python2.version",
+        "reason": "已是标准形式，无需调整。"
+      },
+      {
+        "name": "python2.version.most",
+        "canonical": "python2.version.most",
+        "reason": "已是标准形式，无需调整。"
+      },
+      {
+        "name": "python3.version",
+        "canonical": "python3.version",
+        "reason": "已是标准形式，无需调整。"
+      },
+      {
+        "name": "python3.version.most",
+        "canonical": "python3.version.most",
+        "reason": "已是标准形式，无需调整。"
+      },
+      {
+        "name": "region",
+        "canonical": "region",
+        "reason": "已是标准形式，无需调整。"
+      },
+      {
+        "name": "response_id",
+        "canonical": "response_id",
+        "reason": "已是标准形式，无需调整。"
+      },
+      {
+        "name": "role.architect",
+        "canonical": "role.architect",
+        "reason": "已是标准形式，无需调整。"
+      },
+      {
+        "name": "role.other",
+        "canonical": "role.other",
+        "reason": "已是标准形式，无需调整。"
+      },
+      {
+        "name": "run.in.cloud",
+        "canonical": "run.in.cloud",
+        "reason": "已是标准形式，无需调整。"
+      },
+      {
+        "name": "several",
+        "canonical": "several",
+        "reason": "已是标准形式，无需调整。"
+      },
+      {
+        "name": "several.projects",
+        "canonical": "several.projects",
+        "reason": "已是标准形式，无需调整。"
+      },
+      {
+        "name": "team",
+        "canonical": "team",
+        "reason": "已是标准形式，无需调整。"
+      },
+      {
+        "name": "team.size",
+        "canonical": "team.size",
+        "reason": "已是标准形式，无需调整。"
+      },
+      {
+        "name": "training.platforms",
+        "canonical": "training.platforms",
+        "reason": "已是标准形式，无需调整。"
+      },
+      {
+        "name": "trusted",
+        "canonical": "trusted",
+        "reason": "已是标准形式，无需调整。"
+      },
+      {
+        "name": "unittesting",
+        "canonical": "unittesting",
+        "reason": "已是标准形式，无需调整。"
+      },
+      {
+        "name": "use.python",
+        "canonical": "use.python",
+        "reason": "已是标准形式，无需调整。"
+      },
+      {
+        "name": "use.python.most",
+        "canonical": "use.python.most",
+        "reason": "已是标准形式，无需调整。"
+      },
+      {
+        "name": "used.tools",
+        "canonical": "used.tools",
+        "reason": "已是标准形式，无需调整。"
+      },
+      {
+        "name": "venv",
+        "canonical": "venv",
+        "reason": "已是标准形式，无需调整。"
+      },
+      {
+        "name": "versioning.tools",
+        "canonical": "versioning.tools",
+        "reason": "已是标准形式，无需调整。"
+      },
+      {
+        "name": "vscode",
+        "canonical": "vscode",
+        "reason": "已是标准形式，无需调整。"
+      },
+      {
+        "name": "web.frameworks",
+        "canonical": "web.frameworks",
+        "reason": "已是标准形式，无需调整。"
+      },
+      {
+        "name": "work.pattern",
+        "canonical": "work.pattern",
+        "reason": "已是标准形式，无需调整。"
+      },
+      {
+        "name": "years.of",
+        "canonical": "years.of",
+        "reason": "已是标准形式，无需调整。"
+      },
+      {
+        "name": "years.of.coding",
+        "canonical": "years.of.coding",
+        "reason": "已是标准形式，无需调整。"
+      }
+    ]
+  }
+}

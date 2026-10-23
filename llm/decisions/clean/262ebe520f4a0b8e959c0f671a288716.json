@@ -1,0 +1,176 @@
+{
+  "stage": "clean_semantics",
+  "model": "qwen3.5:4b",
+  "model_digest": "d8b0f5e9760cd168",
+  "prompt_version": "clean-semantics-v2",
+  "input_hash": "262ebe520f4a0b8e959c0f671a288716",
+  "created_at": "2026-10-23T18:46:25",
+  "duration_s": 12.52,
+  "output_tokens": 949,
+  "fallback": false,
+  "error": "",
+  "manual_edit": false,
+  "reviewed": false,
+  "payload_summary": {
+    "year": 2020,
+    "batch": "how.involved.Programming of web parsers / scrapers / crawlers…python.version.upgrade.Intel Distribution for Python",
+    "n": 18
+  },
+  "response": {
+    "columns": [
+      {
+        "column": "how.involved.Programming of web parsers / scrapers / crawlers",
+        "kind": "multi_option",
+        "group": "how.involved.Programming of web parsers / scrapers / crawlers",
+        "option": "secondary activity",
+        "missing_tokens": [],
+        "reason": "flags 显示全列恒等于选项文本，判定为 multi_option",
+        "year": 2020
+      },
+      {
+        "column": "how.involved.Embedded development",
+        "kind": "multi_option",
+        "group": "how.involved.Embedded development",
+        "option": "primary activity",
+        "missing_tokens": [],
+        "reason": "flags 显示全列恒等于选项文本，判定为 multi_option",
+        "year": 2020
+      },
+      {
+        "column": "how.involved.Mobile development",
+        "kind": "multi_option",
+        "group": "how.involved.Mobile development",
+        "option": "primary activity",
+        "missing_tokens": [],
+        "reason": "flags 显示全列恒等于选项文本，判定为 multi_option",
+        "year": 2020
+      },
+      {
+        "column": "how.involved.Game development",
+        "kind": "multi_option",
+        "group": "how.involved.Game development",
+        "option": "hobby",
+        "missing_tokens": [],
+        "reason": "flags 显示全列恒等于选项文本，判定为 multi_option",
+        "year": 2020
+      },
+      {
+        "column": "how.involved.Multimedia applications development",
+        "kind": "multi_option",
+        "group": "how.involved.Multimedia applications development",
+        "option": "hobby",
+        "missing_tokens": [],
+        "reason": "flags 显示全列恒等于选项文本，判定为 multi_option",
+        "year": 2020
+      },
+      {
+        "column": "use.python.most",
+        "kind": "multi_option",
+        "group": "use.python.most",
+        "option": "Web development",
+        "missing_tokens": [],
+        "reason": "flags 显示全列恒等于选项文本，判定为 multi_option",
+        "year": 2020
+      },
+      {
+        "column": "are.you.datascientist",
+        "kind": "multi_option",
+        "group": "are.you.datascientist",
+        "option": "No",
+        "missing_tokens": [],
+        "reason": "flags 显示全列恒等于选项文本，判定为 multi_option",
+        "year": 2020
+      },
+      {
+        "column": "python.version.most",
+        "kind": "multi_option",
+        "group": "python.version.most",
+        "option": "Python 3",
+        "missing_tokens": [],
+        "reason": "flags 显示全列恒等于选项文本，判定为 multi_option",
+        "year": 2020
+      },
+      {
+        "column": "python2.version.most",
+        "kind": "multi_option",
+        "group": "python2.version.most",
+        "option": "Python 2_7",
+        "missing_tokens": [],
+        "reason": "flags 显示全列恒等于选项文本，判定为 multi_option",
+        "year": 2020
+      },
+      {
+        "column": "python3.version.most",
+        "kind": "multi_option",
+        "group": "python3.version.most",
+        "option": "Python 3_8",
+        "missing_tokens": [],
+        "reason": "flags 显示全列恒等于选项文本，判定为 multi_option",
+        "year": 2020
+      },
+      {
+        "column": "python.version.upgrade.Somebody else manages Python updates for me",
+        "kind": "multi_option",
+        "group": "python.version.upgrade.Somebody else manages Python updates for me",
+        "option": "Somebody else manages Python updates for me",
+        "missing_tokens": [],
+        "reason": "flags 显示全列恒等于选项文本，判定为 multi_option",
+        "year": 2020
+      },
+      {
+        "column": "python.version.upgrade.Python_org",
+        "kind": "multi_option",
+        "group": "python.version.upgrade.Python_org",
+        "option": "Python_org",
+        "missing_tokens": [],
+        "reason": "flags 显示全列恒等于选项文本，判定为 multi_option",
+        "year": 2020
+      },
+      {
+        "column": "python.version.upgrade.Build from source",
+        "kind": "multi_option",
+        "group": "python.version.upgrade.Build from source",
+        "option": "Build from source",
+        "missing_tokens": [],
+        "reason": "flags 显示全列恒等于选项文本，判定为 multi_option",
+        "year": 2020
+      },
+      {
+        "column": "python.version.upgrade.Automatic upgrade via cloud provider",
+        "kind": "multi_option",
+        "group": "python.version.upgrade.Automatic upgrade via cloud provider",
+        "option": "Automatic upgrade via cloud provider",
+        "missing_tokens": [],
+        "reason": "flags 显示全列恒等于选项文本，判定为 multi_option",
+        "year": 2020
+      },
+      {
+        "column": "python.version.upgrade.Anaconda",
+        "kind": "multi_option",
+        "group": "python.version.upgrade.Anaconda",
+        "option": "Anaconda",
+        "missing_tokens": [],
+        "reason": "flags 显示全列恒等于选项文本，判定为 multi_option",
+        "year": 2020
+      },
+      {
+        "column": "python.version.upgrade.ActivePython",
+        "kind": "multi_option",
+        "group": "python.version.upgrade.ActivePython",
+        "option": "ActivePython",
+        "missing_tokens": [],
+        "reason": "flags 显示全列恒等于选项文本，判定为 multi_option",
+        "year": 2020
+      },
+      {
+        "column": "python.version.upgrade.Intel Distribution for Python",
+        "kind": "multi_option",
+        "group": "python.version.upgrade.Intel Distribution for Python",
+        "option": "Intel Distribution for Python",
+        "missing_tokens": [],
+        "reason": "flags 显示全列恒等于选项文本，判定为 multi_option",
+        "year": 2020
+      }
+    ]
+  }
+}

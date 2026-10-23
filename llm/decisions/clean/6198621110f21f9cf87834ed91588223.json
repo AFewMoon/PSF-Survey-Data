@@ -1,0 +1,185 @@
+{
+  "stage": "clean_semantics",
+  "model": "qwen3.5:4b",
+  "model_digest": "d8b0f5e9760cd168",
+  "prompt_version": "clean-semantics-v2",
+  "input_hash": "6198621110f21f9cf87834ed91588223",
+  "created_at": "2026-10-23T18:35:20",
+  "duration_s": 10.56,
+  "output_tokens": 813,
+  "fallback": false,
+  "error": "",
+  "manual_edit": false,
+  "reviewed": false,
+  "payload_summary": {
+    "year": 2024,
+    "batch": "database.ClickHouse…ci.Azure DevOps",
+    "n": 18
+  },
+  "response": {
+    "columns": [
+      {
+        "column": "database.ClickHouse",
+        "kind": "multi_option",
+        "group": "database.ClickHouse",
+        "option": "ClickHouse",
+        "missing_tokens": [],
+        "reason": "全列值等于列名，符合 multi_like 特征",
+        "year": 2024
+      },
+      {
+        "column": "database.Apache Pinot",
+        "kind": "multi_option",
+        "group": "database.Apache Pinot",
+        "option": "Apache Pinot",
+        "missing_tokens": [],
+        "reason": "全列值等于列名，符合 multi_like 特征",
+        "year": 2024
+      },
+      {
+        "column": "database.Apache Druid",
+        "kind": "multi_option",
+        "group": "database.Apache Druid",
+        "option": "Apache Druid",
+        "missing_tokens": [],
+        "reason": "全列值等于列名，符合 multi_like 特征",
+        "year": 2024
+      },
+      {
+        "column": "database.Spanner",
+        "kind": "multi_option",
+        "group": "database.Spanner",
+        "option": "Spanner",
+        "missing_tokens": [],
+        "reason": "全列值等于列名，符合 multi_like 特征",
+        "year": 2024
+      },
+      {
+        "column": "database.Firebase Realtime Database",
+        "kind": "multi_option",
+        "group": "database.Firebase Realtime Database",
+        "option": "Firebase Realtime Database",
+        "missing_tokens": [],
+        "reason": "全列值等于列名，符合 multi_like 特征",
+        "year": 2024
+      },
+      {
+        "column": "database.Other",
+        "kind": "multi_option",
+        "group": "database.Other",
+        "option": "Other",
+        "missing_tokens": [],
+        "reason": "全列值等于列名，符合 multi_like 特征",
+        "year": 2024
+      },
+      {
+        "column": "bigdata.work",
+        "kind": "single_choice",
+        "group": "bigdata.work",
+        "option": "No,Yes,Tough to say",
+        "missing_tokens": [],
+        "reason": "多值但非全列一致，且非程度网格，视为单选",
+        "year": 2024
+      },
+      {
+        "column": "bigdata.PySpark",
+        "kind": "multi_option",
+        "group": "bigdata.PySpark",
+        "option": "PySpark",
+        "missing_tokens": [],
+        "reason": "全列值等于列名，符合 multi_like 特征",
+        "year": 2024
+      },
+      {
+        "column": "bigdata.PyFlink",
+        "kind": "multi_option",
+        "group": "bigdata.PyFlink",
+        "option": "PyFlink",
+        "missing_tokens": [],
+        "reason": "全列值等于列名，符合 multi_like 特征",
+        "year": 2024
+      },
+      {
+        "column": "bigdata.Great Expectations",
+        "kind": "multi_option",
+        "group": "bigdata.Great Expectations",
+        "option": "Great Expectations",
+        "missing_tokens": [],
+        "reason": "全列值等于列名，符合 multi_like 特征",
+        "year": 2024
+      },
+      {
+        "column": "bigdata.PyDeequ",
+        "kind": "multi_option",
+        "group": "bigdata.PyDeequ",
+        "option": "PyDeequ",
+        "missing_tokens": [],
+        "reason": "全列值等于列名，符合 multi_like 特征",
+        "year": 2024
+      },
+      {
+        "column": "bigdata.Other",
+        "kind": "multi_option",
+        "group": "bigdata.Other",
+        "option": "Other",
+        "missing_tokens": [],
+        "reason": "全列值等于列名，符合 multi_like 特征",
+        "year": 2024
+      },
+      {
+        "column": "bigdata.None",
+        "kind": "multi_option",
+        "group": "bigdata.None",
+        "option": "None",
+        "missing_tokens": [],
+        "reason": "全列值等于列名，符合 multi_like 特征",
+        "year": 2024
+      },
+      {
+        "column": "bigdata.solution",
+        "kind": "single_choice",
+        "group": "bigdata.solution",
+        "option": "Cloud,Self-hosted,Both,None",
+        "missing_tokens": [],
+        "reason": "多值但非全列一致，且非程度网格，视为单选",
+        "year": 2024
+      },
+      {
+        "column": "ci.None",
+        "kind": "multi_option",
+        "group": "ci.None",
+        "option": "None",
+        "missing_tokens": [],
+        "reason": "全列值等于列名，符合 multi_like 特征",
+        "year": 2024
+      },
+      {
+        "column": "ci.AppVeyor",
+        "kind": "multi_option",
+        "group": "ci.AppVeyor",
+        "option": "AppVeyor",
+        "missing_tokens": [],
+        "reason": "全列值等于列名，符合 multi_like 特征",
+        "year": 2024
+      },
+      {
+        "column": "ci.AWS CodePipeline / AWS CodeStar",
+        "kind": "multi_option",
+        "group": "ci.AWS CodePipeline / AWS CodeStar",
+        "option": "AWS CodePipeline / AWS CodeStar",
+        "missing_tokens": [],
+        "reason": "全列值等于列名，符合 multi_like 特征",
+        "year": 2024
+      },
+      {
+        "column": "ci.Azure DevOps",
+        "kind": "multi_option",
+        "group": "ci.Azure DevOps",
+        "option": "Azure DevOps",
+        "missing_tokens": [],
+        "reason": "全列值等于列名，符合 multi_like 特征",
+        "year": 2024
+      }
+    ]
+  }
+}

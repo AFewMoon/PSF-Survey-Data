@@ -1,0 +1,281 @@
+{
+  "stage": "group_path",
+  "model": "qwen3.5:4b",
+  "model_digest": "d8b0f5e9760cd168",
+  "prompt_version": "group-path-v1",
+  "input_hash": "7c654528e1dbfaa9157d7e58a300e9d7",
+  "created_at": "2026-10-23T19:07:17",
+  "duration_s": 15.66,
+  "output_tokens": 1145,
+  "fallback": false,
+  "error": "",
+  "manual_edit": false,
+  "reviewed": false,
+  "payload_summary": {
+    "n_groups": 53
+  },
+  "response": {
+    "groups": [
+      {
+        "name": "age",
+        "canonical": "age",
+        "reason": "已是标准形式，无需修改"
+      },
+      {
+        "name": "ai.tools.coding",
+        "canonical": "ai.tools.coding",
+        "reason": "已是标准形式，无需修改"
+      },
+      {
+        "name": "app.do",
+        "canonical": "app.do",
+        "reason": "已是标准形式，无需修改"
+      },
+      {
+        "name": "app.publish",
+        "canonical": "app.publish",
+        "reason": "已是标准形式，无需修改"
+      },
+      {
+        "name": "app.publish.where",
+        "canonical": "app.publish.where",
+        "reason": "已是标准形式，无需修改"
+      },
+      {
+        "name": "app.tools",
+        "canonical": "app.tools",
+        "reason": "已是标准形式，无需修改"
+      },
+      {
+        "name": "are.you",
+        "canonical": "are.you",
+        "reason": "已是标准形式，无需修改"
+      },
+      {
+        "name": "are.you.datascientist",
+        "canonical": "are.you.datascientist",
+        "reason": "已是标准形式，无需修改"
+      },
+      {
+        "name": "bi.solutions",
+        "canonical": "bi.solutions",
+        "reason": "已是标准形式，无需修改"
+      },
+      {
+        "name": "bigdata",
+        "canonical": "bigdata",
+        "reason": "已是标准形式，无需修改"
+      },
+      {
+        "name": "bigdata.solution",
+        "canonical": "bigdata.solution",
+        "reason": "已是标准形式，无需修改"
+      },
+      {
+        "name": "bigdata.work",
+        "canonical": "bigdata.work",
+        "reason": "已是标准形式，无需修改"
+      },
+      {
+        "name": "binary.modules.creation",
+        "canonical": "binary.modules.creation",
+        "reason": "已是标准形式，无需修改"
+      },
+      {
+        "name": "binary.modules.language",
+        "canonical": "binary.modules.language",
+        "reason": "已是标准形式，无需修改"
+      },
+      {
+        "name": "cherrypy.what.web.frameworks.libraries.do.you.use.in.addition.to.python",
+        "canonical": "cherrypy.what.web.frameworks.libraries.do.you.use.in.addition.to.python",
+        "reason": "已是标准形式，无需修改"
+      },
+      {
+        "name": "ci",
+        "canonical": "ci",
+        "reason": "已是标准形式，无需修改"
+      },
+      {
+        "name": "cloud.execution",
+        "canonical": "cloud.execution",
+        "reason": "已是标准形式，无需修改"
+      },
+      {
+        "name": "cloud.platform",
+        "canonical": "cloud.platform",
+        "reason": "已是标准形式，无需修改"
+      },
+      {
+        "name": "cloud.platforms",
+        "canonical": "cloud.platforms",
+        "reason": "已是标准形式，无需修改"
+      },
+      {
+        "name": "collaborative",
+        "canonical": "collaborative",
+        "reason": "已是标准形式，无需修改"
+      },
+      {
+        "name": "collaborative.development",
+        "canonical": "collaborative.development",
+        "reason": "已是标准形式，无需修改"
+      },
+      {
+        "name": "communicate.channels",
+        "canonical": "communicate.channels",
+        "reason": "已是标准形式，无需修改"
+      },
+      {
+        "name": "company",
+        "canonical": "company",
+        "reason": "已是标准形式，无需修改"
+      },
+      {
+        "name": "company.develop",
+        "canonical": "company.develop",
+        "reason": "已是标准形式，无需修改"
+      },
+      {
+        "name": "company.industry",
+        "canonical": "company.industry",
+        "reason": "已是标准形式，无需修改"
+      },
+      {
+        "name": "company.size",
+        "canonical": "company.size",
+        "reason": "已是标准形式，无需修改"
+      },
+      {
+        "name": "computer.graphics",
+        "canonical": "computer.graphics",
+        "reason": "已是标准形式，无需修改"
+      },
+      {
+        "name": "configuration.management",
+        "canonical": "configuration.management",
+        "reason": "已是标准形式，无需修改"
+      },
+      {
+        "name": "country",
+        "canonical": "country",
+        "reason": "已是标准形式，无需修改"
+      },
+      {
+        "name": "dashboard.creation",
+        "canonical": "dashboard.creation",
+        "reason": "已是标准形式，无需修改"
+      },
+      {
+        "name": "dashboard.libraries",
+        "canonical": "dashboard.libraries",
+        "reason": "已是标准形式，无需修改"
+      },
+      {
+        "name": "data.analysis",
+        "canonical": "data.analysis",
+        "reason": "已是标准形式，无需修改"
+      },
+      {
+        "name": "data.exploration",
+        "canonical": "data.exploration",
+        "reason": "已是标准形式，无需修改"
+      },
+      {
+        "name": "data.frameworks",
+        "canonical": "data.frameworks",
+        "reason": "已是标准形式，无需修改"
+      },
+      {
+        "name": "database",
+        "canonical": "database",
+        "reason": "已是标准形式，无需修改"
+      },
+      {
+        "name": "databases",
+        "canonical": "databases",
+        "reason": "已是标准形式，无需修改"
+      },
+      {
+        "name": "demographics.age",
+        "canonical": "demographics.age",
+        "reason": "已是标准形式，无需修改"
+      },
+      {
+        "name": "demographics.country",
+        "canonical": "demographics.country",
+        "reason": "已是标准形式，无需修改"
+      },
+      {
+        "name": "dependency",
+        "canonical": "dependency",
+        "reason": "已是标准形式，无需修改"
+      },
+      {
+        "name": "dependency.store",
+        "canonical": "dependency.store",
+        "reason": "已是标准形式，无需修改"
+      },
+      {
+        "name": "dependency.tools",
+        "canonical": "dependency.tools",
+        "reason": "已是标准形式，无需修改"
+      },
+      {
+        "name": "dependency.update",
+        "canonical": "dependency.update",
+        "reason": "已是标准形式，无需修改"
+      },
+      {
+        "name": "deployment.tools",
+        "canonical": "deployment.tools",
+        "reason": "已是标准形式，无需修改"
+      },
+      {
+        "name": "desktop.development",
+        "canonical": "desktop.development",
+        "reason": "已是标准形式，无需修改"
+      },
+      {
+        "name": "dev.in.residence",
+        "canonical": "dev.in.residence",
+        "reason": "已是标准形式，无需修改"
+      },
+      {
+        "name": "develop.for.cloud",
+        "canonical": "develop.for.cloud",
+        "reason": "已是标准形式，无需修改"
+      },
+      {
+        "name": "devenv.os",
+        "canonical": "devenv.os",
+        "reason": "已是标准形式，无需修改"
+      },
+      {
+        "name": "devops.system.administration.writing.automation.scripts",
+        "canonical": "devops.system.administration.writing.automation.scripts",
+        "reason": "已是标准形式，无需修改"
+      },
+      {
+        "name": "documentation.tool",
+        "canonical": "documentation.tool",
+        "reason": "已是标准形式，无需修改"
+      },
+      {
+        "name": "documentation.tool.Other systems, please specify",
+        "canonical": "documentation.tool.other.systems",
+        "reason": "简化为通用主题，去除冗余描述"
+      },
+      {
+        "name": "educational.purposes",
+        "canonical": "educational.purposes",
+        "reason": "已是标准形式，无需修改"
+      },
+      {
+        "name": "embedded.development",
+        "canonical": "embedded.development",
+        "reason": "已是标准形式，无需修改"
+      }
+    ]
+  }
+}

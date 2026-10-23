@@ -1,0 +1,187 @@
+{
+  "stage": "clean_semantics",
+  "model": "qwen3.5:4b",
+  "model_digest": "d8b0f5e9760cd168",
+  "prompt_version": "clean-semantics-v2",
+  "input_hash": "42f56c7033ef31be98305cc766653d88",
+  "created_at": "2026-10-23T19:02:02",
+  "duration_s": 11.13,
+  "output_tokens": 839,
+  "fallback": false,
+  "error": "",
+  "manual_edit": false,
+  "reviewed": false,
+  "payload_summary": {
+    "year": 2023,
+    "batch": "training.platforms.Ray…deployment.tools.Seldon",
+    "n": 18
+  },
+  "response": {
+    "columns": [
+      {
+        "column": "training.platforms.Ray",
+        "kind": "multi_option",
+        "group": "training.platforms.Ray",
+        "option": "Ray",
+        "missing_tokens": [],
+        "reason": "flags 显示全列等于选项文本，符合 multi_like",
+        "year": 2023
+      },
+      {
+        "column": "training.platforms.Jupyter Notebook",
+        "kind": "multi_option",
+        "group": "training.platforms.Jupyter Notebook",
+        "option": "Jupyter Notebook",
+        "missing_tokens": [],
+        "reason": "flags 显示全列等于选项文本，符合 multi_like",
+        "year": 2023
+      },
+      {
+        "column": "training.platforms.Cloud VMs with SSH",
+        "kind": "multi_option",
+        "group": "training.platforms.Cloud VMs with SSH",
+        "option": "Cloud VMs with SSH",
+        "missing_tokens": [],
+        "reason": "flags 显示全列等于选项文本，符合 multi_like",
+        "year": 2023
+      },
+      {
+        "column": "training.platforms.An in-house solution",
+        "kind": "multi_option",
+        "group": "training.platforms.An in-house solution",
+        "option": "An in-house solution",
+        "missing_tokens": [],
+        "reason": "flags 显示全列等于选项文本，符合 multi_like",
+        "year": 2023
+      },
+      {
+        "column": "training.platforms.Other",
+        "kind": "multi_option",
+        "group": "training.platforms.Other",
+        "option": "Other",
+        "missing_tokens": [],
+        "reason": "flags 显示全列等于选项文本，符合 multi_like",
+        "year": 2023
+      },
+      {
+        "column": "ml.deployment",
+        "kind": "single_choice",
+        "group": "ml.deployment",
+        "option": "Yes",
+        "missing_tokens": [
+          "No"
+        ],
+        "reason": "非空率 72.9% 且仅含 Yes/No，判定为单选题",
+        "year": 2023
+      },
+      {
+        "column": "deployment.tools.None",
+        "kind": "multi_option",
+        "group": "deployment.tools.None",
+        "option": "None",
+        "missing_tokens": [],
+        "reason": "flags 显示全列等于选项文本，符合 multi_like",
+        "year": 2023
+      },
+      {
+        "column": "deployment.tools.Amazon Sagemaker",
+        "kind": "multi_option",
+        "group": "deployment.tools.Amazon Sagemaker",
+        "option": "Amazon Sagemaker",
+        "missing_tokens": [],
+        "reason": "flags 显示全列等于选项文本，符合 multi_like",
+        "year": 2023
+      },
+      {
+        "column": "deployment.tools.AzureML",
+        "kind": "multi_option",
+        "group": "deployment.tools.AzureML",
+        "option": "AzureML",
+        "missing_tokens": [],
+        "reason": "flags 显示全列等于选项文本，符合 multi_like",
+        "year": 2023
+      },
+      {
+        "column": "deployment.tools.VertexAI",
+        "kind": "multi_option",
+        "group": "deployment.tools.VertexAI",
+        "option": "VertexAI",
+        "missing_tokens": [],
+        "reason": "flags 显示全列等于选项文本，符合 multi_like",
+        "year": 2023
+      },
+      {
+        "column": "deployment.tools.Databricks",
+        "kind": "multi_option",
+        "group": "deployment.tools.Databricks",
+        "option": "Databricks",
+        "missing_tokens": [],
+        "reason": "flags 显示全列等于选项文本，符合 multi_like",
+        "year": 2023
+      },
+      {
+        "column": "deployment.tools.Dataiku",
+        "kind": "multi_option",
+        "group": "deployment.tools.Dataiku",
+        "option": "Dataiku",
+        "missing_tokens": [],
+        "reason": "flags 显示全列等于选项文本，符合 multi_like",
+        "year": 2023
+      },
+      {
+        "column": "deployment.tools.MosaicML",
+        "kind": "multi_option",
+        "group": "deployment.tools.MosaicML",
+        "option": "MosaicML",
+        "missing_tokens": [],
+        "reason": "flags 显示全列等于选项文本，符合 multi_like",
+        "year": 2023
+      },
+      {
+        "column": "deployment.tools.MLFlow",
+        "kind": "multi_option",
+        "group": "deployment.tools.MLFlow",
+        "option": "MLFlow",
+        "missing_tokens": [],
+        "reason": "flags 显示全列等于选项文本，符合 multi_like",
+        "year": 2023
+      },
+      {
+        "column": "deployment.tools.Nvidia Triton",
+        "kind": "multi_option",
+        "group": "deployment.tools.Nvidia Triton",
+        "option": "Nvidia Triton",
+        "missing_tokens": [],
+        "reason": "flags 显示全列等于选项文本，符合 multi_like",
+        "year": 2023
+      },
+      {
+        "column": "deployment.tools.Kubeflow",
+        "kind": "multi_option",
+        "group": "deployment.tools.Kubeflow",
+        "option": "Kubeflow",
+        "missing_tokens": [],
+        "reason": "flags 显示全列等于选项文本，符合 multi_like",
+        "year": 2023
+      },
+      {
+        "column": "deployment.tools.Huggingface",
+        "kind": "multi_option",
+        "group": "deployment.tools.Huggingface",
+        "option": "Huggingface",
+        "missing_tokens": [],
+        "reason": "flags 显示全列等于选项文本，符合 multi_like",
+        "year": 2023
+      },
+      {
+        "column": "deployment.tools.Seldon",
+        "kind": "multi_option",
+        "group": "deployment.tools.Seldon",
+        "option": "Seldon",
+        "missing_tokens": [],
+        "reason": "flags 显示全列等于选项文本，符合 multi_like",
+        "year": 2023
+      }
+    ]
+  }
+}

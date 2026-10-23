@@ -1,0 +1,35 @@
+{
+  "stage": "option_alias",
+  "model": "qwen3.5:4b",
+  "model_digest": "d8b0f5e9760cd168",
+  "prompt_version": "option-alias-v1",
+  "input_hash": "473cb1cf412dcb90a2c17a7977c2568b",
+  "created_at": "2026-10-23T19:16:44",
+  "duration_s": 7.83,
+  "output_tokens": 593,
+  "fallback": false,
+  "error": "",
+  "manual_edit": false,
+  "reviewed": false,
+  "payload_summary": {
+    "groups": 8,
+    "values": 78
+  },
+  "response": {
+    "groups": [
+      {
+        "name": "libraries",
+        "options": [
+          {
+            "variants": [
+              "do",
+              "publish"
+            ],
+            "canonical": "publish",
+            "reason": "publish 为发布动作标准术语，do 为口语化表达"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,185 @@
+{
+  "stage": "clean_semantics",
+  "model": "qwen3.5:4b",
+  "model_digest": "d8b0f5e9760cd168",
+  "prompt_version": "clean-semantics-v2",
+  "input_hash": "70aedd724638cbfbb2875c6231fc57c1",
+  "created_at": "2026-10-23T18:59:51",
+  "duration_s": 12.01,
+  "output_tokens": 917,
+  "fallback": false,
+  "error": "",
+  "manual_edit": false,
+  "reviewed": false,
+  "payload_summary": {
+    "year": 2023,
+    "batch": "other.purposes.DevOps / systems administration / writing automation scripts…how.involved.DevOps / systems administration / writing automation scripts",
+    "n": 18
+  },
+  "response": {
+    "columns": [
+      {
+        "column": "other.purposes.DevOps / systems administration / writing automation scripts",
+        "kind": "multi_option",
+        "group": "other.purposes",
+        "option": "DevOps / systems administration / writing automation scripts",
+        "missing_tokens": [],
+        "reason": "multi_like 标志确认全列恒等于选项文本",
+        "year": 2023
+      },
+      {
+        "column": "other.purposes.Software testing / Writing automated tests",
+        "kind": "multi_option",
+        "group": "other.purposes",
+        "option": "Software testing / Writing automated tests",
+        "missing_tokens": [],
+        "reason": "multi_like 标志确认全列恒等于选项文本",
+        "year": 2023
+      },
+      {
+        "column": "other.purposes.Software prototyping",
+        "kind": "multi_option",
+        "group": "other.purposes",
+        "option": "Software prototyping",
+        "missing_tokens": [],
+        "reason": "multi_like 标志确认全列恒等于选项文本",
+        "year": 2023
+      },
+      {
+        "column": "other.purposes.Web development",
+        "kind": "multi_option",
+        "group": "other.purposes",
+        "option": "Web development",
+        "missing_tokens": [],
+        "reason": "multi_like 标志确认全列恒等于选项文本",
+        "year": 2023
+      },
+      {
+        "column": "other.purposes.Machine learning",
+        "kind": "multi_option",
+        "group": "other.purposes",
+        "option": "Machine learning",
+        "missing_tokens": [],
+        "reason": "multi_like 标志确认全列恒等于选项文本",
+        "year": 2023
+      },
+      {
+        "column": "other.purposes.Mobile development",
+        "kind": "multi_option",
+        "group": "other.purposes",
+        "option": "Mobile development",
+        "missing_tokens": [],
+        "reason": "multi_like 标志确认全列恒等于选项文本",
+        "year": 2023
+      },
+      {
+        "column": "other.purposes.Desktop development",
+        "kind": "multi_option",
+        "group": "other.purposes",
+        "option": "Desktop development",
+        "missing_tokens": [],
+        "reason": "multi_like 标志确认全列恒等于选项文本",
+        "year": 2023
+      },
+      {
+        "column": "other.purposes.Computer graphics",
+        "kind": "multi_option",
+        "group": "other.purposes",
+        "option": "Computer graphics",
+        "missing_tokens": [],
+        "reason": "multi_like 标志确认全列恒等于选项文本",
+        "year": 2023
+      },
+      {
+        "column": "other.purposes.Network programming",
+        "kind": "multi_option",
+        "group": "other.purposes",
+        "option": "Network programming",
+        "missing_tokens": [],
+        "reason": "multi_like 标志确认全列恒等于选项文本",
+        "year": 2023
+      },
+      {
+        "column": "other.purposes.Game development",
+        "kind": "multi_option",
+        "group": "other.purposes",
+        "option": "Game development",
+        "missing_tokens": [],
+        "reason": "multi_like 标志确认全列恒等于选项文本",
+        "year": 2023
+      },
+      {
+        "column": "other.purposes.Multimedia applications development (apps handling various types of multimedia content, e_g_ audio, graphics, etc_)",
+        "kind": "multi_option",
+        "group": "other.purposes",
+        "option": "Multimedia applications development (apps handling various types of multimedia content, e_g_ audio, graphics, etc_)",
+        "missing_tokens": [],
+        "reason": "multi_like 标志确认全列恒等于选项文本",
+        "year": 2023
+      },
+      {
+        "column": "other.purposes.Embedded development",
+        "kind": "multi_option",
+        "group": "other.purposes",
+        "option": "Embedded development",
+        "missing_tokens": [],
+        "reason": "multi_like 标志确认全列恒等于选项文本",
+        "year": 2023
+      },
+      {
+        "column": "other.purposes.Programming of web parsers / scrapers / crawlers",
+        "kind": "multi_option",
+        "group": "other.purposes",
+        "option": "Programming of web parsers / scrapers / crawlers",
+        "missing_tokens": [],
+        "reason": "multi_like 标志确认全列恒等于选项文本",
+        "year": 2023
+      },
+      {
+        "column": "other.purposes.Other",
+        "kind": "multi_option",
+        "group": "other.purposes",
+        "option": "Other",
+        "missing_tokens": [],
+        "reason": "multi_like 标志确认全列恒等于选项文本",
+        "year": 2023
+      },
+      {
+        "column": "use.python.most",
+        "kind": "multi_option",
+        "group": "use.python",
+        "option": "Web development",
+        "missing_tokens": [],
+        "reason": "top 字段显示多值，flags 未指示单一选项，按多选项处理",
+        "year": 2023
+      },
+      {
+        "column": "how.involved.Educational purposes",
+        "kind": "multi_level",
+        "group": "how.involved",
+        "option": "Educational purposes : primary activity",
+        "missing_tokens": [],
+        "reason": "level_like 标志确认格式为选项 + 冒号 + 程度",
+        "year": 2023
+      },
+      {
+        "column": "how.involved.Data analysis",
+        "kind": "multi_level",
+        "group": "how.involved",
+        "option": "Data analysis : primary activity",
+        "missing_tokens": [],
+        "reason": "level_like 标志确认格式为选项 + 冒号 + 程度",
+        "year": 2023
+      },
+      {
+        "column": "how.involved.DevOps / systems administration / writing automation scripts",
+        "kind": "multi_level",
+        "group": "how.involved",
+        "option": "DevOps / systems administration / writing automation scripts : primary activity",
+        "missing_tokens": [],
+        "reason": "level_like 标志确认格式为选项 + 冒号 + 程度",
+        "year": 2023
+      }
+    ]
+  }
+}

@@ -1,0 +1,185 @@
+{
+  "stage": "clean_semantics",
+  "model": "qwen3.5:4b",
+  "model_digest": "d8b0f5e9760cd168",
+  "prompt_version": "clean-semantics-v2",
+  "input_hash": "8b8609d233195da15c6aa4a6777cd520",
+  "created_at": "2026-10-23T18:58:05",
+  "duration_s": 11.11,
+  "output_tokens": 847,
+  "fallback": false,
+  "error": "",
+  "manual_edit": false,
+  "reviewed": false,
+  "payload_summary": {
+    "year": 2022,
+    "batch": "dependency.store.pipfile_lock…packages.install.pip",
+    "n": 18
+  },
+  "response": {
+    "columns": [
+      {
+        "column": "dependency.store.pipfile_lock",
+        "kind": "multi_option",
+        "group": "dependency.store.pipfile_lock",
+        "option": "pipfile_lock",
+        "missing_tokens": [],
+        "reason": "全列值等于列名，符合 multi_like 特征",
+        "year": 2022
+      },
+      {
+        "column": "dependency.store.poetry_lock",
+        "kind": "multi_option",
+        "group": "dependency.store.poetry_lock",
+        "option": "poetry_lock",
+        "missing_tokens": [],
+        "reason": "全列值等于列名，符合 multi_like 特征",
+        "year": 2022
+      },
+      {
+        "column": "dependency.store.Conda environment_yml",
+        "kind": "multi_option",
+        "group": "dependency.store.Conda environment_yml",
+        "option": "Conda environment_yml",
+        "missing_tokens": [],
+        "reason": "全列值等于列名，符合 multi_like 特征",
+        "year": 2022
+      },
+      {
+        "column": "dependency.store.pip constraints_txt",
+        "kind": "multi_option",
+        "group": "dependency.store.pip constraints_txt",
+        "option": "pip constraints_txt",
+        "missing_tokens": [],
+        "reason": "全列值等于列名，符合 multi_like 特征",
+        "year": 2022
+      },
+      {
+        "column": "dependency.store.Other",
+        "kind": "multi_option",
+        "group": "dependency.store.Other",
+        "option": "Other",
+        "missing_tokens": [],
+        "reason": "全列值等于列名，符合 multi_like 特征",
+        "year": 2022
+      },
+      {
+        "column": "dependency.tools.None",
+        "kind": "multi_option",
+        "group": "dependency.tools.None",
+        "option": "None",
+        "missing_tokens": [],
+        "reason": "全列值等于列名，符合 multi_like 特征",
+        "year": 2022
+      },
+      {
+        "column": "dependency.tools.pipenv",
+        "kind": "multi_option",
+        "group": "dependency.tools.pipenv",
+        "option": "pipenv",
+        "missing_tokens": [],
+        "reason": "全列值等于列名，符合 multi_like 特征",
+        "year": 2022
+      },
+      {
+        "column": "dependency.tools.poetry",
+        "kind": "multi_option",
+        "group": "dependency.tools.poetry",
+        "option": "poetry",
+        "missing_tokens": [],
+        "reason": "全列值等于列名，符合 multi_like 特征",
+        "year": 2022
+      },
+      {
+        "column": "dependency.tools.pip-tools",
+        "kind": "multi_option",
+        "group": "dependency.tools.pip-tools",
+        "option": "pip-tools",
+        "missing_tokens": [],
+        "reason": "全列值等于列名，符合 multi_like 特征",
+        "year": 2022
+      },
+      {
+        "column": "dependency.tools.Other",
+        "kind": "multi_option",
+        "group": "dependency.tools.Other",
+        "option": "Other",
+        "missing_tokens": [],
+        "reason": "全列值等于列名，符合 multi_like 特征",
+        "year": 2022
+      },
+      {
+        "column": "dependency.update.None",
+        "kind": "multi_option",
+        "group": "dependency.update.None",
+        "option": "None",
+        "missing_tokens": [],
+        "reason": "全列值等于列名，符合 multi_like 特征",
+        "year": 2022
+      },
+      {
+        "column": "dependency.update.Dependabot",
+        "kind": "multi_option",
+        "group": "dependency.update.Dependabot",
+        "option": "Dependabot",
+        "missing_tokens": [],
+        "reason": "全列值等于列名，符合 multi_like 特征",
+        "year": 2022
+      },
+      {
+        "column": "dependency.update.PyUp",
+        "kind": "multi_option",
+        "group": "dependency.update.PyUp",
+        "option": "PyUp",
+        "missing_tokens": [],
+        "reason": "全列值等于列名，符合 multi_like 特征",
+        "year": 2022
+      },
+      {
+        "column": "dependency.update.Custom tools, e_g_ a cron job or scheduled CI task",
+        "kind": "multi_option",
+        "group": "dependency.update.Custom tools, e_g_ a cron job or scheduled CI task",
+        "option": "Custom tools, e_g_ a cron job or scheduled CI task",
+        "missing_tokens": [],
+        "reason": "全列值等于列名，符合 multi_like 特征",
+        "year": 2022
+      },
+      {
+        "column": "dependency.update.No, my application dependencies are updated manually",
+        "kind": "multi_option",
+        "group": "dependency.update.No, my application dependencies are updated manually",
+        "option": "No, my application dependencies are updated manually",
+        "missing_tokens": [],
+        "reason": "全列值等于列名，符合 multi_like 特征",
+        "year": 2022
+      },
+      {
+        "column": "dependency.update.Other",
+        "kind": "multi_option",
+        "group": "dependency.update.Other",
+        "option": "Other",
+        "missing_tokens": [],
+        "reason": "全列值等于列名，符合 multi_like 特征",
+        "year": 2022
+      },
+      {
+        "column": "packages.install.None",
+        "kind": "multi_option",
+        "group": "packages.install.None",
+        "option": "None",
+        "missing_tokens": [],
+        "reason": "全列值等于列名，符合 multi_like 特征",
+        "year": 2022
+      },
+      {
+        "column": "packages.install.pip",
+        "kind": "multi_option",
+        "group": "packages.install.pip",
+        "option": "pip",
+        "missing_tokens": [],
+        "reason": "全列值等于列名，符合 multi_like 特征",
+        "year": 2022
+      }
+    ]
+  }
+}

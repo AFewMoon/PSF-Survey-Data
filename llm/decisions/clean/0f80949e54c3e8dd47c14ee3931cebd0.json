@@ -1,0 +1,187 @@
+{
+  "stage": "clean_semantics",
+  "model": "qwen3.5:4b",
+  "model_digest": "d8b0f5e9760cd168",
+  "prompt_version": "clean-semantics-v2",
+  "input_hash": "0f80949e54c3e8dd47c14ee3931cebd0",
+  "created_at": "2026-10-23T18:57:53",
+  "duration_s": 11.32,
+  "output_tokens": 865,
+  "fallback": false,
+  "error": "",
+  "manual_edit": false,
+  "reviewed": false,
+  "payload_summary": {
+    "year": 2022,
+    "batch": "packaging.tools.pip…dependency.store.pyproject_toml",
+    "n": 18
+  },
+  "response": {
+    "columns": [
+      {
+        "column": "packaging.tools.pip",
+        "kind": "multi_option",
+        "group": "packaging.tools.pip",
+        "option": "pip",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值恒为选项文本",
+        "year": 2022
+      },
+      {
+        "column": "packaging.tools.Conda",
+        "kind": "multi_option",
+        "group": "packaging.tools.Conda",
+        "option": "Conda",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值恒为选项文本",
+        "year": 2022
+      },
+      {
+        "column": "packaging.tools.pipenv",
+        "kind": "multi_option",
+        "group": "packaging.tools.pipenv",
+        "option": "pipenv",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值恒为选项文本",
+        "year": 2022
+      },
+      {
+        "column": "packaging.tools.Poetry",
+        "kind": "multi_option",
+        "group": "packaging.tools.Poetry",
+        "option": "Poetry",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值恒为选项文本",
+        "year": 2022
+      },
+      {
+        "column": "packaging.tools.venv (standard library)",
+        "kind": "multi_option",
+        "group": "packaging.tools.venv (standard library)",
+        "option": "venv (standard library)",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值恒为选项文本",
+        "year": 2022
+      },
+      {
+        "column": "packaging.tools.virtualenv",
+        "kind": "multi_option",
+        "group": "packaging.tools.virtualenv",
+        "option": "virtualenv",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值恒为选项文本",
+        "year": 2022
+      },
+      {
+        "column": "packaging.tools.flit",
+        "kind": "multi_option",
+        "group": "packaging.tools.flit",
+        "option": "flit",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值恒为选项文本",
+        "year": 2022
+      },
+      {
+        "column": "packaging.tools.tox",
+        "kind": "multi_option",
+        "group": "packaging.tools.tox",
+        "option": "tox",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值恒为选项文本",
+        "year": 2022
+      },
+      {
+        "column": "packaging.tools.PDM",
+        "kind": "multi_option",
+        "group": "packaging.tools.PDM",
+        "option": "PDM",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值恒为选项文本",
+        "year": 2022
+      },
+      {
+        "column": "packaging.tools.twine",
+        "kind": "multi_option",
+        "group": "packaging.tools.twine",
+        "option": "twine",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值恒为选项文本",
+        "year": 2022
+      },
+      {
+        "column": "packaging.tools.Containers (eg via Docker)",
+        "kind": "multi_option",
+        "group": "packaging.tools.Containers (eg via Docker)",
+        "option": "Containers (eg: via Docker)",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值恒为选项文本",
+        "year": 2022
+      },
+      {
+        "column": "packaging.tools.Virtual machines",
+        "kind": "multi_option",
+        "group": "packaging.tools.Virtual machines",
+        "option": "Virtual machines",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值恒为选项文本",
+        "year": 2022
+      },
+      {
+        "column": "packaging.tools.Workplace specific proprietary solution",
+        "kind": "multi_option",
+        "group": "packaging.tools.Workplace specific proprietary solution",
+        "option": "Workplace specific proprietary solution",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值恒为选项文本",
+        "year": 2022
+      },
+      {
+        "column": "packaging.tools.Other",
+        "kind": "multi_option",
+        "group": "packaging.tools.Other",
+        "option": "Other",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值恒为选项文本",
+        "year": 2022
+      },
+      {
+        "column": "dependency.version",
+        "kind": "multi_option",
+        "group": "dependency.version",
+        "option": "Yes",
+        "missing_tokens": [
+          "No"
+        ],
+        "reason": "top 显示 Yes/No，非空即选中，No 视为缺失",
+        "year": 2022
+      },
+      {
+        "column": "dependency.store.None",
+        "kind": "multi_option",
+        "group": "dependency.store.None",
+        "option": "None",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值恒为选项文本",
+        "year": 2022
+      },
+      {
+        "column": "dependency.store.requirements_txt",
+        "kind": "multi_option",
+        "group": "dependency.store.requirements_txt",
+        "option": "requirements_txt",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值恒为选项文本",
+        "year": 2022
+      },
+      {
+        "column": "dependency.store.pyproject_toml",
+        "kind": "multi_option",
+        "group": "dependency.store.pyproject_toml",
+        "option": "pyproject_toml",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值恒为选项文本",
+        "year": 2022
+      }
+    ]
+  }
+}

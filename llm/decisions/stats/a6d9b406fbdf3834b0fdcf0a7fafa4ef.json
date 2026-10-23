@@ -1,0 +1,20 @@
+{
+  "stage": "stats_narrative",
+  "model": "qwen3.5:4b",
+  "model_digest": "d8b0f5e9760cd168",
+  "prompt_version": "stats-narrative-v1",
+  "input_hash": "a6d9b406fbdf3834b0fdcf0a7fafa4ef",
+  "created_at": "2026-10-23T19:30:26",
+  "duration_s": 2.44,
+  "output_tokens": 151,
+  "fallback": false,
+  "error": "",
+  "manual_edit": false,
+  "reviewed": false,
+  "payload_summary": {
+    "topic": "preferred_language"
+  },
+  "response": {
+    "text": "2024 年首选编程语言中，JavaScript、HTML/CSS 和 SQL 占比最高，分别为 40.5%、37.1% 和 36.2%。其中 TypeScript 从 2019 年的 6.1% 跃升至 2024 年的 16.7%，增幅达 10.6 个百分点最为显著，而 Bash/Shell 则从 27.4% 下降至 30.9% 后趋于平稳。需注意，此类自报数据受问卷措辞及选项变动影响，且未区分具体使用场景，可能高估前端相关语言的选择率。"
+  }
+}

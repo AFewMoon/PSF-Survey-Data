@@ -1,0 +1,185 @@
+{
+  "stage": "clean_semantics",
+  "model": "qwen3.5:4b",
+  "model_digest": "d8b0f5e9760cd168",
+  "prompt_version": "clean-semantics-v2",
+  "input_hash": "d25bdb05895118d77af6491e2df2d150",
+  "created_at": "2026-10-23T19:02:22",
+  "duration_s": 9.61,
+  "output_tokens": 729,
+  "fallback": false,
+  "error": "",
+  "manual_edit": false,
+  "reviewed": false,
+  "payload_summary": {
+    "year": 2023,
+    "batch": "database.MySQL…database.Apache Druid",
+    "n": 18
+  },
+  "response": {
+    "columns": [
+      {
+        "column": "database.MySQL",
+        "kind": "single_choice",
+        "group": "database.MySQL",
+        "option": "MySQL",
+        "missing_tokens": [],
+        "reason": "全列恒等于选项名，符合 multi_like",
+        "year": 2023
+      },
+      {
+        "column": "database.Oracle Database",
+        "kind": "single_choice",
+        "group": "database.Oracle Database",
+        "option": "Oracle Database",
+        "missing_tokens": [],
+        "reason": "全列恒等于选项名，符合 multi_like",
+        "year": 2023
+      },
+      {
+        "column": "database.PostgreSQL",
+        "kind": "single_choice",
+        "group": "database.PostgreSQL",
+        "option": "PostgreSQL",
+        "missing_tokens": [],
+        "reason": "全列恒等于选项名，符合 multi_like",
+        "year": 2023
+      },
+      {
+        "column": "database.SQLite",
+        "kind": "single_choice",
+        "group": "database.SQLite",
+        "option": "SQLite",
+        "missing_tokens": [],
+        "reason": "全列恒等于选项名，符合 multi_like",
+        "year": 2023
+      },
+      {
+        "column": "database.Cassandra",
+        "kind": "single_choice",
+        "group": "database.Cassandra",
+        "option": "Cassandra",
+        "missing_tokens": [],
+        "reason": "全列恒等于选项名，符合 multi_like",
+        "year": 2023
+      },
+      {
+        "column": "database.Couchbase",
+        "kind": "single_choice",
+        "group": "database.Couchbase",
+        "option": "Couchbase",
+        "missing_tokens": [],
+        "reason": "全列恒等于选项名，符合 multi_like",
+        "year": 2023
+      },
+      {
+        "column": "database.HBase",
+        "kind": "single_choice",
+        "group": "database.HBase",
+        "option": "HBase",
+        "missing_tokens": [],
+        "reason": "全列恒等于选项名，符合 multi_like",
+        "year": 2023
+      },
+      {
+        "column": "database.MongoDB",
+        "kind": "single_choice",
+        "group": "database.MongoDB",
+        "option": "MongoDB",
+        "missing_tokens": [],
+        "reason": "全列恒等于选项名，符合 multi_like",
+        "year": 2023
+      },
+      {
+        "column": "database.Neo4j",
+        "kind": "single_choice",
+        "group": "database.Neo4j",
+        "option": "Neo4j",
+        "missing_tokens": [],
+        "reason": "全列恒等于选项名，符合 multi_like",
+        "year": 2023
+      },
+      {
+        "column": "database.Redis",
+        "kind": "single_choice",
+        "group": "database.Redis",
+        "option": "Redis",
+        "missing_tokens": [],
+        "reason": "全列恒等于选项名，符合 multi_like",
+        "year": 2023
+      },
+      {
+        "column": "database.Amazon Redshift",
+        "kind": "single_choice",
+        "group": "database.Amazon Redshift",
+        "option": "Amazon Redshift",
+        "missing_tokens": [],
+        "reason": "全列恒等于选项名，符合 multi_like",
+        "year": 2023
+      },
+      {
+        "column": "database.h2",
+        "kind": "single_choice",
+        "group": "database.h2",
+        "option": "h2",
+        "missing_tokens": [],
+        "reason": "全列恒等于选项名，符合 multi_like",
+        "year": 2023
+      },
+      {
+        "column": "database.MariaDB",
+        "kind": "single_choice",
+        "group": "database.MariaDB",
+        "option": "MariaDB",
+        "missing_tokens": [],
+        "reason": "全列恒等于选项名，符合 multi_like",
+        "year": 2023
+      },
+      {
+        "column": "database.DynamoDB",
+        "kind": "single_choice",
+        "group": "database.DynamoDB",
+        "option": "DynamoDB",
+        "missing_tokens": [],
+        "reason": "全列恒等于选项名，符合 multi_like",
+        "year": 2023
+      },
+      {
+        "column": "database.BigQuery",
+        "kind": "single_choice",
+        "group": "database.BigQuery",
+        "option": "BigQuery",
+        "missing_tokens": [],
+        "reason": "全列恒等于选项名，符合 multi_like",
+        "year": 2023
+      },
+      {
+        "column": "database.ClickHouse",
+        "kind": "single_choice",
+        "group": "database.ClickHouse",
+        "option": "ClickHouse",
+        "missing_tokens": [],
+        "reason": "全列恒等于选项名，符合 multi_like",
+        "year": 2023
+      },
+      {
+        "column": "database.Apache Pinot",
+        "kind": "single_choice",
+        "group": "database.Apache Pinot",
+        "option": "Apache Pinot",
+        "missing_tokens": [],
+        "reason": "全列恒等于选项名，符合 multi_like",
+        "year": 2023
+      },
+      {
+        "column": "database.Apache Druid",
+        "kind": "single_choice",
+        "group": "database.Apache Druid",
+        "option": "Apache Druid",
+        "missing_tokens": [],
+        "reason": "全列恒等于选项名，符合 multi_like",
+        "year": 2023
+      }
+    ]
+  }
+}

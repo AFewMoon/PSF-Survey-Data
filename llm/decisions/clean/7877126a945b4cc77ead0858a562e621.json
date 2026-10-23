@@ -1,0 +1,185 @@
+{
+  "stage": "clean_semantics",
+  "model": "qwen3.5:4b",
+  "model_digest": "d8b0f5e9760cd168",
+  "prompt_version": "clean-semantics-v2",
+  "input_hash": "7877126a945b4cc77ead0858a562e621",
+  "created_at": "2026-10-23T18:32:57",
+  "duration_s": 10.34,
+  "output_tokens": 786,
+  "fallback": false,
+  "error": "",
+  "manual_edit": false,
+  "reviewed": false,
+  "payload_summary": {
+    "year": 2024,
+    "batch": "other.frameworks.OpenCV-Python…frameworks.support.mock",
+    "n": 18
+  },
+  "response": {
+    "columns": [
+      {
+        "column": "other.frameworks.OpenCV-Python",
+        "kind": "multi_option",
+        "group": "other.frameworks",
+        "option": "OpenCV-Python",
+        "missing_tokens": [],
+        "reason": "全列取值恒等于列名选项，符合 multi_like",
+        "year": 2024
+      },
+      {
+        "column": "other.frameworks.Pydantic",
+        "kind": "multi_option",
+        "group": "other.frameworks",
+        "option": "Pydantic",
+        "missing_tokens": [],
+        "reason": "全列取值恒等于列名选项，符合 multi_like",
+        "year": 2024
+      },
+      {
+        "column": "other.frameworks.PySide",
+        "kind": "multi_option",
+        "group": "other.frameworks",
+        "option": "PySide",
+        "missing_tokens": [],
+        "reason": "全列取值恒等于列名选项，符合 multi_like",
+        "year": 2024
+      },
+      {
+        "column": "other.frameworks.attrs",
+        "kind": "multi_option",
+        "group": "other.frameworks",
+        "option": "attrs",
+        "missing_tokens": [],
+        "reason": "全列取值恒等于列名选项，符合 multi_like",
+        "year": 2024
+      },
+      {
+        "column": "other.frameworks.Other",
+        "kind": "multi_option",
+        "group": "other.frameworks",
+        "option": "Other",
+        "missing_tokens": [],
+        "reason": "全列取值恒等于列名选项，符合 multi_like",
+        "year": 2024
+      },
+      {
+        "column": "frameworks.support.None",
+        "kind": "multi_option",
+        "group": "frameworks.support",
+        "option": "None",
+        "missing_tokens": [],
+        "reason": "全列取值恒等于列名选项，符合 multi_like",
+        "year": 2024
+      },
+      {
+        "column": "frameworks.support.aiohttp",
+        "kind": "multi_option",
+        "group": "frameworks.support",
+        "option": "aiohttp",
+        "missing_tokens": [],
+        "reason": "全列取值恒等于列名选项，符合 multi_like",
+        "year": 2024
+      },
+      {
+        "column": "frameworks.support.Asyncio",
+        "kind": "multi_option",
+        "group": "frameworks.support",
+        "option": "Asyncio",
+        "missing_tokens": [],
+        "reason": "全列取值恒等于列名选项，符合 multi_like",
+        "year": 2024
+      },
+      {
+        "column": "frameworks.support.attrs",
+        "kind": "multi_option",
+        "group": "frameworks.support",
+        "option": "attrs",
+        "missing_tokens": [],
+        "reason": "全列取值恒等于列名选项，符合 multi_like",
+        "year": 2024
+      },
+      {
+        "column": "frameworks.support.BeautifulSoup",
+        "kind": "multi_option",
+        "group": "frameworks.support",
+        "option": "BeautifulSoup",
+        "missing_tokens": [],
+        "reason": "全列取值恒等于列名选项，符合 multi_like",
+        "year": 2024
+      },
+      {
+        "column": "frameworks.support.Django",
+        "kind": "multi_option",
+        "group": "frameworks.support",
+        "option": "Django",
+        "missing_tokens": [],
+        "reason": "全列取值恒等于列名选项，符合 multi_like",
+        "year": 2024
+      },
+      {
+        "column": "frameworks.support.Django REST Framework",
+        "kind": "multi_option",
+        "group": "frameworks.support",
+        "option": "Django REST Framework",
+        "missing_tokens": [],
+        "reason": "全列取值恒等于列名选项，符合 multi_like",
+        "year": 2024
+      },
+      {
+        "column": "frameworks.support.doctest",
+        "kind": "multi_option",
+        "group": "frameworks.support",
+        "option": "doctest",
+        "missing_tokens": [],
+        "reason": "全列取值恒等于列名选项，符合 multi_like",
+        "year": 2024
+      },
+      {
+        "column": "frameworks.support.FastAPI",
+        "kind": "multi_option",
+        "group": "frameworks.support",
+        "option": "FastAPI",
+        "missing_tokens": [],
+        "reason": "全列取值恒等于列名选项，符合 multi_like",
+        "year": 2024
+      },
+      {
+        "column": "frameworks.support.Flask",
+        "kind": "multi_option",
+        "group": "frameworks.support",
+        "option": "Flask",
+        "missing_tokens": [],
+        "reason": "全列取值恒等于列名选项，符合 multi_like",
+        "year": 2024
+      },
+      {
+        "column": "frameworks.support.httpx",
+        "kind": "multi_option",
+        "group": "frameworks.support",
+        "option": "httpx",
+        "missing_tokens": [],
+        "reason": "全列取值恒等于列名选项，符合 multi_like",
+        "year": 2024
+      },
+      {
+        "column": "frameworks.support.Hypothesis",
+        "kind": "multi_option",
+        "group": "frameworks.support",
+        "option": "Hypothesis",
+        "missing_tokens": [],
+        "reason": "全列取值恒等于列名选项，符合 multi_like",
+        "year": 2024
+      },
+      {
+        "column": "frameworks.support.mock",
+        "kind": "multi_option",
+        "group": "frameworks.support",
+        "option": "mock",
+        "missing_tokens": [],
+        "reason": "全列取值恒等于列名选项，符合 multi_like",
+        "year": 2024
+      }
+    ]
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "stage": "option_alias",
+  "model": "qwen3.5:4b",
+  "model_digest": "d8b0f5e9760cd168",
+  "prompt_version": "option-alias-v1",
+  "input_hash": "a5686f7001cf2421523db965577176d1",
+  "created_at": "2026-10-23T19:08:47",
+  "duration_s": 3.12,
+  "output_tokens": 204,
+  "fallback": false,
+  "error": "",
+  "manual_edit": false,
+  "reviewed": false,
+  "payload_summary": {
+    "groups": 4,
+    "values": 65
+  },
+  "response": {
+    "groups": [
+      {
+        "name": "ai.tools.coding",
+        "options": [
+          {
+            "variants": [
+              "Amazon Q Developer (previously CodeWhisperer)",
+              "CodeWhisperer"
+            ],
+            "canonical": "Amazon Q Developer (previously CodeWhisperer)",
+            "reason": "官方全称，括号内注明旧名"
+          },
+          {
+            "variants": [
+              "CodeGPT plugin in JetBrains IDEs (IntelliJ IDEA, PyCharm, PhpStorm, etc_)",
+              "CodeGPT plugin in VS Code"
+            ],
+            "canonical": "CodeGPT plugin in JetBrains IDEs (IntelliJ IDEA, PyCharm, PhpStorm, etc_)",
+            "reason": "通用写法，括号内列举所有支持 IDE"
+          },
+          {
+            "variants": [
+              "Gemini Code Assist (previously Duet AI for Developers)",
+              "Duet AI for Developers"
+            ],
+            "canonical": "Gemini Code Assist (previously Duet AI for Developers)",
+            "reason": "官方全称，括号内注明旧名"
+          },
+          {
+            "variants": [
+              "Visual Studio IntelliCode",
+              "IntelliCode"
+            ],
+            "canonical": "Visual Studio IntelliCode",
+            "reason": "官方全称，IntelliCode 为简称"
+          }
+        ]
+      }
+    ]
+  }
+}

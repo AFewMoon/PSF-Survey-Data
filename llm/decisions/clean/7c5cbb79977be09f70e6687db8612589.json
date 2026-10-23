@@ -1,0 +1,185 @@
+{
+  "stage": "clean_semantics",
+  "model": "qwen3.5:4b",
+  "model_digest": "d8b0f5e9760cd168",
+  "prompt_version": "clean-semantics-v2",
+  "input_hash": "7c5cbb79977be09f70e6687db8612589",
+  "created_at": "2026-10-23T18:51:50",
+  "duration_s": 10.21,
+  "output_tokens": 777,
+  "fallback": false,
+  "error": "",
+  "manual_edit": false,
+  "reviewed": false,
+  "payload_summary": {
+    "year": 2021,
+    "batch": "other.frameworks.Asyncio…run.in.cloud.None of the following",
+    "n": 18
+  },
+  "response": {
+    "columns": [
+      {
+        "column": "other.frameworks.Asyncio",
+        "kind": "multi_option",
+        "group": "other.frameworks",
+        "option": "Asyncio",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值恒为选项名",
+        "year": 2021
+      },
+      {
+        "column": "other.frameworks.Kivy",
+        "kind": "multi_option",
+        "group": "other.frameworks",
+        "option": "Kivy",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值恒为选项名",
+        "year": 2021
+      },
+      {
+        "column": "other.frameworks.Six",
+        "kind": "multi_option",
+        "group": "other.frameworks",
+        "option": "Six",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值恒为选项名",
+        "year": 2021
+      },
+      {
+        "column": "other.frameworks.Scrapy",
+        "kind": "multi_option",
+        "group": "other.frameworks",
+        "option": "Scrapy",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值恒为选项名",
+        "year": 2021
+      },
+      {
+        "column": "other.frameworks.Other",
+        "kind": "multi_option",
+        "group": "other.frameworks",
+        "option": "Other",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值恒为选项名",
+        "year": 2021
+      },
+      {
+        "column": "cloud.platform.None",
+        "kind": "multi_option",
+        "group": "cloud.platform",
+        "option": "None",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值恒为选项名",
+        "year": 2021
+      },
+      {
+        "column": "cloud.platform.Google Cloud Platform",
+        "kind": "multi_option",
+        "group": "cloud.platform",
+        "option": "Google Cloud Platform",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值恒为选项名",
+        "year": 2021
+      },
+      {
+        "column": "cloud.platform.AWS",
+        "kind": "multi_option",
+        "group": "cloud.platform",
+        "option": "AWS",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值恒为选项名",
+        "year": 2021
+      },
+      {
+        "column": "cloud.platform.Microsoft Azure",
+        "kind": "multi_option",
+        "group": "cloud.platform",
+        "option": "Microsoft Azure",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值恒为选项名",
+        "year": 2021
+      },
+      {
+        "column": "cloud.platform.Rackspace",
+        "kind": "multi_option",
+        "group": "cloud.platform",
+        "option": "Rackspace",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值恒为选项名",
+        "year": 2021
+      },
+      {
+        "column": "cloud.platform.Heroku",
+        "kind": "multi_option",
+        "group": "cloud.platform",
+        "option": "Heroku",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值恒为选项名",
+        "year": 2021
+      },
+      {
+        "column": "cloud.platform.DigitalOcean",
+        "kind": "multi_option",
+        "group": "cloud.platform",
+        "option": "DigitalOcean",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值恒为选项名",
+        "year": 2021
+      },
+      {
+        "column": "cloud.platform.Linode",
+        "kind": "multi_option",
+        "group": "cloud.platform",
+        "option": "Linode",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值恒为选项名",
+        "year": 2021
+      },
+      {
+        "column": "cloud.platform.PythonAnywhere",
+        "kind": "multi_option",
+        "group": "cloud.platform",
+        "option": "PythonAnywhere",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值恒为选项名",
+        "year": 2021
+      },
+      {
+        "column": "cloud.platform.OpenShift",
+        "kind": "multi_option",
+        "group": "cloud.platform",
+        "option": "OpenShift",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值恒为选项名",
+        "year": 2021
+      },
+      {
+        "column": "cloud.platform.OpenStack",
+        "kind": "multi_option",
+        "group": "cloud.platform",
+        "option": "OpenStack",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值恒为选项名",
+        "year": 2021
+      },
+      {
+        "column": "cloud.platform.Other",
+        "kind": "multi_option",
+        "group": "cloud.platform",
+        "option": "Other",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值恒为选项名",
+        "year": 2021
+      },
+      {
+        "column": "run.in.cloud.None of the following",
+        "kind": "multi_option",
+        "group": "run.in.cloud",
+        "option": "None of the following",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值恒为选项名",
+        "year": 2021
+      }
+    ]
+  }
+}

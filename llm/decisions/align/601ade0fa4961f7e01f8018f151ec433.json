@@ -1,0 +1,176 @@
+{
+  "stage": "option_alias",
+  "model": "qwen3.5:4b",
+  "model_digest": "d8b0f5e9760cd168",
+  "prompt_version": "option-alias-v1",
+  "input_hash": "601ade0fa4961f7e01f8018f151ec433",
+  "created_at": "2026-10-23T19:08:39",
+  "duration_s": 7.4,
+  "output_tokens": 562,
+  "fallback": false,
+  "error": "",
+  "manual_edit": false,
+  "reviewed": false,
+  "payload_summary": {
+    "groups": 8,
+    "values": 79
+  },
+  "response": {
+    "groups": [
+      {
+        "name": "dependency.tools",
+        "options": [
+          {
+            "variants": [
+              "Conda",
+              "conda-forge Conda channel",
+              "Default Conda channel",
+              "Other Conda channel",
+              "Other Conda channels (conda-forge or similar)",
+              "conda-forge"
+            ],
+            "canonical": "Conda",
+            "reason": "conda-forge 是 Conda 的官方渠道，统称 Conda 即可"
+          }
+        ]
+      },
+      {
+        "name": "dependency.update",
+        "options": [
+          {
+            "variants": [
+              "Custom tools, e_g_ a cron job or scheduled CI task",
+              "Dependabot",
+              "PyUp"
+            ],
+            "canonical": "Dependabot",
+            "reason": "Dependabot 是 GitHub 官方工具，PyUp 是竞品，e_g_ 为拼写错误"
+          }
+        ]
+      },
+      {
+        "name": "packages.install",
+        "options": [
+          {
+            "variants": [
+              "Conda",
+              "easy_install",
+              "pip",
+              "pip-sync",
+              "pipx",
+              "Poetry"
+            ],
+            "canonical": "pip",
+            "reason": "pip 是 Python 标准包管理器，其他均为特定工具或旧版"
+          }
+        ]
+      },
+      {
+        "name": "packages.install.from",
+        "options": [
+          {
+            "variants": [
+              "A local source",
+              "Local source",
+              "A private Python Package Index",
+              "Private Python Package Index",
+              "An internal mirror of PyPI",
+              "Internal mirror of PyPI",
+              "PyPI",
+              "conda-forge Conda channel",
+              "Default Conda channel",
+              "Other Conda channel",
+              "Other Conda channels (conda-forge or similar)",
+              "Anaconda",
+              "Artifactory",
+              "GitHub",
+              "GitLab",
+              "I'm not sure",
+              "Other",
+              "Other"
+            ],
+            "canonical": "PyPI",
+            "reason": "PyPI 是官方源，其他均为具体实现、竞品或不确定选项"
+          }
+        ]
+      },
+      {
+        "name": "app.tools",
+        "options": [
+          {
+            "variants": [
+              "Enscons",
+              "Flit",
+              "PDM-PEP517",
+              "Poetry",
+              "Setuptools",
+              "Wheel",
+              "build",
+              "conda-build",
+              "maturin",
+              "pex",
+              "Hatch"
+            ],
+            "canonical": "Poetry",
+            "reason": "Poetry 是主流包构建工具，其他多为特定工具或旧版"
+          }
+        ]
+      },
+      {
+        "name": "app.publish.where",
+        "options": [
+          {
+            "variants": [
+              "Internal mirror of PyPI",
+              "Other",
+              "Private Python Package Index",
+              "PyPI",
+              "conda-forge"
+            ],
+            "canonical": "PyPI",
+            "reason": "PyPI 是官方源，其他均为具体实现、竞品或不确定选项"
+          }
+        ]
+      },
+      {
+        "name": "libraries",
+        "options": [
+          {
+            "variants": [
+              "do",
+              "publish"
+            ],
+            "canonical": "publish",
+            "reason": "publish 是标准术语，do 为口语化表达"
+          }
+        ]
+      },
+      {
+        "name": "libraries.tools",
+        "options": [
+          {
+            "variants": [
+              "Enscons",
+              "Flit",
+              "Hatch",
+              "Other",
+              "PDM",
+              "PDM-PEP517",
+              "Poetry",
+              "PyPI Publish GitHub Action",
+              "Setuptools",
+              "Twine",
+              "Wheel",
+              "build",
+              "conda-build",
+              "maturin",
+              "pex"
+            ],
+            "canonical": "Poetry",
+            "reason": "Poetry 是主流包构建工具，其他多为特定工具或旧版"
+          }
+        ]
+      }
+    ]
+  }
+}

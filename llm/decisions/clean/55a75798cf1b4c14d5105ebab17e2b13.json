@@ -1,0 +1,131 @@
+{
+  "stage": "clean_semantics",
+  "model": "qwen3.5:4b",
+  "model_digest": "d8b0f5e9760cd168",
+  "prompt_version": "clean-semantics-v2",
+  "input_hash": "55a75798cf1b4c14d5105ebab17e2b13",
+  "created_at": "2026-10-23T18:32:25",
+  "duration_s": 13.36,
+  "output_tokens": 1019,
+  "fallback": false,
+  "error": "",
+  "manual_edit": false,
+  "reviewed": false,
+  "payload_summary": {
+    "year": 2024,
+    "batch": "python.version.upgrade.OS-wide package-management tool (via apt-get, yum, homebrew, etc_)…web.frameworks.Bottle",
+    "n": 18
+  },
+  "response": {
+    "columns": [
+      {
+        "column": "python.version.upgrade.OS-wide package-management tool (via apt-get, yum, homebrew, etc_)",
+        "kind": "multi_option",
+        "group": "python.version.upgrade",
+        "option": "OS-wide package-management tool (via apt-get, yum, homebrew, etc_)",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值等于列名。",
+        "year": 2024
+      },
+      {
+        "column": "python.version.upgrade.pyenv",
+        "kind": "multi_option",
+        "group": "python.version.upgrade",
+        "option": "pyenv",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值等于列名。",
+        "year": 2024
+      },
+      {
+        "column": "python.version.upgrade.pythonz",
+        "kind": "multi_option",
+        "group": "python.version.upgrade",
+        "option": "pythonz",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值等于列名。",
+        "year": 2024
+      },
+      {
+        "column": "python.version.upgrade.I use Docker containers",
+        "kind": "multi_option",
+        "group": "python.version.upgrade",
+        "option": "I use Docker containers",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值等于列名。",
+        "year": 2024
+      },
+      {
+        "column": "python.version.upgrade.Other",
+        "kind": "multi_option",
+        "group": "python.version.upgrade",
+        "option": "Other",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值等于列名。",
+        "year": 2024
+      },
+      {
+        "column": "python.version.why.My projects are not compatible with the latest Python version",
+        "kind": "multi_option",
+        "group": "python.version.why",
+        "option": "My projects are not compatible with the latest Python version",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值等于列名。",
+        "year": 2024
+      },
+      {
+        "column": "python.version.why.Other",
+        "kind": "multi_option",
+        "group": "python.version.why",
+        "option": "Other",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值等于列名。",
+        "year": 2024
+      },
+      {
+        "column": "web.frameworks.None",
+        "kind": "multi_option",
+        "group": "web.frameworks",
+        "option": "None",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值等于列名。",
+        "year": 2024
+      },
+      {
+        "column": "web.frameworks.Django",
+        "kind": "multi_option",
+        "group": "web.frameworks",
+        "option": "Django",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值等于列名。",
+        "year": 2024
+      },
+      {
+        "column": "web.frameworks.Django REST Framework",
+        "kind": "multi_option",
+        "group": "web.frameworks",
+        "option": "Django REST Framework",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值等于列名。",
+        "year": 2024
+      },
+      {
+        "column": "web.frameworks.web2py",
+        "kind": "multi_option",
+        "group": "web.frameworks",
+        "option": "web2py",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值等于列名。",
+        "year": 2024
+      },
+      {
+        "column": "web.frameworks.Bottle",
+        "kind": "multi_option",
+        "group": "web.frameworks",
+        "option": "Bottle",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值等于列名。",
+        "year": 2024
+      }
+    ]
+  }
+}

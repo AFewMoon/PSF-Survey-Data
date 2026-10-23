@@ -1,0 +1,79 @@
+topic,group,option,n,pct,denominator,year
+primary_ide,ide.editor,Atom,2008,4.24,47308,2019
+primary_ide,ide.editor,Emacs,625,1.32,47308,2019
+primary_ide,ide.editor,IDLE,1610,3.4,47308,2019
+primary_ide,ide.editor,IntelliJ IDEA,784,1.66,47308,2019
+primary_ide,ide.editor,Jupyter Notebook,5360,11.33,47308,2019
+primary_ide,ide.editor,JupyterLab,2236,4.73,47308,2019
+primary_ide,ide.editor,NotePad++,3165,6.69,47308,2019
+primary_ide,ide.editor,PyCharm Community Edition,3505,7.41,47308,2019
+primary_ide,ide.editor,PyCharm Professional Edition,1706,3.61,47308,2019
+primary_ide,ide.editor,Python Tools for Visual Studio,717,1.52,47308,2019
+primary_ide,ide.editor,Spyder,1258,2.66,47308,2019
+primary_ide,ide.editor,Sublime Text,3919,8.28,47308,2019
+primary_ide,ide.editor,Vim,5969,12.62,47308,2019
+primary_ide,ide.editor,Atom,2001,5.29,37793,2020
+primary_ide,ide.editor,Emacs,610,1.61,37793,2020
+primary_ide,ide.editor,IDLE,1971,5.22,37793,2020
+primary_ide,ide.editor,IntelliJ IDEA,898,2.38,37793,2020
+primary_ide,ide.editor,Jupyter Notebook,6881,18.21,37793,2020
+primary_ide,ide.editor,JupyterLab,3096,8.19,37793,2020
+primary_ide,ide.editor,NotePad++,3405,9.01,37793,2020
+primary_ide,ide.editor,PyCharm Community Edition,3907,10.34,37793,2020
+primary_ide,ide.editor,PyCharm Professional Edition,1818,4.81,37793,2020
+primary_ide,ide.editor,Python Tools for Visual Studio,855,2.26,37793,2020
+primary_ide,ide.editor,Spyder,1598,4.23,37793,2020
+primary_ide,ide.editor,Sublime Text,3815,10.09,37793,2020
+primary_ide,ide.editor,Vim,5916,15.65,37793,2020
+primary_ide,ide.editor,Atom,923,3.98,23178,2021
+primary_ide,ide.editor,Emacs,344,1.48,23178,2021
+primary_ide,ide.editor,IDLE,1366,5.89,23178,2021
+primary_ide,ide.editor,IntelliJ IDEA,561,2.42,23178,2021
+primary_ide,ide.editor,Jupyter Notebook,3983,17.18,23178,2021
+primary_ide,ide.editor,JupyterLab,1955,8.43,23178,2021
+primary_ide,ide.editor,NotePad++,2072,8.94,23178,2021
+primary_ide,ide.editor,PyCharm Community Edition,2586,11.16,23178,2021
+primary_ide,ide.editor,PyCharm Professional Edition,1176,5.07,23178,2021
+primary_ide,ide.editor,Python Tools for Visual Studio,534,2.3,23178,2021
+primary_ide,ide.editor,Spyder,759,3.27,23178,2021
+primary_ide,ide.editor,Sublime Text,2003,8.64,23178,2021
+primary_ide,ide.editor,Vim,3411,14.72,23178,2021
+primary_ide,ide.editor,Atom,861,3.75,22986,2022
+primary_ide,ide.editor,Emacs,451,1.96,22986,2022
+primary_ide,ide.editor,IDLE,1358,5.91,22986,2022
+primary_ide,ide.editor,IntelliJ IDEA,708,3.08,22986,2022
+primary_ide,ide.editor,Jupyter Notebook,3788,16.48,22986,2022
+primary_ide,ide.editor,JupyterLab,2149,9.35,22986,2022
+primary_ide,ide.editor,NotePad++,2278,9.91,22986,2022
+primary_ide,ide.editor,PyCharm Community Edition,2877,12.52,22986,2022
+primary_ide,ide.editor,PyCharm Professional Edition,1486,6.46,22986,2022
+primary_ide,ide.editor,Python Tools for Visual Studio,826,3.59,22986,2022
+primary_ide,ide.editor,Spyder,957,4.16,22986,2022
+primary_ide,ide.editor,Sublime Text,2003,8.71,22986,2022
+primary_ide,ide.editor,Vim,3011,13.1,22986,2022
+primary_ide,ide.editor,Atom,339,1.34,25324,2023
+primary_ide,ide.editor,Emacs,288,1.14,25324,2023
+primary_ide,ide.editor,IDLE,849,3.35,25324,2023
+primary_ide,ide.editor,IntelliJ IDEA,496,1.96,25324,2023
+primary_ide,ide.editor,Jupyter Notebook,3151,12.44,25324,2023
+primary_ide,ide.editor,JupyterLab,1805,7.13,25324,2023
+primary_ide,ide.editor,NotePad++,1752,6.92,25324,2023
+primary_ide,ide.editor,PyCharm Community Edition,2090,8.25,25324,2023
+primary_ide,ide.editor,PyCharm Professional Edition,1026,4.05,25324,2023
+primary_ide,ide.editor,Python Tools for Visual Studio,456,1.8,25324,2023
+primary_ide,ide.editor,Spyder,552,2.18,25324,2023
+primary_ide,ide.editor,Sublime Text,1378,5.44,25324,2023
+primary_ide,ide.editor,Vim,2729,10.78,25324,2023
+primary_ide,ide.editor,Atom,301,1.04,28997,2024
+primary_ide,ide.editor,Emacs,296,1.02,28997,2024
+primary_ide,ide.editor,IDLE,950,3.28,28997,2024
+primary_ide,ide.editor,IntelliJ IDEA,615,2.12,28997,2024
+primary_ide,ide.editor,Jupyter Notebook,3552,12.25,28997,2024
+primary_ide,ide.editor,JupyterLab,2025,6.98,28997,2024
+primary_ide,ide.editor,NotePad++,2145,7.4,28997,2024
+primary_ide,ide.editor,PyCharm Community Edition,2431,8.38,28997,2024
+primary_ide,ide.editor,PyCharm Professional Edition,1133,3.91,28997,2024
+primary_ide,ide.editor,Python Tools for Visual Studio,591,2.04,28997,2024
+primary_ide,ide.editor,Spyder,619,2.13,28997,2024
+primary_ide,ide.editor,Sublime Text,1375,4.74,28997,2024
+primary_ide,ide.editor,Vim,2801,9.66,28997,2024

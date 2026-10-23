@@ -1,0 +1,185 @@
+{
+  "stage": "clean_semantics",
+  "model": "qwen3.5:4b",
+  "model_digest": "d8b0f5e9760cd168",
+  "prompt_version": "clean-semantics-v2",
+  "input_hash": "283c030d3ae86b183cb0cd65b13ac893",
+  "created_at": "2026-10-23T18:47:19",
+  "duration_s": 10.83,
+  "output_tokens": 823,
+  "fallback": false,
+  "error": "",
+  "manual_edit": false,
+  "reviewed": false,
+  "payload_summary": {
+    "year": 2020,
+    "batch": "run.in.cloud.Other…unittesting.unittest",
+    "n": 18
+  },
+  "response": {
+    "columns": [
+      {
+        "column": "run.in.cloud.Other",
+        "kind": "multi_option",
+        "group": "run.in.cloud",
+        "option": "Other",
+        "missing_tokens": [],
+        "reason": "全列值恒为选项文本，符合 multi_like 特征",
+        "year": 2020
+      },
+      {
+        "column": "develop.for.cloud.None of the following",
+        "kind": "multi_option",
+        "group": "develop.for.cloud",
+        "option": "None of the following",
+        "missing_tokens": [],
+        "reason": "全列值恒为选项文本，符合 multi_like 特征",
+        "year": 2020
+      },
+      {
+        "column": "develop.for.cloud.With local system interpreter",
+        "kind": "multi_option",
+        "group": "develop.for.cloud",
+        "option": "With local system interpreter",
+        "missing_tokens": [],
+        "reason": "全列值恒为选项文本，符合 multi_like 特征",
+        "year": 2020
+      },
+      {
+        "column": "develop.for.cloud.Locally with virtualenv (or similar)",
+        "kind": "multi_option",
+        "group": "develop.for.cloud",
+        "option": "Locally with virtualenv (or similar)",
+        "missing_tokens": [],
+        "reason": "全列值恒为选项文本，符合 multi_like 特征",
+        "year": 2020
+      },
+      {
+        "column": "develop.for.cloud.In Docker containers",
+        "kind": "multi_option",
+        "group": "develop.for.cloud",
+        "option": "In Docker containers",
+        "missing_tokens": [],
+        "reason": "全列值恒为选项文本，符合 multi_like 特征",
+        "year": 2020
+      },
+      {
+        "column": "develop.for.cloud.In virtual machines",
+        "kind": "multi_option",
+        "group": "develop.for.cloud",
+        "option": "In virtual machines",
+        "missing_tokens": [],
+        "reason": "全列值恒为选项文本，符合 multi_like 特征",
+        "year": 2020
+      },
+      {
+        "column": "develop.for.cloud.In remote development environments",
+        "kind": "multi_option",
+        "group": "develop.for.cloud",
+        "option": "In remote development environments",
+        "missing_tokens": [],
+        "reason": "全列值恒为选项文本，符合 multi_like 特征",
+        "year": 2020
+      },
+      {
+        "column": "develop.for.cloud.Directly in the production environment",
+        "kind": "multi_option",
+        "group": "develop.for.cloud",
+        "option": "Directly in the production environment",
+        "missing_tokens": [],
+        "reason": "全列值恒为选项文本，符合 multi_like 特征",
+        "year": 2020
+      },
+      {
+        "column": "develop.for.cloud.Other",
+        "kind": "multi_option",
+        "group": "develop.for.cloud",
+        "option": "Other",
+        "missing_tokens": [],
+        "reason": "全列值恒为选项文本，符合 multi_like 特征",
+        "year": 2020
+      },
+      {
+        "column": "devenv.os.Windows",
+        "kind": "multi_option",
+        "group": "devenv.os",
+        "option": "Windows",
+        "missing_tokens": [],
+        "reason": "全列值恒为选项文本，符合 multi_like 特征",
+        "year": 2020
+      },
+      {
+        "column": "devenv.os.Linux",
+        "kind": "multi_option",
+        "group": "devenv.os",
+        "option": "Linux",
+        "missing_tokens": [],
+        "reason": "全列值恒为选项文本，符合 multi_like 特征",
+        "year": 2020
+      },
+      {
+        "column": "devenv.os.macOS",
+        "kind": "multi_option",
+        "group": "devenv.os",
+        "option": "macOS",
+        "missing_tokens": [],
+        "reason": "全列值恒为选项文本，符合 multi_like 特征",
+        "year": 2020
+      },
+      {
+        "column": "devenv.os.BSD",
+        "kind": "multi_option",
+        "group": "devenv.os",
+        "option": "BSD",
+        "missing_tokens": [],
+        "reason": "全列值恒为选项文本，符合 multi_like 特征",
+        "year": 2020
+      },
+      {
+        "column": "devenv.os.Other",
+        "kind": "multi_option",
+        "group": "devenv.os",
+        "option": "Other",
+        "missing_tokens": [],
+        "reason": "全列值恒为选项文本，符合 multi_like 特征",
+        "year": 2020
+      },
+      {
+        "column": "unittesting.None",
+        "kind": "multi_option",
+        "group": "unittesting",
+        "option": "None",
+        "missing_tokens": [],
+        "reason": "全列值恒为选项文本，符合 multi_like 特征",
+        "year": 2020
+      },
+      {
+        "column": "unittesting.pytest",
+        "kind": "multi_option",
+        "group": "unittesting",
+        "option": "pytest",
+        "missing_tokens": [],
+        "reason": "全列值恒为选项文本，符合 multi_like 特征",
+        "year": 2020
+      },
+      {
+        "column": "unittesting.nose",
+        "kind": "multi_option",
+        "group": "unittesting",
+        "option": "nose",
+        "missing_tokens": [],
+        "reason": "全列值恒为选项文本，符合 multi_like 特征",
+        "year": 2020
+      },
+      {
+        "column": "unittesting.unittest",
+        "kind": "multi_option",
+        "group": "unittesting",
+        "option": "unittest",
+        "missing_tokens": [],
+        "reason": "全列值恒为选项文本，符合 multi_like 特征",
+        "year": 2020
+      }
+    ]
+  }
+}

@@ -1,0 +1,3488 @@
+{
+  "year": 2021,
+  "columns": [
+    {
+      "original": "is.python.main",
+      "new": "is.python.main",
+      "kind": "single_choice",
+      "group": "is.python.main",
+      "option": "",
+      "reason": "全列唯一值且含 Yes/No，符合单选题特征",
+      "fallback": false
+    },
+    {
+      "original": "other.lang.None",
+      "new": "other.lang.None",
+      "kind": "multi_option",
+      "group": "other.lang",
+      "option": "None",
+      "reason": "flags 为 multi_like，全列仅含选项文本",
+      "fallback": false
+    },
+    {
+      "original": "other.lang.Java",
+      "new": "other.lang.Java",
+      "kind": "multi_option",
+      "group": "other.lang",
+      "option": "Java",
+      "reason": "flags 为 multi_like，全列仅含选项文本",
+      "fallback": false
+    },
+    {
+      "original": "other.lang.JavaScript",
+      "new": "other.lang.JavaScript",
+      "kind": "multi_option",
+      "group": "other.lang",
+      "option": "JavaScript",
+      "reason": "flags 为 multi_like，全列仅含选项文本",
+      "fallback": false
+    },
+    {
+      "original": "other.lang.C/C++",
+      "new": "other.lang.C/C++",
+      "kind": "multi_option",
+      "group": "other.lang",
+      "option": "C/C++",
+      "reason": "flags 为 multi_like，全列仅含选项文本",
+      "fallback": false
+    },
+    {
+      "original": "other.lang.PHP",
+      "new": "other.lang.PHP",
+      "kind": "multi_option",
+      "group": "other.lang",
+      "option": "PHP",
+      "reason": "flags 为 multi_like，全列仅含选项文本",
+      "fallback": false
+    },
+    {
+      "original": "other.lang.C#",
+      "new": "other.lang.C#",
+      "kind": "multi_option",
+      "group": "other.lang",
+      "option": "C#",
+      "reason": "flags 为 multi_like，全列仅含选项文本",
+      "fallback": false
+    },
+    {
+      "original": "other.lang.Ruby",
+      "new": "other.lang.Ruby",
+      "kind": "multi_option",
+      "group": "other.lang",
+      "option": "Ruby",
+      "reason": "flags 为 multi_like，全列仅含选项文本",
+      "fallback": false
+    },
+    {
+      "original": "other.lang.Bash / Shell",
+      "new": "other.lang.Bash / Shell",
+      "kind": "multi_option",
+      "group": "other.lang",
+      "option": "Bash / Shell",
+      "reason": "flags 为 multi_like，全列仅含选项文本",
+      "fallback": false
+    },
+    {
+      "original": "other.lang.Objective-C",
+      "new": "other.lang.Objective-C",
+      "kind": "multi_option",
+      "group": "other.lang",
+      "option": "Objective-C",
+      "reason": "flags 为 multi_like，全列仅含选项文本",
+      "fallback": false
+    },
+    {
+      "original": "other.lang.Go",
+      "new": "other.lang.Go",
+      "kind": "multi_option",
+      "group": "other.lang",
+      "option": "Go",
+      "reason": "flags 为 multi_like，全列仅含选项文本",
+      "fallback": false
+    },
+    {
+      "original": "other.lang.Visual Basic",
+      "new": "other.lang.Visual Basic",
+      "kind": "multi_option",
+      "group": "other.lang",
+      "option": "Visual Basic",
+      "reason": "flags 为 multi_like，全列仅含选项文本",
+      "fallback": false
+    },
+    {
+      "original": "other.lang.Scala",
+      "new": "other.lang.Scala",
+      "kind": "multi_option",
+      "group": "other.lang",
+      "option": "Scala",
+      "reason": "flags 为 multi_like，全列仅含选项文本",
+      "fallback": false
+    },
+    {
+      "original": "other.lang.SQL",
+      "new": "other.lang.SQL",
+      "kind": "multi_option",
+      "group": "other.lang",
+      "option": "SQL",
+      "reason": "flags 为 multi_like，全列仅含选项文本",
+      "fallback": false
+    },
+    {
+      "original": "other.lang.Kotlin",
+      "new": "other.lang.Kotlin",
+      "kind": "multi_option",
+      "group": "other.lang",
+      "option": "Kotlin",
+      "reason": "flags 为 multi_like，全列仅含选项文本",
+      "fallback": false
+    },
+    {
+      "original": "other.lang.R",
+      "new": "other.lang.R",
+      "kind": "multi_option",
+      "group": "other.lang",
+      "option": "R",
+      "reason": "flags 为 multi_like，全列仅含选项文本",
+      "fallback": false
+    },
+    {
+      "original": "other.lang.Swift",
+      "new": "other.lang.Swift",
+      "kind": "multi_option",
+      "group": "other.lang",
+      "option": "Swift",
+      "reason": "flags 为 multi_like，全列仅含选项文本",
+      "fallback": false
+    },
+    {
+      "original": "other.lang.Clojure",
+      "new": "other.lang.Clojure",
+      "kind": "multi_option",
+      "group": "other.lang",
+      "option": "Clojure",
+      "reason": "flags 为 multi_like，全列仅含选项文本",
+      "fallback": false
+    },
+    {
+      "original": "other.lang.Perl",
+      "new": "other.lang.Perl",
+      "kind": "multi_option",
+      "group": "other.lang",
+      "option": "Perl",
+      "reason": "flags 显示 multi_like，全列值恒为选项文本",
+      "fallback": false
+    },
+    {
+      "original": "other.lang.Rust",
+      "new": "other.lang.Rust",
+      "kind": "multi_option",
+      "group": "other.lang",
+      "option": "Rust",
+      "reason": "flags 显示 multi_like，全列值恒为选项文本",
+      "fallback": false
+    },
+    {
+      "original": "other.lang.Groovy",
+      "new": "other.lang.Groovy",
+      "kind": "multi_option",
+      "group": "other.lang",
+      "option": "Groovy",
+      "reason": "flags 显示 multi_like，全列值恒为选项文本",
+      "fallback": false
+    },
+    {
+      "original": "other.lang.TypeScript",
+      "new": "other.lang.TypeScript",
+      "kind": "multi_option",
+      "group": "other.lang",
+      "option": "TypeScript",
+      "reason": "flags 显示 multi_like，全列值恒为选项文本",
+      "fallback": false
+    },
+    {
+      "original": "other.lang.CoffeeScript",
+      "new": "other.lang.CoffeeScript",
+      "kind": "multi_option",
+      "group": "other.lang",
+      "option": "CoffeeScript",
+      "reason": "flags 显示 multi_like，全列值恒为选项文本",
+      "fallback": false
+    },
+    {
+      "original": "other.lang.HTML/CSS",
+      "new": "other.lang.HTML/CSS",
+      "kind": "multi_option",
+      "group": "other.lang",
+      "option": "HTML/CSS",
+      "reason": "flags 显示 multi_like，全列值恒为选项文本",
+      "fallback": false
+    },
+    {
+      "original": "other.lang.Other",
+      "new": "other.lang.Other",
+      "kind": "multi_option",
+      "group": "other.lang",
+      "option": "Other",
+      "reason": "flags 显示 multi_like，全列值恒为选项文本",
+      "fallback": false
+    },
+    {
+      "original": "python.years",
+      "new": "python.years",
+      "kind": "multi_option",
+      "group": "python",
+      "option": "years",
+      "reason": "flags 显示 numeric_like 但含范围文本，视为多选题程度列",
+      "fallback": false
+    },
+    {
+      "original": "years.of.coding",
+      "new": "years.of.coding",
+      "kind": "multi_option",
+      "group": "years.of",
+      "option": "coding",
+      "reason": "flags 显示 numeric_like 但含范围文本，视为多选题程度列",
+      "fallback": false
+    },
+    {
+      "original": "main.purposes",
+      "new": "main.purposes",
+      "kind": "multi_option",
+      "group": "main",
+      "option": "purposes",
+      "reason": "flags 显示 numeric_like 但含范围文本，视为多选题程度列",
+      "fallback": false
+    },
+    {
+      "original": "other.purposes.Educational purposes",
+      "new": "other.purposes.Educational purposes",
+      "kind": "multi_option",
+      "group": "other.purposes",
+      "option": "Educational purposes",
+      "reason": "flags 显示 multi_like，全列值恒为选项文本",
+      "fallback": false
+    },
+    {
+      "original": "other.purposes.Data analysis",
+      "new": "other.purposes.Data analysis",
+      "kind": "multi_option",
+      "group": "other.purposes",
+      "option": "Data analysis",
+      "reason": "flags 显示 multi_like，全列值恒为选项文本",
+      "fallback": false
+    },
+    {
+      "original": "other.purposes.DevOps / System administration / Writing automation scripts",
+      "new": "other.purposes.DevOps / System administration / Writing automation scripts",
+      "kind": "multi_option",
+      "group": "other.purposes",
+      "option": "DevOps / System administration / Writing automation scripts",
+      "reason": "flags 显示 multi_like，全列值恒为选项文本",
+      "fallback": false
+    },
+    {
+      "original": "other.purposes.Software testing / Writing automated tests",
+      "new": "other.purposes.Software testing / Writing automated tests",
+      "kind": "multi_option",
+      "group": "other.purposes",
+      "option": "Software testing / Writing automated tests",
+      "reason": "flags 显示 multi_like，全列值恒为选项文本",
+      "fallback": false
+    },
+    {
+      "original": "other.purposes.Software prototyping",
+      "new": "other.purposes.Software prototyping",
+      "kind": "multi_option",
+      "group": "other.purposes",
+      "option": "Software prototyping",
+      "reason": "flags 显示 multi_like，全列值恒为选项文本",
+      "fallback": false
+    },
+    {
+      "original": "other.purposes.Web development",
+      "new": "other.purposes.Web development",
+      "kind": "multi_option",
+      "group": "other.purposes",
+      "option": "Web development",
+      "reason": "flags 显示 multi_like，全列值恒为选项文本",
+      "fallback": false
+    },
+    {
+      "original": "other.purposes.Machine learning",
+      "new": "other.purposes.Machine learning",
+      "kind": "multi_option",
+      "group": "other.purposes",
+      "option": "Machine learning",
+      "reason": "flags 显示 multi_like，全列值恒为选项文本",
+      "fallback": false
+    },
+    {
+      "original": "other.purposes.Mobile development",
+      "new": "other.purposes.Mobile development",
+      "kind": "multi_option",
+      "group": "other.purposes",
+      "option": "Mobile development",
+      "reason": "flags 显示 multi_like，全列值恒为选项文本",
+      "fallback": false
+    },
+    {
+      "original": "other.purposes.Desktop development",
+      "new": "other.purposes.Desktop development",
+      "kind": "multi_option",
+      "group": "other.purposes",
+      "option": "Desktop development",
+      "reason": "flags 为 multi_like，全列等于选项文本",
+      "fallback": false
+    },
+    {
+      "original": "other.purposes.Computer graphics",
+      "new": "other.purposes.Computer graphics",
+      "kind": "multi_option",
+      "group": "other.purposes",
+      "option": "Computer graphics",
+      "reason": "flags 为 multi_like，全列等于选项文本",
+      "fallback": false
+    },
+    {
+      "original": "other.purposes.Network programming",
+      "new": "other.purposes.Network programming",
+      "kind": "multi_option",
+      "group": "other.purposes",
+      "option": "Network programming",
+      "reason": "flags 为 multi_like，全列等于选项文本",
+      "fallback": false
+    },
+    {
+      "original": "other.purposes.Game development",
+      "new": "other.purposes.Game development",
+      "kind": "multi_option",
+      "group": "other.purposes",
+      "option": "Game development",
+      "reason": "flags 为 multi_like，全列等于选项文本",
+      "fallback": false
+    },
+    {
+      "original": "other.purposes.Multimedia applications development",
+      "new": "other.purposes.Multimedia applications development",
+      "kind": "multi_option",
+      "group": "other.purposes",
+      "option": "Multimedia applications development",
+      "reason": "flags 为 multi_like，全列等于选项文本",
+      "fallback": false
+    },
+    {
+      "original": "other.purposes.Embedded development",
+      "new": "other.purposes.Embedded development",
+      "kind": "multi_option",
+      "group": "other.purposes",
+      "option": "Embedded development",
+      "reason": "flags 为 multi_like，全列等于选项文本",
+      "fallback": false
+    },
+    {
+      "original": "other.purposes.Programming of web parsers / scrapers / crawlers",
+      "new": "other.purposes.Programming of web parsers / scrapers / crawlers",
+      "kind": "multi_option",
+      "group": "other.purposes",
+      "option": "Programming of web parsers / scrapers / crawlers",
+      "reason": "flags 为 multi_like，全列等于选项文本",
+      "fallback": false
+    },
+    {
+      "original": "other.purposes.Other",
+      "new": "other.purposes.Other",
+      "kind": "multi_option",
+      "group": "other.purposes",
+      "option": "Other",
+      "reason": "flags 为 multi_like，全列等于选项文本",
+      "fallback": false
+    },
+    {
+      "original": "use.python.most",
+      "new": "use.python.most",
+      "kind": "single_choice",
+      "group": "use.python.most",
+      "option": "",
+      "reason": "n_unique 为 16 且非 multi_like，为单选分布",
+      "fallback": false
+    },
+    {
+      "original": "are.you.datascientist",
+      "new": "are.you.datascientist",
+      "kind": "single_choice",
+      "group": "are.you.datascientist",
+      "option": "",
+      "reason": "n_unique 为 3 且非 multi_like，为单选分布",
+      "fallback": false
+    },
+    {
+      "original": "python.version.most",
+      "new": "python.version.most",
+      "kind": "single_choice",
+      "group": "python.version.most",
+      "option": "",
+      "reason": "n_unique 为 2 且非 multi_like，为单选分布",
+      "fallback": false
+    },
+    {
+      "original": "python2.version.most",
+      "new": "python2.version.most",
+      "kind": "single_choice",
+      "group": "python2.version.most",
+      "option": "",
+      "reason": "n_unique 为 8 且非 multi_like，为单选分布",
+      "fallback": false
+    },
+    {
+      "original": "python3.version.most",
+      "new": "python3.version.most",
+      "kind": "single_choice",
+      "group": "python3.version.most",
+      "option": "",
+      "reason": "n_unique 为 6 且非 multi_like，为单选分布",
+      "fallback": false
+    },
+    {
+      "original": "python.version.upgrade.I don’t update",
+      "new": "python.version.upgrade.I don’t update",
+      "kind": "multi_option",
+      "group": "python.version.upgrade",
+      "option": "I don’t update",
+      "reason": "fallback：模型未返回该列，按表头结构默认判定",
+      "fallback": true
+    },
+    {
+      "original": "python.version.upgrade.Somebody else manages Python updates for me",
+      "new": "python.version.upgrade.Somebody else manages Python updates for me",
+      "kind": "multi_option",
+      "group": "python.version.upgrade",
+      "option": "Somebody else manages Python updates for me",
+      "reason": "flags 为 multi_like，全列等于选项文本",
+      "fallback": false
+    },
+    {
+      "original": "python.version.upgrade.Python_org",
+      "new": "python.version.upgrade.Python_org",
+      "kind": "multi_option",
+      "group": "python.version.upgrade",
+      "option": "Python_org",
+      "reason": "flags 为 multi_like，全列等于选项文本",
+      "fallback": false
+    },
+    {
+      "original": "python.version.upgrade.Build from source",
+      "new": "python.version.upgrade.Build from source",
+      "kind": "multi_option",
+      "group": "python.version.upgrade",
+      "option": "Build from source",
+      "reason": "flags 为 multi_like，全列等于选项文本",
+      "fallback": false
+    },
+    {
+      "original": "python.version.upgrade.Automatic upgrade via cloud provider",
+      "new": "python.version.upgrade.Automatic upgrade via cloud provider",
+      "kind": "multi_option",
+      "group": "python.version.upgrade",
+      "option": "Automatic upgrade via cloud provider",
+      "reason": "flags 为 multi_like，全列等于选项文本",
+      "fallback": false
+    },
+    {
+      "original": "python.version.upgrade.Anaconda",
+      "new": "python.version.upgrade.Anaconda",
+      "kind": "multi_option",
+      "group": "python.version.upgrade",
+      "option": "Anaconda",
+      "reason": "全列唯一值等于列名，符合 multi_like 特征",
+      "fallback": false
+    },
+    {
+      "original": "python.version.upgrade.ActivePython",
+      "new": "python.version.upgrade.ActivePython",
+      "kind": "multi_option",
+      "group": "python.version.upgrade",
+      "option": "ActivePython",
+      "reason": "全列唯一值等于列名，符合 multi_like 特征",
+      "fallback": false
+    },
+    {
+      "original": "python.version.upgrade.Intel Distribution for Python",
+      "new": "python.version.upgrade.Intel Distribution for Python",
+      "kind": "multi_option",
+      "group": "python.version.upgrade",
+      "option": "Intel Distribution for Python",
+      "reason": "全列唯一值等于列名，符合 multi_like 特征",
+      "fallback": false
+    },
+    {
+      "original": "python.version.upgrade.OS-provided Python (via apt-get, yum, homebrew, etc_)",
+      "new": "python.version.upgrade.OS-provided Python (via apt-get, yum, homebrew, etc_)",
+      "kind": "multi_option",
+      "group": "python.version.upgrade",
+      "option": "OS-provided Python (via apt-get, yum, homebrew, etc_)",
+      "reason": "全列唯一值等于列名，符合 multi_like 特征",
+      "fallback": false
+    },
+    {
+      "original": "python.version.upgrade.pyenv",
+      "new": "python.version.upgrade.pyenv",
+      "kind": "multi_option",
+      "group": "python.version.upgrade",
+      "option": "pyenv",
+      "reason": "全列唯一值等于列名，符合 multi_like 特征",
+      "fallback": false
+    },
+    {
+      "original": "python.version.upgrade.pythonz",
+      "new": "python.version.upgrade.pythonz",
+      "kind": "multi_option",
+      "group": "python.version.upgrade",
+      "option": "pythonz",
+      "reason": "全列唯一值等于列名，符合 multi_like 特征",
+      "fallback": false
+    },
+    {
+      "original": "python.version.upgrade.I use Docker containers",
+      "new": "python.version.upgrade.I use Docker containers",
+      "kind": "multi_option",
+      "group": "python.version.upgrade",
+      "option": "I use Docker containers",
+      "reason": "全列唯一值等于列名，符合 multi_like 特征",
+      "fallback": false
+    },
+    {
+      "original": "python.version.upgrade.Other",
+      "new": "python.version.upgrade.Other",
+      "kind": "multi_option",
+      "group": "python.version.upgrade",
+      "option": "Other",
+      "reason": "全列唯一值等于列名，符合 multi_like 特征",
+      "fallback": false
+    },
+    {
+      "original": "isolate.environments.None",
+      "new": "isolate.environments.None",
+      "kind": "multi_option",
+      "group": "isolate.environments",
+      "option": "None",
+      "reason": "全列唯一值等于列名，符合 multi_like 特征",
+      "fallback": false
+    },
+    {
+      "original": "isolate.environments.Virtualenv",
+      "new": "isolate.environments.Virtualenv",
+      "kind": "multi_option",
+      "group": "isolate.environments",
+      "option": "Virtualenv",
+      "reason": "全列唯一值等于列名，符合 multi_like 特征",
+      "fallback": false
+    },
+    {
+      "original": "isolate.environments.Pipenv",
+      "new": "isolate.environments.Pipenv",
+      "kind": "multi_option",
+      "group": "isolate.environments",
+      "option": "Pipenv",
+      "reason": "全列唯一值等于列名，符合 multi_like 特征",
+      "fallback": false
+    },
+    {
+      "original": "isolate.environments.Poetry",
+      "new": "isolate.environments.Poetry",
+      "kind": "multi_option",
+      "group": "isolate.environments",
+      "option": "Poetry",
+      "reason": "全列唯一值等于列名，符合 multi_like 特征",
+      "fallback": false
+    },
+    {
+      "original": "isolate.environments.Conda",
+      "new": "isolate.environments.Conda",
+      "kind": "multi_option",
+      "group": "isolate.environments",
+      "option": "Conda",
+      "reason": "全列唯一值等于列名，符合 multi_like 特征",
+      "fallback": false
+    },
+    {
+      "original": "isolate.environments.Docker",
+      "new": "isolate.environments.Docker",
+      "kind": "multi_option",
+      "group": "isolate.environments",
+      "option": "Docker",
+      "reason": "全列唯一值等于列名，符合 multi_like 特征",
+      "fallback": false
+    },
+    {
+      "original": "isolate.environments.Vagrant  / virtual machines",
+      "new": "isolate.environments.Vagrant / virtual machines",
+      "kind": "multi_option",
+      "group": "isolate.environments",
+      "option": "Vagrant / virtual machines",
+      "reason": "全列唯一值等于列名，符合 multi_like 特征",
+      "fallback": false
+    },
+    {
+      "original": "isolate.environments.Other",
+      "new": "isolate.environments.Other",
+      "kind": "multi_option",
+      "group": "isolate.environments",
+      "option": "Other",
+      "reason": "全列唯一值等于列名，符合 multi_like 特征",
+      "fallback": false
+    },
+    {
+      "original": "web.frameworks.None",
+      "new": "web.frameworks.None",
+      "kind": "multi_option",
+      "group": "web.frameworks",
+      "option": "None",
+      "reason": "全列唯一值等于列名，符合 multi_like 特征",
+      "fallback": false
+    },
+    {
+      "original": "web.frameworks.Django",
+      "new": "web.frameworks.Django",
+      "kind": "multi_option",
+      "group": "web.frameworks",
+      "option": "Django",
+      "reason": "全列唯一值等于列名，符合 multi_like 特征",
+      "fallback": false
+    },
+    {
+      "original": "web.frameworks.web2py",
+      "new": "web.frameworks.web2py",
+      "kind": "multi_option",
+      "group": "web.frameworks",
+      "option": "web2py",
+      "reason": "flags 显示全列等于选项文本，确认为单选选项列",
+      "fallback": false
+    },
+    {
+      "original": "web.frameworks.Bottle",
+      "new": "web.frameworks.Bottle",
+      "kind": "multi_option",
+      "group": "web.frameworks",
+      "option": "Bottle",
+      "reason": "flags 显示全列等于选项文本，确认为单选选项列",
+      "fallback": false
+    },
+    {
+      "original": "web.frameworks.CherryPy",
+      "new": "web.frameworks.CherryPy",
+      "kind": "multi_option",
+      "group": "web.frameworks",
+      "option": "CherryPy",
+      "reason": "flags 显示全列等于选项文本，确认为单选选项列",
+      "fallback": false
+    },
+    {
+      "original": "web.frameworks.Flask",
+      "new": "web.frameworks.Flask",
+      "kind": "multi_option",
+      "group": "web.frameworks",
+      "option": "Flask",
+      "reason": "flags 显示全列等于选项文本，确认为单选选项列",
+      "fallback": false
+    },
+    {
+      "original": "web.frameworks.Hug",
+      "new": "web.frameworks.Hug",
+      "kind": "multi_option",
+      "group": "web.frameworks",
+      "option": "Hug",
+      "reason": "flags 显示全列等于选项文本，确认为单选选项列",
+      "fallback": false
+    },
+    {
+      "original": "web.frameworks.Pyramid",
+      "new": "web.frameworks.Pyramid",
+      "kind": "multi_option",
+      "group": "web.frameworks",
+      "option": "Pyramid",
+      "reason": "flags 显示全列等于选项文本，确认为单选选项列",
+      "fallback": false
+    },
+    {
+      "original": "web.frameworks.Tornado",
+      "new": "web.frameworks.Tornado",
+      "kind": "multi_option",
+      "group": "web.frameworks",
+      "option": "Tornado",
+      "reason": "flags 显示全列等于选项文本，确认为单选选项列",
+      "fallback": false
+    },
+    {
+      "original": "web.frameworks.Falcon",
+      "new": "web.frameworks.Falcon",
+      "kind": "multi_option",
+      "group": "web.frameworks",
+      "option": "Falcon",
+      "reason": "flags 显示全列等于选项文本，确认为单选选项列",
+      "fallback": false
+    },
+    {
+      "original": "web.frameworks.FastAPI",
+      "new": "web.frameworks.FastAPI",
+      "kind": "multi_option",
+      "group": "web.frameworks",
+      "option": "FastAPI",
+      "reason": "flags 显示全列等于选项文本，确认为单选选项列",
+      "fallback": false
+    },
+    {
+      "original": "web.frameworks.Other",
+      "new": "web.frameworks.Other",
+      "kind": "multi_option",
+      "group": "web.frameworks",
+      "option": "Other",
+      "reason": "flags 显示全列等于选项文本，确认为单选选项列",
+      "fallback": false
+    },
+    {
+      "original": "data.frameworks.None",
+      "new": "data.frameworks.None",
+      "kind": "multi_option",
+      "group": "data.frameworks",
+      "option": "None",
+      "reason": "flags 显示全列等于选项文本，确认为单选选项列",
+      "fallback": false
+    },
+    {
+      "original": "data.frameworks.PyTorch",
+      "new": "data.frameworks.PyTorch",
+      "kind": "multi_option",
+      "group": "data.frameworks",
+      "option": "PyTorch",
+      "reason": "flags 显示全列等于选项文本，确认为单选选项列",
+      "fallback": false
+    },
+    {
+      "original": "data.frameworks.NumPy",
+      "new": "data.frameworks.NumPy",
+      "kind": "multi_option",
+      "group": "data.frameworks",
+      "option": "NumPy",
+      "reason": "flags 显示全列等于选项文本，确认为单选选项列",
+      "fallback": false
+    },
+    {
+      "original": "data.frameworks.SciPy",
+      "new": "data.frameworks.SciPy",
+      "kind": "multi_option",
+      "group": "data.frameworks",
+      "option": "SciPy",
+      "reason": "flags 显示全列等于选项文本，确认为单选选项列",
+      "fallback": false
+    },
+    {
+      "original": "data.frameworks.Pandas",
+      "new": "data.frameworks.Pandas",
+      "kind": "multi_option",
+      "group": "data.frameworks",
+      "option": "Pandas",
+      "reason": "flags 显示全列等于选项文本，确认为单选选项列",
+      "fallback": false
+    },
+    {
+      "original": "data.frameworks.Matplotlib",
+      "new": "data.frameworks.Matplotlib",
+      "kind": "multi_option",
+      "group": "data.frameworks",
+      "option": "Matplotlib",
+      "reason": "flags 显示全列等于选项文本，确认为单选选项列",
+      "fallback": false
+    },
+    {
+      "original": "data.frameworks.Seaborn",
+      "new": "data.frameworks.Seaborn",
+      "kind": "multi_option",
+      "group": "data.frameworks",
+      "option": "Seaborn",
+      "reason": "flags 显示全列等于选项文本，确认为单选选项列",
+      "fallback": false
+    },
+    {
+      "original": "data.frameworks.SciKit-Learn",
+      "new": "data.frameworks.SciKit-Learn",
+      "kind": "multi_option",
+      "group": "data.frameworks",
+      "option": "SciKit-Learn",
+      "reason": "flags 显示全列等于选项文本，确认为单选选项列",
+      "fallback": false
+    },
+    {
+      "original": "data.frameworks.Keras",
+      "new": "data.frameworks.Keras",
+      "kind": "multi_option",
+      "group": "data.frameworks",
+      "option": "Keras",
+      "reason": "flags 显示全列等于选项文本，符合 multi_like",
+      "fallback": false
+    },
+    {
+      "original": "data.frameworks.TensorFlow",
+      "new": "data.frameworks.TensorFlow",
+      "kind": "multi_option",
+      "group": "data.frameworks",
+      "option": "TensorFlow",
+      "reason": "flags 显示全列等于选项文本，符合 multi_like",
+      "fallback": false
+    },
+    {
+      "original": "data.frameworks.Theano",
+      "new": "data.frameworks.Theano",
+      "kind": "multi_option",
+      "group": "data.frameworks",
+      "option": "Theano",
+      "reason": "flags 显示全列等于选项文本，符合 multi_like",
+      "fallback": false
+    },
+    {
+      "original": "data.frameworks.NLTK",
+      "new": "data.frameworks.NLTK",
+      "kind": "multi_option",
+      "group": "data.frameworks",
+      "option": "NLTK",
+      "reason": "flags 显示全列等于选项文本，符合 multi_like",
+      "fallback": false
+    },
+    {
+      "original": "data.frameworks.MXNet",
+      "new": "data.frameworks.MXNet",
+      "kind": "multi_option",
+      "group": "data.frameworks",
+      "option": "MXNet",
+      "reason": "flags 显示全列等于选项文本，符合 multi_like",
+      "fallback": false
+    },
+    {
+      "original": "data.frameworks.Gensim",
+      "new": "data.frameworks.Gensim",
+      "kind": "multi_option",
+      "group": "data.frameworks",
+      "option": "Gensim",
+      "reason": "flags 显示全列等于选项文本，符合 multi_like",
+      "fallback": false
+    },
+    {
+      "original": "data.frameworks.Other",
+      "new": "data.frameworks.Other",
+      "kind": "multi_option",
+      "group": "data.frameworks",
+      "option": "Other",
+      "reason": "flags 显示全列等于选项文本，符合 multi_like",
+      "fallback": false
+    },
+    {
+      "original": "other.frameworks.None",
+      "new": "other.frameworks.None",
+      "kind": "multi_option",
+      "group": "other.frameworks",
+      "option": "None",
+      "reason": "flags 显示全列等于选项文本，符合 multi_like",
+      "fallback": false
+    },
+    {
+      "original": "other.frameworks.Requests",
+      "new": "other.frameworks.Requests",
+      "kind": "multi_option",
+      "group": "other.frameworks",
+      "option": "Requests",
+      "reason": "flags 显示全列等于选项文本，符合 multi_like",
+      "fallback": false
+    },
+    {
+      "original": "other.frameworks.aiohttp",
+      "new": "other.frameworks.aiohttp",
+      "kind": "multi_option",
+      "group": "other.frameworks",
+      "option": "aiohttp",
+      "reason": "flags 显示全列等于选项文本，符合 multi_like",
+      "fallback": false
+    },
+    {
+      "original": "other.frameworks.httpx",
+      "new": "other.frameworks.httpx",
+      "kind": "multi_option",
+      "group": "other.frameworks",
+      "option": "httpx",
+      "reason": "flags 显示全列等于选项文本，符合 multi_like",
+      "fallback": false
+    },
+    {
+      "original": "other.frameworks.PyQT",
+      "new": "other.frameworks.PyQT",
+      "kind": "multi_option",
+      "group": "other.frameworks",
+      "option": "PyQT",
+      "reason": "flags 显示全列等于选项文本，符合 multi_like",
+      "fallback": false
+    },
+    {
+      "original": "other.frameworks.PyGTK",
+      "new": "other.frameworks.PyGTK",
+      "kind": "multi_option",
+      "group": "other.frameworks",
+      "option": "PyGTK",
+      "reason": "flags 显示全列等于选项文本，符合 multi_like",
+      "fallback": false
+    },
+    {
+      "original": "other.frameworks.wxPython",
+      "new": "other.frameworks.wxPython",
+      "kind": "multi_option",
+      "group": "other.frameworks",
+      "option": "wxPython",
+      "reason": "flags 显示全列等于选项文本，符合 multi_like",
+      "fallback": false
+    },
+    {
+      "original": "other.frameworks.Pillow",
+      "new": "other.frameworks.Pillow",
+      "kind": "multi_option",
+      "group": "other.frameworks",
+      "option": "Pillow",
+      "reason": "flags 显示全列等于选项文本，符合 multi_like",
+      "fallback": false
+    },
+    {
+      "original": "other.frameworks.Tkinter",
+      "new": "other.frameworks.Tkinter",
+      "kind": "multi_option",
+      "group": "other.frameworks",
+      "option": "Tkinter",
+      "reason": "flags 显示全列等于选项文本，符合 multi_like",
+      "fallback": false
+    },
+    {
+      "original": "other.frameworks.Pygame",
+      "new": "other.frameworks.Pygame",
+      "kind": "multi_option",
+      "group": "other.frameworks",
+      "option": "Pygame",
+      "reason": "flags 显示全列等于选项文本，符合 multi_like",
+      "fallback": false
+    },
+    {
+      "original": "other.frameworks.Twisted",
+      "new": "other.frameworks.Twisted",
+      "kind": "multi_option",
+      "group": "other.frameworks",
+      "option": "Twisted",
+      "reason": "flags 显示全列等于选项文本，符合 multi_like",
+      "fallback": false
+    },
+    {
+      "original": "other.frameworks.Asyncio",
+      "new": "other.frameworks.Asyncio",
+      "kind": "multi_option",
+      "group": "other.frameworks",
+      "option": "Asyncio",
+      "reason": "flags 显示 multi_like，全列值恒为选项名",
+      "fallback": false
+    },
+    {
+      "original": "other.frameworks.Kivy",
+      "new": "other.frameworks.Kivy",
+      "kind": "multi_option",
+      "group": "other.frameworks",
+      "option": "Kivy",
+      "reason": "flags 显示 multi_like，全列值恒为选项名",
+      "fallback": false
+    },
+    {
+      "original": "other.frameworks.Six",
+      "new": "other.frameworks.Six",
+      "kind": "multi_option",
+      "group": "other.frameworks",
+      "option": "Six",
+      "reason": "flags 显示 multi_like，全列值恒为选项名",
+      "fallback": false
+    },
+    {
+      "original": "other.frameworks.Scrapy",
+      "new": "other.frameworks.Scrapy",
+      "kind": "multi_option",
+      "group": "other.frameworks",
+      "option": "Scrapy",
+      "reason": "flags 显示 multi_like，全列值恒为选项名",
+      "fallback": false
+    },
+    {
+      "original": "other.frameworks.Other",
+      "new": "other.frameworks.Other",
+      "kind": "multi_option",
+      "group": "other.frameworks",
+      "option": "Other",
+      "reason": "flags 显示 multi_like，全列值恒为选项名",
+      "fallback": false
+    },
+    {
+      "original": "cloud.platform.None",
+      "new": "cloud.platform.None",
+      "kind": "multi_option",
+      "group": "cloud.platform",
+      "option": "None",
+      "reason": "flags 显示 multi_like，全列值恒为选项名",
+      "fallback": false
+    },
+    {
+      "original": "cloud.platform.Google Cloud Platform",
+      "new": "cloud.platform.Google Cloud Platform",
+      "kind": "multi_option",
+      "group": "cloud.platform",
+      "option": "Google Cloud Platform",
+      "reason": "flags 显示 multi_like，全列值恒为选项名",
+      "fallback": false
+    },
+    {
+      "original": "cloud.platform.AWS",
+      "new": "cloud.platform.AWS",
+      "kind": "multi_option",
+      "group": "cloud.platform",
+      "option": "AWS",
+      "reason": "flags 显示 multi_like，全列值恒为选项名",
+      "fallback": false
+    },
+    {
+      "original": "cloud.platform.Microsoft Azure",
+      "new": "cloud.platform.Microsoft Azure",
+      "kind": "multi_option",
+      "group": "cloud.platform",
+      "option": "Microsoft Azure",
+      "reason": "flags 显示 multi_like，全列值恒为选项名",
+      "fallback": false
+    },
+    {
+      "original": "cloud.platform.Rackspace",
+      "new": "cloud.platform.Rackspace",
+      "kind": "multi_option",
+      "group": "cloud.platform",
+      "option": "Rackspace",
+      "reason": "flags 显示 multi_like，全列值恒为选项名",
+      "fallback": false
+    },
+    {
+      "original": "cloud.platform.Heroku",
+      "new": "cloud.platform.Heroku",
+      "kind": "multi_option",
+      "group": "cloud.platform",
+      "option": "Heroku",
+      "reason": "flags 显示 multi_like，全列值恒为选项名",
+      "fallback": false
+    },
+    {
+      "original": "cloud.platform.DigitalOcean",
+      "new": "cloud.platform.DigitalOcean",
+      "kind": "multi_option",
+      "group": "cloud.platform",
+      "option": "DigitalOcean",
+      "reason": "flags 显示 multi_like，全列值恒为选项名",
+      "fallback": false
+    },
+    {
+      "original": "cloud.platform.Linode",
+      "new": "cloud.platform.Linode",
+      "kind": "multi_option",
+      "group": "cloud.platform",
+      "option": "Linode",
+      "reason": "flags 显示 multi_like，全列值恒为选项名",
+      "fallback": false
+    },
+    {
+      "original": "cloud.platform.PythonAnywhere",
+      "new": "cloud.platform.PythonAnywhere",
+      "kind": "multi_option",
+      "group": "cloud.platform",
+      "option": "PythonAnywhere",
+      "reason": "flags 显示 multi_like，全列值恒为选项名",
+      "fallback": false
+    },
+    {
+      "original": "cloud.platform.OpenShift",
+      "new": "cloud.platform.OpenShift",
+      "kind": "multi_option",
+      "group": "cloud.platform",
+      "option": "OpenShift",
+      "reason": "flags 显示 multi_like，全列值恒为选项名",
+      "fallback": false
+    },
+    {
+      "original": "cloud.platform.OpenStack",
+      "new": "cloud.platform.OpenStack",
+      "kind": "multi_option",
+      "group": "cloud.platform",
+      "option": "OpenStack",
+      "reason": "flags 显示 multi_like，全列值恒为选项名",
+      "fallback": false
+    },
+    {
+      "original": "cloud.platform.Other",
+      "new": "cloud.platform.Other",
+      "kind": "multi_option",
+      "group": "cloud.platform",
+      "option": "Other",
+      "reason": "flags 显示 multi_like，全列值恒为选项名",
+      "fallback": false
+    },
+    {
+      "original": "run.in.cloud.None of the following",
+      "new": "run.in.cloud.None of the following",
+      "kind": "multi_option",
+      "group": "run.in.cloud",
+      "option": "None of the following",
+      "reason": "flags 显示 multi_like，全列值恒为选项名",
+      "fallback": false
+    },
+    {
+      "original": "run.in.cloud.In virtual machines",
+      "new": "run.in.cloud.In virtual machines",
+      "kind": "multi_option",
+      "group": "run.in.cloud",
+      "option": "In virtual machines",
+      "reason": "flags 为 multi_like，全列取值恒等于列名选项",
+      "fallback": false
+    },
+    {
+      "original": "run.in.cloud.Within containers",
+      "new": "run.in.cloud.Within containers",
+      "kind": "multi_option",
+      "group": "run.in.cloud",
+      "option": "Within containers",
+      "reason": "flags 为 multi_like，全列取值恒等于列名选项",
+      "fallback": false
+    },
+    {
+      "original": "run.in.cloud.On a Platform-as-a-Service (such as Heroku or Google App Engine)",
+      "new": "run.in.cloud.On a Platform-as-a-Service (such as Heroku or Google App Engine)",
+      "kind": "multi_option",
+      "group": "run.in.cloud",
+      "option": "On a Platform-as-a-Service (such as Heroku or Google App Engine)",
+      "reason": "flags 为 multi_like，全列取值恒等于列名选项",
+      "fallback": false
+    },
+    {
+      "original": "run.in.cloud.Serverless (such as AWS Lambda or Cloud Functions)",
+      "new": "run.in.cloud.Serverless (such as AWS Lambda or Cloud Functions)",
+      "kind": "multi_option",
+      "group": "run.in.cloud",
+      "option": "Serverless (such as AWS Lambda or Cloud Functions)",
+      "reason": "flags 为 multi_like，全列取值恒等于列名选项",
+      "fallback": false
+    },
+    {
+      "original": "run.in.cloud.Other",
+      "new": "run.in.cloud.Other",
+      "kind": "multi_option",
+      "group": "run.in.cloud",
+      "option": "Other",
+      "reason": "flags 为 multi_like，全列取值恒等于列名选项",
+      "fallback": false
+    },
+    {
+      "original": "develop.for.cloud.None of the following",
+      "new": "develop.for.cloud.None of the following",
+      "kind": "multi_option",
+      "group": "develop.for.cloud",
+      "option": "None of the following",
+      "reason": "flags 为 multi_like，全列取值恒等于列名选项",
+      "fallback": false
+    },
+    {
+      "original": "develop.for.cloud.With local system interpreter",
+      "new": "develop.for.cloud.With local system interpreter",
+      "kind": "multi_option",
+      "group": "develop.for.cloud",
+      "option": "With local system interpreter",
+      "reason": "flags 为 multi_like，全列取值恒等于列名选项",
+      "fallback": false
+    },
+    {
+      "original": "develop.for.cloud.Locally with virtualenv (or similar)",
+      "new": "develop.for.cloud.Locally with virtualenv (or similar)",
+      "kind": "multi_option",
+      "group": "develop.for.cloud",
+      "option": "Locally with virtualenv (or similar)",
+      "reason": "flags 为 multi_like，全列取值恒等于列名选项",
+      "fallback": false
+    },
+    {
+      "original": "develop.for.cloud.In Docker containers",
+      "new": "develop.for.cloud.In Docker containers",
+      "kind": "multi_option",
+      "group": "develop.for.cloud",
+      "option": "In Docker containers",
+      "reason": "flags 为 multi_like，全列取值恒等于列名选项",
+      "fallback": false
+    },
+    {
+      "original": "develop.for.cloud.In virtual machines",
+      "new": "develop.for.cloud.In virtual machines",
+      "kind": "multi_option",
+      "group": "develop.for.cloud",
+      "option": "In virtual machines",
+      "reason": "flags 为 multi_like，全列取值恒等于列名选项",
+      "fallback": false
+    },
+    {
+      "original": "develop.for.cloud.In remote development environments",
+      "new": "develop.for.cloud.In remote development environments",
+      "kind": "multi_option",
+      "group": "develop.for.cloud",
+      "option": "In remote development environments",
+      "reason": "flags 为 multi_like，全列取值恒等于列名选项",
+      "fallback": false
+    },
+    {
+      "original": "develop.for.cloud.Directly in the production environment",
+      "new": "develop.for.cloud.Directly in the production environment",
+      "kind": "multi_option",
+      "group": "develop.for.cloud",
+      "option": "Directly in the production environment",
+      "reason": "flags 为 multi_like，全列取值恒等于列名选项",
+      "fallback": false
+    },
+    {
+      "original": "develop.for.cloud.Other",
+      "new": "develop.for.cloud.Other",
+      "kind": "multi_option",
+      "group": "develop.for.cloud",
+      "option": "Other",
+      "reason": "flags 为 multi_like，全列取值恒等于列名选项",
+      "fallback": false
+    },
+    {
+      "original": "devenv.os.Windows",
+      "new": "devenv.os.Windows",
+      "kind": "multi_option",
+      "group": "devenv.os",
+      "option": "Windows",
+      "reason": "flags 为 multi_like，全列取值恒等于列名选项",
+      "fallback": false
+    },
+    {
+      "original": "devenv.os.Linux",
+      "new": "devenv.os.Linux",
+      "kind": "multi_option",
+      "group": "devenv.os",
+      "option": "Linux",
+      "reason": "flags 为 multi_like，全列取值恒等于列名选项",
+      "fallback": false
+    },
+    {
+      "original": "devenv.os.macOS",
+      "new": "devenv.os.macOS",
+      "kind": "multi_option",
+      "group": "devenv.os",
+      "option": "macOS",
+      "reason": "flags 为 multi_like，全列取值恒等于列名选项",
+      "fallback": false
+    },
+    {
+      "original": "devenv.os.BSD",
+      "new": "devenv.os.BSD",
+      "kind": "multi_option",
+      "group": "devenv.os",
+      "option": "BSD",
+      "reason": "flags 为 multi_like，全列取值恒等于列名选项",
+      "fallback": false
+    },
+    {
+      "original": "devenv.os.Other",
+      "new": "devenv.os.Other",
+      "kind": "multi_option",
+      "group": "devenv.os",
+      "option": "Other",
+      "reason": "flags 为 multi_like，全列取值恒等于列名选项",
+      "fallback": false
+    },
+    {
+      "original": "unittesting.None",
+      "new": "unittesting.None",
+      "kind": "multi_option",
+      "group": "unittesting",
+      "option": "None",
+      "reason": "全列值恒等于列名选项，符合 multi_like",
+      "fallback": false
+    },
+    {
+      "original": "unittesting.pytest",
+      "new": "unittesting.pytest",
+      "kind": "multi_option",
+      "group": "unittesting",
+      "option": "pytest",
+      "reason": "全列值恒等于列名选项，符合 multi_like",
+      "fallback": false
+    },
+    {
+      "original": "unittesting.nose",
+      "new": "unittesting.nose",
+      "kind": "multi_option",
+      "group": "unittesting",
+      "option": "nose",
+      "reason": "全列值恒等于列名选项，符合 multi_like",
+      "fallback": false
+    },
+    {
+      "original": "unittesting.unittest",
+      "new": "unittesting.unittest",
+      "kind": "multi_option",
+      "group": "unittesting",
+      "option": "unittest",
+      "reason": "全列值恒等于列名选项，符合 multi_like",
+      "fallback": false
+    },
+    {
+      "original": "unittesting.doctest",
+      "new": "unittesting.doctest",
+      "kind": "multi_option",
+      "group": "unittesting",
+      "option": "doctest",
+      "reason": "全列值恒等于列名选项，符合 multi_like",
+      "fallback": false
+    },
+    {
+      "original": "unittesting.tox",
+      "new": "unittesting.tox",
+      "kind": "multi_option",
+      "group": "unittesting",
+      "option": "tox",
+      "reason": "全列值恒等于列名选项，符合 multi_like",
+      "fallback": false
+    },
+    {
+      "original": "unittesting.Hypothesis",
+      "new": "unittesting.Hypothesis",
+      "kind": "multi_option",
+      "group": "unittesting",
+      "option": "Hypothesis",
+      "reason": "全列值恒等于列名选项，符合 multi_like",
+      "fallback": false
+    },
+    {
+      "original": "unittesting.mock",
+      "new": "unittesting.mock",
+      "kind": "multi_option",
+      "group": "unittesting",
+      "option": "mock",
+      "reason": "全列值恒等于列名选项，符合 multi_like",
+      "fallback": false
+    },
+    {
+      "original": "unittesting.Other",
+      "new": "unittesting.Other",
+      "kind": "multi_option",
+      "group": "unittesting",
+      "option": "Other",
+      "reason": "全列值恒等于列名选项，符合 multi_like",
+      "fallback": false
+    },
+    {
+      "original": "orm.No database development",
+      "new": "orm.No database development",
+      "kind": "multi_option",
+      "group": "orm",
+      "option": "No database development",
+      "reason": "全列值恒等于列名选项，符合 multi_like",
+      "fallback": false
+    },
+    {
+      "original": "orm.Raw SQL",
+      "new": "orm.Raw SQL",
+      "kind": "multi_option",
+      "group": "orm",
+      "option": "Raw SQL",
+      "reason": "全列值恒等于列名选项，符合 multi_like",
+      "fallback": false
+    },
+    {
+      "original": "orm.Django ORM",
+      "new": "orm.Django ORM",
+      "kind": "multi_option",
+      "group": "orm",
+      "option": "Django ORM",
+      "reason": "全列值恒等于列名选项，符合 multi_like",
+      "fallback": false
+    },
+    {
+      "original": "orm.SQLAlchemy",
+      "new": "orm.SQLAlchemy",
+      "kind": "multi_option",
+      "group": "orm",
+      "option": "SQLAlchemy",
+      "reason": "全列值恒等于列名选项，符合 multi_like",
+      "fallback": false
+    },
+    {
+      "original": "orm.Peewee",
+      "new": "orm.Peewee",
+      "kind": "multi_option",
+      "group": "orm",
+      "option": "Peewee",
+      "reason": "全列值恒等于列名选项，符合 multi_like",
+      "fallback": false
+    },
+    {
+      "original": "orm.Dejavu",
+      "new": "orm.Dejavu",
+      "kind": "multi_option",
+      "group": "orm",
+      "option": "Dejavu",
+      "reason": "全列值恒等于列名选项，符合 multi_like",
+      "fallback": false
+    },
+    {
+      "original": "orm.PonyORM",
+      "new": "orm.PonyORM",
+      "kind": "multi_option",
+      "group": "orm",
+      "option": "PonyORM",
+      "reason": "全列值恒等于列名选项，符合 multi_like",
+      "fallback": false
+    },
+    {
+      "original": "orm.SQLObject",
+      "new": "orm.SQLObject",
+      "kind": "multi_option",
+      "group": "orm",
+      "option": "SQLObject",
+      "reason": "全列值恒等于列名选项，符合 multi_like",
+      "fallback": false
+    },
+    {
+      "original": "orm.Tortoise ORM",
+      "new": "orm.Tortoise ORM",
+      "kind": "multi_option",
+      "group": "orm",
+      "option": "Tortoise ORM",
+      "reason": "全列值恒等于列名选项，符合 multi_like",
+      "fallback": false
+    },
+    {
+      "original": "orm.Other",
+      "new": "orm.Other",
+      "kind": "multi_option",
+      "group": "orm",
+      "option": "Other",
+      "reason": "flags 显示全列恒等于选项文本",
+      "fallback": false
+    },
+    {
+      "original": "database.None",
+      "new": "database.None",
+      "kind": "multi_option",
+      "group": "database",
+      "option": "None",
+      "reason": "flags 显示全列恒等于选项文本",
+      "fallback": false
+    },
+    {
+      "original": "database.DB2",
+      "new": "database.DB2",
+      "kind": "multi_option",
+      "group": "database",
+      "option": "DB2",
+      "reason": "flags 显示全列恒等于选项文本",
+      "fallback": false
+    },
+    {
+      "original": "database.MS SQL Server",
+      "new": "database.MS SQL Server",
+      "kind": "multi_option",
+      "group": "database",
+      "option": "MS SQL Server",
+      "reason": "flags 显示全列恒等于选项文本",
+      "fallback": false
+    },
+    {
+      "original": "database.MySQL",
+      "new": "database.MySQL",
+      "kind": "multi_option",
+      "group": "database",
+      "option": "MySQL",
+      "reason": "flags 显示全列恒等于选项文本",
+      "fallback": false
+    },
+    {
+      "original": "database.Oracle Database",
+      "new": "database.Oracle Database",
+      "kind": "multi_option",
+      "group": "database",
+      "option": "Oracle Database",
+      "reason": "flags 显示全列恒等于选项文本",
+      "fallback": false
+    },
+    {
+      "original": "database.PostgreSQL",
+      "new": "database.PostgreSQL",
+      "kind": "multi_option",
+      "group": "database",
+      "option": "PostgreSQL",
+      "reason": "flags 显示全列恒等于选项文本",
+      "fallback": false
+    },
+    {
+      "original": "database.SQLite",
+      "new": "database.SQLite",
+      "kind": "multi_option",
+      "group": "database",
+      "option": "SQLite",
+      "reason": "flags 显示全列恒等于选项文本",
+      "fallback": false
+    },
+    {
+      "original": "database.Cassandra",
+      "new": "database.Cassandra",
+      "kind": "multi_option",
+      "group": "database",
+      "option": "Cassandra",
+      "reason": "flags 显示全列恒等于选项文本",
+      "fallback": false
+    },
+    {
+      "original": "database.Couchbase",
+      "new": "database.Couchbase",
+      "kind": "multi_option",
+      "group": "database",
+      "option": "Couchbase",
+      "reason": "flags 显示全列恒等于选项文本",
+      "fallback": false
+    },
+    {
+      "original": "database.HBase",
+      "new": "database.HBase",
+      "kind": "multi_option",
+      "group": "database",
+      "option": "HBase",
+      "reason": "flags 显示全列恒等于选项文本",
+      "fallback": false
+    },
+    {
+      "original": "database.MongoDB",
+      "new": "database.MongoDB",
+      "kind": "multi_option",
+      "group": "database",
+      "option": "MongoDB",
+      "reason": "flags 显示全列恒等于选项文本",
+      "fallback": false
+    },
+    {
+      "original": "database.Neo4j",
+      "new": "database.Neo4j",
+      "kind": "multi_option",
+      "group": "database",
+      "option": "Neo4j",
+      "reason": "flags 显示全列恒等于选项文本",
+      "fallback": false
+    },
+    {
+      "original": "database.Redis",
+      "new": "database.Redis",
+      "kind": "multi_option",
+      "group": "database",
+      "option": "Redis",
+      "reason": "flags 显示全列恒等于选项文本",
+      "fallback": false
+    },
+    {
+      "original": "database.Amazon Redshift",
+      "new": "database.Amazon Redshift",
+      "kind": "multi_option",
+      "group": "database",
+      "option": "Amazon Redshift",
+      "reason": "flags 显示全列恒等于选项文本",
+      "fallback": false
+    },
+    {
+      "original": "database.h2",
+      "new": "database.h2",
+      "kind": "multi_option",
+      "group": "database",
+      "option": "h2",
+      "reason": "flags 显示全列恒等于选项文本",
+      "fallback": false
+    },
+    {
+      "original": "database.Other",
+      "new": "database.Other",
+      "kind": "multi_option",
+      "group": "database",
+      "option": "Other",
+      "reason": "flags 显示全列恒等于选项文本",
+      "fallback": false
+    },
+    {
+      "original": "bigdata.None",
+      "new": "bigdata.None",
+      "kind": "multi_option",
+      "group": "bigdata",
+      "option": "None",
+      "reason": "flags 显示全列恒等于选项文本",
+      "fallback": false
+    },
+    {
+      "original": "bigdata.Apache Beam",
+      "new": "bigdata.Apache Beam",
+      "kind": "multi_option",
+      "group": "bigdata",
+      "option": "Apache Beam",
+      "reason": "flags 显示全列等于列名，确认为单选选项列",
+      "fallback": false
+    },
+    {
+      "original": "bigdata.Apache Flink",
+      "new": "bigdata.Apache Flink",
+      "kind": "multi_option",
+      "group": "bigdata",
+      "option": "Apache Flink",
+      "reason": "flags 显示全列等于列名，确认为单选选项列",
+      "fallback": false
+    },
+    {
+      "original": "bigdata.Apache Hadoop/MapReduce",
+      "new": "bigdata.Apache Hadoop/MapReduce",
+      "kind": "multi_option",
+      "group": "bigdata",
+      "option": "Apache Hadoop/MapReduce",
+      "reason": "flags 显示全列等于列名，确认为单选选项列",
+      "fallback": false
+    },
+    {
+      "original": "bigdata.Apache Hive",
+      "new": "bigdata.Apache Hive",
+      "kind": "multi_option",
+      "group": "bigdata",
+      "option": "Apache Hive",
+      "reason": "flags 显示全列等于列名，确认为单选选项列",
+      "fallback": false
+    },
+    {
+      "original": "bigdata.Apache Samza",
+      "new": "bigdata.Apache Samza",
+      "kind": "multi_option",
+      "group": "bigdata",
+      "option": "Apache Samza",
+      "reason": "flags 显示全列等于列名，确认为单选选项列",
+      "fallback": false
+    },
+    {
+      "original": "bigdata.Apache Kafka",
+      "new": "bigdata.Apache Kafka",
+      "kind": "multi_option",
+      "group": "bigdata",
+      "option": "Apache Kafka",
+      "reason": "flags 显示全列等于列名，确认为单选选项列",
+      "fallback": false
+    },
+    {
+      "original": "bigdata.Apache Spark",
+      "new": "bigdata.Apache Spark",
+      "kind": "multi_option",
+      "group": "bigdata",
+      "option": "Apache Spark",
+      "reason": "flags 显示全列等于列名，确认为单选选项列",
+      "fallback": false
+    },
+    {
+      "original": "bigdata.Apache Tez",
+      "new": "bigdata.Apache Tez",
+      "kind": "multi_option",
+      "group": "bigdata",
+      "option": "Apache Tez",
+      "reason": "flags 显示全列等于列名，确认为单选选项列",
+      "fallback": false
+    },
+    {
+      "original": "bigdata.Dask",
+      "new": "bigdata.Dask",
+      "kind": "multi_option",
+      "group": "bigdata",
+      "option": "Dask",
+      "reason": "flags 显示全列等于列名，确认为单选选项列",
+      "fallback": false
+    },
+    {
+      "original": "bigdata.ClickHouse",
+      "new": "bigdata.ClickHouse",
+      "kind": "multi_option",
+      "group": "bigdata",
+      "option": "ClickHouse",
+      "reason": "flags 显示全列等于列名，确认为单选选项列",
+      "fallback": false
+    },
+    {
+      "original": "bigdata.Other",
+      "new": "bigdata.Other",
+      "kind": "multi_option",
+      "group": "bigdata",
+      "option": "Other",
+      "reason": "flags 显示全列等于列名，确认为单选选项列",
+      "fallback": false
+    },
+    {
+      "original": "ci.None",
+      "new": "ci.None",
+      "kind": "multi_option",
+      "group": "ci",
+      "option": "None",
+      "reason": "flags 显示全列等于列名，确认为单选选项列",
+      "fallback": false
+    },
+    {
+      "original": "ci.GitHub Actions",
+      "new": "ci.GitHub Actions",
+      "kind": "multi_option",
+      "group": "ci",
+      "option": "GitHub Actions",
+      "reason": "flags 显示全列等于列名，确认为单选选项列",
+      "fallback": false
+    },
+    {
+      "original": "ci.Gitlab CI",
+      "new": "ci.Gitlab CI",
+      "kind": "multi_option",
+      "group": "ci",
+      "option": "Gitlab CI",
+      "reason": "flags 显示全列等于列名，确认为单选选项列",
+      "fallback": false
+    },
+    {
+      "original": "ci.Jenkins / Hudson",
+      "new": "ci.Jenkins / Hudson",
+      "kind": "multi_option",
+      "group": "ci",
+      "option": "Jenkins / Hudson",
+      "reason": "flags 显示全列等于列名，确认为单选选项列",
+      "fallback": false
+    },
+    {
+      "original": "ci.TeamCity",
+      "new": "ci.TeamCity",
+      "kind": "multi_option",
+      "group": "ci",
+      "option": "TeamCity",
+      "reason": "flags 显示全列等于列名，确认为单选选项列",
+      "fallback": false
+    },
+    {
+      "original": "ci.Bamboo",
+      "new": "ci.Bamboo",
+      "kind": "multi_option",
+      "group": "ci",
+      "option": "Bamboo",
+      "reason": "flags 显示全列等于列名，确认为单选选项列",
+      "fallback": false
+    },
+    {
+      "original": "ci.Travis CI",
+      "new": "ci.Travis CI",
+      "kind": "multi_option",
+      "group": "ci",
+      "option": "Travis CI",
+      "reason": "flags 显示全列等于列名，确认为单选选项列",
+      "fallback": false
+    },
+    {
+      "original": "ci.CircleCI",
+      "new": "ci.CircleCI",
+      "kind": "multi_option",
+      "group": "ci",
+      "option": "CircleCI",
+      "reason": "flags 显示全列等于选项文本",
+      "fallback": false
+    },
+    {
+      "original": "ci.CruiseControl",
+      "new": "ci.CruiseControl",
+      "kind": "multi_option",
+      "group": "ci",
+      "option": "CruiseControl",
+      "reason": "flags 显示全列等于选项文本",
+      "fallback": false
+    },
+    {
+      "original": "ci.Bitbucket Pipelines",
+      "new": "ci.Bitbucket Pipelines",
+      "kind": "multi_option",
+      "group": "ci",
+      "option": "Bitbucket Pipelines",
+      "reason": "flags 显示全列等于选项文本",
+      "fallback": false
+    },
+    {
+      "original": "ci.AppVeyor",
+      "new": "ci.AppVeyor",
+      "kind": "multi_option",
+      "group": "ci",
+      "option": "AppVeyor",
+      "reason": "flags 显示全列等于选项文本",
+      "fallback": false
+    },
+    {
+      "original": "ci.Other",
+      "new": "ci.Other",
+      "kind": "multi_option",
+      "group": "ci",
+      "option": "Other",
+      "reason": "flags 显示全列等于选项文本",
+      "fallback": false
+    },
+    {
+      "original": "configuration.management.None",
+      "new": "configuration.management.None",
+      "kind": "multi_option",
+      "group": "configuration.management",
+      "option": "None",
+      "reason": "flags 显示全列等于选项文本",
+      "fallback": false
+    },
+    {
+      "original": "configuration.management.Salt",
+      "new": "configuration.management.Salt",
+      "kind": "multi_option",
+      "group": "configuration.management",
+      "option": "Salt",
+      "reason": "flags 显示全列等于选项文本",
+      "fallback": false
+    },
+    {
+      "original": "configuration.management.Puppet",
+      "new": "configuration.management.Puppet",
+      "kind": "multi_option",
+      "group": "configuration.management",
+      "option": "Puppet",
+      "reason": "flags 显示全列等于选项文本",
+      "fallback": false
+    },
+    {
+      "original": "configuration.management.Chef",
+      "new": "configuration.management.Chef",
+      "kind": "multi_option",
+      "group": "configuration.management",
+      "option": "Chef",
+      "reason": "flags 显示全列等于选项文本",
+      "fallback": false
+    },
+    {
+      "original": "configuration.management.Ansible",
+      "new": "configuration.management.Ansible",
+      "kind": "multi_option",
+      "group": "configuration.management",
+      "option": "Ansible",
+      "reason": "flags 显示全列等于选项文本",
+      "fallback": false
+    },
+    {
+      "original": "configuration.management.Custom solution",
+      "new": "configuration.management.Custom solution",
+      "kind": "multi_option",
+      "group": "configuration.management",
+      "option": "Custom solution",
+      "reason": "flags 显示全列等于选项文本",
+      "fallback": false
+    },
+    {
+      "original": "configuration.management.Other",
+      "new": "configuration.management.Other",
+      "kind": "multi_option",
+      "group": "configuration.management",
+      "option": "Other",
+      "reason": "flags 显示全列等于选项文本",
+      "fallback": false
+    },
+    {
+      "original": "documentation.tool.I don’t use any documentation tools",
+      "new": "documentation.tool.I don’t use any documentation tools",
+      "kind": "multi_option",
+      "group": "documentation.tool",
+      "option": "I don’t use any documentation tools",
+      "reason": "fallback：模型未返回该列，按表头结构默认判定",
+      "fallback": true
+    },
+    {
+      "original": "documentation.tool.Sphinx",
+      "new": "documentation.tool.Sphinx",
+      "kind": "multi_option",
+      "group": "documentation.tool",
+      "option": "Sphinx",
+      "reason": "flags 显示全列等于选项文本",
+      "fallback": false
+    },
+    {
+      "original": "documentation.tool.MKDocs",
+      "new": "documentation.tool.MKDocs",
+      "kind": "multi_option",
+      "group": "documentation.tool",
+      "option": "MKDocs",
+      "reason": "flags 显示全列等于选项文本",
+      "fallback": false
+    },
+    {
+      "original": "documentation.tool.Doxygen",
+      "new": "documentation.tool.Doxygen",
+      "kind": "multi_option",
+      "group": "documentation.tool",
+      "option": "Doxygen",
+      "reason": "flags 显示全列等于选项文本",
+      "fallback": false
+    },
+    {
+      "original": "documentation.tool.Other",
+      "new": "documentation.tool.Other",
+      "kind": "multi_option",
+      "group": "documentation.tool",
+      "option": "Other",
+      "reason": "flags 显示全列等于选项文本",
+      "fallback": false
+    },
+    {
+      "original": "ide.main",
+      "new": "ide.main",
+      "kind": "multi_option",
+      "group": "ide",
+      "option": "main",
+      "reason": "flags 显示多值，取 top 作为选项",
+      "fallback": false
+    },
+    {
+      "original": "ide.editor.None_300",
+      "new": "ide.editor.None_300",
+      "kind": "multi_option",
+      "group": "ide.editor",
+      "option": "None_300",
+      "reason": "flags 为 multi_like，全列等于列名选项",
+      "fallback": false
+    },
+    {
+      "original": "ide.editor.PyCharm Professional Edition",
+      "new": "ide.editor.PyCharm Professional Edition",
+      "kind": "multi_option",
+      "group": "ide.editor",
+      "option": "PyCharm Professional Edition",
+      "reason": "flags 为 multi_like，全列等于列名选项",
+      "fallback": false
+    },
+    {
+      "original": "ide.editor.Other",
+      "new": "ide.editor.Other",
+      "kind": "multi_option",
+      "group": "ide.editor",
+      "option": "Other",
+      "reason": "flags 为 multi_like，全列等于列名选项",
+      "fallback": false
+    },
+    {
+      "original": "ide.editor.PyCharm Community Edition",
+      "new": "ide.editor.PyCharm Community Edition",
+      "kind": "multi_option",
+      "group": "ide.editor",
+      "option": "PyCharm Community Edition",
+      "reason": "flags 为 multi_like，全列等于列名选项",
+      "fallback": false
+    },
+    {
+      "original": "ide.editor.Sublime Text",
+      "new": "ide.editor.Sublime Text",
+      "kind": "multi_option",
+      "group": "ide.editor",
+      "option": "Sublime Text",
+      "reason": "flags 为 multi_like，全列等于列名选项",
+      "fallback": false
+    },
+    {
+      "original": "ide.editor.Vim",
+      "new": "ide.editor.Vim",
+      "kind": "multi_option",
+      "group": "ide.editor",
+      "option": "Vim",
+      "reason": "flags 为 multi_like，全列等于列名选项",
+      "fallback": false
+    },
+    {
+      "original": "ide.editor.Atom",
+      "new": "ide.editor.Atom",
+      "kind": "multi_option",
+      "group": "ide.editor",
+      "option": "Atom",
+      "reason": "flags 为 multi_like，全列等于列名选项",
+      "fallback": false
+    },
+    {
+      "original": "ide.editor.VS Code",
+      "new": "ide.editor.VS Code",
+      "kind": "multi_option",
+      "group": "ide.editor",
+      "option": "VS Code",
+      "reason": "flags 为 multi_like，全列等于列名选项",
+      "fallback": false
+    },
+    {
+      "original": "ide.editor.Eclipse + Pydev",
+      "new": "ide.editor.Eclipse + Pydev",
+      "kind": "multi_option",
+      "group": "ide.editor",
+      "option": "Eclipse + Pydev",
+      "reason": "flags 为 multi_like，全列等于列名选项",
+      "fallback": false
+    },
+    {
+      "original": "ide.editor.JupyterLab",
+      "new": "ide.editor.JupyterLab",
+      "kind": "multi_option",
+      "group": "ide.editor",
+      "option": "JupyterLab",
+      "reason": "flags 为 multi_like，全列等于列名选项",
+      "fallback": false
+    },
+    {
+      "original": "ide.editor.Jupyter Notebook",
+      "new": "ide.editor.Jupyter Notebook",
+      "kind": "multi_option",
+      "group": "ide.editor",
+      "option": "Jupyter Notebook",
+      "reason": "flags 为 multi_like，全列等于列名选项",
+      "fallback": false
+    },
+    {
+      "original": "ide.editor.IntelliJ IDEA",
+      "new": "ide.editor.IntelliJ IDEA",
+      "kind": "multi_option",
+      "group": "ide.editor",
+      "option": "IntelliJ IDEA",
+      "reason": "flags 为 multi_like，全列等于列名选项",
+      "fallback": false
+    },
+    {
+      "original": "ide.editor.NotePad++",
+      "new": "ide.editor.NotePad++",
+      "kind": "multi_option",
+      "group": "ide.editor",
+      "option": "NotePad++",
+      "reason": "flags 为 multi_like，全列等于列名选项",
+      "fallback": false
+    },
+    {
+      "original": "ide.editor.IDLE",
+      "new": "ide.editor.IDLE",
+      "kind": "multi_option",
+      "group": "ide.editor",
+      "option": "IDLE",
+      "reason": "flags 为 multi_like，全列等于列名选项",
+      "fallback": false
+    },
+    {
+      "original": "ide.editor.Emacs",
+      "new": "ide.editor.Emacs",
+      "kind": "multi_option",
+      "group": "ide.editor",
+      "option": "Emacs",
+      "reason": "flags 为 multi_like，全列等于列名选项",
+      "fallback": false
+    },
+    {
+      "original": "ide.editor.Python Tools for Visual Studio (PTVS)",
+      "new": "ide.editor.Python Tools for Visual Studio (PTVS)",
+      "kind": "multi_option",
+      "group": "ide.editor",
+      "option": "Python Tools for Visual Studio (PTVS)",
+      "reason": "flags 为 multi_like，全列等于列名选项",
+      "fallback": false
+    },
+    {
+      "original": "ide.editor.Spyder",
+      "new": "ide.editor.Spyder",
+      "kind": "multi_option",
+      "group": "ide.editor",
+      "option": "Spyder",
+      "reason": "flags 为 multi_like，全列等于列名选项",
+      "fallback": false
+    },
+    {
+      "original": "several.projects",
+      "new": "several.projects",
+      "kind": "single_choice",
+      "group": "several.projects",
+      "option": "",
+      "reason": "n_unique=3 且非 multi_like，视为单选题组",
+      "fallback": false
+    },
+    {
+      "original": "first.learn.about.main.ide",
+      "new": "first.learn.about.main.ide",
+      "kind": "multi_option",
+      "group": "first.learn.about.main",
+      "option": "ide",
+      "reason": "flags 显示 multi_like，全列值等于列名选项",
+      "fallback": false
+    },
+    {
+      "original": "how.often.use.main.ide",
+      "new": "how.often.use.main.ide",
+      "kind": "multi_option",
+      "group": "how.often.use.main",
+      "option": "ide",
+      "reason": "flags 显示 multi_like，全列值等于列名选项",
+      "fallback": false
+    },
+    {
+      "original": "missing.features.main.ide",
+      "new": "missing.features.main.ide",
+      "kind": "multi_option",
+      "group": "missing.features.main",
+      "option": "ide",
+      "reason": "flags 显示 multi_like，'Yes' 为缺失标记",
+      "fallback": false
+    },
+    {
+      "original": "nps.main.ide",
+      "new": "nps.main.ide",
+      "kind": "numeric",
+      "group": "nps.main.ide",
+      "option": "",
+      "reason": "flags 显示 numeric_like，全列为数字评分",
+      "fallback": false
+    },
+    {
+      "original": "issue.report.Yes, I’ve submitted a pull request on GitHub",
+      "new": "issue.report.Yes, I’ve submitted a pull request on GitHub",
+      "kind": "multi_option",
+      "group": "issue.report",
+      "option": "Yes, I’ve submitted a pull request on GitHub",
+      "reason": "fallback：模型未返回该列，按表头结构默认判定",
+      "fallback": true
+    },
+    {
+      "original": "issue.report.Yes, I’ve reported an issue on bugs_python_org",
+      "new": "issue.report.Yes, I’ve reported an issue on bugs_python_org",
+      "kind": "multi_option",
+      "group": "issue.report",
+      "option": "Yes, I’ve reported an issue on bugs_python_org",
+      "reason": "fallback：模型未返回该列，按表头结构默认判定",
+      "fallback": true
+    },
+    {
+      "original": "issue.report.Yes, I’ve asked on mailing lists",
+      "new": "issue.report.Yes, I’ve asked on mailing lists",
+      "kind": "multi_option",
+      "group": "issue.report",
+      "option": "Yes, I’ve asked on mailing lists",
+      "reason": "fallback：模型未返回该列，按表头结构默认判定",
+      "fallback": true
+    },
+    {
+      "original": "issue.report.Yes, I’ve asked on Discourse",
+      "new": "issue.report.Yes, I’ve asked on Discourse",
+      "kind": "multi_option",
+      "group": "issue.report",
+      "option": "Yes, I’ve asked on Discourse",
+      "reason": "fallback：模型未返回该列，按表头结构默认判定",
+      "fallback": true
+    },
+    {
+      "original": "issue.report.Yes, I’ve asked elsewhere",
+      "new": "issue.report.Yes, I’ve asked elsewhere",
+      "kind": "multi_option",
+      "group": "issue.report",
+      "option": "Yes, I’ve asked elsewhere",
+      "reason": "fallback：模型未返回该列，按表头结构默认判定",
+      "fallback": true
+    },
+    {
+      "original": "issue.report.No",
+      "new": "issue.report.No",
+      "kind": "multi_option",
+      "group": "issue.report",
+      "option": "No",
+      "reason": "flags 显示 multi_like，全列值等于列名选项",
+      "fallback": false
+    },
+    {
+      "original": "issue.solved",
+      "new": "issue.solved",
+      "kind": "multi_option",
+      "group": "issue",
+      "option": "solved",
+      "reason": "flags 显示 multi_like，'Other' 为缺失标记",
+      "fallback": false
+    },
+    {
+      "original": "communicate.channels.Mailing lists",
+      "new": "communicate.channels.Mailing lists",
+      "kind": "multi_option",
+      "group": "communicate.channels",
+      "option": "Mailing lists",
+      "reason": "flags 显示 multi_like，全列值等于列名选项",
+      "fallback": false
+    },
+    {
+      "original": "communicate.channels.Discourse",
+      "new": "communicate.channels.Discourse",
+      "kind": "multi_option",
+      "group": "communicate.channels",
+      "option": "Discourse",
+      "reason": "flags 显示 multi_like，全列值等于列名选项",
+      "fallback": false
+    },
+    {
+      "original": "communicate.channels.GitHub",
+      "new": "communicate.channels.GitHub",
+      "kind": "multi_option",
+      "group": "communicate.channels",
+      "option": "GitHub",
+      "reason": "flags 显示 multi_like，全列值等于列名选项",
+      "fallback": false
+    },
+    {
+      "original": "communicate.channels.Twitter",
+      "new": "communicate.channels.Twitter",
+      "kind": "multi_option",
+      "group": "communicate.channels",
+      "option": "Twitter",
+      "reason": "flags 显示 multi_like，全列值等于列名选项",
+      "fallback": false
+    },
+    {
+      "original": "communicate.channels.IRC",
+      "new": "communicate.channels.IRC",
+      "kind": "multi_option",
+      "group": "communicate.channels",
+      "option": "IRC",
+      "reason": "flags 显示 multi_like，全列值等于列名选项",
+      "fallback": false
+    },
+    {
+      "original": "communicate.channels.bugs_python_org",
+      "new": "communicate.channels.bugs_python_org",
+      "kind": "multi_option",
+      "group": "communicate.channels",
+      "option": "bugs_python_org",
+      "reason": "flags 显示 multi_like，全列值等于列名选项",
+      "fallback": false
+    },
+    {
+      "original": "communicate.channels.I’ve never contacted  the core developers",
+      "new": "communicate.channels.I’ve never contacted the core developers",
+      "kind": "multi_option",
+      "group": "communicate.channels",
+      "option": "I’ve never contacted the core developers",
+      "reason": "fallback：模型未返回该列，按表头结构默认判定",
+      "fallback": true
+    },
+    {
+      "original": "dev.in.residence",
+      "new": "dev.in.residence",
+      "kind": "single_choice",
+      "group": "dev.in.residence",
+      "option": "",
+      "reason": "全列取值恒等于列名中的选项文本，符合 multi_like 特征。",
+      "fallback": false
+    },
+    {
+      "original": "environments.isolate.virtualenv",
+      "new": "environments.isolate.virtualenv",
+      "kind": "multi_option",
+      "group": "environments.isolate",
+      "option": "virtualenv",
+      "reason": "flags 为 multi_like，全列取值恒等于列名中的选项文本。",
+      "fallback": false
+    },
+    {
+      "original": "environments.isolate.venv",
+      "new": "environments.isolate.venv",
+      "kind": "multi_option",
+      "group": "environments.isolate",
+      "option": "venv",
+      "reason": "flags 为 multi_like，全列取值恒等于列名中的选项文本。",
+      "fallback": false
+    },
+    {
+      "original": "environments.isolate.virtualenvwrapper",
+      "new": "environments.isolate.virtualenvwrapper",
+      "kind": "multi_option",
+      "group": "environments.isolate",
+      "option": "virtualenvwrapper",
+      "reason": "flags 为 multi_like，全列取值恒等于列名中的选项文本。",
+      "fallback": false
+    },
+    {
+      "original": "environments.isolate.hatch",
+      "new": "environments.isolate.hatch",
+      "kind": "multi_option",
+      "group": "environments.isolate",
+      "option": "hatch",
+      "reason": "flags 为 multi_like，全列取值恒等于列名中的选项文本。",
+      "fallback": false
+    },
+    {
+      "original": "environments.isolate.Poetry",
+      "new": "environments.isolate.Poetry",
+      "kind": "multi_option",
+      "group": "environments.isolate",
+      "option": "Poetry",
+      "reason": "flags 为 multi_like，全列取值恒等于列名中的选项文本。",
+      "fallback": false
+    },
+    {
+      "original": "environments.isolate.pipenv",
+      "new": "environments.isolate.pipenv",
+      "kind": "multi_option",
+      "group": "environments.isolate",
+      "option": "pipenv",
+      "reason": "flags 为 multi_like，全列取值恒等于列名中的选项文本。",
+      "fallback": false
+    },
+    {
+      "original": "environments.isolate.Conda",
+      "new": "environments.isolate.Conda",
+      "kind": "multi_option",
+      "group": "environments.isolate",
+      "option": "Conda",
+      "reason": "flags 为 multi_like，全列取值恒等于列名中的选项文本。",
+      "fallback": false
+    },
+    {
+      "original": "environments.isolate.I do not use any tools to isolate Python environments",
+      "new": "environments.isolate.I do not use any tools to isolate Python environments",
+      "kind": "multi_option",
+      "group": "environments.isolate",
+      "option": "I do not use any tools to isolate Python environments",
+      "reason": "flags 为 multi_like，全列取值恒等于列名中的选项文本。",
+      "fallback": false
+    },
+    {
+      "original": "environments.isolate.Other - Write In",
+      "new": "environments.isolate.Other - Write In",
+      "kind": "multi_option",
+      "group": "environments.isolate",
+      "option": "Other - Write In",
+      "reason": "flags 为 multi_like，全列取值恒等于列名中的选项文本。",
+      "fallback": false
+    },
+    {
+      "original": "environments.container",
+      "new": "environments.container",
+      "kind": "single_choice",
+      "group": "environments.container",
+      "option": "",
+      "reason": "全列取值恒等于列名中的选项文本，符合 multi_like 特征。",
+      "fallback": false
+    },
+    {
+      "original": "venv.I use venv directly",
+      "new": "venv.I use venv directly",
+      "kind": "multi_option",
+      "group": "venv",
+      "option": "I use venv directly",
+      "reason": "flags 为 multi_like，全列取值恒等于列名中的选项文本。",
+      "fallback": false
+    },
+    {
+      "original": "venv.I use it via Poetry",
+      "new": "venv.I use it via Poetry",
+      "kind": "multi_option",
+      "group": "venv",
+      "option": "I use it via Poetry",
+      "reason": "flags 为 multi_like，全列取值恒等于列名中的选项文本。",
+      "fallback": false
+    },
+    {
+      "original": "venv.I use it via Pipenv",
+      "new": "venv.I use it via Pipenv",
+      "kind": "multi_option",
+      "group": "venv",
+      "option": "I use it via Pipenv",
+      "reason": "flags 为 multi_like，全列取值恒等于列名中的选项文本。",
+      "fallback": false
+    },
+    {
+      "original": "venv.I use it via virtualenv",
+      "new": "venv.I use it via virtualenv",
+      "kind": "multi_option",
+      "group": "venv",
+      "option": "I use it via virtualenv",
+      "reason": "flags 为 multi_like，全列取值恒等于列名中的选项文本。",
+      "fallback": false
+    },
+    {
+      "original": "venv.I use it via tox",
+      "new": "venv.I use it via tox",
+      "kind": "multi_option",
+      "group": "venv",
+      "option": "I use it via tox",
+      "reason": "flags 为 multi_like，全列取值恒等于列名中的选项文本。",
+      "fallback": false
+    },
+    {
+      "original": "venv.I don’t know",
+      "new": "venv.I don’t know",
+      "kind": "multi_option",
+      "group": "venv",
+      "option": "I don’t know",
+      "reason": "fallback：模型未返回该列，按表头结构默认判定",
+      "fallback": true
+    },
+    {
+      "original": "venv.No, I do not use venv",
+      "new": "venv.No, I do not use venv",
+      "kind": "multi_option",
+      "group": "venv",
+      "option": "No, I do not use venv",
+      "reason": "flags 为 multi_like，全列取值恒等于列名中的选项文本。",
+      "fallback": false
+    },
+    {
+      "original": "venv.Other",
+      "new": "venv.Other",
+      "kind": "multi_option",
+      "group": "venv",
+      "option": "Other",
+      "reason": "全列值等于列名，符合 multi_like 特征",
+      "fallback": false
+    },
+    {
+      "original": "packaging.tools.None / I'm not sure",
+      "new": "packaging.tools.None / I'm not sure",
+      "kind": "multi_option",
+      "group": "packaging.tools",
+      "option": "None / I'm not sure",
+      "reason": "全列值等于列名，符合 multi_like 特征",
+      "fallback": false
+    },
+    {
+      "original": "packaging.tools.pip",
+      "new": "packaging.tools.pip",
+      "kind": "multi_option",
+      "group": "packaging.tools",
+      "option": "pip",
+      "reason": "全列值等于列名，符合 multi_like 特征",
+      "fallback": false
+    },
+    {
+      "original": "packaging.tools.Conda",
+      "new": "packaging.tools.Conda",
+      "kind": "multi_option",
+      "group": "packaging.tools",
+      "option": "Conda",
+      "reason": "全列值等于列名，符合 multi_like 特征",
+      "fallback": false
+    },
+    {
+      "original": "packaging.tools.pipenv",
+      "new": "packaging.tools.pipenv",
+      "kind": "multi_option",
+      "group": "packaging.tools",
+      "option": "pipenv",
+      "reason": "全列值等于列名，符合 multi_like 特征",
+      "fallback": false
+    },
+    {
+      "original": "packaging.tools.Poetry",
+      "new": "packaging.tools.Poetry",
+      "kind": "multi_option",
+      "group": "packaging.tools",
+      "option": "Poetry",
+      "reason": "全列值等于列名，符合 multi_like 特征",
+      "fallback": false
+    },
+    {
+      "original": "packaging.tools.venv (standard library)",
+      "new": "packaging.tools.venv (standard library)",
+      "kind": "multi_option",
+      "group": "packaging.tools",
+      "option": "venv (standard library)",
+      "reason": "全列值等于列名，符合 multi_like 特征",
+      "fallback": false
+    },
+    {
+      "original": "packaging.tools.virtualenv",
+      "new": "packaging.tools.virtualenv",
+      "kind": "multi_option",
+      "group": "packaging.tools",
+      "option": "virtualenv",
+      "reason": "全列值等于列名，符合 multi_like 特征",
+      "fallback": false
+    },
+    {
+      "original": "packaging.tools.flit",
+      "new": "packaging.tools.flit",
+      "kind": "multi_option",
+      "group": "packaging.tools",
+      "option": "flit",
+      "reason": "全列值等于列名，符合 multi_like 特征",
+      "fallback": false
+    },
+    {
+      "original": "packaging.tools.tox",
+      "new": "packaging.tools.tox",
+      "kind": "multi_option",
+      "group": "packaging.tools",
+      "option": "tox",
+      "reason": "全列值等于列名，符合 multi_like 特征",
+      "fallback": false
+    },
+    {
+      "original": "packaging.tools.PDM",
+      "new": "packaging.tools.PDM",
+      "kind": "multi_option",
+      "group": "packaging.tools",
+      "option": "PDM",
+      "reason": "全列值等于列名，符合 multi_like 特征",
+      "fallback": false
+    },
+    {
+      "original": "packaging.tools.twine",
+      "new": "packaging.tools.twine",
+      "kind": "multi_option",
+      "group": "packaging.tools",
+      "option": "twine",
+      "reason": "全列值等于列名，符合 multi_like 特征",
+      "fallback": false
+    },
+    {
+      "original": "packaging.tools.Containers (eg via Docker)",
+      "new": "packaging.tools.Containers (eg via Docker)",
+      "kind": "multi_option",
+      "group": "packaging.tools",
+      "option": "Containers (eg via Docker)",
+      "reason": "全列值等于列名，符合 multi_like 特征",
+      "fallback": false
+    },
+    {
+      "original": "packaging.tools.Virtual machines",
+      "new": "packaging.tools.Virtual machines",
+      "kind": "multi_option",
+      "group": "packaging.tools",
+      "option": "Virtual machines",
+      "reason": "全列值等于列名，符合 multi_like 特征",
+      "fallback": false
+    },
+    {
+      "original": "packaging.tools.Workplace specific proprietary solution",
+      "new": "packaging.tools.Workplace specific proprietary solution",
+      "kind": "multi_option",
+      "group": "packaging.tools",
+      "option": "Workplace specific proprietary solution",
+      "reason": "全列值等于列名，符合 multi_like 特征",
+      "fallback": false
+    },
+    {
+      "original": "packaging.tools.Other",
+      "new": "packaging.tools.Other",
+      "kind": "multi_option",
+      "group": "packaging.tools",
+      "option": "Other",
+      "reason": "全列值等于列名，符合 multi_like 特征",
+      "fallback": false
+    },
+    {
+      "original": "dependency.version",
+      "new": "dependency.version",
+      "kind": "multi_option",
+      "group": "dependency",
+      "option": "version",
+      "reason": "仅含 No/Yes 两个选项，符合 multi_like 特征",
+      "fallback": false
+    },
+    {
+      "original": "dependency.store.None",
+      "new": "dependency.store.None",
+      "kind": "multi_option",
+      "group": "dependency.store",
+      "option": "None",
+      "reason": "全列值等于列名，符合 multi_like 特征",
+      "fallback": false
+    },
+    {
+      "original": "dependency.store.requirements_txt",
+      "new": "dependency.store.requirements_txt",
+      "kind": "multi_option",
+      "group": "dependency.store",
+      "option": "requirements_txt",
+      "reason": "flags 显示全列恒等于选项文本",
+      "fallback": false
+    },
+    {
+      "original": "dependency.store.pyproject_toml",
+      "new": "dependency.store.pyproject_toml",
+      "kind": "multi_option",
+      "group": "dependency.store",
+      "option": "pyproject_toml",
+      "reason": "flags 显示全列恒等于选项文本",
+      "fallback": false
+    },
+    {
+      "original": "dependency.store.pipfile_lock",
+      "new": "dependency.store.pipfile_lock",
+      "kind": "multi_option",
+      "group": "dependency.store",
+      "option": "pipfile_lock",
+      "reason": "flags 显示全列恒等于选项文本",
+      "fallback": false
+    },
+    {
+      "original": "dependency.store.poetry_lock",
+      "new": "dependency.store.poetry_lock",
+      "kind": "multi_option",
+      "group": "dependency.store",
+      "option": "poetry_lock",
+      "reason": "flags 显示全列恒等于选项文本",
+      "fallback": false
+    },
+    {
+      "original": "dependency.store.Conda environment_yml",
+      "new": "dependency.store.Conda environment_yml",
+      "kind": "multi_option",
+      "group": "dependency.store",
+      "option": "Conda environment_yml",
+      "reason": "flags 显示全列恒等于选项文本",
+      "fallback": false
+    },
+    {
+      "original": "dependency.store.pip constraints_txt",
+      "new": "dependency.store.pip constraints_txt",
+      "kind": "multi_option",
+      "group": "dependency.store",
+      "option": "pip constraints_txt",
+      "reason": "flags 显示全列恒等于选项文本",
+      "fallback": false
+    },
+    {
+      "original": "dependency.store.Other",
+      "new": "dependency.store.Other",
+      "kind": "multi_option",
+      "group": "dependency.store",
+      "option": "Other",
+      "reason": "flags 显示全列恒等于选项文本",
+      "fallback": false
+    },
+    {
+      "original": "dependency.tools.None",
+      "new": "dependency.tools.None",
+      "kind": "multi_option",
+      "group": "dependency.tools",
+      "option": "None",
+      "reason": "flags 显示全列恒等于选项文本",
+      "fallback": false
+    },
+    {
+      "original": "dependency.tools.pipenv",
+      "new": "dependency.tools.pipenv",
+      "kind": "multi_option",
+      "group": "dependency.tools",
+      "option": "pipenv",
+      "reason": "flags 显示全列恒等于选项文本",
+      "fallback": false
+    },
+    {
+      "original": "dependency.tools.poetry",
+      "new": "dependency.tools.poetry",
+      "kind": "multi_option",
+      "group": "dependency.tools",
+      "option": "poetry",
+      "reason": "flags 显示全列恒等于选项文本",
+      "fallback": false
+    },
+    {
+      "original": "dependency.tools.pip-tools",
+      "new": "dependency.tools.pip-tools",
+      "kind": "multi_option",
+      "group": "dependency.tools",
+      "option": "pip-tools",
+      "reason": "flags 显示全列恒等于选项文本",
+      "fallback": false
+    },
+    {
+      "original": "dependency.tools.Other",
+      "new": "dependency.tools.Other",
+      "kind": "multi_option",
+      "group": "dependency.tools",
+      "option": "Other",
+      "reason": "flags 显示全列恒等于选项文本",
+      "fallback": false
+    },
+    {
+      "original": "dependency.update.None",
+      "new": "dependency.update.None",
+      "kind": "multi_option",
+      "group": "dependency.update",
+      "option": "None",
+      "reason": "flags 显示全列恒等于选项文本",
+      "fallback": false
+    },
+    {
+      "original": "dependency.update.Dependabot",
+      "new": "dependency.update.Dependabot",
+      "kind": "multi_option",
+      "group": "dependency.update",
+      "option": "Dependabot",
+      "reason": "flags 显示全列恒等于选项文本",
+      "fallback": false
+    },
+    {
+      "original": "dependency.update.PyUp",
+      "new": "dependency.update.PyUp",
+      "kind": "multi_option",
+      "group": "dependency.update",
+      "option": "PyUp",
+      "reason": "flags 显示全列恒等于选项文本",
+      "fallback": false
+    },
+    {
+      "original": "dependency.update.Custom tools, e_g_ a cron job or scheduled CI task",
+      "new": "dependency.update.Custom tools, e_g_ a cron job or scheduled CI task",
+      "kind": "multi_option",
+      "group": "dependency.update",
+      "option": "Custom tools, e_g_ a cron job or scheduled CI task",
+      "reason": "flags 显示全列恒等于选项文本",
+      "fallback": false
+    },
+    {
+      "original": "dependency.update.No, my application dependencies are updated manually",
+      "new": "dependency.update.No, my application dependencies are updated manually",
+      "kind": "multi_option",
+      "group": "dependency.update",
+      "option": "No, my application dependencies are updated manually",
+      "reason": "flags 显示全列恒等于选项文本",
+      "fallback": false
+    },
+    {
+      "original": "dependency.update.Other",
+      "new": "dependency.update.Other",
+      "kind": "multi_option",
+      "group": "dependency.update",
+      "option": "Other",
+      "reason": "flags 显示全列恒等于选项文本",
+      "fallback": false
+    },
+    {
+      "original": "packages.install.None",
+      "new": "packages.install.None",
+      "kind": "multi_option",
+      "group": "packages.install",
+      "option": "None",
+      "reason": "全列值恒为选项文本，符合 multi_like",
+      "fallback": false
+    },
+    {
+      "original": "packages.install.pip",
+      "new": "packages.install.pip",
+      "kind": "multi_option",
+      "group": "packages.install",
+      "option": "pip",
+      "reason": "全列值恒为选项文本，符合 multi_like",
+      "fallback": false
+    },
+    {
+      "original": "packages.install.easy_install",
+      "new": "packages.install.easy_install",
+      "kind": "multi_option",
+      "group": "packages.install",
+      "option": "easy_install",
+      "reason": "全列值恒为选项文本，符合 multi_like",
+      "fallback": false
+    },
+    {
+      "original": "packages.install.Conda",
+      "new": "packages.install.Conda",
+      "kind": "multi_option",
+      "group": "packages.install",
+      "option": "Conda",
+      "reason": "全列值恒为选项文本，符合 multi_like",
+      "fallback": false
+    },
+    {
+      "original": "packages.install.Poetry",
+      "new": "packages.install.Poetry",
+      "kind": "multi_option",
+      "group": "packages.install",
+      "option": "Poetry",
+      "reason": "全列值恒为选项文本，符合 multi_like",
+      "fallback": false
+    },
+    {
+      "original": "packages.install.pip-sync",
+      "new": "packages.install.pip-sync",
+      "kind": "multi_option",
+      "group": "packages.install",
+      "option": "pip-sync",
+      "reason": "全列值恒为选项文本，符合 multi_like",
+      "fallback": false
+    },
+    {
+      "original": "packages.install.pipx",
+      "new": "packages.install.pipx",
+      "kind": "multi_option",
+      "group": "packages.install",
+      "option": "pipx",
+      "reason": "全列值恒为选项文本，符合 multi_like",
+      "fallback": false
+    },
+    {
+      "original": "packages.install.Other",
+      "new": "packages.install.Other",
+      "kind": "multi_option",
+      "group": "packages.install",
+      "option": "Other",
+      "reason": "全列值恒为选项文本，符合 multi_like",
+      "fallback": false
+    },
+    {
+      "original": "packages.install.from.I’m not sure",
+      "new": "packages.install.from.I’m not sure",
+      "kind": "multi_option",
+      "group": "packages.install.from",
+      "option": "I’m not sure",
+      "reason": "fallback：模型未返回该列，按表头结构默认判定",
+      "fallback": true
+    },
+    {
+      "original": "packages.install.from.PyPI",
+      "new": "packages.install.from.PyPI",
+      "kind": "multi_option",
+      "group": "packages.install.from",
+      "option": "PyPI",
+      "reason": "全列值恒为选项文本，符合 multi_like",
+      "fallback": false
+    },
+    {
+      "original": "packages.install.from.Local source",
+      "new": "packages.install.from.Local source",
+      "kind": "multi_option",
+      "group": "packages.install.from",
+      "option": "Local source",
+      "reason": "全列值恒为选项文本，符合 multi_like",
+      "fallback": false
+    },
+    {
+      "original": "packages.install.from.Internal mirror of PyPI",
+      "new": "packages.install.from.Internal mirror of PyPI",
+      "kind": "multi_option",
+      "group": "packages.install.from",
+      "option": "Internal mirror of PyPI",
+      "reason": "全列值恒为选项文本，符合 multi_like",
+      "fallback": false
+    },
+    {
+      "original": "packages.install.from.Private Python Package Index",
+      "new": "packages.install.from.Private Python Package Index",
+      "kind": "multi_option",
+      "group": "packages.install.from",
+      "option": "Private Python Package Index",
+      "reason": "全列值恒为选项文本，符合 multi_like",
+      "fallback": false
+    },
+    {
+      "original": "packages.install.from.Anaconda",
+      "new": "packages.install.from.Anaconda",
+      "kind": "multi_option",
+      "group": "packages.install.from",
+      "option": "Anaconda",
+      "reason": "全列值恒为选项文本，符合 multi_like",
+      "fallback": false
+    },
+    {
+      "original": "packages.install.from.Default Conda channel",
+      "new": "packages.install.from.Default Conda channel",
+      "kind": "multi_option",
+      "group": "packages.install.from",
+      "option": "Default Conda channel",
+      "reason": "全列值恒为选项文本，符合 multi_like",
+      "fallback": false
+    },
+    {
+      "original": "packages.install.from.conda-forge Conda channel",
+      "new": "packages.install.from.conda-forge Conda channel",
+      "kind": "multi_option",
+      "group": "packages.install.from",
+      "option": "conda-forge Conda channel",
+      "reason": "全列值恒为选项文本，符合 multi_like",
+      "fallback": false
+    },
+    {
+      "original": "packages.install.from.Other Conda channel",
+      "new": "packages.install.from.Other Conda channel",
+      "kind": "multi_option",
+      "group": "packages.install.from",
+      "option": "Other Conda channel",
+      "reason": "全列值恒为选项文本，符合 multi_like",
+      "fallback": false
+    },
+    {
+      "original": "packages.install.from.GitHub",
+      "new": "packages.install.from.GitHub",
+      "kind": "multi_option",
+      "group": "packages.install.from",
+      "option": "GitHub",
+      "reason": "全列值恒为选项文本，符合 multi_like",
+      "fallback": false
+    },
+    {
+      "original": "packages.install.from.Artifactory",
+      "new": "packages.install.from.Artifactory",
+      "kind": "multi_option",
+      "group": "packages.install.from",
+      "option": "Artifactory",
+      "reason": "flags 为 multi_like，全列等于列名",
+      "fallback": false
+    },
+    {
+      "original": "packages.install.from.GitLab",
+      "new": "packages.install.from.GitLab",
+      "kind": "multi_option",
+      "group": "packages.install.from",
+      "option": "GitLab",
+      "reason": "flags 为 multi_like，全列等于列名",
+      "fallback": false
+    },
+    {
+      "original": "packages.install.from.From Linux distribution",
+      "new": "packages.install.from.From Linux distribution",
+      "kind": "multi_option",
+      "group": "packages.install.from",
+      "option": "From Linux distribution",
+      "reason": "flags 为 multi_like，全列等于列名",
+      "fallback": false
+    },
+    {
+      "original": "packages.install.from.Other",
+      "new": "packages.install.from.Other",
+      "kind": "multi_option",
+      "group": "packages.install.from",
+      "option": "Other",
+      "reason": "flags 为 multi_like，全列等于列名",
+      "fallback": false
+    },
+    {
+      "original": "app.do",
+      "new": "app.do",
+      "kind": "single_choice",
+      "group": "app.do",
+      "option": "",
+      "reason": "flags 无 multi_like，仅含 Yes/No 两值",
+      "fallback": false
+    },
+    {
+      "original": "app.tools.None / I'm not sure",
+      "new": "app.tools.None / I'm not sure",
+      "kind": "multi_option",
+      "group": "app.tools",
+      "option": "None / I'm not sure",
+      "reason": "flags 为 multi_like，全列等于列名",
+      "fallback": false
+    },
+    {
+      "original": "app.tools.Setuptools",
+      "new": "app.tools.Setuptools",
+      "kind": "multi_option",
+      "group": "app.tools",
+      "option": "Setuptools",
+      "reason": "flags 为 multi_like，全列等于列名",
+      "fallback": false
+    },
+    {
+      "original": "app.tools.build",
+      "new": "app.tools.build",
+      "kind": "multi_option",
+      "group": "app.tools",
+      "option": "build",
+      "reason": "flags 为 multi_like，全列等于列名",
+      "fallback": false
+    },
+    {
+      "original": "app.tools.Wheel",
+      "new": "app.tools.Wheel",
+      "kind": "multi_option",
+      "group": "app.tools",
+      "option": "Wheel",
+      "reason": "flags 为 multi_like，全列等于列名",
+      "fallback": false
+    },
+    {
+      "original": "app.tools.Enscons",
+      "new": "app.tools.Enscons",
+      "kind": "multi_option",
+      "group": "app.tools",
+      "option": "Enscons",
+      "reason": "flags 为 multi_like，全列等于列名",
+      "fallback": false
+    },
+    {
+      "original": "app.tools.pex",
+      "new": "app.tools.pex",
+      "kind": "multi_option",
+      "group": "app.tools",
+      "option": "pex",
+      "reason": "flags 为 multi_like，全列等于列名",
+      "fallback": false
+    },
+    {
+      "original": "app.tools.Flit",
+      "new": "app.tools.Flit",
+      "kind": "multi_option",
+      "group": "app.tools",
+      "option": "Flit",
+      "reason": "flags 为 multi_like，全列等于列名",
+      "fallback": false
+    },
+    {
+      "original": "app.tools.Poetry",
+      "new": "app.tools.Poetry",
+      "kind": "multi_option",
+      "group": "app.tools",
+      "option": "Poetry",
+      "reason": "flags 为 multi_like，全列等于列名",
+      "fallback": false
+    },
+    {
+      "original": "app.tools.conda-build",
+      "new": "app.tools.conda-build",
+      "kind": "multi_option",
+      "group": "app.tools",
+      "option": "conda-build",
+      "reason": "flags 为 multi_like，全列等于列名",
+      "fallback": false
+    },
+    {
+      "original": "app.tools.maturin",
+      "new": "app.tools.maturin",
+      "kind": "multi_option",
+      "group": "app.tools",
+      "option": "maturin",
+      "reason": "flags 为 multi_like，全列等于列名",
+      "fallback": false
+    },
+    {
+      "original": "app.tools.PDM-PEP517",
+      "new": "app.tools.PDM-PEP517",
+      "kind": "multi_option",
+      "group": "app.tools",
+      "option": "PDM-PEP517",
+      "reason": "flags 为 multi_like，全列等于列名",
+      "fallback": false
+    },
+    {
+      "original": "app.tools.Other",
+      "new": "app.tools.Other",
+      "kind": "multi_option",
+      "group": "app.tools",
+      "option": "Other",
+      "reason": "flags 为 multi_like，全列等于列名",
+      "fallback": false
+    },
+    {
+      "original": "app.publish",
+      "new": "app.publish",
+      "kind": "single_choice",
+      "group": "app.publish",
+      "option": "",
+      "reason": "flags 无 multi_like，仅含 Yes/No 两值",
+      "fallback": false
+    },
+    {
+      "original": "app.publish.where.PyPI",
+      "new": "app.publish.where.PyPI",
+      "kind": "multi_option",
+      "group": "app.publish.where",
+      "option": "PyPI",
+      "reason": "flags 显示 multi_like，全列值恒为选项文本",
+      "fallback": false
+    },
+    {
+      "original": "app.publish.where.Private Python Package Index",
+      "new": "app.publish.where.Private Python Package Index",
+      "kind": "multi_option",
+      "group": "app.publish.where",
+      "option": "Private Python Package Index",
+      "reason": "flags 显示 multi_like，全列值恒为选项文本",
+      "fallback": false
+    },
+    {
+      "original": "app.publish.where.Internal mirror of PyPI",
+      "new": "app.publish.where.Internal mirror of PyPI",
+      "kind": "multi_option",
+      "group": "app.publish.where",
+      "option": "Internal mirror of PyPI",
+      "reason": "flags 显示 multi_like，全列值恒为选项文本",
+      "fallback": false
+    },
+    {
+      "original": "app.publish.where.conda-forge",
+      "new": "app.publish.where.conda-forge",
+      "kind": "multi_option",
+      "group": "app.publish.where",
+      "option": "conda-forge",
+      "reason": "flags 显示 multi_like，全列值恒为选项文本",
+      "fallback": false
+    },
+    {
+      "original": "app.publish.where.Other",
+      "new": "app.publish.where.Other",
+      "kind": "multi_option",
+      "group": "app.publish.where",
+      "option": "Other",
+      "reason": "flags 显示 multi_like，全列值恒为选项文本",
+      "fallback": false
+    },
+    {
+      "original": "libraries.do",
+      "new": "libraries.do",
+      "kind": "multi_option",
+      "group": "libraries",
+      "option": "do",
+      "reason": "flags 显示 numeric_like 且含 Yes/No，视为单选选项",
+      "fallback": false
+    },
+    {
+      "original": "libraries.tools.Setuptools",
+      "new": "libraries.tools.Setuptools",
+      "kind": "multi_option",
+      "group": "libraries.tools",
+      "option": "Setuptools",
+      "reason": "flags 显示 multi_like，全列值恒为选项文本",
+      "fallback": false
+    },
+    {
+      "original": "libraries.tools.build",
+      "new": "libraries.tools.build",
+      "kind": "multi_option",
+      "group": "libraries.tools",
+      "option": "build",
+      "reason": "flags 显示 multi_like，全列值恒为选项文本",
+      "fallback": false
+    },
+    {
+      "original": "libraries.tools.Wheel",
+      "new": "libraries.tools.Wheel",
+      "kind": "multi_option",
+      "group": "libraries.tools",
+      "option": "Wheel",
+      "reason": "flags 显示 multi_like，全列值恒为选项文本",
+      "fallback": false
+    },
+    {
+      "original": "libraries.tools.Enscons",
+      "new": "libraries.tools.Enscons",
+      "kind": "multi_option",
+      "group": "libraries.tools",
+      "option": "Enscons",
+      "reason": "flags 显示 multi_like，全列值恒为选项文本",
+      "fallback": false
+    },
+    {
+      "original": "libraries.tools.pex",
+      "new": "libraries.tools.pex",
+      "kind": "multi_option",
+      "group": "libraries.tools",
+      "option": "pex",
+      "reason": "flags 显示 multi_like，全列值恒为选项文本",
+      "fallback": false
+    },
+    {
+      "original": "libraries.tools.Flit",
+      "new": "libraries.tools.Flit",
+      "kind": "multi_option",
+      "group": "libraries.tools",
+      "option": "Flit",
+      "reason": "flags 显示 multi_like，全列值恒为选项文本",
+      "fallback": false
+    },
+    {
+      "original": "libraries.tools.Poetry",
+      "new": "libraries.tools.Poetry",
+      "kind": "multi_option",
+      "group": "libraries.tools",
+      "option": "Poetry",
+      "reason": "flags 显示 multi_like，全列值恒为选项文本",
+      "fallback": false
+    },
+    {
+      "original": "libraries.tools.conda-build",
+      "new": "libraries.tools.conda-build",
+      "kind": "multi_option",
+      "group": "libraries.tools",
+      "option": "conda-build",
+      "reason": "flags 显示 multi_like，全列值恒为选项文本",
+      "fallback": false
+    },
+    {
+      "original": "libraries.tools.maturin",
+      "new": "libraries.tools.maturin",
+      "kind": "multi_option",
+      "group": "libraries.tools",
+      "option": "maturin",
+      "reason": "flags 显示 multi_like，全列值恒为选项文本",
+      "fallback": false
+    },
+    {
+      "original": "libraries.tools.PDM-PEP517",
+      "new": "libraries.tools.PDM-PEP517",
+      "kind": "multi_option",
+      "group": "libraries.tools",
+      "option": "PDM-PEP517",
+      "reason": "flags 显示 multi_like，全列值恒为选项文本",
+      "fallback": false
+    },
+    {
+      "original": "libraries.tools.Other",
+      "new": "libraries.tools.Other",
+      "kind": "multi_option",
+      "group": "libraries.tools",
+      "option": "Other",
+      "reason": "flags 显示 multi_like，全列值恒为选项文本",
+      "fallback": false
+    },
+    {
+      "original": "libraries.publish",
+      "new": "libraries.publish",
+      "kind": "multi_option",
+      "group": "libraries",
+      "option": "publish",
+      "reason": "flags 显示 numeric_like 且含 Yes/No，视为单选选项",
+      "fallback": false
+    },
+    {
+      "original": "libraries.publish.where.PyPI",
+      "new": "libraries.publish.where.PyPI",
+      "kind": "multi_option",
+      "group": "libraries.publish.where",
+      "option": "PyPI",
+      "reason": "flags 显示 multi_like，全列值恒等于列名选项",
+      "fallback": false
+    },
+    {
+      "original": "libraries.publish.where.Private Python Package Index",
+      "new": "libraries.publish.where.Private Python Package Index",
+      "kind": "multi_option",
+      "group": "libraries.publish.where",
+      "option": "Private Python Package Index",
+      "reason": "flags 显示 multi_like，全列值恒等于列名选项",
+      "fallback": false
+    },
+    {
+      "original": "libraries.publish.where.Internal mirror of PyPI",
+      "new": "libraries.publish.where.Internal mirror of PyPI",
+      "kind": "multi_option",
+      "group": "libraries.publish.where",
+      "option": "Internal mirror of PyPI",
+      "reason": "flags 显示 multi_like，全列值恒等于列名选项",
+      "fallback": false
+    },
+    {
+      "original": "libraries.publish.where.conda-forge",
+      "new": "libraries.publish.where.conda-forge",
+      "kind": "multi_option",
+      "group": "libraries.publish.where",
+      "option": "conda-forge",
+      "reason": "flags 显示 multi_like，全列值恒等于列名选项",
+      "fallback": false
+    },
+    {
+      "original": "libraries.publish.where.Other",
+      "new": "libraries.publish.where.Other",
+      "kind": "multi_option",
+      "group": "libraries.publish.where",
+      "option": "Other",
+      "reason": "flags 显示 multi_like，全列值恒等于列名选项",
+      "fallback": false
+    },
+    {
+      "original": "job.team",
+      "new": "job.team",
+      "kind": "multi_option",
+      "group": "job",
+      "option": "team",
+      "reason": "多选题组，根据 top 推断选项为独立工作/团队/外部顾问",
+      "fallback": false
+    },
+    {
+      "original": "team.size",
+      "new": "team.size",
+      "kind": "multi_option",
+      "group": "team",
+      "option": "size",
+      "reason": "多选题组，根据 top 推断选项为不同人数范围",
+      "fallback": false
+    },
+    {
+      "original": "employment.status",
+      "new": "employment.status",
+      "kind": "multi_option",
+      "group": "employment",
+      "option": "status",
+      "reason": "多选题组，根据 top 推断选项为不同就业状态",
+      "fallback": false
+    },
+    {
+      "original": "company.size",
+      "new": "company.size",
+      "kind": "multi_option",
+      "group": "company",
+      "option": "size",
+      "reason": "多选题组，根据 top 推断选项为不同公司规模范围",
+      "fallback": false
+    },
+    {
+      "original": "age",
+      "new": "age",
+      "kind": "single_choice",
+      "group": "age",
+      "option": "",
+      "reason": "多选题组，根据 top 推断选项为不同年龄段范围（列名为整题且无勾选证据，按单选题纠正）",
+      "fallback": false
+    },
+    {
+      "original": "country.live",
+      "new": "country.live",
+      "kind": "multi_option",
+      "group": "country",
+      "option": "live",
+      "reason": "多选题组，根据 top 推断选项为不同国家/地区",
+      "fallback": false
+    },
+    {
+      "original": "how.involved.fixed.Other",
+      "new": "how.involved.fixed.Other",
+      "kind": "multi_option",
+      "group": "how.involved.fixed",
+      "option": "Other",
+      "reason": "flags 显示 multi_like，全列值恒等于列名选项",
+      "fallback": false
+    },
+    {
+      "original": "how.involved.fixed.DevOps / System administration / Writing automation scripts",
+      "new": "how.involved.fixed.DevOps / System administration / Writing automation scripts",
+      "kind": "multi_option",
+      "group": "how.involved.fixed",
+      "option": "DevOps / System administration / Writing automation scripts",
+      "reason": "flags 显示 multi_like，全列值恒等于列名选项",
+      "fallback": false
+    },
+    {
+      "original": "how.involved.fixed.Software testing / Writing automated tests",
+      "new": "how.involved.fixed.Software testing / Writing automated tests",
+      "kind": "multi_option",
+      "group": "how.involved.fixed",
+      "option": "Software testing / Writing automated tests",
+      "reason": "flags 显示 multi_like，全列值恒等于列名选项",
+      "fallback": false
+    },
+    {
+      "original": "how.involved.fixed.Web development",
+      "new": "how.involved.fixed.Web development",
+      "kind": "multi_option",
+      "group": "how.involved.fixed",
+      "option": "Web development",
+      "reason": "flags 显示 multi_like，全列值恒等于列名选项",
+      "fallback": false
+    },
+    {
+      "original": "how.involved.fixed.Educational purposes",
+      "new": "how.involved.fixed.Educational purposes",
+      "kind": "multi_option",
+      "group": "how.involved.fixed",
+      "option": "Educational purposes",
+      "reason": "flags 显示 multi_like，全列值恒等于列名选项",
+      "fallback": false
+    },
+    {
+      "original": "how.involved.fixed.Desktop development",
+      "new": "how.involved.fixed.Desktop development",
+      "kind": "multi_option",
+      "group": "how.involved.fixed",
+      "option": "Desktop development",
+      "reason": "flags 显示 multi_like，全列值恒等于列名选项",
+      "fallback": false
+    },
+    {
+      "original": "how.involved.fixed.Data analysis",
+      "new": "how.involved.fixed.Data analysis",
+      "kind": "multi_option",
+      "group": "how.involved.fixed",
+      "option": "Data analysis",
+      "reason": "flags 显示 multi_like，全列值恒等于列名选项",
+      "fallback": false
+    },
+    {
+      "original": "how.involved.fixed.Software prototyping",
+      "new": "how.involved.fixed.Software prototyping",
+      "kind": "multi_option",
+      "group": "how.involved.fixed",
+      "option": "Software prototyping",
+      "reason": "全列取值恒等于列名选项，符合 multi_like",
+      "fallback": false
+    },
+    {
+      "original": "how.involved.fixed.Network programming",
+      "new": "how.involved.fixed.Network programming",
+      "kind": "multi_option",
+      "group": "how.involved.fixed",
+      "option": "Network programming",
+      "reason": "全列取值恒等于列名选项，符合 multi_like",
+      "fallback": false
+    },
+    {
+      "original": "how.involved.fixed.Programming of web parsers / scrapers / crawlers",
+      "new": "how.involved.fixed.Programming of web parsers / scrapers / crawlers",
+      "kind": "multi_option",
+      "group": "how.involved.fixed",
+      "option": "Programming of web parsers / scrapers / crawlers",
+      "reason": "全列取值恒等于列名选项，符合 multi_like",
+      "fallback": false
+    },
+    {
+      "original": "how.involved.fixed.Embedded development",
+      "new": "how.involved.fixed.Embedded development",
+      "kind": "multi_option",
+      "group": "how.involved.fixed",
+      "option": "Embedded development",
+      "reason": "全列取值恒等于列名选项，符合 multi_like",
+      "fallback": false
+    },
+    {
+      "original": "how.involved.fixed.Mobile development",
+      "new": "how.involved.fixed.Mobile development",
+      "kind": "multi_option",
+      "group": "how.involved.fixed",
+      "option": "Mobile development",
+      "reason": "全列取值恒等于列名选项，符合 multi_like",
+      "fallback": false
+    },
+    {
+      "original": "how.involved.fixed.Machine learning",
+      "new": "how.involved.fixed.Machine learning",
+      "kind": "multi_option",
+      "group": "how.involved.fixed",
+      "option": "Machine learning",
+      "reason": "全列取值恒等于列名选项，符合 multi_like",
+      "fallback": false
+    },
+    {
+      "original": "how.involved.fixed.Game development",
+      "new": "how.involved.fixed.Game development",
+      "kind": "multi_option",
+      "group": "how.involved.fixed",
+      "option": "Game development",
+      "reason": "全列取值恒等于列名选项，符合 multi_like",
+      "fallback": false
+    },
+    {
+      "original": "how.involved.fixed.Computer graphics",
+      "new": "how.involved.fixed.Computer graphics",
+      "kind": "multi_option",
+      "group": "how.involved.fixed",
+      "option": "Computer graphics",
+      "reason": "全列取值恒等于列名选项，符合 multi_like",
+      "fallback": false
+    },
+    {
+      "original": "how.involved.fixed.Multimedia applications development",
+      "new": "how.involved.fixed.Multimedia applications development",
+      "kind": "multi_option",
+      "group": "how.involved.fixed",
+      "option": "Multimedia applications development",
+      "reason": "全列取值恒等于列名选项，符合 multi_like",
+      "fallback": false
+    }
+  ]
+}

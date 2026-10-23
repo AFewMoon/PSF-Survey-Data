@@ -1,0 +1,185 @@
+{
+  "stage": "clean_semantics",
+  "model": "qwen3.5:4b",
+  "model_digest": "d8b0f5e9760cd168",
+  "prompt_version": "clean-semantics-v2",
+  "input_hash": "3fbf8691ff8254bc9b286bff9f73c0c0",
+  "created_at": "2026-10-23T18:31:35",
+  "duration_s": 10.62,
+  "output_tokens": 816,
+  "fallback": false,
+  "error": "",
+  "manual_edit": false,
+  "reviewed": false,
+  "payload_summary": {
+    "year": 2024,
+    "batch": "other.lang.Perl…other.purposes.Design / Data visualization",
+    "n": 18
+  },
+  "response": {
+    "columns": [
+      {
+        "column": "other.lang.Perl",
+        "kind": "multi_option",
+        "group": "other.lang",
+        "option": "Perl",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值恒为选项文本",
+        "year": 2024
+      },
+      {
+        "column": "other.lang.Rust",
+        "kind": "multi_option",
+        "group": "other.lang",
+        "option": "Rust",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值恒为选项文本",
+        "year": 2024
+      },
+      {
+        "column": "other.lang.Groovy",
+        "kind": "multi_option",
+        "group": "other.lang",
+        "option": "Groovy",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值恒为选项文本",
+        "year": 2024
+      },
+      {
+        "column": "other.lang.TypeScript",
+        "kind": "multi_option",
+        "group": "other.lang",
+        "option": "TypeScript",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值恒为选项文本",
+        "year": 2024
+      },
+      {
+        "column": "other.lang.CoffeeScript",
+        "kind": "multi_option",
+        "group": "other.lang",
+        "option": "CoffeeScript",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值恒为选项文本",
+        "year": 2024
+      },
+      {
+        "column": "other.lang.HTML/CSS",
+        "kind": "multi_option",
+        "group": "other.lang",
+        "option": "HTML/CSS",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值恒为选项文本",
+        "year": 2024
+      },
+      {
+        "column": "other.lang.Julia",
+        "kind": "multi_option",
+        "group": "other.lang",
+        "option": "Julia",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值恒为选项文本",
+        "year": 2024
+      },
+      {
+        "column": "other.lang.Mojo",
+        "kind": "multi_option",
+        "group": "other.lang",
+        "option": "Mojo",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值恒为选项文本",
+        "year": 2024
+      },
+      {
+        "column": "other.lang.Other",
+        "kind": "multi_option",
+        "group": "other.lang",
+        "option": "Other",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值恒为选项文本",
+        "year": 2024
+      },
+      {
+        "column": "python.years",
+        "kind": "multi_option",
+        "group": "python",
+        "option": "Less than 1 year",
+        "missing_tokens": [],
+        "reason": "flags 显示 numeric_like 但 top 为类别，判定为多选题列",
+        "year": 2024
+      },
+      {
+        "column": "years.of.coding",
+        "kind": "multi_option",
+        "group": "years",
+        "option": "Less than 1 year",
+        "missing_tokens": [],
+        "reason": "flags 显示 numeric_like 但 top 为类别，判定为多选题列",
+        "year": 2024
+      },
+      {
+        "column": "main.purposes",
+        "kind": "multi_option",
+        "group": "main",
+        "option": "Both for work and personal projects",
+        "missing_tokens": [],
+        "reason": "flags 显示 numeric_like 但 top 为类别，判定为多选题列",
+        "year": 2024
+      },
+      {
+        "column": "other.purposes.Educational purposes",
+        "kind": "multi_option",
+        "group": "other.purposes",
+        "option": "Educational purposes",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值恒为选项文本",
+        "year": 2024
+      },
+      {
+        "column": "other.purposes.MLOps",
+        "kind": "multi_option",
+        "group": "other.purposes",
+        "option": "MLOps",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值恒为选项文本",
+        "year": 2024
+      },
+      {
+        "column": "other.purposes.Data engineering",
+        "kind": "multi_option",
+        "group": "other.purposes",
+        "option": "Data engineering",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值恒为选项文本",
+        "year": 2024
+      },
+      {
+        "column": "other.purposes.Academic research",
+        "kind": "multi_option",
+        "group": "other.purposes",
+        "option": "Academic research",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值恒为选项文本",
+        "year": 2024
+      },
+      {
+        "column": "other.purposes.Data analysis",
+        "kind": "multi_option",
+        "group": "other.purposes",
+        "option": "Data analysis",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值恒为选项文本",
+        "year": 2024
+      },
+      {
+        "column": "other.purposes.Design / Data visualization",
+        "kind": "multi_option",
+        "group": "other.purposes",
+        "option": "Design / Data visualization",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值恒为选项文本",
+        "year": 2024
+      }
+    ]
+  }
+}

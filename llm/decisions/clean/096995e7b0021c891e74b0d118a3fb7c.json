@@ -1,0 +1,176 @@
+{
+  "stage": "clean_semantics",
+  "model": "qwen3.5:4b",
+  "model_digest": "d8b0f5e9760cd168",
+  "prompt_version": "clean-semantics-v2",
+  "input_hash": "096995e7b0021c891e74b0d118a3fb7c",
+  "created_at": "2026-10-23T18:57:07",
+  "duration_s": 10.71,
+  "output_tokens": 820,
+  "fallback": false,
+  "error": "",
+  "manual_edit": false,
+  "reviewed": false,
+  "payload_summary": {
+    "year": 2022,
+    "batch": "ci.Bitbucket Pipelines…ide.editor.PyCharm Professional Edition",
+    "n": 18
+  },
+  "response": {
+    "columns": [
+      {
+        "column": "ci.Bitbucket Pipelines",
+        "kind": "multi_option",
+        "group": "ci.Bitbucket Pipelines",
+        "option": "Bitbucket Pipelines",
+        "missing_tokens": [],
+        "reason": "全列取值恒等于列名选项，符合 multi_like",
+        "year": 2022
+      },
+      {
+        "column": "ci.AppVeyor",
+        "kind": "multi_option",
+        "group": "ci.AppVeyor",
+        "option": "AppVeyor",
+        "missing_tokens": [],
+        "reason": "全列取值恒等于列名选项，符合 multi_like",
+        "year": 2022
+      },
+      {
+        "column": "ci.Other",
+        "kind": "multi_option",
+        "group": "ci.Other",
+        "option": "Other",
+        "missing_tokens": [],
+        "reason": "全列取值恒等于列名选项，符合 multi_like",
+        "year": 2022
+      },
+      {
+        "column": "configuration.management.None",
+        "kind": "multi_option",
+        "group": "configuration.management.None",
+        "option": "None",
+        "missing_tokens": [],
+        "reason": "全列取值恒等于列名选项，符合 multi_like",
+        "year": 2022
+      },
+      {
+        "column": "configuration.management.Salt",
+        "kind": "multi_option",
+        "group": "configuration.management.Salt",
+        "option": "Salt",
+        "missing_tokens": [],
+        "reason": "全列取值恒等于列名选项，符合 multi_like",
+        "year": 2022
+      },
+      {
+        "column": "configuration.management.Puppet",
+        "kind": "multi_option",
+        "group": "configuration.management.Puppet",
+        "option": "Puppet",
+        "missing_tokens": [],
+        "reason": "全列取值恒等于列名选项，符合 multi_like",
+        "year": 2022
+      },
+      {
+        "column": "configuration.management.Chef",
+        "kind": "multi_option",
+        "group": "configuration.management.Chef",
+        "option": "Chef",
+        "missing_tokens": [],
+        "reason": "全列取值恒等于列名选项，符合 multi_like",
+        "year": 2022
+      },
+      {
+        "column": "configuration.management.Ansible",
+        "kind": "multi_option",
+        "group": "configuration.management.Ansible",
+        "option": "Ansible",
+        "missing_tokens": [],
+        "reason": "全列取值恒等于列名选项，符合 multi_like",
+        "year": 2022
+      },
+      {
+        "column": "configuration.management.Custom solution",
+        "kind": "multi_option",
+        "group": "configuration.management.Custom solution",
+        "option": "Custom solution",
+        "missing_tokens": [],
+        "reason": "全列取值恒等于列名选项，符合 multi_like",
+        "year": 2022
+      },
+      {
+        "column": "configuration.management.Other",
+        "kind": "multi_option",
+        "group": "configuration.management.Other",
+        "option": "Other",
+        "missing_tokens": [],
+        "reason": "全列取值恒等于列名选项，符合 multi_like",
+        "year": 2022
+      },
+      {
+        "column": "documentation.tool.Sphinx",
+        "kind": "multi_option",
+        "group": "documentation.tool.Sphinx",
+        "option": "Sphinx",
+        "missing_tokens": [],
+        "reason": "全列取值恒等于列名选项，符合 multi_like",
+        "year": 2022
+      },
+      {
+        "column": "documentation.tool.MKDocs",
+        "kind": "multi_option",
+        "group": "documentation.tool.MKDocs",
+        "option": "MKDocs",
+        "missing_tokens": [],
+        "reason": "全列取值恒等于列名选项，符合 multi_like",
+        "year": 2022
+      },
+      {
+        "column": "documentation.tool.Doxygen",
+        "kind": "multi_option",
+        "group": "documentation.tool.Doxygen",
+        "option": "Doxygen",
+        "missing_tokens": [],
+        "reason": "全列取值恒等于列名选项，符合 multi_like",
+        "year": 2022
+      },
+      {
+        "column": "documentation.tool.Other",
+        "kind": "multi_option",
+        "group": "documentation.tool.Other",
+        "option": "Other",
+        "missing_tokens": [],
+        "reason": "全列取值恒等于列名选项，符合 multi_like",
+        "year": 2022
+      },
+      {
+        "column": "ide.main",
+        "kind": "single_choice",
+        "group": "ide.main",
+        "option": "VS Code, PyCharm Professional Edition, PyCharm Community Edition, Jupyter Notebook, Vim, None",
+        "missing_tokens": [],
+        "reason": "n_unique=20 且非恒等，为单选题组主列",
+        "year": 2022
+      },
+      {
+        "column": "ide.editor.None",
+        "kind": "multi_option",
+        "group": "ide.editor.None",
+        "option": "None",
+        "missing_tokens": [],
+        "reason": "全列取值恒等于列名选项，符合 multi_like",
+        "year": 2022
+      },
+      {
+        "column": "ide.editor.PyCharm Professional Edition",
+        "kind": "multi_option",
+        "group": "ide.editor.PyCharm Professional Edition",
+        "option": "PyCharm Professional Edition",
+        "missing_tokens": [],
+        "reason": "全列取值恒等于列名选项，符合 multi_like",
+        "year": 2022
+      }
+    ]
+  }
+}

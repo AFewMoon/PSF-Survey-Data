@@ -1,0 +1,219 @@
+{
+  "stage": "clean_semantics",
+  "model": "qwen3.5:4b",
+  "model_digest": "d8b0f5e9760cd168",
+  "prompt_version": "clean-semantics-v2",
+  "input_hash": "b070b83fb0d2f6e94ae94aced704264b",
+  "created_at": "2026-10-23T18:41:06",
+  "duration_s": 12.25,
+  "output_tokens": 922,
+  "fallback": false,
+  "error": "",
+  "manual_edit": false,
+  "reviewed": false,
+  "payload_summary": {
+    "year": 2019,
+    "batch": "response_id…PHP:What other language(s) do you use?",
+    "n": 18
+  },
+  "response": {
+    "columns": [
+      {
+        "column": "response_id",
+        "kind": "identifier",
+        "group": "response_id",
+        "option": "",
+        "missing_tokens": [],
+        "reason": "全列唯一且为数字，符合标识符特征",
+        "year": 2019
+      },
+      {
+        "column": "Is Python the main language you use for your current projects?",
+        "kind": "single_choice",
+        "group": "is.python.main",
+        "option": "Yes",
+        "missing_tokens": [
+          "NA",
+          "No, I use Python as a secondary language",
+          "No, I don't use Python for my current projects"
+        ],
+        "reason": "全列非空且仅 4 个选项，符合单选题特征",
+        "year": 2019
+      },
+      {
+        "column": "Bash / Shell:What other language(s) do you use?",
+        "kind": "multi_option",
+        "group": "other.lang",
+        "option": "Bash / Shell",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "全列取值恒等于选项文本，符合 multi_like 特征",
+        "year": 2019
+      },
+      {
+        "column": "C/C++:What other language(s) do you use?",
+        "kind": "multi_option",
+        "group": "other.lang",
+        "option": "C/C++",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "全列取值恒等于选项文本，符合 multi_like 特征",
+        "year": 2019
+      },
+      {
+        "column": "C#:What other language(s) do you use?",
+        "kind": "multi_option",
+        "group": "other.lang",
+        "option": "C#",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "全列取值恒等于选项文本，符合 multi_like 特征",
+        "year": 2019
+      },
+      {
+        "column": "Clojure:What other language(s) do you use?",
+        "kind": "multi_option",
+        "group": "other.lang",
+        "option": "Clojure",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "全列取值恒等于选项文本，符合 multi_like 特征",
+        "year": 2019
+      },
+      {
+        "column": "CoffeeScript:What other language(s) do you use?",
+        "kind": "multi_option",
+        "group": "other.lang",
+        "option": "CoffeeScript",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "全列取值恒等于选项文本，符合 multi_like 特征",
+        "year": 2019
+      },
+      {
+        "column": "Go:What other language(s) do you use?",
+        "kind": "multi_option",
+        "group": "other.lang",
+        "option": "Go",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "全列取值恒等于选项文本，符合 multi_like 特征",
+        "year": 2019
+      },
+      {
+        "column": "Groovy:What other language(s) do you use?",
+        "kind": "multi_option",
+        "group": "other.lang",
+        "option": "Groovy",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "全列取值恒等于选项文本，符合 multi_like 特征",
+        "year": 2019
+      },
+      {
+        "column": "HTML/CSS:What other language(s) do you use?",
+        "kind": "multi_option",
+        "group": "other.lang",
+        "option": "HTML/CSS",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "全列取值恒等于选项文本，符合 multi_like 特征",
+        "year": 2019
+      },
+      {
+        "column": "Java:What other language(s) do you use?",
+        "kind": "multi_option",
+        "group": "other.lang",
+        "option": "Java",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "全列取值恒等于选项文本，符合 multi_like 特征",
+        "year": 2019
+      },
+      {
+        "column": "JavaScript:What other language(s) do you use?",
+        "kind": "multi_option",
+        "group": "other.lang",
+        "option": "JavaScript",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "全列取值恒等于选项文本，符合 multi_like 特征",
+        "year": 2019
+      },
+      {
+        "column": "Kotlin:What other language(s) do you use?",
+        "kind": "multi_option",
+        "group": "other.lang",
+        "option": "Kotlin",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "全列取值恒等于选项文本，符合 multi_like 特征",
+        "year": 2019
+      },
+      {
+        "column": "None:What other language(s) do you use?",
+        "kind": "multi_option",
+        "group": "other.lang",
+        "option": "None",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "全列取值恒等于选项文本，符合 multi_like 特征",
+        "year": 2019
+      },
+      {
+        "column": "Objective-C:What other language(s) do you use?",
+        "kind": "multi_option",
+        "group": "other.lang",
+        "option": "Objective-C",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "全列取值恒等于选项文本，符合 multi_like 特征",
+        "year": 2019
+      },
+      {
+        "column": "Other - Write In::What other language(s) do you use?",
+        "kind": "free_text",
+        "group": "other.lang",
+        "option": "",
+        "missing_tokens": [],
+        "reason": "自由文本，样本已脱敏，仅给出结构特征",
+        "year": 2019
+      },
+      {
+        "column": "Perl:What other language(s) do you use?",
+        "kind": "multi_option",
+        "group": "other.lang",
+        "option": "Perl",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "全列取值恒等于选项文本，符合 multi_like 特征",
+        "year": 2019
+      },
+      {
+        "column": "PHP:What other language(s) do you use?",
+        "kind": "multi_option",
+        "group": "other.lang",
+        "option": "PHP",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "全列取值恒等于选项文本，符合 multi_like 特征",
+        "year": 2019
+      }
+    ]
+  }
+}

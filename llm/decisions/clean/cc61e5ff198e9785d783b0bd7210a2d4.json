@@ -1,0 +1,185 @@
+{
+  "stage": "clean_semantics",
+  "model": "qwen3.5:4b",
+  "model_digest": "d8b0f5e9760cd168",
+  "prompt_version": "clean-semantics-v2",
+  "input_hash": "cc61e5ff198e9785d783b0bd7210a2d4",
+  "created_at": "2026-10-23T18:52:31",
+  "duration_s": 11.03,
+  "output_tokens": 853,
+  "fallback": false,
+  "error": "",
+  "manual_edit": false,
+  "reviewed": false,
+  "payload_summary": {
+    "year": 2021,
+    "batch": "bigdata.Apache Beam…ci.Travis CI",
+    "n": 18
+  },
+  "response": {
+    "columns": [
+      {
+        "column": "bigdata.Apache Beam",
+        "kind": "multi_option",
+        "group": "bigdata.Apache Beam",
+        "option": "Apache Beam",
+        "missing_tokens": [],
+        "reason": "flags 显示全列等于列名，确认为单选选项列",
+        "year": 2021
+      },
+      {
+        "column": "bigdata.Apache Flink",
+        "kind": "multi_option",
+        "group": "bigdata.Apache Flink",
+        "option": "Apache Flink",
+        "missing_tokens": [],
+        "reason": "flags 显示全列等于列名，确认为单选选项列",
+        "year": 2021
+      },
+      {
+        "column": "bigdata.Apache Hadoop/MapReduce",
+        "kind": "multi_option",
+        "group": "bigdata.Apache Hadoop/MapReduce",
+        "option": "Apache Hadoop/MapReduce",
+        "missing_tokens": [],
+        "reason": "flags 显示全列等于列名，确认为单选选项列",
+        "year": 2021
+      },
+      {
+        "column": "bigdata.Apache Hive",
+        "kind": "multi_option",
+        "group": "bigdata.Apache Hive",
+        "option": "Apache Hive",
+        "missing_tokens": [],
+        "reason": "flags 显示全列等于列名，确认为单选选项列",
+        "year": 2021
+      },
+      {
+        "column": "bigdata.Apache Samza",
+        "kind": "multi_option",
+        "group": "bigdata.Apache Samza",
+        "option": "Apache Samza",
+        "missing_tokens": [],
+        "reason": "flags 显示全列等于列名，确认为单选选项列",
+        "year": 2021
+      },
+      {
+        "column": "bigdata.Apache Kafka",
+        "kind": "multi_option",
+        "group": "bigdata.Apache Kafka",
+        "option": "Apache Kafka",
+        "missing_tokens": [],
+        "reason": "flags 显示全列等于列名，确认为单选选项列",
+        "year": 2021
+      },
+      {
+        "column": "bigdata.Apache Spark",
+        "kind": "multi_option",
+        "group": "bigdata.Apache Spark",
+        "option": "Apache Spark",
+        "missing_tokens": [],
+        "reason": "flags 显示全列等于列名，确认为单选选项列",
+        "year": 2021
+      },
+      {
+        "column": "bigdata.Apache Tez",
+        "kind": "multi_option",
+        "group": "bigdata.Apache Tez",
+        "option": "Apache Tez",
+        "missing_tokens": [],
+        "reason": "flags 显示全列等于列名，确认为单选选项列",
+        "year": 2021
+      },
+      {
+        "column": "bigdata.Dask",
+        "kind": "multi_option",
+        "group": "bigdata.Dask",
+        "option": "Dask",
+        "missing_tokens": [],
+        "reason": "flags 显示全列等于列名，确认为单选选项列",
+        "year": 2021
+      },
+      {
+        "column": "bigdata.ClickHouse",
+        "kind": "multi_option",
+        "group": "bigdata.ClickHouse",
+        "option": "ClickHouse",
+        "missing_tokens": [],
+        "reason": "flags 显示全列等于列名，确认为单选选项列",
+        "year": 2021
+      },
+      {
+        "column": "bigdata.Other",
+        "kind": "multi_option",
+        "group": "bigdata.Other",
+        "option": "Other",
+        "missing_tokens": [],
+        "reason": "flags 显示全列等于列名，确认为单选选项列",
+        "year": 2021
+      },
+      {
+        "column": "ci.None",
+        "kind": "multi_option",
+        "group": "ci.None",
+        "option": "None",
+        "missing_tokens": [],
+        "reason": "flags 显示全列等于列名，确认为单选选项列",
+        "year": 2021
+      },
+      {
+        "column": "ci.GitHub Actions",
+        "kind": "multi_option",
+        "group": "ci.GitHub Actions",
+        "option": "GitHub Actions",
+        "missing_tokens": [],
+        "reason": "flags 显示全列等于列名，确认为单选选项列",
+        "year": 2021
+      },
+      {
+        "column": "ci.Gitlab CI",
+        "kind": "multi_option",
+        "group": "ci.Gitlab CI",
+        "option": "Gitlab CI",
+        "missing_tokens": [],
+        "reason": "flags 显示全列等于列名，确认为单选选项列",
+        "year": 2021
+      },
+      {
+        "column": "ci.Jenkins / Hudson",
+        "kind": "multi_option",
+        "group": "ci.Jenkins / Hudson",
+        "option": "Jenkins / Hudson",
+        "missing_tokens": [],
+        "reason": "flags 显示全列等于列名，确认为单选选项列",
+        "year": 2021
+      },
+      {
+        "column": "ci.TeamCity",
+        "kind": "multi_option",
+        "group": "ci.TeamCity",
+        "option": "TeamCity",
+        "missing_tokens": [],
+        "reason": "flags 显示全列等于列名，确认为单选选项列",
+        "year": 2021
+      },
+      {
+        "column": "ci.Bamboo",
+        "kind": "multi_option",
+        "group": "ci.Bamboo",
+        "option": "Bamboo",
+        "missing_tokens": [],
+        "reason": "flags 显示全列等于列名，确认为单选选项列",
+        "year": 2021
+      },
+      {
+        "column": "ci.Travis CI",
+        "kind": "multi_option",
+        "group": "ci.Travis CI",
+        "option": "Travis CI",
+        "missing_tokens": [],
+        "reason": "flags 显示全列等于列名，确认为单选选项列",
+        "year": 2021
+      }
+    ]
+  }
+}

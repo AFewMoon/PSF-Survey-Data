@@ -1,0 +1,101 @@
+{
+  "stage": "chart_spec",
+  "model": "qwen3.5:4b",
+  "model_digest": "d8b0f5e9760cd168",
+  "prompt_version": "chart-spec-v1",
+  "input_hash": "f7c5a5a78f44a3389d8c034e381e1760",
+  "created_at": "2026-10-23T19:39:30",
+  "duration_s": 12.82,
+  "output_tokens": 495,
+  "fallback": false,
+  "error": "",
+  "manual_edit": false,
+  "reviewed": false,
+  "payload_summary": {
+    "files": 17
+  },
+  "response": {
+    "charts": [
+      {
+        "name": "company_size_profile",
+        "kind": "bar",
+        "source": "profile_llm_company_size.csv",
+        "title": "受访者公司规模分布",
+        "top_n": 10,
+        "reason": "展示不同规模公司的受访者占比，了解样本结构。"
+      },
+      {
+        "name": "editor_pref_profile",
+        "kind": "hbar",
+        "source": "profile_llm_editor_preferences.csv",
+        "title": "受访者首选编辑器排名",
+        "top_n": 10,
+        "reason": "横向条形图适合长选项名，清晰展示编辑器偏好。"
+      },
+      {
+        "name": "employment_status_profile",
+        "kind": "bar",
+        "source": "profile_llm_employment_status.csv",
+        "title": "受访者就业状态分布",
+        "top_n": 10,
+        "reason": "直观呈现全职、兼职及自由职业者的比例。"
+      },
+      {
+        "name": "lang_pref_profile",
+        "kind": "hbar",
+        "source": "profile_llm_preferred_language.csv",
+        "title": "受访者首选编程语言排名",
+        "top_n": 10,
+        "reason": "展示各类语言（如 JS, SQL）的受欢迎程度。"
+      },
+      {
+        "name": "primary_ide_profile",
+        "kind": "hbar",
+        "source": "profile_llm_primary_ide.csv",
+        "title": "受访者主要开发工具排名",
+        "top_n": 10,
+        "reason": "对比 Jupyter Notebook 等主流 IDE 的使用情况。"
+      },
+      {
+        "name": "python_usage_profile",
+        "kind": "bar",
+        "source": "profile_llm_python_usage.csv",
+        "title": "受访者 Python 使用情况",
+        "top_n": 10,
+        "reason": "区分主要使用 Python 与仅作为辅助语言的群体。"
+      },
+      {
+        "name": "company_size_trend",
+        "kind": "line",
+        "source": "trends_llm_company_size.csv",
+        "title": "近五年公司规模变化趋势",
+        "top_n": 10,
+        "reason": "观察不同规模公司在样本中的比例随时间波动。"
+      },
+      {
+        "name": "editor_trend",
+        "kind": "line",
+        "source": "trends_llm_editor_preferences.csv",
+        "title": "近五年编辑器偏好演变",
+        "top_n": 10,
+        "reason": "追踪 Atom 到 JupyterLab 等工具的流行度变迁。"
+      },
+      {
+        "name": "lang_trend",
+        "kind": "line",
+        "source": "trends_llm_programming_languages.csv",
+        "title": "近五年编程语言流行度",
+        "top_n": 10,
+        "reason": "分析 Bash、C++ 等语言使用率的年度变化。"
+      },
+      {
+        "name": "team_size_trend",
+        "kind": "line",
+        "source": "trends_llm_team_size.csv",
+        "title": "近五年团队规模变化趋势",
+        "top_n": 10,
+        "reason": "展示不同团队规模受访者的比例随时间变化。"
+      }
+    ]
+  }
+}

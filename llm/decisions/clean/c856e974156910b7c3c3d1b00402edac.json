@@ -1,0 +1,185 @@
+{
+  "stage": "clean_semantics",
+  "model": "qwen3.5:4b",
+  "model_digest": "d8b0f5e9760cd168",
+  "prompt_version": "clean-semantics-v2",
+  "input_hash": "c856e974156910b7c3c3d1b00402edac",
+  "created_at": "2026-10-23T18:47:59",
+  "duration_s": 9.65,
+  "output_tokens": 743,
+  "fallback": false,
+  "error": "",
+  "manual_edit": false,
+  "reviewed": false,
+  "payload_summary": {
+    "year": 2020,
+    "batch": "configuration.management.Salt…ide.editor.Jupyter Notebook",
+    "n": 18
+  },
+  "response": {
+    "columns": [
+      {
+        "column": "configuration.management.Salt",
+        "kind": "multi_option",
+        "group": "configuration.management",
+        "option": "Salt",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列等于选项名",
+        "year": 2020
+      },
+      {
+        "column": "configuration.management.Puppet",
+        "kind": "multi_option",
+        "group": "configuration.management",
+        "option": "Puppet",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列等于选项名",
+        "year": 2020
+      },
+      {
+        "column": "configuration.management.Chef",
+        "kind": "multi_option",
+        "group": "configuration.management",
+        "option": "Chef",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列等于选项名",
+        "year": 2020
+      },
+      {
+        "column": "configuration.management.Ansible",
+        "kind": "multi_option",
+        "group": "configuration.management",
+        "option": "Ansible",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列等于选项名",
+        "year": 2020
+      },
+      {
+        "column": "configuration.management.Custom solution",
+        "kind": "multi_option",
+        "group": "configuration.management",
+        "option": "Custom solution",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列等于选项名",
+        "year": 2020
+      },
+      {
+        "column": "configuration.management.Other",
+        "kind": "multi_option",
+        "group": "configuration.management",
+        "option": "Other",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列等于选项名",
+        "year": 2020
+      },
+      {
+        "column": "ide.main",
+        "kind": "single_choice",
+        "group": "ide.main",
+        "option": "",
+        "missing_tokens": [],
+        "reason": "n_unique=17 且无 flags，为单选题主列",
+        "year": 2020
+      },
+      {
+        "column": "ide.editor.None",
+        "kind": "multi_option",
+        "group": "ide.editor",
+        "option": "None",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列等于选项名",
+        "year": 2020
+      },
+      {
+        "column": "ide.editor.Other",
+        "kind": "multi_option",
+        "group": "ide.editor",
+        "option": "Other",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列等于选项名",
+        "year": 2020
+      },
+      {
+        "column": "ide.editor.PyCharm Professional Edition",
+        "kind": "multi_option",
+        "group": "ide.editor",
+        "option": "PyCharm Professional Edition",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列等于选项名",
+        "year": 2020
+      },
+      {
+        "column": "ide.editor.PyCharm Community Edition",
+        "kind": "multi_option",
+        "group": "ide.editor",
+        "option": "PyCharm Community Edition",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列等于选项名",
+        "year": 2020
+      },
+      {
+        "column": "ide.editor.Sublime Text",
+        "kind": "multi_option",
+        "group": "ide.editor",
+        "option": "Sublime Text",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列等于选项名",
+        "year": 2020
+      },
+      {
+        "column": "ide.editor.Vim",
+        "kind": "multi_option",
+        "group": "ide.editor",
+        "option": "Vim",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列等于选项名",
+        "year": 2020
+      },
+      {
+        "column": "ide.editor.Atom",
+        "kind": "multi_option",
+        "group": "ide.editor",
+        "option": "Atom",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列等于选项名",
+        "year": 2020
+      },
+      {
+        "column": "ide.editor.VS Code",
+        "kind": "multi_option",
+        "group": "ide.editor",
+        "option": "VS Code",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列等于选项名",
+        "year": 2020
+      },
+      {
+        "column": "ide.editor.Eclipse + Pydev",
+        "kind": "multi_option",
+        "group": "ide.editor",
+        "option": "Eclipse + Pydev",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列等于选项名",
+        "year": 2020
+      },
+      {
+        "column": "ide.editor.JupyterLab",
+        "kind": "multi_option",
+        "group": "ide.editor",
+        "option": "JupyterLab",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列等于选项名",
+        "year": 2020
+      },
+      {
+        "column": "ide.editor.Jupyter Notebook",
+        "kind": "multi_option",
+        "group": "ide.editor",
+        "option": "Jupyter Notebook",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列等于选项名",
+        "year": 2020
+      }
+    ]
+  }
+}

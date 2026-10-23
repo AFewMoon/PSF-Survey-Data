@@ -1,0 +1,41 @@
+{
+  "stage": "clean_semantics",
+  "model": "qwen3.5:4b",
+  "model_digest": "d8b0f5e9760cd168",
+  "prompt_version": "clean-semantics-v2",
+  "input_hash": "b19512a8e349ce2e5d4f08e8ed92c2b4",
+  "created_at": "2026-10-23T18:44:26",
+  "duration_s": 1.8,
+  "output_tokens": 96,
+  "fallback": false,
+  "error": "",
+  "manual_edit": false,
+  "reviewed": false,
+  "payload_summary": {
+    "year": 2019,
+    "batch": "Could you tell us your age range?…What country do you live in?",
+    "n": 2
+  },
+  "response": {
+    "columns": [
+      {
+        "column": "Could you tell us your age range?",
+        "kind": "single_choice",
+        "group": "demographics.age",
+        "option": "NA",
+        "missing_tokens": [],
+        "reason": "全列非空且为单一选项，符合单选题特征",
+        "year": 2019
+      },
+      {
+        "column": "What country do you live in?",
+        "kind": "single_choice",
+        "group": "demographics.country",
+        "option": "NA",
+        "missing_tokens": [],
+        "reason": "全列非空且为单一选项，符合单选题特征",
+        "year": 2019
+      }
+    ]
+  }
+}

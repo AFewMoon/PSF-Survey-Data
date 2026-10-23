@@ -1,0 +1,48 @@
+{
+  "stage": "option_alias",
+  "model": "qwen3.5:4b",
+  "model_digest": "d8b0f5e9760cd168",
+  "prompt_version": "option-alias-v2",
+  "input_hash": "cf47d4bc442d60b5042ed8576b0e493d",
+  "created_at": "2026-10-23T19:19:46",
+  "duration_s": 7.7,
+  "output_tokens": 532,
+  "fallback": false,
+  "error": "",
+  "manual_edit": false,
+  "reviewed": false,
+  "payload_summary": {
+    "groups": 8,
+    "values": 94
+  },
+  "response": {
+    "groups": [
+      {
+        "name": "packaging.tools",
+        "options": [
+          {
+            "variants": [
+              "Conda",
+              "Containers (eg via Docker)",
+              "None / I'm not sure",
+              "Other",
+              "PDM",
+              "Poetry",
+              "Virtual machines",
+              "Workplace specific proprietary solution",
+              "flit",
+              "pip",
+              "pipenv",
+              "tox",
+              "twine",
+              "venv (standard library)",
+              "virtualenv"
+            ],
+            "canonical": "Conda",
+            "reason": "保留具体工具选项，其他因语义不同不合并"
+          }
+        ]
+      }
+    ]
+  }
+}

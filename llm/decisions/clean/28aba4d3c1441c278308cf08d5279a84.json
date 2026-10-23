@@ -1,0 +1,176 @@
+{
+  "stage": "clean_semantics",
+  "model": "qwen3.5:4b",
+  "model_digest": "d8b0f5e9760cd168",
+  "prompt_version": "clean-semantics-v2",
+  "input_hash": "28aba4d3c1441c278308cf08d5279a84",
+  "created_at": "2026-10-23T18:36:04",
+  "duration_s": 11.87,
+  "output_tokens": 874,
+  "fallback": false,
+  "error": "",
+  "manual_edit": false,
+  "reviewed": false,
+  "payload_summary": {
+    "year": 2024,
+    "batch": "ide.editor.Spyder…ide.editor.features.Use Continuous Integration tools",
+    "n": 18
+  },
+  "response": {
+    "columns": [
+      {
+        "column": "ide.editor.Spyder",
+        "kind": "multi_option",
+        "group": "ide.editor",
+        "option": "Spyder",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值恒为选项名",
+        "year": 2024
+      },
+      {
+        "column": "ide.editor.Neovim",
+        "kind": "multi_option",
+        "group": "ide.editor",
+        "option": "Neovim",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值恒为选项名",
+        "year": 2024
+      },
+      {
+        "column": "ide.editor.Nano",
+        "kind": "multi_option",
+        "group": "ide.editor",
+        "option": "Nano",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值恒为选项名",
+        "year": 2024
+      },
+      {
+        "column": "ide.editor.Wing IDE",
+        "kind": "multi_option",
+        "group": "ide.editor",
+        "option": "Wing IDE",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值恒为选项名",
+        "year": 2024
+      },
+      {
+        "column": "several.projects",
+        "kind": "single_choice",
+        "group": "several.projects",
+        "option": "Yes, I work on many different projects",
+        "missing_tokens": [],
+        "reason": "单选题，列名即题目，非空即选中",
+        "year": 2024
+      },
+      {
+        "column": "ide.editor.features.Use a debugger",
+        "kind": "multi_level",
+        "group": "ide.editor.features",
+        "option": "Often",
+        "missing_tokens": [],
+        "reason": "flags 显示 level_like，含程度词如 Often/From timeto time",
+        "year": 2024
+      },
+      {
+        "column": "ide.editor.features.Refactor your code",
+        "kind": "multi_level",
+        "group": "ide.editor.features",
+        "option": "Often",
+        "missing_tokens": [],
+        "reason": "flags 显示 level_like，含程度词如 Often/From timeto time",
+        "year": 2024
+      },
+      {
+        "column": "ide.editor.features.Use version control systems",
+        "kind": "multi_level",
+        "group": "ide.editor.features",
+        "option": "Often",
+        "missing_tokens": [],
+        "reason": "flags 显示 level_like，含程度词如 Often/From timeto time",
+        "year": 2024
+      },
+      {
+        "column": "ide.editor.features.Use code linting (programs that analyze code for potential errors)",
+        "kind": "multi_level",
+        "group": "ide.editor.features",
+        "option": "Often",
+        "missing_tokens": [],
+        "reason": "flags 显示 level_like，含程度词如 Often/From timeto time",
+        "year": 2024
+      },
+      {
+        "column": "ide.editor.features.Use Python virtual environments for your projects",
+        "kind": "multi_level",
+        "group": "ide.editor.features",
+        "option": "Often",
+        "missing_tokens": [],
+        "reason": "flags 显示 level_like，含程度词如 Often/From timeto time",
+        "year": 2024
+      },
+      {
+        "column": "ide.editor.features.Use SQL databases",
+        "kind": "multi_level",
+        "group": "ide.editor.features",
+        "option": "Often",
+        "missing_tokens": [],
+        "reason": "flags 显示 level_like，含程度词如 Often/From timeto time",
+        "year": 2024
+      },
+      {
+        "column": "ide.editor.features.Run / debug or edit code on remote machines (remote hosts, VMs, etc.)",
+        "kind": "multi_level",
+        "group": "ide.editor.features",
+        "option": "Often",
+        "missing_tokens": [],
+        "reason": "flags 显示 level_like，含程度词如 Often/From timeto time",
+        "year": 2024
+      },
+      {
+        "column": "ide.editor.features.Use a Python profiler",
+        "kind": "multi_level",
+        "group": "ide.editor.features",
+        "option": "Often",
+        "missing_tokens": [],
+        "reason": "flags 显示 level_like，含程度词如 Often/From timeto time",
+        "year": 2024
+      },
+      {
+        "column": "ide.editor.features.Write tests for your code",
+        "kind": "multi_level",
+        "group": "ide.editor.features",
+        "option": "Often",
+        "missing_tokens": [],
+        "reason": "flags 显示 level_like，含程度词如 Often/From timeto time",
+        "year": 2024
+      },
+      {
+        "column": "ide.editor.features.Use code coverage",
+        "kind": "multi_level",
+        "group": "ide.editor.features",
+        "option": "Often",
+        "missing_tokens": [],
+        "reason": "flags 显示 level_like，含程度词如 Often/From timeto time",
+        "year": 2024
+      },
+      {
+        "column": "ide.editor.features.Use type hinting",
+        "kind": "multi_level",
+        "group": "ide.editor.features",
+        "option": "Often",
+        "missing_tokens": [],
+        "reason": "flags 显示 level_like，含程度词如 Often/From timeto time",
+        "year": 2024
+      },
+      {
+        "column": "ide.editor.features.Use Continuous Integration tools",
+        "kind": "multi_level",
+        "group": "ide.editor.features",
+        "option": "Often",
+        "missing_tokens": [],
+        "reason": "flags 显示 level_like，含程度词如 Often/From timeto time",
+        "year": 2024
+      }
+    ]
+  }
+}

@@ -1,0 +1,185 @@
+{
+  "stage": "clean_semantics",
+  "model": "qwen3.5:4b",
+  "model_digest": "d8b0f5e9760cd168",
+  "prompt_version": "clean-semantics-v2",
+  "input_hash": "5c5f44bda4ed04b8322b8c8986305746",
+  "created_at": "2026-10-23T18:56:46",
+  "duration_s": 10.15,
+  "output_tokens": 749,
+  "fallback": false,
+  "error": "",
+  "manual_edit": false,
+  "reviewed": false,
+  "payload_summary": {
+    "year": 2022,
+    "batch": "database.DB2…bigdata.Apache Flink",
+    "n": 18
+  },
+  "response": {
+    "columns": [
+      {
+        "column": "database.DB2",
+        "kind": "single_choice",
+        "group": "database.DB2",
+        "option": "DB2",
+        "missing_tokens": [],
+        "reason": "全列恒等于列名选项，符合 multi_like",
+        "year": 2022
+      },
+      {
+        "column": "database.MS SQL Server",
+        "kind": "single_choice",
+        "group": "database.MS SQL Server",
+        "option": "MS SQL Server",
+        "missing_tokens": [],
+        "reason": "全列恒等于列名选项，符合 multi_like",
+        "year": 2022
+      },
+      {
+        "column": "database.MySQL",
+        "kind": "single_choice",
+        "group": "database.MySQL",
+        "option": "MySQL",
+        "missing_tokens": [],
+        "reason": "全列恒等于列名选项，符合 multi_like",
+        "year": 2022
+      },
+      {
+        "column": "database.Oracle Database",
+        "kind": "single_choice",
+        "group": "database.Oracle Database",
+        "option": "Oracle Database",
+        "missing_tokens": [],
+        "reason": "全列恒等于列名选项，符合 multi_like",
+        "year": 2022
+      },
+      {
+        "column": "database.PostgreSQL",
+        "kind": "single_choice",
+        "group": "database.PostgreSQL",
+        "option": "PostgreSQL",
+        "missing_tokens": [],
+        "reason": "全列恒等于列名选项，符合 multi_like",
+        "year": 2022
+      },
+      {
+        "column": "database.SQLite",
+        "kind": "single_choice",
+        "group": "database.SQLite",
+        "option": "SQLite",
+        "missing_tokens": [],
+        "reason": "全列恒等于列名选项，符合 multi_like",
+        "year": 2022
+      },
+      {
+        "column": "database.Cassandra",
+        "kind": "single_choice",
+        "group": "database.Cassandra",
+        "option": "Cassandra",
+        "missing_tokens": [],
+        "reason": "全列恒等于列名选项，符合 multi_like",
+        "year": 2022
+      },
+      {
+        "column": "database.Couchbase",
+        "kind": "single_choice",
+        "group": "database.Couchbase",
+        "option": "Couchbase",
+        "missing_tokens": [],
+        "reason": "全列恒等于列名选项，符合 multi_like",
+        "year": 2022
+      },
+      {
+        "column": "database.HBase",
+        "kind": "single_choice",
+        "group": "database.HBase",
+        "option": "HBase",
+        "missing_tokens": [],
+        "reason": "全列恒等于列名选项，符合 multi_like",
+        "year": 2022
+      },
+      {
+        "column": "database.MongoDB",
+        "kind": "single_choice",
+        "group": "database.MongoDB",
+        "option": "MongoDB",
+        "missing_tokens": [],
+        "reason": "全列恒等于列名选项，符合 multi_like",
+        "year": 2022
+      },
+      {
+        "column": "database.Neo4j",
+        "kind": "single_choice",
+        "group": "database.Neo4j",
+        "option": "Neo4j",
+        "missing_tokens": [],
+        "reason": "全列恒等于列名选项，符合 multi_like",
+        "year": 2022
+      },
+      {
+        "column": "database.Redis",
+        "kind": "single_choice",
+        "group": "database.Redis",
+        "option": "Redis",
+        "missing_tokens": [],
+        "reason": "全列恒等于列名选项，符合 multi_like",
+        "year": 2022
+      },
+      {
+        "column": "database.Amazon Redshift",
+        "kind": "single_choice",
+        "group": "database.Amazon Redshift",
+        "option": "Amazon Redshift",
+        "missing_tokens": [],
+        "reason": "全列恒等于列名选项，符合 multi_like",
+        "year": 2022
+      },
+      {
+        "column": "database.h2",
+        "kind": "single_choice",
+        "group": "database.h2",
+        "option": "h2",
+        "missing_tokens": [],
+        "reason": "全列恒等于列名选项，符合 multi_like",
+        "year": 2022
+      },
+      {
+        "column": "database.Other",
+        "kind": "single_choice",
+        "group": "database.Other",
+        "option": "Other",
+        "missing_tokens": [],
+        "reason": "全列恒等于列名选项，符合 multi_like",
+        "year": 2022
+      },
+      {
+        "column": "bigdata.None",
+        "kind": "single_choice",
+        "group": "bigdata.None",
+        "option": "None",
+        "missing_tokens": [],
+        "reason": "全列恒等于列名选项，符合 multi_like",
+        "year": 2022
+      },
+      {
+        "column": "bigdata.Apache Beam",
+        "kind": "single_choice",
+        "group": "bigdata.Apache Beam",
+        "option": "Apache Beam",
+        "missing_tokens": [],
+        "reason": "全列恒等于列名选项，符合 multi_like",
+        "year": 2022
+      },
+      {
+        "column": "bigdata.Apache Flink",
+        "kind": "single_choice",
+        "group": "bigdata.Apache Flink",
+        "option": "Apache Flink",
+        "missing_tokens": [],
+        "reason": "全列恒等于列名选项，符合 multi_like",
+        "year": 2022
+      }
+    ]
+  }
+}

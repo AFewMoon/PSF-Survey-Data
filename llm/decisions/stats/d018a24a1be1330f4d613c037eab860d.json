@@ -1,0 +1,20 @@
+{
+  "stage": "stats_narrative",
+  "model": "qwen3.5:4b",
+  "model_digest": "d8b0f5e9760cd168",
+  "prompt_version": "stats-narrative-v1",
+  "input_hash": "d018a24a1be1330f4d613c037eab860d",
+  "created_at": "2026-10-23T19:24:19",
+  "duration_s": 1.85,
+  "output_tokens": 118,
+  "fallback": false,
+  "error": "",
+  "manual_edit": false,
+  "reviewed": false,
+  "payload_summary": {
+    "topic": "employment_status"
+  },
+  "response": {
+    "text": "2024 年选择'就业'的比例为 57.6%，是 2019 年以来第二低的水平，而 2020 年曾达到 66.3% 的峰值。从 2020 年到 2021 年，该选项占比下降了 6.9 个百分点，是期间变化最剧烈的年份。由于此类数据依赖受访者自报且选项设置可能随年份调整，实际趋势需结合具体问卷措辞和抽样方法谨慎解读。"
+  }
+}

@@ -1,0 +1,189 @@
+{
+  "stage": "clean_semantics",
+  "model": "qwen3.5:4b",
+  "model_digest": "d8b0f5e9760cd168",
+  "prompt_version": "clean-semantics-v2",
+  "input_hash": "e53c8589e5e0b4567d71aaec1d3a82bd",
+  "created_at": "2026-10-23T18:58:36",
+  "duration_s": 10.48,
+  "output_tokens": 805,
+  "fallback": false,
+  "error": "",
+  "manual_edit": false,
+  "reviewed": false,
+  "payload_summary": {
+    "year": 2022,
+    "batch": "app.publish.where.Internal mirror of PyPI…libraries.publish.where.Private Python Package Index",
+    "n": 18
+  },
+  "response": {
+    "columns": [
+      {
+        "column": "app.publish.where.Internal mirror of PyPI",
+        "kind": "multi_option",
+        "group": "app.publish.where",
+        "option": "Internal mirror of PyPI",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列值等于列名选项",
+        "year": 2022
+      },
+      {
+        "column": "app.publish.where.conda-forge",
+        "kind": "multi_option",
+        "group": "app.publish.where",
+        "option": "conda-forge",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列值等于列名选项",
+        "year": 2022
+      },
+      {
+        "column": "app.publish.where.Other",
+        "kind": "multi_option",
+        "group": "app.publish.where",
+        "option": "Other",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列值等于列名选项",
+        "year": 2022
+      },
+      {
+        "column": "libraries.do",
+        "kind": "multi_option",
+        "group": "libraries.do",
+        "option": "Yes",
+        "missing_tokens": [
+          "No"
+        ],
+        "reason": "flags 为 binary_like，0/1 对应 Yes/No，No 视为缺失",
+        "year": 2022
+      },
+      {
+        "column": "libraries.tools.Setuptools",
+        "kind": "multi_option",
+        "group": "libraries.tools",
+        "option": "Setuptools",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列值等于列名选项",
+        "year": 2022
+      },
+      {
+        "column": "libraries.tools.build",
+        "kind": "multi_option",
+        "group": "libraries.tools",
+        "option": "build",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列值等于列名选项",
+        "year": 2022
+      },
+      {
+        "column": "libraries.tools.Wheel",
+        "kind": "multi_option",
+        "group": "libraries.tools",
+        "option": "Wheel",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列值等于列名选项",
+        "year": 2022
+      },
+      {
+        "column": "libraries.tools.Enscons",
+        "kind": "multi_option",
+        "group": "libraries.tools",
+        "option": "Enscons",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列值等于列名选项",
+        "year": 2022
+      },
+      {
+        "column": "libraries.tools.pex",
+        "kind": "multi_option",
+        "group": "libraries.tools",
+        "option": "pex",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列值等于列名选项",
+        "year": 2022
+      },
+      {
+        "column": "libraries.tools.Flit",
+        "kind": "multi_option",
+        "group": "libraries.tools",
+        "option": "Flit",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列值等于列名选项",
+        "year": 2022
+      },
+      {
+        "column": "libraries.tools.Poetry",
+        "kind": "multi_option",
+        "group": "libraries.tools",
+        "option": "Poetry",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列值等于列名选项",
+        "year": 2022
+      },
+      {
+        "column": "libraries.tools.conda-build",
+        "kind": "multi_option",
+        "group": "libraries.tools",
+        "option": "conda-build",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列值等于列名选项",
+        "year": 2022
+      },
+      {
+        "column": "libraries.tools.maturin",
+        "kind": "multi_option",
+        "group": "libraries.tools",
+        "option": "maturin",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列值等于列名选项",
+        "year": 2022
+      },
+      {
+        "column": "libraries.tools.PDM-PEP517",
+        "kind": "multi_option",
+        "group": "libraries.tools",
+        "option": "PDM-PEP517",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列值等于列名选项",
+        "year": 2022
+      },
+      {
+        "column": "libraries.tools.Other",
+        "kind": "multi_option",
+        "group": "libraries.tools",
+        "option": "Other",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列值等于列名选项",
+        "year": 2022
+      },
+      {
+        "column": "libraries.publish",
+        "kind": "multi_option",
+        "group": "libraries.publish",
+        "option": "Yes",
+        "missing_tokens": [
+          "No"
+        ],
+        "reason": "flags 为 binary_like，0/1 对应 Yes/No，No 视为缺失",
+        "year": 2022
+      },
+      {
+        "column": "libraries.publish.where.PyPI",
+        "kind": "multi_option",
+        "group": "libraries.publish.where",
+        "option": "PyPI",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列值等于列名选项",
+        "year": 2022
+      },
+      {
+        "column": "libraries.publish.where.Private Python Package Index",
+        "kind": "multi_option",
+        "group": "libraries.publish.where",
+        "option": "Private Python Package Index",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列值等于列名选项",
+        "year": 2022
+      }
+    ]
+  }
+}

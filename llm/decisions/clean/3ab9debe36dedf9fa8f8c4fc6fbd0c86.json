@@ -1,0 +1,44 @@
+{
+  "stage": "clean_plan",
+  "model": "qwen3.5:4b",
+  "model_digest": "d8b0f5e9760cd168",
+  "prompt_version": "clean-plan-v1",
+  "input_hash": "3ab9debe36dedf9fa8f8c4fc6fbd0c86",
+  "created_at": "2026-10-23T18:44:29",
+  "duration_s": 2.39,
+  "output_tokens": 137,
+  "fallback": false,
+  "error": "",
+  "manual_edit": false,
+  "reviewed": false,
+  "payload_summary": {
+    "year": 2019,
+    "candidates": 0
+  },
+  "response": {
+    "ops": [
+      {
+        "op": "drop_empty_rows",
+        "apply": false,
+        "reason": "证据显示空行数为 0，无需删除。"
+      },
+      {
+        "op": "drop_empty_cols",
+        "apply": false,
+        "reason": "证据显示空列数为 0，无需删除。"
+      },
+      {
+        "op": "drop_dup_rows",
+        "apply": false,
+        "reason": "证据显示重复行数为 0，无需删除。"
+      },
+      {
+        "op": "drop_dup_cols",
+        "apply": false,
+        "reason": "证据显示重复列组数为 0，无需删除。"
+      }
+    ],
+    "drop_cols": [],
+    "reason": "数据画像显示空行、空列、重复行及列均为 0，且无候选列，无需执行任何删除操作。"
+  }
+}

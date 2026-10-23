@@ -1,0 +1,185 @@
+{
+  "stage": "clean_semantics",
+  "model": "qwen3.5:4b",
+  "model_digest": "d8b0f5e9760cd168",
+  "prompt_version": "clean-semantics-v2",
+  "input_hash": "6622960ce753de8344d626e4246ed6b1",
+  "created_at": "2026-10-23T18:36:36",
+  "duration_s": 10.39,
+  "output_tokens": 794,
+  "fallback": false,
+  "error": "",
+  "manual_edit": false,
+  "reviewed": false,
+  "payload_summary": {
+    "year": 2024,
+    "batch": "packages.install.from.A private Python Package Index…environments.container",
+    "n": 18
+  },
+  "response": {
+    "columns": [
+      {
+        "column": "packages.install.from.A private Python Package Index",
+        "kind": "multi_option",
+        "group": "packages.install.from",
+        "option": "A private Python Package Index",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列值等于列名选项",
+        "year": 2024
+      },
+      {
+        "column": "packages.install.from.Anaconda",
+        "kind": "multi_option",
+        "group": "packages.install.from",
+        "option": "Anaconda",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列值等于列名选项",
+        "year": 2024
+      },
+      {
+        "column": "packages.install.from.Other Conda channels (conda-forge or similar)",
+        "kind": "multi_option",
+        "group": "packages.install.from",
+        "option": "Other Conda channels (conda-forge or similar)",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列值等于列名选项",
+        "year": 2024
+      },
+      {
+        "column": "packages.install.from.GitHub",
+        "kind": "multi_option",
+        "group": "packages.install.from",
+        "option": "GitHub",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列值等于列名选项",
+        "year": 2024
+      },
+      {
+        "column": "packages.install.from.Artifactory",
+        "kind": "multi_option",
+        "group": "packages.install.from",
+        "option": "Artifactory",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列值等于列名选项",
+        "year": 2024
+      },
+      {
+        "column": "packages.install.from.GitLab",
+        "kind": "multi_option",
+        "group": "packages.install.from",
+        "option": "GitLab",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列值等于列名选项",
+        "year": 2024
+      },
+      {
+        "column": "packages.install.from.From Linux distribution",
+        "kind": "multi_option",
+        "group": "packages.install.from",
+        "option": "From Linux distribution",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列值等于列名选项",
+        "year": 2024
+      },
+      {
+        "column": "packages.install.from.Other",
+        "kind": "multi_option",
+        "group": "packages.install.from",
+        "option": "Other",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列值等于列名选项",
+        "year": 2024
+      },
+      {
+        "column": "app.publish",
+        "kind": "single_choice",
+        "group": "app.publish",
+        "option": "",
+        "missing_tokens": [],
+        "reason": "n_unique=3 且含 Yes/No，符合单选特征",
+        "year": 2024
+      },
+      {
+        "column": "libraries.tools.Flit",
+        "kind": "multi_option",
+        "group": "libraries.tools",
+        "option": "Flit",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列值等于列名选项",
+        "year": 2024
+      },
+      {
+        "column": "libraries.tools.Hatch",
+        "kind": "multi_option",
+        "group": "libraries.tools",
+        "option": "Hatch",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列值等于列名选项",
+        "year": 2024
+      },
+      {
+        "column": "libraries.tools.PDM",
+        "kind": "multi_option",
+        "group": "libraries.tools",
+        "option": "PDM",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列值等于列名选项",
+        "year": 2024
+      },
+      {
+        "column": "libraries.tools.Twine",
+        "kind": "multi_option",
+        "group": "libraries.tools",
+        "option": "Twine",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列值等于列名选项",
+        "year": 2024
+      },
+      {
+        "column": "libraries.tools.Poetry",
+        "kind": "multi_option",
+        "group": "libraries.tools",
+        "option": "Poetry",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列值等于列名选项",
+        "year": 2024
+      },
+      {
+        "column": "libraries.tools.PyPI Publish GitHub Action",
+        "kind": "multi_option",
+        "group": "libraries.tools",
+        "option": "PyPI Publish GitHub Action",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列值等于列名选项",
+        "year": 2024
+      },
+      {
+        "column": "libraries.tools.Other",
+        "kind": "multi_option",
+        "group": "libraries.tools",
+        "option": "Other",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列值等于列名选项",
+        "year": 2024
+      },
+      {
+        "column": "trusted",
+        "kind": "single_choice",
+        "group": "trusted",
+        "option": "",
+        "missing_tokens": [],
+        "reason": "n_unique=4 且为定性描述，符合单选特征",
+        "year": 2024
+      },
+      {
+        "column": "environments.container",
+        "kind": "single_choice",
+        "group": "environments.container",
+        "option": "",
+        "missing_tokens": [],
+        "reason": "n_unique=4 且含 Yes/No，符合单选特征",
+        "year": 2024
+      }
+    ]
+  }
+}

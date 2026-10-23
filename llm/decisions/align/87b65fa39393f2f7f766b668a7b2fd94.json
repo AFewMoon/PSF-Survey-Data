@@ -1,0 +1,21 @@
+{
+  "stage": "option_alias",
+  "model": "qwen3.5:4b",
+  "model_digest": "d8b0f5e9760cd168",
+  "prompt_version": "option-alias-v1",
+  "input_hash": "87b65fa39393f2f7f766b668a7b2fd94",
+  "created_at": "2026-10-23T19:18:28",
+  "duration_s": 0.66,
+  "output_tokens": 5,
+  "fallback": false,
+  "error": "",
+  "manual_edit": false,
+  "reviewed": false,
+  "payload_summary": {
+    "groups": 1,
+    "values": 3
+  },
+  "response": {
+    "groups": []
+  }
+}

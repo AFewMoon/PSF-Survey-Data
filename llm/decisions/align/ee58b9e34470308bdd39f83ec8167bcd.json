@@ -1,0 +1,306 @@
+{
+  "stage": "group_path",
+  "model": "qwen3.5:4b",
+  "model_digest": "d8b0f5e9760cd168",
+  "prompt_version": "group-path-v1",
+  "input_hash": "ee58b9e34470308bdd39f83ec8167bcd",
+  "created_at": "2026-10-23T19:07:54",
+  "duration_s": 20.3,
+  "output_tokens": 1525,
+  "fallback": false,
+  "error": "",
+  "manual_edit": false,
+  "reviewed": false,
+  "payload_summary": {
+    "n_groups": 57
+  },
+  "response": {
+    "groups": [
+      {
+        "name": "ide.upgrade.enthought",
+        "canonical": "ide.upgrade.enthought",
+        "reason": "原路径已符合标准格式，无需修改。"
+      },
+      {
+        "name": "ide.upgrade.source",
+        "canonical": "ide.upgrade.source",
+        "reason": "原路径已符合标准格式，无需修改。"
+      },
+      {
+        "name": "ide.web_dev",
+        "canonical": "ide.web_dev",
+        "reason": "原路径已符合标准格式，无需修改。"
+      },
+      {
+        "name": "ide.web_parsers",
+        "canonical": "ide.web_parsers",
+        "reason": "原路径已符合标准格式，无需修改。"
+      },
+      {
+        "name": "industry.company",
+        "canonical": "industry.company",
+        "reason": "原路径已符合标准格式，无需修改。"
+      },
+      {
+        "name": "industry.development",
+        "canonical": "industry.development",
+        "reason": "原路径已符合标准格式，无需修改。"
+      },
+      {
+        "name": "is.python.main",
+        "canonical": "is.python.main",
+        "reason": "原路径已符合标准格式，无需修改。"
+      },
+      {
+        "name": "isolate.environments",
+        "canonical": "isolate.environments",
+        "reason": "原路径已符合标准格式，无需修改。"
+      },
+      {
+        "name": "issue",
+        "canonical": "issue",
+        "reason": "原路径已符合标准格式，无需修改。"
+      },
+      {
+        "name": "issue.report",
+        "canonical": "issue.report",
+        "reason": "原路径已符合标准格式，无需修改。"
+      },
+      {
+        "name": "job",
+        "canonical": "job",
+        "reason": "原路径已符合标准格式，无需修改。"
+      },
+      {
+        "name": "job.role",
+        "canonical": "job.role",
+        "reason": "原路径已符合标准格式，无需修改。"
+      },
+      {
+        "name": "job.team",
+        "canonical": "job.team",
+        "reason": "原路径已符合标准格式，无需修改。"
+      },
+      {
+        "name": "jupyter",
+        "canonical": "jupyter",
+        "reason": "原路径已符合标准格式，无需修改。"
+      },
+      {
+        "name": "kubernetes",
+        "canonical": "kubernetes",
+        "reason": "原路径已符合标准格式，无需修改。"
+      },
+      {
+        "name": "languages.r",
+        "canonical": "languages.r",
+        "reason": "原路径已符合标准格式，无需修改。"
+      },
+      {
+        "name": "languages.ruby",
+        "canonical": "languages.ruby",
+        "reason": "原路径已符合标准格式，无需修改。"
+      },
+      {
+        "name": "languages.rust",
+        "canonical": "languages.rust",
+        "reason": "原路径已符合标准格式，无需修改。"
+      },
+      {
+        "name": "languages.scala",
+        "canonical": "languages.scala",
+        "reason": "原路径已符合标准格式，无需修改。"
+      },
+      {
+        "name": "languages.sql",
+        "canonical": "languages.sql",
+        "reason": "原路径已符合标准格式，无需修改。"
+      },
+      {
+        "name": "languages.swift",
+        "canonical": "languages.swift",
+        "reason": "原路径已符合标准格式，无需修改。"
+      },
+      {
+        "name": "languages.typescript",
+        "canonical": "languages.typescript",
+        "reason": "原路径已符合标准格式，无需修改。"
+      },
+      {
+        "name": "languages.visual_basic",
+        "canonical": "languages.visual_basic",
+        "reason": "原路径已符合标准格式，无需修改。"
+      },
+      {
+        "name": "learning.source",
+        "canonical": "learning.source",
+        "reason": "原路径已符合标准格式，无需修改。"
+      },
+      {
+        "name": "libraries",
+        "canonical": "libraries",
+        "reason": "原路径已符合标准格式，无需修改。"
+      },
+      {
+        "name": "libraries.publish.where",
+        "canonical": "libraries.publish.where",
+        "reason": "原路径已符合标准格式，无需修改。"
+      },
+      {
+        "name": "libraries.tools",
+        "canonical": "libraries.tools",
+        "reason": "原路径已符合标准格式，无需修改。"
+      },
+      {
+        "name": "machine.learning",
+        "canonical": "machine.learning",
+        "reason": "原路径已符合标准格式，无需修改。"
+      },
+      {
+        "name": "main",
+        "canonical": "main",
+        "reason": "原路径已符合标准格式，无需修改。"
+      },
+      {
+        "name": "main.purposes",
+        "canonical": "main.purposes",
+        "reason": "原路径已符合标准格式，无需修改。"
+      },
+      {
+        "name": "missing.features.main",
+        "canonical": "missing.features.main",
+        "reason": "原路径已符合标准格式，无需修改。"
+      },
+      {
+        "name": "missing.features.main.ide",
+        "canonical": "missing.features.main.ide",
+        "reason": "原路径已符合标准格式，无需修改。"
+      },
+      {
+        "name": "ml",
+        "canonical": "ml",
+        "reason": "原路径已符合标准格式，无需修改。"
+      },
+      {
+        "name": "ml.cloud",
+        "canonical": "ml.cloud",
+        "reason": "原路径已符合标准格式，无需修改。"
+      },
+      {
+        "name": "ml.cloud.budget",
+        "canonical": "ml.cloud.budget",
+        "reason": "原路径已符合标准格式，无需修改。"
+      },
+      {
+        "name": "ml.cloud.cost.impact",
+        "canonical": "ml.cloud.cost.impact",
+        "reason": "原路径已符合标准格式，无需修改。"
+      },
+      {
+        "name": "ml.deployment",
+        "canonical": "ml.deployment",
+        "reason": "原路径已符合标准格式，无需修改。"
+      },
+      {
+        "name": "ml.training",
+        "canonical": "ml.training",
+        "reason": "原路径已符合标准格式，无需修改。"
+      },
+      {
+        "name": "mobile.development",
+        "canonical": "mobile.development",
+        "reason": "原路径已符合标准格式，无需修改。"
+      },
+      {
+        "name": "monorepo",
+        "canonical": "monorepo",
+        "reason": "原路径已符合标准格式，无需修改。"
+      },
+      {
+        "name": "most.of.the.time.do.you",
+        "canonical": "most.of.the.time.do.you",
+        "reason": "原路径已符合标准格式，无需修改。"
+      },
+      {
+        "name": "multimedia.applications.development",
+        "canonical": "multimedia.applications.development",
+        "reason": "原路径已符合标准格式，无需修改。"
+      },
+      {
+        "name": "network.programming",
+        "canonical": "network.programming",
+        "reason": "原路径已符合标准格式，无需修改。"
+      },
+      {
+        "name": "nps.main.ide",
+        "canonical": "nps.main.ide",
+        "reason": "原路径已符合标准格式，无需修改。"
+      },
+      {
+        "name": "opensource",
+        "canonical": "opensource",
+        "reason": "原路径已符合标准格式，无需修改。"
+      },
+      {
+        "name": "opensource.description",
+        "canonical": "opensource.description",
+        "reason": "原路径已符合标准格式，无需修改。"
+      },
+      {
+        "name": "orm",
+        "canonical": "orm",
+        "reason": "原路径已符合标准格式，无需修改。"
+      },
+      {
+        "name": "other.-.write.in",
+        "canonical": "other.write.in",
+        "reason": "去除非法字符，统一为小写字母和点号。"
+      },
+      {
+        "name": "other.-.write.in.what.data.science.framework.s.do.you.use.in.addition.to.python",
+        "canonical": "other.write.in.what.data.science.frameworks.do.you.use.in.addition.to.python",
+        "reason": "去除非法字符，统一为小写字母和点号。"
+      },
+      {
+        "name": "other.frameworks",
+        "canonical": "other.frameworks",
+        "reason": "原路径已符合标准格式，无需修改。"
+      },
+      {
+        "name": "other.lang",
+        "canonical": "other.lang",
+        "reason": "原路径已符合标准格式，无需修改。"
+      },
+      {
+        "name": "other.purposes",
+        "canonical": "other.purposes",
+        "reason": "原路径已符合标准格式，无需修改。"
+      },
+      {
+        "name": "other.write.in.what.editors.ides.do.you.use.for.python.development.in.addition.to.your.primary.ide",
+        "canonical": "other.write.in.what.editors.uses.do.you.use.for.python.development.in.addition.to.your.primary.ide",
+        "reason": "修正拼写错误，去除非法字符，统一格式。"
+      },
+      {
+        "name": "other.write.in.what.web.frameworks.libraries.do.you.use.in.addition.to.python",
+        "canonical": "other.write.in.what.web.frameworks.libraries.do.you.use.in.addition.to.python",
+        "reason": "去除非法字符，统一为小写字母和点号。"
+      },
+      {
+        "name": "packages.install",
+        "canonical": "packages.install",
+        "reason": "原路径已符合标准格式，无需修改。"
+      },
+      {
+        "name": "packages.install.from",
+        "canonical": "packages.install.from",
+        "reason": "原路径已符合标准格式，无需修改。"
+      },
+      {
+        "name": "packaging.tools",
+        "canonical": "packaging.tools",
+        "reason": "原路径已符合标准格式，无需修改。"
+      }
+    ]
+  }
+}

@@ -1,0 +1,176 @@
+{
+  "stage": "clean_semantics",
+  "model": "qwen3.5:4b",
+  "model_digest": "d8b0f5e9760cd168",
+  "prompt_version": "clean-semantics-v2",
+  "input_hash": "30e7b2fcb0f23ee7c783e20a07ef75af",
+  "created_at": "2026-10-23T18:53:45",
+  "duration_s": 10.03,
+  "output_tokens": 766,
+  "fallback": false,
+  "error": "",
+  "manual_edit": false,
+  "reviewed": false,
+  "payload_summary": {
+    "year": 2021,
+    "batch": "packages.install.None…packages.install.from.GitHub",
+    "n": 18
+  },
+  "response": {
+    "columns": [
+      {
+        "column": "packages.install.None",
+        "kind": "multi_option",
+        "group": "packages.install",
+        "option": "None",
+        "missing_tokens": [],
+        "reason": "全列值恒为选项文本，符合 multi_like",
+        "year": 2021
+      },
+      {
+        "column": "packages.install.pip",
+        "kind": "multi_option",
+        "group": "packages.install",
+        "option": "pip",
+        "missing_tokens": [],
+        "reason": "全列值恒为选项文本，符合 multi_like",
+        "year": 2021
+      },
+      {
+        "column": "packages.install.easy_install",
+        "kind": "multi_option",
+        "group": "packages.install",
+        "option": "easy_install",
+        "missing_tokens": [],
+        "reason": "全列值恒为选项文本，符合 multi_like",
+        "year": 2021
+      },
+      {
+        "column": "packages.install.Conda",
+        "kind": "multi_option",
+        "group": "packages.install",
+        "option": "Conda",
+        "missing_tokens": [],
+        "reason": "全列值恒为选项文本，符合 multi_like",
+        "year": 2021
+      },
+      {
+        "column": "packages.install.Poetry",
+        "kind": "multi_option",
+        "group": "packages.install",
+        "option": "Poetry",
+        "missing_tokens": [],
+        "reason": "全列值恒为选项文本，符合 multi_like",
+        "year": 2021
+      },
+      {
+        "column": "packages.install.pip-sync",
+        "kind": "multi_option",
+        "group": "packages.install",
+        "option": "pip-sync",
+        "missing_tokens": [],
+        "reason": "全列值恒为选项文本，符合 multi_like",
+        "year": 2021
+      },
+      {
+        "column": "packages.install.pipx",
+        "kind": "multi_option",
+        "group": "packages.install",
+        "option": "pipx",
+        "missing_tokens": [],
+        "reason": "全列值恒为选项文本，符合 multi_like",
+        "year": 2021
+      },
+      {
+        "column": "packages.install.Other",
+        "kind": "multi_option",
+        "group": "packages.install",
+        "option": "Other",
+        "missing_tokens": [],
+        "reason": "全列值恒为选项文本，符合 multi_like",
+        "year": 2021
+      },
+      {
+        "column": "packages.install.from.PyPI",
+        "kind": "multi_option",
+        "group": "packages.install",
+        "option": "PyPI",
+        "missing_tokens": [],
+        "reason": "全列值恒为选项文本，符合 multi_like",
+        "year": 2021
+      },
+      {
+        "column": "packages.install.from.Local source",
+        "kind": "multi_option",
+        "group": "packages.install",
+        "option": "Local source",
+        "missing_tokens": [],
+        "reason": "全列值恒为选项文本，符合 multi_like",
+        "year": 2021
+      },
+      {
+        "column": "packages.install.from.Internal mirror of PyPI",
+        "kind": "multi_option",
+        "group": "packages.install",
+        "option": "Internal mirror of PyPI",
+        "missing_tokens": [],
+        "reason": "全列值恒为选项文本，符合 multi_like",
+        "year": 2021
+      },
+      {
+        "column": "packages.install.from.Private Python Package Index",
+        "kind": "multi_option",
+        "group": "packages.install",
+        "option": "Private Python Package Index",
+        "missing_tokens": [],
+        "reason": "全列值恒为选项文本，符合 multi_like",
+        "year": 2021
+      },
+      {
+        "column": "packages.install.from.Anaconda",
+        "kind": "multi_option",
+        "group": "packages.install",
+        "option": "Anaconda",
+        "missing_tokens": [],
+        "reason": "全列值恒为选项文本，符合 multi_like",
+        "year": 2021
+      },
+      {
+        "column": "packages.install.from.Default Conda channel",
+        "kind": "multi_option",
+        "group": "packages.install",
+        "option": "Default Conda channel",
+        "missing_tokens": [],
+        "reason": "全列值恒为选项文本，符合 multi_like",
+        "year": 2021
+      },
+      {
+        "column": "packages.install.from.conda-forge Conda channel",
+        "kind": "multi_option",
+        "group": "packages.install",
+        "option": "conda-forge Conda channel",
+        "missing_tokens": [],
+        "reason": "全列值恒为选项文本，符合 multi_like",
+        "year": 2021
+      },
+      {
+        "column": "packages.install.from.Other Conda channel",
+        "kind": "multi_option",
+        "group": "packages.install",
+        "option": "Other Conda channel",
+        "missing_tokens": [],
+        "reason": "全列值恒为选项文本，符合 multi_like",
+        "year": 2021
+      },
+      {
+        "column": "packages.install.from.GitHub",
+        "kind": "multi_option",
+        "group": "packages.install",
+        "option": "GitHub",
+        "missing_tokens": [],
+        "reason": "全列值恒为选项文本，符合 multi_like",
+        "year": 2021
+      }
+    ]
+  }
+}

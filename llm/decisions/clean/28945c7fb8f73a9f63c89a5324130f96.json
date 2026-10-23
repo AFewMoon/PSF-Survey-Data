@@ -1,0 +1,219 @@
+{
+  "stage": "clean_semantics",
+  "model": "qwen3.5:4b",
+  "model_digest": "d8b0f5e9760cd168",
+  "prompt_version": "clean-semantics-v2",
+  "input_hash": "28945c7fb8f73a9f63c89a5324130f96",
+  "created_at": "2026-10-23T18:41:30",
+  "duration_s": 12.01,
+  "output_tokens": 893,
+  "fallback": false,
+  "error": "",
+  "manual_edit": false,
+  "reviewed": false,
+  "payload_summary": {
+    "year": 2019,
+    "batch": "Machine learning: What do you use Python for?…Mobile development:To what extent are you involved in the following activities?",
+    "n": 18
+  },
+  "response": {
+    "columns": [
+      {
+        "column": "Machine learning: What do you use Python for?",
+        "kind": "multi_option",
+        "group": "Machine learning",
+        "option": "Machine learning",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "flags 显示全列等于选项文本",
+        "year": 2019
+      },
+      {
+        "column": "Mobile development: What do you use Python for?",
+        "kind": "multi_option",
+        "group": "Mobile development",
+        "option": "Mobile development",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "flags 显示全列等于选项文本",
+        "year": 2019
+      },
+      {
+        "column": "Multimedia applications development: What do you use Python for?",
+        "kind": "multi_option",
+        "group": "Multimedia applications development",
+        "option": "Multimedia applications development",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "flags 显示全列等于选项文本",
+        "year": 2019
+      },
+      {
+        "column": "Network programming: What do you use Python for?",
+        "kind": "multi_option",
+        "group": "Network programming",
+        "option": "Network programming",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "flags 显示全列等于选项文本",
+        "year": 2019
+      },
+      {
+        "column": "Other - Write In:: What do you use Python for?",
+        "kind": "free_text",
+        "group": "Other - Write In",
+        "option": "",
+        "missing_tokens": [],
+        "reason": "flags 显示自由文本结构特征",
+        "year": 2019
+      },
+      {
+        "column": "Programming of web parsers / scrapers / crawlers: What do you use Python for?",
+        "kind": "multi_option",
+        "group": "Programming of web parsers / scrapers / crawlers",
+        "option": "Programming of web parsers / scrapers / crawlers",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "flags 显示全列等于选项文本",
+        "year": 2019
+      },
+      {
+        "column": "Software prototyping: What do you use Python for?",
+        "kind": "multi_option",
+        "group": "Software prototyping",
+        "option": "Software prototyping",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "flags 显示全列等于选项文本",
+        "year": 2019
+      },
+      {
+        "column": "Software testing / Writing automated tests: What do you use Python for?",
+        "kind": "multi_option",
+        "group": "Software testing / Writing automated tests",
+        "option": "Software testing / Writing automated tests",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "flags 显示全列等于选项文本",
+        "year": 2019
+      },
+      {
+        "column": "Web development: What do you use Python for?",
+        "kind": "multi_option",
+        "group": "Web development",
+        "option": "Web development",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "flags 显示全列等于选项文本",
+        "year": 2019
+      },
+      {
+        "column": "Computer graphics:To what extent are you involved in the following activities?",
+        "kind": "multi_level",
+        "group": "Computer graphics",
+        "option": "primary activity",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "flags 显示选项带程度值格式",
+        "year": 2019
+      },
+      {
+        "column": "Data analysis:To what extent are you involved in the following activities?",
+        "kind": "multi_level",
+        "group": "Data analysis",
+        "option": "primary activity",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "flags 显示选项带程度值格式",
+        "year": 2019
+      },
+      {
+        "column": "Desktop development:To what extent are you involved in the following activities?",
+        "kind": "multi_level",
+        "group": "Desktop development",
+        "option": "primary activity",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "flags 显示选项带程度值格式",
+        "year": 2019
+      },
+      {
+        "column": "DevOps / System administration / Writing automation scripts:To what extent are you involved in the following activities?",
+        "kind": "multi_level",
+        "group": "DevOps / System administration / Writing automation scripts",
+        "option": "primary activity",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "flags 显示选项带程度值格式",
+        "year": 2019
+      },
+      {
+        "column": "Educational purposes:To what extent are you involved in the following activities?",
+        "kind": "multi_level",
+        "group": "Educational purposes",
+        "option": "primary activity",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "flags 显示选项带程度值格式",
+        "year": 2019
+      },
+      {
+        "column": "Embedded development:To what extent are you involved in the following activities?",
+        "kind": "multi_level",
+        "group": "Embedded development",
+        "option": "primary activity",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "flags 显示选项带程度值格式",
+        "year": 2019
+      },
+      {
+        "column": "Game development:To what extent are you involved in the following activities?",
+        "kind": "multi_level",
+        "group": "Game development",
+        "option": "primary activity",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "flags 显示选项带程度值格式",
+        "year": 2019
+      },
+      {
+        "column": "Machine learning:To what extent are you involved in the following activities?",
+        "kind": "multi_level",
+        "group": "Machine learning",
+        "option": "primary activity",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "flags 显示选项带程度值格式",
+        "year": 2019
+      },
+      {
+        "column": "Mobile development:To what extent are you involved in the following activities?",
+        "kind": "multi_level",
+        "group": "Mobile development",
+        "option": "primary activity",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "flags 显示选项带程度值格式",
+        "year": 2019
+      }
+    ]
+  }
+}

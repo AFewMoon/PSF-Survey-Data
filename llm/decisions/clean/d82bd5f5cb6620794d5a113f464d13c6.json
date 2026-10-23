@@ -1,0 +1,176 @@
+{
+  "stage": "clean_semantics",
+  "model": "qwen3.5:4b",
+  "model_digest": "d8b0f5e9760cd168",
+  "prompt_version": "clean-semantics-v2",
+  "input_hash": "d82bd5f5cb6620794d5a113f464d13c6",
+  "created_at": "2026-10-23T18:57:42",
+  "duration_s": 12.62,
+  "output_tokens": 890,
+  "fallback": false,
+  "error": "",
+  "manual_edit": false,
+  "reviewed": false,
+  "payload_summary": {
+    "year": 2022,
+    "batch": "environments.isolate.venv…packaging.tools.None / I'm not sure",
+    "n": 18
+  },
+  "response": {
+    "columns": [
+      {
+        "column": "environments.isolate.venv",
+        "kind": "multi_option",
+        "group": "environments.isolate",
+        "option": "venv",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值恒等于列名选项",
+        "year": 2022
+      },
+      {
+        "column": "environments.isolate.virtualenvwrapper",
+        "kind": "multi_option",
+        "group": "environments.isolate",
+        "option": "virtualenvwrapper",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值恒等于列名选项",
+        "year": 2022
+      },
+      {
+        "column": "environments.isolate.hatch",
+        "kind": "multi_option",
+        "group": "environments.isolate",
+        "option": "hatch",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值恒等于列名选项",
+        "year": 2022
+      },
+      {
+        "column": "environments.isolate.Poetry",
+        "kind": "multi_option",
+        "group": "environments.isolate",
+        "option": "Poetry",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值恒等于列名选项",
+        "year": 2022
+      },
+      {
+        "column": "environments.isolate.pipenv",
+        "kind": "multi_option",
+        "group": "environments.isolate",
+        "option": "pipenv",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值恒等于列名选项",
+        "year": 2022
+      },
+      {
+        "column": "environments.isolate.Conda",
+        "kind": "multi_option",
+        "group": "environments.isolate",
+        "option": "Conda",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值恒等于列名选项",
+        "year": 2022
+      },
+      {
+        "column": "environments.isolate.I do not use any tools to isolate Python environments",
+        "kind": "multi_option",
+        "group": "environments.isolate",
+        "option": "I do not use any tools to isolate Python environments",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值恒等于列名选项",
+        "year": 2022
+      },
+      {
+        "column": "environments.isolate.Other - Write In",
+        "kind": "multi_option",
+        "group": "environments.isolate",
+        "option": "Other - Write In",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值恒等于列名选项",
+        "year": 2022
+      },
+      {
+        "column": "environments.container",
+        "kind": "multi_option",
+        "group": "environments.container",
+        "option": "No, I do not use a virtual environment in containers",
+        "missing_tokens": [],
+        "reason": "flags 未显示 multi_like，但 top 显示多个选项，推断为多选题",
+        "year": 2022
+      },
+      {
+        "column": "venv.I use venv directly",
+        "kind": "multi_option",
+        "group": "venv",
+        "option": "I use venv directly",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值恒等于列名选项",
+        "year": 2022
+      },
+      {
+        "column": "venv.I use it via Poetry",
+        "kind": "multi_option",
+        "group": "venv",
+        "option": "I use it via Poetry",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值恒等于列名选项",
+        "year": 2022
+      },
+      {
+        "column": "venv.I use it via Pipenv",
+        "kind": "multi_option",
+        "group": "venv",
+        "option": "I use it via Pipenv",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值恒等于列名选项",
+        "year": 2022
+      },
+      {
+        "column": "venv.I use it via virtualenv",
+        "kind": "multi_option",
+        "group": "venv",
+        "option": "I use it via virtualenv",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值恒等于列名选项",
+        "year": 2022
+      },
+      {
+        "column": "venv.I use it via tox",
+        "kind": "multi_option",
+        "group": "venv",
+        "option": "I use it via tox",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值恒等于列名选项",
+        "year": 2022
+      },
+      {
+        "column": "venv.No, I do not use venv",
+        "kind": "multi_option",
+        "group": "venv",
+        "option": "No, I do not use venv",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值恒等于列名选项",
+        "year": 2022
+      },
+      {
+        "column": "venv.Other",
+        "kind": "multi_option",
+        "group": "venv",
+        "option": "Other",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值恒等于列名选项",
+        "year": 2022
+      },
+      {
+        "column": "packaging.tools.None / I'm not sure",
+        "kind": "multi_option",
+        "group": "packaging.tools",
+        "option": "None / I'm not sure",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值恒等于列名选项",
+        "year": 2022
+      }
+    ]
+  }
+}

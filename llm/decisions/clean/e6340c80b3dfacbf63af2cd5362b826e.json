@@ -1,0 +1,206 @@
+{
+  "stage": "clean_semantics",
+  "model": "qwen3.5:4b",
+  "model_digest": "d8b0f5e9760cd168",
+  "prompt_version": "clean-semantics-v2",
+  "input_hash": "e6340c80b3dfacbf63af2cd5362b826e",
+  "created_at": "2026-10-23T18:41:57",
+  "duration_s": 13.86,
+  "output_tokens": 1058,
+  "fallback": false,
+  "error": "",
+  "manual_edit": false,
+  "reviewed": false,
+  "payload_summary": {
+    "year": 2019,
+    "batch": "I use Docker containers:What do you typically use to upgrade your Python version?…CherryPy :What web frameworks / libraries do you use in addition to Python?",
+    "n": 18
+  },
+  "response": {
+    "columns": [
+      {
+        "column": "I use Docker containers:What do you typically use to upgrade your Python version?",
+        "kind": "multi_option",
+        "group": "ide.upgrade",
+        "option": "I use Docker containers",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "flags 显示 multi_like，全列值等于选项文本",
+        "year": 2019
+      },
+      {
+        "column": "Intel Distribution for Python:What do you typically use to upgrade your Python version?",
+        "kind": "multi_option",
+        "group": "ide.upgrade",
+        "option": "Intel Distribution for Python",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "flags 显示 multi_like，全列值等于选项文本",
+        "year": 2019
+      },
+      {
+        "column": "OS-provided Python (via apt-get, yum, homebrew, etc.):What do you typically use to upgrade your Python version?",
+        "kind": "multi_option",
+        "group": "ide.upgrade",
+        "option": "OS-provided Python (via apt-get, yum, homebrew, etc.)",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "flags 显示 multi_like，全列值等于选项文本",
+        "year": 2019
+      },
+      {
+        "column": "Other – Write In::What do you typically use to upgrade your Python version?",
+        "kind": "free_text",
+        "group": "ide.upgrade",
+        "option": "",
+        "missing_tokens": [],
+        "reason": "flags 无 multi_like，value_shape 注明为自由文本",
+        "year": 2019
+      },
+      {
+        "column": "pyenv:What do you typically use to upgrade your Python version?",
+        "kind": "multi_option",
+        "group": "ide.upgrade",
+        "option": "pyenv",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "flags 显示 multi_like，全列值等于选项文本",
+        "year": 2019
+      },
+      {
+        "column": "Python.org:What do you typically use to upgrade your Python version?",
+        "kind": "multi_option",
+        "group": "ide.upgrade",
+        "option": "Python.org",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "flags 显示 multi_like，全列值等于选项文本",
+        "year": 2019
+      },
+      {
+        "column": "pythonz:What do you typically use to upgrade your Python version?",
+        "kind": "multi_option",
+        "group": "ide.upgrade",
+        "option": "pythonz",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "flags 显示 multi_like，全列值等于选项文本",
+        "year": 2019
+      },
+      {
+        "column": "Somebody else manages Python updates for me:What do you typically use to upgrade your Python version?",
+        "kind": "multi_option",
+        "group": "ide.upgrade",
+        "option": "Somebody else manages Python updates for me",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "flags 显示 multi_like，全列值等于选项文本",
+        "year": 2019
+      },
+      {
+        "column": "Conda:Do you use any of the following tools to isolate Python environments, if any?",
+        "kind": "multi_option",
+        "group": "ide.isolate",
+        "option": "Conda",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "flags 显示 multi_like，全列值等于选项文本",
+        "year": 2019
+      },
+      {
+        "column": "Docker:Do you use any of the following tools to isolate Python environments, if any?",
+        "kind": "multi_option",
+        "group": "ide.isolate",
+        "option": "Docker",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "flags 显示 multi_like，全列值等于选项文本",
+        "year": 2019
+      },
+      {
+        "column": "None:Do you use any of the following tools to isolate Python environments, if any?",
+        "kind": "multi_option",
+        "group": "ide.isolate",
+        "option": "None",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "flags 显示 multi_like，全列值等于选项文本",
+        "year": 2019
+      },
+      {
+        "column": "Other – Write In::Do you use any of the following tools to isolate Python environments, if any?",
+        "kind": "free_text",
+        "group": "ide.isolate",
+        "option": "",
+        "missing_tokens": [],
+        "reason": "flags 无 multi_like，value_shape 注明为自由文本",
+        "year": 2019
+      },
+      {
+        "column": "Pipenv:Do you use any of the following tools to isolate Python environments, if any?",
+        "kind": "multi_option",
+        "group": "ide.isolate",
+        "option": "Pipenv",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "flags 显示 multi_like，全列值等于选项文本",
+        "year": 2019
+      },
+      {
+        "column": "Poetry:Do you use any of the following tools to isolate Python environments, if any?",
+        "kind": "multi_option",
+        "group": "ide.isolate",
+        "option": "Poetry",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "flags 显示 multi_like，全列值等于选项文本",
+        "year": 2019
+      },
+      {
+        "column": "Vagrant  / virtual machines:Do you use any of the following tools to isolate Python environments, if any?",
+        "kind": "multi_option",
+        "group": "ide.isolate",
+        "option": "Vagrant  / virtual machines",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "flags 显示 multi_like，全列值等于选项文本",
+        "year": 2019
+      },
+      {
+        "column": "Virtualenv:Do you use any of the following tools to isolate Python environments, if any?",
+        "kind": "multi_option",
+        "group": "ide.isolate",
+        "option": "Virtualenv",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "flags 显示 multi_like，全列值等于选项文本",
+        "year": 2019
+      },
+      {
+        "column": "Bottle:What web frameworks / libraries do you use in addition to Python?",
+        "kind": "multi_option",
+        "group": "frameworks.web",
+        "option": "Bottle",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "flags 显示 multi_like，全列值等于选项文本",
+        "year": 2019
+      }
+    ]
+  }
+}

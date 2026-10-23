@@ -1,0 +1,176 @@
+{
+  "stage": "clean_semantics",
+  "model": "qwen3.5:4b",
+  "model_digest": "d8b0f5e9760cd168",
+  "prompt_version": "clean-semantics-v2",
+  "input_hash": "0bb8b40a6d69c216c87835d4c9846fcb",
+  "created_at": "2026-10-23T18:46:36",
+  "duration_s": 11.52,
+  "output_tokens": 861,
+  "fallback": false,
+  "error": "",
+  "manual_edit": false,
+  "reviewed": false,
+  "payload_summary": {
+    "year": 2020,
+    "batch": "python.version.upgrade.OS-provided Python (via apt-get, yum, homebrew, etc_)…web.frameworks.CherryPy ",
+    "n": 18
+  },
+  "response": {
+    "columns": [
+      {
+        "column": "python.version.upgrade.OS-provided Python (via apt-get, yum, homebrew, etc_)",
+        "kind": "multi_option",
+        "group": "python.version.upgrade",
+        "option": "OS-provided Python (via apt-get, yum, homebrew, etc.",
+        "missing_tokens": [],
+        "reason": "全列取值恒等于列名，符合 multi_like 特征",
+        "year": 2020
+      },
+      {
+        "column": "python.version.upgrade.pyenv",
+        "kind": "multi_option",
+        "group": "python.version.upgrade",
+        "option": "pyenv",
+        "missing_tokens": [],
+        "reason": "全列取值恒等于列名，符合 multi_like 特征",
+        "year": 2020
+      },
+      {
+        "column": "python.version.upgrade.pythonz",
+        "kind": "multi_option",
+        "group": "python.version.upgrade",
+        "option": "pythonz",
+        "missing_tokens": [],
+        "reason": "全列取值恒等于列名，符合 multi_like 特征",
+        "year": 2020
+      },
+      {
+        "column": "python.version.upgrade.I use Docker containers",
+        "kind": "multi_option",
+        "group": "python.version.upgrade",
+        "option": "I use Docker containers",
+        "missing_tokens": [],
+        "reason": "全列取值恒等于列名，符合 multi_like 特征",
+        "year": 2020
+      },
+      {
+        "column": "python.version.upgrade.Other",
+        "kind": "multi_option",
+        "group": "python.version.upgrade",
+        "option": "Other",
+        "missing_tokens": [],
+        "reason": "全列取值恒等于列名，符合 multi_like 特征",
+        "year": 2020
+      },
+      {
+        "column": "isolate.environments.None",
+        "kind": "multi_option",
+        "group": "isolate.environments",
+        "option": "None",
+        "missing_tokens": [],
+        "reason": "全列取值恒等于列名，符合 multi_like 特征",
+        "year": 2020
+      },
+      {
+        "column": "isolate.environments.Virtualenv",
+        "kind": "multi_option",
+        "group": "isolate.environments",
+        "option": "Virtualenv",
+        "missing_tokens": [],
+        "reason": "全列取值恒等于列名，符合 multi_like 特征",
+        "year": 2020
+      },
+      {
+        "column": "isolate.environments.Pipenv",
+        "kind": "multi_option",
+        "group": "isolate.environments",
+        "option": "Pipenv",
+        "missing_tokens": [],
+        "reason": "全列取值恒等于列名，符合 multi_like 特征",
+        "year": 2020
+      },
+      {
+        "column": "isolate.environments.Poetry",
+        "kind": "multi_option",
+        "group": "isolate.environments",
+        "option": "Poetry",
+        "missing_tokens": [],
+        "reason": "全列取值恒等于列名，符合 multi_like 特征",
+        "year": 2020
+      },
+      {
+        "column": "isolate.environments.Conda",
+        "kind": "multi_option",
+        "group": "isolate.environments",
+        "option": "Conda",
+        "missing_tokens": [],
+        "reason": "全列取值恒等于列名，符合 multi_like 特征",
+        "year": 2020
+      },
+      {
+        "column": "isolate.environments.Docker",
+        "kind": "multi_option",
+        "group": "isolate.environments",
+        "option": "Docker",
+        "missing_tokens": [],
+        "reason": "全列取值恒等于列名，符合 multi_like 特征",
+        "year": 2020
+      },
+      {
+        "column": "isolate.environments.Vagrant  / virtual machines",
+        "kind": "multi_option",
+        "group": "isolate.environments",
+        "option": "Vagrant  / virtual machines",
+        "missing_tokens": [],
+        "reason": "全列取值恒等于列名，符合 multi_like 特征",
+        "year": 2020
+      },
+      {
+        "column": "isolate.environments.Other",
+        "kind": "multi_option",
+        "group": "isolate.environments",
+        "option": "Other",
+        "missing_tokens": [],
+        "reason": "全列取值恒等于列名，符合 multi_like 特征",
+        "year": 2020
+      },
+      {
+        "column": "web.frameworks.None",
+        "kind": "multi_option",
+        "group": "web.frameworks",
+        "option": "None",
+        "missing_tokens": [],
+        "reason": "全列取值恒等于列名，符合 multi_like 特征",
+        "year": 2020
+      },
+      {
+        "column": "web.frameworks.Django",
+        "kind": "multi_option",
+        "group": "web.frameworks",
+        "option": "Django",
+        "missing_tokens": [],
+        "reason": "全列取值恒等于列名，符合 multi_like 特征",
+        "year": 2020
+      },
+      {
+        "column": "web.frameworks.web2py",
+        "kind": "multi_option",
+        "group": "web.frameworks",
+        "option": "web2py",
+        "missing_tokens": [],
+        "reason": "全列取值恒等于列名，符合 multi_like 特征",
+        "year": 2020
+      },
+      {
+        "column": "web.frameworks.Bottle",
+        "kind": "multi_option",
+        "group": "web.frameworks",
+        "option": "Bottle",
+        "missing_tokens": [],
+        "reason": "全列取值恒等于列名，符合 multi_like 特征",
+        "year": 2020
+      }
+    ]
+  }
+}

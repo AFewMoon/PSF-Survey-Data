@@ -1,0 +1,51 @@
+{
+  "stage": "option_alias",
+  "model": "qwen3.5:4b",
+  "model_digest": "d8b0f5e9760cd168",
+  "prompt_version": "option-alias-v1",
+  "input_hash": "15106e4ffede5428d00007ca569d74f0",
+  "created_at": "2026-10-23T19:16:46",
+  "duration_s": 1.79,
+  "output_tokens": 94,
+  "fallback": false,
+  "error": "",
+  "manual_edit": false,
+  "reviewed": false,
+  "payload_summary": {
+    "groups": 8,
+    "values": 84
+  },
+  "response": {
+    "groups": [
+      {
+        "name": "libraries.tools",
+        "options": [
+          {
+            "variants": [
+              "PDM-PEP517",
+              "PDM"
+            ],
+            "canonical": "PDM",
+            "reason": "PEP517 为 PDM 的扩展功能，通常统称 PDM"
+          },
+          {
+            "variants": [
+              "conda-build",
+              "conda-build"
+            ],
+            "canonical": "conda-build",
+            "reason": "无差异，保留原样"
+          },
+          {
+            "variants": [
+              "build",
+              "build"
+            ],
+            "canonical": "build",
+            "reason": "无差异，保留原样"
+          }
+        ]
+      }
+    ]
+  }
+}

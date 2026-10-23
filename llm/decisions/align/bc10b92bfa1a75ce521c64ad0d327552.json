@@ -1,0 +1,36 @@
+{
+  "stage": "option_alias",
+  "model": "qwen3.5:4b",
+  "model_digest": "d8b0f5e9760cd168",
+  "prompt_version": "option-alias-v2",
+  "input_hash": "bc10b92bfa1a75ce521c64ad0d327552",
+  "created_at": "2026-10-23T19:20:18",
+  "duration_s": 1.0,
+  "output_tokens": 48,
+  "fallback": false,
+  "error": "",
+  "manual_edit": false,
+  "reviewed": false,
+  "payload_summary": {
+    "groups": 9,
+    "values": 70
+  },
+  "response": {
+    "groups": [
+      {
+        "name": "ide.editor.features__dup1",
+        "options": [
+          {
+            "variants": [
+              "From timeto time",
+              "Never orAlmost never",
+              "Often"
+            ],
+            "canonical": "From time to time",
+            "reason": "修复拼写错误及大小写"
+          }
+        ]
+      }
+    ]
+  }
+}

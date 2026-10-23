@@ -1,0 +1,41 @@
+{
+  "stage": "option_alias",
+  "model": "qwen3.5:4b",
+  "model_digest": "d8b0f5e9760cd168",
+  "prompt_version": "option-alias-v1",
+  "input_hash": "35f4b1e3f6c9aebd1973c821cfc5e028",
+  "created_at": "2026-10-23T19:16:29",
+  "duration_s": 1.68,
+  "output_tokens": 92,
+  "fallback": false,
+  "error": "",
+  "manual_edit": false,
+  "reviewed": false,
+  "payload_summary": {
+    "groups": 8,
+    "values": 102
+  },
+  "response": {
+    "groups": [
+      {
+        "name": "develop.for.cloud",
+        "options": [
+          {
+            "variants": [
+              "Directly in the production environment",
+              "In Docker containers",
+              "In remote development environments",
+              "In remote development environments (like Gitpod, GitHub Codespaces, etc_)",
+              "In virtual machines",
+              "Locally with virtualenv (or similar)",
+              "Using WSL",
+              "With local system interpreter"
+            ],
+            "canonical": "Directly in the production environment",
+            "reason": "生产环境部署方式，其余为不同部署场景"
+          }
+        ]
+      }
+    ]
+  }
+}

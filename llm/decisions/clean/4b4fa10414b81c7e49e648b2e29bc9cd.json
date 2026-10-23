@@ -1,0 +1,185 @@
+{
+  "stage": "clean_semantics",
+  "model": "qwen3.5:4b",
+  "model_digest": "d8b0f5e9760cd168",
+  "prompt_version": "clean-semantics-v2",
+  "input_hash": "4b4fa10414b81c7e49e648b2e29bc9cd",
+  "created_at": "2026-10-23T18:35:09",
+  "duration_s": 9.41,
+  "output_tokens": 716,
+  "fallback": false,
+  "error": "",
+  "manual_edit": false,
+  "reviewed": false,
+  "payload_summary": {
+    "year": 2024,
+    "batch": "database.None…database.BigQuery",
+    "n": 18
+  },
+  "response": {
+    "columns": [
+      {
+        "column": "database.None",
+        "kind": "multi_option",
+        "group": "database",
+        "option": "None",
+        "missing_tokens": [],
+        "reason": "全列值等于列名，符合 multi_like 特征",
+        "year": 2024
+      },
+      {
+        "column": "database.DB2",
+        "kind": "multi_option",
+        "group": "database",
+        "option": "DB2",
+        "missing_tokens": [],
+        "reason": "全列值等于列名，符合 multi_like 特征",
+        "year": 2024
+      },
+      {
+        "column": "database.MS SQL Server",
+        "kind": "multi_option",
+        "group": "database",
+        "option": "MS SQL Server",
+        "missing_tokens": [],
+        "reason": "全列值等于列名，符合 multi_like 特征",
+        "year": 2024
+      },
+      {
+        "column": "database.MySQL",
+        "kind": "multi_option",
+        "group": "database",
+        "option": "MySQL",
+        "missing_tokens": [],
+        "reason": "全列值等于列名，符合 multi_like 特征",
+        "year": 2024
+      },
+      {
+        "column": "database.Oracle Database",
+        "kind": "multi_option",
+        "group": "database",
+        "option": "Oracle Database",
+        "missing_tokens": [],
+        "reason": "全列值等于列名，符合 multi_like 特征",
+        "year": 2024
+      },
+      {
+        "column": "database.PostgreSQL",
+        "kind": "multi_option",
+        "group": "database",
+        "option": "PostgreSQL",
+        "missing_tokens": [],
+        "reason": "全列值等于列名，符合 multi_like 特征",
+        "year": 2024
+      },
+      {
+        "column": "database.SQLite",
+        "kind": "multi_option",
+        "group": "database",
+        "option": "SQLite",
+        "missing_tokens": [],
+        "reason": "全列值等于列名，符合 multi_like 特征",
+        "year": 2024
+      },
+      {
+        "column": "database.Cassandra",
+        "kind": "multi_option",
+        "group": "database",
+        "option": "Cassandra",
+        "missing_tokens": [],
+        "reason": "全列值等于列名，符合 multi_like 特征",
+        "year": 2024
+      },
+      {
+        "column": "database.Couchbase",
+        "kind": "multi_option",
+        "group": "database",
+        "option": "Couchbase",
+        "missing_tokens": [],
+        "reason": "全列值等于列名，符合 multi_like 特征",
+        "year": 2024
+      },
+      {
+        "column": "database.HBase",
+        "kind": "multi_option",
+        "group": "database",
+        "option": "HBase",
+        "missing_tokens": [],
+        "reason": "全列值等于列名，符合 multi_like 特征",
+        "year": 2024
+      },
+      {
+        "column": "database.MongoDB",
+        "kind": "multi_option",
+        "group": "database",
+        "option": "MongoDB",
+        "missing_tokens": [],
+        "reason": "全列值等于列名，符合 multi_like 特征",
+        "year": 2024
+      },
+      {
+        "column": "database.Neo4j",
+        "kind": "multi_option",
+        "group": "database",
+        "option": "Neo4j",
+        "missing_tokens": [],
+        "reason": "全列值等于列名，符合 multi_like 特征",
+        "year": 2024
+      },
+      {
+        "column": "database.Redis",
+        "kind": "multi_option",
+        "group": "database",
+        "option": "Redis",
+        "missing_tokens": [],
+        "reason": "全列值等于列名，符合 multi_like 特征",
+        "year": 2024
+      },
+      {
+        "column": "database.Amazon Redshift",
+        "kind": "multi_option",
+        "group": "database",
+        "option": "Amazon Redshift",
+        "missing_tokens": [],
+        "reason": "全列值等于列名，符合 multi_like 特征",
+        "year": 2024
+      },
+      {
+        "column": "database.h2",
+        "kind": "multi_option",
+        "group": "database",
+        "option": "h2",
+        "missing_tokens": [],
+        "reason": "全列值等于列名，符合 multi_like 特征",
+        "year": 2024
+      },
+      {
+        "column": "database.MariaDB",
+        "kind": "multi_option",
+        "group": "database",
+        "option": "MariaDB",
+        "missing_tokens": [],
+        "reason": "全列值等于列名，符合 multi_like 特征",
+        "year": 2024
+      },
+      {
+        "column": "database.DynamoDB",
+        "kind": "multi_option",
+        "group": "database",
+        "option": "DynamoDB",
+        "missing_tokens": [],
+        "reason": "全列值等于列名，符合 multi_like 特征",
+        "year": 2024
+      },
+      {
+        "column": "database.BigQuery",
+        "kind": "multi_option",
+        "group": "database",
+        "option": "BigQuery",
+        "missing_tokens": [],
+        "reason": "全列值等于列名，符合 multi_like 特征",
+        "year": 2024
+      }
+    ]
+  }
+}

@@ -1,0 +1,189 @@
+{
+  "stage": "clean_semantics",
+  "model": "qwen3.5:4b",
+  "model_digest": "d8b0f5e9760cd168",
+  "prompt_version": "clean-semantics-v2",
+  "input_hash": "8668063b39f8e1849f58936eda6b6e64",
+  "created_at": "2026-10-23T18:54:05",
+  "duration_s": 10.34,
+  "output_tokens": 795,
+  "fallback": false,
+  "error": "",
+  "manual_edit": false,
+  "reviewed": false,
+  "payload_summary": {
+    "year": 2021,
+    "batch": "app.publish.where.PyPI…libraries.publish",
+    "n": 18
+  },
+  "response": {
+    "columns": [
+      {
+        "column": "app.publish.where.PyPI",
+        "kind": "multi_option",
+        "group": "app.publish.where",
+        "option": "PyPI",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值恒为选项文本",
+        "year": 2021
+      },
+      {
+        "column": "app.publish.where.Private Python Package Index",
+        "kind": "multi_option",
+        "group": "app.publish.where",
+        "option": "Private Python Package Index",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值恒为选项文本",
+        "year": 2021
+      },
+      {
+        "column": "app.publish.where.Internal mirror of PyPI",
+        "kind": "multi_option",
+        "group": "app.publish.where",
+        "option": "Internal mirror of PyPI",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值恒为选项文本",
+        "year": 2021
+      },
+      {
+        "column": "app.publish.where.conda-forge",
+        "kind": "multi_option",
+        "group": "app.publish.where",
+        "option": "conda-forge",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值恒为选项文本",
+        "year": 2021
+      },
+      {
+        "column": "app.publish.where.Other",
+        "kind": "multi_option",
+        "group": "app.publish.where",
+        "option": "Other",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值恒为选项文本",
+        "year": 2021
+      },
+      {
+        "column": "libraries.do",
+        "kind": "multi_option",
+        "group": "libraries.do",
+        "option": "Yes",
+        "missing_tokens": [
+          "No"
+        ],
+        "reason": "flags 显示 numeric_like 且含 Yes/No，视为单选选项",
+        "year": 2021
+      },
+      {
+        "column": "libraries.tools.Setuptools",
+        "kind": "multi_option",
+        "group": "libraries.tools",
+        "option": "Setuptools",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值恒为选项文本",
+        "year": 2021
+      },
+      {
+        "column": "libraries.tools.build",
+        "kind": "multi_option",
+        "group": "libraries.tools",
+        "option": "build",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值恒为选项文本",
+        "year": 2021
+      },
+      {
+        "column": "libraries.tools.Wheel",
+        "kind": "multi_option",
+        "group": "libraries.tools",
+        "option": "Wheel",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值恒为选项文本",
+        "year": 2021
+      },
+      {
+        "column": "libraries.tools.Enscons",
+        "kind": "multi_option",
+        "group": "libraries.tools",
+        "option": "Enscons",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值恒为选项文本",
+        "year": 2021
+      },
+      {
+        "column": "libraries.tools.pex",
+        "kind": "multi_option",
+        "group": "libraries.tools",
+        "option": "pex",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值恒为选项文本",
+        "year": 2021
+      },
+      {
+        "column": "libraries.tools.Flit",
+        "kind": "multi_option",
+        "group": "libraries.tools",
+        "option": "Flit",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值恒为选项文本",
+        "year": 2021
+      },
+      {
+        "column": "libraries.tools.Poetry",
+        "kind": "multi_option",
+        "group": "libraries.tools",
+        "option": "Poetry",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值恒为选项文本",
+        "year": 2021
+      },
+      {
+        "column": "libraries.tools.conda-build",
+        "kind": "multi_option",
+        "group": "libraries.tools",
+        "option": "conda-build",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值恒为选项文本",
+        "year": 2021
+      },
+      {
+        "column": "libraries.tools.maturin",
+        "kind": "multi_option",
+        "group": "libraries.tools",
+        "option": "maturin",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值恒为选项文本",
+        "year": 2021
+      },
+      {
+        "column": "libraries.tools.PDM-PEP517",
+        "kind": "multi_option",
+        "group": "libraries.tools",
+        "option": "PDM-PEP517",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值恒为选项文本",
+        "year": 2021
+      },
+      {
+        "column": "libraries.tools.Other",
+        "kind": "multi_option",
+        "group": "libraries.tools",
+        "option": "Other",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值恒为选项文本",
+        "year": 2021
+      },
+      {
+        "column": "libraries.publish",
+        "kind": "multi_option",
+        "group": "libraries.publish",
+        "option": "Yes",
+        "missing_tokens": [
+          "No"
+        ],
+        "reason": "flags 显示 numeric_like 且含 Yes/No，视为单选选项",
+        "year": 2021
+      }
+    ]
+  }
+}

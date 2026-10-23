@@ -1,0 +1,35 @@
+{
+  "stage": "option_alias",
+  "model": "qwen3.5:4b",
+  "model_digest": "d8b0f5e9760cd168",
+  "prompt_version": "option-alias-v1",
+  "input_hash": "f48dd8f92c2a56f1dc40e6d499d5e641",
+  "created_at": "2026-10-23T19:08:21",
+  "duration_s": 1.56,
+  "output_tokens": 85,
+  "fallback": false,
+  "error": "",
+  "manual_edit": false,
+  "reviewed": false,
+  "payload_summary": {
+    "groups": 8,
+    "values": 124
+  },
+  "response": {
+    "groups": [
+      {
+        "name": "python.version.upgrade",
+        "options": [
+          {
+            "variants": [
+              "OS-provided Python (via apt-get, yum, homebrew, etc_)",
+              "OS-wide package-management tool (via apt-get, yum, homebrew, etc_)"
+            ],
+            "canonical": "OS-wide package-management tool (via apt-get, yum, homebrew, etc_)",
+            "reason": "前者是后者的具体描述，后者更通用"
+          }
+        ]
+      }
+    ]
+  }
+}

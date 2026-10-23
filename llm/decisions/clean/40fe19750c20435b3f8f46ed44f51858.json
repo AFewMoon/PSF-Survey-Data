@@ -1,0 +1,185 @@
+{
+  "stage": "clean_semantics",
+  "model": "qwen3.5:4b",
+  "model_digest": "d8b0f5e9760cd168",
+  "prompt_version": "clean-semantics-v2",
+  "input_hash": "40fe19750c20435b3f8f46ed44f51858",
+  "created_at": "2026-10-23T18:46:01",
+  "duration_s": 11.59,
+  "output_tokens": 849,
+  "fallback": false,
+  "error": "",
+  "manual_edit": false,
+  "reviewed": false,
+  "payload_summary": {
+    "year": 2020,
+    "batch": "other.lang.Perl…other.purposes.Mobile development",
+    "n": 18
+  },
+  "response": {
+    "columns": [
+      {
+        "column": "other.lang.Perl",
+        "kind": "multi_option",
+        "group": "other.lang",
+        "option": "Perl",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值恒为选项文本",
+        "year": 2020
+      },
+      {
+        "column": "other.lang.Rust",
+        "kind": "multi_option",
+        "group": "other.lang",
+        "option": "Rust",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值恒为选项文本",
+        "year": 2020
+      },
+      {
+        "column": "other.lang.Groovy",
+        "kind": "multi_option",
+        "group": "other.lang",
+        "option": "Groovy",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值恒为选项文本",
+        "year": 2020
+      },
+      {
+        "column": "other.lang.TypeScript",
+        "kind": "multi_option",
+        "group": "other.lang",
+        "option": "TypeScript",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值恒为选项文本",
+        "year": 2020
+      },
+      {
+        "column": "other.lang.CoffeeScript",
+        "kind": "multi_option",
+        "group": "other.lang",
+        "option": "CoffeeScript",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值恒为选项文本",
+        "year": 2020
+      },
+      {
+        "column": "other.lang.HTML/CSS",
+        "kind": "multi_option",
+        "group": "other.lang",
+        "option": "HTML/CSS",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值恒为选项文本",
+        "year": 2020
+      },
+      {
+        "column": "other.lang.Other",
+        "kind": "multi_option",
+        "group": "other.lang",
+        "option": "Other",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值恒为选项文本",
+        "year": 2020
+      },
+      {
+        "column": "python.years",
+        "kind": "numeric",
+        "group": "python",
+        "option": "",
+        "missing_tokens": [],
+        "reason": "top 值含数字范围，虽非纯数字但代表数值区间，归为 numeric 更合理",
+        "year": 2020
+      },
+      {
+        "column": "years.of.coding",
+        "kind": "numeric",
+        "group": "years.of.coding",
+        "option": "",
+        "missing_tokens": [],
+        "reason": "top 值含数字范围，虽非纯数字但代表数值区间，归为 numeric 更合理",
+        "year": 2020
+      },
+      {
+        "column": "main.purposes",
+        "kind": "single_choice",
+        "group": "main",
+        "option": "",
+        "missing_tokens": [],
+        "reason": "top 值数量少且非纯数字，结合上下文推断为单选题",
+        "year": 2020
+      },
+      {
+        "column": "other.purposes.Educational purposes",
+        "kind": "multi_option",
+        "group": "other.purposes",
+        "option": "Educational purposes",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值恒为选项文本",
+        "year": 2020
+      },
+      {
+        "column": "other.purposes.Data analysis",
+        "kind": "multi_option",
+        "group": "other.purposes",
+        "option": "Data analysis",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值恒为选项文本",
+        "year": 2020
+      },
+      {
+        "column": "other.purposes.DevOps / System administration / Writing automation scripts",
+        "kind": "multi_option",
+        "group": "other.purposes",
+        "option": "DevOps / System administration / Writing automation scripts",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值恒为选项文本",
+        "year": 2020
+      },
+      {
+        "column": "other.purposes.Software testing / Writing automated tests",
+        "kind": "multi_option",
+        "group": "other.purposes",
+        "option": "Software testing / Writing automated tests",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值恒为选项文本",
+        "year": 2020
+      },
+      {
+        "column": "other.purposes.Software prototyping",
+        "kind": "multi_option",
+        "group": "other.purposes",
+        "option": "Software prototyping",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值恒为选项文本",
+        "year": 2020
+      },
+      {
+        "column": "other.purposes.Web development",
+        "kind": "multi_option",
+        "group": "other.purposes",
+        "option": "Web development",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值恒为选项文本",
+        "year": 2020
+      },
+      {
+        "column": "other.purposes.Machine learning",
+        "kind": "multi_option",
+        "group": "other.purposes",
+        "option": "Machine learning",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值恒为选项文本",
+        "year": 2020
+      },
+      {
+        "column": "other.purposes.Mobile development",
+        "kind": "multi_option",
+        "group": "other.purposes",
+        "option": "Mobile development",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值恒为选项文本",
+        "year": 2020
+      }
+    ]
+  }
+}

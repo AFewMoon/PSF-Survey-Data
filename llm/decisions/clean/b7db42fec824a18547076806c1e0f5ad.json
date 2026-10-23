@@ -1,0 +1,185 @@
+{
+  "stage": "clean_semantics",
+  "model": "qwen3.5:4b",
+  "model_digest": "d8b0f5e9760cd168",
+  "prompt_version": "clean-semantics-v2",
+  "input_hash": "b7db42fec824a18547076806c1e0f5ad",
+  "created_at": "2026-10-23T18:51:39",
+  "duration_s": 10.33,
+  "output_tokens": 785,
+  "fallback": false,
+  "error": "",
+  "manual_edit": false,
+  "reviewed": false,
+  "payload_summary": {
+    "year": 2021,
+    "batch": "data.frameworks.Keras…other.frameworks.Twisted",
+    "n": 18
+  },
+  "response": {
+    "columns": [
+      {
+        "column": "data.frameworks.Keras",
+        "kind": "multi_option",
+        "group": "data.frameworks",
+        "option": "Keras",
+        "missing_tokens": [],
+        "reason": "flags 显示全列等于选项文本，符合 multi_like",
+        "year": 2021
+      },
+      {
+        "column": "data.frameworks.TensorFlow",
+        "kind": "multi_option",
+        "group": "data.frameworks",
+        "option": "TensorFlow",
+        "missing_tokens": [],
+        "reason": "flags 显示全列等于选项文本，符合 multi_like",
+        "year": 2021
+      },
+      {
+        "column": "data.frameworks.Theano",
+        "kind": "multi_option",
+        "group": "data.frameworks",
+        "option": "Theano",
+        "missing_tokens": [],
+        "reason": "flags 显示全列等于选项文本，符合 multi_like",
+        "year": 2021
+      },
+      {
+        "column": "data.frameworks.NLTK",
+        "kind": "multi_option",
+        "group": "data.frameworks",
+        "option": "NLTK",
+        "missing_tokens": [],
+        "reason": "flags 显示全列等于选项文本，符合 multi_like",
+        "year": 2021
+      },
+      {
+        "column": "data.frameworks.MXNet",
+        "kind": "multi_option",
+        "group": "data.frameworks",
+        "option": "MXNet",
+        "missing_tokens": [],
+        "reason": "flags 显示全列等于选项文本，符合 multi_like",
+        "year": 2021
+      },
+      {
+        "column": "data.frameworks.Gensim",
+        "kind": "multi_option",
+        "group": "data.frameworks",
+        "option": "Gensim",
+        "missing_tokens": [],
+        "reason": "flags 显示全列等于选项文本，符合 multi_like",
+        "year": 2021
+      },
+      {
+        "column": "data.frameworks.Other",
+        "kind": "multi_option",
+        "group": "data.frameworks",
+        "option": "Other",
+        "missing_tokens": [],
+        "reason": "flags 显示全列等于选项文本，符合 multi_like",
+        "year": 2021
+      },
+      {
+        "column": "other.frameworks.None",
+        "kind": "multi_option",
+        "group": "other.frameworks",
+        "option": "None",
+        "missing_tokens": [],
+        "reason": "flags 显示全列等于选项文本，符合 multi_like",
+        "year": 2021
+      },
+      {
+        "column": "other.frameworks.Requests",
+        "kind": "multi_option",
+        "group": "other.frameworks",
+        "option": "Requests",
+        "missing_tokens": [],
+        "reason": "flags 显示全列等于选项文本，符合 multi_like",
+        "year": 2021
+      },
+      {
+        "column": "other.frameworks.aiohttp",
+        "kind": "multi_option",
+        "group": "other.frameworks",
+        "option": "aiohttp",
+        "missing_tokens": [],
+        "reason": "flags 显示全列等于选项文本，符合 multi_like",
+        "year": 2021
+      },
+      {
+        "column": "other.frameworks.httpx",
+        "kind": "multi_option",
+        "group": "other.frameworks",
+        "option": "httpx",
+        "missing_tokens": [],
+        "reason": "flags 显示全列等于选项文本，符合 multi_like",
+        "year": 2021
+      },
+      {
+        "column": "other.frameworks.PyQT",
+        "kind": "multi_option",
+        "group": "other.frameworks",
+        "option": "PyQT",
+        "missing_tokens": [],
+        "reason": "flags 显示全列等于选项文本，符合 multi_like",
+        "year": 2021
+      },
+      {
+        "column": "other.frameworks.PyGTK",
+        "kind": "multi_option",
+        "group": "other.frameworks",
+        "option": "PyGTK",
+        "missing_tokens": [],
+        "reason": "flags 显示全列等于选项文本，符合 multi_like",
+        "year": 2021
+      },
+      {
+        "column": "other.frameworks.wxPython",
+        "kind": "multi_option",
+        "group": "other.frameworks",
+        "option": "wxPython",
+        "missing_tokens": [],
+        "reason": "flags 显示全列等于选项文本，符合 multi_like",
+        "year": 2021
+      },
+      {
+        "column": "other.frameworks.Pillow",
+        "kind": "multi_option",
+        "group": "other.frameworks",
+        "option": "Pillow",
+        "missing_tokens": [],
+        "reason": "flags 显示全列等于选项文本，符合 multi_like",
+        "year": 2021
+      },
+      {
+        "column": "other.frameworks.Tkinter",
+        "kind": "multi_option",
+        "group": "other.frameworks",
+        "option": "Tkinter",
+        "missing_tokens": [],
+        "reason": "flags 显示全列等于选项文本，符合 multi_like",
+        "year": 2021
+      },
+      {
+        "column": "other.frameworks.Pygame",
+        "kind": "multi_option",
+        "group": "other.frameworks",
+        "option": "Pygame",
+        "missing_tokens": [],
+        "reason": "flags 显示全列等于选项文本，符合 multi_like",
+        "year": 2021
+      },
+      {
+        "column": "other.frameworks.Twisted",
+        "kind": "multi_option",
+        "group": "other.frameworks",
+        "option": "Twisted",
+        "missing_tokens": [],
+        "reason": "flags 显示全列等于选项文本，符合 multi_like",
+        "year": 2021
+      }
+    ]
+  }
+}

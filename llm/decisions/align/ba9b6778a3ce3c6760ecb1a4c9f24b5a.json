@@ -1,0 +1,20 @@
+{
+  "stage": "group_path",
+  "model": "local-fallback",
+  "model_digest": "d8b0f5e9760cd168",
+  "prompt_version": "group-path-v1",
+  "input_hash": "ba9b6778a3ce3c6760ecb1a4c9f24b5a",
+  "created_at": "2026-10-23T19:08:18",
+  "duration_s": 0.0,
+  "output_tokens": 0,
+  "fallback": true,
+  "error": "[group-path] 输出被 num_predict=1792 截断（1792 tok）",
+  "manual_edit": false,
+  "reviewed": false,
+  "payload_summary": {
+    "n_groups": 56
+  },
+  "response": {
+    "groups": []
+  }
+}

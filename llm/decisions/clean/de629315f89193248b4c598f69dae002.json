@@ -1,0 +1,217 @@
+{
+  "stage": "clean_semantics",
+  "model": "qwen3.5:4b",
+  "model_digest": "d8b0f5e9760cd168",
+  "prompt_version": "clean-semantics-v2",
+  "input_hash": "de629315f89193248b4c598f69dae002",
+  "created_at": "2026-10-23T18:43:29",
+  "duration_s": 13.17,
+  "output_tokens": 992,
+  "fallback": false,
+  "error": "",
+  "manual_edit": false,
+  "reviewed": false,
+  "payload_summary": {
+    "year": 2019,
+    "batch": "Apache Hive:Which of the following Big Data tool(s) do you use, if any?…TeamCity:Which Continuous Integration (CI) system(s) do you regularly use?",
+    "n": 18
+  },
+  "response": {
+    "columns": [
+      {
+        "column": "Apache Hive:Which of the following Big Data tool(s) do you use, if any?",
+        "kind": "multi_option",
+        "group": "ide.tools.bigdata",
+        "option": "Apache Hive",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "flags 显示全列恒等于选项文本",
+        "year": 2019
+      },
+      {
+        "column": "Apache Kafka:Which of the following Big Data tool(s) do you use, if any?",
+        "kind": "multi_option",
+        "group": "ide.tools.bigdata",
+        "option": "Apache Kafka",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "flags 显示全列恒等于选项文本",
+        "year": 2019
+      },
+      {
+        "column": "Apache Samza:Which of the following Big Data tool(s) do you use, if any?",
+        "kind": "multi_option",
+        "group": "ide.tools.bigdata",
+        "option": "Apache Samza",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "flags 显示全列恒等于选项文本",
+        "year": 2019
+      },
+      {
+        "column": "Apache Spark:Which of the following Big Data tool(s) do you use, if any?",
+        "kind": "multi_option",
+        "group": "ide.tools.bigdata",
+        "option": "Apache Spark",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "flags 显示全列恒等于选项文本",
+        "year": 2019
+      },
+      {
+        "column": "Apache Tez:Which of the following Big Data tool(s) do you use, if any?",
+        "kind": "multi_option",
+        "group": "ide.tools.bigdata",
+        "option": "Apache Tez",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "flags 显示全列恒等于选项文本",
+        "year": 2019
+      },
+      {
+        "column": "ClickHouse:Which of the following Big Data tool(s) do you use, if any?",
+        "kind": "multi_option",
+        "group": "ide.tools.bigdata",
+        "option": "ClickHouse",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "flags 显示全列恒等于选项文本",
+        "year": 2019
+      },
+      {
+        "column": "Dask:Which of the following Big Data tool(s) do you use, if any?",
+        "kind": "multi_option",
+        "group": "ide.tools.bigdata",
+        "option": "Dask",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "flags 显示全列恒等于选项文本",
+        "year": 2019
+      },
+      {
+        "column": "None:Which of the following Big Data tool(s) do you use, if any?",
+        "kind": "multi_option",
+        "group": "ide.tools.bigdata",
+        "option": "None",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "flags 显示全列恒等于选项文本",
+        "year": 2019
+      },
+      {
+        "column": "Other – Write In::Which of the following Big Data tool(s) do you use, if any?",
+        "kind": "free_text",
+        "group": "ide.tools.bigdata",
+        "option": "",
+        "missing_tokens": [],
+        "reason": "note 明确标注为自由文本",
+        "year": 2019
+      },
+      {
+        "column": "AppVeyor:Which Continuous Integration (CI) system(s) do you regularly use?",
+        "kind": "multi_option",
+        "group": "ide.tools.ci",
+        "option": "AppVeyor",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "flags 显示全列恒等于选项文本",
+        "year": 2019
+      },
+      {
+        "column": "Bamboo:Which Continuous Integration (CI) system(s) do you regularly use?",
+        "kind": "multi_option",
+        "group": "ide.tools.ci",
+        "option": "Bamboo",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "flags 显示全列恒等于选项文本",
+        "year": 2019
+      },
+      {
+        "column": "CircleCI:Which Continuous Integration (CI) system(s) do you regularly use?",
+        "kind": "multi_option",
+        "group": "ide.tools.ci",
+        "option": "CircleCI",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "flags 显示全列恒等于选项文本",
+        "year": 2019
+      },
+      {
+        "column": "CruiseControl:Which Continuous Integration (CI) system(s) do you regularly use?",
+        "kind": "multi_option",
+        "group": "ide.tools.ci",
+        "option": "CruiseControl",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "flags 显示全列恒等于选项文本",
+        "year": 2019
+      },
+      {
+        "column": "Gitlab CI:Which Continuous Integration (CI) system(s) do you regularly use?",
+        "kind": "multi_option",
+        "group": "ide.tools.ci",
+        "option": "Gitlab CI",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "flags 显示全列恒等于选项文本",
+        "year": 2019
+      },
+      {
+        "column": "Jenkins / Hudson:Which Continuous Integration (CI) system(s) do you regularly use?",
+        "kind": "multi_option",
+        "group": "ide.tools.ci",
+        "option": "Jenkins / Hudson",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "flags 显示全列恒等于选项文本",
+        "year": 2019
+      },
+      {
+        "column": "None:Which Continuous Integration (CI) system(s) do you regularly use?",
+        "kind": "multi_option",
+        "group": "ide.tools.ci",
+        "option": "None",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "flags 显示全列恒等于选项文本",
+        "year": 2019
+      },
+      {
+        "column": "Other – Write In::Which Continuous Integration (CI) system(s) do you regularly use?",
+        "kind": "free_text",
+        "group": "ide.tools.ci",
+        "option": "",
+        "missing_tokens": [],
+        "reason": "note 明确标注为自由文本",
+        "year": 2019
+      },
+      {
+        "column": "TeamCity:Which Continuous Integration (CI) system(s) do you regularly use?",
+        "kind": "multi_option",
+        "group": "ide.tools.ci",
+        "option": "TeamCity",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "flags 显示全列恒等于选项文本",
+        "year": 2019
+      }
+    ]
+  }
+}

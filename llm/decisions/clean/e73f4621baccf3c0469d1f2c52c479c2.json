@@ -1,0 +1,44 @@
+{
+  "stage": "clean_plan",
+  "model": "qwen3.5:4b",
+  "model_digest": "d8b0f5e9760cd168",
+  "prompt_version": "clean-plan-v1",
+  "input_hash": "e73f4621baccf3c0469d1f2c52c479c2",
+  "created_at": "2026-10-23T19:04:16",
+  "duration_s": 1.98,
+  "output_tokens": 135,
+  "fallback": false,
+  "error": "",
+  "manual_edit": false,
+  "reviewed": false,
+  "payload_summary": {
+    "year": 2023,
+    "candidates": 0
+  },
+  "response": {
+    "ops": [
+      {
+        "op": "drop_empty_rows",
+        "apply": false,
+        "reason": "证据显示空行数为 0，无需删除。"
+      },
+      {
+        "op": "drop_empty_cols",
+        "apply": false,
+        "reason": "证据显示空列数为 0，无需删除。"
+      },
+      {
+        "op": "drop_dup_rows",
+        "apply": true,
+        "reason": "证据显示存在 377 条重复行，需删除。"
+      },
+      {
+        "op": "drop_dup_cols",
+        "apply": false,
+        "reason": "证据显示无重复列组，无需删除。"
+      }
+    ],
+    "drop_cols": [],
+    "reason": "仅依据证据中 377 条重复行执行删除，其余列均非空且无重复。"
+  }
+}

@@ -1,0 +1,176 @@
+{
+  "stage": "clean_semantics",
+  "model": "qwen3.5:4b",
+  "model_digest": "d8b0f5e9760cd168",
+  "prompt_version": "clean-semantics-v2",
+  "input_hash": "f94843e12327eb20afac9b1a7d9c9e14",
+  "created_at": "2026-10-23T18:32:12",
+  "duration_s": 12.79,
+  "output_tokens": 981,
+  "fallback": false,
+  "error": "",
+  "manual_edit": false,
+  "reviewed": false,
+  "payload_summary": {
+    "year": 2024,
+    "batch": "opensource.description.Maintainer / Governance / Leadership…python.version.upgrade.Intel Distribution for Python",
+    "n": 18
+  },
+  "response": {
+    "columns": [
+      {
+        "column": "opensource.description.Maintainer / Governance / Leadership",
+        "kind": "multi_option",
+        "group": "opensource.description.Maintainer / Governance / Leadership",
+        "option": "Maintainer / Governance / Leadership",
+        "missing_tokens": [],
+        "reason": "flags 显示全列等于列名，判定为多选题单选项列",
+        "year": 2024
+      },
+      {
+        "column": "opensource.description.Documentation / Examples / Educational",
+        "kind": "multi_option",
+        "group": "opensource.description.Documentation / Examples / Educational",
+        "option": "Documentation / Examples / Educational",
+        "missing_tokens": [],
+        "reason": "flags 显示全列等于列名，判定为多选题单选项列",
+        "year": 2024
+      },
+      {
+        "column": "opensource.description.Code",
+        "kind": "multi_option",
+        "group": "opensource.description.Code",
+        "option": "Code",
+        "missing_tokens": [],
+        "reason": "flags 显示全列等于列名，判定为多选题单选项列",
+        "year": 2024
+      },
+      {
+        "column": "opensource.description.Tests",
+        "kind": "multi_option",
+        "group": "opensource.description.Tests",
+        "option": "Tests",
+        "missing_tokens": [],
+        "reason": "flags 显示全列等于列名，判定为多选题单选项列",
+        "year": 2024
+      },
+      {
+        "column": "opensource.description.Triaging issues or feature requests",
+        "kind": "multi_option",
+        "group": "opensource.description.Triaging issues or feature requests",
+        "option": "Triaging issues or feature requests",
+        "missing_tokens": [],
+        "reason": "flags 显示全列等于列名，判定为多选题单选项列",
+        "year": 2024
+      },
+      {
+        "column": "opensource.description.Community building / Outreach",
+        "kind": "multi_option",
+        "group": "opensource.description.Community building / Outreach",
+        "option": "Community building / Outreach",
+        "missing_tokens": [],
+        "reason": "flags 显示全列等于列名，判定为多选题单选项列",
+        "year": 2024
+      },
+      {
+        "column": "opensource.description.Other",
+        "kind": "multi_option",
+        "group": "opensource.description.Other",
+        "option": "Other",
+        "missing_tokens": [],
+        "reason": "flags 显示全列等于列名，判定为多选题单选项列",
+        "year": 2024
+      },
+      {
+        "column": "python.version.most",
+        "kind": "multi_option",
+        "group": "python.version.most",
+        "option": "Python 3",
+        "missing_tokens": [],
+        "reason": "flags 未触发 multi_like，但 top 显示选项文本，视为多选题单选项列",
+        "year": 2024
+      },
+      {
+        "column": "python2.version.most",
+        "kind": "multi_option",
+        "group": "python2.version.most",
+        "option": "Python 2_7",
+        "missing_tokens": [],
+        "reason": "flags 未触发 multi_like，但 top 显示选项文本，视为多选题单选项列",
+        "year": 2024
+      },
+      {
+        "column": "python3.version.most",
+        "kind": "multi_option",
+        "group": "python3.version.most",
+        "option": "Python 3_12",
+        "missing_tokens": [],
+        "reason": "flags 未触发 multi_like，但 top 显示选项文本，视为多选题单选项列",
+        "year": 2024
+      },
+      {
+        "column": "python.version.upgrade.Somebody else manages Python updates for me",
+        "kind": "multi_option",
+        "group": "python.version.upgrade.Somebody else manages Python updates for me",
+        "option": "Somebody else manages Python updates for me",
+        "missing_tokens": [],
+        "reason": "flags 显示全列等于列名，判定为多选题单选项列",
+        "year": 2024
+      },
+      {
+        "column": "python.version.upgrade.Python_org",
+        "kind": "multi_option",
+        "group": "python.version.upgrade.Python_org",
+        "option": "Python_org",
+        "missing_tokens": [],
+        "reason": "flags 显示全列等于列名，判定为多选题单选项列",
+        "year": 2024
+      },
+      {
+        "column": "python.version.upgrade.Build from source",
+        "kind": "multi_option",
+        "group": "python.version.upgrade.Build from source",
+        "option": "Build from source",
+        "missing_tokens": [],
+        "reason": "flags 显示全列等于列名，判定为多选题单选项列",
+        "year": 2024
+      },
+      {
+        "column": "python.version.upgrade.Automatic upgrade via cloud provider",
+        "kind": "multi_option",
+        "group": "python.version.upgrade.Automatic upgrade via cloud provider",
+        "option": "Automatic upgrade via cloud provider",
+        "missing_tokens": [],
+        "reason": "flags 显示全列等于列名，判定为多选题单选项列",
+        "year": 2024
+      },
+      {
+        "column": "python.version.upgrade.Anaconda",
+        "kind": "multi_option",
+        "group": "python.version.upgrade.Anaconda",
+        "option": "Anaconda",
+        "missing_tokens": [],
+        "reason": "flags 显示全列等于列名，判定为多选题单选项列",
+        "year": 2024
+      },
+      {
+        "column": "python.version.upgrade.ActivePython",
+        "kind": "multi_option",
+        "group": "python.version.upgrade.ActivePython",
+        "option": "ActivePython",
+        "missing_tokens": [],
+        "reason": "flags 显示全列等于列名，判定为多选题单选项列",
+        "year": 2024
+      },
+      {
+        "column": "python.version.upgrade.Intel Distribution for Python",
+        "kind": "multi_option",
+        "group": "python.version.upgrade.Intel Distribution for Python",
+        "option": "Intel Distribution for Python",
+        "missing_tokens": [],
+        "reason": "flags 显示全列等于列名，判定为多选题单选项列",
+        "year": 2024
+      }
+    ]
+  }
+}

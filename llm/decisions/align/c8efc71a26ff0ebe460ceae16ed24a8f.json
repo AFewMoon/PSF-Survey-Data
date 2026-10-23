@@ -1,0 +1,35 @@
+{
+  "stage": "option_alias",
+  "model": "qwen3.5:4b",
+  "model_digest": "d8b0f5e9760cd168",
+  "prompt_version": "option-alias-v2",
+  "input_hash": "c8efc71a26ff0ebe460ceae16ed24a8f",
+  "created_at": "2026-10-23T19:20:11",
+  "duration_s": 1.46,
+  "output_tokens": 46,
+  "fallback": false,
+  "error": "",
+  "manual_edit": false,
+  "reviewed": false,
+  "payload_summary": {
+    "groups": 10,
+    "values": 53
+  },
+  "response": {
+    "groups": [
+      {
+        "name": "ide.editor.use code coverage",
+        "options": [
+          {
+            "variants": [
+              "From time<br />to time",
+              "From time to time"
+            ],
+            "canonical": "From time to time",
+            "reason": "移除 HTML 换行符"
+          }
+        ]
+      }
+    ]
+  }
+}

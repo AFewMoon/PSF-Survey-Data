@@ -1,0 +1,185 @@
+{
+  "stage": "clean_semantics",
+  "model": "qwen3.5:4b",
+  "model_digest": "d8b0f5e9760cd168",
+  "prompt_version": "clean-semantics-v2",
+  "input_hash": "eb61c9a715421b60ec373c4a6b8ad1a6",
+  "created_at": "2026-10-23T19:03:48",
+  "duration_s": 10.47,
+  "output_tokens": 781,
+  "fallback": false,
+  "error": "",
+  "manual_edit": false,
+  "reviewed": false,
+  "payload_summary": {
+    "year": 2023,
+    "batch": "packages.install.from.From Linux distribution…binary.modules.language.Assembly",
+    "n": 18
+  },
+  "response": {
+    "columns": [
+      {
+        "column": "packages.install.from.From Linux distribution",
+        "kind": "multi_option",
+        "group": "packages.install.from",
+        "option": "From Linux distribution",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列仅含该选项文本",
+        "year": 2023
+      },
+      {
+        "column": "packages.install.from.Other",
+        "kind": "multi_option",
+        "group": "packages.install.from",
+        "option": "Other",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列仅含该选项文本",
+        "year": 2023
+      },
+      {
+        "column": "app.publish",
+        "kind": "single_choice",
+        "group": "app.publish",
+        "option": "No",
+        "missing_tokens": [],
+        "reason": "非 multi_like 且非 numeric，含 Yes/No/I'm not sure 等文本选项",
+        "year": 2023
+      },
+      {
+        "column": "libraries.tools.Flit",
+        "kind": "multi_option",
+        "group": "libraries.tools",
+        "option": "Flit",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列仅含该选项文本",
+        "year": 2023
+      },
+      {
+        "column": "libraries.tools.Hatch",
+        "kind": "multi_option",
+        "group": "libraries.tools",
+        "option": "Hatch",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列仅含该选项文本",
+        "year": 2023
+      },
+      {
+        "column": "libraries.tools.PDM",
+        "kind": "multi_option",
+        "group": "libraries.tools",
+        "option": "PDM",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列仅含该选项文本",
+        "year": 2023
+      },
+      {
+        "column": "libraries.tools.Twine",
+        "kind": "multi_option",
+        "group": "libraries.tools",
+        "option": "Twine",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列仅含该选项文本",
+        "year": 2023
+      },
+      {
+        "column": "libraries.tools.Poetry",
+        "kind": "multi_option",
+        "group": "libraries.tools",
+        "option": "Poetry",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列仅含该选项文本",
+        "year": 2023
+      },
+      {
+        "column": "libraries.tools.Other",
+        "kind": "multi_option",
+        "group": "libraries.tools",
+        "option": "Other",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列仅含该选项文本",
+        "year": 2023
+      },
+      {
+        "column": "environments.container",
+        "kind": "single_choice",
+        "group": "environments.container",
+        "option": "No",
+        "missing_tokens": [],
+        "reason": "非 multi_like 且非 numeric，含 Yes/No/Other 等文本选项",
+        "year": 2023
+      },
+      {
+        "column": "monorepo",
+        "kind": "single_choice",
+        "group": "monorepo",
+        "option": "No",
+        "missing_tokens": [],
+        "reason": "非 multi_like 且非 numeric，含 Yes/No 等文本选项",
+        "year": 2023
+      },
+      {
+        "column": "binary.modules.creation",
+        "kind": "single_choice",
+        "group": "binary.modules.creation",
+        "option": "No",
+        "missing_tokens": [],
+        "reason": "非 multi_like 且非 numeric，含 Yes/No 等文本选项",
+        "year": 2023
+      },
+      {
+        "column": "binary.modules.language.C",
+        "kind": "multi_option",
+        "group": "binary.modules.language",
+        "option": "C",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列仅含该选项文本",
+        "year": 2023
+      },
+      {
+        "column": "binary.modules.language.C++",
+        "kind": "multi_option",
+        "group": "binary.modules.language",
+        "option": "C++",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列仅含该选项文本",
+        "year": 2023
+      },
+      {
+        "column": "binary.modules.language.Rust",
+        "kind": "multi_option",
+        "group": "binary.modules.language",
+        "option": "Rust",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列仅含该选项文本",
+        "year": 2023
+      },
+      {
+        "column": "binary.modules.language.Go",
+        "kind": "multi_option",
+        "group": "binary.modules.language",
+        "option": "Go",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列仅含该选项文本",
+        "year": 2023
+      },
+      {
+        "column": "binary.modules.language.Fortran",
+        "kind": "multi_option",
+        "group": "binary.modules.language",
+        "option": "Fortran",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列仅含该选项文本",
+        "year": 2023
+      },
+      {
+        "column": "binary.modules.language.Assembly",
+        "kind": "multi_option",
+        "group": "binary.modules.language",
+        "option": "Assembly",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列仅含该选项文本",
+        "year": 2023
+      }
+    ]
+  }
+}

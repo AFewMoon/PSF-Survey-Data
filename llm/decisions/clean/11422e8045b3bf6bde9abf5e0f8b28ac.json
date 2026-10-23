@@ -1,0 +1,135 @@
+{
+  "stage": "clean_semantics",
+  "model": "qwen3.5:4b",
+  "model_digest": "d8b0f5e9760cd168",
+  "prompt_version": "clean-semantics-v2",
+  "input_hash": "11422e8045b3bf6bde9abf5e0f8b28ac",
+  "created_at": "2026-10-23T18:53:03",
+  "duration_s": 12.41,
+  "output_tokens": 951,
+  "fallback": false,
+  "error": "",
+  "manual_edit": false,
+  "reviewed": false,
+  "payload_summary": {
+    "year": 2021,
+    "batch": "first.learn.about.main.ide…communicate.channels.I’ve never contacted  the core developers",
+    "n": 18
+  },
+  "response": {
+    "columns": [
+      {
+        "column": "first.learn.about.main.ide",
+        "kind": "multi_option",
+        "group": "first.learn.about.main.ide",
+        "option": "Friend / Colleague",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值等于列名选项",
+        "year": 2021
+      },
+      {
+        "column": "how.often.use.main.ide",
+        "kind": "multi_option",
+        "group": "how.often.use.main.ide",
+        "option": "Daily",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值等于列名选项",
+        "year": 2021
+      },
+      {
+        "column": "missing.features.main.ide",
+        "kind": "multi_option",
+        "group": "missing.features.main.ide",
+        "option": "No, it has all the features I need",
+        "missing_tokens": [
+          "Yes – Please list:"
+        ],
+        "reason": "flags 显示 multi_like，'Yes' 为缺失标记",
+        "year": 2021
+      },
+      {
+        "column": "nps.main.ide",
+        "kind": "numeric",
+        "group": "nps.main.ide",
+        "option": "10",
+        "missing_tokens": [],
+        "reason": "flags 显示 numeric_like，全列为数字评分",
+        "year": 2021
+      },
+      {
+        "column": "issue.report.No",
+        "kind": "multi_option",
+        "group": "issue.report.No",
+        "option": "No",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值等于列名选项",
+        "year": 2021
+      },
+      {
+        "column": "issue.solved",
+        "kind": "multi_option",
+        "group": "issue.solved",
+        "option": "Yes, eventually",
+        "missing_tokens": [
+          "Other"
+        ],
+        "reason": "flags 显示 multi_like，'Other' 为缺失标记",
+        "year": 2021
+      },
+      {
+        "column": "communicate.channels.Mailing lists",
+        "kind": "multi_option",
+        "group": "communicate.channels.Mailing lists",
+        "option": "Mailing lists",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值等于列名选项",
+        "year": 2021
+      },
+      {
+        "column": "communicate.channels.Discourse",
+        "kind": "multi_option",
+        "group": "communicate.channels.Discourse",
+        "option": "Discourse",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值等于列名选项",
+        "year": 2021
+      },
+      {
+        "column": "communicate.channels.GitHub",
+        "kind": "multi_option",
+        "group": "communicate.channels.GitHub",
+        "option": "GitHub",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值等于列名选项",
+        "year": 2021
+      },
+      {
+        "column": "communicate.channels.Twitter",
+        "kind": "multi_option",
+        "group": "communicate.channels.Twitter",
+        "option": "Twitter",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值等于列名选项",
+        "year": 2021
+      },
+      {
+        "column": "communicate.channels.IRC",
+        "kind": "multi_option",
+        "group": "communicate.channels.IRC",
+        "option": "IRC",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值等于列名选项",
+        "year": 2021
+      },
+      {
+        "column": "communicate.channels.bugs_python_org",
+        "kind": "multi_option",
+        "group": "communicate.channels.bugs_python_org",
+        "option": "bugs_python_org",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值等于列名选项",
+        "year": 2021
+      }
+    ]
+  }
+}

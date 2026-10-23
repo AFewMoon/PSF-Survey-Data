@@ -1,0 +1,98 @@
+{
+  "stage": "stats_plan",
+  "model": "qwen3.5:4b",
+  "model_digest": "d8b0f5e9760cd168",
+  "prompt_version": "stats-plan-v1",
+  "input_hash": "eab4f329caa9b848b527cdd8829b6b1a",
+  "created_at": "2026-10-23T19:24:06",
+  "duration_s": 5.36,
+  "output_tokens": 322,
+  "fallback": false,
+  "error": "",
+  "manual_edit": false,
+  "reviewed": false,
+  "payload_summary": {
+    "groups": 6,
+    "singles": 1
+  },
+  "response": {
+    "topics": [
+      {
+        "name": "preferred_language",
+        "prefixes": [
+          "other.lang"
+        ],
+        "top_n": 10,
+        "denominator": "total",
+        "reason": "核心技能画像，跨年份对比最稳定"
+      },
+      {
+        "name": "primary_ide",
+        "prefixes": [
+          "ide.editor"
+        ],
+        "top_n": 10,
+        "denominator": "total",
+        "reason": "开发环境变迁，反映技术栈迭代"
+      },
+      {
+        "name": "python_usage",
+        "prefixes": [
+          "ide.python_version"
+        ],
+        "top_n": 10,
+        "denominator": "total",
+        "reason": "Python 普及度与版本演进趋势"
+      },
+      {
+        "name": "team_size",
+        "prefixes": [
+          "team"
+        ],
+        "top_n": 10,
+        "denominator": "total",
+        "reason": "开发者所处组织规模分布变化"
+      },
+      {
+        "name": "employment_status",
+        "prefixes": [
+          "employment"
+        ],
+        "top_n": 10,
+        "denominator": "total",
+        "reason": "就业形态（全职/自由）结构演变"
+      },
+      {
+        "name": "company_size",
+        "prefixes": [
+          "company"
+        ],
+        "top_n": 10,
+        "denominator": "total",
+        "reason": "企业规模偏好，反映行业集中度"
+      },
+      {
+        "name": "programming_languages",
+        "prefixes": [
+          "other.lang"
+        ],
+        "top_n": 8,
+        "denominator": "total",
+        "reason": "多语言技能分布，补充画像维度"
+      },
+      {
+        "name": "editor_preferences",
+        "prefixes": [
+          "ide.editor"
+        ],
+        "top_n": 8,
+        "denominator": "total",
+        "reason": "编辑器生态竞争与主流更替"
+      }
+    ],
+    "singles": [
+      "ide.python_version"
+    ],
+    "reason": "聚焦开发者画像（语言、IDE、团队）与工具生态，利用 Python 版本作为关键单变量，通过总样本分母计算占比，对比 2019-2024 年技术演进趋势。"
+  }
+}

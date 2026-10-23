@@ -1,0 +1,11 @@
+topic,group,option,n,pct,denominator,year
+primary_ide,ide.editor,Jupyter Notebook,3552,12.25,28997,2024
+primary_ide,ide.editor,Vim,2801,9.66,28997,2024
+primary_ide,ide.editor,PyCharm Community Edition,2431,8.38,28997,2024
+primary_ide,ide.editor,NotePad++,2145,7.4,28997,2024
+primary_ide,ide.editor,JupyterLab,2025,6.98,28997,2024
+primary_ide,ide.editor,Sublime Text,1375,4.74,28997,2024
+primary_ide,ide.editor,PyCharm Professional Edition,1133,3.91,28997,2024
+primary_ide,ide.editor,IDLE,950,3.28,28997,2024
+primary_ide,ide.editor,Spyder,619,2.13,28997,2024
+primary_ide,ide.editor,IntelliJ IDEA,615,2.12,28997,2024

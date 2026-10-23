@@ -1,0 +1,210 @@
+{
+  "stage": "clean_semantics",
+  "model": "qwen3.5:4b",
+  "model_digest": "d8b0f5e9760cd168",
+  "prompt_version": "clean-semantics-v2",
+  "input_hash": "73b67f8f7b323baac3fa37c1756c1eb7",
+  "created_at": "2026-10-23T18:41:43",
+  "duration_s": 12.89,
+  "output_tokens": 979,
+  "fallback": false,
+  "error": "",
+  "manual_edit": false,
+  "reviewed": false,
+  "payload_summary": {
+    "year": 2019,
+    "batch": "Multimedia applications development:To what extent are you involved in the following activities?…I don’t update:What do you typically use to upgrade your Python version?",
+    "n": 18
+  },
+  "response": {
+    "columns": [
+      {
+        "column": "Multimedia applications development:To what extent are you involved in the following activities?",
+        "kind": "multi_level",
+        "group": "ide.multimedia",
+        "option": "primary activity",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "全列含程度词，符合 multi_level 特征",
+        "year": 2019
+      },
+      {
+        "column": "Network programming:To what extent are you involved in the following activities?",
+        "kind": "multi_level",
+        "group": "ide.network",
+        "option": "primary activity",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "全列含程度词，符合 multi_level 特征",
+        "year": 2019
+      },
+      {
+        "column": "Other:To what extent are you involved in the following activities?",
+        "kind": "free_text",
+        "group": "ide.other",
+        "option": "",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "自由文本，长度变异大，非结构化数据",
+        "year": 2019
+      },
+      {
+        "column": "Programming of web parsers / scrapers / crawlers:To what extent are you involved in the following activities?",
+        "kind": "multi_level",
+        "group": "ide.web_parsers",
+        "option": "primary activity",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "全列含程度词，符合 multi_level 特征",
+        "year": 2019
+      },
+      {
+        "column": "Software prototyping:To what extent are you involved in the following activities?",
+        "kind": "multi_level",
+        "group": "ide.prototyping",
+        "option": "primary activity",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "全列含程度词，符合 multi_level 特征",
+        "year": 2019
+      },
+      {
+        "column": "Software testing / Writing automated tests:To what extent are you involved in the following activities?",
+        "kind": "multi_level",
+        "group": "ide.testing",
+        "option": "primary activity",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "全列含程度词，符合 multi_level 特征",
+        "year": 2019
+      },
+      {
+        "column": "Web development:To what extent are you involved in the following activities?",
+        "kind": "multi_level",
+        "group": "ide.web_dev",
+        "option": "primary activity",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "全列含程度词，符合 multi_level 特征",
+        "year": 2019
+      },
+      {
+        "column": "What do you use Python for the most?",
+        "kind": "single_choice",
+        "group": "ide.python_use",
+        "option": "Web development",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "单值选择，n_unique=17 为不同回答选项",
+        "year": 2019
+      },
+      {
+        "column": "Do you consider yourself as a Data-Scientist?",
+        "kind": "single_choice",
+        "group": "ide.data_scientist",
+        "option": "Yes",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "单值选择，n_unique=4 为不同回答选项",
+        "year": 2019
+      },
+      {
+        "column": "Which version of Python do you use the most?",
+        "kind": "single_choice",
+        "group": "ide.python_version",
+        "option": "Python 3",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "单值选择，n_unique=3 为不同回答选项",
+        "year": 2019
+      },
+      {
+        "column": "Which version of Python 2 do you use the most?",
+        "kind": "single_choice",
+        "group": "ide.python2_version",
+        "option": "Python 2.7",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "单值选择，n_unique=9 为不同回答选项",
+        "year": 2019
+      },
+      {
+        "column": "Which version of Python 3 do you use the most?",
+        "kind": "single_choice",
+        "group": "ide.python3_version",
+        "option": "Python 3.7",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "单值选择，n_unique=11 为不同回答选项",
+        "year": 2019
+      },
+      {
+        "column": "ActivePython:What do you typically use to upgrade your Python version?",
+        "kind": "multi_option",
+        "group": "ide.upgrade.activepython",
+        "option": "ActivePython",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "flags 含 multi_like，全列仅两值",
+        "year": 2019
+      },
+      {
+        "column": "Anaconda:What do you typically use to upgrade your Python version?",
+        "kind": "multi_option",
+        "group": "ide.upgrade.anaconda",
+        "option": "Anaconda",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "flags 含 multi_like，全列仅两值",
+        "year": 2019
+      },
+      {
+        "column": "Automatic upgrade via cloud provider:What do you typically use to upgrade your Python version?",
+        "kind": "multi_option",
+        "group": "ide.upgrade.cloud",
+        "option": "Automatic upgrade via cloud provider",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "flags 含 multi_like，全列仅两值",
+        "year": 2019
+      },
+      {
+        "column": "Build from source:What do you typically use to upgrade your Python version?",
+        "kind": "multi_option",
+        "group": "ide.upgrade.source",
+        "option": "Build from source",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "flags 含 multi_like，全列仅两值",
+        "year": 2019
+      },
+      {
+        "column": "Enthought:What do you typically use to upgrade your Python version?",
+        "kind": "multi_option",
+        "group": "ide.upgrade.enthought",
+        "option": "Enthought",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "flags 含 multi_like，全列仅两值",
+        "year": 2019
+      }
+    ]
+  }
+}

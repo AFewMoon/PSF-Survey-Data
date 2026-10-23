@@ -1,0 +1,187 @@
+{
+  "stage": "clean_semantics",
+  "model": "qwen3.5:4b",
+  "model_digest": "d8b0f5e9760cd168",
+  "prompt_version": "clean-semantics-v2",
+  "input_hash": "9599447ce6049a25585411297169f12b",
+  "created_at": "2026-10-23T19:01:20",
+  "duration_s": 10.5,
+  "output_tokens": 802,
+  "fallback": false,
+  "error": "",
+  "manual_edit": false,
+  "reviewed": false,
+  "payload_summary": {
+    "year": 2023,
+    "batch": "devenv.os.BSD…versioning.tools.None",
+    "n": 18
+  },
+  "response": {
+    "columns": [
+      {
+        "column": "devenv.os.BSD",
+        "kind": "multi_option",
+        "group": "devenv.os",
+        "option": "BSD",
+        "missing_tokens": [],
+        "reason": "全列值恒为 BSD，符合 multi_like 特征",
+        "year": 2023
+      },
+      {
+        "column": "devenv.os.Other",
+        "kind": "multi_option",
+        "group": "devenv.os",
+        "option": "Other",
+        "missing_tokens": [],
+        "reason": "全列值恒为 Other，符合 multi_like 特征",
+        "year": 2023
+      },
+      {
+        "column": "data.exploration",
+        "kind": "single_choice",
+        "group": "data.exploration",
+        "option": "Yes",
+        "missing_tokens": [
+          "No"
+        ],
+        "reason": "仅含 Yes/No 两值，非全列恒等，判定为单选",
+        "year": 2023
+      },
+      {
+        "column": "exploration.tools.None",
+        "kind": "multi_option",
+        "group": "exploration.tools",
+        "option": "None",
+        "missing_tokens": [],
+        "reason": "全列值恒为 None，符合 multi_like 特征",
+        "year": 2023
+      },
+      {
+        "column": "exploration.tools.Airflow",
+        "kind": "multi_option",
+        "group": "exploration.tools",
+        "option": "Airflow",
+        "missing_tokens": [],
+        "reason": "全列值恒为 Airflow，符合 multi_like 特征",
+        "year": 2023
+      },
+      {
+        "column": "exploration.tools.Spark",
+        "kind": "multi_option",
+        "group": "exploration.tools",
+        "option": "Spark",
+        "missing_tokens": [],
+        "reason": "全列值恒为 Spark，符合 multi_like 特征",
+        "year": 2023
+      },
+      {
+        "column": "exploration.tools.Kubeflow",
+        "kind": "multi_option",
+        "group": "exploration.tools",
+        "option": "Kubeflow",
+        "missing_tokens": [],
+        "reason": "全列值恒为 Kubeflow，符合 multi_like 特征",
+        "year": 2023
+      },
+      {
+        "column": "exploration.tools.Prefect",
+        "kind": "multi_option",
+        "group": "exploration.tools",
+        "option": "Prefect",
+        "missing_tokens": [],
+        "reason": "全列值恒为 Prefect，符合 multi_like 特征",
+        "year": 2023
+      },
+      {
+        "column": "exploration.tools.Dask",
+        "kind": "multi_option",
+        "group": "exploration.tools",
+        "option": "Dask",
+        "missing_tokens": [],
+        "reason": "全列值恒为 Dask，符合 multi_like 特征",
+        "year": 2023
+      },
+      {
+        "column": "exploration.tools.Luigi",
+        "kind": "multi_option",
+        "group": "exploration.tools",
+        "option": "Luigi",
+        "missing_tokens": [],
+        "reason": "全列值恒为 Luigi，符合 multi_like 特征",
+        "year": 2023
+      },
+      {
+        "column": "exploration.tools.Dagster",
+        "kind": "multi_option",
+        "group": "exploration.tools",
+        "option": "Dagster",
+        "missing_tokens": [],
+        "reason": "全列值恒为 Dagster，符合 multi_like 特征",
+        "year": 2023
+      },
+      {
+        "column": "exploration.tools.NumPy",
+        "kind": "multi_option",
+        "group": "exploration.tools",
+        "option": "NumPy",
+        "missing_tokens": [],
+        "reason": "全列值恒为 NumPy，符合 multi_like 特征",
+        "year": 2023
+      },
+      {
+        "column": "exploration.tools.pandas",
+        "kind": "multi_option",
+        "group": "exploration.tools",
+        "option": "pandas",
+        "missing_tokens": [],
+        "reason": "全列值恒为 pandas，符合 multi_like 特征",
+        "year": 2023
+      },
+      {
+        "column": "exploration.tools.Polars",
+        "kind": "multi_option",
+        "group": "exploration.tools",
+        "option": "Polars",
+        "missing_tokens": [],
+        "reason": "全列值恒为 Polars，符合 multi_like 特征",
+        "year": 2023
+      },
+      {
+        "column": "exploration.tools.Ray",
+        "kind": "multi_option",
+        "group": "exploration.tools",
+        "option": "Ray",
+        "missing_tokens": [],
+        "reason": "全列值恒为 Ray，符合 multi_like 特征",
+        "year": 2023
+      },
+      {
+        "column": "exploration.tools.An in-house solution",
+        "kind": "multi_option",
+        "group": "exploration.tools",
+        "option": "An in-house solution",
+        "missing_tokens": [],
+        "reason": "全列值恒为 An in-house solution，符合 multi_like 特征",
+        "year": 2023
+      },
+      {
+        "column": "exploration.tools.Other",
+        "kind": "multi_option",
+        "group": "exploration.tools",
+        "option": "Other",
+        "missing_tokens": [],
+        "reason": "全列值恒为 Other，符合 multi_like 特征",
+        "year": 2023
+      },
+      {
+        "column": "versioning.tools.None",
+        "kind": "multi_option",
+        "group": "versioning.tools",
+        "option": "None",
+        "missing_tokens": [],
+        "reason": "全列值恒为 None，符合 multi_like 特征",
+        "year": 2023
+      }
+    ]
+  }
+}

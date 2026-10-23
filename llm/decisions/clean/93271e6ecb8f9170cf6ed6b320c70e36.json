@@ -1,0 +1,176 @@
+{
+  "stage": "clean_semantics",
+  "model": "qwen3.5:4b",
+  "model_digest": "d8b0f5e9760cd168",
+  "prompt_version": "clean-semantics-v2",
+  "input_hash": "93271e6ecb8f9170cf6ed6b320c70e36",
+  "created_at": "2026-10-23T18:36:26",
+  "duration_s": 9.99,
+  "output_tokens": 744,
+  "fallback": false,
+  "error": "",
+  "manual_edit": false,
+  "reviewed": false,
+  "payload_summary": {
+    "year": 2024,
+    "batch": "dependency.tools.Poetry…packages.install.from.An internal mirror of PyPI",
+    "n": 18
+  },
+  "response": {
+    "columns": [
+      {
+        "column": "dependency.tools.Poetry",
+        "kind": "multi_option",
+        "group": "dependency.tools",
+        "option": "Poetry",
+        "missing_tokens": [],
+        "reason": "flags 显示全列恒等于选项文本",
+        "year": 2024
+      },
+      {
+        "column": "dependency.tools.PDM",
+        "kind": "multi_option",
+        "group": "dependency.tools",
+        "option": "PDM",
+        "missing_tokens": [],
+        "reason": "flags 显示全列恒等于选项文本",
+        "year": 2024
+      },
+      {
+        "column": "dependency.tools.Hatch",
+        "kind": "multi_option",
+        "group": "dependency.tools",
+        "option": "Hatch",
+        "missing_tokens": [],
+        "reason": "flags 显示全列恒等于选项文本",
+        "year": 2024
+      },
+      {
+        "column": "dependency.tools.pip-tools",
+        "kind": "multi_option",
+        "group": "dependency.tools",
+        "option": "pip-tools",
+        "missing_tokens": [],
+        "reason": "flags 显示全列恒等于选项文本",
+        "year": 2024
+      },
+      {
+        "column": "dependency.tools.Other",
+        "kind": "multi_option",
+        "group": "dependency.tools",
+        "option": "Other",
+        "missing_tokens": [],
+        "reason": "flags 显示全列恒等于选项文本",
+        "year": 2024
+      },
+      {
+        "column": "dependency.tools.None",
+        "kind": "multi_option",
+        "group": "dependency.tools",
+        "option": "None",
+        "missing_tokens": [],
+        "reason": "flags 显示全列恒等于选项文本",
+        "year": 2024
+      },
+      {
+        "column": "dependency.store.requirements_txt",
+        "kind": "multi_option",
+        "group": "dependency.store",
+        "option": "requirements_txt",
+        "missing_tokens": [],
+        "reason": "flags 显示全列恒等于选项文本",
+        "year": 2024
+      },
+      {
+        "column": "dependency.store.pyproject_toml",
+        "kind": "multi_option",
+        "group": "dependency.store",
+        "option": "pyproject_toml",
+        "missing_tokens": [],
+        "reason": "flags 显示全列恒等于选项文本",
+        "year": 2024
+      },
+      {
+        "column": "dependency.store.Pipfile",
+        "kind": "multi_option",
+        "group": "dependency.store",
+        "option": "Pipfile",
+        "missing_tokens": [],
+        "reason": "flags 显示全列恒等于选项文本",
+        "year": 2024
+      },
+      {
+        "column": "dependency.store.hatch_toml",
+        "kind": "multi_option",
+        "group": "dependency.store",
+        "option": "hatch_toml",
+        "missing_tokens": [],
+        "reason": "flags 显示全列恒等于选项文本",
+        "year": 2024
+      },
+      {
+        "column": "dependency.store.environment_yml",
+        "kind": "multi_option",
+        "group": "dependency.store",
+        "option": "environment_yml",
+        "missing_tokens": [],
+        "reason": "flags 显示全列恒等于选项文本",
+        "year": 2024
+      },
+      {
+        "column": "dependency.store.setup_py",
+        "kind": "multi_option",
+        "group": "dependency.store",
+        "option": "setup_py",
+        "missing_tokens": [],
+        "reason": "flags 显示全列恒等于选项文本",
+        "year": 2024
+      },
+      {
+        "column": "dependency.store.setup_cfg",
+        "kind": "multi_option",
+        "group": "dependency.store",
+        "option": "setup_cfg",
+        "missing_tokens": [],
+        "reason": "flags 显示全列恒等于选项文本",
+        "year": 2024
+      },
+      {
+        "column": "dependency.store.Other",
+        "kind": "multi_option",
+        "group": "dependency.store",
+        "option": "Other",
+        "missing_tokens": [],
+        "reason": "flags 显示全列恒等于选项文本",
+        "year": 2024
+      },
+      {
+        "column": "packages.install.from.PyPI",
+        "kind": "multi_option",
+        "group": "packages.install.from",
+        "option": "PyPI",
+        "missing_tokens": [],
+        "reason": "flags 显示全列恒等于选项文本",
+        "year": 2024
+      },
+      {
+        "column": "packages.install.from.A local source",
+        "kind": "multi_option",
+        "group": "packages.install.from",
+        "option": "A local source",
+        "missing_tokens": [],
+        "reason": "flags 显示全列恒等于选项文本",
+        "year": 2024
+      },
+      {
+        "column": "packages.install.from.An internal mirror of PyPI",
+        "kind": "multi_option",
+        "group": "packages.install.from",
+        "option": "An internal mirror of PyPI",
+        "missing_tokens": [],
+        "reason": "flags 显示全列恒等于选项文本",
+        "year": 2024
+      }
+    ]
+  }
+}

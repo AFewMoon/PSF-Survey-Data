@@ -1,0 +1,104 @@
+{
+  "stage": "clean_semantics",
+  "model": "qwen3.5:4b",
+  "model_digest": "d8b0f5e9760cd168",
+  "prompt_version": "clean-semantics-v2",
+  "input_hash": "1c748b1cff09f84eb36fac668c49ba58",
+  "created_at": "2026-10-23T18:54:23",
+  "duration_s": 5.83,
+  "output_tokens": 437,
+  "fallback": false,
+  "error": "",
+  "manual_edit": false,
+  "reviewed": false,
+  "payload_summary": {
+    "year": 2021,
+    "batch": "how.involved.fixed.Software prototyping…how.involved.fixed.Multimedia applications development",
+    "n": 9
+  },
+  "response": {
+    "columns": [
+      {
+        "column": "how.involved.fixed.Software prototyping",
+        "kind": "multi_option",
+        "group": "how.involved.fixed",
+        "option": "Software prototyping",
+        "missing_tokens": [],
+        "reason": "全列取值恒等于列名选项，符合 multi_like",
+        "year": 2021
+      },
+      {
+        "column": "how.involved.fixed.Network programming",
+        "kind": "multi_option",
+        "group": "how.involved.fixed",
+        "option": "Network programming",
+        "missing_tokens": [],
+        "reason": "全列取值恒等于列名选项，符合 multi_like",
+        "year": 2021
+      },
+      {
+        "column": "how.involved.fixed.Programming of web parsers / scrapers / crawlers",
+        "kind": "multi_option",
+        "group": "how.involved.fixed",
+        "option": "Programming of web parsers / scrapers / crawlers",
+        "missing_tokens": [],
+        "reason": "全列取值恒等于列名选项，符合 multi_like",
+        "year": 2021
+      },
+      {
+        "column": "how.involved.fixed.Embedded development",
+        "kind": "multi_option",
+        "group": "how.involved.fixed",
+        "option": "Embedded development",
+        "missing_tokens": [],
+        "reason": "全列取值恒等于列名选项，符合 multi_like",
+        "year": 2021
+      },
+      {
+        "column": "how.involved.fixed.Mobile development",
+        "kind": "multi_option",
+        "group": "how.involved.fixed",
+        "option": "Mobile development",
+        "missing_tokens": [],
+        "reason": "全列取值恒等于列名选项，符合 multi_like",
+        "year": 2021
+      },
+      {
+        "column": "how.involved.fixed.Machine learning",
+        "kind": "multi_option",
+        "group": "how.involved.fixed",
+        "option": "Machine learning",
+        "missing_tokens": [],
+        "reason": "全列取值恒等于列名选项，符合 multi_like",
+        "year": 2021
+      },
+      {
+        "column": "how.involved.fixed.Game development",
+        "kind": "multi_option",
+        "group": "how.involved.fixed",
+        "option": "Game development",
+        "missing_tokens": [],
+        "reason": "全列取值恒等于列名选项，符合 multi_like",
+        "year": 2021
+      },
+      {
+        "column": "how.involved.fixed.Computer graphics",
+        "kind": "multi_option",
+        "group": "how.involved.fixed",
+        "option": "Computer graphics",
+        "missing_tokens": [],
+        "reason": "全列取值恒等于列名选项，符合 multi_like",
+        "year": 2021
+      },
+      {
+        "column": "how.involved.fixed.Multimedia applications development",
+        "kind": "multi_option",
+        "group": "how.involved.fixed",
+        "option": "Multimedia applications development",
+        "missing_tokens": [],
+        "reason": "全列取值恒等于列名选项，符合 multi_like",
+        "year": 2021
+      }
+    ]
+  }
+}

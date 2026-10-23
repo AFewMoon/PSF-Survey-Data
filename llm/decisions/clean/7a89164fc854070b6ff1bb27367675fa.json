@@ -1,0 +1,86 @@
+{
+  "stage": "clean_semantics",
+  "model": "qwen3.5:4b",
+  "model_digest": "d8b0f5e9760cd168",
+  "prompt_version": "clean-semantics-v2",
+  "input_hash": "7a89164fc854070b6ff1bb27367675fa",
+  "created_at": "2026-10-23T18:58:51",
+  "duration_s": 3.93,
+  "output_tokens": 286,
+  "fallback": false,
+  "error": "",
+  "manual_edit": false,
+  "reviewed": false,
+  "payload_summary": {
+    "year": 2022,
+    "batch": "job.role.Product manager…country",
+    "n": 7
+  },
+  "response": {
+    "columns": [
+      {
+        "column": "job.role.Product manager",
+        "kind": "multi_option",
+        "group": "job.role",
+        "option": "Product manager",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列等于选项文本",
+        "year": 2022
+      },
+      {
+        "column": "job.role.CIO / CEO / CTO",
+        "kind": "multi_option",
+        "group": "job.role",
+        "option": "CIO / CEO / CTO",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列等于选项文本",
+        "year": 2022
+      },
+      {
+        "column": "job.role.Systems analyst",
+        "kind": "multi_option",
+        "group": "job.role",
+        "option": "Systems analyst",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列等于选项文本",
+        "year": 2022
+      },
+      {
+        "column": "job.role.Other",
+        "kind": "multi_option",
+        "group": "job.role",
+        "option": "Other",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列等于选项文本",
+        "year": 2022
+      },
+      {
+        "column": "age",
+        "kind": "numeric",
+        "group": "demographics.age",
+        "option": "21–29",
+        "missing_tokens": [],
+        "reason": "flags 为 numeric_like，含范围数字",
+        "year": 2022
+      },
+      {
+        "column": "gender",
+        "kind": "multi_option",
+        "group": "demographics.gender",
+        "option": "Male",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列等于选项文本",
+        "year": 2022
+      },
+      {
+        "column": "country",
+        "kind": "multi_option",
+        "group": "demographics.country",
+        "option": "United States",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列等于选项文本",
+        "year": 2022
+      }
+    ]
+  }
+}

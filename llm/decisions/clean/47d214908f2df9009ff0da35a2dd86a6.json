@@ -1,0 +1,185 @@
+{
+  "stage": "clean_semantics",
+  "model": "qwen3.5:4b",
+  "model_digest": "d8b0f5e9760cd168",
+  "prompt_version": "clean-semantics-v2",
+  "input_hash": "47d214908f2df9009ff0da35a2dd86a6",
+  "created_at": "2026-10-23T18:50:44",
+  "duration_s": 9.94,
+  "output_tokens": 736,
+  "fallback": false,
+  "error": "",
+  "manual_edit": false,
+  "reviewed": false,
+  "payload_summary": {
+    "year": 2021,
+    "batch": "is.python.main…other.lang.Clojure",
+    "n": 18
+  },
+  "response": {
+    "columns": [
+      {
+        "column": "is.python.main",
+        "kind": "single_choice",
+        "group": "ide.editor",
+        "option": "Yes",
+        "missing_tokens": [],
+        "reason": "全列唯一值且含 Yes/No，符合单选题特征",
+        "year": 2021
+      },
+      {
+        "column": "other.lang.None",
+        "kind": "multi_option",
+        "group": "ide.editor",
+        "option": "None",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列仅含选项文本",
+        "year": 2021
+      },
+      {
+        "column": "other.lang.Java",
+        "kind": "multi_option",
+        "group": "ide.editor",
+        "option": "Java",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列仅含选项文本",
+        "year": 2021
+      },
+      {
+        "column": "other.lang.JavaScript",
+        "kind": "multi_option",
+        "group": "ide.editor",
+        "option": "JavaScript",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列仅含选项文本",
+        "year": 2021
+      },
+      {
+        "column": "other.lang.C/C++",
+        "kind": "multi_option",
+        "group": "ide.editor",
+        "option": "C/C++",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列仅含选项文本",
+        "year": 2021
+      },
+      {
+        "column": "other.lang.PHP",
+        "kind": "multi_option",
+        "group": "ide.editor",
+        "option": "PHP",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列仅含选项文本",
+        "year": 2021
+      },
+      {
+        "column": "other.lang.C#",
+        "kind": "multi_option",
+        "group": "ide.editor",
+        "option": "C#",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列仅含选项文本",
+        "year": 2021
+      },
+      {
+        "column": "other.lang.Ruby",
+        "kind": "multi_option",
+        "group": "ide.editor",
+        "option": "Ruby",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列仅含选项文本",
+        "year": 2021
+      },
+      {
+        "column": "other.lang.Bash / Shell",
+        "kind": "multi_option",
+        "group": "ide.editor",
+        "option": "Bash / Shell",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列仅含选项文本",
+        "year": 2021
+      },
+      {
+        "column": "other.lang.Objective-C",
+        "kind": "multi_option",
+        "group": "ide.editor",
+        "option": "Objective-C",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列仅含选项文本",
+        "year": 2021
+      },
+      {
+        "column": "other.lang.Go",
+        "kind": "multi_option",
+        "group": "ide.editor",
+        "option": "Go",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列仅含选项文本",
+        "year": 2021
+      },
+      {
+        "column": "other.lang.Visual Basic",
+        "kind": "multi_option",
+        "group": "ide.editor",
+        "option": "Visual Basic",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列仅含选项文本",
+        "year": 2021
+      },
+      {
+        "column": "other.lang.Scala",
+        "kind": "multi_option",
+        "group": "ide.editor",
+        "option": "Scala",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列仅含选项文本",
+        "year": 2021
+      },
+      {
+        "column": "other.lang.SQL",
+        "kind": "multi_option",
+        "group": "ide.editor",
+        "option": "SQL",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列仅含选项文本",
+        "year": 2021
+      },
+      {
+        "column": "other.lang.Kotlin",
+        "kind": "multi_option",
+        "group": "ide.editor",
+        "option": "Kotlin",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列仅含选项文本",
+        "year": 2021
+      },
+      {
+        "column": "other.lang.R",
+        "kind": "multi_option",
+        "group": "ide.editor",
+        "option": "R",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列仅含选项文本",
+        "year": 2021
+      },
+      {
+        "column": "other.lang.Swift",
+        "kind": "multi_option",
+        "group": "ide.editor",
+        "option": "Swift",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列仅含选项文本",
+        "year": 2021
+      },
+      {
+        "column": "other.lang.Clojure",
+        "kind": "multi_option",
+        "group": "ide.editor",
+        "option": "Clojure",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列仅含选项文本",
+        "year": 2021
+      }
+    ]
+  }
+}

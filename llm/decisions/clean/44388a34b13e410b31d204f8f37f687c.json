@@ -1,0 +1,198 @@
+{
+  "stage": "clean_semantics",
+  "model": "qwen3.5:4b",
+  "model_digest": "d8b0f5e9760cd168",
+  "prompt_version": "clean-semantics-v2",
+  "input_hash": "44388a34b13e410b31d204f8f37f687c",
+  "created_at": "2026-10-23T18:34:48",
+  "duration_s": 13.9,
+  "output_tokens": 1053,
+  "fallback": false,
+  "error": "",
+  "manual_edit": false,
+  "reviewed": false,
+  "payload_summary": {
+    "year": 2024,
+    "batch": "deployment.tools.Other…ai.tools.coding.Blackbox AI",
+    "n": 18
+  },
+  "response": {
+    "columns": [
+      {
+        "column": "deployment.tools.Other",
+        "kind": "multi_option",
+        "group": "deployment.tools",
+        "option": "Other",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列值恒等于列名选项",
+        "year": 2024
+      },
+      {
+        "column": "ml.cloud",
+        "kind": "single_choice",
+        "group": "ml.cloud",
+        "option": "Yes",
+        "missing_tokens": [
+          "No",
+          "I'm not sure"
+        ],
+        "reason": "非 multi_like 且非 level_like，含 Yes/No/Not sure 选项",
+        "year": 2024
+      },
+      {
+        "column": "ml.cloud.cost.impact",
+        "kind": "single_choice",
+        "group": "ml.cloud.cost.impact",
+        "option": "Costs are not a major concern",
+        "missing_tokens": [
+          "They are important, but I balance them against p",
+          "They are the primary factor; I always seek to mi",
+          "They are secondary to other factors like ease of"
+        ],
+        "reason": "非 multi_like 且非 level_like，含长文本选项",
+        "year": 2024
+      },
+      {
+        "column": "ml.cloud.budget",
+        "kind": "single_choice",
+        "group": "ml.cloud.budget",
+        "option": "Over USD 25,000",
+        "missing_tokens": [
+          "I'm not sure",
+          "Less than USD 1,000",
+          "USD 1,000–5,000",
+          "USD 5,000–10,000",
+          "USD 10,000–25,000"
+        ],
+        "reason": "非 multi_like 且非 level_like，含金额区间选项",
+        "year": 2024
+      },
+      {
+        "column": "ai.tools.coding.ChatGPT",
+        "kind": "multi_option",
+        "group": "ai.tools.coding",
+        "option": "ChatGPT",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列值恒等于列名选项",
+        "year": 2024
+      },
+      {
+        "column": "ai.tools.coding.CodeGPT plugin in VS Code",
+        "kind": "multi_option",
+        "group": "ai.tools.coding",
+        "option": "CodeGPT plugin in VS Code",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列值恒等于列名选项",
+        "year": 2024
+      },
+      {
+        "column": "ai.tools.coding.CodeGPT plugin in JetBrains IDEs (IntelliJ IDEA, PyCharm, PhpStorm, etc_)",
+        "kind": "multi_option",
+        "group": "ai.tools.coding",
+        "option": "CodeGPT plugin in JetBrains IDEs (IntelliJ IDEA,",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列值恒等于列名选项",
+        "year": 2024
+      },
+      {
+        "column": "ai.tools.coding.GitHub Copilot",
+        "kind": "multi_option",
+        "group": "ai.tools.coding",
+        "option": "GitHub Copilot",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列值恒等于列名选项",
+        "year": 2024
+      },
+      {
+        "column": "ai.tools.coding.Google Gemini (previously Bard)",
+        "kind": "multi_option",
+        "group": "ai.tools.coding",
+        "option": "Google Gemini (previously Bard)",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列值恒等于列名选项",
+        "year": 2024
+      },
+      {
+        "column": "ai.tools.coding.JetBrains AI Assistant",
+        "kind": "multi_option",
+        "group": "ai.tools.coding",
+        "option": "JetBrains AI Assistant",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列值恒等于列名选项",
+        "year": 2024
+      },
+      {
+        "column": "ai.tools.coding.Visual Studio IntelliCode",
+        "kind": "multi_option",
+        "group": "ai.tools.coding",
+        "option": "Visual Studio IntelliCode",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列值恒等于列名选项",
+        "year": 2024
+      },
+      {
+        "column": "ai.tools.coding.Microsoft 365 Copilot",
+        "kind": "multi_option",
+        "group": "ai.tools.coding",
+        "option": "Microsoft 365 Copilot",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列值恒等于列名选项",
+        "year": 2024
+      },
+      {
+        "column": "ai.tools.coding.Aide by CodeStory",
+        "kind": "multi_option",
+        "group": "ai.tools.coding",
+        "option": "Aide by CodeStory",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列值恒等于列名选项",
+        "year": 2024
+      },
+      {
+        "column": "ai.tools.coding.Amazon Q Developer (previously CodeWhisperer)",
+        "kind": "multi_option",
+        "group": "ai.tools.coding",
+        "option": "Amazon Q Developer (previously CodeWhisperer)",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列值恒等于列名选项",
+        "year": 2024
+      },
+      {
+        "column": "ai.tools.coding.Anthropic Claude",
+        "kind": "multi_option",
+        "group": "ai.tools.coding",
+        "option": "Anthropic Claude",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列值恒等于列名选项",
+        "year": 2024
+      },
+      {
+        "column": "ai.tools.coding.Tabnine",
+        "kind": "multi_option",
+        "group": "ai.tools.coding",
+        "option": "Tabnine",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列值恒等于列名选项",
+        "year": 2024
+      },
+      {
+        "column": "ai.tools.coding.Codeium",
+        "kind": "multi_option",
+        "group": "ai.tools.coding",
+        "option": "Codeium",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列值恒等于列名选项",
+        "year": 2024
+      },
+      {
+        "column": "ai.tools.coding.Blackbox AI",
+        "kind": "multi_option",
+        "group": "ai.tools.coding",
+        "option": "Blackbox AI",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列值恒等于列名选项",
+        "year": 2024
+      }
+    ]
+  }
+}

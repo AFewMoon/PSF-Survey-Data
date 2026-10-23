@@ -1,0 +1,35 @@
+{
+  "stage": "option_alias",
+  "model": "qwen3.5:4b",
+  "model_digest": "d8b0f5e9760cd168",
+  "prompt_version": "option-alias-v1",
+  "input_hash": "d9b1fae0d71bc74119a8fb3a09beb87c",
+  "created_at": "2026-10-23T19:08:20",
+  "duration_s": 1.04,
+  "output_tokens": 37,
+  "fallback": false,
+  "error": "",
+  "manual_edit": false,
+  "reviewed": false,
+  "payload_summary": {
+    "groups": 8,
+    "values": 135
+  },
+  "response": {
+    "groups": [
+      {
+        "name": "ide.editor",
+        "options": [
+          {
+            "variants": [
+              "VS Code",
+              "Visual Studio Code"
+            ],
+            "canonical": "Visual Studio Code",
+            "reason": "VS Code 是常用缩写"
+          }
+        ]
+      }
+    ]
+  }
+}

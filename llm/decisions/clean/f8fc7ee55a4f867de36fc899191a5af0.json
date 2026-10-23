@@ -1,0 +1,185 @@
+{
+  "stage": "clean_semantics",
+  "model": "qwen3.5:4b",
+  "model_digest": "d8b0f5e9760cd168",
+  "prompt_version": "clean-semantics-v2",
+  "input_hash": "f8fc7ee55a4f867de36fc899191a5af0",
+  "created_at": "2026-10-23T19:03:59",
+  "duration_s": 10.9,
+  "output_tokens": 826,
+  "fallback": false,
+  "error": "",
+  "manual_edit": false,
+  "reviewed": false,
+  "payload_summary": {
+    "year": 2023,
+    "batch": "binary.modules.language.C# / _NET…team.size",
+    "n": 18
+  },
+  "response": {
+    "columns": [
+      {
+        "column": "binary.modules.language.C# / _NET",
+        "kind": "multi_option",
+        "group": "binary.modules.language",
+        "option": "C# / _NET",
+        "missing_tokens": [],
+        "reason": "全列恒等于选项文本，符合 multi_like 特征",
+        "year": 2023
+      },
+      {
+        "column": "binary.modules.language.Other",
+        "kind": "multi_option",
+        "group": "binary.modules.language",
+        "option": "Other",
+        "missing_tokens": [],
+        "reason": "全列恒等于选项文本，符合 multi_like 特征",
+        "year": 2023
+      },
+      {
+        "column": "learning.source.None",
+        "kind": "multi_option",
+        "group": "learning.source",
+        "option": "None",
+        "missing_tokens": [],
+        "reason": "全列恒等于选项文本，符合 multi_like 特征",
+        "year": 2023
+      },
+      {
+        "column": "learning.source.Python_org",
+        "kind": "multi_option",
+        "group": "learning.source",
+        "option": "Python_org",
+        "missing_tokens": [],
+        "reason": "全列恒等于选项文本，符合 multi_like 特征",
+        "year": 2023
+      },
+      {
+        "column": "learning.source.Documentation and APIs",
+        "kind": "multi_option",
+        "group": "learning.source",
+        "option": "Documentation and APIs",
+        "missing_tokens": [],
+        "reason": "全列恒等于选项文本，符合 multi_like 特征",
+        "year": 2023
+      },
+      {
+        "column": "learning.source.Books",
+        "kind": "multi_option",
+        "group": "learning.source",
+        "option": "Books",
+        "missing_tokens": [],
+        "reason": "全列恒等于选项文本，符合 multi_like 特征",
+        "year": 2023
+      },
+      {
+        "column": "learning.source.Blogs",
+        "kind": "multi_option",
+        "group": "learning.source",
+        "option": "Blogs",
+        "missing_tokens": [],
+        "reason": "全列恒等于选项文本，符合 multi_like 特征",
+        "year": 2023
+      },
+      {
+        "column": "learning.source.Podcasts",
+        "kind": "multi_option",
+        "group": "learning.source",
+        "option": "Podcasts",
+        "missing_tokens": [],
+        "reason": "全列恒等于选项文本，符合 multi_like 特征",
+        "year": 2023
+      },
+      {
+        "column": "learning.source.YouTube",
+        "kind": "multi_option",
+        "group": "learning.source",
+        "option": "YouTube",
+        "missing_tokens": [],
+        "reason": "全列恒等于选项文本，符合 multi_like 特征",
+        "year": 2023
+      },
+      {
+        "column": "learning.source.Stack Overflow",
+        "kind": "multi_option",
+        "group": "learning.source",
+        "option": "Stack Overflow",
+        "missing_tokens": [],
+        "reason": "全列恒等于选项文本，符合 multi_like 特征",
+        "year": 2023
+      },
+      {
+        "column": "learning.source.AI Tools",
+        "kind": "multi_option",
+        "group": "learning.source",
+        "option": "AI Tools",
+        "missing_tokens": [],
+        "reason": "全列恒等于选项文本，符合 multi_like 特征",
+        "year": 2023
+      },
+      {
+        "column": "learning.source.Online coding schools and MOOCs (Codecademy, JetBrains Academy, Coursera, edX, Udacity, etc_)",
+        "kind": "multi_option",
+        "group": "learning.source",
+        "option": "Online coding schools and MOOCs (Codecademy, JetBrains Academy, Coursera, edX, Udacity, etc)",
+        "missing_tokens": [],
+        "reason": "全列恒等于选项文本，符合 multi_like 特征",
+        "year": 2023
+      },
+      {
+        "column": "learning.source.Paid trainer / consultant / mentor",
+        "kind": "multi_option",
+        "group": "learning.source",
+        "option": "Paid trainer / consultant / mentor",
+        "missing_tokens": [],
+        "reason": "全列恒等于选项文本，符合 multi_like 特征",
+        "year": 2023
+      },
+      {
+        "column": "learning.source.Conferences / events",
+        "kind": "multi_option",
+        "group": "learning.source",
+        "option": "Conferences / events",
+        "missing_tokens": [],
+        "reason": "全列恒等于选项文本，符合 multi_like 特征",
+        "year": 2023
+      },
+      {
+        "column": "learning.source.Tech magazines / printed media",
+        "kind": "multi_option",
+        "group": "learning.source",
+        "option": "Tech magazines / printed media",
+        "missing_tokens": [],
+        "reason": "全列恒等于选项文本，符合 multi_like 特征",
+        "year": 2023
+      },
+      {
+        "column": "learning.source.Other",
+        "kind": "multi_option",
+        "group": "learning.source",
+        "option": "Other",
+        "missing_tokens": [],
+        "reason": "全列恒等于选项文本，符合 multi_like 特征",
+        "year": 2023
+      },
+      {
+        "column": "job.team",
+        "kind": "multi_option",
+        "group": "job.team",
+        "option": "On your own project(s) independently",
+        "missing_tokens": [],
+        "reason": "多选项列，含多个独立选项，非单一恒等值",
+        "year": 2023
+      },
+      {
+        "column": "team.size",
+        "kind": "multi_option",
+        "group": "team.size",
+        "option": "2–7 people",
+        "missing_tokens": [],
+        "reason": "多选项列，含多个独立选项，非单一恒等值",
+        "year": 2023
+      }
+    ]
+  }
+}

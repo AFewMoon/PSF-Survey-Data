@@ -1,0 +1,185 @@
+{
+  "stage": "clean_semantics",
+  "model": "qwen3.5:4b",
+  "model_digest": "d8b0f5e9760cd168",
+  "prompt_version": "clean-semantics-v2",
+  "input_hash": "1a8fb7b343005be10a16b34496f1f7d7",
+  "created_at": "2026-10-23T18:34:13",
+  "duration_s": 10.86,
+  "output_tokens": 818,
+  "fallback": false,
+  "error": "",
+  "manual_edit": false,
+  "reviewed": false,
+  "payload_summary": {
+    "year": 2024,
+    "batch": "frameworks.ml.Apache MXNet…experiment.tools.Tensorboard",
+    "n": 18
+  },
+  "response": {
+    "columns": [
+      {
+        "column": "frameworks.ml.Apache MXNet",
+        "kind": "multi_option",
+        "group": "frameworks.ml",
+        "option": "Apache MXNet",
+        "missing_tokens": [],
+        "reason": "全列值恒等于列名，符合 multi_like 特征",
+        "year": 2024
+      },
+      {
+        "column": "frameworks.ml.Jax",
+        "kind": "multi_option",
+        "group": "frameworks.ml",
+        "option": "Jax",
+        "missing_tokens": [],
+        "reason": "全列值恒等于列名，符合 multi_like 特征",
+        "year": 2024
+      },
+      {
+        "column": "frameworks.ml.Sklearn",
+        "kind": "multi_option",
+        "group": "frameworks.ml",
+        "option": "Sklearn",
+        "missing_tokens": [],
+        "reason": "全列值恒等于列名，符合 multi_like 特征",
+        "year": 2024
+      },
+      {
+        "column": "frameworks.ml.DeepSpeed",
+        "kind": "multi_option",
+        "group": "frameworks.ml",
+        "option": "DeepSpeed",
+        "missing_tokens": [],
+        "reason": "全列值恒等于列名，符合 multi_like 特征",
+        "year": 2024
+      },
+      {
+        "column": "frameworks.ml.SciPy",
+        "kind": "multi_option",
+        "group": "frameworks.ml",
+        "option": "SciPy",
+        "missing_tokens": [],
+        "reason": "全列值恒等于列名，符合 multi_like 特征",
+        "year": 2024
+      },
+      {
+        "column": "frameworks.ml.SciKit-Learn",
+        "kind": "multi_option",
+        "group": "frameworks.ml",
+        "option": "SciKit-Learn",
+        "missing_tokens": [],
+        "reason": "全列值恒等于列名，符合 multi_like 特征",
+        "year": 2024
+      },
+      {
+        "column": "frameworks.ml.Theano",
+        "kind": "multi_option",
+        "group": "frameworks.ml",
+        "option": "Theano",
+        "missing_tokens": [],
+        "reason": "全列值恒等于列名，符合 multi_like 特征",
+        "year": 2024
+      },
+      {
+        "column": "frameworks.ml.NLTK",
+        "kind": "multi_option",
+        "group": "frameworks.ml",
+        "option": "NLTK",
+        "missing_tokens": [],
+        "reason": "全列值恒等于列名，符合 multi_like 特征",
+        "year": 2024
+      },
+      {
+        "column": "frameworks.ml.Gensim",
+        "kind": "multi_option",
+        "group": "frameworks.ml",
+        "option": "Gensim",
+        "missing_tokens": [],
+        "reason": "全列值恒等于列名，符合 multi_like 特征",
+        "year": 2024
+      },
+      {
+        "column": "frameworks.ml.spaCy",
+        "kind": "multi_option",
+        "group": "frameworks.ml",
+        "option": "spaCy",
+        "missing_tokens": [],
+        "reason": "全列值恒等于列名，符合 multi_like 特征",
+        "year": 2024
+      },
+      {
+        "column": "frameworks.ml.Huggingface Diffusers",
+        "kind": "multi_option",
+        "group": "frameworks.ml",
+        "option": "Huggingface Diffusers",
+        "missing_tokens": [],
+        "reason": "全列值恒等于列名，符合 multi_like 特征",
+        "year": 2024
+      },
+      {
+        "column": "frameworks.ml.XGBoost",
+        "kind": "multi_option",
+        "group": "frameworks.ml",
+        "option": "XGBoost",
+        "missing_tokens": [],
+        "reason": "全列值恒等于列名，符合 multi_like 特征",
+        "year": 2024
+      },
+      {
+        "column": "frameworks.ml.CatBoost",
+        "kind": "multi_option",
+        "group": "frameworks.ml",
+        "option": "CatBoost",
+        "missing_tokens": [],
+        "reason": "全列值恒等于列名，符合 multi_like 特征",
+        "year": 2024
+      },
+      {
+        "column": "frameworks.ml.LightGBM",
+        "kind": "multi_option",
+        "group": "frameworks.ml",
+        "option": "LightGBM",
+        "missing_tokens": [],
+        "reason": "全列值恒等于列名，符合 multi_like 特征",
+        "year": 2024
+      },
+      {
+        "column": "frameworks.ml.H20ai",
+        "kind": "multi_option",
+        "group": "frameworks.ml",
+        "option": "H20ai",
+        "missing_tokens": [],
+        "reason": "全列值恒等于列名，符合 multi_like 特征",
+        "year": 2024
+      },
+      {
+        "column": "frameworks.ml.Other",
+        "kind": "multi_option",
+        "group": "frameworks.ml",
+        "option": "Other",
+        "missing_tokens": [],
+        "reason": "全列值恒等于列名，符合 multi_like 特征",
+        "year": 2024
+      },
+      {
+        "column": "experiment.tools.None",
+        "kind": "multi_option",
+        "group": "experiment.tools",
+        "option": "None",
+        "missing_tokens": [],
+        "reason": "全列值恒等于列名，符合 multi_like 特征",
+        "year": 2024
+      },
+      {
+        "column": "experiment.tools.Tensorboard",
+        "kind": "multi_option",
+        "group": "experiment.tools",
+        "option": "Tensorboard",
+        "missing_tokens": [],
+        "reason": "全列值恒等于列名，符合 multi_like 特征",
+        "year": 2024
+      }
+    ]
+  }
+}

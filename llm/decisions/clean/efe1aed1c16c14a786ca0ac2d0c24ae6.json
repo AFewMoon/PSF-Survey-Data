@@ -1,0 +1,189 @@
+{
+  "stage": "clean_semantics",
+  "model": "qwen3.5:4b",
+  "model_digest": "d8b0f5e9760cd168",
+  "prompt_version": "clean-semantics-v2",
+  "input_hash": "efe1aed1c16c14a786ca0ac2d0c24ae6",
+  "created_at": "2026-10-23T18:36:46",
+  "duration_s": 9.89,
+  "output_tokens": 760,
+  "fallback": false,
+  "error": "",
+  "manual_edit": false,
+  "reviewed": false,
+  "payload_summary": {
+    "year": 2024,
+    "batch": "monorepo…learning.source.Stack Overflow",
+    "n": 18
+  },
+  "response": {
+    "columns": [
+      {
+        "column": "monorepo",
+        "kind": "single_choice",
+        "group": "monorepo",
+        "option": "Yes",
+        "missing_tokens": [
+          "No"
+        ],
+        "reason": "列名含选项，top 为 Yes，符合单选特征",
+        "year": 2024
+      },
+      {
+        "column": "binary.modules.creation",
+        "kind": "single_choice",
+        "group": "binary.modules.creation",
+        "option": "Yes",
+        "missing_tokens": [
+          "No"
+        ],
+        "reason": "列名含选项，top 为 Yes，符合单选特征",
+        "year": 2024
+      },
+      {
+        "column": "binary.modules.language.C",
+        "kind": "multi_option",
+        "group": "binary.modules.language",
+        "option": "C",
+        "missing_tokens": [],
+        "reason": "flags 含 multi_like，全列恒等于选项文本",
+        "year": 2024
+      },
+      {
+        "column": "binary.modules.language.C++",
+        "kind": "multi_option",
+        "group": "binary.modules.language",
+        "option": "C++",
+        "missing_tokens": [],
+        "reason": "flags 含 multi_like，全列恒等于选项文本",
+        "year": 2024
+      },
+      {
+        "column": "binary.modules.language.Rust",
+        "kind": "multi_option",
+        "group": "binary.modules.language",
+        "option": "Rust",
+        "missing_tokens": [],
+        "reason": "flags 含 multi_like，全列恒等于选项文本",
+        "year": 2024
+      },
+      {
+        "column": "binary.modules.language.Go",
+        "kind": "multi_option",
+        "group": "binary.modules.language",
+        "option": "Go",
+        "missing_tokens": [],
+        "reason": "flags 含 multi_like，全列恒等于选项文本",
+        "year": 2024
+      },
+      {
+        "column": "binary.modules.language.Fortran",
+        "kind": "multi_option",
+        "group": "binary.modules.language",
+        "option": "Fortran",
+        "missing_tokens": [],
+        "reason": "flags 含 multi_like，全列恒等于选项文本",
+        "year": 2024
+      },
+      {
+        "column": "binary.modules.language.Assembly",
+        "kind": "multi_option",
+        "group": "binary.modules.language",
+        "option": "Assembly",
+        "missing_tokens": [],
+        "reason": "flags 含 multi_like，全列恒等于选项文本",
+        "year": 2024
+      },
+      {
+        "column": "binary.modules.language.C# / _NET",
+        "kind": "multi_option",
+        "group": "binary.modules.language",
+        "option": "C# / _NET",
+        "missing_tokens": [],
+        "reason": "flags 含 multi_like，全列恒等于选项文本",
+        "year": 2024
+      },
+      {
+        "column": "binary.modules.language.Other",
+        "kind": "multi_option",
+        "group": "binary.modules.language",
+        "option": "Other",
+        "missing_tokens": [],
+        "reason": "flags 含 multi_like，全列恒等于选项文本",
+        "year": 2024
+      },
+      {
+        "column": "learning.source.None",
+        "kind": "multi_option",
+        "group": "learning.source",
+        "option": "None",
+        "missing_tokens": [],
+        "reason": "flags 含 multi_like，全列恒等于选项文本",
+        "year": 2024
+      },
+      {
+        "column": "learning.source.Python_org",
+        "kind": "multi_option",
+        "group": "learning.source",
+        "option": "Python_org",
+        "missing_tokens": [],
+        "reason": "flags 含 multi_like，全列恒等于选项文本",
+        "year": 2024
+      },
+      {
+        "column": "learning.source.Documentation and APIs",
+        "kind": "multi_option",
+        "group": "learning.source",
+        "option": "Documentation and APIs",
+        "missing_tokens": [],
+        "reason": "flags 含 multi_like，全列恒等于选项文本",
+        "year": 2024
+      },
+      {
+        "column": "learning.source.Books",
+        "kind": "multi_option",
+        "group": "learning.source",
+        "option": "Books",
+        "missing_tokens": [],
+        "reason": "flags 含 multi_like，全列恒等于选项文本",
+        "year": 2024
+      },
+      {
+        "column": "learning.source.Blogs",
+        "kind": "multi_option",
+        "group": "learning.source",
+        "option": "Blogs",
+        "missing_tokens": [],
+        "reason": "flags 含 multi_like，全列恒等于选项文本",
+        "year": 2024
+      },
+      {
+        "column": "learning.source.Podcasts",
+        "kind": "multi_option",
+        "group": "learning.source",
+        "option": "Podcasts",
+        "missing_tokens": [],
+        "reason": "flags 含 multi_like，全列恒等于选项文本",
+        "year": 2024
+      },
+      {
+        "column": "learning.source.YouTube",
+        "kind": "multi_option",
+        "group": "learning.source",
+        "option": "YouTube",
+        "missing_tokens": [],
+        "reason": "flags 含 multi_like，全列恒等于选项文本",
+        "year": 2024
+      },
+      {
+        "column": "learning.source.Stack Overflow",
+        "kind": "multi_option",
+        "group": "learning.source",
+        "option": "Stack Overflow",
+        "missing_tokens": [],
+        "reason": "flags 含 multi_like，全列恒等于选项文本",
+        "year": 2024
+      }
+    ]
+  }
+}

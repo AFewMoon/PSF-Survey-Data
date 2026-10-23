@@ -1,0 +1,20 @@
+{
+  "stage": "stats_narrative",
+  "model": "qwen3.5:4b",
+  "model_digest": "d8b0f5e9760cd168",
+  "prompt_version": "stats-narrative-v1",
+  "input_hash": "5b9e7a6175f55fd54ff861a1bd79e11c",
+  "created_at": "2026-10-23T19:24:17",
+  "duration_s": 2.19,
+  "output_tokens": 145,
+  "fallback": false,
+  "error": "",
+  "manual_edit": false,
+  "reviewed": false,
+  "payload_summary": {
+    "topic": "team_size"
+  },
+  "response": {
+    "text": "在团队规模偏好中，2024 年选择 25 至 29 人的占比最高，达到 28.3%，紧随其后的是 2022 年的 31.7% 和 2020 年的 31.6%。与 2019 年相比，2024 年选择 25 至 29 人团队的占比下降了 6.8 个百分点，显示出对中等规模团队的偏好有所减弱。由于该数据基于自报抽样且选项范围固定，这一趋势可能受到受访者对团队效率认知变化或问卷措辞微调的影响。"
+  }
+}

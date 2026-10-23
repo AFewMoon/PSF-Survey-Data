@@ -1,0 +1,20 @@
+{
+  "stage": "stats_narrative",
+  "model": "qwen3.5:4b",
+  "model_digest": "d8b0f5e9760cd168",
+  "prompt_version": "stats-narrative-v1",
+  "input_hash": "e84a2e6497f3987d3cd913926050d7b8",
+  "created_at": "2026-10-23T19:24:21",
+  "duration_s": 2.23,
+  "output_tokens": 147,
+  "fallback": false,
+  "error": "",
+  "manual_edit": false,
+  "reviewed": false,
+  "payload_summary": {
+    "topic": "company_size"
+  },
+  "response": {
+    "text": "在 2019 年至 2024 年的调查中，中型企业占比始终处于主流地位，其中 2020 年达到峰值 51.3%，随后在 2022 年回落至 52.9% 后持续下降，至 2024 年降至 43.1%。2020 年中型企业占比较 2019 年上升了 11.9 个百分点，是期间变化最显著的年份。由于该数据基于自报抽样且选项口径可能随年份调整，这一趋势需结合具体问卷措辞及统计边界谨慎解读。"
+  }
+}

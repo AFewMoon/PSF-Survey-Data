@@ -1,0 +1,185 @@
+{
+  "stage": "clean_semantics",
+  "model": "qwen3.5:4b",
+  "model_digest": "d8b0f5e9760cd168",
+  "prompt_version": "clean-semantics-v2",
+  "input_hash": "d679e53c0d9993c80592030a682a132e",
+  "created_at": "2026-10-23T18:47:49",
+  "duration_s": 9.71,
+  "output_tokens": 751,
+  "fallback": false,
+  "error": "",
+  "manual_edit": false,
+  "reviewed": false,
+  "payload_summary": {
+    "year": 2020,
+    "batch": "bigdata.Apache Samza…configuration.management.None",
+    "n": 18
+  },
+  "response": {
+    "columns": [
+      {
+        "column": "bigdata.Apache Samza",
+        "kind": "multi_option",
+        "group": "bigdata.Apache Samza",
+        "option": "Apache Samza",
+        "missing_tokens": [],
+        "reason": "全列恒等于选项文本，符合 multi_like",
+        "year": 2020
+      },
+      {
+        "column": "bigdata.Apache Kafka",
+        "kind": "multi_option",
+        "group": "bigdata.Apache Kafka",
+        "option": "Apache Kafka",
+        "missing_tokens": [],
+        "reason": "全列恒等于选项文本，符合 multi_like",
+        "year": 2020
+      },
+      {
+        "column": "bigdata.Apache Spark",
+        "kind": "multi_option",
+        "group": "bigdata.Apache Spark",
+        "option": "Apache Spark",
+        "missing_tokens": [],
+        "reason": "全列恒等于选项文本，符合 multi_like",
+        "year": 2020
+      },
+      {
+        "column": "bigdata.Apache Tez",
+        "kind": "multi_option",
+        "group": "bigdata.Apache Tez",
+        "option": "Apache Tez",
+        "missing_tokens": [],
+        "reason": "全列恒等于选项文本，符合 multi_like",
+        "year": 2020
+      },
+      {
+        "column": "bigdata.Dask",
+        "kind": "multi_option",
+        "group": "bigdata.Dask",
+        "option": "Dask",
+        "missing_tokens": [],
+        "reason": "全列恒等于选项文本，符合 multi_like",
+        "year": 2020
+      },
+      {
+        "column": "bigdata.ClickHouse",
+        "kind": "multi_option",
+        "group": "bigdata.ClickHouse",
+        "option": "ClickHouse",
+        "missing_tokens": [],
+        "reason": "全列恒等于选项文本，符合 multi_like",
+        "year": 2020
+      },
+      {
+        "column": "bigdata.Other",
+        "kind": "multi_option",
+        "group": "bigdata.Other",
+        "option": "Other",
+        "missing_tokens": [],
+        "reason": "全列恒等于选项文本，符合 multi_like",
+        "year": 2020
+      },
+      {
+        "column": "ci.None",
+        "kind": "multi_option",
+        "group": "ci.None",
+        "option": "None",
+        "missing_tokens": [],
+        "reason": "全列恒等于选项文本，符合 multi_like",
+        "year": 2020
+      },
+      {
+        "column": "ci.Jenkins / Hudson",
+        "kind": "multi_option",
+        "group": "ci.Jenkins / Hudson",
+        "option": "Jenkins / Hudson",
+        "missing_tokens": [],
+        "reason": "全列恒等于选项文本，符合 multi_like",
+        "year": 2020
+      },
+      {
+        "column": "ci.TeamCity",
+        "kind": "multi_option",
+        "group": "ci.TeamCity",
+        "option": "TeamCity",
+        "missing_tokens": [],
+        "reason": "全列恒等于选项文本，符合 multi_like",
+        "year": 2020
+      },
+      {
+        "column": "ci.Bamboo",
+        "kind": "multi_option",
+        "group": "ci.Bamboo",
+        "option": "Bamboo",
+        "missing_tokens": [],
+        "reason": "全列恒等于选项文本，符合 multi_like",
+        "year": 2020
+      },
+      {
+        "column": "ci.Travis CI",
+        "kind": "multi_option",
+        "group": "ci.Travis CI",
+        "option": "Travis CI",
+        "missing_tokens": [],
+        "reason": "全列恒等于选项文本，符合 multi_like",
+        "year": 2020
+      },
+      {
+        "column": "ci.CircleCI",
+        "kind": "multi_option",
+        "group": "ci.CircleCI",
+        "option": "CircleCI",
+        "missing_tokens": [],
+        "reason": "全列恒等于选项文本，符合 multi_like",
+        "year": 2020
+      },
+      {
+        "column": "ci.CruiseControl",
+        "kind": "multi_option",
+        "group": "ci.CruiseControl",
+        "option": "CruiseControl",
+        "missing_tokens": [],
+        "reason": "全列恒等于选项文本，符合 multi_like",
+        "year": 2020
+      },
+      {
+        "column": "ci.Gitlab CI",
+        "kind": "multi_option",
+        "group": "ci.Gitlab CI",
+        "option": "Gitlab CI",
+        "missing_tokens": [],
+        "reason": "全列恒等于选项文本，符合 multi_like",
+        "year": 2020
+      },
+      {
+        "column": "ci.AppVeyor",
+        "kind": "multi_option",
+        "group": "ci.AppVeyor",
+        "option": "AppVeyor",
+        "missing_tokens": [],
+        "reason": "全列恒等于选项文本，符合 multi_like",
+        "year": 2020
+      },
+      {
+        "column": "ci.Other",
+        "kind": "multi_option",
+        "group": "ci.Other",
+        "option": "Other",
+        "missing_tokens": [],
+        "reason": "全列恒等于选项文本，符合 multi_like",
+        "year": 2020
+      },
+      {
+        "column": "configuration.management.None",
+        "kind": "multi_option",
+        "group": "configuration.management.None",
+        "option": "None",
+        "missing_tokens": [],
+        "reason": "全列恒等于选项文本，符合 multi_like",
+        "year": 2020
+      }
+    ]
+  }
+}

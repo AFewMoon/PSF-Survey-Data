@@ -1,0 +1,185 @@
+{
+  "stage": "clean_semantics",
+  "model": "qwen3.5:4b",
+  "model_digest": "d8b0f5e9760cd168",
+  "prompt_version": "clean-semantics-v2",
+  "input_hash": "c8a0c2af11ecb467997f29f714bbcd5c",
+  "created_at": "2026-10-23T19:02:32",
+  "duration_s": 9.35,
+  "output_tokens": 715,
+  "fallback": false,
+  "error": "",
+  "manual_edit": false,
+  "reviewed": false,
+  "payload_summary": {
+    "year": 2023,
+    "batch": "database.Spanner…ci.CircleCI",
+    "n": 18
+  },
+  "response": {
+    "columns": [
+      {
+        "column": "database.Spanner",
+        "kind": "single_choice",
+        "group": "database.Spanner",
+        "option": "",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列等于列名",
+        "year": 2023
+      },
+      {
+        "column": "database.Firebase Realtime Database",
+        "kind": "single_choice",
+        "group": "database.Firebase Realtime Database",
+        "option": "",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列等于列名",
+        "year": 2023
+      },
+      {
+        "column": "database.Other",
+        "kind": "single_choice",
+        "group": "database.Other",
+        "option": "",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列等于列名",
+        "year": 2023
+      },
+      {
+        "column": "bigdata.work",
+        "kind": "single_choice",
+        "group": "bigdata.work",
+        "option": "",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列等于列名",
+        "year": 2023
+      },
+      {
+        "column": "bigdata.PySpark",
+        "kind": "single_choice",
+        "group": "bigdata.PySpark",
+        "option": "",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列等于列名",
+        "year": 2023
+      },
+      {
+        "column": "bigdata.PyFlink",
+        "kind": "single_choice",
+        "group": "bigdata.PyFlink",
+        "option": "",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列等于列名",
+        "year": 2023
+      },
+      {
+        "column": "bigdata.Great Expectations",
+        "kind": "single_choice",
+        "group": "bigdata.Great Expectations",
+        "option": "",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列等于列名",
+        "year": 2023
+      },
+      {
+        "column": "bigdata.PyDeequ",
+        "kind": "single_choice",
+        "group": "bigdata.PyDeequ",
+        "option": "",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列等于列名",
+        "year": 2023
+      },
+      {
+        "column": "bigdata.Other",
+        "kind": "single_choice",
+        "group": "bigdata.Other",
+        "option": "",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列等于列名",
+        "year": 2023
+      },
+      {
+        "column": "bigdata.None",
+        "kind": "single_choice",
+        "group": "bigdata.None",
+        "option": "",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列等于列名",
+        "year": 2023
+      },
+      {
+        "column": "bigdata.solution",
+        "kind": "single_choice",
+        "group": "bigdata.solution",
+        "option": "",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列等于列名",
+        "year": 2023
+      },
+      {
+        "column": "ci.None",
+        "kind": "single_choice",
+        "group": "ci.None",
+        "option": "",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列等于列名",
+        "year": 2023
+      },
+      {
+        "column": "ci.AppVeyor",
+        "kind": "single_choice",
+        "group": "ci.AppVeyor",
+        "option": "",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列等于列名",
+        "year": 2023
+      },
+      {
+        "column": "ci.AWS CodePipeline / AWS CodeStar",
+        "kind": "single_choice",
+        "group": "ci.AWS CodePipeline / AWS CodeStar",
+        "option": "",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列等于列名",
+        "year": 2023
+      },
+      {
+        "column": "ci.Azure DevOps",
+        "kind": "single_choice",
+        "group": "ci.Azure DevOps",
+        "option": "",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列等于列名",
+        "year": 2023
+      },
+      {
+        "column": "ci.Bamboo",
+        "kind": "single_choice",
+        "group": "ci.Bamboo",
+        "option": "",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列等于列名",
+        "year": 2023
+      },
+      {
+        "column": "ci.Bitbucket Pipelines",
+        "kind": "single_choice",
+        "group": "ci.Bitbucket Pipelines",
+        "option": "",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列等于列名",
+        "year": 2023
+      },
+      {
+        "column": "ci.CircleCI",
+        "kind": "single_choice",
+        "group": "ci.CircleCI",
+        "option": "",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列等于列名",
+        "year": 2023
+      }
+    ]
+  }
+}

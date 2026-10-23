@@ -1,0 +1,158 @@
+{
+  "stage": "clean_semantics",
+  "model": "qwen3.5:4b",
+  "model_digest": "d8b0f5e9760cd168",
+  "prompt_version": "clean-semantics-v2",
+  "input_hash": "a6c80468b1673b24e1a55fb9e0a09864",
+  "created_at": "2026-10-23T18:37:07",
+  "duration_s": 8.52,
+  "output_tokens": 639,
+  "fallback": false,
+  "error": "",
+  "manual_edit": false,
+  "reviewed": false,
+  "payload_summary": {
+    "year": 2024,
+    "batch": "job.role.Data analyst…region",
+    "n": 15
+  },
+  "response": {
+    "columns": [
+      {
+        "column": "job.role.Data analyst",
+        "kind": "multi_option",
+        "group": "job.role",
+        "option": "Data analyst",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列等于选项名",
+        "year": 2024
+      },
+      {
+        "column": "job.role.Data scientist",
+        "kind": "multi_option",
+        "group": "job.role",
+        "option": "Data scientist",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列等于选项名",
+        "year": 2024
+      },
+      {
+        "column": "job.role.ML engineer / MLOps",
+        "kind": "multi_option",
+        "group": "job.role",
+        "option": "ML engineer / MLOps",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列等于选项名",
+        "year": 2024
+      },
+      {
+        "column": "job.role.Academic researcher",
+        "kind": "multi_option",
+        "group": "job.role",
+        "option": "Academic researcher",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列等于选项名",
+        "year": 2024
+      },
+      {
+        "column": "job.role.Data engineer",
+        "kind": "multi_option",
+        "group": "job.role",
+        "option": "Data engineer",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列等于选项名",
+        "year": 2024
+      },
+      {
+        "column": "job.role.Business analyst",
+        "kind": "multi_option",
+        "group": "job.role",
+        "option": "Business analyst",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列等于选项名",
+        "year": 2024
+      },
+      {
+        "column": "job.role.Team lead",
+        "kind": "multi_option",
+        "group": "job.role",
+        "option": "Team lead",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列等于选项名",
+        "year": 2024
+      },
+      {
+        "column": "job.role.Product manager",
+        "kind": "multi_option",
+        "group": "job.role",
+        "option": "Product manager",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列等于选项名",
+        "year": 2024
+      },
+      {
+        "column": "job.role.CIO / CEO / CTO",
+        "kind": "multi_option",
+        "group": "job.role",
+        "option": "CIO / CEO / CTO",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列等于选项名",
+        "year": 2024
+      },
+      {
+        "column": "job.role.Systems analyst",
+        "kind": "multi_option",
+        "group": "job.role",
+        "option": "Systems analyst",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列等于选项名",
+        "year": 2024
+      },
+      {
+        "column": "job.role.Other",
+        "kind": "multi_option",
+        "group": "job.role",
+        "option": "Other",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列等于选项名",
+        "year": 2024
+      },
+      {
+        "column": "age",
+        "kind": "multi_option",
+        "group": "age",
+        "option": "21–29",
+        "missing_tokens": [],
+        "reason": "flags 未触发 multi_like，但 top 含多个选项，视为多选题选项列",
+        "year": 2024
+      },
+      {
+        "column": "gender",
+        "kind": "multi_option",
+        "group": "gender",
+        "option": "Male",
+        "missing_tokens": [],
+        "reason": "flags 未触发 multi_like，但 top 含多个选项，视为多选题选项列",
+        "year": 2024
+      },
+      {
+        "column": "country",
+        "kind": "multi_option",
+        "group": "country",
+        "option": "United States",
+        "missing_tokens": [],
+        "reason": "flags 未触发 multi_like，但 top 含多个选项，视为多选题选项列",
+        "year": 2024
+      },
+      {
+        "column": "region",
+        "kind": "multi_option",
+        "group": "region",
+        "option": "United States",
+        "missing_tokens": [],
+        "reason": "flags 未触发 multi_like，但 top 含多个选项，视为多选题选项列",
+        "year": 2024
+      }
+    ]
+  }
+}

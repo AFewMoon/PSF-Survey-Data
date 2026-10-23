@@ -1,0 +1,185 @@
+{
+  "stage": "clean_semantics",
+  "model": "qwen3.5:4b",
+  "model_digest": "d8b0f5e9760cd168",
+  "prompt_version": "clean-semantics-v2",
+  "input_hash": "47c2760d91a6fb8a071af77f9f0bb9cf",
+  "created_at": "2026-10-23T18:58:47",
+  "duration_s": 10.97,
+  "output_tokens": 838,
+  "fallback": false,
+  "error": "",
+  "manual_edit": false,
+  "reviewed": false,
+  "payload_summary": {
+    "year": 2022,
+    "batch": "libraries.publish.where.Internal mirror of PyPI…job.role.Team lead",
+    "n": 18
+  },
+  "response": {
+    "columns": [
+      {
+        "column": "libraries.publish.where.Internal mirror of PyPI",
+        "kind": "multi_option",
+        "group": "libraries.publish.where",
+        "option": "Internal mirror of PyPI",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值恒等于列名选项",
+        "year": 2022
+      },
+      {
+        "column": "libraries.publish.where.conda-forge",
+        "kind": "multi_option",
+        "group": "libraries.publish.where",
+        "option": "conda-forge",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值恒等于列名选项",
+        "year": 2022
+      },
+      {
+        "column": "libraries.publish.where.Other",
+        "kind": "multi_option",
+        "group": "libraries.publish.where",
+        "option": "Other",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值恒等于列名选项",
+        "year": 2022
+      },
+      {
+        "column": "job.team",
+        "kind": "multi_option",
+        "group": "job.team",
+        "option": "Work on your own project(s) independently",
+        "missing_tokens": [],
+        "reason": "flags 未显示 multi_like，但 top 显示多选项，推断为多选题",
+        "year": 2022
+      },
+      {
+        "column": "team.size",
+        "kind": "multi_option",
+        "group": "team.size",
+        "option": "2-7 people",
+        "missing_tokens": [],
+        "reason": "flags 未显示 multi_like，但 top 显示多选项，推断为多选题",
+        "year": 2022
+      },
+      {
+        "column": "employment.status",
+        "kind": "multi_option",
+        "group": "employment.status",
+        "option": "Fully employed by a company / organization",
+        "missing_tokens": [],
+        "reason": "flags 未显示 multi_like，但 top 显示多选项，推断为多选题",
+        "year": 2022
+      },
+      {
+        "column": "company.size",
+        "kind": "multi_option",
+        "group": "company.size",
+        "option": "51–500",
+        "missing_tokens": [],
+        "reason": "flags 未显示 multi_like，但 top 显示多选项，推断为多选题",
+        "year": 2022
+      },
+      {
+        "column": "company.industry",
+        "kind": "multi_option",
+        "group": "company.industry",
+        "option": "Information Technology / Software Development",
+        "missing_tokens": [],
+        "reason": "flags 未显示 multi_like，但 top 显示多选项，推断为多选题",
+        "year": 2022
+      },
+      {
+        "column": "company.develop.for",
+        "kind": "multi_option",
+        "group": "company.develop.for",
+        "option": "Information Technology / Software Development",
+        "missing_tokens": [],
+        "reason": "flags 未显示 multi_like，但 top 显示多选项，推断为多选题",
+        "year": 2022
+      },
+      {
+        "column": "job.role.DBA",
+        "kind": "multi_option",
+        "group": "job.role",
+        "option": "DBA",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值恒等于列名选项",
+        "year": 2022
+      },
+      {
+        "column": "job.role.Architect",
+        "kind": "multi_option",
+        "group": "job.role",
+        "option": "Architect",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值恒等于列名选项",
+        "year": 2022
+      },
+      {
+        "column": "job.role.QA engineer",
+        "kind": "multi_option",
+        "group": "job.role",
+        "option": "QA engineer",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值恒等于列名选项",
+        "year": 2022
+      },
+      {
+        "column": "job.role.Developer / Programmer",
+        "kind": "multi_option",
+        "group": "job.role",
+        "option": "Developer / Programmer",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值恒等于列名选项",
+        "year": 2022
+      },
+      {
+        "column": "job.role.Technical writer",
+        "kind": "multi_option",
+        "group": "job.role",
+        "option": "Technical writer",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值恒等于列名选项",
+        "year": 2022
+      },
+      {
+        "column": "job.role.Technical support",
+        "kind": "multi_option",
+        "group": "job.role",
+        "option": "Technical support",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值恒等于列名选项",
+        "year": 2022
+      },
+      {
+        "column": "job.role.Data analyst",
+        "kind": "multi_option",
+        "group": "job.role",
+        "option": "Data analyst",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值恒等于列名选项",
+        "year": 2022
+      },
+      {
+        "column": "job.role.Business analyst",
+        "kind": "multi_option",
+        "group": "job.role",
+        "option": "Business analyst",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值恒等于列名选项",
+        "year": 2022
+      },
+      {
+        "column": "job.role.Team lead",
+        "kind": "multi_option",
+        "group": "job.role",
+        "option": "Team lead",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值恒等于列名选项",
+        "year": 2022
+      }
+    ]
+  }
+}

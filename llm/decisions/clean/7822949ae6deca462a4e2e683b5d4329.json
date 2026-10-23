@@ -1,0 +1,185 @@
+{
+  "stage": "clean_semantics",
+  "model": "qwen3.5:4b",
+  "model_digest": "d8b0f5e9760cd168",
+  "prompt_version": "clean-semantics-v2",
+  "input_hash": "7822949ae6deca462a4e2e683b5d4329",
+  "created_at": "2026-10-23T18:35:52",
+  "duration_s": 11.33,
+  "output_tokens": 806,
+  "fallback": false,
+  "error": "",
+  "manual_edit": false,
+  "reviewed": false,
+  "payload_summary": {
+    "year": 2024,
+    "batch": "ide.editor.None_300…ide.editor.DataSpell",
+    "n": 18
+  },
+  "response": {
+    "columns": [
+      {
+        "column": "ide.editor.None_300",
+        "kind": "multi_option",
+        "group": "ide.editor",
+        "option": "None",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列值恒为选项文本",
+        "year": 2024
+      },
+      {
+        "column": "ide.editor.PyCharm Professional Edition",
+        "kind": "multi_option",
+        "group": "ide.editor",
+        "option": "PyCharm Professional Edition",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列值恒为选项文本",
+        "year": 2024
+      },
+      {
+        "column": "ide.editor.Other",
+        "kind": "multi_option",
+        "group": "ide.editor",
+        "option": "Other",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列值恒为选项文本",
+        "year": 2024
+      },
+      {
+        "column": "ide.editor.PyCharm Community Edition",
+        "kind": "multi_option",
+        "group": "ide.editor",
+        "option": "PyCharm Community Edition",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列值恒为选项文本",
+        "year": 2024
+      },
+      {
+        "column": "ide.editor.Sublime Text",
+        "kind": "multi_option",
+        "group": "ide.editor",
+        "option": "Sublime Text",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列值恒为选项文本",
+        "year": 2024
+      },
+      {
+        "column": "ide.editor.Cursor",
+        "kind": "multi_option",
+        "group": "ide.editor",
+        "option": "Cursor",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列值恒为选项文本",
+        "year": 2024
+      },
+      {
+        "column": "ide.editor.Vim",
+        "kind": "multi_option",
+        "group": "ide.editor",
+        "option": "Vim",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列值恒为选项文本",
+        "year": 2024
+      },
+      {
+        "column": "ide.editor.Atom",
+        "kind": "multi_option",
+        "group": "ide.editor",
+        "option": "Atom",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列值恒为选项文本",
+        "year": 2024
+      },
+      {
+        "column": "ide.editor.Visual Studio Code",
+        "kind": "multi_option",
+        "group": "ide.editor",
+        "option": "Visual Studio Code",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列值恒为选项文本",
+        "year": 2024
+      },
+      {
+        "column": "ide.editor.Eclipse with PyDev",
+        "kind": "multi_option",
+        "group": "ide.editor",
+        "option": "Eclipse with PyDev",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列值恒为选项文本",
+        "year": 2024
+      },
+      {
+        "column": "ide.editor.JupyterLab",
+        "kind": "multi_option",
+        "group": "ide.editor",
+        "option": "JupyterLab",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列值恒为选项文本",
+        "year": 2024
+      },
+      {
+        "column": "ide.editor.Jupyter Notebook",
+        "kind": "multi_option",
+        "group": "ide.editor",
+        "option": "Jupyter Notebook",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列值恒为选项文本",
+        "year": 2024
+      },
+      {
+        "column": "ide.editor.IntelliJ IDEA",
+        "kind": "multi_option",
+        "group": "ide.editor",
+        "option": "IntelliJ IDEA",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列值恒为选项文本",
+        "year": 2024
+      },
+      {
+        "column": "ide.editor.NotePad++",
+        "kind": "multi_option",
+        "group": "ide.editor",
+        "option": "NotePad++",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列值恒为选项文本",
+        "year": 2024
+      },
+      {
+        "column": "ide.editor.IDLE",
+        "kind": "multi_option",
+        "group": "ide.editor",
+        "option": "IDLE",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列值恒为选项文本",
+        "year": 2024
+      },
+      {
+        "column": "ide.editor.Emacs",
+        "kind": "multi_option",
+        "group": "ide.editor",
+        "option": "Emacs",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列值恒为选项文本",
+        "year": 2024
+      },
+      {
+        "column": "ide.editor.Python Tools for Visual Studio (PTVS)",
+        "kind": "multi_option",
+        "group": "ide.editor",
+        "option": "Python Tools for Visual Studio (PTVS)",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列值恒为选项文本",
+        "year": 2024
+      },
+      {
+        "column": "ide.editor.DataSpell",
+        "kind": "multi_option",
+        "group": "ide.editor",
+        "option": "DataSpell",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列值恒为选项文本",
+        "year": 2024
+      }
+    ]
+  }
+}

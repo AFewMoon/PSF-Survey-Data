@@ -1,0 +1,217 @@
+{
+  "stage": "clean_semantics",
+  "model": "qwen3.5:4b",
+  "model_digest": "d8b0f5e9760cd168",
+  "prompt_version": "clean-semantics-v2",
+  "input_hash": "f3ce5fe28a6eaa7409e29fb13b4e707f",
+  "created_at": "2026-10-23T18:43:03",
+  "duration_s": 13.33,
+  "output_tokens": 1002,
+  "fallback": false,
+  "error": "",
+  "manual_edit": false,
+  "reviewed": false,
+  "payload_summary": {
+    "year": 2019,
+    "batch": "Hypothesis:Which Python unit-testing framework(s) do you use, if any?…Amazon Redshift:Which database(s) do you regularly use, if any?",
+    "n": 18
+  },
+  "response": {
+    "columns": [
+      {
+        "column": "Hypothesis:Which Python unit-testing framework(s) do you use, if any?",
+        "kind": "multi_option",
+        "group": "ide.editor",
+        "option": "Hypothesis",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "全列取值恒等于列名选项，符合 multi_like",
+        "year": 2019
+      },
+      {
+        "column": "mock:Which Python unit-testing framework(s) do you use, if any?",
+        "kind": "multi_option",
+        "group": "ide.editor",
+        "option": "mock",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "全列取值恒等于列名选项，符合 multi_like",
+        "year": 2019
+      },
+      {
+        "column": "None:Which Python unit-testing framework(s) do you use, if any?",
+        "kind": "multi_option",
+        "group": "ide.editor",
+        "option": "None",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "全列取值恒等于列名选项，符合 multi_like",
+        "year": 2019
+      },
+      {
+        "column": "nose:Which Python unit-testing framework(s) do you use, if any?",
+        "kind": "multi_option",
+        "group": "ide.editor",
+        "option": "nose",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "全列取值恒等于列名选项，符合 multi_like",
+        "year": 2019
+      },
+      {
+        "column": "Other – Write In::Which Python unit-testing framework(s) do you use, if any?",
+        "kind": "free_text",
+        "group": "ide.editor",
+        "option": "",
+        "missing_tokens": [],
+        "reason": "自由文本列，含脱敏样本，非结构化数据",
+        "year": 2019
+      },
+      {
+        "column": "pytest:Which Python unit-testing framework(s) do you use, if any?",
+        "kind": "multi_option",
+        "group": "ide.editor",
+        "option": "pytest",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "全列取值恒等于列名选项，符合 multi_like",
+        "year": 2019
+      },
+      {
+        "column": "Tox:Which Python unit-testing framework(s) do you use, if any?",
+        "kind": "multi_option",
+        "group": "ide.editor",
+        "option": "Tox",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "全列取值恒等于列名选项，符合 multi_like",
+        "year": 2019
+      },
+      {
+        "column": "unittest:Which Python unit-testing framework(s) do you use, if any?",
+        "kind": "multi_option",
+        "group": "ide.editor",
+        "option": "unittest",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "全列取值恒等于列名选项，符合 multi_like",
+        "year": 2019
+      },
+      {
+        "column": "Dejavu:What ORM(s) do you use together with Python, if any?",
+        "kind": "multi_option",
+        "group": "frameworks.ml",
+        "option": "Dejavu",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "全列取值恒等于列名选项，符合 multi_like",
+        "year": 2019
+      },
+      {
+        "column": "Django ORM:What ORM(s) do you use together with Python, if any?",
+        "kind": "multi_option",
+        "group": "frameworks.ml",
+        "option": "Django ORM",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "全列取值恒等于列名选项，符合 multi_like",
+        "year": 2019
+      },
+      {
+        "column": "None:What ORM(s) do you use together with Python, if any?",
+        "kind": "multi_option",
+        "group": "frameworks.ml",
+        "option": "None",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "全列取值恒等于列名选项，符合 multi_like",
+        "year": 2019
+      },
+      {
+        "column": "Other – Write In::What ORM(s) do you use together with Python, if any?",
+        "kind": "free_text",
+        "group": "frameworks.ml",
+        "option": "",
+        "missing_tokens": [],
+        "reason": "自由文本列，含脱敏样本，非结构化数据",
+        "year": 2019
+      },
+      {
+        "column": "Peewee:What ORM(s) do you use together with Python, if any?",
+        "kind": "multi_option",
+        "group": "frameworks.ml",
+        "option": "Peewee",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "全列取值恒等于列名选项，符合 multi_like",
+        "year": 2019
+      },
+      {
+        "column": "PonyORM:What ORM(s) do you use together with Python, if any?",
+        "kind": "multi_option",
+        "group": "frameworks.ml",
+        "option": "PonyORM",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "全列取值恒等于列名选项，符合 multi_like",
+        "year": 2019
+      },
+      {
+        "column": "SQLAlchemy:What ORM(s) do you use together with Python, if any?",
+        "kind": "multi_option",
+        "group": "frameworks.ml",
+        "option": "SQLAlchemy",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "全列取值恒等于列名选项，符合 multi_like",
+        "year": 2019
+      },
+      {
+        "column": "SQLObject:What ORM(s) do you use together with Python, if any?",
+        "kind": "multi_option",
+        "group": "frameworks.ml",
+        "option": "SQLObject",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "全列取值恒等于列名选项，符合 multi_like",
+        "year": 2019
+      },
+      {
+        "column": "Tortoise ORM:What ORM(s) do you use together with Python, if any?",
+        "kind": "multi_option",
+        "group": "frameworks.ml",
+        "option": "Tortoise ORM",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "全列取值恒等于列名选项，符合 multi_like",
+        "year": 2019
+      },
+      {
+        "column": "Amazon Redshift:Which database(s) do you regularly use, if any?",
+        "kind": "multi_option",
+        "group": "databases",
+        "option": "Amazon Redshift",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "全列取值恒等于列名选项，符合 multi_like",
+        "year": 2019
+      }
+    ]
+  }
+}

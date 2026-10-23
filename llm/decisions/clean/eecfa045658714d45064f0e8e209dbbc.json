@@ -1,0 +1,185 @@
+{
+  "stage": "clean_semantics",
+  "model": "qwen3.5:4b",
+  "model_digest": "d8b0f5e9760cd168",
+  "prompt_version": "clean-semantics-v2",
+  "input_hash": "eecfa045658714d45064f0e8e209dbbc",
+  "created_at": "2026-10-23T18:56:36",
+  "duration_s": 10.02,
+  "output_tokens": 766,
+  "fallback": false,
+  "error": "",
+  "manual_edit": false,
+  "reviewed": false,
+  "payload_summary": {
+    "year": 2022,
+    "batch": "unittesting.nose…database.None",
+    "n": 18
+  },
+  "response": {
+    "columns": [
+      {
+        "column": "unittesting.nose",
+        "kind": "multi_option",
+        "group": "unittesting.nose",
+        "option": "nose",
+        "missing_tokens": [],
+        "reason": "全列值等于列名，符合 multi_like 特征",
+        "year": 2022
+      },
+      {
+        "column": "unittesting.unittest",
+        "kind": "multi_option",
+        "group": "unittesting.unittest",
+        "option": "unittest",
+        "missing_tokens": [],
+        "reason": "全列值等于列名，符合 multi_like 特征",
+        "year": 2022
+      },
+      {
+        "column": "unittesting.doctest",
+        "kind": "multi_option",
+        "group": "unittesting.doctest",
+        "option": "doctest",
+        "missing_tokens": [],
+        "reason": "全列值等于列名，符合 multi_like 特征",
+        "year": 2022
+      },
+      {
+        "column": "unittesting.tox",
+        "kind": "multi_option",
+        "group": "unittesting.tox",
+        "option": "tox",
+        "missing_tokens": [],
+        "reason": "全列值等于列名，符合 multi_like 特征",
+        "year": 2022
+      },
+      {
+        "column": "unittesting.Hypothesis",
+        "kind": "multi_option",
+        "group": "unittesting.Hypothesis",
+        "option": "Hypothesis",
+        "missing_tokens": [],
+        "reason": "全列值等于列名，符合 multi_like 特征",
+        "year": 2022
+      },
+      {
+        "column": "unittesting.mock",
+        "kind": "multi_option",
+        "group": "unittesting.mock",
+        "option": "mock",
+        "missing_tokens": [],
+        "reason": "全列值等于列名，符合 multi_like 特征",
+        "year": 2022
+      },
+      {
+        "column": "unittesting.Other",
+        "kind": "multi_option",
+        "group": "unittesting.Other",
+        "option": "Other",
+        "missing_tokens": [],
+        "reason": "全列值等于列名，符合 multi_like 特征",
+        "year": 2022
+      },
+      {
+        "column": "orm.No database development",
+        "kind": "multi_option",
+        "group": "orm.No database development",
+        "option": "No database development",
+        "missing_tokens": [],
+        "reason": "全列值等于列名，符合 multi_like 特征",
+        "year": 2022
+      },
+      {
+        "column": "orm.Raw SQL",
+        "kind": "multi_option",
+        "group": "orm.Raw SQL",
+        "option": "Raw SQL",
+        "missing_tokens": [],
+        "reason": "全列值等于列名，符合 multi_like 特征",
+        "year": 2022
+      },
+      {
+        "column": "orm.Django ORM",
+        "kind": "multi_option",
+        "group": "orm.Django ORM",
+        "option": "Django ORM",
+        "missing_tokens": [],
+        "reason": "全列值等于列名，符合 multi_like 特征",
+        "year": 2022
+      },
+      {
+        "column": "orm.SQLAlchemy",
+        "kind": "multi_option",
+        "group": "orm.SQLAlchemy",
+        "option": "SQLAlchemy",
+        "missing_tokens": [],
+        "reason": "全列值等于列名，符合 multi_like 特征",
+        "year": 2022
+      },
+      {
+        "column": "orm.Peewee",
+        "kind": "multi_option",
+        "group": "orm.Peewee",
+        "option": "Peewee",
+        "missing_tokens": [],
+        "reason": "全列值等于列名，符合 multi_like 特征",
+        "year": 2022
+      },
+      {
+        "column": "orm.Dejavu",
+        "kind": "multi_option",
+        "group": "orm.Dejavu",
+        "option": "Dejavu",
+        "missing_tokens": [],
+        "reason": "全列值等于列名，符合 multi_like 特征",
+        "year": 2022
+      },
+      {
+        "column": "orm.PonyORM",
+        "kind": "multi_option",
+        "group": "orm.PonyORM",
+        "option": "PonyORM",
+        "missing_tokens": [],
+        "reason": "全列值等于列名，符合 multi_like 特征",
+        "year": 2022
+      },
+      {
+        "column": "orm.SQLObject",
+        "kind": "multi_option",
+        "group": "orm.SQLObject",
+        "option": "SQLObject",
+        "missing_tokens": [],
+        "reason": "全列值等于列名，符合 multi_like 特征",
+        "year": 2022
+      },
+      {
+        "column": "orm.Tortoise ORM",
+        "kind": "multi_option",
+        "group": "orm.Tortoise ORM",
+        "option": "Tortoise ORM",
+        "missing_tokens": [],
+        "reason": "全列值等于列名，符合 multi_like 特征",
+        "year": 2022
+      },
+      {
+        "column": "orm.Other",
+        "kind": "multi_option",
+        "group": "orm.Other",
+        "option": "Other",
+        "missing_tokens": [],
+        "reason": "全列值等于列名，符合 multi_like 特征",
+        "year": 2022
+      },
+      {
+        "column": "database.None",
+        "kind": "multi_option",
+        "group": "database.None",
+        "option": "None",
+        "missing_tokens": [],
+        "reason": "全列值等于列名，符合 multi_like 特征",
+        "year": 2022
+      }
+    ]
+  }
+}

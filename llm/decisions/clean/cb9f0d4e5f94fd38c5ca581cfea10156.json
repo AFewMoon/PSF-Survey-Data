@@ -1,0 +1,215 @@
+{
+  "stage": "clean_semantics",
+  "model": "qwen3.5:4b",
+  "model_digest": "d8b0f5e9760cd168",
+  "prompt_version": "clean-semantics-v2",
+  "input_hash": "cb9f0d4e5f94fd38c5ca581cfea10156",
+  "created_at": "2026-10-23T18:44:24",
+  "duration_s": 12.7,
+  "output_tokens": 933,
+  "fallback": false,
+  "error": "",
+  "manual_edit": false,
+  "reviewed": false,
+  "payload_summary": {
+    "year": 2019,
+    "batch": "How many people are in your project team?…Which of the following industries do you develop for?",
+    "n": 18
+  },
+  "response": {
+    "columns": [
+      {
+        "column": "How many people are in your project team?",
+        "kind": "multi_option",
+        "group": "team.size",
+        "option": "2-7 people",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "全列取值恒等于列名中的选项文本",
+        "year": 2019
+      },
+      {
+        "column": "What is your employment status?",
+        "kind": "multi_option",
+        "group": "employment.status",
+        "option": "Fully employed by a company / organization",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "全列取值恒等于列名中的选项文本",
+        "year": 2019
+      },
+      {
+        "column": "How many people work for your company / organization?",
+        "kind": "multi_option",
+        "group": "company.size",
+        "option": "51–500",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "全列取值恒等于列名中的选项文本",
+        "year": 2019
+      },
+      {
+        "column": "Architect:Which of the following best describes your job role(s)?",
+        "kind": "multi_option",
+        "group": "role.architect",
+        "option": "Architect",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "全列取值恒等于列名中的选项文本",
+        "year": 2019
+      },
+      {
+        "column": "Business analyst:Which of the following best describes your job role(s)?",
+        "kind": "multi_option",
+        "group": "role.business_analyst",
+        "option": "Business analyst",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "全列取值恒等于列名中的选项文本",
+        "year": 2019
+      },
+      {
+        "column": "CIO / CEO / CTO:Which of the following best describes your job role(s)?",
+        "kind": "multi_option",
+        "group": "role.cio_ceo_cto",
+        "option": "CIO / CEO / CTO",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "全列取值恒等于列名中的选项文本",
+        "year": 2019
+      },
+      {
+        "column": "Data analyst:Which of the following best describes your job role(s)?",
+        "kind": "multi_option",
+        "group": "role.data_analyst",
+        "option": "Data analyst",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "全列取值恒等于列名中的选项文本",
+        "year": 2019
+      },
+      {
+        "column": "DBA:Which of the following best describes your job role(s)?",
+        "kind": "multi_option",
+        "group": "role.dba",
+        "option": "DBA",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "全列取值恒等于列名中的选项文本",
+        "year": 2019
+      },
+      {
+        "column": "Developer / Programmer:Which of the following best describes your job role(s)?",
+        "kind": "multi_option",
+        "group": "role.developer_programmer",
+        "option": "Developer / Programmer",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "全列取值恒等于列名中的选项文本",
+        "year": 2019
+      },
+      {
+        "column": "Other – Write In::Which of the following best describes your job role(s)?",
+        "kind": "free_text",
+        "group": "role.other",
+        "option": "",
+        "missing_tokens": [],
+        "reason": "自由文本，样本已脱敏，仅给出结构特征",
+        "year": 2019
+      },
+      {
+        "column": "Product manager:Which of the following best describes your job role(s)?",
+        "kind": "multi_option",
+        "group": "role.product_manager",
+        "option": "Product manager",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "全列取值恒等于列名中的选项文本",
+        "year": 2019
+      },
+      {
+        "column": "QA engineer:Which of the following best describes your job role(s)?",
+        "kind": "multi_option",
+        "group": "role.qa_engineer",
+        "option": "QA engineer",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "全列取值恒等于列名中的选项文本",
+        "year": 2019
+      },
+      {
+        "column": "Systems analyst:Which of the following best describes your job role(s)?",
+        "kind": "multi_option",
+        "group": "role.systems_analyst",
+        "option": "Systems analyst",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "全列取值恒等于列名中的选项文本",
+        "year": 2019
+      },
+      {
+        "column": "Team lead:Which of the following best describes your job role(s)?",
+        "kind": "multi_option",
+        "group": "role.team_lead",
+        "option": "Team lead",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "全列取值恒等于列名中的选项文本",
+        "year": 2019
+      },
+      {
+        "column": "Technical support:Which of the following best describes your job role(s)?",
+        "kind": "multi_option",
+        "group": "role.technical_support",
+        "option": "Technical support",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "全列取值恒等于列名中的选项文本",
+        "year": 2019
+      },
+      {
+        "column": "Technical writer:Which of the following best describes your job role(s)?",
+        "kind": "multi_option",
+        "group": "role.technical_writer",
+        "option": "Technical writer",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "全列取值恒等于列名中的选项文本",
+        "year": 2019
+      },
+      {
+        "column": "Which of the following industries best describes your company's business?",
+        "kind": "free_text",
+        "group": "industry.company",
+        "option": "",
+        "missing_tokens": [],
+        "reason": "自由文本，样本已脱敏，仅给出结构特征",
+        "year": 2019
+      },
+      {
+        "column": "Which of the following industries do you develop for?",
+        "kind": "multi_option",
+        "group": "industry.development",
+        "option": "Information Technology / Software Development",
+        "missing_tokens": [],
+        "reason": "全列取值恒等于列名中的选项文本",
+        "year": 2019
+      }
+    ]
+  }
+}

@@ -1,0 +1,185 @@
+{
+  "stage": "clean_semantics",
+  "model": "qwen3.5:4b",
+  "model_digest": "d8b0f5e9760cd168",
+  "prompt_version": "clean-semantics-v2",
+  "input_hash": "4d4c7adc1915f672644e22b2a2b20081",
+  "created_at": "2026-10-23T18:55:19",
+  "duration_s": 11.74,
+  "output_tokens": 883,
+  "fallback": false,
+  "error": "",
+  "manual_edit": false,
+  "reviewed": false,
+  "payload_summary": {
+    "year": 2022,
+    "batch": "other.purposes.Desktop development…how.involved.Desktop development",
+    "n": 18
+  },
+  "response": {
+    "columns": [
+      {
+        "column": "other.purposes.Desktop development",
+        "kind": "multi_option",
+        "group": "other.purposes",
+        "option": "Desktop development",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列等于选项文本",
+        "year": 2022
+      },
+      {
+        "column": "other.purposes.Computer graphics",
+        "kind": "multi_option",
+        "group": "other.purposes",
+        "option": "Computer graphics",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列等于选项文本",
+        "year": 2022
+      },
+      {
+        "column": "other.purposes.Network programming",
+        "kind": "multi_option",
+        "group": "other.purposes",
+        "option": "Network programming",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列等于选项文本",
+        "year": 2022
+      },
+      {
+        "column": "other.purposes.Game development",
+        "kind": "multi_option",
+        "group": "other.purposes",
+        "option": "Game development",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列等于选项文本",
+        "year": 2022
+      },
+      {
+        "column": "other.purposes.Multimedia applications development",
+        "kind": "multi_option",
+        "group": "other.purposes",
+        "option": "Multimedia applications development",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列等于选项文本",
+        "year": 2022
+      },
+      {
+        "column": "other.purposes.Embedded development",
+        "kind": "multi_option",
+        "group": "other.purposes",
+        "option": "Embedded development",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列等于选项文本",
+        "year": 2022
+      },
+      {
+        "column": "other.purposes.Programming of web parsers / scrapers / crawlers",
+        "kind": "multi_option",
+        "group": "other.purposes",
+        "option": "Programming of web parsers / scrapers / crawlers",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列等于选项文本",
+        "year": 2022
+      },
+      {
+        "column": "other.purposes.Other",
+        "kind": "multi_option",
+        "group": "other.purposes",
+        "option": "Other",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列等于选项文本",
+        "year": 2022
+      },
+      {
+        "column": "use.python.most",
+        "kind": "multi_option",
+        "group": "use.python",
+        "option": "Web development",
+        "missing_tokens": [],
+        "reason": "flags 未指定，n_unique>1 且非 level_like，取 top 首个作为选项",
+        "year": 2022
+      },
+      {
+        "column": "how.involved.Educational purposes",
+        "kind": "multi_level",
+        "group": "how.involved",
+        "option": "Educational purposes : primary activity",
+        "missing_tokens": [],
+        "reason": "flags 为 level_like，取值含冒号及程度词",
+        "year": 2022
+      },
+      {
+        "column": "how.involved.Data analysis",
+        "kind": "multi_level",
+        "group": "how.involved",
+        "option": "Data analysis : primary activity",
+        "missing_tokens": [],
+        "reason": "flags 为 level_like，取值含冒号及程度词",
+        "year": 2022
+      },
+      {
+        "column": "how.involved.DevOps / System administration / Writing automation scripts",
+        "kind": "multi_level",
+        "group": "how.involved",
+        "option": "DevOps / System administration / Writing automation scripts : primary activity",
+        "missing_tokens": [],
+        "reason": "flags 为 level_like，取值含冒号及程度词",
+        "year": 2022
+      },
+      {
+        "column": "how.involved.Software testing / Writing automated tests",
+        "kind": "multi_level",
+        "group": "how.involved",
+        "option": "Software testing / Writing automated tests : primary activity",
+        "missing_tokens": [],
+        "reason": "flags 为 level_like，取值含冒号及程度词",
+        "year": 2022
+      },
+      {
+        "column": "how.involved.Software prototyping",
+        "kind": "multi_level",
+        "group": "how.involved",
+        "option": "Software prototyping : primary activity",
+        "missing_tokens": [],
+        "reason": "flags 为 level_like，取值含冒号及程度词",
+        "year": 2022
+      },
+      {
+        "column": "how.involved.Web development",
+        "kind": "multi_level",
+        "group": "how.involved",
+        "option": "Web development : primary activity",
+        "missing_tokens": [],
+        "reason": "flags 为 level_like，取值含冒号及程度词",
+        "year": 2022
+      },
+      {
+        "column": "how.involved.Machine learning",
+        "kind": "multi_level",
+        "group": "how.involved",
+        "option": "Machine learning : primary activity",
+        "missing_tokens": [],
+        "reason": "flags 为 level_like，取值含冒号及程度词",
+        "year": 2022
+      },
+      {
+        "column": "how.involved.Mobile development",
+        "kind": "multi_level",
+        "group": "how.involved",
+        "option": "Mobile development : primary activity",
+        "missing_tokens": [],
+        "reason": "flags 为 level_like，取值含冒号及程度词",
+        "year": 2022
+      },
+      {
+        "column": "how.involved.Desktop development",
+        "kind": "multi_level",
+        "group": "how.involved",
+        "option": "Desktop development : primary activity",
+        "missing_tokens": [],
+        "reason": "flags 为 level_like，取值含冒号及程度词",
+        "year": 2022
+      }
+    ]
+  }
+}

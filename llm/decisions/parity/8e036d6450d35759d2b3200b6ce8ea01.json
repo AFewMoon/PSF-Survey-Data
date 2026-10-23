@@ -1,0 +1,21 @@
+{
+  "stage": "parity_note",
+  "model": "qwen3.5:4b",
+  "model_digest": "d8b0f5e9760cd168",
+  "prompt_version": "parity-note-v1",
+  "input_hash": "8e036d6450d35759d2b3200b6ce8ea01",
+  "created_at": "2026-10-23T19:40:04",
+  "duration_s": 2.4,
+  "output_tokens": 164,
+  "fallback": false,
+  "error": "",
+  "manual_edit": false,
+  "reviewed": false,
+  "payload_summary": {
+    "rule": 153,
+    "llm": 40
+  },
+  "response": {
+    "text": "两条管线在列集合上存在显著差异，规则管线包含大量 CI 工具字段而 LLM 管线则多出公司规模、编程语言版本等上下文特征，导致 Jaccard 相似度仅为 22.9%。行数统计方面，2021 年和 2022 年存在微小差异，其余年份完全一致，表明 LLM 管线在特定年份的计数可能受命名粒度或同义词表覆盖不全的影响。同主题占比在编辑器偏好等核心字段上高度一致，但在编程语言分类上规则管线略低，反映出 LLM 在语义映射上的优势。综合来看，LLM 管线因能捕捉更多业务上下文且核心指标一致，其结果在统计推断上更为可信。"
+  }
+}

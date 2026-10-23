@@ -1,0 +1,185 @@
+{
+  "stage": "clean_semantics",
+  "model": "qwen3.5:4b",
+  "model_digest": "d8b0f5e9760cd168",
+  "prompt_version": "clean-semantics-v2",
+  "input_hash": "bf71cd3f4cb813b77e39529673804f76",
+  "created_at": "2026-10-23T18:35:30",
+  "duration_s": 10.18,
+  "output_tokens": 775,
+  "fallback": false,
+  "error": "",
+  "manual_edit": false,
+  "reviewed": false,
+  "payload_summary": {
+    "year": 2024,
+    "batch": "ci.Bamboo…configuration.management.Ansible",
+    "n": 18
+  },
+  "response": {
+    "columns": [
+      {
+        "column": "ci.Bamboo",
+        "kind": "multi_option",
+        "group": "ci",
+        "option": "Bamboo",
+        "missing_tokens": [],
+        "reason": "flags 显示全列等于选项文本，确认为单选选项列",
+        "year": 2024
+      },
+      {
+        "column": "ci.Bitbucket Pipelines",
+        "kind": "multi_option",
+        "group": "ci",
+        "option": "Bitbucket Pipelines",
+        "missing_tokens": [],
+        "reason": "flags 显示全列等于选项文本，确认为单选选项列",
+        "year": 2024
+      },
+      {
+        "column": "ci.CircleCI",
+        "kind": "multi_option",
+        "group": "ci",
+        "option": "CircleCI",
+        "missing_tokens": [],
+        "reason": "flags 显示全列等于选项文本，确认为单选选项列",
+        "year": 2024
+      },
+      {
+        "column": "ci.CruiseControl",
+        "kind": "multi_option",
+        "group": "ci",
+        "option": "CruiseControl",
+        "missing_tokens": [],
+        "reason": "flags 显示全列等于选项文本，确认为单选选项列",
+        "year": 2024
+      },
+      {
+        "column": "ci.GitHub Actions",
+        "kind": "multi_option",
+        "group": "ci",
+        "option": "GitHub Actions",
+        "missing_tokens": [],
+        "reason": "flags 显示全列等于选项文本，确认为单选选项列",
+        "year": 2024
+      },
+      {
+        "column": "ci.Gitlab CI",
+        "kind": "multi_option",
+        "group": "ci",
+        "option": "Gitlab CI",
+        "missing_tokens": [],
+        "reason": "flags 显示全列等于选项文本，确认为单选选项列",
+        "year": 2024
+      },
+      {
+        "column": "ci.Google Cloud Build",
+        "kind": "multi_option",
+        "group": "ci",
+        "option": "Google Cloud Build",
+        "missing_tokens": [],
+        "reason": "flags 显示全列等于选项文本，确认为单选选项列",
+        "year": 2024
+      },
+      {
+        "column": "ci.Jenkins / Hudson",
+        "kind": "multi_option",
+        "group": "ci",
+        "option": "Jenkins / Hudson",
+        "missing_tokens": [],
+        "reason": "flags 显示全列等于选项文本，确认为单选选项列",
+        "year": 2024
+      },
+      {
+        "column": "ci.JetBrains Space",
+        "kind": "multi_option",
+        "group": "ci",
+        "option": "JetBrains Space",
+        "missing_tokens": [],
+        "reason": "flags 显示全列等于选项文本，确认为单选选项列",
+        "year": 2024
+      },
+      {
+        "column": "ci.TeamCity",
+        "kind": "multi_option",
+        "group": "ci",
+        "option": "TeamCity",
+        "missing_tokens": [],
+        "reason": "flags 显示全列等于选项文本，确认为单选选项列",
+        "year": 2024
+      },
+      {
+        "column": "ci.Travis CI",
+        "kind": "multi_option",
+        "group": "ci",
+        "option": "Travis CI",
+        "missing_tokens": [],
+        "reason": "flags 显示全列等于选项文本，确认为单选选项列",
+        "year": 2024
+      },
+      {
+        "column": "ci.A custom tool",
+        "kind": "multi_option",
+        "group": "ci",
+        "option": "A custom tool",
+        "missing_tokens": [],
+        "reason": "flags 显示全列等于选项文本，确认为单选选项列",
+        "year": 2024
+      },
+      {
+        "column": "ci.Other",
+        "kind": "multi_option",
+        "group": "ci",
+        "option": "Other",
+        "missing_tokens": [],
+        "reason": "flags 显示全列等于选项文本，确认为单选选项列",
+        "year": 2024
+      },
+      {
+        "column": "configuration.management.None",
+        "kind": "multi_option",
+        "group": "configuration.management",
+        "option": "None",
+        "missing_tokens": [],
+        "reason": "flags 显示全列等于选项文本，确认为单选选项列",
+        "year": 2024
+      },
+      {
+        "column": "configuration.management.Salt",
+        "kind": "multi_option",
+        "group": "configuration.management",
+        "option": "Salt",
+        "missing_tokens": [],
+        "reason": "flags 显示全列等于选项文本，确认为单选选项列",
+        "year": 2024
+      },
+      {
+        "column": "configuration.management.Puppet",
+        "kind": "multi_option",
+        "group": "configuration.management",
+        "option": "Puppet",
+        "missing_tokens": [],
+        "reason": "flags 显示全列等于选项文本，确认为单选选项列",
+        "year": 2024
+      },
+      {
+        "column": "configuration.management.Chef",
+        "kind": "multi_option",
+        "group": "configuration.management",
+        "option": "Chef",
+        "missing_tokens": [],
+        "reason": "flags 显示全列等于选项文本，确认为单选选项列",
+        "year": 2024
+      },
+      {
+        "column": "configuration.management.Ansible",
+        "kind": "multi_option",
+        "group": "configuration.management",
+        "option": "Ansible",
+        "missing_tokens": [],
+        "reason": "flags 显示全列等于选项文本，确认为单选选项列",
+        "year": 2024
+      }
+    ]
+  }
+}

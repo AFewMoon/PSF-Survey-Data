@@ -1,0 +1,57 @@
+{
+  "stage": "option_alias",
+  "model": "qwen3.5:4b",
+  "model_digest": "d8b0f5e9760cd168",
+  "prompt_version": "option-alias-v1",
+  "input_hash": "45ac48646955cd78b133a252acc3fbe2",
+  "created_at": "2026-10-23T19:08:52",
+  "duration_s": 2.18,
+  "output_tokens": 129,
+  "fallback": false,
+  "error": "",
+  "manual_edit": false,
+  "reviewed": false,
+  "payload_summary": {
+    "groups": 10,
+    "values": 85
+  },
+  "response": {
+    "groups": [
+      {
+        "name": "ide.main",
+        "options": [
+          {
+            "variants": [
+              "Atom",
+              "Cursor",
+              "DataSpell",
+              "Eclipse + Pydev",
+              "Eclipse with PyDev",
+              "Emacs",
+              "IDLE",
+              "IntelliJ IDEA",
+              "Jupyter Notebook",
+              "JupyterLab",
+              "Nano",
+              "Neovim",
+              "None",
+              "NotePad++",
+              "Other",
+              "PyCharm Community Edition",
+              "PyCharm Professional Edition",
+              "Python Tools for Visual Studio (PTVS)",
+              "Spyder",
+              "Sublime Text",
+              "VS Code",
+              "Vim",
+              "Visual Studio Code",
+              "Wing IDE"
+            ],
+            "canonical": "Visual Studio Code",
+            "reason": "VS Code 与 Visual Studio Code 为同一软件"
+          }
+        ]
+      }
+    ]
+  }
+}

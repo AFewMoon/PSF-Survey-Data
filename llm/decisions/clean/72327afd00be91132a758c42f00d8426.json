@@ -1,0 +1,185 @@
+{
+  "stage": "clean_semantics",
+  "model": "qwen3.5:4b",
+  "model_digest": "d8b0f5e9760cd168",
+  "prompt_version": "clean-semantics-v2",
+  "input_hash": "72327afd00be91132a758c42f00d8426",
+  "created_at": "2026-10-23T18:57:30",
+  "duration_s": 11.59,
+  "output_tokens": 881,
+  "fallback": false,
+  "error": "",
+  "manual_edit": false,
+  "reviewed": false,
+  "payload_summary": {
+    "year": 2022,
+    "batch": "several.projects…environments.isolate.virtualenv",
+    "n": 18
+  },
+  "response": {
+    "columns": [
+      {
+        "column": "several.projects",
+        "kind": "single_choice",
+        "group": "several.projects",
+        "option": "",
+        "missing_tokens": [],
+        "reason": "全列取值恒等于列名中的选项文本，符合 multi_like 特征。",
+        "year": 2022
+      },
+      {
+        "column": "ide.editor.features.autocompletion",
+        "kind": "multi_level",
+        "group": "ide.editor.features.autocompletion",
+        "option": "",
+        "missing_tokens": [],
+        "reason": "取值均为「程度 + 冒号 + 频率」格式，符合 level_like 特征。",
+        "year": 2022
+      },
+      {
+        "column": "ide.editor.features.debugger",
+        "kind": "multi_level",
+        "group": "ide.editor.features.debugger",
+        "option": "",
+        "missing_tokens": [],
+        "reason": "取值均为「程度 + 冒号 + 频率」格式，符合 level_like 特征。",
+        "year": 2022
+      },
+      {
+        "column": "ide.editor.features.refactor",
+        "kind": "multi_level",
+        "group": "ide.editor.features.refactor",
+        "option": "",
+        "missing_tokens": [],
+        "reason": "取值均为「程度 + 冒号 + 频率」格式，符合 level_like 特征。",
+        "year": 2022
+      },
+      {
+        "column": "ide.editor.features.vcs",
+        "kind": "multi_level",
+        "group": "ide.editor.features.vcs",
+        "option": "",
+        "missing_tokens": [],
+        "reason": "取值均为「程度 + 冒号 + 频率」格式，符合 level_like 特征。",
+        "year": 2022
+      },
+      {
+        "column": "ide.editor.features.linting",
+        "kind": "multi_level",
+        "group": "ide.editor.features.linting",
+        "option": "",
+        "missing_tokens": [],
+        "reason": "取值均为「程度 + 冒号 + 频率」格式，符合 level_like 特征。",
+        "year": 2022
+      },
+      {
+        "column": "ide.editor.features.virtualenv",
+        "kind": "multi_level",
+        "group": "ide.editor.features.virtualenv",
+        "option": "",
+        "missing_tokens": [],
+        "reason": "取值均为「程度 + 冒号 + 频率」格式，符合 level_like 特征。",
+        "year": 2022
+      },
+      {
+        "column": "ide.editor.features.sql",
+        "kind": "multi_level",
+        "group": "ide.editor.features.sql",
+        "option": "",
+        "missing_tokens": [],
+        "reason": "取值均为「程度 + 冒号 + 频率」格式，符合 level_like 特征。",
+        "year": 2022
+      },
+      {
+        "column": "ide.editor.features.remote",
+        "kind": "multi_level",
+        "group": "ide.editor.features.remote",
+        "option": "",
+        "missing_tokens": [],
+        "reason": "取值均为「程度 + 冒号 + 频率」格式，符合 level_like 特征。",
+        "year": 2022
+      },
+      {
+        "column": "ide.editor.features.profiler",
+        "kind": "multi_level",
+        "group": "ide.editor.features.profiler",
+        "option": "",
+        "missing_tokens": [],
+        "reason": "取值均为「程度 + 冒号 + 频率」格式，符合 level_like 特征。",
+        "year": 2022
+      },
+      {
+        "column": "ide.editor.features.tests",
+        "kind": "multi_level",
+        "group": "ide.editor.features.tests",
+        "option": "",
+        "missing_tokens": [],
+        "reason": "取值均为「程度 + 冒号 + 频率」格式，符合 level_like 特征。",
+        "year": 2022
+      },
+      {
+        "column": "ide.editor.features.coverage",
+        "kind": "multi_level",
+        "group": "ide.editor.features.coverage",
+        "option": "",
+        "missing_tokens": [],
+        "reason": "取值均为「程度 + 冒号 + 频率」格式，符合 level_like 特征。",
+        "year": 2022
+      },
+      {
+        "column": "ide.editor.features.typehint",
+        "kind": "multi_level",
+        "group": "ide.editor.features.typehint",
+        "option": "",
+        "missing_tokens": [],
+        "reason": "取值均为「程度 + 冒号 + 频率」格式，符合 level_like 特征。",
+        "year": 2022
+      },
+      {
+        "column": "ide.editor.features.ci",
+        "kind": "multi_level",
+        "group": "ide.editor.features.ci",
+        "option": "",
+        "missing_tokens": [],
+        "reason": "取值均为「程度 + 冒号 + 频率」格式，符合 level_like 特征。",
+        "year": 2022
+      },
+      {
+        "column": "ide.editor.features.issue",
+        "kind": "multi_level",
+        "group": "ide.editor.features.issue",
+        "option": "",
+        "missing_tokens": [],
+        "reason": "取值均为「程度 + 冒号 + 频率」格式，符合 level_like 特征。",
+        "year": 2022
+      },
+      {
+        "column": "ide.editor.features.nosql",
+        "kind": "multi_level",
+        "group": "ide.editor.features.nosql",
+        "option": "",
+        "missing_tokens": [],
+        "reason": "取值均为「程度 + 冒号 + 频率」格式，符合 level_like 特征。",
+        "year": 2022
+      },
+      {
+        "column": "nps.main.ide",
+        "kind": "numeric",
+        "group": "nps.main.ide",
+        "option": "",
+        "missing_tokens": [],
+        "reason": "flags 显示 numeric_like，且取值全为数字。",
+        "year": 2022
+      },
+      {
+        "column": "environments.isolate.virtualenv",
+        "kind": "multi_option",
+        "group": "environments.isolate.virtualenv",
+        "option": "virtualenv",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列取值恒等于列名中的选项文本。",
+        "year": 2022
+      }
+    ]
+  }
+}

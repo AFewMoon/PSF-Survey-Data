@@ -1,0 +1,219 @@
+{
+  "stage": "clean_semantics",
+  "model": "qwen3.5:4b",
+  "model_digest": "d8b0f5e9760cd168",
+  "prompt_version": "clean-semantics-v2",
+  "input_hash": "1978b9a1e453f1981e07e0c27de1d6f6",
+  "created_at": "2026-10-23T18:43:16",
+  "duration_s": 13.23,
+  "output_tokens": 996,
+  "fallback": false,
+  "error": "",
+  "manual_edit": false,
+  "reviewed": false,
+  "payload_summary": {
+    "year": 2019,
+    "batch": "Cassandra:Which database(s) do you regularly use, if any?…Apache Hadoop/MapReduce:Which of the following Big Data tool(s) do you use, if any?",
+    "n": 18
+  },
+  "response": {
+    "columns": [
+      {
+        "column": "Cassandra:Which database(s) do you regularly use, if any?",
+        "kind": "multi_option",
+        "group": "ide.databases",
+        "option": "Cassandra",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "flags 显示全列等于列名选项，为单选题",
+        "year": 2019
+      },
+      {
+        "column": "Couchbase:Which database(s) do you regularly use, if any?",
+        "kind": "multi_option",
+        "group": "ide.databases",
+        "option": "Couchbase",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "flags 显示全列等于列名选项，为单选题",
+        "year": 2019
+      },
+      {
+        "column": "DB2:Which database(s) do you regularly use, if any?",
+        "kind": "multi_option",
+        "group": "ide.databases",
+        "option": "DB2",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "flags 显示全列等于列名选项，为单选题",
+        "year": 2019
+      },
+      {
+        "column": "h2:Which database(s) do you regularly use, if any?",
+        "kind": "multi_option",
+        "group": "ide.databases",
+        "option": "h2",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "flags 显示全列等于列名选项，为单选题",
+        "year": 2019
+      },
+      {
+        "column": "HBase:Which database(s) do you regularly use, if any?",
+        "kind": "multi_option",
+        "group": "ide.databases",
+        "option": "HBase",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "flags 显示全列等于列名选项，为单选题",
+        "year": 2019
+      },
+      {
+        "column": "MongoDB:Which database(s) do you regularly use, if any?",
+        "kind": "multi_option",
+        "group": "ide.databases",
+        "option": "MongoDB",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "flags 显示全列等于列名选项，为单选题",
+        "year": 2019
+      },
+      {
+        "column": "MS SQL Server:Which database(s) do you regularly use, if any?",
+        "kind": "multi_option",
+        "group": "ide.databases",
+        "option": "MS SQL Server",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "flags 显示全列等于列名选项，为单选题",
+        "year": 2019
+      },
+      {
+        "column": "MySQL:Which database(s) do you regularly use, if any?",
+        "kind": "multi_option",
+        "group": "ide.databases",
+        "option": "MySQL",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "flags 显示全列等于列名选项，为单选题",
+        "year": 2019
+      },
+      {
+        "column": "Neo4j:Which database(s) do you regularly use, if any?",
+        "kind": "multi_option",
+        "group": "ide.databases",
+        "option": "Neo4j",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "flags 显示全列等于列名选项，为单选题",
+        "year": 2019
+      },
+      {
+        "column": "None:Which database(s) do you regularly use, if any?",
+        "kind": "multi_option",
+        "group": "ide.databases",
+        "option": "None",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "flags 显示全列等于列名选项，为单选题",
+        "year": 2019
+      },
+      {
+        "column": "Oracle Database:Which database(s) do you regularly use, if any?",
+        "kind": "multi_option",
+        "group": "ide.databases",
+        "option": "Oracle Database",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "flags 显示全列等于列名选项，为单选题",
+        "year": 2019
+      },
+      {
+        "column": "Other – Write In::Which database(s) do you regularly use, if any?",
+        "kind": "free_text",
+        "group": "ide.databases",
+        "option": "",
+        "missing_tokens": [],
+        "reason": "flags 显示为自由文本，样本已脱敏，仅给出结构特征",
+        "year": 2019
+      },
+      {
+        "column": "PostgreSQL:Which database(s) do you regularly use, if any?",
+        "kind": "multi_option",
+        "group": "ide.databases",
+        "option": "PostgreSQL",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "flags 显示全列等于列名选项，为单选题",
+        "year": 2019
+      },
+      {
+        "column": "Redis:Which database(s) do you regularly use, if any?",
+        "kind": "multi_option",
+        "group": "ide.databases",
+        "option": "Redis",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "flags 显示全列等于列名选项，为单选题",
+        "year": 2019
+      },
+      {
+        "column": "SQLite:Which database(s) do you regularly use, if any?",
+        "kind": "multi_option",
+        "group": "ide.databases",
+        "option": "SQLite",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "flags 显示全列等于列名选项，为单选题",
+        "year": 2019
+      },
+      {
+        "column": "Apache Beam:Which of the following Big Data tool(s) do you use, if any?",
+        "kind": "multi_option",
+        "group": "ide.tools",
+        "option": "Apache Beam",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "flags 显示全列等于列名选项，为单选题",
+        "year": 2019
+      },
+      {
+        "column": "Apache Flink:Which of the following Big Data tool(s) do you use, if any?",
+        "kind": "multi_option",
+        "group": "ide.tools",
+        "option": "Apache Flink",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "flags 显示全列等于列名选项，为单选题",
+        "year": 2019
+      },
+      {
+        "column": "Apache Hadoop/MapReduce:Which of the following Big Data tool(s) do you use, if any?",
+        "kind": "multi_option",
+        "group": "ide.tools",
+        "option": "Apache Hadoop/MapReduce",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "flags 显示全列等于列名选项，为单选题",
+        "year": 2019
+      }
+    ]
+  }
+}

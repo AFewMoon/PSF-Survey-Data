@@ -1,0 +1,210 @@
+{
+  "stage": "clean_semantics",
+  "model": "qwen3.5:4b",
+  "model_digest": "d8b0f5e9760cd168",
+  "prompt_version": "clean-semantics-v2",
+  "input_hash": "963e80d847ba270cbf8b3717b20fa35f",
+  "created_at": "2026-10-23T18:44:12",
+  "duration_s": 14.22,
+  "output_tokens": 1080,
+  "fallback": false,
+  "error": "",
+  "manual_edit": false,
+  "reviewed": false,
+  "payload_summary": {
+    "year": 2019,
+    "batch": "use autocompletion  in your editor:When developing in Python, how often do you …?…Most of the time, do you ...? ",
+    "n": 18
+  },
+  "response": {
+    "columns": [
+      {
+        "column": "use autocompletion  in your editor:When developing in Python, how often do you …?",
+        "kind": "single_choice",
+        "group": "ide.editor",
+        "option": "Often",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "列名含问句，top 含 NA 及频率词，符合单选特征",
+        "year": 2019
+      },
+      {
+        "column": "use a debugger:When developing in Python, how often do you …?",
+        "kind": "single_choice",
+        "group": "ide.editor",
+        "option": "Often",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "列名含问句，top 含 NA 及频率词，符合单选特征",
+        "year": 2019
+      },
+      {
+        "column": "refactor your code:When developing in Python, how often do you …?",
+        "kind": "single_choice",
+        "group": "ide.editor",
+        "option": "Often",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "列名含问句，top 含 NA 及频率词，符合单选特征",
+        "year": 2019
+      },
+      {
+        "column": "use Version Control Systems:When developing in Python, how often do you …?",
+        "kind": "single_choice",
+        "group": "ide.editor",
+        "option": "Often",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "列名含问句，top 含 NA 及频率词，符合单选特征",
+        "year": 2019
+      },
+      {
+        "column": "use code linting (programs that analyze code for potential errors):When developing in Python, how often do you …?",
+        "kind": "single_choice",
+        "group": "ide.editor",
+        "option": "Often",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "列名含问句，top 含 NA 及频率词，符合单选特征",
+        "year": 2019
+      },
+      {
+        "column": "use Python virtual environments for your projects:When developing in Python, how often do you …?",
+        "kind": "single_choice",
+        "group": "ide.editor",
+        "option": "Often",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "列名含问句，top 含 NA 及频率词，符合单选特征",
+        "year": 2019
+      },
+      {
+        "column": "use SQL databases :When developing in Python, how often do you …?",
+        "kind": "single_choice",
+        "group": "ide.editor",
+        "option": "Often",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "列名含问句，top 含 NA 及频率词，符合单选特征",
+        "year": 2019
+      },
+      {
+        "column": "use NoSQL databases:When developing in Python, how often do you …?",
+        "kind": "single_choice",
+        "group": "ide.editor",
+        "option": "Often",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "列名含问句，top 含 NA 及频率词，符合单选特征",
+        "year": 2019
+      },
+      {
+        "column": "run / debug or edit code on remote machines (remote hosts, VMs, etc.):When developing in Python, how often do you …?",
+        "kind": "single_choice",
+        "group": "ide.editor",
+        "option": "Often",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "列名含问句，top 含 NA 及频率词，符合单选特征",
+        "year": 2019
+      },
+      {
+        "column": "use a Python profiler:When developing in Python, how often do you …?",
+        "kind": "single_choice",
+        "group": "ide.editor",
+        "option": "Often",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "列名含问句，top 含 NA 及频率词，符合单选特征",
+        "year": 2019
+      },
+      {
+        "column": "write tests for your code:When developing in Python, how often do you …?",
+        "kind": "single_choice",
+        "group": "ide.editor",
+        "option": "Often",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "列名含问句，top 含 NA 及频率词，符合单选特征",
+        "year": 2019
+      },
+      {
+        "column": "use code coverage:When developing in Python, how often do you …?",
+        "kind": "single_choice",
+        "group": "ide.editor",
+        "option": "Often",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "列名含问句，top 含 NA 及频率词，符合单选特征",
+        "year": 2019
+      },
+      {
+        "column": "use optional type hinting:When developing in Python, how often do you …?",
+        "kind": "single_choice",
+        "group": "ide.editor",
+        "option": "Often",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "列名含问句，top 含 NA 及频率词，符合单选特征",
+        "year": 2019
+      },
+      {
+        "column": "use Continuous Integration tools:When developing in Python, how often do you …?",
+        "kind": "single_choice",
+        "group": "ide.editor",
+        "option": "Often",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "列名含问句，top 含 NA 及频率词，符合单选特征",
+        "year": 2019
+      },
+      {
+        "column": "use Issue Trackers:When developing in Python, how often do you …?",
+        "kind": "single_choice",
+        "group": "ide.editor",
+        "option": "Often",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "列名含问句，top 含 NA 及频率词，符合单选特征",
+        "year": 2019
+      },
+      {
+        "column": "How did you first learn about your primary IDE?",
+        "kind": "single_choice",
+        "group": "ide.history",
+        "option": "Friend / Colleague",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "列名含问句，top 含 NA 及来源词，符合单选特征",
+        "year": 2019
+      },
+      {
+        "column": "How often do you use your primary IDE?",
+        "kind": "single_choice",
+        "group": "ide.history",
+        "option": "Daily",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "列名含问句，top 含 NA 及频率词，符合单选特征",
+        "year": 2019
+      }
+    ]
+  }
+}

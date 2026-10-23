@@ -78,6 +78,20 @@ python analyze_survey.py  # 3. 统计分析（2024 画像 + 跨年趋势）
 - 2020 年问题清单上游即仅有表头（空文件）。
 - 各年对齐文件各有 1 列因同名冲突带 `__dup` 后缀，内容互不相同，未合并。
 
+### LLM 驱动管线（可选，独立于上面的规则管线）
+
+另有一条完全由本地 `qwen3.5:4b`（Ollama）驱动决策的平行管线，产物全部落在 `llm/`，不覆盖上面任何文件：
+
+```powershell
+cd llm
+python run_llm_pipeline.py --stage all     # 命中缓存约 2.6 分钟；--refresh 重算约 30 分钟
+```
+
+模型负责列语义与清洗算子、跨年组路径/选项归并、统计口径与解读、图表规格，Python 只做校验与执行；
+所有决策缓存在 `llm/decisions/*.json` 可审计、可修订、可断点续跑。产物见 `llm/cleaned/`、`llm/aligned/`、
+`llm/stats/`、`llm/charts/`、`llm/reports/`（含与规则管线的 `parity_report.md`：列集合 Jaccard 22.9%、
+匹配列非空率差异 0 条、同主题占比最大差异 0.1 pp）。用法、护栏与已知局限见 [`llm/README.md`](llm/README.md)。
+
 ### 许可证
 
 脚本与文档以 [GPL-3.0](LICENSE) 发布。原始数据版权归 JetBrains / PSF 所有，使用数据请遵循其发布条款并注明来源。
@@ -95,6 +109,8 @@ python analyze_survey.py  # 3. 统计分析（2024 画像 + 跨年趋势）
 ### Layout & Usage
 
 Root contains the 6 raw main-dataset CSVs (one per year) plus per-year question lists. `cleaned/` holds per-year cleaned datasets with `cleaning_report.md`; `aligned/` holds per-year aligned datasets, the master table `survey_2019_2024_master.csv` (185,632 rows × 154 cols incl. `year`), column/value mapping CSVs, and `alignment_report.md`.
+
+`llm/` holds an optional, fully independent pipeline where every semantic decision (column kinds, cleaning operators, cross-year group/option mapping, stats plan, narratives, chart specs) is made by a local `qwen3.5:4b` model through Ollama, with cached decision JSONs and deterministic guards; run `python run_llm_pipeline.py --stage all` inside `llm/` and see [`llm/README.md`](llm/README.md).
 
 Requires Python 3.14+ and pandas:
 

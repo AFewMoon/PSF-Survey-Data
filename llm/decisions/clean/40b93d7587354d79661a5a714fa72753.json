@@ -1,0 +1,185 @@
+{
+  "stage": "clean_semantics",
+  "model": "qwen3.5:4b",
+  "model_digest": "d8b0f5e9760cd168",
+  "prompt_version": "clean-semantics-v2",
+  "input_hash": "40b93d7587354d79661a5a714fa72753",
+  "created_at": "2026-10-23T18:53:25",
+  "duration_s": 10.4,
+  "output_tokens": 794,
+  "fallback": false,
+  "error": "",
+  "manual_edit": false,
+  "reviewed": false,
+  "payload_summary": {
+    "year": 2021,
+    "batch": "venv.Other…dependency.store.None",
+    "n": 18
+  },
+  "response": {
+    "columns": [
+      {
+        "column": "venv.Other",
+        "kind": "multi_option",
+        "group": "venv",
+        "option": "Other",
+        "missing_tokens": [],
+        "reason": "全列值等于列名，符合 multi_like 特征",
+        "year": 2021
+      },
+      {
+        "column": "packaging.tools.None / I'm not sure",
+        "kind": "multi_option",
+        "group": "packaging.tools",
+        "option": "None / I'm not sure",
+        "missing_tokens": [],
+        "reason": "全列值等于列名，符合 multi_like 特征",
+        "year": 2021
+      },
+      {
+        "column": "packaging.tools.pip",
+        "kind": "multi_option",
+        "group": "packaging.tools",
+        "option": "pip",
+        "missing_tokens": [],
+        "reason": "全列值等于列名，符合 multi_like 特征",
+        "year": 2021
+      },
+      {
+        "column": "packaging.tools.Conda",
+        "kind": "multi_option",
+        "group": "packaging.tools",
+        "option": "Conda",
+        "missing_tokens": [],
+        "reason": "全列值等于列名，符合 multi_like 特征",
+        "year": 2021
+      },
+      {
+        "column": "packaging.tools.pipenv",
+        "kind": "multi_option",
+        "group": "packaging.tools",
+        "option": "pipenv",
+        "missing_tokens": [],
+        "reason": "全列值等于列名，符合 multi_like 特征",
+        "year": 2021
+      },
+      {
+        "column": "packaging.tools.Poetry",
+        "kind": "multi_option",
+        "group": "packaging.tools",
+        "option": "Poetry",
+        "missing_tokens": [],
+        "reason": "全列值等于列名，符合 multi_like 特征",
+        "year": 2021
+      },
+      {
+        "column": "packaging.tools.venv (standard library)",
+        "kind": "multi_option",
+        "group": "packaging.tools",
+        "option": "venv (standard library)",
+        "missing_tokens": [],
+        "reason": "全列值等于列名，符合 multi_like 特征",
+        "year": 2021
+      },
+      {
+        "column": "packaging.tools.virtualenv",
+        "kind": "multi_option",
+        "group": "packaging.tools",
+        "option": "virtualenv",
+        "missing_tokens": [],
+        "reason": "全列值等于列名，符合 multi_like 特征",
+        "year": 2021
+      },
+      {
+        "column": "packaging.tools.flit",
+        "kind": "multi_option",
+        "group": "packaging.tools",
+        "option": "flit",
+        "missing_tokens": [],
+        "reason": "全列值等于列名，符合 multi_like 特征",
+        "year": 2021
+      },
+      {
+        "column": "packaging.tools.tox",
+        "kind": "multi_option",
+        "group": "packaging.tools",
+        "option": "tox",
+        "missing_tokens": [],
+        "reason": "全列值等于列名，符合 multi_like 特征",
+        "year": 2021
+      },
+      {
+        "column": "packaging.tools.PDM",
+        "kind": "multi_option",
+        "group": "packaging.tools",
+        "option": "PDM",
+        "missing_tokens": [],
+        "reason": "全列值等于列名，符合 multi_like 特征",
+        "year": 2021
+      },
+      {
+        "column": "packaging.tools.twine",
+        "kind": "multi_option",
+        "group": "packaging.tools",
+        "option": "twine",
+        "missing_tokens": [],
+        "reason": "全列值等于列名，符合 multi_like 特征",
+        "year": 2021
+      },
+      {
+        "column": "packaging.tools.Containers (eg via Docker)",
+        "kind": "multi_option",
+        "group": "packaging.tools",
+        "option": "Containers (eg via Docker)",
+        "missing_tokens": [],
+        "reason": "全列值等于列名，符合 multi_like 特征",
+        "year": 2021
+      },
+      {
+        "column": "packaging.tools.Virtual machines",
+        "kind": "multi_option",
+        "group": "packaging.tools",
+        "option": "Virtual machines",
+        "missing_tokens": [],
+        "reason": "全列值等于列名，符合 multi_like 特征",
+        "year": 2021
+      },
+      {
+        "column": "packaging.tools.Workplace specific proprietary solution",
+        "kind": "multi_option",
+        "group": "packaging.tools",
+        "option": "Workplace specific proprietary solution",
+        "missing_tokens": [],
+        "reason": "全列值等于列名，符合 multi_like 特征",
+        "year": 2021
+      },
+      {
+        "column": "packaging.tools.Other",
+        "kind": "multi_option",
+        "group": "packaging.tools",
+        "option": "Other",
+        "missing_tokens": [],
+        "reason": "全列值等于列名，符合 multi_like 特征",
+        "year": 2021
+      },
+      {
+        "column": "dependency.version",
+        "kind": "multi_option",
+        "group": "dependency",
+        "option": "No / Yes",
+        "missing_tokens": [],
+        "reason": "仅含 No/Yes 两个选项，符合 multi_like 特征",
+        "year": 2021
+      },
+      {
+        "column": "dependency.store.None",
+        "kind": "multi_option",
+        "group": "dependency",
+        "option": "None",
+        "missing_tokens": [],
+        "reason": "全列值等于列名，符合 multi_like 特征",
+        "year": 2021
+      }
+    ]
+  }
+}

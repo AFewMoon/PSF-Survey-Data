@@ -1,0 +1,176 @@
+{
+  "stage": "clean_semantics",
+  "model": "qwen3.5:4b",
+  "model_digest": "d8b0f5e9760cd168",
+  "prompt_version": "clean-semantics-v2",
+  "input_hash": "411197c406dd3f18cfadc4ffa72af73e",
+  "created_at": "2026-10-23T19:03:15",
+  "duration_s": 12.87,
+  "output_tokens": 984,
+  "fallback": false,
+  "error": "",
+  "manual_edit": false,
+  "reviewed": false,
+  "payload_summary": {
+    "year": 2023,
+    "batch": "ide.editor.Wing IDE…nps.main.ide",
+    "n": 18
+  },
+  "response": {
+    "columns": [
+      {
+        "column": "ide.editor.Wing IDE",
+        "kind": "multi_option",
+        "group": "ide.editor",
+        "option": "Wing IDE",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值恒等于列名选项",
+        "year": 2023
+      },
+      {
+        "column": "several.projects",
+        "kind": "multi_option",
+        "group": "several.projects",
+        "option": "Yes, I work on many different projects",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值恒等于列名选项",
+        "year": 2023
+      },
+      {
+        "column": "ide.editor.features.Use a debugger",
+        "kind": "multi_level",
+        "group": "ide.editor.features.Use a debugger",
+        "option": "Often",
+        "missing_tokens": [],
+        "reason": "flags 显示 level_like，取值含程度词如 Often/From timeto time",
+        "year": 2023
+      },
+      {
+        "column": "ide.editor.features.Refactor your code",
+        "kind": "multi_level",
+        "group": "ide.editor.features.Refactor your code",
+        "option": "Often",
+        "missing_tokens": [],
+        "reason": "flags 显示 level_like，取值含程度词如 Often/From timeto time",
+        "year": 2023
+      },
+      {
+        "column": "ide.editor.features.Use version control systems",
+        "kind": "multi_level",
+        "group": "ide.editor.features.Use version control systems",
+        "option": "Often",
+        "missing_tokens": [],
+        "reason": "flags 显示 level_like，取值含程度词如 Often/From timeto time",
+        "year": 2023
+      },
+      {
+        "column": "ide.editor.features.Use code linting (programs that analyze code for potential errors)",
+        "kind": "multi_level",
+        "group": "ide.editor.features.Use code linting (programs that analyze code for potential errors)",
+        "option": "Often",
+        "missing_tokens": [],
+        "reason": "flags 显示 level_like，取值含程度词如 Often/From timeto time",
+        "year": 2023
+      },
+      {
+        "column": "ide.editor.features.Use Python virtual environments for your projects",
+        "kind": "multi_level",
+        "group": "ide.editor.features.Use Python virtual environments for your projects",
+        "option": "Often",
+        "missing_tokens": [],
+        "reason": "flags 显示 level_like，取值含程度词如 Often/From timeto time",
+        "year": 2023
+      },
+      {
+        "column": "ide.editor.features.Use SQL databases",
+        "kind": "multi_level",
+        "group": "ide.editor.features.Use SQL databases",
+        "option": "Often",
+        "missing_tokens": [],
+        "reason": "flags 显示 level_like，取值含程度词如 Often/From timeto time",
+        "year": 2023
+      },
+      {
+        "column": "ide.editor.features.Run / debug or edit code on remote machines (remote hosts, VMs, etc.)",
+        "kind": "multi_level",
+        "group": "ide.editor.features.Run / debug or edit code on remote machines (remote hosts, VMs, etc.)",
+        "option": "Often",
+        "missing_tokens": [],
+        "reason": "flags 显示 level_like，取值含程度词如 Often/From timeto time",
+        "year": 2023
+      },
+      {
+        "column": "ide.editor.features.Use a Python profiler",
+        "kind": "multi_level",
+        "group": "ide.editor.features.Use a Python profiler",
+        "option": "Often",
+        "missing_tokens": [],
+        "reason": "flags 显示 level_like，取值含程度词如 Often/From timeto time",
+        "year": 2023
+      },
+      {
+        "column": "ide.editor.features.Write tests for your code",
+        "kind": "multi_level",
+        "group": "ide.editor.features.Write tests for your code",
+        "option": "Often",
+        "missing_tokens": [],
+        "reason": "flags 显示 level_like，取值含程度词如 Often/From timeto time",
+        "year": 2023
+      },
+      {
+        "column": "ide.editor.features.Use code coverage",
+        "kind": "multi_level",
+        "group": "ide.editor.features.Use code coverage",
+        "option": "Often",
+        "missing_tokens": [],
+        "reason": "flags 显示 level_like，取值含程度词如 Often/From timeto time",
+        "year": 2023
+      },
+      {
+        "column": "ide.editor.features.Use type hinting",
+        "kind": "multi_level",
+        "group": "ide.editor.features.Use type hinting",
+        "option": "Often",
+        "missing_tokens": [],
+        "reason": "flags 显示 level_like，取值含程度词如 Often/From timeto time",
+        "year": 2023
+      },
+      {
+        "column": "ide.editor.features.Use Continuous Integration tools",
+        "kind": "multi_level",
+        "group": "ide.editor.features.Use Continuous Integration tools",
+        "option": "Often",
+        "missing_tokens": [],
+        "reason": "flags 显示 level_like，取值含程度词如 Often/From timeto time",
+        "year": 2023
+      },
+      {
+        "column": "ide.editor.features.Use issue trackers",
+        "kind": "multi_level",
+        "group": "ide.editor.features.Use issue trackers",
+        "option": "Often",
+        "missing_tokens": [],
+        "reason": "flags 显示 level_like，取值含程度词如 Often/From timeto time",
+        "year": 2023
+      },
+      {
+        "column": "ide.editor.features.Use NoSQL databases",
+        "kind": "multi_level",
+        "group": "ide.editor.features.Use NoSQL databases",
+        "option": "Often",
+        "missing_tokens": [],
+        "reason": "flags 显示 level_like，取值含程度词如 Often/From timeto time",
+        "year": 2023
+      },
+      {
+        "column": "nps.main.ide",
+        "kind": "numeric",
+        "group": "nps.main.ide",
+        "option": "10",
+        "missing_tokens": [],
+        "reason": "flags 显示 numeric_like，全列为数字评分",
+        "year": 2023
+      }
+    ]
+  }
+}

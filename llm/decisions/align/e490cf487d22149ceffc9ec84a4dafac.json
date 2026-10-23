@@ -1,0 +1,35 @@
+{
+  "stage": "option_alias",
+  "model": "qwen3.5:4b",
+  "model_digest": "d8b0f5e9760cd168",
+  "prompt_version": "option-alias-v1",
+  "input_hash": "e490cf487d22149ceffc9ec84a4dafac",
+  "created_at": "2026-10-23T19:08:44",
+  "duration_s": 3.98,
+  "output_tokens": 282,
+  "fallback": false,
+  "error": "",
+  "manual_edit": false,
+  "reviewed": false,
+  "payload_summary": {
+    "groups": 8,
+    "values": 80
+  },
+  "response": {
+    "groups": [
+      {
+        "name": "learning.source",
+        "options": [
+          {
+            "variants": [
+              "Online coding schools and MOOCs (Codecademy, JetBrains Academy, Coursera, edX, Udacity, etc_)",
+              "Online coding schools and MOOCs"
+            ],
+            "canonical": "Online coding schools and MOOCs",
+            "reason": "括号内容属补充说明"
+          }
+        ]
+      }
+    ]
+  }
+}

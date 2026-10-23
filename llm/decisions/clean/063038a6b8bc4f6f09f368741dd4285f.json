@@ -1,0 +1,187 @@
+{
+  "stage": "clean_semantics",
+  "model": "qwen3.5:4b",
+  "model_digest": "d8b0f5e9760cd168",
+  "prompt_version": "clean-semantics-v2",
+  "input_hash": "063038a6b8bc4f6f09f368741dd4285f",
+  "created_at": "2026-10-23T18:34:34",
+  "duration_s": 10.13,
+  "output_tokens": 765,
+  "fallback": false,
+  "error": "",
+  "manual_edit": false,
+  "reviewed": false,
+  "payload_summary": {
+    "year": 2024,
+    "batch": "training.platforms.Cloud VMs with SSH…deployment.tools.An in-house solution",
+    "n": 18
+  },
+  "response": {
+    "columns": [
+      {
+        "column": "training.platforms.Cloud VMs with SSH",
+        "kind": "multi_option",
+        "group": "training.platforms",
+        "option": "Cloud VMs with SSH",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列等于选项文本",
+        "year": 2024
+      },
+      {
+        "column": "training.platforms.An in-house solution",
+        "kind": "multi_option",
+        "group": "training.platforms",
+        "option": "An in-house solution",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列等于选项文本",
+        "year": 2024
+      },
+      {
+        "column": "training.platforms.Other",
+        "kind": "multi_option",
+        "group": "training.platforms",
+        "option": "Other",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列等于选项文本",
+        "year": 2024
+      },
+      {
+        "column": "ml.deployment",
+        "kind": "multi_option",
+        "group": "ml.deployment",
+        "option": "Yes",
+        "missing_tokens": [
+          "No"
+        ],
+        "reason": "flags 含 numeric_like，0/1 代表 No/Yes",
+        "year": 2024
+      },
+      {
+        "column": "deployment.tools.None",
+        "kind": "multi_option",
+        "group": "deployment.tools",
+        "option": "None",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列等于选项文本",
+        "year": 2024
+      },
+      {
+        "column": "deployment.tools.Amazon Sagemaker",
+        "kind": "multi_option",
+        "group": "deployment.tools",
+        "option": "Amazon Sagemaker",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列等于选项文本",
+        "year": 2024
+      },
+      {
+        "column": "deployment.tools.AzureML",
+        "kind": "multi_option",
+        "group": "deployment.tools",
+        "option": "AzureML",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列等于选项文本",
+        "year": 2024
+      },
+      {
+        "column": "deployment.tools.VertexAI",
+        "kind": "multi_option",
+        "group": "deployment.tools",
+        "option": "VertexAI",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列等于选项文本",
+        "year": 2024
+      },
+      {
+        "column": "deployment.tools.Databricks",
+        "kind": "multi_option",
+        "group": "deployment.tools",
+        "option": "Databricks",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列等于选项文本",
+        "year": 2024
+      },
+      {
+        "column": "deployment.tools.Dataiku",
+        "kind": "multi_option",
+        "group": "deployment.tools",
+        "option": "Dataiku",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列等于选项文本",
+        "year": 2024
+      },
+      {
+        "column": "deployment.tools.MosaicML",
+        "kind": "multi_option",
+        "group": "deployment.tools",
+        "option": "MosaicML",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列等于选项文本",
+        "year": 2024
+      },
+      {
+        "column": "deployment.tools.MLFlow",
+        "kind": "multi_option",
+        "group": "deployment.tools",
+        "option": "MLFlow",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列等于选项文本",
+        "year": 2024
+      },
+      {
+        "column": "deployment.tools.Nvidia Triton",
+        "kind": "multi_option",
+        "group": "deployment.tools",
+        "option": "Nvidia Triton",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列等于选项文本",
+        "year": 2024
+      },
+      {
+        "column": "deployment.tools.Kubeflow",
+        "kind": "multi_option",
+        "group": "deployment.tools",
+        "option": "Kubeflow",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列等于选项文本",
+        "year": 2024
+      },
+      {
+        "column": "deployment.tools.Huggingface",
+        "kind": "multi_option",
+        "group": "deployment.tools",
+        "option": "Huggingface",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列等于选项文本",
+        "year": 2024
+      },
+      {
+        "column": "deployment.tools.Seldon",
+        "kind": "multi_option",
+        "group": "deployment.tools",
+        "option": "Seldon",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列等于选项文本",
+        "year": 2024
+      },
+      {
+        "column": "deployment.tools.Bento",
+        "kind": "multi_option",
+        "group": "deployment.tools",
+        "option": "Bento",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列等于选项文本",
+        "year": 2024
+      },
+      {
+        "column": "deployment.tools.An in-house solution",
+        "kind": "multi_option",
+        "group": "deployment.tools",
+        "option": "An in-house solution",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列等于选项文本",
+        "year": 2024
+      }
+    ]
+  }
+}

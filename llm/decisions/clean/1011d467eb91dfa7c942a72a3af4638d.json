@@ -1,0 +1,185 @@
+{
+  "stage": "clean_semantics",
+  "model": "qwen3.5:4b",
+  "model_digest": "d8b0f5e9760cd168",
+  "prompt_version": "clean-semantics-v2",
+  "input_hash": "1011d467eb91dfa7c942a72a3af4638d",
+  "created_at": "2026-10-23T18:48:12",
+  "duration_s": 12.96,
+  "output_tokens": 975,
+  "fallback": false,
+  "error": "",
+  "manual_edit": false,
+  "reviewed": false,
+  "payload_summary": {
+    "year": 2020,
+    "batch": "ide.editor.IntelliJ IDEA…job.role.QA engineer",
+    "n": 18
+  },
+  "response": {
+    "columns": [
+      {
+        "column": "ide.editor.IntelliJ IDEA",
+        "kind": "multi_option",
+        "group": "ide.editor",
+        "option": "IntelliJ IDEA",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值恒等于列名选项。",
+        "year": 2020
+      },
+      {
+        "column": "ide.editor.NotePad++",
+        "kind": "multi_option",
+        "group": "ide.editor",
+        "option": "NotePad++",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值恒等于列名选项。",
+        "year": 2020
+      },
+      {
+        "column": "ide.editor.IDLE",
+        "kind": "multi_option",
+        "group": "ide.editor",
+        "option": "IDLE",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值恒等于列名选项。",
+        "year": 2020
+      },
+      {
+        "column": "ide.editor.Emacs",
+        "kind": "multi_option",
+        "group": "ide.editor",
+        "option": "Emacs",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值恒等于列名选项。",
+        "year": 2020
+      },
+      {
+        "column": "ide.editor.Python Tools for Visual Studio (PTVS)",
+        "kind": "multi_option",
+        "group": "ide.editor",
+        "option": "Python Tools for Visual Studio (PTVS)",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值恒等于列名选项。",
+        "year": 2020
+      },
+      {
+        "column": "ide.editor.Spyder",
+        "kind": "multi_option",
+        "group": "ide.editor",
+        "option": "Spyder",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值恒等于列名选项。",
+        "year": 2020
+      },
+      {
+        "column": "several.projects",
+        "kind": "single_choice",
+        "group": "several.projects",
+        "option": "Yes, I work on many different projects",
+        "missing_tokens": [],
+        "reason": "列名即题目，非空率 48.9% 且非全 0/1 或全选项，视为单选。",
+        "year": 2020
+      },
+      {
+        "column": "first.learn.about.main.ide",
+        "kind": "single_choice",
+        "group": "first.learn.about.main.ide",
+        "option": "Friend / Colleague",
+        "missing_tokens": [],
+        "reason": "列名即题目，非空率 47% 且非全 0/1 或全选项，视为单选。",
+        "year": 2020
+      },
+      {
+        "column": "how.often.use.main.ide",
+        "kind": "single_choice",
+        "group": "how.often.use.main.ide",
+        "option": "Daily",
+        "missing_tokens": [],
+        "reason": "列名即题目，非空率 46.9% 且非全 0/1 或全选项，视为单选。",
+        "year": 2020
+      },
+      {
+        "column": "missing.features.main.ide",
+        "kind": "single_choice",
+        "group": "missing.features.main.ide",
+        "option": "No, it has all the features I need",
+        "missing_tokens": [],
+        "reason": "列名即题目，非空率 46.6% 且非全 0/1 或全选项，视为单选。",
+        "year": 2020
+      },
+      {
+        "column": "nps.main.ide",
+        "kind": "numeric",
+        "group": "nps.main.ide",
+        "option": "10",
+        "missing_tokens": [],
+        "reason": "flags 显示 numeric_like，取值全为数字，符合 NPS 评分特征。",
+        "year": 2020
+      },
+      {
+        "column": "job.team",
+        "kind": "single_choice",
+        "group": "job.team",
+        "option": "Work on your own project(s) independently",
+        "missing_tokens": [],
+        "reason": "列名即题目，非空率 46.5% 且非全 0/1 或全选项，视为单选。",
+        "year": 2020
+      },
+      {
+        "column": "team.size",
+        "kind": "single_choice",
+        "group": "team.size",
+        "option": "2-7 people",
+        "missing_tokens": [],
+        "reason": "列名即题目，非空率 22% 且非全 0/1 或全选项，视为单选。",
+        "year": 2020
+      },
+      {
+        "column": "employment.status",
+        "kind": "single_choice",
+        "group": "employment.status",
+        "option": "Fully employed by a company / organization",
+        "missing_tokens": [],
+        "reason": "列名即题目，非空率 46.5% 且非全 0/1 或全选项，视为单选。",
+        "year": 2020
+      },
+      {
+        "column": "company.size",
+        "kind": "single_choice",
+        "group": "company.size",
+        "option": "51–500",
+        "missing_tokens": [],
+        "reason": "列名即题目，非空率 35.7% 且非全 0/1 或全选项，视为单选。",
+        "year": 2020
+      },
+      {
+        "column": "job.role.DBA",
+        "kind": "multi_option",
+        "group": "job.role",
+        "option": "DBA",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值恒等于列名选项。",
+        "year": 2020
+      },
+      {
+        "column": "job.role.Architect",
+        "kind": "multi_option",
+        "group": "job.role",
+        "option": "Architect",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值恒等于列名选项。",
+        "year": 2020
+      },
+      {
+        "column": "job.role.QA engineer",
+        "kind": "multi_option",
+        "group": "job.role",
+        "option": "QA engineer",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值恒等于列名选项。",
+        "year": 2020
+      }
+    ]
+  }
+}

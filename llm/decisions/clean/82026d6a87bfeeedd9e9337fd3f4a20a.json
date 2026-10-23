@@ -1,0 +1,185 @@
+{
+  "stage": "clean_semantics",
+  "model": "qwen3.5:4b",
+  "model_digest": "d8b0f5e9760cd168",
+  "prompt_version": "clean-semantics-v2",
+  "input_hash": "82026d6a87bfeeedd9e9337fd3f4a20a",
+  "created_at": "2026-10-23T18:33:07",
+  "duration_s": 10.37,
+  "output_tokens": 778,
+  "fallback": false,
+  "error": "",
+  "manual_edit": false,
+  "reviewed": false,
+  "payload_summary": {
+    "year": 2024,
+    "batch": "frameworks.support.OpenCV-Python…cloud.platform.AWS",
+    "n": 18
+  },
+  "response": {
+    "columns": [
+      {
+        "column": "frameworks.support.OpenCV-Python",
+        "kind": "multi_option",
+        "group": "frameworks.support",
+        "option": "OpenCV-Python",
+        "missing_tokens": [],
+        "reason": "flags 显示全列等于选项文本，符合 multi_like",
+        "year": 2024
+      },
+      {
+        "column": "frameworks.support.Pillow",
+        "kind": "multi_option",
+        "group": "frameworks.support",
+        "option": "Pillow",
+        "missing_tokens": [],
+        "reason": "flags 显示全列等于选项文本，符合 multi_like",
+        "year": 2024
+      },
+      {
+        "column": "frameworks.support.Pydantic",
+        "kind": "multi_option",
+        "group": "frameworks.support",
+        "option": "Pydantic",
+        "missing_tokens": [],
+        "reason": "flags 显示全列等于选项文本，符合 multi_like",
+        "year": 2024
+      },
+      {
+        "column": "frameworks.support.Pygame",
+        "kind": "multi_option",
+        "group": "frameworks.support",
+        "option": "Pygame",
+        "missing_tokens": [],
+        "reason": "flags 显示全列等于选项文本，符合 multi_like",
+        "year": 2024
+      },
+      {
+        "column": "frameworks.support.PyQT",
+        "kind": "multi_option",
+        "group": "frameworks.support",
+        "option": "PyQT",
+        "missing_tokens": [],
+        "reason": "flags 显示全列等于选项文本，符合 multi_like",
+        "year": 2024
+      },
+      {
+        "column": "frameworks.support.PySide",
+        "kind": "multi_option",
+        "group": "frameworks.support",
+        "option": "PySide",
+        "missing_tokens": [],
+        "reason": "flags 显示全列等于选项文本，符合 multi_like",
+        "year": 2024
+      },
+      {
+        "column": "frameworks.support.pytest",
+        "kind": "multi_option",
+        "group": "frameworks.support",
+        "option": "pytest",
+        "missing_tokens": [],
+        "reason": "flags 显示全列等于选项文本，符合 multi_like",
+        "year": 2024
+      },
+      {
+        "column": "frameworks.support.Requests",
+        "kind": "multi_option",
+        "group": "frameworks.support",
+        "option": "Requests",
+        "missing_tokens": [],
+        "reason": "flags 显示全列等于选项文本，符合 multi_like",
+        "year": 2024
+      },
+      {
+        "column": "frameworks.support.Scrapy",
+        "kind": "multi_option",
+        "group": "frameworks.support",
+        "option": "Scrapy",
+        "missing_tokens": [],
+        "reason": "flags 显示全列等于选项文本，符合 multi_like",
+        "year": 2024
+      },
+      {
+        "column": "frameworks.support.Starlette",
+        "kind": "multi_option",
+        "group": "frameworks.support",
+        "option": "Starlette",
+        "missing_tokens": [],
+        "reason": "flags 显示全列等于选项文本，符合 multi_like",
+        "year": 2024
+      },
+      {
+        "column": "frameworks.support.Streamlit",
+        "kind": "multi_option",
+        "group": "frameworks.support",
+        "option": "Streamlit",
+        "missing_tokens": [],
+        "reason": "flags 显示全列等于选项文本，符合 multi_like",
+        "year": 2024
+      },
+      {
+        "column": "frameworks.support.Tkinter",
+        "kind": "multi_option",
+        "group": "frameworks.support",
+        "option": "Tkinter",
+        "missing_tokens": [],
+        "reason": "flags 显示全列等于选项文本，符合 multi_like",
+        "year": 2024
+      },
+      {
+        "column": "frameworks.support.tox",
+        "kind": "multi_option",
+        "group": "frameworks.support",
+        "option": "tox",
+        "missing_tokens": [],
+        "reason": "flags 显示全列等于选项文本，符合 multi_like",
+        "year": 2024
+      },
+      {
+        "column": "frameworks.support.unittest",
+        "kind": "multi_option",
+        "group": "frameworks.support",
+        "option": "unittest",
+        "missing_tokens": [],
+        "reason": "flags 显示全列等于选项文本，符合 multi_like",
+        "year": 2024
+      },
+      {
+        "column": "frameworks.support.Other",
+        "kind": "multi_option",
+        "group": "frameworks.support",
+        "option": "Other",
+        "missing_tokens": [],
+        "reason": "flags 显示全列等于选项文本，符合 multi_like",
+        "year": 2024
+      },
+      {
+        "column": "cloud.platform.None",
+        "kind": "multi_option",
+        "group": "cloud.platform",
+        "option": "None",
+        "missing_tokens": [],
+        "reason": "flags 显示全列等于选项文本，符合 multi_like",
+        "year": 2024
+      },
+      {
+        "column": "cloud.platform.Google Cloud Platform",
+        "kind": "multi_option",
+        "group": "cloud.platform",
+        "option": "Google Cloud Platform",
+        "missing_tokens": [],
+        "reason": "flags 显示全列等于选项文本，符合 multi_like",
+        "year": 2024
+      },
+      {
+        "column": "cloud.platform.AWS",
+        "kind": "multi_option",
+        "group": "cloud.platform",
+        "option": "AWS",
+        "missing_tokens": [],
+        "reason": "flags 显示全列等于选项文本，符合 multi_like",
+        "year": 2024
+      }
+    ]
+  }
+}

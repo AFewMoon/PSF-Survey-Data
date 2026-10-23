@@ -1,0 +1,35 @@
+{
+  "stage": "option_alias",
+  "model": "qwen3.5:4b",
+  "model_digest": "d8b0f5e9760cd168",
+  "prompt_version": "option-alias-v1",
+  "input_hash": "f11204c912ae6a911be01ed521a37d94",
+  "created_at": "2026-10-23T19:16:58",
+  "duration_s": 1.01,
+  "output_tokens": 42,
+  "fallback": false,
+  "error": "",
+  "manual_edit": false,
+  "reviewed": false,
+  "payload_summary": {
+    "groups": 10,
+    "values": 75
+  },
+  "response": {
+    "groups": [
+      {
+        "name": "ide.python_version__dup2",
+        "options": [
+          {
+            "variants": [
+              "Python 2",
+              "Python 3"
+            ],
+            "canonical": "Python 2/3",
+            "reason": "合并两个主要版本"
+          }
+        ]
+      }
+    ]
+  }
+}

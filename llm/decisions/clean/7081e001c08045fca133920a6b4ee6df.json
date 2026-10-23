@@ -1,0 +1,185 @@
+{
+  "stage": "clean_semantics",
+  "model": "qwen3.5:4b",
+  "model_digest": "d8b0f5e9760cd168",
+  "prompt_version": "clean-semantics-v2",
+  "input_hash": "7081e001c08045fca133920a6b4ee6df",
+  "created_at": "2026-10-23T18:55:43",
+  "duration_s": 11.58,
+  "output_tokens": 886,
+  "fallback": false,
+  "error": "",
+  "manual_edit": false,
+  "reviewed": false,
+  "payload_summary": {
+    "year": 2022,
+    "batch": "python.version.upgrade.Intel Distribution for Python…web.frameworks.Bottle",
+    "n": 18
+  },
+  "response": {
+    "columns": [
+      {
+        "column": "python.version.upgrade.Intel Distribution for Python",
+        "kind": "multi_option",
+        "group": "python.version.upgrade",
+        "option": "Intel Distribution for Python",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值恒等于列名选项",
+        "year": 2022
+      },
+      {
+        "column": "python.version.upgrade.OS-provided Python (via apt-get, yum, homebrew, etc_)",
+        "kind": "multi_option",
+        "group": "python.version.upgrade",
+        "option": "OS-provided Python (via apt-get, yum, homebrew, etc)",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值恒等于列名选项",
+        "year": 2022
+      },
+      {
+        "column": "python.version.upgrade.pyenv",
+        "kind": "multi_option",
+        "group": "python.version.upgrade",
+        "option": "pyenv",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值恒等于列名选项",
+        "year": 2022
+      },
+      {
+        "column": "python.version.upgrade.pythonz",
+        "kind": "multi_option",
+        "group": "python.version.upgrade",
+        "option": "pythonz",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值恒等于列名选项",
+        "year": 2022
+      },
+      {
+        "column": "python.version.upgrade.I use Docker containers",
+        "kind": "multi_option",
+        "group": "python.version.upgrade",
+        "option": "I use Docker containers",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值恒等于列名选项",
+        "year": 2022
+      },
+      {
+        "column": "python.version.upgrade.Other",
+        "kind": "multi_option",
+        "group": "python.version.upgrade",
+        "option": "Other",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值恒等于列名选项",
+        "year": 2022
+      },
+      {
+        "column": "isolate.environments.None",
+        "kind": "multi_option",
+        "group": "isolate.environments",
+        "option": "None",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值恒等于列名选项",
+        "year": 2022
+      },
+      {
+        "column": "isolate.environments.Virtualenv",
+        "kind": "multi_option",
+        "group": "isolate.environments",
+        "option": "Virtualenv",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值恒等于列名选项",
+        "year": 2022
+      },
+      {
+        "column": "isolate.environments.Pipenv",
+        "kind": "multi_option",
+        "group": "isolate.environments",
+        "option": "Pipenv",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值恒等于列名选项",
+        "year": 2022
+      },
+      {
+        "column": "isolate.environments.Poetry",
+        "kind": "multi_option",
+        "group": "isolate.environments",
+        "option": "Poetry",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值恒等于列名选项",
+        "year": 2022
+      },
+      {
+        "column": "isolate.environments.Conda",
+        "kind": "multi_option",
+        "group": "isolate.environments",
+        "option": "Conda",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值恒等于列名选项",
+        "year": 2022
+      },
+      {
+        "column": "isolate.environments.Docker",
+        "kind": "multi_option",
+        "group": "isolate.environments",
+        "option": "Docker",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值恒等于列名选项",
+        "year": 2022
+      },
+      {
+        "column": "isolate.environments.Vagrant  / virtual machines",
+        "kind": "multi_option",
+        "group": "isolate.environments",
+        "option": "Vagrant  / virtual machines",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值恒等于列名选项",
+        "year": 2022
+      },
+      {
+        "column": "isolate.environments.Other",
+        "kind": "multi_option",
+        "group": "isolate.environments",
+        "option": "Other",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值恒等于列名选项",
+        "year": 2022
+      },
+      {
+        "column": "web.frameworks.None",
+        "kind": "multi_option",
+        "group": "web.frameworks",
+        "option": "None",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值恒等于列名选项",
+        "year": 2022
+      },
+      {
+        "column": "web.frameworks.Django",
+        "kind": "multi_option",
+        "group": "web.frameworks",
+        "option": "Django",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值恒等于列名选项",
+        "year": 2022
+      },
+      {
+        "column": "web.frameworks.web2py",
+        "kind": "multi_option",
+        "group": "web.frameworks",
+        "option": "web2py",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值恒等于列名选项",
+        "year": 2022
+      },
+      {
+        "column": "web.frameworks.Bottle",
+        "kind": "multi_option",
+        "group": "web.frameworks",
+        "option": "Bottle",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值恒等于列名选项",
+        "year": 2022
+      }
+    ]
+  }
+}

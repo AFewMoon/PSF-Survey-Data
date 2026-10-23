@@ -1,0 +1,35 @@
+{
+  "stage": "option_alias",
+  "model": "qwen3.5:4b",
+  "model_digest": "d8b0f5e9760cd168",
+  "prompt_version": "option-alias-v1",
+  "input_hash": "c5640ef6b2e922e3a4ee310e5c46289f",
+  "created_at": "2026-10-23T19:08:19",
+  "duration_s": 1.04,
+  "output_tokens": 40,
+  "fallback": false,
+  "error": "",
+  "manual_edit": false,
+  "reviewed": false,
+  "payload_summary": {
+    "groups": 8,
+    "values": 119
+  },
+  "response": {
+    "groups": [
+      {
+        "name": "ide.upgrade",
+        "options": [
+          {
+            "variants": [
+              "Intel Distribution for Python",
+              "Intel Distribution for Python"
+            ],
+            "canonical": "Intel Distribution for Python",
+            "reason": "统一大小写格式"
+          }
+        ]
+      }
+    ]
+  }
+}

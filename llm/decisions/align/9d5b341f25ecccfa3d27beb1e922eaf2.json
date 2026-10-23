@@ -1,0 +1,226 @@
+{
+  "stage": "option_alias",
+  "model": "qwen3.5:4b",
+  "model_digest": "d8b0f5e9760cd168",
+  "prompt_version": "option-alias-v1",
+  "input_hash": "9d5b341f25ecccfa3d27beb1e922eaf2",
+  "created_at": "2026-10-23T19:08:31",
+  "duration_s": 8.34,
+  "output_tokens": 650,
+  "fallback": false,
+  "error": "",
+  "manual_edit": false,
+  "reviewed": false,
+  "payload_summary": {
+    "groups": 8,
+    "values": 93
+  },
+  "response": {
+    "groups": [
+      {
+        "name": "environments.isolate",
+        "options": [
+          {
+            "variants": [
+              "Conda",
+              "conda"
+            ],
+            "canonical": "Conda",
+            "reason": "大小写统一，保留通用写法"
+          },
+          {
+            "variants": [
+              "Hatch",
+              "hatch"
+            ],
+            "canonical": "Hatch",
+            "reason": "大小写统一，保留通用写法"
+          },
+          {
+            "variants": [
+              "Pipenv",
+              "pipenv"
+            ],
+            "canonical": "Pipenv",
+            "reason": "大小写统一，保留通用写法"
+          },
+          {
+            "variants": [
+              "Poetry",
+              "poetry"
+            ],
+            "canonical": "Poetry",
+            "reason": "大小写统一，保留通用写法"
+          },
+          {
+            "variants": [
+              "uv",
+              "UV"
+            ],
+            "canonical": "uv",
+            "reason": "统一小写，符合官方规范"
+          },
+          {
+            "variants": [
+              "venv",
+              "venv (standard library)"
+            ],
+            "canonical": "venv",
+            "reason": "括号内容冗余，保留核心词"
+          },
+          {
+            "variants": [
+              "virtualenv",
+              "virtualenv (Python package)"
+            ],
+            "canonical": "virtualenv",
+            "reason": "括号内容冗余，保留核心词"
+          },
+          {
+            "variants": [
+              "virtualenvwrapper",
+              "Virtualenvwrapper"
+            ],
+            "canonical": "virtualenvwrapper",
+            "reason": "统一大小写，保留通用写法"
+          }
+        ]
+      },
+      {
+        "name": "venv",
+        "options": [
+          {
+            "variants": [
+              "I use it via Pipenv",
+              "I use it via pipenv"
+            ],
+            "canonical": "I use it via Pipenv",
+            "reason": "统一大小写，保留通用写法"
+          },
+          {
+            "variants": [
+              "I use it via Poetry",
+              "I use it via poetry"
+            ],
+            "canonical": "I use it via Poetry",
+            "reason": "统一大小写，保留通用写法"
+          },
+          {
+            "variants": [
+              "I use it via virtualenv",
+              "I use it via Virtualenv"
+            ],
+            "canonical": "I use it via virtualenv",
+            "reason": "统一大小写，保留通用写法"
+          },
+          {
+            "variants": [
+              "I use venv directly",
+              "I use venv directly"
+            ],
+            "canonical": "I use venv directly",
+            "reason": "无差异，保留原样"
+          }
+        ]
+      },
+      {
+        "name": "packaging.tools",
+        "options": [
+          {
+            "variants": [
+              "Conda",
+              "conda"
+            ],
+            "canonical": "Conda",
+            "reason": "大小写统一，保留通用写法"
+          },
+          {
+            "variants": [
+              "Pipenv",
+              "pipenv"
+            ],
+            "canonical": "Pipenv",
+            "reason": "大小写统一，保留通用写法"
+          },
+          {
+            "variants": [
+              "venv",
+              "venv (standard library)"
+            ],
+            "canonical": "venv",
+            "reason": "括号内容冗余，保留核心词"
+          },
+          {
+            "variants": [
+              "virtualenv",
+              "virtualenv (Python package)"
+            ],
+            "canonical": "virtualenv",
+            "reason": "括号内容冗余，保留核心词"
+          }
+        ]
+      },
+      {
+        "name": "dependency.store",
+        "options": [
+          {
+            "variants": [
+              "Conda environment_yml",
+              "conda environment_yml"
+            ],
+            "canonical": "Conda environment_yml",
+            "reason": "大小写统一，保留通用写法"
+          },
+          {
+            "variants": [
+              "Pipfile",
+              "pipfile"
+            ],
+            "canonical": "Pipfile",
+            "reason": "大小写统一，保留通用写法"
+          },
+          {
+            "variants": [
+              "poetry_lock",
+              "poetry.lock"
+            ],
+            "canonical": "poetry.lock",
+            "reason": "统一点号写法，符合规范"
+          },
+          {
+            "variants": [
+              "pyproject_toml",
+              "pyproject.toml"
+            ],
+            "canonical": "pyproject.toml",
+            "reason": "统一点号写法，符合规范"
+          },
+          {
+            "variants": [
+              "requirements_txt",
+              "requirements.txt"
+            ],
+            "canonical": "requirements.txt",
+            "reason": "统一点号写法，符合规范"
+          },
+          {
+            "variants": [
+              "setup_cfg",
+              "setup.cfg"
+            ],
+            "canonical": "setup.cfg",
+            "reason": "统一点号写法，符合规范"
+          },
+          {
+            "variants": [
+              "setup_py",
+              "setup.py"
+            ],
+            "canonical": "setup.py",
+            "reason": "统一点号写法，符合规范"
+          }
+        ]
+      }
+    ]
+  }
+}

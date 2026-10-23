@@ -1,0 +1,185 @@
+{
+  "stage": "clean_semantics",
+  "model": "qwen3.5:4b",
+  "model_digest": "d8b0f5e9760cd168",
+  "prompt_version": "clean-semantics-v2",
+  "input_hash": "e5a6a10fef169372dd32e44d96580469",
+  "created_at": "2026-10-23T19:03:26",
+  "duration_s": 11.12,
+  "output_tokens": 847,
+  "fallback": false,
+  "error": "",
+  "manual_edit": false,
+  "reviewed": false,
+  "payload_summary": {
+    "year": 2023,
+    "batch": "environments.isolate.venv (standard library)…dependency.tools.None",
+    "n": 18
+  },
+  "response": {
+    "columns": [
+      {
+        "column": "environments.isolate.venv (standard library)",
+        "kind": "multi_option",
+        "group": "environments.isolate",
+        "option": "venv (standard library)",
+        "missing_tokens": [],
+        "reason": "flags 显示全列恒等于选项文本，确认为单选选项列",
+        "year": 2023
+      },
+      {
+        "column": "environments.isolate.virtualenv (Python package)",
+        "kind": "multi_option",
+        "group": "environments.isolate",
+        "option": "virtualenv (Python package)",
+        "missing_tokens": [],
+        "reason": "flags 显示全列恒等于选项文本，确认为单选选项列",
+        "year": 2023
+      },
+      {
+        "column": "environments.isolate.virtualenvwrapper",
+        "kind": "multi_option",
+        "group": "environments.isolate",
+        "option": "virtualenvwrapper",
+        "missing_tokens": [],
+        "reason": "flags 显示全列恒等于选项文本，确认为单选选项列",
+        "year": 2023
+      },
+      {
+        "column": "environments.isolate.Hatch",
+        "kind": "multi_option",
+        "group": "environments.isolate",
+        "option": "Hatch",
+        "missing_tokens": [],
+        "reason": "flags 显示全列恒等于选项文本，确认为单选选项列",
+        "year": 2023
+      },
+      {
+        "column": "environments.isolate.Poetry",
+        "kind": "multi_option",
+        "group": "environments.isolate",
+        "option": "Poetry",
+        "missing_tokens": [],
+        "reason": "flags 显示全列恒等于选项文本，确认为单选选项列",
+        "year": 2023
+      },
+      {
+        "column": "environments.isolate.Pipenv",
+        "kind": "multi_option",
+        "group": "environments.isolate",
+        "option": "Pipenv",
+        "missing_tokens": [],
+        "reason": "flags 显示全列恒等于选项文本，确认为单选选项列",
+        "year": 2023
+      },
+      {
+        "column": "environments.isolate.Conda",
+        "kind": "multi_option",
+        "group": "environments.isolate",
+        "option": "Conda",
+        "missing_tokens": [],
+        "reason": "flags 显示全列恒等于选项文本，确认为单选选项列",
+        "year": 2023
+      },
+      {
+        "column": "environments.isolate.I do not use any tools to isolate Python environments",
+        "kind": "multi_option",
+        "group": "environments.isolate",
+        "option": "I do not use any tools to isolate Python environments",
+        "missing_tokens": [],
+        "reason": "flags 显示全列恒等于选项文本，确认为单选选项列",
+        "year": 2023
+      },
+      {
+        "column": "environments.isolate.Other",
+        "kind": "multi_option",
+        "group": "environments.isolate",
+        "option": "Other",
+        "missing_tokens": [],
+        "reason": "flags 显示全列恒等于选项文本，确认为单选选项列",
+        "year": 2023
+      },
+      {
+        "column": "dependency.tools.Pip",
+        "kind": "multi_option",
+        "group": "dependency.tools",
+        "option": "Pip",
+        "missing_tokens": [],
+        "reason": "flags 显示全列恒等于选项文本，确认为单选选项列",
+        "year": 2023
+      },
+      {
+        "column": "dependency.tools.Conda",
+        "kind": "multi_option",
+        "group": "dependency.tools",
+        "option": "Conda",
+        "missing_tokens": [],
+        "reason": "flags 显示全列恒等于选项文本，确认为单选选项列",
+        "year": 2023
+      },
+      {
+        "column": "dependency.tools.Pipenv",
+        "kind": "multi_option",
+        "group": "dependency.tools",
+        "option": "Pipenv",
+        "missing_tokens": [],
+        "reason": "flags 显示全列恒等于选项文本，确认为单选选项列",
+        "year": 2023
+      },
+      {
+        "column": "dependency.tools.Poetry",
+        "kind": "multi_option",
+        "group": "dependency.tools",
+        "option": "Poetry",
+        "missing_tokens": [],
+        "reason": "flags 显示全列恒等于选项文本，确认为单选选项列",
+        "year": 2023
+      },
+      {
+        "column": "dependency.tools.PDM",
+        "kind": "multi_option",
+        "group": "dependency.tools",
+        "option": "PDM",
+        "missing_tokens": [],
+        "reason": "flags 显示全列恒等于选项文本，确认为单选选项列",
+        "year": 2023
+      },
+      {
+        "column": "dependency.tools.Hatch",
+        "kind": "multi_option",
+        "group": "dependency.tools",
+        "option": "Hatch",
+        "missing_tokens": [],
+        "reason": "flags 显示全列恒等于选项文本，确认为单选选项列",
+        "year": 2023
+      },
+      {
+        "column": "dependency.tools.pip-tools",
+        "kind": "multi_option",
+        "group": "dependency.tools",
+        "option": "pip-tools",
+        "missing_tokens": [],
+        "reason": "flags 显示全列恒等于选项文本，确认为单选选项列",
+        "year": 2023
+      },
+      {
+        "column": "dependency.tools.Other",
+        "kind": "multi_option",
+        "group": "dependency.tools",
+        "option": "Other",
+        "missing_tokens": [],
+        "reason": "flags 显示全列恒等于选项文本，确认为单选选项列",
+        "year": 2023
+      },
+      {
+        "column": "dependency.tools.None",
+        "kind": "multi_option",
+        "group": "dependency.tools",
+        "option": "None",
+        "missing_tokens": [],
+        "reason": "flags 显示全列恒等于选项文本，确认为单选选项列",
+        "year": 2023
+      }
+    ]
+  }
+}

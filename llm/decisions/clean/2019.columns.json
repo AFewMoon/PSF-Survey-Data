@@ -1,0 +1,2615 @@
+{
+  "year": 2019,
+  "columns": [
+    {
+      "original": "response_id",
+      "new": "response_id",
+      "kind": "identifier",
+      "group": "response_id",
+      "option": "",
+      "reason": "全列唯一且为数字，符合标识符特征",
+      "fallback": false
+    },
+    {
+      "original": "Is Python the main language you use for your current projects?",
+      "new": "is.python.main",
+      "kind": "single_choice",
+      "group": "is.python.main",
+      "option": "",
+      "reason": "全列非空且仅 4 个选项，符合单选题特征",
+      "fallback": false
+    },
+    {
+      "original": "Bash / Shell:What other language(s) do you use?",
+      "new": "other.lang.Bash / Shell",
+      "kind": "multi_option",
+      "group": "other.lang",
+      "option": "Bash / Shell",
+      "reason": "全列取值恒等于选项文本，符合 multi_like 特征",
+      "fallback": false
+    },
+    {
+      "original": "C/C++:What other language(s) do you use?",
+      "new": "other.lang.C/C++",
+      "kind": "multi_option",
+      "group": "other.lang",
+      "option": "C/C++",
+      "reason": "全列取值恒等于选项文本，符合 multi_like 特征",
+      "fallback": false
+    },
+    {
+      "original": "C#:What other language(s) do you use?",
+      "new": "other.lang.C#",
+      "kind": "multi_option",
+      "group": "other.lang",
+      "option": "C#",
+      "reason": "全列取值恒等于选项文本，符合 multi_like 特征",
+      "fallback": false
+    },
+    {
+      "original": "Clojure:What other language(s) do you use?",
+      "new": "other.lang.Clojure",
+      "kind": "multi_option",
+      "group": "other.lang",
+      "option": "Clojure",
+      "reason": "全列取值恒等于选项文本，符合 multi_like 特征",
+      "fallback": false
+    },
+    {
+      "original": "CoffeeScript:What other language(s) do you use?",
+      "new": "other.lang.CoffeeScript",
+      "kind": "multi_option",
+      "group": "other.lang",
+      "option": "CoffeeScript",
+      "reason": "全列取值恒等于选项文本，符合 multi_like 特征",
+      "fallback": false
+    },
+    {
+      "original": "Go:What other language(s) do you use?",
+      "new": "other.lang.Go",
+      "kind": "multi_option",
+      "group": "other.lang",
+      "option": "Go",
+      "reason": "全列取值恒等于选项文本，符合 multi_like 特征",
+      "fallback": false
+    },
+    {
+      "original": "Groovy:What other language(s) do you use?",
+      "new": "other.lang.Groovy",
+      "kind": "multi_option",
+      "group": "other.lang",
+      "option": "Groovy",
+      "reason": "全列取值恒等于选项文本，符合 multi_like 特征",
+      "fallback": false
+    },
+    {
+      "original": "HTML/CSS:What other language(s) do you use?",
+      "new": "other.lang.HTML/CSS",
+      "kind": "multi_option",
+      "group": "other.lang",
+      "option": "HTML/CSS",
+      "reason": "全列取值恒等于选项文本，符合 multi_like 特征",
+      "fallback": false
+    },
+    {
+      "original": "Java:What other language(s) do you use?",
+      "new": "other.lang.Java",
+      "kind": "multi_option",
+      "group": "other.lang",
+      "option": "Java",
+      "reason": "全列取值恒等于选项文本，符合 multi_like 特征",
+      "fallback": false
+    },
+    {
+      "original": "JavaScript:What other language(s) do you use?",
+      "new": "other.lang.JavaScript",
+      "kind": "multi_option",
+      "group": "other.lang",
+      "option": "JavaScript",
+      "reason": "全列取值恒等于选项文本，符合 multi_like 特征",
+      "fallback": false
+    },
+    {
+      "original": "Kotlin:What other language(s) do you use?",
+      "new": "other.lang.Kotlin",
+      "kind": "multi_option",
+      "group": "other.lang",
+      "option": "Kotlin",
+      "reason": "全列取值恒等于选项文本，符合 multi_like 特征",
+      "fallback": false
+    },
+    {
+      "original": "None:What other language(s) do you use?",
+      "new": "other.lang.None",
+      "kind": "multi_option",
+      "group": "other.lang",
+      "option": "None",
+      "reason": "全列取值恒等于选项文本，符合 multi_like 特征",
+      "fallback": false
+    },
+    {
+      "original": "Objective-C:What other language(s) do you use?",
+      "new": "other.lang.Objective-C",
+      "kind": "multi_option",
+      "group": "other.lang",
+      "option": "Objective-C",
+      "reason": "全列取值恒等于选项文本，符合 multi_like 特征",
+      "fallback": false
+    },
+    {
+      "original": "Other - Write In::What other language(s) do you use?",
+      "new": "other.lang.Other - Write In",
+      "kind": "free_text",
+      "group": "other.lang",
+      "option": "Other - Write In",
+      "reason": "自由文本，样本已脱敏，仅给出结构特征",
+      "fallback": false
+    },
+    {
+      "original": "Perl:What other language(s) do you use?",
+      "new": "other.lang.Perl",
+      "kind": "multi_option",
+      "group": "other.lang",
+      "option": "Perl",
+      "reason": "全列取值恒等于选项文本，符合 multi_like 特征",
+      "fallback": false
+    },
+    {
+      "original": "PHP:What other language(s) do you use?",
+      "new": "other.lang.PHP",
+      "kind": "multi_option",
+      "group": "other.lang",
+      "option": "PHP",
+      "reason": "全列取值恒等于选项文本，符合 multi_like 特征",
+      "fallback": false
+    },
+    {
+      "original": "R:What other language(s) do you use?",
+      "new": "other.lang.R",
+      "kind": "multi_option",
+      "group": "other.lang",
+      "option": "R",
+      "reason": "flags 显示 multi_like，全列仅含选项名与 NA（同题选项按多数票统一为 other.lang）",
+      "fallback": false
+    },
+    {
+      "original": "Ruby:What other language(s) do you use?",
+      "new": "other.lang.Ruby",
+      "kind": "multi_option",
+      "group": "other.lang",
+      "option": "Ruby",
+      "reason": "flags 显示 multi_like，全列仅含选项名与 NA（同题选项按多数票统一为 other.lang）",
+      "fallback": false
+    },
+    {
+      "original": "Rust:What other language(s) do you use?",
+      "new": "other.lang.Rust",
+      "kind": "multi_option",
+      "group": "other.lang",
+      "option": "Rust",
+      "reason": "flags 显示 multi_like，全列仅含选项名与 NA（同题选项按多数票统一为 other.lang）",
+      "fallback": false
+    },
+    {
+      "original": "Scala:What other language(s) do you use?",
+      "new": "other.lang.Scala",
+      "kind": "multi_option",
+      "group": "other.lang",
+      "option": "Scala",
+      "reason": "flags 显示 multi_like，全列仅含选项名与 NA（同题选项按多数票统一为 other.lang）",
+      "fallback": false
+    },
+    {
+      "original": "SQL:What other language(s) do you use?",
+      "new": "other.lang.SQL",
+      "kind": "multi_option",
+      "group": "other.lang",
+      "option": "SQL",
+      "reason": "flags 显示 multi_like，全列仅含选项名与 NA（同题选项按多数票统一为 other.lang）",
+      "fallback": false
+    },
+    {
+      "original": "Swift:What other language(s) do you use?",
+      "new": "other.lang.Swift",
+      "kind": "multi_option",
+      "group": "other.lang",
+      "option": "Swift",
+      "reason": "flags 显示 multi_like，全列仅含选项名与 NA（同题选项按多数票统一为 other.lang）",
+      "fallback": false
+    },
+    {
+      "original": "TypeScript:What other language(s) do you use?",
+      "new": "other.lang.TypeScript",
+      "kind": "multi_option",
+      "group": "other.lang",
+      "option": "TypeScript",
+      "reason": "flags 显示 multi_like，全列仅含选项名与 NA（同题选项按多数票统一为 other.lang）",
+      "fallback": false
+    },
+    {
+      "original": "Visual Basic:What other language(s) do you use?",
+      "new": "other.lang.Visual Basic",
+      "kind": "multi_option",
+      "group": "other.lang",
+      "option": "Visual Basic",
+      "reason": "flags 显示 multi_like，全列仅含选项名与 NA（同题选项按多数票统一为 other.lang）",
+      "fallback": false
+    },
+    {
+      "original": "How long have you been programming in Python?",
+      "new": "experience.duration",
+      "kind": "numeric",
+      "group": "experience.duration",
+      "option": "",
+      "reason": "flags 显示 numeric_like，取值为年限区间，视为数值型答案",
+      "fallback": false
+    },
+    {
+      "original": "How many years of professional coding experience do you have?",
+      "new": "experience.duration__dup1",
+      "kind": "numeric",
+      "group": "experience.duration",
+      "option": "",
+      "reason": "flags 显示 numeric_like，取值为年限区间，视为数值型答案",
+      "fallback": false
+    },
+    {
+      "original": "For what purposes do you mainly use Python?",
+      "new": "purposes.python",
+      "kind": "single_choice",
+      "group": "purposes.python",
+      "option": "",
+      "reason": "flags 显示 multi_like，全列仅含选项名与 NA，其余选项未出现故不列（列名为整题且无勾选证据，按单选题纠正）",
+      "fallback": false
+    },
+    {
+      "original": "Computer graphics: What do you use Python for?",
+      "new": "purposes.python.graphics.Computer graphics",
+      "kind": "multi_option",
+      "group": "purposes.python.graphics",
+      "option": "Computer graphics",
+      "reason": "flags 显示 multi_like，全列仅含选项名与 NA",
+      "fallback": false
+    },
+    {
+      "original": "Data analysis: What do you use Python for?",
+      "new": "purposes.python.graphics.Data analysis",
+      "kind": "multi_option",
+      "group": "purposes.python.graphics",
+      "option": "Data analysis",
+      "reason": "flags 显示 multi_like，全列仅含选项名与 NA（同题选项按多数票统一为 purposes.python.graphics）",
+      "fallback": false
+    },
+    {
+      "original": "Desktop development: What do you use Python for?",
+      "new": "purposes.python.graphics.Desktop development",
+      "kind": "multi_option",
+      "group": "purposes.python.graphics",
+      "option": "Desktop development",
+      "reason": "flags 显示 multi_like，全列仅含选项名与 NA（同题选项按多数票统一为 purposes.python.graphics）",
+      "fallback": false
+    },
+    {
+      "original": "DevOps / System administration / Writing automation scripts: What do you use Python for?",
+      "new": "purposes.python.graphics.DevOps / System administration / Writing automation scripts",
+      "kind": "multi_option",
+      "group": "purposes.python.graphics",
+      "option": "DevOps / System administration / Writing automation scripts",
+      "reason": "flags 显示 multi_like，全列仅含选项名与 NA，截断部分视为完整选项（同题选项按多数票统一为 purposes.python.graphics）",
+      "fallback": false
+    },
+    {
+      "original": "Educational purposes: What do you use Python for?",
+      "new": "purposes.python.graphics.Educational purposes",
+      "kind": "multi_option",
+      "group": "purposes.python.graphics",
+      "option": "Educational purposes",
+      "reason": "flags 显示 multi_like，全列仅含选项名与 NA（同题选项按多数票统一为 purposes.python.graphics）",
+      "fallback": false
+    },
+    {
+      "original": "Embedded development: What do you use Python for?",
+      "new": "purposes.python.graphics.Embedded development",
+      "kind": "multi_option",
+      "group": "purposes.python.graphics",
+      "option": "Embedded development",
+      "reason": "flags 显示 multi_like，全列仅含选项名与 NA（同题选项按多数票统一为 purposes.python.graphics）",
+      "fallback": false
+    },
+    {
+      "original": "Game development: What do you use Python for?",
+      "new": "purposes.python.graphics.Game development",
+      "kind": "multi_option",
+      "group": "purposes.python.graphics",
+      "option": "Game development",
+      "reason": "flags 显示 multi_like，全列仅含选项名与 NA（同题选项按多数票统一为 purposes.python.graphics）",
+      "fallback": false
+    },
+    {
+      "original": "Machine learning: What do you use Python for?",
+      "new": "purposes.python.graphics.Machine learning",
+      "kind": "multi_option",
+      "group": "purposes.python.graphics",
+      "option": "Machine learning",
+      "reason": "flags 显示全列等于选项文本（同题选项按多数票统一为 purposes.python.graphics）",
+      "fallback": false
+    },
+    {
+      "original": "Mobile development: What do you use Python for?",
+      "new": "purposes.python.graphics.Mobile development",
+      "kind": "multi_option",
+      "group": "purposes.python.graphics",
+      "option": "Mobile development",
+      "reason": "flags 显示全列等于选项文本（同题选项按多数票统一为 purposes.python.graphics）",
+      "fallback": false
+    },
+    {
+      "original": "Multimedia applications development: What do you use Python for?",
+      "new": "purposes.python.graphics.Multimedia applications development",
+      "kind": "multi_option",
+      "group": "purposes.python.graphics",
+      "option": "Multimedia applications development",
+      "reason": "flags 显示全列等于选项文本（同题选项按多数票统一为 purposes.python.graphics）",
+      "fallback": false
+    },
+    {
+      "original": "Network programming: What do you use Python for?",
+      "new": "purposes.python.graphics.Network programming",
+      "kind": "multi_option",
+      "group": "purposes.python.graphics",
+      "option": "Network programming",
+      "reason": "flags 显示全列等于选项文本（同题选项按多数票统一为 purposes.python.graphics）",
+      "fallback": false
+    },
+    {
+      "original": "Other - Write In:: What do you use Python for?",
+      "new": "other.-.write.in.Other - Write In",
+      "kind": "free_text",
+      "group": "other.-.write.in",
+      "option": "Other - Write In",
+      "reason": "flags 显示自由文本结构特征",
+      "fallback": false
+    },
+    {
+      "original": "Programming of web parsers / scrapers / crawlers: What do you use Python for?",
+      "new": "purposes.python.graphics.Programming of web parsers / scrapers / crawlers",
+      "kind": "multi_option",
+      "group": "purposes.python.graphics",
+      "option": "Programming of web parsers / scrapers / crawlers",
+      "reason": "flags 显示全列等于选项文本（同题选项按多数票统一为 purposes.python.graphics）",
+      "fallback": false
+    },
+    {
+      "original": "Software prototyping: What do you use Python for?",
+      "new": "purposes.python.graphics.Software prototyping",
+      "kind": "multi_option",
+      "group": "purposes.python.graphics",
+      "option": "Software prototyping",
+      "reason": "flags 显示全列等于选项文本（同题选项按多数票统一为 purposes.python.graphics）",
+      "fallback": false
+    },
+    {
+      "original": "Software testing / Writing automated tests: What do you use Python for?",
+      "new": "purposes.python.graphics.Software testing / Writing automated tests",
+      "kind": "multi_option",
+      "group": "purposes.python.graphics",
+      "option": "Software testing / Writing automated tests",
+      "reason": "flags 显示全列等于选项文本（同题选项按多数票统一为 purposes.python.graphics）",
+      "fallback": false
+    },
+    {
+      "original": "Web development: What do you use Python for?",
+      "new": "purposes.python.graphics.Web development",
+      "kind": "multi_option",
+      "group": "purposes.python.graphics",
+      "option": "Web development",
+      "reason": "flags 显示全列等于选项文本（同题选项按多数票统一为 purposes.python.graphics）",
+      "fallback": false
+    },
+    {
+      "original": "Computer graphics:To what extent are you involved in the following activities?",
+      "new": "computer.graphics.Computer graphics",
+      "kind": "multi_level",
+      "group": "computer.graphics",
+      "option": "Computer graphics",
+      "reason": "flags 显示选项带程度值格式",
+      "fallback": false
+    },
+    {
+      "original": "Data analysis:To what extent are you involved in the following activities?",
+      "new": "computer.graphics.Data analysis",
+      "kind": "multi_level",
+      "group": "computer.graphics",
+      "option": "Data analysis",
+      "reason": "flags 显示选项带程度值格式（同题选项按多数票统一为 Computer graphics）",
+      "fallback": false
+    },
+    {
+      "original": "Desktop development:To what extent are you involved in the following activities?",
+      "new": "computer.graphics.Desktop development",
+      "kind": "multi_level",
+      "group": "computer.graphics",
+      "option": "Desktop development",
+      "reason": "flags 显示选项带程度值格式（同题选项按多数票统一为 Computer graphics）",
+      "fallback": false
+    },
+    {
+      "original": "DevOps / System administration / Writing automation scripts:To what extent are you involved in the following activities?",
+      "new": "computer.graphics.DevOps / System administration / Writing automation scripts",
+      "kind": "multi_level",
+      "group": "computer.graphics",
+      "option": "DevOps / System administration / Writing automation scripts",
+      "reason": "flags 显示选项带程度值格式（同题选项按多数票统一为 Computer graphics）",
+      "fallback": false
+    },
+    {
+      "original": "Educational purposes:To what extent are you involved in the following activities?",
+      "new": "computer.graphics.Educational purposes",
+      "kind": "multi_level",
+      "group": "computer.graphics",
+      "option": "Educational purposes",
+      "reason": "flags 显示选项带程度值格式（同题选项按多数票统一为 Computer graphics）",
+      "fallback": false
+    },
+    {
+      "original": "Embedded development:To what extent are you involved in the following activities?",
+      "new": "computer.graphics.Embedded development",
+      "kind": "multi_level",
+      "group": "computer.graphics",
+      "option": "Embedded development",
+      "reason": "flags 显示选项带程度值格式（同题选项按多数票统一为 Computer graphics）",
+      "fallback": false
+    },
+    {
+      "original": "Game development:To what extent are you involved in the following activities?",
+      "new": "computer.graphics.Game development",
+      "kind": "multi_level",
+      "group": "computer.graphics",
+      "option": "Game development",
+      "reason": "flags 显示选项带程度值格式（同题选项按多数票统一为 Computer graphics）",
+      "fallback": false
+    },
+    {
+      "original": "Machine learning:To what extent are you involved in the following activities?",
+      "new": "computer.graphics.Machine learning",
+      "kind": "multi_level",
+      "group": "computer.graphics",
+      "option": "Machine learning",
+      "reason": "flags 显示选项带程度值格式（同题选项按多数票统一为 Computer graphics）",
+      "fallback": false
+    },
+    {
+      "original": "Mobile development:To what extent are you involved in the following activities?",
+      "new": "computer.graphics.Mobile development",
+      "kind": "multi_level",
+      "group": "computer.graphics",
+      "option": "Mobile development",
+      "reason": "flags 显示选项带程度值格式（同题选项按多数票统一为 Computer graphics）",
+      "fallback": false
+    },
+    {
+      "original": "Multimedia applications development:To what extent are you involved in the following activities?",
+      "new": "computer.graphics.Multimedia applications development",
+      "kind": "multi_level",
+      "group": "computer.graphics",
+      "option": "Multimedia applications development",
+      "reason": "全列含程度词，符合 multi_level 特征（同题选项按多数票统一为 Computer graphics）",
+      "fallback": false
+    },
+    {
+      "original": "Network programming:To what extent are you involved in the following activities?",
+      "new": "computer.graphics.Network programming",
+      "kind": "multi_level",
+      "group": "computer.graphics",
+      "option": "Network programming",
+      "reason": "全列含程度词，符合 multi_level 特征（同题选项按多数票统一为 Computer graphics）",
+      "fallback": false
+    },
+    {
+      "original": "Other:To what extent are you involved in the following activities?",
+      "new": "ide.other.Other",
+      "kind": "free_text",
+      "group": "ide.other",
+      "option": "Other",
+      "reason": "自由文本，长度变异大，非结构化数据",
+      "fallback": false
+    },
+    {
+      "original": "Programming of web parsers / scrapers / crawlers:To what extent are you involved in the following activities?",
+      "new": "computer.graphics.Programming of web parsers / scrapers / crawlers",
+      "kind": "multi_level",
+      "group": "computer.graphics",
+      "option": "Programming of web parsers / scrapers / crawlers",
+      "reason": "全列含程度词，符合 multi_level 特征（同题选项按多数票统一为 Computer graphics）",
+      "fallback": false
+    },
+    {
+      "original": "Software prototyping:To what extent are you involved in the following activities?",
+      "new": "computer.graphics.Software prototyping",
+      "kind": "multi_level",
+      "group": "computer.graphics",
+      "option": "Software prototyping",
+      "reason": "全列含程度词，符合 multi_level 特征（同题选项按多数票统一为 Computer graphics）",
+      "fallback": false
+    },
+    {
+      "original": "Software testing / Writing automated tests:To what extent are you involved in the following activities?",
+      "new": "computer.graphics.Software testing / Writing automated tests",
+      "kind": "multi_level",
+      "group": "computer.graphics",
+      "option": "Software testing / Writing automated tests",
+      "reason": "全列含程度词，符合 multi_level 特征（同题选项按多数票统一为 Computer graphics）",
+      "fallback": false
+    },
+    {
+      "original": "Web development:To what extent are you involved in the following activities?",
+      "new": "computer.graphics.Web development",
+      "kind": "multi_level",
+      "group": "computer.graphics",
+      "option": "Web development",
+      "reason": "全列含程度词，符合 multi_level 特征（同题选项按多数票统一为 Computer graphics）",
+      "fallback": false
+    },
+    {
+      "original": "What do you use Python for the most?",
+      "new": "ide.python_use",
+      "kind": "single_choice",
+      "group": "ide.python_use",
+      "option": "",
+      "reason": "单值选择，n_unique=17 为不同回答选项",
+      "fallback": false
+    },
+    {
+      "original": "Do you consider yourself as a Data-Scientist?",
+      "new": "ide.data_scientist",
+      "kind": "single_choice",
+      "group": "ide.data_scientist",
+      "option": "",
+      "reason": "单值选择，n_unique=4 为不同回答选项",
+      "fallback": false
+    },
+    {
+      "original": "Which version of Python do you use the most?",
+      "new": "ide.python_version",
+      "kind": "single_choice",
+      "group": "ide.python_version",
+      "option": "",
+      "reason": "单值选择，n_unique=3 为不同回答选项",
+      "fallback": false
+    },
+    {
+      "original": "Which version of Python 2 do you use the most?",
+      "new": "ide.python2_version",
+      "kind": "single_choice",
+      "group": "ide.python2_version",
+      "option": "",
+      "reason": "单值选择，n_unique=9 为不同回答选项",
+      "fallback": false
+    },
+    {
+      "original": "Which version of Python 3 do you use the most?",
+      "new": "ide.python3_version",
+      "kind": "single_choice",
+      "group": "ide.python3_version",
+      "option": "",
+      "reason": "单值选择，n_unique=11 为不同回答选项",
+      "fallback": false
+    },
+    {
+      "original": "ActivePython:What do you typically use to upgrade your Python version?",
+      "new": "ide.upgrade.ActivePython",
+      "kind": "multi_option",
+      "group": "ide.upgrade",
+      "option": "ActivePython",
+      "reason": "flags 含 multi_like，全列仅两值（同题选项按多数票统一为 ide.upgrade）",
+      "fallback": false
+    },
+    {
+      "original": "Anaconda:What do you typically use to upgrade your Python version?",
+      "new": "ide.upgrade.Anaconda",
+      "kind": "multi_option",
+      "group": "ide.upgrade",
+      "option": "Anaconda",
+      "reason": "flags 含 multi_like，全列仅两值（同题选项按多数票统一为 ide.upgrade）",
+      "fallback": false
+    },
+    {
+      "original": "Automatic upgrade via cloud provider:What do you typically use to upgrade your Python version?",
+      "new": "ide.upgrade.Automatic upgrade via cloud provider",
+      "kind": "multi_option",
+      "group": "ide.upgrade",
+      "option": "Automatic upgrade via cloud provider",
+      "reason": "flags 含 multi_like，全列仅两值（同题选项按多数票统一为 ide.upgrade）",
+      "fallback": false
+    },
+    {
+      "original": "Build from source:What do you typically use to upgrade your Python version?",
+      "new": "ide.upgrade.Build from source",
+      "kind": "multi_option",
+      "group": "ide.upgrade",
+      "option": "Build from source",
+      "reason": "flags 含 multi_like，全列仅两值（同题选项按多数票统一为 ide.upgrade）",
+      "fallback": false
+    },
+    {
+      "original": "Enthought:What do you typically use to upgrade your Python version?",
+      "new": "ide.upgrade.Enthought",
+      "kind": "multi_option",
+      "group": "ide.upgrade",
+      "option": "Enthought",
+      "reason": "flags 含 multi_like，全列仅两值（同题选项按多数票统一为 ide.upgrade）",
+      "fallback": false
+    },
+    {
+      "original": "I don’t update:What do you typically use to upgrade your Python version?",
+      "new": "ide.upgrade.I don’t update",
+      "kind": "multi_option",
+      "group": "ide.upgrade",
+      "option": "I don’t update",
+      "reason": "fallback：模型未返回该列，按表头结构默认判定（画像显示为勾选标记列，按多选题选项列纠正）（同题选项按多数票统一为 ide.upgrade）",
+      "fallback": true
+    },
+    {
+      "original": "I use Docker containers:What do you typically use to upgrade your Python version?",
+      "new": "ide.upgrade.I use Docker containers",
+      "kind": "multi_option",
+      "group": "ide.upgrade",
+      "option": "I use Docker containers",
+      "reason": "flags 显示 multi_like，全列值等于选项文本",
+      "fallback": false
+    },
+    {
+      "original": "Intel Distribution for Python:What do you typically use to upgrade your Python version?",
+      "new": "ide.upgrade.Intel Distribution for Python",
+      "kind": "multi_option",
+      "group": "ide.upgrade",
+      "option": "Intel Distribution for Python",
+      "reason": "flags 显示 multi_like，全列值等于选项文本",
+      "fallback": false
+    },
+    {
+      "original": "OS-provided Python (via apt-get, yum, homebrew, etc.):What do you typically use to upgrade your Python version?",
+      "new": "ide.upgrade.OS-provided Python (via apt-get, yum, homebrew, etc.)",
+      "kind": "multi_option",
+      "group": "ide.upgrade",
+      "option": "OS-provided Python (via apt-get, yum, homebrew, etc.)",
+      "reason": "flags 显示 multi_like，全列值等于选项文本",
+      "fallback": false
+    },
+    {
+      "original": "Other – Write In::What do you typically use to upgrade your Python version?",
+      "new": "ide.upgrade.Other – Write In",
+      "kind": "free_text",
+      "group": "ide.upgrade",
+      "option": "Other – Write In",
+      "reason": "flags 无 multi_like，value_shape 注明为自由文本",
+      "fallback": false
+    },
+    {
+      "original": "pyenv:What do you typically use to upgrade your Python version?",
+      "new": "ide.upgrade.pyenv",
+      "kind": "multi_option",
+      "group": "ide.upgrade",
+      "option": "pyenv",
+      "reason": "flags 显示 multi_like，全列值等于选项文本",
+      "fallback": false
+    },
+    {
+      "original": "Python.org:What do you typically use to upgrade your Python version?",
+      "new": "ide.upgrade.Python.org",
+      "kind": "multi_option",
+      "group": "ide.upgrade",
+      "option": "Python.org",
+      "reason": "flags 显示 multi_like，全列值等于选项文本",
+      "fallback": false
+    },
+    {
+      "original": "pythonz:What do you typically use to upgrade your Python version?",
+      "new": "ide.upgrade.pythonz",
+      "kind": "multi_option",
+      "group": "ide.upgrade",
+      "option": "pythonz",
+      "reason": "flags 显示 multi_like，全列值等于选项文本",
+      "fallback": false
+    },
+    {
+      "original": "Somebody else manages Python updates for me:What do you typically use to upgrade your Python version?",
+      "new": "ide.upgrade.Somebody else manages Python updates for me",
+      "kind": "multi_option",
+      "group": "ide.upgrade",
+      "option": "Somebody else manages Python updates for me",
+      "reason": "flags 显示 multi_like，全列值等于选项文本",
+      "fallback": false
+    },
+    {
+      "original": "Conda:Do you use any of the following tools to isolate Python environments, if any?",
+      "new": "ide.isolate.Conda",
+      "kind": "multi_option",
+      "group": "ide.isolate",
+      "option": "Conda",
+      "reason": "flags 显示 multi_like，全列值等于选项文本",
+      "fallback": false
+    },
+    {
+      "original": "Docker:Do you use any of the following tools to isolate Python environments, if any?",
+      "new": "ide.isolate.Docker",
+      "kind": "multi_option",
+      "group": "ide.isolate",
+      "option": "Docker",
+      "reason": "flags 显示 multi_like，全列值等于选项文本",
+      "fallback": false
+    },
+    {
+      "original": "None:Do you use any of the following tools to isolate Python environments, if any?",
+      "new": "ide.isolate.None",
+      "kind": "multi_option",
+      "group": "ide.isolate",
+      "option": "None",
+      "reason": "flags 显示 multi_like，全列值等于选项文本",
+      "fallback": false
+    },
+    {
+      "original": "Other – Write In::Do you use any of the following tools to isolate Python environments, if any?",
+      "new": "ide.isolate.Other – Write In",
+      "kind": "free_text",
+      "group": "ide.isolate",
+      "option": "Other – Write In",
+      "reason": "flags 无 multi_like，value_shape 注明为自由文本",
+      "fallback": false
+    },
+    {
+      "original": "Pipenv:Do you use any of the following tools to isolate Python environments, if any?",
+      "new": "ide.isolate.Pipenv",
+      "kind": "multi_option",
+      "group": "ide.isolate",
+      "option": "Pipenv",
+      "reason": "flags 显示 multi_like，全列值等于选项文本",
+      "fallback": false
+    },
+    {
+      "original": "Poetry:Do you use any of the following tools to isolate Python environments, if any?",
+      "new": "ide.isolate.Poetry",
+      "kind": "multi_option",
+      "group": "ide.isolate",
+      "option": "Poetry",
+      "reason": "flags 显示 multi_like，全列值等于选项文本",
+      "fallback": false
+    },
+    {
+      "original": "Vagrant  / virtual machines:Do you use any of the following tools to isolate Python environments, if any?",
+      "new": "ide.isolate.Vagrant / virtual machines",
+      "kind": "multi_option",
+      "group": "ide.isolate",
+      "option": "Vagrant / virtual machines",
+      "reason": "flags 显示 multi_like，全列值等于选项文本",
+      "fallback": false
+    },
+    {
+      "original": "Virtualenv:Do you use any of the following tools to isolate Python environments, if any?",
+      "new": "ide.isolate.Virtualenv",
+      "kind": "multi_option",
+      "group": "ide.isolate",
+      "option": "Virtualenv",
+      "reason": "flags 显示 multi_like，全列值等于选项文本",
+      "fallback": false
+    },
+    {
+      "original": "Bottle:What web frameworks / libraries do you use in addition to Python?",
+      "new": "frameworks.web.Bottle",
+      "kind": "multi_option",
+      "group": "frameworks.web",
+      "option": "Bottle",
+      "reason": "flags 显示 multi_like，全列值等于选项文本",
+      "fallback": false
+    },
+    {
+      "original": "CherryPy :What web frameworks / libraries do you use in addition to Python?",
+      "new": "frameworks.web.CherryPy",
+      "kind": "multi_option",
+      "group": "frameworks.web",
+      "option": "CherryPy",
+      "reason": "fallback：模型未返回该列，按表头结构默认判定（画像显示为勾选标记列，按多选题选项列纠正）（同题选项按多数票统一为 frameworks.web）",
+      "fallback": true
+    },
+    {
+      "original": "Django:What web frameworks / libraries do you use in addition to Python?",
+      "new": "frameworks.web.Django",
+      "kind": "multi_option",
+      "group": "frameworks.web",
+      "option": "Django",
+      "reason": "flags 显示全列恒等于选项文本",
+      "fallback": false
+    },
+    {
+      "original": "Falcon:What web frameworks / libraries do you use in addition to Python?",
+      "new": "frameworks.web.Falcon",
+      "kind": "multi_option",
+      "group": "frameworks.web",
+      "option": "Falcon",
+      "reason": "flags 显示全列恒等于选项文本",
+      "fallback": false
+    },
+    {
+      "original": "Flask :What web frameworks / libraries do you use in addition to Python?",
+      "new": "frameworks.web.Flask",
+      "kind": "multi_option",
+      "group": "frameworks.web",
+      "option": "Flask",
+      "reason": "fallback：模型未返回该列，按表头结构默认判定（画像显示为勾选标记列，按多选题选项列纠正）（同题选项按多数票统一为 frameworks.web）",
+      "fallback": true
+    },
+    {
+      "original": "Hug:What web frameworks / libraries do you use in addition to Python?",
+      "new": "frameworks.web.Hug",
+      "kind": "multi_option",
+      "group": "frameworks.web",
+      "option": "Hug",
+      "reason": "flags 显示全列恒等于选项文本",
+      "fallback": false
+    },
+    {
+      "original": "None:What web frameworks / libraries do you use in addition to Python?",
+      "new": "frameworks.web.None",
+      "kind": "multi_option",
+      "group": "frameworks.web",
+      "option": "None",
+      "reason": "flags 显示全列恒等于选项文本",
+      "fallback": false
+    },
+    {
+      "original": "Other – Write In::What web frameworks / libraries do you use in addition to Python?",
+      "new": "other.write.in.what.web.frameworks.libraries.do.you.use.in.addition.to.python.Other – Write In",
+      "kind": "free_text",
+      "group": "other.write.in.what.web.frameworks.libraries.do.you.use.in.addition.to.python",
+      "option": "Other – Write In",
+      "reason": "fallback：模型未返回该列，按表头结构默认判定（画像显示为自由文本，已按脱敏规则纠正）",
+      "fallback": true
+    },
+    {
+      "original": "Pyramid :What web frameworks / libraries do you use in addition to Python?",
+      "new": "frameworks.web.Pyramid",
+      "kind": "multi_option",
+      "group": "frameworks.web",
+      "option": "Pyramid",
+      "reason": "fallback：模型未返回该列，按表头结构默认判定（画像显示为勾选标记列，按多选题选项列纠正）（同题选项按多数票统一为 frameworks.web）",
+      "fallback": true
+    },
+    {
+      "original": "Tornado:What web frameworks / libraries do you use in addition to Python?",
+      "new": "frameworks.web.Tornado",
+      "kind": "multi_option",
+      "group": "frameworks.web",
+      "option": "Tornado",
+      "reason": "flags 显示全列恒等于选项文本",
+      "fallback": false
+    },
+    {
+      "original": "TurboGears:What web frameworks / libraries do you use in addition to Python?",
+      "new": "frameworks.web.TurboGears",
+      "kind": "multi_option",
+      "group": "frameworks.web",
+      "option": "TurboGears",
+      "reason": "flags 显示全列恒等于选项文本",
+      "fallback": false
+    },
+    {
+      "original": "web2py:What web frameworks / libraries do you use in addition to Python?",
+      "new": "frameworks.web.web2py",
+      "kind": "multi_option",
+      "group": "frameworks.web",
+      "option": "web2py",
+      "reason": "flags 显示全列恒等于选项文本",
+      "fallback": false
+    },
+    {
+      "original": "Gensim:What data science framework(s) do you use in addition to Python?",
+      "new": "frameworks.data.Gensim",
+      "kind": "multi_option",
+      "group": "frameworks.data",
+      "option": "Gensim",
+      "reason": "flags 显示全列恒等于选项文本",
+      "fallback": false
+    },
+    {
+      "original": "Keras:What data science framework(s) do you use in addition to Python?",
+      "new": "frameworks.data.Keras",
+      "kind": "multi_option",
+      "group": "frameworks.data",
+      "option": "Keras",
+      "reason": "flags 显示全列恒等于选项文本",
+      "fallback": false
+    },
+    {
+      "original": "Matplotlib:What data science framework(s) do you use in addition to Python?",
+      "new": "frameworks.data.Matplotlib",
+      "kind": "multi_option",
+      "group": "frameworks.data",
+      "option": "Matplotlib",
+      "reason": "flags 显示全列恒等于选项文本",
+      "fallback": false
+    },
+    {
+      "original": "MXNet:What data science framework(s) do you use in addition to Python?",
+      "new": "frameworks.data.MXNet",
+      "kind": "multi_option",
+      "group": "frameworks.data",
+      "option": "MXNet",
+      "reason": "flags 显示全列恒等于选项文本",
+      "fallback": false
+    },
+    {
+      "original": "NLTK:What data science framework(s) do you use in addition to Python?",
+      "new": "frameworks.data.NLTK",
+      "kind": "multi_option",
+      "group": "frameworks.data",
+      "option": "NLTK",
+      "reason": "flags 显示全列恒等于选项文本",
+      "fallback": false
+    },
+    {
+      "original": "None:What data science framework(s) do you use in addition to Python?",
+      "new": "frameworks.data.None",
+      "kind": "multi_option",
+      "group": "frameworks.data",
+      "option": "None",
+      "reason": "flags 显示全列恒等于选项文本",
+      "fallback": false
+    },
+    {
+      "original": "NumPy:What data science framework(s) do you use in addition to Python?",
+      "new": "frameworks.data.NumPy",
+      "kind": "multi_option",
+      "group": "frameworks.data",
+      "option": "NumPy",
+      "reason": "flags 显示全列恒等于选项文本",
+      "fallback": false
+    },
+    {
+      "original": "Other - Write In::What data science framework(s) do you use in addition to Python?",
+      "new": "other.-.write.in.what.data.science.framework.s.do.you.use.in.addition.to.python.Other - Write In",
+      "kind": "free_text",
+      "group": "other.-.write.in.what.data.science.framework.s.do.you.use.in.addition.to.python",
+      "option": "Other - Write In",
+      "reason": "fallback：模型未返回该列，按表头结构默认判定（画像显示为自由文本，已按脱敏规则纠正）",
+      "fallback": true
+    },
+    {
+      "original": "Pandas:What data science framework(s) do you use in addition to Python?",
+      "new": "frameworks.data.Pandas",
+      "kind": "multi_option",
+      "group": "frameworks.data",
+      "option": "Pandas",
+      "reason": "全列值恒为选项名或 NA，符合 multi_like（同题选项按多数票统一为 frameworks.data）",
+      "fallback": false
+    },
+    {
+      "original": "PyTorch:What data science framework(s) do you use in addition to Python?",
+      "new": "frameworks.data.PyTorch",
+      "kind": "multi_option",
+      "group": "frameworks.data",
+      "option": "PyTorch",
+      "reason": "全列值恒为选项名或 NA，符合 multi_like（同题选项按多数票统一为 frameworks.data）",
+      "fallback": false
+    },
+    {
+      "original": "SciKit-Learn:What data science framework(s) do you use in addition to Python?",
+      "new": "frameworks.data.SciKit-Learn",
+      "kind": "multi_option",
+      "group": "frameworks.data",
+      "option": "SciKit-Learn",
+      "reason": "全列值恒为选项名或 NA，符合 multi_like（同题选项按多数票统一为 frameworks.data）",
+      "fallback": false
+    },
+    {
+      "original": "SciPy:What data science framework(s) do you use in addition to Python?",
+      "new": "frameworks.data.SciPy",
+      "kind": "multi_option",
+      "group": "frameworks.data",
+      "option": "SciPy",
+      "reason": "全列值恒为选项名或 NA，符合 multi_like（同题选项按多数票统一为 frameworks.data）",
+      "fallback": false
+    },
+    {
+      "original": "Seaborn:What data science framework(s) do you use in addition to Python?",
+      "new": "frameworks.data.Seaborn",
+      "kind": "multi_option",
+      "group": "frameworks.data",
+      "option": "Seaborn",
+      "reason": "全列值恒为选项名或 NA，符合 multi_like（同题选项按多数票统一为 frameworks.data）",
+      "fallback": false
+    },
+    {
+      "original": "TensorFlow:What data science framework(s) do you use in addition to Python?",
+      "new": "frameworks.data.TensorFlow",
+      "kind": "multi_option",
+      "group": "frameworks.data",
+      "option": "TensorFlow",
+      "reason": "全列值恒为选项名或 NA，符合 multi_like（同题选项按多数票统一为 frameworks.data）",
+      "fallback": false
+    },
+    {
+      "original": "Theano:What data science framework(s) do you use in addition to Python?",
+      "new": "frameworks.data.Theano",
+      "kind": "multi_option",
+      "group": "frameworks.data",
+      "option": "Theano",
+      "reason": "全列值恒为选项名或 NA，符合 multi_like（同题选项按多数票统一为 frameworks.data）",
+      "fallback": false
+    },
+    {
+      "original": "aiohttp:Which of the following frameworks / libraries do you use in addition to Python?",
+      "new": "frameworks.ml.aiohttp",
+      "kind": "multi_option",
+      "group": "frameworks.ml",
+      "option": "aiohttp",
+      "reason": "全列值恒为选项名或 NA，符合 multi_like",
+      "fallback": false
+    },
+    {
+      "original": "Asyncio:Which of the following frameworks / libraries do you use in addition to Python?",
+      "new": "frameworks.ml.Asyncio",
+      "kind": "multi_option",
+      "group": "frameworks.ml",
+      "option": "Asyncio",
+      "reason": "全列值恒为选项名或 NA，符合 multi_like",
+      "fallback": false
+    },
+    {
+      "original": "Kivy:Which of the following frameworks / libraries do you use in addition to Python?",
+      "new": "frameworks.ml.Kivy",
+      "kind": "multi_option",
+      "group": "frameworks.ml",
+      "option": "Kivy",
+      "reason": "全列值恒为选项名或 NA，符合 multi_like",
+      "fallback": false
+    },
+    {
+      "original": "None:Which of the following frameworks / libraries do you use in addition to Python?",
+      "new": "frameworks.ml.None",
+      "kind": "multi_option",
+      "group": "frameworks.ml",
+      "option": "None",
+      "reason": "全列值恒为选项名或 NA，符合 multi_like",
+      "fallback": false
+    },
+    {
+      "original": "Other – Write In::Which of the following frameworks / libraries do you use in addition to Python?",
+      "new": "frameworks.ml.Other – Write In",
+      "kind": "free_text",
+      "group": "frameworks.ml",
+      "option": "Other – Write In",
+      "reason": "自由文本列，长度特征显示为开放回答",
+      "fallback": false
+    },
+    {
+      "original": "Pillow:Which of the following frameworks / libraries do you use in addition to Python?",
+      "new": "frameworks.ml.Pillow",
+      "kind": "multi_option",
+      "group": "frameworks.ml",
+      "option": "Pillow",
+      "reason": "全列值恒为选项名或 NA，符合 multi_like",
+      "fallback": false
+    },
+    {
+      "original": "Pygame:Which of the following frameworks / libraries do you use in addition to Python?",
+      "new": "frameworks.ml.Pygame",
+      "kind": "multi_option",
+      "group": "frameworks.ml",
+      "option": "Pygame",
+      "reason": "全列值恒为选项名或 NA，符合 multi_like",
+      "fallback": false
+    },
+    {
+      "original": "PyGTK:Which of the following frameworks / libraries do you use in addition to Python?",
+      "new": "frameworks.ml.PyGTK",
+      "kind": "multi_option",
+      "group": "frameworks.ml",
+      "option": "PyGTK",
+      "reason": "全列值恒为选项名或 NA，符合 multi_like",
+      "fallback": false
+    },
+    {
+      "original": "PyQT:Which of the following frameworks / libraries do you use in addition to Python?",
+      "new": "frameworks.ml.PyQT",
+      "kind": "multi_option",
+      "group": "frameworks.ml",
+      "option": "PyQT",
+      "reason": "全列值恒为选项名或 NA，符合 multi_like",
+      "fallback": false
+    },
+    {
+      "original": "Requests:Which of the following frameworks / libraries do you use in addition to Python?",
+      "new": "frameworks.ml.Requests",
+      "kind": "multi_option",
+      "group": "frameworks.ml",
+      "option": "Requests",
+      "reason": "全列值恒为选项名或 NA，符合 multi_like",
+      "fallback": false
+    },
+    {
+      "original": "Scrapy:Which of the following frameworks / libraries do you use in addition to Python?",
+      "new": "frameworks.ml.Scrapy",
+      "kind": "multi_option",
+      "group": "frameworks.ml",
+      "option": "Scrapy",
+      "reason": "全列值恒为选项名或 NA，符合 multi_like",
+      "fallback": false
+    },
+    {
+      "original": "Six:Which of the following frameworks / libraries do you use in addition to Python?",
+      "new": "frameworks.ml.Six",
+      "kind": "multi_option",
+      "group": "frameworks.ml",
+      "option": "Six",
+      "reason": "flags 显示全列恒等于列名选项",
+      "fallback": false
+    },
+    {
+      "original": "Tkinter:Which of the following frameworks / libraries do you use in addition to Python?",
+      "new": "frameworks.ml.Tkinter",
+      "kind": "multi_option",
+      "group": "frameworks.ml",
+      "option": "Tkinter",
+      "reason": "flags 显示全列恒等于列名选项",
+      "fallback": false
+    },
+    {
+      "original": "Twisted:Which of the following frameworks / libraries do you use in addition to Python?",
+      "new": "frameworks.ml.Twisted",
+      "kind": "multi_option",
+      "group": "frameworks.ml",
+      "option": "Twisted",
+      "reason": "flags 显示全列恒等于列名选项",
+      "fallback": false
+    },
+    {
+      "original": "wxPython:Which of the following frameworks / libraries do you use in addition to Python?",
+      "new": "frameworks.ml.wxPython",
+      "kind": "multi_option",
+      "group": "frameworks.ml",
+      "option": "wxPython",
+      "reason": "flags 显示全列恒等于列名选项",
+      "fallback": false
+    },
+    {
+      "original": "AWS:Which of the following cloud platforms do you use?",
+      "new": "cloud.platforms.AWS",
+      "kind": "multi_option",
+      "group": "cloud.platforms",
+      "option": "AWS",
+      "reason": "flags 显示全列恒等于列名选项",
+      "fallback": false
+    },
+    {
+      "original": "DigitalOcean:Which of the following cloud platforms do you use?",
+      "new": "cloud.platforms.DigitalOcean",
+      "kind": "multi_option",
+      "group": "cloud.platforms",
+      "option": "DigitalOcean",
+      "reason": "flags 显示全列恒等于列名选项",
+      "fallback": false
+    },
+    {
+      "original": "Google Cloud Platform:Which of the following cloud platforms do you use?",
+      "new": "cloud.platforms.Google Cloud Platform",
+      "kind": "multi_option",
+      "group": "cloud.platforms",
+      "option": "Google Cloud Platform",
+      "reason": "flags 显示全列恒等于列名选项",
+      "fallback": false
+    },
+    {
+      "original": "Heroku:Which of the following cloud platforms do you use?",
+      "new": "cloud.platforms.Heroku",
+      "kind": "multi_option",
+      "group": "cloud.platforms",
+      "option": "Heroku",
+      "reason": "flags 显示全列恒等于列名选项",
+      "fallback": false
+    },
+    {
+      "original": "Linode:Which of the following cloud platforms do you use?",
+      "new": "cloud.platforms.Linode",
+      "kind": "multi_option",
+      "group": "cloud.platforms",
+      "option": "Linode",
+      "reason": "flags 显示全列恒等于列名选项",
+      "fallback": false
+    },
+    {
+      "original": "Microsoft Azure:Which of the following cloud platforms do you use?",
+      "new": "cloud.platforms.Microsoft Azure",
+      "kind": "multi_option",
+      "group": "cloud.platforms",
+      "option": "Microsoft Azure",
+      "reason": "flags 显示全列恒等于列名选项",
+      "fallback": false
+    },
+    {
+      "original": "None:Which of the following cloud platforms do you use?",
+      "new": "cloud.platforms.None",
+      "kind": "multi_option",
+      "group": "cloud.platforms",
+      "option": "None",
+      "reason": "flags 显示全列恒等于列名选项",
+      "fallback": false
+    },
+    {
+      "original": "OpenShift:Which of the following cloud platforms do you use?",
+      "new": "cloud.platforms.OpenShift",
+      "kind": "multi_option",
+      "group": "cloud.platforms",
+      "option": "OpenShift",
+      "reason": "flags 显示全列恒等于列名选项",
+      "fallback": false
+    },
+    {
+      "original": "OpenStack:Which of the following cloud platforms do you use?",
+      "new": "cloud.platforms.OpenStack",
+      "kind": "multi_option",
+      "group": "cloud.platforms",
+      "option": "OpenStack",
+      "reason": "flags 显示全列恒等于列名选项",
+      "fallback": false
+    },
+    {
+      "original": "Other – Write In::Which of the following cloud platforms do you use?",
+      "new": "cloud.platforms.Other – Write In",
+      "kind": "free_text",
+      "group": "cloud.platforms",
+      "option": "Other – Write In",
+      "reason": "value_shape 显示为自由文本结构",
+      "fallback": false
+    },
+    {
+      "original": "PythonAnywhere:Which of the following cloud platforms do you use?",
+      "new": "cloud.platforms.PythonAnywhere",
+      "kind": "multi_option",
+      "group": "cloud.platforms",
+      "option": "PythonAnywhere",
+      "reason": "flags 显示全列恒等于列名选项",
+      "fallback": false
+    },
+    {
+      "original": "Rackspace:Which of the following cloud platforms do you use?",
+      "new": "cloud.platforms.Rackspace",
+      "kind": "multi_option",
+      "group": "cloud.platforms",
+      "option": "Rackspace",
+      "reason": "flags 显示全列恒等于列名选项",
+      "fallback": false
+    },
+    {
+      "original": "In virtual machines:How do you run code in the cloud (in the production environment)?",
+      "new": "ide.editor.In virtual machines",
+      "kind": "multi_option",
+      "group": "ide.editor",
+      "option": "In virtual machines",
+      "reason": "flags 显示全列恒等于列名选项（同题选项按多数票统一为 ide.editor）",
+      "fallback": false
+    },
+    {
+      "original": "None of the following:How do you run code in the cloud (in the production environment)?",
+      "new": "ide.editor.None of the following",
+      "kind": "multi_option",
+      "group": "ide.editor",
+      "option": "None of the following",
+      "reason": "flags 显示全列恒等于列名选项（同题选项按多数票统一为 ide.editor）",
+      "fallback": false
+    },
+    {
+      "original": "On a Platform-as-a-Service (such as Heroku or Google App Engine):How do you run code in the cloud (in the production environment)?",
+      "new": "ide.editor.On a Platform-as-a-Service (such as Heroku or Google App Engine)",
+      "kind": "multi_option",
+      "group": "ide.editor",
+      "option": "On a Platform-as-a-Service (such as Heroku or Google App Engine)",
+      "reason": "flags 为 multi_like，全列取值等于选项文本",
+      "fallback": false
+    },
+    {
+      "original": "Other – Write In::How do you run code in the cloud (in the production environment)?",
+      "new": "ide.editor.Other – Write In",
+      "kind": "free_text",
+      "group": "ide.editor",
+      "option": "Other – Write In",
+      "reason": "flags 无 multi_like，value_shape 显示自由文本特征",
+      "fallback": false
+    },
+    {
+      "original": "Serverless (such as AWS Lambda or Cloud Functions):How do you run code in the cloud (in the production environment)?",
+      "new": "ide.editor.Serverless (such as AWS Lambda or Cloud Functions)",
+      "kind": "multi_option",
+      "group": "ide.editor",
+      "option": "Serverless (such as AWS Lambda or Cloud Functions)",
+      "reason": "flags 为 multi_like，全列取值等于选项文本",
+      "fallback": false
+    },
+    {
+      "original": "Within containers:How do you run code in the cloud (in the production environment)?",
+      "new": "ide.editor.Within containers",
+      "kind": "multi_option",
+      "group": "ide.editor",
+      "option": "Within containers",
+      "reason": "flags 为 multi_like，全列取值等于选项文本",
+      "fallback": false
+    },
+    {
+      "original": "Directly in the production environment:How do you develop for the cloud?",
+      "new": "ide.editor.Directly in the production environment",
+      "kind": "multi_option",
+      "group": "ide.editor",
+      "option": "Directly in the production environment",
+      "reason": "flags 为 multi_like，全列取值等于选项文本",
+      "fallback": false
+    },
+    {
+      "original": "In Docker containers:How do you develop for the cloud?",
+      "new": "ide.editor.In Docker containers",
+      "kind": "multi_option",
+      "group": "ide.editor",
+      "option": "In Docker containers",
+      "reason": "flags 为 multi_like，全列取值等于选项文本",
+      "fallback": false
+    },
+    {
+      "original": "In remote development environments:How do you develop for the cloud?",
+      "new": "ide.editor.In remote development environments",
+      "kind": "multi_option",
+      "group": "ide.editor",
+      "option": "In remote development environments",
+      "reason": "flags 为 multi_like，全列取值等于选项文本",
+      "fallback": false
+    },
+    {
+      "original": "In virtual machines:How do you develop for the cloud?",
+      "new": "ide.editor.In virtual machines__dup1",
+      "kind": "multi_option",
+      "group": "ide.editor",
+      "option": "In virtual machines",
+      "reason": "flags 为 multi_like，全列取值等于选项文本",
+      "fallback": false
+    },
+    {
+      "original": "Locally with virtualenv (or similar):How do you develop for the cloud?",
+      "new": "ide.editor.Locally with virtualenv (or similar)",
+      "kind": "multi_option",
+      "group": "ide.editor",
+      "option": "Locally with virtualenv (or similar)",
+      "reason": "flags 为 multi_like，全列取值等于选项文本",
+      "fallback": false
+    },
+    {
+      "original": "None of the following:How do you develop for the cloud?",
+      "new": "ide.editor.None of the following__dup1",
+      "kind": "multi_option",
+      "group": "ide.editor",
+      "option": "None of the following",
+      "reason": "flags 为 multi_like，全列取值等于选项文本",
+      "fallback": false
+    },
+    {
+      "original": "Other – Write In::How do you develop for the cloud?",
+      "new": "ide.editor.Other – Write In__dup1",
+      "kind": "free_text",
+      "group": "ide.editor",
+      "option": "Other – Write In",
+      "reason": "flags 无 multi_like，value_shape 显示自由文本特征",
+      "fallback": false
+    },
+    {
+      "original": "With local system interpreter:How do you develop for the cloud?",
+      "new": "ide.editor.With local system interpreter",
+      "kind": "multi_option",
+      "group": "ide.editor",
+      "option": "With local system interpreter",
+      "reason": "flags 为 multi_like，全列取值等于选项文本",
+      "fallback": false
+    },
+    {
+      "original": "BSD:What operating system(s) are your development environment?",
+      "new": "ide.os.BSD",
+      "kind": "multi_option",
+      "group": "ide.os",
+      "option": "BSD",
+      "reason": "flags 为 multi_like，全列取值等于选项文本",
+      "fallback": false
+    },
+    {
+      "original": "Linux:What operating system(s) are your development environment?",
+      "new": "ide.os.Linux",
+      "kind": "multi_option",
+      "group": "ide.os",
+      "option": "Linux",
+      "reason": "flags 为 multi_like，全列取值等于选项文本",
+      "fallback": false
+    },
+    {
+      "original": "macOS:What operating system(s) are your development environment?",
+      "new": "ide.os.macOS",
+      "kind": "multi_option",
+      "group": "ide.os",
+      "option": "macOS",
+      "reason": "flags 为 multi_like，全列取值等于选项文本",
+      "fallback": false
+    },
+    {
+      "original": "Other – Write In::What operating system(s) are your development environment?",
+      "new": "ide.os.Other – Write In",
+      "kind": "free_text",
+      "group": "ide.os",
+      "option": "Other – Write In",
+      "reason": "flags 无 multi_like，value_shape 显示自由文本特征",
+      "fallback": false
+    },
+    {
+      "original": "Windows:What operating system(s) are your development environment?",
+      "new": "ide.os.Windows",
+      "kind": "multi_option",
+      "group": "ide.os",
+      "option": "Windows",
+      "reason": "flags 为 multi_like，全列取值等于选项文本",
+      "fallback": false
+    },
+    {
+      "original": "doctest:Which Python unit-testing framework(s) do you use, if any?",
+      "new": "ide.editor.doctest",
+      "kind": "multi_option",
+      "group": "ide.editor",
+      "option": "doctest",
+      "reason": "flags 为 multi_like，全列取值等于选项文本（同题选项按多数票统一为 ide.editor）",
+      "fallback": false
+    },
+    {
+      "original": "Hypothesis:Which Python unit-testing framework(s) do you use, if any?",
+      "new": "ide.editor.Hypothesis",
+      "kind": "multi_option",
+      "group": "ide.editor",
+      "option": "Hypothesis",
+      "reason": "全列取值恒等于列名选项，符合 multi_like",
+      "fallback": false
+    },
+    {
+      "original": "mock:Which Python unit-testing framework(s) do you use, if any?",
+      "new": "ide.editor.mock",
+      "kind": "multi_option",
+      "group": "ide.editor",
+      "option": "mock",
+      "reason": "全列取值恒等于列名选项，符合 multi_like",
+      "fallback": false
+    },
+    {
+      "original": "None:Which Python unit-testing framework(s) do you use, if any?",
+      "new": "ide.editor.None",
+      "kind": "multi_option",
+      "group": "ide.editor",
+      "option": "None",
+      "reason": "全列取值恒等于列名选项，符合 multi_like",
+      "fallback": false
+    },
+    {
+      "original": "nose:Which Python unit-testing framework(s) do you use, if any?",
+      "new": "ide.editor.nose",
+      "kind": "multi_option",
+      "group": "ide.editor",
+      "option": "nose",
+      "reason": "全列取值恒等于列名选项，符合 multi_like",
+      "fallback": false
+    },
+    {
+      "original": "Other – Write In::Which Python unit-testing framework(s) do you use, if any?",
+      "new": "ide.editor.Other – Write In__dup2",
+      "kind": "free_text",
+      "group": "ide.editor",
+      "option": "Other – Write In",
+      "reason": "自由文本列，含脱敏样本，非结构化数据",
+      "fallback": false
+    },
+    {
+      "original": "pytest:Which Python unit-testing framework(s) do you use, if any?",
+      "new": "ide.editor.pytest",
+      "kind": "multi_option",
+      "group": "ide.editor",
+      "option": "pytest",
+      "reason": "全列取值恒等于列名选项，符合 multi_like",
+      "fallback": false
+    },
+    {
+      "original": "Tox:Which Python unit-testing framework(s) do you use, if any?",
+      "new": "ide.editor.Tox",
+      "kind": "multi_option",
+      "group": "ide.editor",
+      "option": "Tox",
+      "reason": "全列取值恒等于列名选项，符合 multi_like",
+      "fallback": false
+    },
+    {
+      "original": "unittest:Which Python unit-testing framework(s) do you use, if any?",
+      "new": "ide.editor.unittest",
+      "kind": "multi_option",
+      "group": "ide.editor",
+      "option": "unittest",
+      "reason": "全列取值恒等于列名选项，符合 multi_like",
+      "fallback": false
+    },
+    {
+      "original": "Dejavu:What ORM(s) do you use together with Python, if any?",
+      "new": "frameworks.ml.Dejavu",
+      "kind": "multi_option",
+      "group": "frameworks.ml",
+      "option": "Dejavu",
+      "reason": "全列取值恒等于列名选项，符合 multi_like",
+      "fallback": false
+    },
+    {
+      "original": "Django ORM:What ORM(s) do you use together with Python, if any?",
+      "new": "frameworks.ml.Django ORM",
+      "kind": "multi_option",
+      "group": "frameworks.ml",
+      "option": "Django ORM",
+      "reason": "全列取值恒等于列名选项，符合 multi_like",
+      "fallback": false
+    },
+    {
+      "original": "None:What ORM(s) do you use together with Python, if any?",
+      "new": "frameworks.ml.None__dup1",
+      "kind": "multi_option",
+      "group": "frameworks.ml",
+      "option": "None",
+      "reason": "全列取值恒等于列名选项，符合 multi_like",
+      "fallback": false
+    },
+    {
+      "original": "Other – Write In::What ORM(s) do you use together with Python, if any?",
+      "new": "frameworks.ml.Other – Write In__dup1",
+      "kind": "free_text",
+      "group": "frameworks.ml",
+      "option": "Other – Write In",
+      "reason": "自由文本列，含脱敏样本，非结构化数据",
+      "fallback": false
+    },
+    {
+      "original": "Peewee:What ORM(s) do you use together with Python, if any?",
+      "new": "frameworks.ml.Peewee",
+      "kind": "multi_option",
+      "group": "frameworks.ml",
+      "option": "Peewee",
+      "reason": "全列取值恒等于列名选项，符合 multi_like",
+      "fallback": false
+    },
+    {
+      "original": "PonyORM:What ORM(s) do you use together with Python, if any?",
+      "new": "frameworks.ml.PonyORM",
+      "kind": "multi_option",
+      "group": "frameworks.ml",
+      "option": "PonyORM",
+      "reason": "全列取值恒等于列名选项，符合 multi_like",
+      "fallback": false
+    },
+    {
+      "original": "SQLAlchemy:What ORM(s) do you use together with Python, if any?",
+      "new": "frameworks.ml.SQLAlchemy",
+      "kind": "multi_option",
+      "group": "frameworks.ml",
+      "option": "SQLAlchemy",
+      "reason": "全列取值恒等于列名选项，符合 multi_like",
+      "fallback": false
+    },
+    {
+      "original": "SQLObject:What ORM(s) do you use together with Python, if any?",
+      "new": "frameworks.ml.SQLObject",
+      "kind": "multi_option",
+      "group": "frameworks.ml",
+      "option": "SQLObject",
+      "reason": "全列取值恒等于列名选项，符合 multi_like",
+      "fallback": false
+    },
+    {
+      "original": "Tortoise ORM:What ORM(s) do you use together with Python, if any?",
+      "new": "frameworks.ml.Tortoise ORM",
+      "kind": "multi_option",
+      "group": "frameworks.ml",
+      "option": "Tortoise ORM",
+      "reason": "全列取值恒等于列名选项，符合 multi_like",
+      "fallback": false
+    },
+    {
+      "original": "Amazon Redshift:Which database(s) do you regularly use, if any?",
+      "new": "ide.databases.Amazon Redshift",
+      "kind": "multi_option",
+      "group": "ide.databases",
+      "option": "Amazon Redshift",
+      "reason": "全列取值恒等于列名选项，符合 multi_like（同题选项按多数票统一为 ide.databases）",
+      "fallback": false
+    },
+    {
+      "original": "Cassandra:Which database(s) do you regularly use, if any?",
+      "new": "ide.databases.Cassandra",
+      "kind": "multi_option",
+      "group": "ide.databases",
+      "option": "Cassandra",
+      "reason": "flags 显示全列等于列名选项，为单选题",
+      "fallback": false
+    },
+    {
+      "original": "Couchbase:Which database(s) do you regularly use, if any?",
+      "new": "ide.databases.Couchbase",
+      "kind": "multi_option",
+      "group": "ide.databases",
+      "option": "Couchbase",
+      "reason": "flags 显示全列等于列名选项，为单选题",
+      "fallback": false
+    },
+    {
+      "original": "DB2:Which database(s) do you regularly use, if any?",
+      "new": "ide.databases.DB2",
+      "kind": "multi_option",
+      "group": "ide.databases",
+      "option": "DB2",
+      "reason": "flags 显示全列等于列名选项，为单选题",
+      "fallback": false
+    },
+    {
+      "original": "h2:Which database(s) do you regularly use, if any?",
+      "new": "ide.databases.h2",
+      "kind": "multi_option",
+      "group": "ide.databases",
+      "option": "h2",
+      "reason": "flags 显示全列等于列名选项，为单选题",
+      "fallback": false
+    },
+    {
+      "original": "HBase:Which database(s) do you regularly use, if any?",
+      "new": "ide.databases.HBase",
+      "kind": "multi_option",
+      "group": "ide.databases",
+      "option": "HBase",
+      "reason": "flags 显示全列等于列名选项，为单选题",
+      "fallback": false
+    },
+    {
+      "original": "MongoDB:Which database(s) do you regularly use, if any?",
+      "new": "ide.databases.MongoDB",
+      "kind": "multi_option",
+      "group": "ide.databases",
+      "option": "MongoDB",
+      "reason": "flags 显示全列等于列名选项，为单选题",
+      "fallback": false
+    },
+    {
+      "original": "MS SQL Server:Which database(s) do you regularly use, if any?",
+      "new": "ide.databases.MS SQL Server",
+      "kind": "multi_option",
+      "group": "ide.databases",
+      "option": "MS SQL Server",
+      "reason": "flags 显示全列等于列名选项，为单选题",
+      "fallback": false
+    },
+    {
+      "original": "MySQL:Which database(s) do you regularly use, if any?",
+      "new": "ide.databases.MySQL",
+      "kind": "multi_option",
+      "group": "ide.databases",
+      "option": "MySQL",
+      "reason": "flags 显示全列等于列名选项，为单选题",
+      "fallback": false
+    },
+    {
+      "original": "Neo4j:Which database(s) do you regularly use, if any?",
+      "new": "ide.databases.Neo4j",
+      "kind": "multi_option",
+      "group": "ide.databases",
+      "option": "Neo4j",
+      "reason": "flags 显示全列等于列名选项，为单选题",
+      "fallback": false
+    },
+    {
+      "original": "None:Which database(s) do you regularly use, if any?",
+      "new": "ide.databases.None",
+      "kind": "multi_option",
+      "group": "ide.databases",
+      "option": "None",
+      "reason": "flags 显示全列等于列名选项，为单选题",
+      "fallback": false
+    },
+    {
+      "original": "Oracle Database:Which database(s) do you regularly use, if any?",
+      "new": "ide.databases.Oracle Database",
+      "kind": "multi_option",
+      "group": "ide.databases",
+      "option": "Oracle Database",
+      "reason": "flags 显示全列等于列名选项，为单选题",
+      "fallback": false
+    },
+    {
+      "original": "Other – Write In::Which database(s) do you regularly use, if any?",
+      "new": "ide.databases.Other – Write In",
+      "kind": "free_text",
+      "group": "ide.databases",
+      "option": "Other – Write In",
+      "reason": "flags 显示为自由文本，样本已脱敏，仅给出结构特征",
+      "fallback": false
+    },
+    {
+      "original": "PostgreSQL:Which database(s) do you regularly use, if any?",
+      "new": "ide.databases.PostgreSQL",
+      "kind": "multi_option",
+      "group": "ide.databases",
+      "option": "PostgreSQL",
+      "reason": "flags 显示全列等于列名选项，为单选题",
+      "fallback": false
+    },
+    {
+      "original": "Redis:Which database(s) do you regularly use, if any?",
+      "new": "ide.databases.Redis",
+      "kind": "multi_option",
+      "group": "ide.databases",
+      "option": "Redis",
+      "reason": "flags 显示全列等于列名选项，为单选题",
+      "fallback": false
+    },
+    {
+      "original": "SQLite:Which database(s) do you regularly use, if any?",
+      "new": "ide.databases.SQLite",
+      "kind": "multi_option",
+      "group": "ide.databases",
+      "option": "SQLite",
+      "reason": "flags 显示全列等于列名选项，为单选题",
+      "fallback": false
+    },
+    {
+      "original": "Apache Beam:Which of the following Big Data tool(s) do you use, if any?",
+      "new": "ide.tools.bigdata.Apache Beam",
+      "kind": "multi_option",
+      "group": "ide.tools.bigdata",
+      "option": "Apache Beam",
+      "reason": "flags 显示全列等于列名选项，为单选题（同题选项按多数票统一为 ide.tools.bigdata）",
+      "fallback": false
+    },
+    {
+      "original": "Apache Flink:Which of the following Big Data tool(s) do you use, if any?",
+      "new": "ide.tools.bigdata.Apache Flink",
+      "kind": "multi_option",
+      "group": "ide.tools.bigdata",
+      "option": "Apache Flink",
+      "reason": "flags 显示全列等于列名选项，为单选题（同题选项按多数票统一为 ide.tools.bigdata）",
+      "fallback": false
+    },
+    {
+      "original": "Apache Hadoop/MapReduce:Which of the following Big Data tool(s) do you use, if any?",
+      "new": "ide.tools.bigdata.Apache Hadoop/MapReduce",
+      "kind": "multi_option",
+      "group": "ide.tools.bigdata",
+      "option": "Apache Hadoop/MapReduce",
+      "reason": "flags 显示全列等于列名选项，为单选题（同题选项按多数票统一为 ide.tools.bigdata）",
+      "fallback": false
+    },
+    {
+      "original": "Apache Hive:Which of the following Big Data tool(s) do you use, if any?",
+      "new": "ide.tools.bigdata.Apache Hive",
+      "kind": "multi_option",
+      "group": "ide.tools.bigdata",
+      "option": "Apache Hive",
+      "reason": "flags 显示全列恒等于选项文本",
+      "fallback": false
+    },
+    {
+      "original": "Apache Kafka:Which of the following Big Data tool(s) do you use, if any?",
+      "new": "ide.tools.bigdata.Apache Kafka",
+      "kind": "multi_option",
+      "group": "ide.tools.bigdata",
+      "option": "Apache Kafka",
+      "reason": "flags 显示全列恒等于选项文本",
+      "fallback": false
+    },
+    {
+      "original": "Apache Samza:Which of the following Big Data tool(s) do you use, if any?",
+      "new": "ide.tools.bigdata.Apache Samza",
+      "kind": "multi_option",
+      "group": "ide.tools.bigdata",
+      "option": "Apache Samza",
+      "reason": "flags 显示全列恒等于选项文本",
+      "fallback": false
+    },
+    {
+      "original": "Apache Spark:Which of the following Big Data tool(s) do you use, if any?",
+      "new": "ide.tools.bigdata.Apache Spark",
+      "kind": "multi_option",
+      "group": "ide.tools.bigdata",
+      "option": "Apache Spark",
+      "reason": "flags 显示全列恒等于选项文本",
+      "fallback": false
+    },
+    {
+      "original": "Apache Tez:Which of the following Big Data tool(s) do you use, if any?",
+      "new": "ide.tools.bigdata.Apache Tez",
+      "kind": "multi_option",
+      "group": "ide.tools.bigdata",
+      "option": "Apache Tez",
+      "reason": "flags 显示全列恒等于选项文本",
+      "fallback": false
+    },
+    {
+      "original": "ClickHouse:Which of the following Big Data tool(s) do you use, if any?",
+      "new": "ide.tools.bigdata.ClickHouse",
+      "kind": "multi_option",
+      "group": "ide.tools.bigdata",
+      "option": "ClickHouse",
+      "reason": "flags 显示全列恒等于选项文本",
+      "fallback": false
+    },
+    {
+      "original": "Dask:Which of the following Big Data tool(s) do you use, if any?",
+      "new": "ide.tools.bigdata.Dask",
+      "kind": "multi_option",
+      "group": "ide.tools.bigdata",
+      "option": "Dask",
+      "reason": "flags 显示全列恒等于选项文本",
+      "fallback": false
+    },
+    {
+      "original": "None:Which of the following Big Data tool(s) do you use, if any?",
+      "new": "ide.tools.bigdata.None",
+      "kind": "multi_option",
+      "group": "ide.tools.bigdata",
+      "option": "None",
+      "reason": "flags 显示全列恒等于选项文本",
+      "fallback": false
+    },
+    {
+      "original": "Other – Write In::Which of the following Big Data tool(s) do you use, if any?",
+      "new": "ide.tools.bigdata.Other – Write In",
+      "kind": "free_text",
+      "group": "ide.tools.bigdata",
+      "option": "Other – Write In",
+      "reason": "note 明确标注为自由文本",
+      "fallback": false
+    },
+    {
+      "original": "AppVeyor:Which Continuous Integration (CI) system(s) do you regularly use?",
+      "new": "ide.tools.ci.AppVeyor",
+      "kind": "multi_option",
+      "group": "ide.tools.ci",
+      "option": "AppVeyor",
+      "reason": "flags 显示全列恒等于选项文本",
+      "fallback": false
+    },
+    {
+      "original": "Bamboo:Which Continuous Integration (CI) system(s) do you regularly use?",
+      "new": "ide.tools.ci.Bamboo",
+      "kind": "multi_option",
+      "group": "ide.tools.ci",
+      "option": "Bamboo",
+      "reason": "flags 显示全列恒等于选项文本",
+      "fallback": false
+    },
+    {
+      "original": "CircleCI:Which Continuous Integration (CI) system(s) do you regularly use?",
+      "new": "ide.tools.ci.CircleCI",
+      "kind": "multi_option",
+      "group": "ide.tools.ci",
+      "option": "CircleCI",
+      "reason": "flags 显示全列恒等于选项文本",
+      "fallback": false
+    },
+    {
+      "original": "CruiseControl:Which Continuous Integration (CI) system(s) do you regularly use?",
+      "new": "ide.tools.ci.CruiseControl",
+      "kind": "multi_option",
+      "group": "ide.tools.ci",
+      "option": "CruiseControl",
+      "reason": "flags 显示全列恒等于选项文本",
+      "fallback": false
+    },
+    {
+      "original": "Gitlab CI:Which Continuous Integration (CI) system(s) do you regularly use?",
+      "new": "ide.tools.ci.Gitlab CI",
+      "kind": "multi_option",
+      "group": "ide.tools.ci",
+      "option": "Gitlab CI",
+      "reason": "flags 显示全列恒等于选项文本",
+      "fallback": false
+    },
+    {
+      "original": "Jenkins / Hudson:Which Continuous Integration (CI) system(s) do you regularly use?",
+      "new": "ide.tools.ci.Jenkins / Hudson",
+      "kind": "multi_option",
+      "group": "ide.tools.ci",
+      "option": "Jenkins / Hudson",
+      "reason": "flags 显示全列恒等于选项文本",
+      "fallback": false
+    },
+    {
+      "original": "None:Which Continuous Integration (CI) system(s) do you regularly use?",
+      "new": "ide.tools.ci.None",
+      "kind": "multi_option",
+      "group": "ide.tools.ci",
+      "option": "None",
+      "reason": "flags 显示全列恒等于选项文本",
+      "fallback": false
+    },
+    {
+      "original": "Other – Write In::Which Continuous Integration (CI) system(s) do you regularly use?",
+      "new": "ide.tools.ci.Other – Write In",
+      "kind": "free_text",
+      "group": "ide.tools.ci",
+      "option": "Other – Write In",
+      "reason": "note 明确标注为自由文本",
+      "fallback": false
+    },
+    {
+      "original": "TeamCity:Which Continuous Integration (CI) system(s) do you regularly use?",
+      "new": "ide.tools.ci.TeamCity",
+      "kind": "multi_option",
+      "group": "ide.tools.ci",
+      "option": "TeamCity",
+      "reason": "flags 显示全列恒等于选项文本",
+      "fallback": false
+    },
+    {
+      "original": "Travis CI:Which Continuous Integration (CI) system(s) do you regularly use?",
+      "new": "ide.tools.ci.Travis CI",
+      "kind": "multi_option",
+      "group": "ide.tools.ci",
+      "option": "Travis CI",
+      "reason": "flags 显示全列恒等于选项文本（同题选项按多数票统一为 ide.tools.ci）",
+      "fallback": false
+    },
+    {
+      "original": "Ansible:Which configuration management tools do you use, if any?",
+      "new": "frameworks.cm.Ansible",
+      "kind": "multi_option",
+      "group": "frameworks.cm",
+      "option": "Ansible",
+      "reason": "flags 显示全列恒等于选项文本",
+      "fallback": false
+    },
+    {
+      "original": "Chef:Which configuration management tools do you use, if any?",
+      "new": "frameworks.cm.Chef",
+      "kind": "multi_option",
+      "group": "frameworks.cm",
+      "option": "Chef",
+      "reason": "flags 显示全列恒等于选项文本",
+      "fallback": false
+    },
+    {
+      "original": "Custom solution:Which configuration management tools do you use, if any?",
+      "new": "frameworks.cm.Custom solution",
+      "kind": "multi_option",
+      "group": "frameworks.cm",
+      "option": "Custom solution",
+      "reason": "flags 显示全列恒等于选项文本",
+      "fallback": false
+    },
+    {
+      "original": "None:Which configuration management tools do you use, if any?",
+      "new": "frameworks.cm.None",
+      "kind": "multi_option",
+      "group": "frameworks.cm",
+      "option": "None",
+      "reason": "flags 显示全列恒等于选项文本",
+      "fallback": false
+    },
+    {
+      "original": "Other – Write In::Which configuration management tools do you use, if any?",
+      "new": "frameworks.cm.Other – Write In",
+      "kind": "free_text",
+      "group": "frameworks.cm",
+      "option": "Other – Write In",
+      "reason": "flags 显示为自由文本结构，非固定选项",
+      "fallback": false
+    },
+    {
+      "original": "Puppet:Which configuration management tools do you use, if any?",
+      "new": "frameworks.cm.Puppet",
+      "kind": "multi_option",
+      "group": "frameworks.cm",
+      "option": "Puppet",
+      "reason": "flags 显示全列恒等于选项文本",
+      "fallback": false
+    },
+    {
+      "original": "Salt:Which configuration management tools do you use, if any?",
+      "new": "frameworks.cm.Salt",
+      "kind": "multi_option",
+      "group": "frameworks.cm",
+      "option": "Salt",
+      "reason": "flags 显示全列恒等于选项文本",
+      "fallback": false
+    },
+    {
+      "original": "What is the main editor you use for your current Python development?",
+      "new": "ide.editor",
+      "kind": "single_choice",
+      "group": "ide.editor",
+      "option": "",
+      "reason": "单选题，列名即题目，n_unique 高值符合单选分布",
+      "fallback": false
+    },
+    {
+      "original": "Aptana:What editors/IDEs do you use for Python development in addition to your primary IDE?",
+      "new": "ide.editor.Aptana",
+      "kind": "multi_option",
+      "group": "ide.editor",
+      "option": "Aptana",
+      "reason": "flags 显示全列恒等于选项文本",
+      "fallback": false
+    },
+    {
+      "original": "Atom:What editors/IDEs do you use for Python development in addition to your primary IDE?",
+      "new": "ide.editor.Atom",
+      "kind": "multi_option",
+      "group": "ide.editor",
+      "option": "Atom",
+      "reason": "flags 显示全列恒等于选项文本",
+      "fallback": false
+    },
+    {
+      "original": "Eclipse + Pydev:What editors/IDEs do you use for Python development in addition to your primary IDE?",
+      "new": "ide.editor.Eclipse + Pydev",
+      "kind": "multi_option",
+      "group": "ide.editor",
+      "option": "Eclipse + Pydev",
+      "reason": "flags 显示全列恒等于选项文本",
+      "fallback": false
+    },
+    {
+      "original": "Emacs:What editors/IDEs do you use for Python development in addition to your primary IDE?",
+      "new": "ide.editor.Emacs",
+      "kind": "multi_option",
+      "group": "ide.editor",
+      "option": "Emacs",
+      "reason": "flags 显示全列恒等于选项文本",
+      "fallback": false
+    },
+    {
+      "original": "Gedit:What editors/IDEs do you use for Python development in addition to your primary IDE?",
+      "new": "ide.editor.Gedit",
+      "kind": "multi_option",
+      "group": "ide.editor",
+      "option": "Gedit",
+      "reason": "flags 显示全列恒等于选项文本",
+      "fallback": false
+    },
+    {
+      "original": "IDLE:What editors/IDEs do you use for Python development in addition to your primary IDE?",
+      "new": "ide.editor.IDLE",
+      "kind": "multi_option",
+      "group": "ide.editor",
+      "option": "IDLE",
+      "reason": "flags 显示全列恒等于选项文本",
+      "fallback": false
+    },
+    {
+      "original": "IntelliJ IDEA:What editors/IDEs do you use for Python development in addition to your primary IDE?",
+      "new": "ide.editor.IntelliJ IDEA",
+      "kind": "multi_option",
+      "group": "ide.editor",
+      "option": "IntelliJ IDEA",
+      "reason": "flags 显示全列恒等于选项文本",
+      "fallback": false
+    },
+    {
+      "original": "Jupyter Notebook:What editors/IDEs do you use for Python development in addition to your primary IDE?",
+      "new": "ide.editor.Jupyter Notebook",
+      "kind": "multi_option",
+      "group": "ide.editor",
+      "option": "Jupyter Notebook",
+      "reason": "flags 显示全列恒等于选项文本",
+      "fallback": false
+    },
+    {
+      "original": "JupyterLab:What editors/IDEs do you use for Python development in addition to your primary IDE?",
+      "new": "ide.editor.JupyterLab",
+      "kind": "multi_option",
+      "group": "ide.editor",
+      "option": "JupyterLab",
+      "reason": "flags 显示全列恒等于选项文本",
+      "fallback": false
+    },
+    {
+      "original": "Komodo Editor:What editors/IDEs do you use for Python development in addition to your primary IDE?",
+      "new": "ide.editor.Komodo Editor",
+      "kind": "multi_option",
+      "group": "ide.editor",
+      "option": "Komodo Editor",
+      "reason": "flags 显示全列等于选项文本，符合 multi_like",
+      "fallback": false
+    },
+    {
+      "original": "Komodo IDE:What editors/IDEs do you use for Python development in addition to your primary IDE?",
+      "new": "ide.editor.Komodo IDE",
+      "kind": "multi_option",
+      "group": "ide.editor",
+      "option": "Komodo IDE",
+      "reason": "flags 显示全列等于选项文本，符合 multi_like",
+      "fallback": false
+    },
+    {
+      "original": "NetBeans:What editors/IDEs do you use for Python development in addition to your primary IDE?",
+      "new": "ide.editor.NetBeans",
+      "kind": "multi_option",
+      "group": "ide.editor",
+      "option": "NetBeans",
+      "reason": "flags 显示全列等于选项文本，符合 multi_like",
+      "fallback": false
+    },
+    {
+      "original": "Ninja-IDE:What editors/IDEs do you use for Python development in addition to your primary IDE?",
+      "new": "ide.editor.Ninja-IDE",
+      "kind": "multi_option",
+      "group": "ide.editor",
+      "option": "Ninja-IDE",
+      "reason": "flags 显示全列等于选项文本，符合 multi_like",
+      "fallback": false
+    },
+    {
+      "original": "None:What editors/IDEs do you use for Python development in addition to your primary IDE?",
+      "new": "ide.editor.None__dup1",
+      "kind": "multi_option",
+      "group": "ide.editor",
+      "option": "None",
+      "reason": "flags 显示全列等于选项文本，符合 multi_like",
+      "fallback": false
+    },
+    {
+      "original": "NotePad++:What editors/IDEs do you use for Python development in addition to your primary IDE?",
+      "new": "ide.editor.NotePad++",
+      "kind": "multi_option",
+      "group": "ide.editor",
+      "option": "NotePad++",
+      "reason": "flags 显示全列等于选项文本，符合 multi_like",
+      "fallback": false
+    },
+    {
+      "original": "Other – Write In::What editors/IDEs do you use for Python development in addition to your primary IDE?",
+      "new": "other.write.in.what.editors.ides.do.you.use.for.python.development.in.addition.to.your.primary.ide.Other – Write In",
+      "kind": "free_text",
+      "group": "other.write.in.what.editors.ides.do.you.use.for.python.development.in.addition.to.your.primary.ide",
+      "option": "Other – Write In",
+      "reason": "fallback：模型未返回该列，按表头结构默认判定（画像显示为自由文本，已按脱敏规则纠正）",
+      "fallback": true
+    },
+    {
+      "original": "PyCharm Community Edition:What editors/IDEs do you use for Python development in addition to your primary IDE?",
+      "new": "ide.editor.PyCharm Community Edition",
+      "kind": "multi_option",
+      "group": "ide.editor",
+      "option": "PyCharm Community Edition",
+      "reason": "flags 显示全列等于选项文本，符合 multi_like",
+      "fallback": false
+    },
+    {
+      "original": "PyCharm Professional Edition:What editors/IDEs do you use for Python development in addition to your primary IDE?",
+      "new": "ide.editor.PyCharm Professional Edition",
+      "kind": "multi_option",
+      "group": "ide.editor",
+      "option": "PyCharm Professional Edition",
+      "reason": "flags 显示全列等于选项文本，符合 multi_like",
+      "fallback": false
+    },
+    {
+      "original": "Python Tools for Visual Studio (PTVS):What editors/IDEs do you use for Python development in addition to your primary IDE?",
+      "new": "ide.editor.Python Tools for Visual Studio (PTVS)",
+      "kind": "multi_option",
+      "group": "ide.editor",
+      "option": "Python Tools for Visual Studio (PTVS)",
+      "reason": "flags 显示全列等于选项文本，符合 multi_like",
+      "fallback": false
+    },
+    {
+      "original": "Rodeo:What editors/IDEs do you use for Python development in addition to your primary IDE?",
+      "new": "ide.editor.Rodeo",
+      "kind": "multi_option",
+      "group": "ide.editor",
+      "option": "Rodeo",
+      "reason": "flags 显示全列等于选项文本，符合 multi_like",
+      "fallback": false
+    },
+    {
+      "original": "Spyder:What editors/IDEs do you use for Python development in addition to your primary IDE?",
+      "new": "ide.editor.Spyder",
+      "kind": "multi_option",
+      "group": "ide.editor",
+      "option": "Spyder",
+      "reason": "flags 显示全列等于选项文本，符合 multi_like",
+      "fallback": false
+    },
+    {
+      "original": "Sublime Text:What editors/IDEs do you use for Python development in addition to your primary IDE?",
+      "new": "ide.editor.Sublime Text",
+      "kind": "multi_option",
+      "group": "ide.editor",
+      "option": "Sublime Text",
+      "reason": "flags 显示全列等于选项文本，符合 multi_like",
+      "fallback": false
+    },
+    {
+      "original": "TextMate:What editors/IDEs do you use for Python development in addition to your primary IDE?",
+      "new": "ide.editor.TextMate",
+      "kind": "multi_option",
+      "group": "ide.editor",
+      "option": "TextMate",
+      "reason": "flags 显示全列等于选项文本，符合 multi_like",
+      "fallback": false
+    },
+    {
+      "original": "Vim:What editors/IDEs do you use for Python development in addition to your primary IDE?",
+      "new": "ide.editor.Vim",
+      "kind": "multi_option",
+      "group": "ide.editor",
+      "option": "Vim",
+      "reason": "flags 显示全列等于选项文本，符合 multi_like",
+      "fallback": false
+    },
+    {
+      "original": "VS Code:What editors/IDEs do you use for Python development in addition to your primary IDE?",
+      "new": "ide.editor.VS Code",
+      "kind": "multi_option",
+      "group": "ide.editor",
+      "option": "VS Code",
+      "reason": "flags 显示全列等于选项文本，符合 multi_like",
+      "fallback": false
+    },
+    {
+      "original": "Wing IDE:What editors/IDEs do you use for Python development in addition to your primary IDE?",
+      "new": "ide.editor.Wing IDE",
+      "kind": "multi_option",
+      "group": "ide.editor",
+      "option": "Wing IDE",
+      "reason": "flags 显示全列等于选项文本，符合 multi_like",
+      "fallback": false
+    },
+    {
+      "original": "Do you regularly work on multiple projects at the same time?",
+      "new": "work.pattern",
+      "kind": "single_choice",
+      "group": "work.pattern",
+      "option": "",
+      "reason": "全列取值恒等于列名中的选项文本，符合 multi_like 但为单选",
+      "fallback": false
+    },
+    {
+      "original": "use autocompletion  in your editor:When developing in Python, how often do you …?",
+      "new": "ide.editor.use autocompletion in your editor",
+      "kind": "single_choice",
+      "group": "ide.editor",
+      "option": "use autocompletion in your editor",
+      "reason": "列名含问句，top 含 NA 及频率词，符合单选特征",
+      "fallback": false
+    },
+    {
+      "original": "use a debugger:When developing in Python, how often do you …?",
+      "new": "ide.editor.use a debugger",
+      "kind": "single_choice",
+      "group": "ide.editor",
+      "option": "use a debugger",
+      "reason": "列名含问句，top 含 NA 及频率词，符合单选特征",
+      "fallback": false
+    },
+    {
+      "original": "refactor your code:When developing in Python, how often do you …?",
+      "new": "ide.editor.refactor your code",
+      "kind": "single_choice",
+      "group": "ide.editor",
+      "option": "refactor your code",
+      "reason": "列名含问句，top 含 NA 及频率词，符合单选特征",
+      "fallback": false
+    },
+    {
+      "original": "use Version Control Systems:When developing in Python, how often do you …?",
+      "new": "ide.editor.use Version Control Systems",
+      "kind": "single_choice",
+      "group": "ide.editor",
+      "option": "use Version Control Systems",
+      "reason": "列名含问句，top 含 NA 及频率词，符合单选特征",
+      "fallback": false
+    },
+    {
+      "original": "use code linting (programs that analyze code for potential errors):When developing in Python, how often do you …?",
+      "new": "ide.editor.use code linting (programs that analyze code for potential errors)",
+      "kind": "single_choice",
+      "group": "ide.editor",
+      "option": "use code linting (programs that analyze code for potential errors)",
+      "reason": "列名含问句，top 含 NA 及频率词，符合单选特征",
+      "fallback": false
+    },
+    {
+      "original": "use Python virtual environments for your projects:When developing in Python, how often do you …?",
+      "new": "ide.editor.use Python virtual environments for your projects",
+      "kind": "single_choice",
+      "group": "ide.editor",
+      "option": "use Python virtual environments for your projects",
+      "reason": "列名含问句，top 含 NA 及频率词，符合单选特征",
+      "fallback": false
+    },
+    {
+      "original": "use SQL databases :When developing in Python, how often do you …?",
+      "new": "ide.editor.use SQL databases",
+      "kind": "single_choice",
+      "group": "ide.editor",
+      "option": "use SQL databases",
+      "reason": "列名含问句，top 含 NA 及频率词，符合单选特征",
+      "fallback": false
+    },
+    {
+      "original": "use NoSQL databases:When developing in Python, how often do you …?",
+      "new": "ide.editor.use NoSQL databases",
+      "kind": "single_choice",
+      "group": "ide.editor",
+      "option": "use NoSQL databases",
+      "reason": "列名含问句，top 含 NA 及频率词，符合单选特征",
+      "fallback": false
+    },
+    {
+      "original": "run / debug or edit code on remote machines (remote hosts, VMs, etc.):When developing in Python, how often do you …?",
+      "new": "ide.editor.run / debug or edit code on remote machines (remote hosts, VMs, etc.)",
+      "kind": "single_choice",
+      "group": "ide.editor",
+      "option": "run / debug or edit code on remote machines (remote hosts, VMs, etc.)",
+      "reason": "列名含问句，top 含 NA 及频率词，符合单选特征",
+      "fallback": false
+    },
+    {
+      "original": "use a Python profiler:When developing in Python, how often do you …?",
+      "new": "ide.editor.use a Python profiler",
+      "kind": "single_choice",
+      "group": "ide.editor",
+      "option": "use a Python profiler",
+      "reason": "列名含问句，top 含 NA 及频率词，符合单选特征",
+      "fallback": false
+    },
+    {
+      "original": "write tests for your code:When developing in Python, how often do you …?",
+      "new": "ide.editor.write tests for your code",
+      "kind": "single_choice",
+      "group": "ide.editor",
+      "option": "write tests for your code",
+      "reason": "列名含问句，top 含 NA 及频率词，符合单选特征",
+      "fallback": false
+    },
+    {
+      "original": "use code coverage:When developing in Python, how often do you …?",
+      "new": "ide.editor.use code coverage",
+      "kind": "single_choice",
+      "group": "ide.editor",
+      "option": "use code coverage",
+      "reason": "列名含问句，top 含 NA 及频率词，符合单选特征",
+      "fallback": false
+    },
+    {
+      "original": "use optional type hinting:When developing in Python, how often do you …?",
+      "new": "ide.editor.use optional type hinting",
+      "kind": "single_choice",
+      "group": "ide.editor",
+      "option": "use optional type hinting",
+      "reason": "列名含问句，top 含 NA 及频率词，符合单选特征",
+      "fallback": false
+    },
+    {
+      "original": "use Continuous Integration tools:When developing in Python, how often do you …?",
+      "new": "ide.editor.use Continuous Integration tools",
+      "kind": "single_choice",
+      "group": "ide.editor",
+      "option": "use Continuous Integration tools",
+      "reason": "列名含问句，top 含 NA 及频率词，符合单选特征",
+      "fallback": false
+    },
+    {
+      "original": "use Issue Trackers:When developing in Python, how often do you …?",
+      "new": "ide.editor.use Issue Trackers",
+      "kind": "single_choice",
+      "group": "ide.editor",
+      "option": "use Issue Trackers",
+      "reason": "列名含问句，top 含 NA 及频率词，符合单选特征",
+      "fallback": false
+    },
+    {
+      "original": "How did you first learn about your primary IDE?",
+      "new": "ide.history",
+      "kind": "single_choice",
+      "group": "ide.history",
+      "option": "",
+      "reason": "列名含问句，top 含 NA 及来源词，符合单选特征",
+      "fallback": false
+    },
+    {
+      "original": "How often do you use your primary IDE?",
+      "new": "ide.history__dup1",
+      "kind": "single_choice",
+      "group": "ide.history",
+      "option": "",
+      "reason": "列名含问句，top 含 NA 及频率词，符合单选特征",
+      "fallback": false
+    },
+    {
+      "original": "Most of the time, do you ...? ",
+      "new": "most.of.the.time.do.you",
+      "kind": "single_choice",
+      "group": "most.of.the.time.do.you",
+      "option": "",
+      "reason": "fallback：模型未返回该列，按表头结构默认判定（列名为整题且无勾选证据，按单选题纠正）",
+      "fallback": true
+    },
+    {
+      "original": "How many people are in your project team?",
+      "new": "team.size",
+      "kind": "single_choice",
+      "group": "team.size",
+      "option": "",
+      "reason": "全列取值恒等于列名中的选项文本（列名为整题且无勾选证据，按单选题纠正）",
+      "fallback": false
+    },
+    {
+      "original": "What is your employment status?",
+      "new": "employment.status",
+      "kind": "single_choice",
+      "group": "employment.status",
+      "option": "",
+      "reason": "全列取值恒等于列名中的选项文本（列名为整题且无勾选证据，按单选题纠正）",
+      "fallback": false
+    },
+    {
+      "original": "How many people work for your company / organization?",
+      "new": "company.size",
+      "kind": "single_choice",
+      "group": "company.size",
+      "option": "",
+      "reason": "全列取值恒等于列名中的选项文本（列名为整题且无勾选证据，按单选题纠正）",
+      "fallback": false
+    },
+    {
+      "original": "Architect:Which of the following best describes your job role(s)?",
+      "new": "role.architect.Architect",
+      "kind": "multi_option",
+      "group": "role.architect",
+      "option": "Architect",
+      "reason": "全列取值恒等于列名中的选项文本",
+      "fallback": false
+    },
+    {
+      "original": "Business analyst:Which of the following best describes your job role(s)?",
+      "new": "role.architect.Business analyst",
+      "kind": "multi_option",
+      "group": "role.architect",
+      "option": "Business analyst",
+      "reason": "全列取值恒等于列名中的选项文本（同题选项按多数票统一为 role.architect）",
+      "fallback": false
+    },
+    {
+      "original": "CIO / CEO / CTO:Which of the following best describes your job role(s)?",
+      "new": "role.architect.CIO / CEO / CTO",
+      "kind": "multi_option",
+      "group": "role.architect",
+      "option": "CIO / CEO / CTO",
+      "reason": "全列取值恒等于列名中的选项文本（同题选项按多数票统一为 role.architect）",
+      "fallback": false
+    },
+    {
+      "original": "Data analyst:Which of the following best describes your job role(s)?",
+      "new": "role.architect.Data analyst",
+      "kind": "multi_option",
+      "group": "role.architect",
+      "option": "Data analyst",
+      "reason": "全列取值恒等于列名中的选项文本（同题选项按多数票统一为 role.architect）",
+      "fallback": false
+    },
+    {
+      "original": "DBA:Which of the following best describes your job role(s)?",
+      "new": "role.architect.DBA",
+      "kind": "multi_option",
+      "group": "role.architect",
+      "option": "DBA",
+      "reason": "全列取值恒等于列名中的选项文本（同题选项按多数票统一为 role.architect）",
+      "fallback": false
+    },
+    {
+      "original": "Developer / Programmer:Which of the following best describes your job role(s)?",
+      "new": "role.architect.Developer / Programmer",
+      "kind": "multi_option",
+      "group": "role.architect",
+      "option": "Developer / Programmer",
+      "reason": "全列取值恒等于列名中的选项文本（同题选项按多数票统一为 role.architect）",
+      "fallback": false
+    },
+    {
+      "original": "Other – Write In::Which of the following best describes your job role(s)?",
+      "new": "role.other.Other – Write In",
+      "kind": "free_text",
+      "group": "role.other",
+      "option": "Other – Write In",
+      "reason": "自由文本，样本已脱敏，仅给出结构特征",
+      "fallback": false
+    },
+    {
+      "original": "Product manager:Which of the following best describes your job role(s)?",
+      "new": "role.architect.Product manager",
+      "kind": "multi_option",
+      "group": "role.architect",
+      "option": "Product manager",
+      "reason": "全列取值恒等于列名中的选项文本（同题选项按多数票统一为 role.architect）",
+      "fallback": false
+    },
+    {
+      "original": "QA engineer:Which of the following best describes your job role(s)?",
+      "new": "role.architect.QA engineer",
+      "kind": "multi_option",
+      "group": "role.architect",
+      "option": "QA engineer",
+      "reason": "全列取值恒等于列名中的选项文本（同题选项按多数票统一为 role.architect）",
+      "fallback": false
+    },
+    {
+      "original": "Systems analyst:Which of the following best describes your job role(s)?",
+      "new": "role.architect.Systems analyst",
+      "kind": "multi_option",
+      "group": "role.architect",
+      "option": "Systems analyst",
+      "reason": "全列取值恒等于列名中的选项文本（同题选项按多数票统一为 role.architect）",
+      "fallback": false
+    },
+    {
+      "original": "Team lead:Which of the following best describes your job role(s)?",
+      "new": "role.architect.Team lead",
+      "kind": "multi_option",
+      "group": "role.architect",
+      "option": "Team lead",
+      "reason": "全列取值恒等于列名中的选项文本（同题选项按多数票统一为 role.architect）",
+      "fallback": false
+    },
+    {
+      "original": "Technical support:Which of the following best describes your job role(s)?",
+      "new": "role.architect.Technical support",
+      "kind": "multi_option",
+      "group": "role.architect",
+      "option": "Technical support",
+      "reason": "全列取值恒等于列名中的选项文本（同题选项按多数票统一为 role.architect）",
+      "fallback": false
+    },
+    {
+      "original": "Technical writer:Which of the following best describes your job role(s)?",
+      "new": "role.architect.Technical writer",
+      "kind": "multi_option",
+      "group": "role.architect",
+      "option": "Technical writer",
+      "reason": "全列取值恒等于列名中的选项文本（同题选项按多数票统一为 role.architect）",
+      "fallback": false
+    },
+    {
+      "original": "Which of the following industries best describes your company's business?",
+      "new": "Which of the following industries best describes your company's business?",
+      "kind": "free_text",
+      "group": "industry.company",
+      "option": "",
+      "reason": "自由文本，样本已脱敏，仅给出结构特征",
+      "fallback": false
+    },
+    {
+      "original": "Which of the following industries do you develop for?",
+      "new": "industry.development",
+      "kind": "single_choice",
+      "group": "industry.development",
+      "option": "",
+      "reason": "全列取值恒等于列名中的选项文本（列名为整题且无勾选证据，按单选题纠正）",
+      "fallback": false
+    },
+    {
+      "original": "Could you tell us your age range?",
+      "new": "demographics.age",
+      "kind": "single_choice",
+      "group": "demographics.age",
+      "option": "",
+      "reason": "全列非空且为单一选项，符合单选题特征",
+      "fallback": false
+    },
+    {
+      "original": "What country do you live in?",
+      "new": "demographics.country",
+      "kind": "single_choice",
+      "group": "demographics.country",
+      "option": "",
+      "reason": "全列非空且为单一选项，符合单选题特征",
+      "fallback": false
+    }
+  ]
+}

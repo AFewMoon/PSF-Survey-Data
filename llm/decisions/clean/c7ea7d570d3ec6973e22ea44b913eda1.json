@@ -1,0 +1,176 @@
+{
+  "stage": "clean_semantics",
+  "model": "qwen3.5:4b",
+  "model_digest": "d8b0f5e9760cd168",
+  "prompt_version": "clean-semantics-v2",
+  "input_hash": "c7ea7d570d3ec6973e22ea44b913eda1",
+  "created_at": "2026-10-23T18:58:15",
+  "duration_s": 10.85,
+  "output_tokens": 810,
+  "fallback": false,
+  "error": "",
+  "manual_edit": false,
+  "reviewed": false,
+  "payload_summary": {
+    "year": 2022,
+    "batch": "packages.install.easy_install…packages.install.from.GitLab",
+    "n": 18
+  },
+  "response": {
+    "columns": [
+      {
+        "column": "packages.install.easy_install",
+        "kind": "multi_option",
+        "group": "packages.install",
+        "option": "easy_install",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值恒等于选项名",
+        "year": 2022
+      },
+      {
+        "column": "packages.install.Conda",
+        "kind": "multi_option",
+        "group": "packages.install",
+        "option": "Conda",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值恒等于选项名",
+        "year": 2022
+      },
+      {
+        "column": "packages.install.Poetry",
+        "kind": "multi_option",
+        "group": "packages.install",
+        "option": "Poetry",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值恒等于选项名",
+        "year": 2022
+      },
+      {
+        "column": "packages.install.pip-sync",
+        "kind": "multi_option",
+        "group": "packages.install",
+        "option": "pip-sync",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值恒等于选项名",
+        "year": 2022
+      },
+      {
+        "column": "packages.install.pipx",
+        "kind": "multi_option",
+        "group": "packages.install",
+        "option": "pipx",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值恒等于选项名",
+        "year": 2022
+      },
+      {
+        "column": "packages.install.Other",
+        "kind": "multi_option",
+        "group": "packages.install",
+        "option": "Other",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值恒等于选项名",
+        "year": 2022
+      },
+      {
+        "column": "packages.install.from.PyPI",
+        "kind": "multi_option",
+        "group": "packages.install",
+        "option": "PyPI",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值恒等于选项名",
+        "year": 2022
+      },
+      {
+        "column": "packages.install.from.Local source",
+        "kind": "multi_option",
+        "group": "packages.install",
+        "option": "Local source",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值恒等于选项名",
+        "year": 2022
+      },
+      {
+        "column": "packages.install.from.Internal mirror of PyPI",
+        "kind": "multi_option",
+        "group": "packages.install",
+        "option": "Internal mirror of PyPI",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值恒等于选项名",
+        "year": 2022
+      },
+      {
+        "column": "packages.install.from.Private Python Package Index",
+        "kind": "multi_option",
+        "group": "packages.install",
+        "option": "Private Python Package Index",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值恒等于选项名",
+        "year": 2022
+      },
+      {
+        "column": "packages.install.from.Anaconda",
+        "kind": "multi_option",
+        "group": "packages.install",
+        "option": "Anaconda",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值恒等于选项名",
+        "year": 2022
+      },
+      {
+        "column": "packages.install.from.Default Conda channel",
+        "kind": "multi_option",
+        "group": "packages.install",
+        "option": "Default Conda channel",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值恒等于选项名",
+        "year": 2022
+      },
+      {
+        "column": "packages.install.from.conda-forge Conda channel",
+        "kind": "multi_option",
+        "group": "packages.install",
+        "option": "conda-forge Conda channel",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值恒等于选项名",
+        "year": 2022
+      },
+      {
+        "column": "packages.install.from.Other Conda channel",
+        "kind": "multi_option",
+        "group": "packages.install",
+        "option": "Other Conda channel",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值恒等于选项名",
+        "year": 2022
+      },
+      {
+        "column": "packages.install.from.GitHub",
+        "kind": "multi_option",
+        "group": "packages.install",
+        "option": "GitHub",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值恒等于选项名",
+        "year": 2022
+      },
+      {
+        "column": "packages.install.from.Artifactory",
+        "kind": "multi_option",
+        "group": "packages.install",
+        "option": "Artifactory",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值恒等于选项名",
+        "year": 2022
+      },
+      {
+        "column": "packages.install.from.GitLab",
+        "kind": "multi_option",
+        "group": "packages.install",
+        "option": "GitLab",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值恒等于选项名",
+        "year": 2022
+      }
+    ]
+  }
+}

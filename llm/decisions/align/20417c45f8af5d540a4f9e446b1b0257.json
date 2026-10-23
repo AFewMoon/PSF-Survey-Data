@@ -1,0 +1,35 @@
+{
+  "stage": "option_alias",
+  "model": "qwen3.5:4b",
+  "model_digest": "d8b0f5e9760cd168",
+  "prompt_version": "option-alias-v1",
+  "input_hash": "20417c45f8af5d540a4f9e446b1b0257",
+  "created_at": "2026-10-23T19:15:16",
+  "duration_s": 1.68,
+  "output_tokens": 39,
+  "fallback": false,
+  "error": "",
+  "manual_edit": false,
+  "reviewed": false,
+  "payload_summary": {
+    "groups": 10,
+    "values": 75
+  },
+  "response": {
+    "groups": [
+      {
+        "name": "ide.python_version",
+        "options": [
+          {
+            "variants": [
+              "Python 2",
+              "Python 3"
+            ],
+            "canonical": "Python 2/3",
+            "reason": "统一版本标识写法"
+          }
+        ]
+      }
+    ]
+  }
+}

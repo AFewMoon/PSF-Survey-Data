@@ -1,0 +1,185 @@
+{
+  "stage": "clean_semantics",
+  "model": "qwen3.5:4b",
+  "model_digest": "d8b0f5e9760cd168",
+  "prompt_version": "clean-semantics-v2",
+  "input_hash": "073d674365dd8e250e3363fa4f393517",
+  "created_at": "2026-10-23T18:33:18",
+  "duration_s": 10.65,
+  "output_tokens": 805,
+  "fallback": false,
+  "error": "",
+  "manual_edit": false,
+  "reviewed": false,
+  "payload_summary": {
+    "year": 2024,
+    "batch": "cloud.platform.Microsoft Azure…run.in.cloud.None",
+    "n": 18
+  },
+  "response": {
+    "columns": [
+      {
+        "column": "cloud.platform.Microsoft Azure",
+        "kind": "multi_option",
+        "group": "cloud.platform",
+        "option": "Microsoft Azure",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列恒等于选项名",
+        "year": 2024
+      },
+      {
+        "column": "cloud.platform.Rackspace",
+        "kind": "multi_option",
+        "group": "cloud.platform",
+        "option": "Rackspace",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列恒等于选项名",
+        "year": 2024
+      },
+      {
+        "column": "cloud.platform.Heroku",
+        "kind": "multi_option",
+        "group": "cloud.platform",
+        "option": "Heroku",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列恒等于选项名",
+        "year": 2024
+      },
+      {
+        "column": "cloud.platform.DigitalOcean",
+        "kind": "multi_option",
+        "group": "cloud.platform",
+        "option": "DigitalOcean",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列恒等于选项名",
+        "year": 2024
+      },
+      {
+        "column": "cloud.platform.Linode",
+        "kind": "multi_option",
+        "group": "cloud.platform",
+        "option": "Linode",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列恒等于选项名",
+        "year": 2024
+      },
+      {
+        "column": "cloud.platform.PythonAnywhere",
+        "kind": "multi_option",
+        "group": "cloud.platform",
+        "option": "PythonAnywhere",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列恒等于选项名",
+        "year": 2024
+      },
+      {
+        "column": "cloud.platform.OpenShift",
+        "kind": "multi_option",
+        "group": "cloud.platform",
+        "option": "OpenShift",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列恒等于选项名",
+        "year": 2024
+      },
+      {
+        "column": "cloud.platform.OpenStack",
+        "kind": "multi_option",
+        "group": "cloud.platform",
+        "option": "OpenStack",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列恒等于选项名",
+        "year": 2024
+      },
+      {
+        "column": "cloud.platform.Tencent",
+        "kind": "multi_option",
+        "group": "cloud.platform",
+        "option": "Tencent",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列恒等于选项名",
+        "year": 2024
+      },
+      {
+        "column": "cloud.platform.Alibaba",
+        "kind": "multi_option",
+        "group": "cloud.platform",
+        "option": "Alibaba",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列恒等于选项名",
+        "year": 2024
+      },
+      {
+        "column": "cloud.platform.Hetzner",
+        "kind": "multi_option",
+        "group": "cloud.platform",
+        "option": "Hetzner",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列恒等于选项名",
+        "year": 2024
+      },
+      {
+        "column": "cloud.platform.Oracle Cloud",
+        "kind": "multi_option",
+        "group": "cloud.platform",
+        "option": "Oracle Cloud",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列恒等于选项名",
+        "year": 2024
+      },
+      {
+        "column": "cloud.platform.Other",
+        "kind": "multi_option",
+        "group": "cloud.platform",
+        "option": "Other",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列恒等于选项名",
+        "year": 2024
+      },
+      {
+        "column": "run.in.cloud.In virtual machines",
+        "kind": "multi_option",
+        "group": "run.in.cloud",
+        "option": "In virtual machines",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列恒等于选项名",
+        "year": 2024
+      },
+      {
+        "column": "run.in.cloud.Within containers",
+        "kind": "multi_option",
+        "group": "run.in.cloud",
+        "option": "Within containers",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列恒等于选项名",
+        "year": 2024
+      },
+      {
+        "column": "run.in.cloud.On a platform-as-a-service (such as Heroku or Google App Engine)",
+        "kind": "multi_option",
+        "group": "run.in.cloud",
+        "option": "On a platform-as-a-service (such as Heroku or Google App Engine)",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列恒等于选项名",
+        "year": 2024
+      },
+      {
+        "column": "run.in.cloud.Serverless (such as via AWS Lambda or Cloud Functions)",
+        "kind": "multi_option",
+        "group": "run.in.cloud",
+        "option": "Serverless (such as via AWS Lambda or Cloud Functions)",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列恒等于选项名",
+        "year": 2024
+      },
+      {
+        "column": "run.in.cloud.None",
+        "kind": "multi_option",
+        "group": "run.in.cloud",
+        "option": "None",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列恒等于选项名",
+        "year": 2024
+      }
+    ]
+  }
+}

@@ -1,0 +1,185 @@
+{
+  "stage": "clean_semantics",
+  "model": "qwen3.5:4b",
+  "model_digest": "d8b0f5e9760cd168",
+  "prompt_version": "clean-semantics-v2",
+  "input_hash": "89044c72231fa13312a2f6e6b562ac76",
+  "created_at": "2026-10-23T18:31:59",
+  "duration_s": 11.98,
+  "output_tokens": 929,
+  "fallback": false,
+  "error": "",
+  "manual_edit": false,
+  "reviewed": false,
+  "payload_summary": {
+    "year": 2024,
+    "batch": "how.involved.Software testing / Writing automated tests…opensource.contribution",
+    "n": 18
+  },
+  "response": {
+    "columns": [
+      {
+        "column": "how.involved.Software testing / Writing automated tests",
+        "kind": "multi_level",
+        "group": "how.involved.Software testing / Writing automated tests",
+        "option": "Software testing / Writing automated tests : sec",
+        "missing_tokens": [],
+        "reason": "level_like 标志，含程度词",
+        "year": 2024
+      },
+      {
+        "column": "how.involved.Software prototyping",
+        "kind": "multi_level",
+        "group": "how.involved.Software prototyping",
+        "option": "Software prototyping : primary activity",
+        "missing_tokens": [],
+        "reason": "level_like 标志，含程度词",
+        "year": 2024
+      },
+      {
+        "column": "how.involved.Web development",
+        "kind": "multi_level",
+        "group": "how.involved.Web development",
+        "option": "Web development : primary activity",
+        "missing_tokens": [],
+        "reason": "level_like 标志，含程度词",
+        "year": 2024
+      },
+      {
+        "column": "how.involved.Machine learning",
+        "kind": "multi_level",
+        "group": "how.involved.Machine learning",
+        "option": "Machine learning : primary activity",
+        "missing_tokens": [],
+        "reason": "level_like 标志，含程度词",
+        "year": 2024
+      },
+      {
+        "column": "how.involved.Mobile development",
+        "kind": "multi_level",
+        "group": "how.involved.Mobile development",
+        "option": "Mobile development : primary activity",
+        "missing_tokens": [],
+        "reason": "level_like 标志，含程度词",
+        "year": 2024
+      },
+      {
+        "column": "how.involved.Desktop development",
+        "kind": "multi_level",
+        "group": "how.involved.Desktop development",
+        "option": "Desktop development : primary activity",
+        "missing_tokens": [],
+        "reason": "level_like 标志，含程度词",
+        "year": 2024
+      },
+      {
+        "column": "how.involved.Computer graphics",
+        "kind": "multi_level",
+        "group": "how.involved.Computer graphics",
+        "option": "Computer graphics : hobby",
+        "missing_tokens": [],
+        "reason": "level_like 标志，含程度词",
+        "year": 2024
+      },
+      {
+        "column": "how.involved.Network programming",
+        "kind": "multi_level",
+        "group": "how.involved.Network programming",
+        "option": "Network programming : secondary activity",
+        "missing_tokens": [],
+        "reason": "level_like 标志，含程度词",
+        "year": 2024
+      },
+      {
+        "column": "how.involved.Game development",
+        "kind": "multi_level",
+        "group": "how.involved.Game development",
+        "option": "Game development : hobby",
+        "missing_tokens": [],
+        "reason": "level_like 标志，含程度词",
+        "year": 2024
+      },
+      {
+        "column": "how.involved.Multimedia applications development (apps handling various types of multimedia content, e.g. audio, graphics, etc.)",
+        "kind": "multi_level",
+        "group": "how.involved.Multimedia applications development (apps handling various types of multimedia content, e.g. audio, graphics, etc.)",
+        "option": "Multimedia applications development (apps handling various types of multimedia content, e.g. audio, graphics, etc.) : sec",
+        "missing_tokens": [],
+        "reason": "level_like 标志，含程度词",
+        "year": 2024
+      },
+      {
+        "column": "how.involved.Embedded development",
+        "kind": "multi_level",
+        "group": "how.involved.Embedded development",
+        "option": "Embedded development : primary activity",
+        "missing_tokens": [],
+        "reason": "level_like 标志，含程度词",
+        "year": 2024
+      },
+      {
+        "column": "how.involved.Programming of web parsers / scrapers / crawlers",
+        "kind": "multi_level",
+        "group": "how.involved.Programming of web parsers / scrapers / crawlers",
+        "option": "Programming of web parsers / scrapers / crawlers : sec",
+        "missing_tokens": [],
+        "reason": "level_like 标志，含程度词",
+        "year": 2024
+      },
+      {
+        "column": "how.involved.Other, please specify:",
+        "kind": "free_text",
+        "group": "how.involved.Other, please specify:",
+        "option": "",
+        "missing_tokens": [],
+        "reason": "自由文本，含脱敏样本",
+        "year": 2024
+      },
+      {
+        "column": "how.involved.MLOps",
+        "kind": "multi_level",
+        "group": "how.involved.MLOps",
+        "option": "MLOps : secondary activity",
+        "missing_tokens": [],
+        "reason": "level_like 标志，含程度词",
+        "year": 2024
+      },
+      {
+        "column": "how.involved.Academic research",
+        "kind": "multi_level",
+        "group": "how.involved.Academic research",
+        "option": "Academic research : primary activity",
+        "missing_tokens": [],
+        "reason": "level_like 标志，含程度词",
+        "year": 2024
+      },
+      {
+        "column": "how.involved.Data engineering",
+        "kind": "multi_level",
+        "group": "how.involved.Data engineering",
+        "option": "Data engineering : primary activity",
+        "missing_tokens": [],
+        "reason": "level_like 标志，含程度词",
+        "year": 2024
+      },
+      {
+        "column": "how.involved.Design / Data visualization",
+        "kind": "multi_level",
+        "group": "how.involved.Design / Data visualization",
+        "option": "Design / Data visualization : secondary activity",
+        "missing_tokens": [],
+        "reason": "level_like 标志，含程度词",
+        "year": 2024
+      },
+      {
+        "column": "opensource.contribution",
+        "kind": "multi_option",
+        "group": "opensource.contribution",
+        "option": "No",
+        "missing_tokens": [],
+        "reason": "binary_like 标志，仅 0/1",
+        "year": 2024
+      }
+    ]
+  }
+}

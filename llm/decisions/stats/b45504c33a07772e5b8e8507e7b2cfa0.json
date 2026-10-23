@@ -1,0 +1,20 @@
+{
+  "stage": "stats_narrative",
+  "model": "qwen3.5:4b",
+  "model_digest": "d8b0f5e9760cd168",
+  "prompt_version": "stats-narrative-v1",
+  "input_hash": "b45504c33a07772e5b8e8507e7b2cfa0",
+  "created_at": "2026-10-23T19:30:30",
+  "duration_s": 1.66,
+  "output_tokens": 116,
+  "fallback": false,
+  "error": "",
+  "manual_edit": false,
+  "reviewed": false,
+  "payload_summary": {
+    "topic": "python_usage"
+  },
+  "response": {
+    "text": "在 Python 使用场景中，2024 年选择“是”的比例最高，达到 85.8%，其次是“作为次要语言使用”的 14.2%。从 2020 年到 2024 年，将 Python 作为主要语言使用的比例上升最为显著，累计增长了 4.8 个百分点，而将其作为次要语言使用的比例则呈现下降趋势。这一变化趋势可能受到自报抽样误差、问卷措辞微调或选项设置变动等因素的影响。"
+  }
+}

@@ -1,0 +1,187 @@
+{
+  "stage": "clean_semantics",
+  "model": "qwen3.5:4b",
+  "model_digest": "d8b0f5e9760cd168",
+  "prompt_version": "clean-semantics-v2",
+  "input_hash": "8c6b290922448f90136fb8f46f54f8a9",
+  "created_at": "2026-10-23T19:01:09",
+  "duration_s": 10.53,
+  "output_tokens": 769,
+  "fallback": false,
+  "error": "",
+  "manual_edit": false,
+  "reviewed": false,
+  "payload_summary": {
+    "year": 2023,
+    "batch": "run.in.cloud.Other…devenv.os.macOS",
+    "n": 18
+  },
+  "response": {
+    "columns": [
+      {
+        "column": "run.in.cloud.Other",
+        "kind": "multi_option",
+        "group": "run.in.cloud",
+        "option": "Other",
+        "missing_tokens": [],
+        "reason": "flags 显示全列等于选项文本",
+        "year": 2023
+      },
+      {
+        "column": "kubernetes",
+        "kind": "multi_option",
+        "group": "kubernetes",
+        "option": "Yes",
+        "missing_tokens": [
+          "No"
+        ],
+        "reason": "flags 显示全列为 0/1 且含 Yes",
+        "year": 2023
+      },
+      {
+        "column": "used.tools.Amazon Elastic Kubernetes Service",
+        "kind": "multi_option",
+        "group": "used.tools",
+        "option": "Amazon Elastic Kubernetes Service",
+        "missing_tokens": [],
+        "reason": "flags 显示全列等于选项文本",
+        "year": 2023
+      },
+      {
+        "column": "used.tools.Azure Kubernetes Service",
+        "kind": "multi_option",
+        "group": "used.tools",
+        "option": "Azure Kubernetes Service",
+        "missing_tokens": [],
+        "reason": "flags 显示全列等于选项文本",
+        "year": 2023
+      },
+      {
+        "column": "used.tools.Google Kubernetes Engine",
+        "kind": "multi_option",
+        "group": "used.tools",
+        "option": "Google Kubernetes Engine",
+        "missing_tokens": [],
+        "reason": "flags 显示全列等于选项文本",
+        "year": 2023
+      },
+      {
+        "column": "used.tools.RedHat OpenShift",
+        "kind": "multi_option",
+        "group": "used.tools",
+        "option": "RedHat OpenShift",
+        "missing_tokens": [],
+        "reason": "flags 显示全列等于选项文本",
+        "year": 2023
+      },
+      {
+        "column": "used.tools.Other",
+        "kind": "multi_option",
+        "group": "used.tools",
+        "option": "Other",
+        "missing_tokens": [],
+        "reason": "flags 显示全列等于选项文本",
+        "year": 2023
+      },
+      {
+        "column": "develop.for.cloud.With local system interpreter",
+        "kind": "multi_option",
+        "group": "develop.for.cloud",
+        "option": "With local system interpreter",
+        "missing_tokens": [],
+        "reason": "flags 显示全列等于选项文本",
+        "year": 2023
+      },
+      {
+        "column": "develop.for.cloud.Locally with virtualenv (or similar)",
+        "kind": "multi_option",
+        "group": "develop.for.cloud",
+        "option": "Locally with virtualenv (or similar)",
+        "missing_tokens": [],
+        "reason": "flags 显示全列等于选项文本",
+        "year": 2023
+      },
+      {
+        "column": "develop.for.cloud.In Docker containers",
+        "kind": "multi_option",
+        "group": "develop.for.cloud",
+        "option": "In Docker containers",
+        "missing_tokens": [],
+        "reason": "flags 显示全列等于选项文本",
+        "year": 2023
+      },
+      {
+        "column": "develop.for.cloud.In virtual machines",
+        "kind": "multi_option",
+        "group": "develop.for.cloud",
+        "option": "In virtual machines",
+        "missing_tokens": [],
+        "reason": "flags 显示全列等于选项文本",
+        "year": 2023
+      },
+      {
+        "column": "develop.for.cloud.Using WSL",
+        "kind": "multi_option",
+        "group": "develop.for.cloud",
+        "option": "Using WSL",
+        "missing_tokens": [],
+        "reason": "flags 显示全列等于选项文本",
+        "year": 2023
+      },
+      {
+        "column": "develop.for.cloud.In remote development environments (like Gitpod, GitHub Codespaces, etc_)",
+        "kind": "multi_option",
+        "group": "develop.for.cloud",
+        "option": "In remote development environments (like Gitpod, GitHub Codespaces, etc_)",
+        "missing_tokens": [],
+        "reason": "flags 显示全列等于选项文本",
+        "year": 2023
+      },
+      {
+        "column": "develop.for.cloud.Directly in the production environment",
+        "kind": "multi_option",
+        "group": "develop.for.cloud",
+        "option": "Directly in the production environment",
+        "missing_tokens": [],
+        "reason": "flags 显示全列等于选项文本",
+        "year": 2023
+      },
+      {
+        "column": "develop.for.cloud.Other",
+        "kind": "multi_option",
+        "group": "develop.for.cloud",
+        "option": "Other",
+        "missing_tokens": [],
+        "reason": "flags 显示全列等于选项文本",
+        "year": 2023
+      },
+      {
+        "column": "devenv.os.Windows",
+        "kind": "multi_option",
+        "group": "devenv.os",
+        "option": "Windows",
+        "missing_tokens": [],
+        "reason": "flags 显示全列等于选项文本",
+        "year": 2023
+      },
+      {
+        "column": "devenv.os.Linux",
+        "kind": "multi_option",
+        "group": "devenv.os",
+        "option": "Linux",
+        "missing_tokens": [],
+        "reason": "flags 显示全列等于选项文本",
+        "year": 2023
+      },
+      {
+        "column": "devenv.os.macOS",
+        "kind": "multi_option",
+        "group": "devenv.os",
+        "option": "macOS",
+        "missing_tokens": [],
+        "reason": "flags 显示全列等于选项文本",
+        "year": 2023
+      }
+    ]
+  }
+}

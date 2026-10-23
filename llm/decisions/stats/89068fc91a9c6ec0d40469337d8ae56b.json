@@ -1,0 +1,20 @@
+{
+  "stage": "stats_narrative",
+  "model": "qwen3.5:4b",
+  "model_digest": "d8b0f5e9760cd168",
+  "prompt_version": "stats-narrative-v1",
+  "input_hash": "89068fc91a9c6ec0d40469337d8ae56b",
+  "created_at": "2026-10-23T19:24:25",
+  "duration_s": 1.96,
+  "output_tokens": 138,
+  "fallback": false,
+  "error": "",
+  "manual_edit": false,
+  "reviewed": false,
+  "payload_summary": {
+    "topic": "editor_preferences"
+  },
+  "response": {
+    "text": "2024 年开发者编辑器偏好中，Jupyter Notebook 以 12.2% 位居第一，Vim 以 9.7% 紧随其后，PyCharm 系列合计占比约 12.3%。2020 年至 2021 年间，Jupyter Notebook 和 Vim 的占比分别上升了 6.9 和 5.0 个百分点，显示出数据科学和终端编辑需求的显著增长。由于该数据基于自报抽样且选项设置随年份调整，实际偏好可能受问卷措辞变化或特定技术趋势的短期影响。"
+  }
+}

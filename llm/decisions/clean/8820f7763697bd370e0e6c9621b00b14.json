@@ -1,0 +1,185 @@
+{
+  "stage": "clean_semantics",
+  "model": "qwen3.5:4b",
+  "model_digest": "d8b0f5e9760cd168",
+  "prompt_version": "clean-semantics-v2",
+  "input_hash": "8820f7763697bd370e0e6c9621b00b14",
+  "created_at": "2026-10-23T18:32:46",
+  "duration_s": 11.08,
+  "output_tokens": 839,
+  "fallback": false,
+  "error": "",
+  "manual_edit": false,
+  "reviewed": false,
+  "payload_summary": {
+    "year": 2024,
+    "batch": "unittesting.nose…other.frameworks.BeautifulSoup",
+    "n": 18
+  },
+  "response": {
+    "columns": [
+      {
+        "column": "unittesting.nose",
+        "kind": "multi_option",
+        "group": "unittesting.nose",
+        "option": "nose",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值恒等于列名选项",
+        "year": 2024
+      },
+      {
+        "column": "unittesting.unittest",
+        "kind": "multi_option",
+        "group": "unittesting.unittest",
+        "option": "unittest",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值恒等于列名选项",
+        "year": 2024
+      },
+      {
+        "column": "unittesting.doctest",
+        "kind": "multi_option",
+        "group": "unittesting.doctest",
+        "option": "doctest",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值恒等于列名选项",
+        "year": 2024
+      },
+      {
+        "column": "unittesting.tox",
+        "kind": "multi_option",
+        "group": "unittesting.tox",
+        "option": "tox",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值恒等于列名选项",
+        "year": 2024
+      },
+      {
+        "column": "unittesting.Hypothesis",
+        "kind": "multi_option",
+        "group": "unittesting.Hypothesis",
+        "option": "Hypothesis",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值恒等于列名选项",
+        "year": 2024
+      },
+      {
+        "column": "unittesting.mock",
+        "kind": "multi_option",
+        "group": "unittesting.mock",
+        "option": "mock",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值恒等于列名选项",
+        "year": 2024
+      },
+      {
+        "column": "unittesting.Other",
+        "kind": "multi_option",
+        "group": "unittesting.Other",
+        "option": "Other",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值恒等于列名选项",
+        "year": 2024
+      },
+      {
+        "column": "other.frameworks.None",
+        "kind": "multi_option",
+        "group": "other.frameworks.None",
+        "option": "None",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值恒等于列名选项",
+        "year": 2024
+      },
+      {
+        "column": "other.frameworks.PyQT",
+        "kind": "multi_option",
+        "group": "other.frameworks.PyQT",
+        "option": "PyQT",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值恒等于列名选项",
+        "year": 2024
+      },
+      {
+        "column": "other.frameworks.PyGTK",
+        "kind": "multi_option",
+        "group": "other.frameworks.PyGTK",
+        "option": "PyGTK",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值恒等于列名选项",
+        "year": 2024
+      },
+      {
+        "column": "other.frameworks.wxPython",
+        "kind": "multi_option",
+        "group": "other.frameworks.wxPython",
+        "option": "wxPython",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值恒等于列名选项",
+        "year": 2024
+      },
+      {
+        "column": "other.frameworks.Pillow",
+        "kind": "multi_option",
+        "group": "other.frameworks.Pillow",
+        "option": "Pillow",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值恒等于列名选项",
+        "year": 2024
+      },
+      {
+        "column": "other.frameworks.Tkinter",
+        "kind": "multi_option",
+        "group": "other.frameworks.Tkinter",
+        "option": "Tkinter",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值恒等于列名选项",
+        "year": 2024
+      },
+      {
+        "column": "other.frameworks.Pygame",
+        "kind": "multi_option",
+        "group": "other.frameworks.Pygame",
+        "option": "Pygame",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值恒等于列名选项",
+        "year": 2024
+      },
+      {
+        "column": "other.frameworks.Kivy",
+        "kind": "multi_option",
+        "group": "other.frameworks.Kivy",
+        "option": "Kivy",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值恒等于列名选项",
+        "year": 2024
+      },
+      {
+        "column": "other.frameworks.Six",
+        "kind": "multi_option",
+        "group": "other.frameworks.Six",
+        "option": "Six",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值恒等于列名选项",
+        "year": 2024
+      },
+      {
+        "column": "other.frameworks.Scrapy",
+        "kind": "multi_option",
+        "group": "other.frameworks.Scrapy",
+        "option": "Scrapy",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值恒等于列名选项",
+        "year": 2024
+      },
+      {
+        "column": "other.frameworks.BeautifulSoup",
+        "kind": "multi_option",
+        "group": "other.frameworks.BeautifulSoup",
+        "option": "BeautifulSoup",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值恒等于列名选项",
+        "year": 2024
+      }
+    ]
+  }
+}

@@ -1,0 +1,185 @@
+{
+  "stage": "clean_semantics",
+  "model": "qwen3.5:4b",
+  "model_digest": "d8b0f5e9760cd168",
+  "prompt_version": "clean-semantics-v2",
+  "input_hash": "98977868148e7de0e50e481397b8ce16",
+  "created_at": "2026-10-23T18:53:55",
+  "duration_s": 9.84,
+  "output_tokens": 752,
+  "fallback": false,
+  "error": "",
+  "manual_edit": false,
+  "reviewed": false,
+  "payload_summary": {
+    "year": 2021,
+    "batch": "packages.install.from.Artifactory…app.publish",
+    "n": 18
+  },
+  "response": {
+    "columns": [
+      {
+        "column": "packages.install.from.Artifactory",
+        "kind": "multi_option",
+        "group": "packages.install.from",
+        "option": "Artifactory",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列等于列名",
+        "year": 2021
+      },
+      {
+        "column": "packages.install.from.GitLab",
+        "kind": "multi_option",
+        "group": "packages.install.from",
+        "option": "GitLab",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列等于列名",
+        "year": 2021
+      },
+      {
+        "column": "packages.install.from.From Linux distribution",
+        "kind": "multi_option",
+        "group": "packages.install.from",
+        "option": "From Linux distribution",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列等于列名",
+        "year": 2021
+      },
+      {
+        "column": "packages.install.from.Other",
+        "kind": "multi_option",
+        "group": "packages.install.from",
+        "option": "Other",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列等于列名",
+        "year": 2021
+      },
+      {
+        "column": "app.do",
+        "kind": "single_choice",
+        "group": "app.do",
+        "option": "",
+        "missing_tokens": [],
+        "reason": "flags 无 multi_like，仅含 Yes/No 两值",
+        "year": 2021
+      },
+      {
+        "column": "app.tools.None / I'm not sure",
+        "kind": "multi_option",
+        "group": "app.tools",
+        "option": "None / I'm not sure",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列等于列名",
+        "year": 2021
+      },
+      {
+        "column": "app.tools.Setuptools",
+        "kind": "multi_option",
+        "group": "app.tools",
+        "option": "Setuptools",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列等于列名",
+        "year": 2021
+      },
+      {
+        "column": "app.tools.build",
+        "kind": "multi_option",
+        "group": "app.tools",
+        "option": "build",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列等于列名",
+        "year": 2021
+      },
+      {
+        "column": "app.tools.Wheel",
+        "kind": "multi_option",
+        "group": "app.tools",
+        "option": "Wheel",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列等于列名",
+        "year": 2021
+      },
+      {
+        "column": "app.tools.Enscons",
+        "kind": "multi_option",
+        "group": "app.tools",
+        "option": "Enscons",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列等于列名",
+        "year": 2021
+      },
+      {
+        "column": "app.tools.pex",
+        "kind": "multi_option",
+        "group": "app.tools",
+        "option": "pex",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列等于列名",
+        "year": 2021
+      },
+      {
+        "column": "app.tools.Flit",
+        "kind": "multi_option",
+        "group": "app.tools",
+        "option": "Flit",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列等于列名",
+        "year": 2021
+      },
+      {
+        "column": "app.tools.Poetry",
+        "kind": "multi_option",
+        "group": "app.tools",
+        "option": "Poetry",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列等于列名",
+        "year": 2021
+      },
+      {
+        "column": "app.tools.conda-build",
+        "kind": "multi_option",
+        "group": "app.tools",
+        "option": "conda-build",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列等于列名",
+        "year": 2021
+      },
+      {
+        "column": "app.tools.maturin",
+        "kind": "multi_option",
+        "group": "app.tools",
+        "option": "maturin",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列等于列名",
+        "year": 2021
+      },
+      {
+        "column": "app.tools.PDM-PEP517",
+        "kind": "multi_option",
+        "group": "app.tools",
+        "option": "PDM-PEP517",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列等于列名",
+        "year": 2021
+      },
+      {
+        "column": "app.tools.Other",
+        "kind": "multi_option",
+        "group": "app.tools",
+        "option": "Other",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列等于列名",
+        "year": 2021
+      },
+      {
+        "column": "app.publish",
+        "kind": "single_choice",
+        "group": "app.publish",
+        "option": "",
+        "missing_tokens": [],
+        "reason": "flags 无 multi_like，仅含 Yes/No 两值",
+        "year": 2021
+      }
+    ]
+  }
+}

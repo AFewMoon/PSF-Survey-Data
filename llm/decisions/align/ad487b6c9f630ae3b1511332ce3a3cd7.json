@@ -1,0 +1,301 @@
+{
+  "stage": "group_path",
+  "model": "qwen3.5:4b",
+  "model_digest": "d8b0f5e9760cd168",
+  "prompt_version": "group-path-v1",
+  "input_hash": "ad487b6c9f630ae3b1511332ce3a3cd7",
+  "created_at": "2026-10-23T19:07:34",
+  "duration_s": 16.47,
+  "output_tokens": 1239,
+  "fallback": false,
+  "error": "",
+  "manual_edit": false,
+  "reviewed": false,
+  "payload_summary": {
+    "n_groups": 56
+  },
+  "response": {
+    "groups": [
+      {
+        "name": "employment",
+        "canonical": "employment",
+        "reason": "语义完整，无需调整"
+      },
+      {
+        "name": "employment.status",
+        "canonical": "employment.status",
+        "reason": "语义完整，无需调整"
+      },
+      {
+        "name": "environments",
+        "canonical": "environments",
+        "reason": "语义完整，无需调整"
+      },
+      {
+        "name": "environments.container",
+        "canonical": "environments.container",
+        "reason": "语义完整，无需调整"
+      },
+      {
+        "name": "environments.isolate",
+        "canonical": "environments.isolate",
+        "reason": "语义完整，无需调整"
+      },
+      {
+        "name": "experience.duration",
+        "canonical": "experience.duration",
+        "reason": "语义完整，无需调整"
+      },
+      {
+        "name": "experiment.tools",
+        "canonical": "experiment.tools",
+        "reason": "语义完整，无需调整"
+      },
+      {
+        "name": "exploration.tools",
+        "canonical": "exploration.tools",
+        "reason": "语义完整，无需调整"
+      },
+      {
+        "name": "first.learn.about.main",
+        "canonical": "first.learn.about.main",
+        "reason": "语义完整，无需调整"
+      },
+      {
+        "name": "first.learn.about.main.ide",
+        "canonical": "first.learn.about.main.ide",
+        "reason": "语义完整，无需调整"
+      },
+      {
+        "name": "flask.what.web.frameworks.libraries.do.you.use.in.addition.to.python",
+        "canonical": "flask.what.web.frameworks.libraries.do.you.use.in.addition.to.python",
+        "reason": "语义完整，无需调整"
+      },
+      {
+        "name": "frameworks.cm",
+        "canonical": "frameworks.cm",
+        "reason": "语义完整，无需调整"
+      },
+      {
+        "name": "frameworks.data",
+        "canonical": "frameworks.data",
+        "reason": "语义完整，无需调整"
+      },
+      {
+        "name": "frameworks.ml",
+        "canonical": "frameworks.ml",
+        "reason": "语义完整，无需调整"
+      },
+      {
+        "name": "frameworks.support",
+        "canonical": "frameworks.support",
+        "reason": "语义完整，无需调整"
+      },
+      {
+        "name": "frameworks.web",
+        "canonical": "frameworks.web",
+        "reason": "语义完整，无需调整"
+      },
+      {
+        "name": "game.development",
+        "canonical": "game.development",
+        "reason": "语义完整，无需调整"
+      },
+      {
+        "name": "gender",
+        "canonical": "gender",
+        "reason": "语义完整，无需调整"
+      },
+      {
+        "name": "how.involved",
+        "canonical": "how.involved",
+        "reason": "语义完整，无需调整"
+      },
+      {
+        "name": "how.involved.Multimedia applications development (apps handling various types of multimedia content, e.g. audio, graphics, etc",
+        "canonical": "how.involved.multimedia",
+        "reason": "语义简化，去除冗余描述"
+      },
+      {
+        "name": "how.involved.Other - Write In:",
+        "canonical": "how.involved.other",
+        "reason": "语义简化，去除冗余描述"
+      },
+      {
+        "name": "how.involved.Other, please specify:",
+        "canonical": "how.involved.other",
+        "reason": "语义简化，去除冗余描述"
+      },
+      {
+        "name": "how.involved.fixed",
+        "canonical": "how.involved.fixed",
+        "reason": "语义完整，无需调整"
+      },
+      {
+        "name": "how.often.use.main",
+        "canonical": "how.often.use.main",
+        "reason": "语义完整，无需调整"
+      },
+      {
+        "name": "how.often.use.main.ide",
+        "canonical": "how.often.use.main.ide",
+        "reason": "语义完整，无需调整"
+      },
+      {
+        "name": "i.don.t.update.what.do.you.typically.use.to.upgrade.your.python.version",
+        "canonical": "ide.upgrade",
+        "reason": "语义映射，统一为升级主题"
+      },
+      {
+        "name": "ide",
+        "canonical": "ide",
+        "reason": "语义完整，无需调整"
+      },
+      {
+        "name": "ide.ci",
+        "canonical": "ide.ci",
+        "reason": "语义完整，无需调整"
+      },
+      {
+        "name": "ide.data_scientist",
+        "canonical": "ide.data_scientist",
+        "reason": "语义完整，无需调整"
+      },
+      {
+        "name": "ide.databases",
+        "canonical": "ide.databases",
+        "reason": "语义完整，无需调整"
+      },
+      {
+        "name": "ide.editor",
+        "canonical": "ide.editor",
+        "reason": "语义完整，无需调整"
+      },
+      {
+        "name": "ide.editor.features",
+        "canonical": "ide.editor.features",
+        "reason": "语义完整，无需调整"
+      },
+      {
+        "name": "ide.editor.features.Run / debug or edit code on remote machines (remote hosts, VMs, etc",
+        "canonical": "ide.editor.features.remote",
+        "reason": "语义简化，去除冗余描述"
+      },
+      {
+        "name": "ide.editor.features.Use NoSQL databases",
+        "canonical": "ide.editor.features.databases",
+        "reason": "语义简化，去除冗余描述"
+      },
+      {
+        "name": "ide.editor.features.Use issue trackers",
+        "canonical": "ide.editor.features.issues",
+        "reason": "语义简化，去除冗余描述"
+      },
+      {
+        "name": "ide.file.edit",
+        "canonical": "ide.file.edit",
+        "reason": "语义完整，无需调整"
+      },
+      {
+        "name": "ide.history",
+        "canonical": "ide.history",
+        "reason": "语义完整，无需调整"
+      },
+      {
+        "name": "ide.isolate",
+        "canonical": "ide.isolate",
+        "reason": "语义完整，无需调整"
+      },
+      {
+        "name": "ide.main",
+        "canonical": "ide.main",
+        "reason": "语义完整，无需调整"
+      },
+      {
+        "name": "ide.multimedia",
+        "canonical": "ide.multimedia",
+        "reason": "语义完整，无需调整"
+      },
+      {
+        "name": "ide.network",
+        "canonical": "ide.network",
+        "reason": "语义完整，无需调整"
+      },
+      {
+        "name": "ide.os",
+        "canonical": "ide.os",
+        "reason": "语义完整，无需调整"
+      },
+      {
+        "name": "ide.other",
+        "canonical": "ide.other",
+        "reason": "语义完整，无需调整"
+      },
+      {
+        "name": "ide.prototyping",
+        "canonical": "ide.prototyping",
+        "reason": "语义完整，无需调整"
+      },
+      {
+        "name": "ide.python2_version",
+        "canonical": "ide.python_version",
+        "reason": "语义合并，统一版本主题"
+      },
+      {
+        "name": "ide.python3_version",
+        "canonical": "ide.python_version",
+        "reason": "语义合并，统一版本主题"
+      },
+      {
+        "name": "ide.python_use",
+        "canonical": "ide.python_use",
+        "reason": "语义完整，无需调整"
+      },
+      {
+        "name": "ide.python_version",
+        "canonical": "ide.python_version",
+        "reason": "语义完整，无需调整"
+      },
+      {
+        "name": "ide.testing",
+        "canonical": "ide.testing",
+        "reason": "语义完整，无需调整"
+      },
+      {
+        "name": "ide.tools",
+        "canonical": "ide.tools",
+        "reason": "语义完整，无需调整"
+      },
+      {
+        "name": "ide.tools.bigdata",
+        "canonical": "ide.tools.bigdata",
+        "reason": "语义完整，无需调整"
+      },
+      {
+        "name": "ide.tools.ci",
+        "canonical": "ide.tools.ci",
+        "reason": "语义完整，无需调整"
+      },
+      {
+        "name": "ide.upgrade",
+        "canonical": "ide.upgrade",
+        "reason": "语义完整，无需调整"
+      },
+      {
+        "name": "ide.upgrade.activepython",
+        "canonical": "ide.upgrade.activepython",
+        "reason": "语义完整，无需调整"
+      },
+      {
+        "name": "ide.upgrade.anaconda",
+        "canonical": "ide.upgrade.anaconda",
+        "reason": "语义完整，无需调整"
+      },
+      {
+        "name": "ide.upgrade.cloud",
+        "canonical": "ide.upgrade.cloud",
+        "reason": "语义完整，无需调整"
+      }
+    ]
+  }
+}

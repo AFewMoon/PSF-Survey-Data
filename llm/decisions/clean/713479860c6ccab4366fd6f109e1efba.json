@@ -1,0 +1,177 @@
+{
+  "stage": "clean_semantics",
+  "model": "qwen3.5:4b",
+  "model_digest": "d8b0f5e9760cd168",
+  "prompt_version": "clean-semantics-v2",
+  "input_hash": "713479860c6ccab4366fd6f109e1efba",
+  "created_at": "2026-10-23T18:42:10",
+  "duration_s": 12.55,
+  "output_tokens": 953,
+  "fallback": false,
+  "error": "",
+  "manual_edit": false,
+  "reviewed": false,
+  "payload_summary": {
+    "year": 2019,
+    "batch": "Django:What web frameworks / libraries do you use in addition to Python?…Other - Write In::What data science framework(s) do you use in addition to Python?",
+    "n": 18
+  },
+  "response": {
+    "columns": [
+      {
+        "column": "Django:What web frameworks / libraries do you use in addition to Python?",
+        "kind": "multi_option",
+        "group": "frameworks.web",
+        "option": "Django",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "flags 显示全列恒等于选项文本",
+        "year": 2019
+      },
+      {
+        "column": "Falcon:What web frameworks / libraries do you use in addition to Python?",
+        "kind": "multi_option",
+        "group": "frameworks.web",
+        "option": "Falcon",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "flags 显示全列恒等于选项文本",
+        "year": 2019
+      },
+      {
+        "column": "Hug:What web frameworks / libraries do you use in addition to Python?",
+        "kind": "multi_option",
+        "group": "frameworks.web",
+        "option": "Hug",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "flags 显示全列恒等于选项文本",
+        "year": 2019
+      },
+      {
+        "column": "None:What web frameworks / libraries do you use in addition to Python?",
+        "kind": "multi_option",
+        "group": "frameworks.web",
+        "option": "None",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "flags 显示全列恒等于选项文本",
+        "year": 2019
+      },
+      {
+        "column": "Tornado:What web frameworks / libraries do you use in addition to Python?",
+        "kind": "multi_option",
+        "group": "frameworks.web",
+        "option": "Tornado",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "flags 显示全列恒等于选项文本",
+        "year": 2019
+      },
+      {
+        "column": "TurboGears:What web frameworks / libraries do you use in addition to Python?",
+        "kind": "multi_option",
+        "group": "frameworks.web",
+        "option": "TurboGears",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "flags 显示全列恒等于选项文本",
+        "year": 2019
+      },
+      {
+        "column": "web2py:What web frameworks / libraries do you use in addition to Python?",
+        "kind": "multi_option",
+        "group": "frameworks.web",
+        "option": "web2py",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "flags 显示全列恒等于选项文本",
+        "year": 2019
+      },
+      {
+        "column": "Gensim:What data science framework(s) do you use in addition to Python?",
+        "kind": "multi_option",
+        "group": "frameworks.data",
+        "option": "Gensim",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "flags 显示全列恒等于选项文本",
+        "year": 2019
+      },
+      {
+        "column": "Keras:What data science framework(s) do you use in addition to Python?",
+        "kind": "multi_option",
+        "group": "frameworks.data",
+        "option": "Keras",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "flags 显示全列恒等于选项文本",
+        "year": 2019
+      },
+      {
+        "column": "Matplotlib:What data science framework(s) do you use in addition to Python?",
+        "kind": "multi_option",
+        "group": "frameworks.data",
+        "option": "Matplotlib",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "flags 显示全列恒等于选项文本",
+        "year": 2019
+      },
+      {
+        "column": "MXNet:What data science framework(s) do you use in addition to Python?",
+        "kind": "multi_option",
+        "group": "frameworks.data",
+        "option": "MXNet",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "flags 显示全列恒等于选项文本",
+        "year": 2019
+      },
+      {
+        "column": "NLTK:What data science framework(s) do you use in addition to Python?",
+        "kind": "multi_option",
+        "group": "frameworks.data",
+        "option": "NLTK",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "flags 显示全列恒等于选项文本",
+        "year": 2019
+      },
+      {
+        "column": "None:What data science framework(s) do you use in addition to Python?",
+        "kind": "multi_option",
+        "group": "frameworks.data",
+        "option": "None",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "flags 显示全列恒等于选项文本",
+        "year": 2019
+      },
+      {
+        "column": "NumPy:What data science framework(s) do you use in addition to Python?",
+        "kind": "multi_option",
+        "group": "frameworks.data",
+        "option": "NumPy",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "flags 显示全列恒等于选项文本",
+        "year": 2019
+      }
+    ]
+  }
+}

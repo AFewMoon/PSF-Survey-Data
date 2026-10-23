@@ -1,0 +1,185 @@
+{
+  "stage": "clean_semantics",
+  "model": "qwen3.5:4b",
+  "model_digest": "d8b0f5e9760cd168",
+  "prompt_version": "clean-semantics-v2",
+  "input_hash": "74038d4afeb731164f588066b82071d0",
+  "created_at": "2026-10-23T18:56:04",
+  "duration_s": 10.58,
+  "output_tokens": 787,
+  "fallback": false,
+  "error": "",
+  "manual_edit": false,
+  "reviewed": false,
+  "payload_summary": {
+    "year": 2022,
+    "batch": "data.frameworks.Theano…other.frameworks.Kivy",
+    "n": 18
+  },
+  "response": {
+    "columns": [
+      {
+        "column": "data.frameworks.Theano",
+        "kind": "multi_option",
+        "group": "data.frameworks",
+        "option": "Theano",
+        "missing_tokens": [],
+        "reason": "全列恒等于选项名，符合 multi_like 特征",
+        "year": 2022
+      },
+      {
+        "column": "data.frameworks.NLTK",
+        "kind": "multi_option",
+        "group": "data.frameworks",
+        "option": "NLTK",
+        "missing_tokens": [],
+        "reason": "全列恒等于选项名，符合 multi_like 特征",
+        "year": 2022
+      },
+      {
+        "column": "data.frameworks.MXNet",
+        "kind": "multi_option",
+        "group": "data.frameworks",
+        "option": "MXNet",
+        "missing_tokens": [],
+        "reason": "全列恒等于选项名，符合 multi_like 特征",
+        "year": 2022
+      },
+      {
+        "column": "data.frameworks.Gensim",
+        "kind": "multi_option",
+        "group": "data.frameworks",
+        "option": "Gensim",
+        "missing_tokens": [],
+        "reason": "全列恒等于选项名，符合 multi_like 特征",
+        "year": 2022
+      },
+      {
+        "column": "data.frameworks.Other",
+        "kind": "multi_option",
+        "group": "data.frameworks",
+        "option": "Other",
+        "missing_tokens": [],
+        "reason": "全列恒等于选项名，符合 multi_like 特征",
+        "year": 2022
+      },
+      {
+        "column": "other.frameworks.None",
+        "kind": "multi_option",
+        "group": "other.frameworks",
+        "option": "None",
+        "missing_tokens": [],
+        "reason": "全列恒等于选项名，符合 multi_like 特征",
+        "year": 2022
+      },
+      {
+        "column": "other.frameworks.Requests",
+        "kind": "multi_option",
+        "group": "other.frameworks",
+        "option": "Requests",
+        "missing_tokens": [],
+        "reason": "全列恒等于选项名，符合 multi_like 特征",
+        "year": 2022
+      },
+      {
+        "column": "other.frameworks.aiohttp",
+        "kind": "multi_option",
+        "group": "other.frameworks",
+        "option": "aiohttp",
+        "missing_tokens": [],
+        "reason": "全列恒等于选项名，符合 multi_like 特征",
+        "year": 2022
+      },
+      {
+        "column": "other.frameworks.httpx",
+        "kind": "multi_option",
+        "group": "other.frameworks",
+        "option": "httpx",
+        "missing_tokens": [],
+        "reason": "全列恒等于选项名，符合 multi_like 特征",
+        "year": 2022
+      },
+      {
+        "column": "other.frameworks.PyQT",
+        "kind": "multi_option",
+        "group": "other.frameworks",
+        "option": "PyQT",
+        "missing_tokens": [],
+        "reason": "全列恒等于选项名，符合 multi_like 特征",
+        "year": 2022
+      },
+      {
+        "column": "other.frameworks.PyGTK",
+        "kind": "multi_option",
+        "group": "other.frameworks",
+        "option": "PyGTK",
+        "missing_tokens": [],
+        "reason": "全列恒等于选项名，符合 multi_like 特征",
+        "year": 2022
+      },
+      {
+        "column": "other.frameworks.wxPython",
+        "kind": "multi_option",
+        "group": "other.frameworks",
+        "option": "wxPython",
+        "missing_tokens": [],
+        "reason": "全列恒等于选项名，符合 multi_like 特征",
+        "year": 2022
+      },
+      {
+        "column": "other.frameworks.Pillow",
+        "kind": "multi_option",
+        "group": "other.frameworks",
+        "option": "Pillow",
+        "missing_tokens": [],
+        "reason": "全列恒等于选项名，符合 multi_like 特征",
+        "year": 2022
+      },
+      {
+        "column": "other.frameworks.Tkinter",
+        "kind": "multi_option",
+        "group": "other.frameworks",
+        "option": "Tkinter",
+        "missing_tokens": [],
+        "reason": "全列恒等于选项名，符合 multi_like 特征",
+        "year": 2022
+      },
+      {
+        "column": "other.frameworks.Pygame",
+        "kind": "multi_option",
+        "group": "other.frameworks",
+        "option": "Pygame",
+        "missing_tokens": [],
+        "reason": "全列恒等于选项名，符合 multi_like 特征",
+        "year": 2022
+      },
+      {
+        "column": "other.frameworks.Twisted",
+        "kind": "multi_option",
+        "group": "other.frameworks",
+        "option": "Twisted",
+        "missing_tokens": [],
+        "reason": "全列恒等于选项名，符合 multi_like 特征",
+        "year": 2022
+      },
+      {
+        "column": "other.frameworks.Asyncio",
+        "kind": "multi_option",
+        "group": "other.frameworks",
+        "option": "Asyncio",
+        "missing_tokens": [],
+        "reason": "全列恒等于选项名，符合 multi_like 特征",
+        "year": 2022
+      },
+      {
+        "column": "other.frameworks.Kivy",
+        "kind": "multi_option",
+        "group": "other.frameworks",
+        "option": "Kivy",
+        "missing_tokens": [],
+        "reason": "全列恒等于选项名，符合 multi_like 特征",
+        "year": 2022
+      }
+    ]
+  }
+}

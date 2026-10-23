@@ -1,0 +1,15 @@
+topic,group,option,n,pct,denominator,year
+python_usage,ide.python_version,Yes,27999,59.18,47308,2019
+python_usage,ide.python_version,"No, I use Python as a secondary language",5399,11.41,47308,2019
+python_usage,ide.python_version,"No, I don’t use Python for my current projects",1837,3.88,47308,2019
+python_usage,ide.python_version,Yes,30630,81.05,37793,2020
+python_usage,ide.python_version,"No, I use Python as a secondary language",5574,14.75,37793,2020
+python_usage,ide.python_version,"No, I don’t use Python for my current projects",1528,4.04,37793,2020
+python_usage,ide.python_version,Yes,19432,83.84,23178,2021
+python_usage,ide.python_version,"No, I use Python as a secondary language",3746,16.16,23178,2021
+python_usage,ide.python_version,Yes,19471,84.71,22986,2022
+python_usage,ide.python_version,"No, I use Python as a secondary language",3514,15.29,22986,2022
+python_usage,ide.python_version,Yes,21588,85.25,25324,2023
+python_usage,ide.python_version,"No, I use Python as a secondary language",3736,14.75,25324,2023
+python_usage,ide.python_version,Yes,24887,85.83,28997,2024
+python_usage,ide.python_version,"No, I use Python as a secondary language",4108,14.17,28997,2024

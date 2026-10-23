@@ -1,0 +1,219 @@
+{
+  "stage": "clean_semantics",
+  "model": "qwen3.5:4b",
+  "model_digest": "d8b0f5e9760cd168",
+  "prompt_version": "clean-semantics-v2",
+  "input_hash": "fd90284a3daa425f8b33d13dec13fa73",
+  "created_at": "2026-10-23T18:42:24",
+  "duration_s": 14.44,
+  "output_tokens": 1043,
+  "fallback": false,
+  "error": "",
+  "manual_edit": false,
+  "reviewed": false,
+  "payload_summary": {
+    "year": 2019,
+    "batch": "Pandas:What data science framework(s) do you use in addition to Python?…Scrapy:Which of the following frameworks / libraries do you use in addition to Python?",
+    "n": 18
+  },
+  "response": {
+    "columns": [
+      {
+        "column": "Pandas:What data science framework(s) do you use in addition to Python?",
+        "kind": "multi_option",
+        "group": "frameworks.ml",
+        "option": "Pandas",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "全列值恒为选项名或 NA，符合 multi_like",
+        "year": 2019
+      },
+      {
+        "column": "PyTorch:What data science framework(s) do you use in addition to Python?",
+        "kind": "multi_option",
+        "group": "frameworks.ml",
+        "option": "PyTorch",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "全列值恒为选项名或 NA，符合 multi_like",
+        "year": 2019
+      },
+      {
+        "column": "SciKit-Learn:What data science framework(s) do you use in addition to Python?",
+        "kind": "multi_option",
+        "group": "frameworks.ml",
+        "option": "SciKit-Learn",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "全列值恒为选项名或 NA，符合 multi_like",
+        "year": 2019
+      },
+      {
+        "column": "SciPy:What data science framework(s) do you use in addition to Python?",
+        "kind": "multi_option",
+        "group": "frameworks.ml",
+        "option": "SciPy",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "全列值恒为选项名或 NA，符合 multi_like",
+        "year": 2019
+      },
+      {
+        "column": "Seaborn:What data science framework(s) do you use in addition to Python?",
+        "kind": "multi_option",
+        "group": "frameworks.ml",
+        "option": "Seaborn",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "全列值恒为选项名或 NA，符合 multi_like",
+        "year": 2019
+      },
+      {
+        "column": "TensorFlow:What data science framework(s) do you use in addition to Python?",
+        "kind": "multi_option",
+        "group": "frameworks.ml",
+        "option": "TensorFlow",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "全列值恒为选项名或 NA，符合 multi_like",
+        "year": 2019
+      },
+      {
+        "column": "Theano:What data science framework(s) do you use in addition to Python?",
+        "kind": "multi_option",
+        "group": "frameworks.ml",
+        "option": "Theano",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "全列值恒为选项名或 NA，符合 multi_like",
+        "year": 2019
+      },
+      {
+        "column": "aiohttp:Which of the following frameworks / libraries do you use in addition to Python?",
+        "kind": "multi_option",
+        "group": "frameworks.ml",
+        "option": "aiohttp",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "全列值恒为选项名或 NA，符合 multi_like",
+        "year": 2019
+      },
+      {
+        "column": "Asyncio:Which of the following frameworks / libraries do you use in addition to Python?",
+        "kind": "multi_option",
+        "group": "frameworks.ml",
+        "option": "Asyncio",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "全列值恒为选项名或 NA，符合 multi_like",
+        "year": 2019
+      },
+      {
+        "column": "Kivy:Which of the following frameworks / libraries do you use in addition to Python?",
+        "kind": "multi_option",
+        "group": "frameworks.ml",
+        "option": "Kivy",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "全列值恒为选项名或 NA，符合 multi_like",
+        "year": 2019
+      },
+      {
+        "column": "None:Which of the following frameworks / libraries do you use in addition to Python?",
+        "kind": "multi_option",
+        "group": "frameworks.ml",
+        "option": "None",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "全列值恒为选项名或 NA，符合 multi_like",
+        "year": 2019
+      },
+      {
+        "column": "Other – Write In::Which of the following frameworks / libraries do you use in addition to Python?",
+        "kind": "free_text",
+        "group": "frameworks.ml",
+        "option": "",
+        "missing_tokens": [],
+        "reason": "自由文本列，长度特征显示为开放回答",
+        "year": 2019
+      },
+      {
+        "column": "Pillow:Which of the following frameworks / libraries do you use in addition to Python?",
+        "kind": "multi_option",
+        "group": "frameworks.ml",
+        "option": "Pillow",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "全列值恒为选项名或 NA，符合 multi_like",
+        "year": 2019
+      },
+      {
+        "column": "Pygame:Which of the following frameworks / libraries do you use in addition to Python?",
+        "kind": "multi_option",
+        "group": "frameworks.ml",
+        "option": "Pygame",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "全列值恒为选项名或 NA，符合 multi_like",
+        "year": 2019
+      },
+      {
+        "column": "PyGTK:Which of the following frameworks / libraries do you use in addition to Python?",
+        "kind": "multi_option",
+        "group": "frameworks.ml",
+        "option": "PyGTK",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "全列值恒为选项名或 NA，符合 multi_like",
+        "year": 2019
+      },
+      {
+        "column": "PyQT:Which of the following frameworks / libraries do you use in addition to Python?",
+        "kind": "multi_option",
+        "group": "frameworks.ml",
+        "option": "PyQT",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "全列值恒为选项名或 NA，符合 multi_like",
+        "year": 2019
+      },
+      {
+        "column": "Requests:Which of the following frameworks / libraries do you use in addition to Python?",
+        "kind": "multi_option",
+        "group": "frameworks.ml",
+        "option": "Requests",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "全列值恒为选项名或 NA，符合 multi_like",
+        "year": 2019
+      },
+      {
+        "column": "Scrapy:Which of the following frameworks / libraries do you use in addition to Python?",
+        "kind": "multi_option",
+        "group": "frameworks.ml",
+        "option": "Scrapy",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "全列值恒为选项名或 NA，符合 multi_like",
+        "year": 2019
+      }
+    ]
+  }
+}

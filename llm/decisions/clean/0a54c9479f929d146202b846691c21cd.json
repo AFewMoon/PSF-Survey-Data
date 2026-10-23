@@ -1,0 +1,185 @@
+{
+  "stage": "clean_semantics",
+  "model": "qwen3.5:4b",
+  "model_digest": "d8b0f5e9760cd168",
+  "prompt_version": "clean-semantics-v2",
+  "input_hash": "0a54c9479f929d146202b846691c21cd",
+  "created_at": "2026-10-23T19:04:11",
+  "duration_s": 12.04,
+  "output_tokens": 917,
+  "fallback": false,
+  "error": "",
+  "manual_edit": false,
+  "reviewed": false,
+  "payload_summary": {
+    "year": 2023,
+    "batch": "employment.status…job.role.CIO / CEO / CTO",
+    "n": 18
+  },
+  "response": {
+    "columns": [
+      {
+        "column": "employment.status",
+        "kind": "single_choice",
+        "group": "employment.status",
+        "option": "",
+        "missing_tokens": [],
+        "reason": "列名即题目，非空率 60%，非唯一值 9 个，符合单选特征。",
+        "year": 2023
+      },
+      {
+        "column": "company.size",
+        "kind": "single_choice",
+        "group": "company.size",
+        "option": "",
+        "missing_tokens": [],
+        "reason": "列名即题目，非空率 45.7%，非唯一值 8 个，符合单选特征。",
+        "year": 2023
+      },
+      {
+        "column": "company.industry",
+        "kind": "single_choice",
+        "group": "company.industry",
+        "option": "",
+        "missing_tokens": [],
+        "reason": "列名即题目，非空率 45.6%，非唯一值 24 个，符合单选特征。",
+        "year": 2023
+      },
+      {
+        "column": "job.role.DBA",
+        "kind": "multi_option",
+        "group": "job.role",
+        "option": "DBA",
+        "missing_tokens": [],
+        "reason": "flags 含 multi_like，全列唯一值 DBA，符合多选单选项特征。",
+        "year": 2023
+      },
+      {
+        "column": "job.role.Architect",
+        "kind": "multi_option",
+        "group": "job.role",
+        "option": "Architect",
+        "missing_tokens": [],
+        "reason": "flags 含 multi_like，全列唯一值 Architect，符合多选单选项特征。",
+        "year": 2023
+      },
+      {
+        "column": "job.role.QA engineer",
+        "kind": "multi_option",
+        "group": "job.role",
+        "option": "QA engineer",
+        "missing_tokens": [],
+        "reason": "flags 含 multi_like，全列唯一值 QA engineer，符合多选单选项特征。",
+        "year": 2023
+      },
+      {
+        "column": "job.role.Developer / Programmer",
+        "kind": "multi_option",
+        "group": "job.role",
+        "option": "Developer / Programmer",
+        "missing_tokens": [],
+        "reason": "flags 含 multi_like，全列唯一值 Developer / Programmer，符合多选单选项特征。",
+        "year": 2023
+      },
+      {
+        "column": "job.role.Technical writer",
+        "kind": "multi_option",
+        "group": "job.role",
+        "option": "Technical writer",
+        "missing_tokens": [],
+        "reason": "flags 含 multi_like，全列唯一值 Technical writer，符合多选单选项特征。",
+        "year": 2023
+      },
+      {
+        "column": "job.role.Technical support",
+        "kind": "multi_option",
+        "group": "job.role",
+        "option": "Technical support",
+        "missing_tokens": [],
+        "reason": "flags 含 multi_like，全列唯一值 Technical support，符合多选单选项特征。",
+        "year": 2023
+      },
+      {
+        "column": "job.role.Data analyst",
+        "kind": "multi_option",
+        "group": "job.role",
+        "option": "Data analyst",
+        "missing_tokens": [],
+        "reason": "flags 含 multi_like，全列唯一值 Data analyst，符合多选单选项特征。",
+        "year": 2023
+      },
+      {
+        "column": "job.role.Data scientist",
+        "kind": "multi_option",
+        "group": "job.role",
+        "option": "Data scientist",
+        "missing_tokens": [],
+        "reason": "flags 含 multi_like，全列唯一值 Data scientist，符合多选单选项特征。",
+        "year": 2023
+      },
+      {
+        "column": "job.role.ML engineer / MLOps",
+        "kind": "multi_option",
+        "group": "job.role",
+        "option": "ML engineer / MLOps",
+        "missing_tokens": [],
+        "reason": "flags 含 multi_like，全列唯一值 ML engineer / MLOps，符合多选单选项特征。",
+        "year": 2023
+      },
+      {
+        "column": "job.role.Academic researcher",
+        "kind": "multi_option",
+        "group": "job.role",
+        "option": "Academic researcher",
+        "missing_tokens": [],
+        "reason": "flags 含 multi_like，全列唯一值 Academic researcher，符合多选单选项特征。",
+        "year": 2023
+      },
+      {
+        "column": "job.role.Data engineer",
+        "kind": "multi_option",
+        "group": "job.role",
+        "option": "Data engineer",
+        "missing_tokens": [],
+        "reason": "flags 含 multi_like，全列唯一值 Data engineer，符合多选单选项特征。",
+        "year": 2023
+      },
+      {
+        "column": "job.role.Business analyst",
+        "kind": "multi_option",
+        "group": "job.role",
+        "option": "Business analyst",
+        "missing_tokens": [],
+        "reason": "flags 含 multi_like，全列唯一值 Business analyst，符合多选单选项特征。",
+        "year": 2023
+      },
+      {
+        "column": "job.role.Team lead",
+        "kind": "multi_option",
+        "group": "job.role",
+        "option": "Team lead",
+        "missing_tokens": [],
+        "reason": "flags 含 multi_like，全列唯一值 Team lead，符合多选单选项特征。",
+        "year": 2023
+      },
+      {
+        "column": "job.role.Product manager",
+        "kind": "multi_option",
+        "group": "job.role",
+        "option": "Product manager",
+        "missing_tokens": [],
+        "reason": "flags 含 multi_like，全列唯一值 Product manager，符合多选单选项特征。",
+        "year": 2023
+      },
+      {
+        "column": "job.role.CIO / CEO / CTO",
+        "kind": "multi_option",
+        "group": "job.role",
+        "option": "CIO / CEO / CTO",
+        "missing_tokens": [],
+        "reason": "flags 含 multi_like，全列唯一值 CIO / CEO / CTO，符合多选单选项特征。",
+        "year": 2023
+      }
+    ]
+  }
+}

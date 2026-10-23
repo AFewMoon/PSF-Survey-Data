@@ -1,0 +1,21 @@
+{
+  "stage": "parity_note",
+  "model": "qwen3.5:4b",
+  "model_digest": "d8b0f5e9760cd168",
+  "prompt_version": "parity-note-v1",
+  "input_hash": "5a2084f31462409702b51152357213c8",
+  "created_at": "2026-10-23T19:39:45",
+  "duration_s": 2.83,
+  "output_tokens": 168,
+  "fallback": false,
+  "error": "",
+  "manual_edit": false,
+  "reviewed": false,
+  "payload_summary": {
+    "rule": 153,
+    "llm": 40
+  },
+  "response": {
+    "text": "两条管线在列集合上存在显著分歧，规则管线识别出大量以'ci.'开头的持续集成工具列，而 LLM 管线则补充了公司规模、雇佣状态及 Python 版本等描述性字段。这种差异主要源于规则管线对特定命名模式的严格匹配，而 LLM 管线凭借语义理解覆盖了更广泛的业务属性。在行数统计上，2021 年和 2022 年存在微小差异，其余年份数据完全一致，表明 LLM 管线在特定年份可能因语义模糊导致行数判定略有偏差。总体而言，LLM 管线在字段覆盖的丰富度上更具优势，但规则管线在结构化 CI 工具识别上更为精准，建议下游统计结合两者优势进行交叉验证。"
+  }
+}

@@ -1,0 +1,185 @@
+{
+  "stage": "clean_semantics",
+  "model": "qwen3.5:4b",
+  "model_digest": "d8b0f5e9760cd168",
+  "prompt_version": "clean-semantics-v2",
+  "input_hash": "71abdd06c0de415d2eb191a6560e0055",
+  "created_at": "2026-10-23T19:00:48",
+  "duration_s": 10.31,
+  "output_tokens": 780,
+  "fallback": false,
+  "error": "",
+  "manual_edit": false,
+  "reviewed": false,
+  "payload_summary": {
+    "year": 2023,
+    "batch": "other.frameworks.PyQT…cloud.platform.AWS",
+    "n": 18
+  },
+  "response": {
+    "columns": [
+      {
+        "column": "other.frameworks.PyQT",
+        "kind": "multi_option",
+        "group": "other.frameworks",
+        "option": "PyQT",
+        "missing_tokens": [],
+        "reason": "flags 显示全列等于选项文本，符合 multi_like",
+        "year": 2023
+      },
+      {
+        "column": "other.frameworks.PyGTK",
+        "kind": "multi_option",
+        "group": "other.frameworks",
+        "option": "PyGTK",
+        "missing_tokens": [],
+        "reason": "flags 显示全列等于选项文本，符合 multi_like",
+        "year": 2023
+      },
+      {
+        "column": "other.frameworks.wxPython",
+        "kind": "multi_option",
+        "group": "other.frameworks",
+        "option": "wxPython",
+        "missing_tokens": [],
+        "reason": "flags 显示全列等于选项文本，符合 multi_like",
+        "year": 2023
+      },
+      {
+        "column": "other.frameworks.Pillow",
+        "kind": "multi_option",
+        "group": "other.frameworks",
+        "option": "Pillow",
+        "missing_tokens": [],
+        "reason": "flags 显示全列等于选项文本，符合 multi_like",
+        "year": 2023
+      },
+      {
+        "column": "other.frameworks.Tkinter",
+        "kind": "multi_option",
+        "group": "other.frameworks",
+        "option": "Tkinter",
+        "missing_tokens": [],
+        "reason": "flags 显示全列等于选项文本，符合 multi_like",
+        "year": 2023
+      },
+      {
+        "column": "other.frameworks.Pygame",
+        "kind": "multi_option",
+        "group": "other.frameworks",
+        "option": "Pygame",
+        "missing_tokens": [],
+        "reason": "flags 显示全列等于选项文本，符合 multi_like",
+        "year": 2023
+      },
+      {
+        "column": "other.frameworks.Kivy",
+        "kind": "multi_option",
+        "group": "other.frameworks",
+        "option": "Kivy",
+        "missing_tokens": [],
+        "reason": "flags 显示全列等于选项文本，符合 multi_like",
+        "year": 2023
+      },
+      {
+        "column": "other.frameworks.Six",
+        "kind": "multi_option",
+        "group": "other.frameworks",
+        "option": "Six",
+        "missing_tokens": [],
+        "reason": "flags 显示全列等于选项文本，符合 multi_like",
+        "year": 2023
+      },
+      {
+        "column": "other.frameworks.Scrapy",
+        "kind": "multi_option",
+        "group": "other.frameworks",
+        "option": "Scrapy",
+        "missing_tokens": [],
+        "reason": "flags 显示全列等于选项文本，符合 multi_like",
+        "year": 2023
+      },
+      {
+        "column": "other.frameworks.BeautifulSoup",
+        "kind": "multi_option",
+        "group": "other.frameworks",
+        "option": "BeautifulSoup",
+        "missing_tokens": [],
+        "reason": "flags 显示全列等于选项文本，符合 multi_like",
+        "year": 2023
+      },
+      {
+        "column": "other.frameworks.OpenCV-Python",
+        "kind": "multi_option",
+        "group": "other.frameworks",
+        "option": "OpenCV-Python",
+        "missing_tokens": [],
+        "reason": "flags 显示全列等于选项文本，符合 multi_like",
+        "year": 2023
+      },
+      {
+        "column": "other.frameworks.Pydantic",
+        "kind": "multi_option",
+        "group": "other.frameworks",
+        "option": "Pydantic",
+        "missing_tokens": [],
+        "reason": "flags 显示全列等于选项文本，符合 multi_like",
+        "year": 2023
+      },
+      {
+        "column": "other.frameworks.PySide",
+        "kind": "multi_option",
+        "group": "other.frameworks",
+        "option": "PySide",
+        "missing_tokens": [],
+        "reason": "flags 显示全列等于选项文本，符合 multi_like",
+        "year": 2023
+      },
+      {
+        "column": "other.frameworks.attrs",
+        "kind": "multi_option",
+        "group": "other.frameworks",
+        "option": "attrs",
+        "missing_tokens": [],
+        "reason": "flags 显示全列等于选项文本，符合 multi_like",
+        "year": 2023
+      },
+      {
+        "column": "other.frameworks.Other",
+        "kind": "multi_option",
+        "group": "other.frameworks",
+        "option": "Other",
+        "missing_tokens": [],
+        "reason": "flags 显示全列等于选项文本，符合 multi_like",
+        "year": 2023
+      },
+      {
+        "column": "cloud.platform.None",
+        "kind": "multi_option",
+        "group": "cloud.platform",
+        "option": "None",
+        "missing_tokens": [],
+        "reason": "flags 显示全列等于选项文本，符合 multi_like",
+        "year": 2023
+      },
+      {
+        "column": "cloud.platform.Google Cloud Platform",
+        "kind": "multi_option",
+        "group": "cloud.platform",
+        "option": "Google Cloud Platform",
+        "missing_tokens": [],
+        "reason": "flags 显示全列等于选项文本，符合 multi_like",
+        "year": 2023
+      },
+      {
+        "column": "cloud.platform.AWS",
+        "kind": "multi_option",
+        "group": "cloud.platform",
+        "option": "AWS",
+        "missing_tokens": [],
+        "reason": "flags 显示全列等于选项文本，符合 multi_like",
+        "year": 2023
+      }
+    ]
+  }
+}

@@ -1,0 +1,187 @@
+{
+  "stage": "clean_semantics",
+  "model": "qwen3.5:4b",
+  "model_digest": "d8b0f5e9760cd168",
+  "prompt_version": "clean-semantics-v2",
+  "input_hash": "bb2f0eafdc910caa287e435fb1497c8b",
+  "created_at": "2026-10-23T18:33:51",
+  "duration_s": 11.07,
+  "output_tokens": 828,
+  "fallback": false,
+  "error": "",
+  "manual_edit": false,
+  "reviewed": false,
+  "payload_summary": {
+    "year": 2024,
+    "batch": "versioning.tools.DVC…bi.solutions.Metabase",
+    "n": 18
+  },
+  "response": {
+    "columns": [
+      {
+        "column": "versioning.tools.DVC",
+        "kind": "multi_option",
+        "group": "versioning.tools.DVC",
+        "option": "DVC",
+        "missing_tokens": [],
+        "reason": "全列取值恒等于列名选项，符合 multi_like",
+        "year": 2024
+      },
+      {
+        "column": "versioning.tools.Pachyderm",
+        "kind": "multi_option",
+        "group": "versioning.tools.Pachyderm",
+        "option": "Pachyderm",
+        "missing_tokens": [],
+        "reason": "全列取值恒等于列名选项，符合 multi_like",
+        "year": 2024
+      },
+      {
+        "column": "versioning.tools.Delta lake",
+        "kind": "multi_option",
+        "group": "versioning.tools.Delta lake",
+        "option": "Delta lake",
+        "missing_tokens": [],
+        "reason": "全列取值恒等于列名选项，符合 multi_like",
+        "year": 2024
+      },
+      {
+        "column": "versioning.tools.An in-house solution",
+        "kind": "multi_option",
+        "group": "versioning.tools.An in-house solution",
+        "option": "An in-house solution",
+        "missing_tokens": [],
+        "reason": "全列取值恒等于列名选项，符合 multi_like",
+        "year": 2024
+      },
+      {
+        "column": "versioning.tools.Other",
+        "kind": "multi_option",
+        "group": "versioning.tools.Other",
+        "option": "Other",
+        "missing_tokens": [],
+        "reason": "全列取值恒等于列名选项，符合 multi_like",
+        "year": 2024
+      },
+      {
+        "column": "dashboard.creation",
+        "kind": "single_choice",
+        "group": "dashboard.creation",
+        "option": "Yes",
+        "missing_tokens": [
+          "No"
+        ],
+        "reason": "非空率 70% 且仅含 Yes/No，判定为单选题，No 视为缺失",
+        "year": 2024
+      },
+      {
+        "column": "dashboard.libraries.None",
+        "kind": "multi_option",
+        "group": "dashboard.libraries.None",
+        "option": "None",
+        "missing_tokens": [],
+        "reason": "全列取值恒等于列名选项，符合 multi_like",
+        "year": 2024
+      },
+      {
+        "column": "dashboard.libraries.Plotly Dash",
+        "kind": "multi_option",
+        "group": "dashboard.libraries.Plotly Dash",
+        "option": "Plotly Dash",
+        "missing_tokens": [],
+        "reason": "全列取值恒等于列名选项，符合 multi_like",
+        "year": 2024
+      },
+      {
+        "column": "dashboard.libraries.Panel",
+        "kind": "multi_option",
+        "group": "dashboard.libraries.Panel",
+        "option": "Panel",
+        "missing_tokens": [],
+        "reason": "全列取值恒等于列名选项，符合 multi_like",
+        "year": 2024
+      },
+      {
+        "column": "dashboard.libraries.Voila",
+        "kind": "multi_option",
+        "group": "dashboard.libraries.Voila",
+        "option": "Voila",
+        "missing_tokens": [],
+        "reason": "全列取值恒等于列名选项，符合 multi_like",
+        "year": 2024
+      },
+      {
+        "column": "dashboard.libraries.Streamlit",
+        "kind": "multi_option",
+        "group": "dashboard.libraries.Streamlit",
+        "option": "Streamlit",
+        "missing_tokens": [],
+        "reason": "全列取值恒等于列名选项，符合 multi_like",
+        "year": 2024
+      },
+      {
+        "column": "dashboard.libraries.Gradio",
+        "kind": "multi_option",
+        "group": "dashboard.libraries.Gradio",
+        "option": "Gradio",
+        "missing_tokens": [],
+        "reason": "全列取值恒等于列名选项，符合 multi_like",
+        "year": 2024
+      },
+      {
+        "column": "dashboard.libraries.Tensorboard",
+        "kind": "multi_option",
+        "group": "dashboard.libraries.Tensorboard",
+        "option": "Tensorboard",
+        "missing_tokens": [],
+        "reason": "全列取值恒等于列名选项，符合 multi_like",
+        "year": 2024
+      },
+      {
+        "column": "dashboard.libraries.Other",
+        "kind": "multi_option",
+        "group": "dashboard.libraries.Other",
+        "option": "Other",
+        "missing_tokens": [],
+        "reason": "全列取值恒等于列名选项，符合 multi_like",
+        "year": 2024
+      },
+      {
+        "column": "bi.solutions.None",
+        "kind": "multi_option",
+        "group": "bi.solutions.None",
+        "option": "None",
+        "missing_tokens": [],
+        "reason": "全列取值恒等于列名选项，符合 multi_like",
+        "year": 2024
+      },
+      {
+        "column": "bi.solutions.PowerBI",
+        "kind": "multi_option",
+        "group": "bi.solutions.PowerBI",
+        "option": "PowerBI",
+        "missing_tokens": [],
+        "reason": "全列取值恒等于列名选项，符合 multi_like",
+        "year": 2024
+      },
+      {
+        "column": "bi.solutions.Tableau",
+        "kind": "multi_option",
+        "group": "bi.solutions.Tableau",
+        "option": "Tableau",
+        "missing_tokens": [],
+        "reason": "全列取值恒等于列名选项，符合 multi_like",
+        "year": 2024
+      },
+      {
+        "column": "bi.solutions.Metabase",
+        "kind": "multi_option",
+        "group": "bi.solutions.Metabase",
+        "option": "Metabase",
+        "missing_tokens": [],
+        "reason": "全列取值恒等于列名选项，符合 multi_like",
+        "year": 2024
+      }
+    ]
+  }
+}

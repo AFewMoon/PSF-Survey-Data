@@ -1,0 +1,185 @@
+{
+  "stage": "clean_semantics",
+  "model": "qwen3.5:4b",
+  "model_digest": "d8b0f5e9760cd168",
+  "prompt_version": "clean-semantics-v2",
+  "input_hash": "6ca00e182434d9dc836fc00486b25c5c",
+  "created_at": "2026-10-23T18:36:16",
+  "duration_s": 12.43,
+  "output_tokens": 949,
+  "fallback": false,
+  "error": "",
+  "manual_edit": false,
+  "reviewed": false,
+  "payload_summary": {
+    "year": 2024,
+    "batch": "ide.editor.features.Use issue trackers…dependency.tools.Pipenv",
+    "n": 18
+  },
+  "response": {
+    "columns": [
+      {
+        "column": "ide.editor.features.Use issue trackers",
+        "kind": "single_choice",
+        "group": "ide.editor.features.Use issue trackers",
+        "option": "Never orAlmost never",
+        "missing_tokens": [],
+        "reason": "flags 显示 n_unique=3 且 top 为选项，符合单选题特征",
+        "year": 2024
+      },
+      {
+        "column": "ide.editor.features.Use NoSQL databases",
+        "kind": "single_choice",
+        "group": "ide.editor.features.Use NoSQL databases",
+        "option": "Never orAlmost never",
+        "missing_tokens": [],
+        "reason": "flags 显示 n_unique=3 且 top 为选项，符合单选题特征",
+        "year": 2024
+      },
+      {
+        "column": "ide.file.edit",
+        "kind": "single_choice",
+        "group": "ide.file.edit",
+        "option": "I open the entire project that contains the file",
+        "missing_tokens": [],
+        "reason": "flags 显示 n_unique=6 且 top 为选项，符合单选题特征",
+        "year": 2024
+      },
+      {
+        "column": "nps.main.ide",
+        "kind": "numeric",
+        "group": "nps.main.ide",
+        "option": "10",
+        "missing_tokens": [],
+        "reason": "flags 显示 numeric_like，且 top 为数值 10-8-9-7-6-5",
+        "year": 2024
+      },
+      {
+        "column": "environments.isolate.venv (standard library)",
+        "kind": "multi_option",
+        "group": "environments.isolate.venv (standard library)",
+        "option": "venv (standard library)",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列取值恒等于列名中的选项文本",
+        "year": 2024
+      },
+      {
+        "column": "environments.isolate.virtualenv (Python package)",
+        "kind": "multi_option",
+        "group": "environments.isolate.virtualenv (Python package)",
+        "option": "virtualenv (Python package)",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列取值恒等于列名中的选项文本",
+        "year": 2024
+      },
+      {
+        "column": "environments.isolate.virtualenvwrapper",
+        "kind": "multi_option",
+        "group": "environments.isolate.virtualenvwrapper",
+        "option": "virtualenvwrapper",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列取值恒等于列名中的选项文本",
+        "year": 2024
+      },
+      {
+        "column": "environments.isolate.uv",
+        "kind": "multi_option",
+        "group": "environments.isolate.uv",
+        "option": "uv",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列取值恒等于列名中的选项文本",
+        "year": 2024
+      },
+      {
+        "column": "environments.isolate.Hatch",
+        "kind": "multi_option",
+        "group": "environments.isolate.Hatch",
+        "option": "Hatch",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列取值恒等于列名中的选项文本",
+        "year": 2024
+      },
+      {
+        "column": "environments.isolate.Poetry",
+        "kind": "multi_option",
+        "group": "environments.isolate.Poetry",
+        "option": "Poetry",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列取值恒等于列名中的选项文本",
+        "year": 2024
+      },
+      {
+        "column": "environments.isolate.Pipenv",
+        "kind": "multi_option",
+        "group": "environments.isolate.Pipenv",
+        "option": "Pipenv",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列取值恒等于列名中的选项文本",
+        "year": 2024
+      },
+      {
+        "column": "environments.isolate.Conda",
+        "kind": "multi_option",
+        "group": "environments.isolate.Conda",
+        "option": "Conda",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列取值恒等于列名中的选项文本",
+        "year": 2024
+      },
+      {
+        "column": "environments.isolate.I do not use any tools to isolate Python environments",
+        "kind": "multi_option",
+        "group": "environments.isolate.I do not use any tools to isolate Python environments",
+        "option": "I do not use any tools to isolate Python environ",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列取值恒等于列名中的选项文本",
+        "year": 2024
+      },
+      {
+        "column": "environments.isolate.Other",
+        "kind": "multi_option",
+        "group": "environments.isolate.Other",
+        "option": "Other",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列取值恒等于列名中的选项文本",
+        "year": 2024
+      },
+      {
+        "column": "dependency.tools.pip",
+        "kind": "multi_option",
+        "group": "dependency.tools.pip",
+        "option": "pip",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列取值恒等于列名中的选项文本",
+        "year": 2024
+      },
+      {
+        "column": "dependency.tools.uv",
+        "kind": "multi_option",
+        "group": "dependency.tools.uv",
+        "option": "uv",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列取值恒等于列名中的选项文本",
+        "year": 2024
+      },
+      {
+        "column": "dependency.tools.Conda",
+        "kind": "multi_option",
+        "group": "dependency.tools.Conda",
+        "option": "Conda",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列取值恒等于列名中的选项文本",
+        "year": 2024
+      },
+      {
+        "column": "dependency.tools.Pipenv",
+        "kind": "multi_option",
+        "group": "dependency.tools.Pipenv",
+        "option": "Pipenv",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列取值恒等于列名中的选项文本",
+        "year": 2024
+      }
+    ]
+  }
+}

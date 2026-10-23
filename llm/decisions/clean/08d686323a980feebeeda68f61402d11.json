@@ -1,0 +1,187 @@
+{
+  "stage": "clean_semantics",
+  "model": "qwen3.5:4b",
+  "model_digest": "d8b0f5e9760cd168",
+  "prompt_version": "clean-semantics-v2",
+  "input_hash": "08d686323a980feebeeda68f61402d11",
+  "created_at": "2026-10-23T18:34:02",
+  "duration_s": 11.69,
+  "output_tokens": 845,
+  "fallback": false,
+  "error": "",
+  "manual_edit": false,
+  "reviewed": false,
+  "payload_summary": {
+    "year": 2024,
+    "batch": "bi.solutions.Looker…frameworks.ml.Keras",
+    "n": 18
+  },
+  "response": {
+    "columns": [
+      {
+        "column": "bi.solutions.Looker",
+        "kind": "multi_option",
+        "group": "bi.solutions",
+        "option": "Looker",
+        "missing_tokens": [],
+        "reason": "flags 显示全列等于列名，判定为多选选项列",
+        "year": 2024
+      },
+      {
+        "column": "bi.solutions.QlikView",
+        "kind": "multi_option",
+        "group": "bi.solutions",
+        "option": "QlikView",
+        "missing_tokens": [],
+        "reason": "flags 显示全列等于列名，判定为多选选项列",
+        "year": 2024
+      },
+      {
+        "column": "bi.solutions.Domo",
+        "kind": "multi_option",
+        "group": "bi.solutions",
+        "option": "Domo",
+        "missing_tokens": [],
+        "reason": "flags 显示全列等于列名，判定为多选选项列",
+        "year": 2024
+      },
+      {
+        "column": "bi.solutions.Sisense",
+        "kind": "multi_option",
+        "group": "bi.solutions",
+        "option": "Sisense",
+        "missing_tokens": [],
+        "reason": "flags 显示全列等于列名，判定为多选选项列",
+        "year": 2024
+      },
+      {
+        "column": "bi.solutions.SAS Visual Analytics",
+        "kind": "multi_option",
+        "group": "bi.solutions",
+        "option": "SAS Visual Analytics",
+        "missing_tokens": [],
+        "reason": "flags 显示全列等于列名，判定为多选选项列",
+        "year": 2024
+      },
+      {
+        "column": "bi.solutions.MicroStrategy",
+        "kind": "multi_option",
+        "group": "bi.solutions",
+        "option": "MicroStrategy",
+        "missing_tokens": [],
+        "reason": "flags 显示全列等于列名，判定为多选选项列",
+        "year": 2024
+      },
+      {
+        "column": "bi.solutions.Zoho Analytics",
+        "kind": "multi_option",
+        "group": "bi.solutions",
+        "option": "Zoho Analytics",
+        "missing_tokens": [],
+        "reason": "flags 显示全列等于列名，判定为多选选项列",
+        "year": 2024
+      },
+      {
+        "column": "bi.solutions.Alteryx",
+        "kind": "multi_option",
+        "group": "bi.solutions",
+        "option": "Alteryx",
+        "missing_tokens": [],
+        "reason": "flags 显示全列等于列名，判定为多选选项列",
+        "year": 2024
+      },
+      {
+        "column": "bi.solutions.TIBCO Spotfire",
+        "kind": "multi_option",
+        "group": "bi.solutions",
+        "option": "TIBCO Spotfire",
+        "missing_tokens": [],
+        "reason": "flags 显示全列等于列名，判定为多选选项列",
+        "year": 2024
+      },
+      {
+        "column": "bi.solutions.Other",
+        "kind": "multi_option",
+        "group": "bi.solutions",
+        "option": "Other",
+        "missing_tokens": [],
+        "reason": "flags 显示全列等于列名，判定为多选选项列",
+        "year": 2024
+      },
+      {
+        "column": "bi.solutions.I'm not sure",
+        "kind": "multi_option",
+        "group": "bi.solutions",
+        "option": "I'm not sure",
+        "missing_tokens": [],
+        "reason": "flags 显示全列等于列名，判定为多选选项列",
+        "year": 2024
+      },
+      {
+        "column": "ml.training",
+        "kind": "multi_option",
+        "group": "ml.training",
+        "option": "Yes",
+        "missing_tokens": [
+          "No"
+        ],
+        "reason": "flags 显示仅 0/1 两种值，判定为多选选项列",
+        "year": 2024
+      },
+      {
+        "column": "frameworks.ml.None",
+        "kind": "multi_option",
+        "group": "frameworks.ml",
+        "option": "None",
+        "missing_tokens": [],
+        "reason": "flags 显示全列等于列名，判定为多选选项列",
+        "year": 2024
+      },
+      {
+        "column": "frameworks.ml.PyTorch",
+        "kind": "multi_option",
+        "group": "frameworks.ml",
+        "option": "PyTorch",
+        "missing_tokens": [],
+        "reason": "flags 显示全列等于列名，判定为多选选项列",
+        "year": 2024
+      },
+      {
+        "column": "frameworks.ml.PyTorch Lightning",
+        "kind": "multi_option",
+        "group": "frameworks.ml",
+        "option": "PyTorch Lightning",
+        "missing_tokens": [],
+        "reason": "flags 显示全列等于列名，判定为多选选项列",
+        "year": 2024
+      },
+      {
+        "column": "frameworks.ml.Huggingface Transformers",
+        "kind": "multi_option",
+        "group": "frameworks.ml",
+        "option": "Huggingface Transformers",
+        "missing_tokens": [],
+        "reason": "flags 显示全列等于列名，判定为多选选项列",
+        "year": 2024
+      },
+      {
+        "column": "frameworks.ml.TensorFlow",
+        "kind": "multi_option",
+        "group": "frameworks.ml",
+        "option": "TensorFlow",
+        "missing_tokens": [],
+        "reason": "flags 显示全列等于列名，判定为多选选项列",
+        "year": 2024
+      },
+      {
+        "column": "frameworks.ml.Keras",
+        "kind": "multi_option",
+        "group": "frameworks.ml",
+        "option": "Keras",
+        "missing_tokens": [],
+        "reason": "flags 显示全列等于列名，判定为多选选项列",
+        "year": 2024
+      }
+    ]
+  }
+}

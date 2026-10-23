@@ -1,0 +1,185 @@
+{
+  "stage": "clean_semantics",
+  "model": "qwen3.5:4b",
+  "model_digest": "d8b0f5e9760cd168",
+  "prompt_version": "clean-semantics-v2",
+  "input_hash": "a79daaf638d5b47fae908e0fb11be8d2",
+  "created_at": "2026-10-23T18:52:01",
+  "duration_s": 11.79,
+  "output_tokens": 901,
+  "fallback": false,
+  "error": "",
+  "manual_edit": false,
+  "reviewed": false,
+  "payload_summary": {
+    "year": 2021,
+    "batch": "run.in.cloud.In virtual machines…devenv.os.Other",
+    "n": 18
+  },
+  "response": {
+    "columns": [
+      {
+        "column": "run.in.cloud.In virtual machines",
+        "kind": "multi_option",
+        "group": "run.in.cloud",
+        "option": "In virtual machines",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列取值恒等于列名选项",
+        "year": 2021
+      },
+      {
+        "column": "run.in.cloud.Within containers",
+        "kind": "multi_option",
+        "group": "run.in.cloud",
+        "option": "Within containers",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列取值恒等于列名选项",
+        "year": 2021
+      },
+      {
+        "column": "run.in.cloud.On a Platform-as-a-Service (such as Heroku or Google App Engine)",
+        "kind": "multi_option",
+        "group": "run.in.cloud",
+        "option": "On a Platform-as-a-Service (such as Heroku or Google App Engine)",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列取值恒等于列名选项",
+        "year": 2021
+      },
+      {
+        "column": "run.in.cloud.Serverless (such as AWS Lambda or Cloud Functions)",
+        "kind": "multi_option",
+        "group": "run.in.cloud",
+        "option": "Serverless (such as AWS Lambda or Cloud Functions)",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列取值恒等于列名选项",
+        "year": 2021
+      },
+      {
+        "column": "run.in.cloud.Other",
+        "kind": "multi_option",
+        "group": "run.in.cloud",
+        "option": "Other",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列取值恒等于列名选项",
+        "year": 2021
+      },
+      {
+        "column": "develop.for.cloud.None of the following",
+        "kind": "multi_option",
+        "group": "develop.for.cloud",
+        "option": "None of the following",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列取值恒等于列名选项",
+        "year": 2021
+      },
+      {
+        "column": "develop.for.cloud.With local system interpreter",
+        "kind": "multi_option",
+        "group": "develop.for.cloud",
+        "option": "With local system interpreter",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列取值恒等于列名选项",
+        "year": 2021
+      },
+      {
+        "column": "develop.for.cloud.Locally with virtualenv (or similar)",
+        "kind": "multi_option",
+        "group": "develop.for.cloud",
+        "option": "Locally with virtualenv (or similar)",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列取值恒等于列名选项",
+        "year": 2021
+      },
+      {
+        "column": "develop.for.cloud.In Docker containers",
+        "kind": "multi_option",
+        "group": "develop.for.cloud",
+        "option": "In Docker containers",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列取值恒等于列名选项",
+        "year": 2021
+      },
+      {
+        "column": "develop.for.cloud.In virtual machines",
+        "kind": "multi_option",
+        "group": "develop.for.cloud",
+        "option": "In virtual machines",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列取值恒等于列名选项",
+        "year": 2021
+      },
+      {
+        "column": "develop.for.cloud.In remote development environments",
+        "kind": "multi_option",
+        "group": "develop.for.cloud",
+        "option": "In remote development environments",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列取值恒等于列名选项",
+        "year": 2021
+      },
+      {
+        "column": "develop.for.cloud.Directly in the production environment",
+        "kind": "multi_option",
+        "group": "develop.for.cloud",
+        "option": "Directly in the production environment",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列取值恒等于列名选项",
+        "year": 2021
+      },
+      {
+        "column": "develop.for.cloud.Other",
+        "kind": "multi_option",
+        "group": "develop.for.cloud",
+        "option": "Other",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列取值恒等于列名选项",
+        "year": 2021
+      },
+      {
+        "column": "devenv.os.Windows",
+        "kind": "multi_option",
+        "group": "devenv.os",
+        "option": "Windows",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列取值恒等于列名选项",
+        "year": 2021
+      },
+      {
+        "column": "devenv.os.Linux",
+        "kind": "multi_option",
+        "group": "devenv.os",
+        "option": "Linux",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列取值恒等于列名选项",
+        "year": 2021
+      },
+      {
+        "column": "devenv.os.macOS",
+        "kind": "multi_option",
+        "group": "devenv.os",
+        "option": "macOS",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列取值恒等于列名选项",
+        "year": 2021
+      },
+      {
+        "column": "devenv.os.BSD",
+        "kind": "multi_option",
+        "group": "devenv.os",
+        "option": "BSD",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列取值恒等于列名选项",
+        "year": 2021
+      },
+      {
+        "column": "devenv.os.Other",
+        "kind": "multi_option",
+        "group": "devenv.os",
+        "option": "Other",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列取值恒等于列名选项",
+        "year": 2021
+      }
+    ]
+  }
+}

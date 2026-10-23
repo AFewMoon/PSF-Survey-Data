@@ -1,0 +1,185 @@
+{
+  "stage": "clean_semantics",
+  "model": "qwen3.5:4b",
+  "model_digest": "d8b0f5e9760cd168",
+  "prompt_version": "clean-semantics-v2",
+  "input_hash": "f0d946ec1400224dfd80db0188c22b0c",
+  "created_at": "2026-10-23T19:00:38",
+  "duration_s": 10.7,
+  "output_tokens": 808,
+  "fallback": false,
+  "error": "",
+  "manual_edit": false,
+  "reviewed": false,
+  "payload_summary": {
+    "year": 2023,
+    "batch": "web.frameworks.aiohttp…other.frameworks.None",
+    "n": 18
+  },
+  "response": {
+    "columns": [
+      {
+        "column": "web.frameworks.aiohttp",
+        "kind": "multi_option",
+        "group": "web.frameworks.aiohttp",
+        "option": "aiohttp",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值恒为选项名",
+        "year": 2023
+      },
+      {
+        "column": "web.frameworks.httpx",
+        "kind": "multi_option",
+        "group": "web.frameworks.httpx",
+        "option": "httpx",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值恒为选项名",
+        "year": 2023
+      },
+      {
+        "column": "web.frameworks.Streamlit",
+        "kind": "multi_option",
+        "group": "web.frameworks.Streamlit",
+        "option": "Streamlit",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值恒为选项名",
+        "year": 2023
+      },
+      {
+        "column": "web.frameworks.Starlette",
+        "kind": "multi_option",
+        "group": "web.frameworks.Starlette",
+        "option": "Starlette",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值恒为选项名",
+        "year": 2023
+      },
+      {
+        "column": "web.frameworks.Quart",
+        "kind": "multi_option",
+        "group": "web.frameworks.Quart",
+        "option": "Quart",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值恒为选项名",
+        "year": 2023
+      },
+      {
+        "column": "web.frameworks.Twisted",
+        "kind": "multi_option",
+        "group": "web.frameworks.Twisted",
+        "option": "Twisted",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值恒为选项名",
+        "year": 2023
+      },
+      {
+        "column": "web.frameworks.Asyncio",
+        "kind": "multi_option",
+        "group": "web.frameworks.Asyncio",
+        "option": "Asyncio",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值恒为选项名",
+        "year": 2023
+      },
+      {
+        "column": "web.frameworks.Other",
+        "kind": "multi_option",
+        "group": "web.frameworks.Other",
+        "option": "Other",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值恒为选项名",
+        "year": 2023
+      },
+      {
+        "column": "unittesting.None",
+        "kind": "multi_option",
+        "group": "unittesting.None",
+        "option": "None",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值恒为选项名",
+        "year": 2023
+      },
+      {
+        "column": "unittesting.pytest",
+        "kind": "multi_option",
+        "group": "unittesting.pytest",
+        "option": "pytest",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值恒为选项名",
+        "year": 2023
+      },
+      {
+        "column": "unittesting.nose",
+        "kind": "multi_option",
+        "group": "unittesting.nose",
+        "option": "nose",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值恒为选项名",
+        "year": 2023
+      },
+      {
+        "column": "unittesting.unittest",
+        "kind": "multi_option",
+        "group": "unittesting.unittest",
+        "option": "unittest",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值恒为选项名",
+        "year": 2023
+      },
+      {
+        "column": "unittesting.doctest",
+        "kind": "multi_option",
+        "group": "unittesting.doctest",
+        "option": "doctest",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值恒为选项名",
+        "year": 2023
+      },
+      {
+        "column": "unittesting.tox",
+        "kind": "multi_option",
+        "group": "unittesting.tox",
+        "option": "tox",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值恒为选项名",
+        "year": 2023
+      },
+      {
+        "column": "unittesting.Hypothesis",
+        "kind": "multi_option",
+        "group": "unittesting.Hypothesis",
+        "option": "Hypothesis",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值恒为选项名",
+        "year": 2023
+      },
+      {
+        "column": "unittesting.mock",
+        "kind": "multi_option",
+        "group": "unittesting.mock",
+        "option": "mock",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值恒为选项名",
+        "year": 2023
+      },
+      {
+        "column": "unittesting.Other",
+        "kind": "multi_option",
+        "group": "unittesting.Other",
+        "option": "Other",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值恒为选项名",
+        "year": 2023
+      },
+      {
+        "column": "other.frameworks.None",
+        "kind": "multi_option",
+        "group": "other.frameworks.None",
+        "option": "None",
+        "missing_tokens": [],
+        "reason": "flags 显示 multi_like，全列值恒为选项名",
+        "year": 2023
+      }
+    ]
+  }
+}

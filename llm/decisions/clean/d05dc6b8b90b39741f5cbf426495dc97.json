@@ -1,0 +1,185 @@
+{
+  "stage": "clean_semantics",
+  "model": "qwen3.5:4b",
+  "model_digest": "d8b0f5e9760cd168",
+  "prompt_version": "clean-semantics-v2",
+  "input_hash": "d05dc6b8b90b39741f5cbf426495dc97",
+  "created_at": "2026-10-23T19:03:02",
+  "duration_s": 10.21,
+  "output_tokens": 784,
+  "fallback": false,
+  "error": "",
+  "manual_edit": false,
+  "reviewed": false,
+  "payload_summary": {
+    "year": 2023,
+    "batch": "ide.editor.Other…ide.editor.Nano",
+    "n": 18
+  },
+  "response": {
+    "columns": [
+      {
+        "column": "ide.editor.Other",
+        "kind": "multi_option",
+        "group": "ide.editor",
+        "option": "Other",
+        "missing_tokens": [],
+        "reason": "全列值等于列名，符合 multi_like 特征",
+        "year": 2023
+      },
+      {
+        "column": "ide.editor.PyCharm Community Edition",
+        "kind": "multi_option",
+        "group": "ide.editor",
+        "option": "PyCharm Community Edition",
+        "missing_tokens": [],
+        "reason": "全列值等于列名，符合 multi_like 特征",
+        "year": 2023
+      },
+      {
+        "column": "ide.editor.Sublime Text",
+        "kind": "multi_option",
+        "group": "ide.editor",
+        "option": "Sublime Text",
+        "missing_tokens": [],
+        "reason": "全列值等于列名，符合 multi_like 特征",
+        "year": 2023
+      },
+      {
+        "column": "ide.editor.Vim",
+        "kind": "multi_option",
+        "group": "ide.editor",
+        "option": "Vim",
+        "missing_tokens": [],
+        "reason": "全列值等于列名，符合 multi_like 特征",
+        "year": 2023
+      },
+      {
+        "column": "ide.editor.Atom",
+        "kind": "multi_option",
+        "group": "ide.editor",
+        "option": "Atom",
+        "missing_tokens": [],
+        "reason": "全列值等于列名，符合 multi_like 特征",
+        "year": 2023
+      },
+      {
+        "column": "ide.editor.Visual Studio Code",
+        "kind": "multi_option",
+        "group": "ide.editor",
+        "option": "Visual Studio Code",
+        "missing_tokens": [],
+        "reason": "全列值等于列名，符合 multi_like 特征",
+        "year": 2023
+      },
+      {
+        "column": "ide.editor.Eclipse with PyDev",
+        "kind": "multi_option",
+        "group": "ide.editor",
+        "option": "Eclipse with PyDev",
+        "missing_tokens": [],
+        "reason": "全列值等于列名，符合 multi_like 特征",
+        "year": 2023
+      },
+      {
+        "column": "ide.editor.JupyterLab",
+        "kind": "multi_option",
+        "group": "ide.editor",
+        "option": "JupyterLab",
+        "missing_tokens": [],
+        "reason": "全列值等于列名，符合 multi_like 特征",
+        "year": 2023
+      },
+      {
+        "column": "ide.editor.Jupyter Notebook",
+        "kind": "multi_option",
+        "group": "ide.editor",
+        "option": "Jupyter Notebook",
+        "missing_tokens": [],
+        "reason": "全列值等于列名，符合 multi_like 特征",
+        "year": 2023
+      },
+      {
+        "column": "ide.editor.IntelliJ IDEA",
+        "kind": "multi_option",
+        "group": "ide.editor",
+        "option": "IntelliJ IDEA",
+        "missing_tokens": [],
+        "reason": "全列值等于列名，符合 multi_like 特征",
+        "year": 2023
+      },
+      {
+        "column": "ide.editor.NotePad++",
+        "kind": "multi_option",
+        "group": "ide.editor",
+        "option": "NotePad++",
+        "missing_tokens": [],
+        "reason": "全列值等于列名，符合 multi_like 特征",
+        "year": 2023
+      },
+      {
+        "column": "ide.editor.IDLE",
+        "kind": "multi_option",
+        "group": "ide.editor",
+        "option": "IDLE",
+        "missing_tokens": [],
+        "reason": "全列值等于列名，符合 multi_like 特征",
+        "year": 2023
+      },
+      {
+        "column": "ide.editor.Emacs",
+        "kind": "multi_option",
+        "group": "ide.editor",
+        "option": "Emacs",
+        "missing_tokens": [],
+        "reason": "全列值等于列名，符合 multi_like 特征",
+        "year": 2023
+      },
+      {
+        "column": "ide.editor.Python Tools for Visual Studio (PTVS)",
+        "kind": "multi_option",
+        "group": "ide.editor",
+        "option": "Python Tools for Visual Studio (PTVS)",
+        "missing_tokens": [],
+        "reason": "全列值等于列名，符合 multi_like 特征",
+        "year": 2023
+      },
+      {
+        "column": "ide.editor.DataSpell",
+        "kind": "multi_option",
+        "group": "ide.editor",
+        "option": "DataSpell",
+        "missing_tokens": [],
+        "reason": "全列值等于列名，符合 multi_like 特征",
+        "year": 2023
+      },
+      {
+        "column": "ide.editor.Spyder",
+        "kind": "multi_option",
+        "group": "ide.editor",
+        "option": "Spyder",
+        "missing_tokens": [],
+        "reason": "全列值等于列名，符合 multi_like 特征",
+        "year": 2023
+      },
+      {
+        "column": "ide.editor.Neovim",
+        "kind": "multi_option",
+        "group": "ide.editor",
+        "option": "Neovim",
+        "missing_tokens": [],
+        "reason": "全列值等于列名，符合 multi_like 特征",
+        "year": 2023
+      },
+      {
+        "column": "ide.editor.Nano",
+        "kind": "multi_option",
+        "group": "ide.editor",
+        "option": "Nano",
+        "missing_tokens": [],
+        "reason": "全列值等于列名，符合 multi_like 特征",
+        "year": 2023
+      }
+    ]
+  }
+}

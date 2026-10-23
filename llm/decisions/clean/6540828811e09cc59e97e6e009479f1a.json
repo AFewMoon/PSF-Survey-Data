@@ -1,0 +1,131 @@
+{
+  "stage": "clean_semantics",
+  "model": "qwen3.5:4b",
+  "model_digest": "d8b0f5e9760cd168",
+  "prompt_version": "clean-semantics-v2",
+  "input_hash": "6540828811e09cc59e97e6e009479f1a",
+  "created_at": "2026-10-23T18:48:19",
+  "duration_s": 7.14,
+  "output_tokens": 523,
+  "fallback": false,
+  "error": "",
+  "manual_edit": false,
+  "reviewed": false,
+  "payload_summary": {
+    "year": 2020,
+    "batch": "job.role.Developer / Programmer…country.live",
+    "n": 12
+  },
+  "response": {
+    "columns": [
+      {
+        "column": "job.role.Developer / Programmer",
+        "kind": "multi_option",
+        "group": "job.role",
+        "option": "Developer / Programmer",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列值等于列名选项",
+        "year": 2020
+      },
+      {
+        "column": "job.role.Technical writer",
+        "kind": "multi_option",
+        "group": "job.role",
+        "option": "Technical writer",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列值等于列名选项",
+        "year": 2020
+      },
+      {
+        "column": "job.role.Technical support",
+        "kind": "multi_option",
+        "group": "job.role",
+        "option": "Technical support",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列值等于列名选项",
+        "year": 2020
+      },
+      {
+        "column": "job.role.Data analyst",
+        "kind": "multi_option",
+        "group": "job.role",
+        "option": "Data analyst",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列值等于列名选项",
+        "year": 2020
+      },
+      {
+        "column": "job.role.Business analyst",
+        "kind": "multi_option",
+        "group": "job.role",
+        "option": "Business analyst",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列值等于列名选项",
+        "year": 2020
+      },
+      {
+        "column": "job.role.Team lead",
+        "kind": "multi_option",
+        "group": "job.role",
+        "option": "Team lead",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列值等于列名选项",
+        "year": 2020
+      },
+      {
+        "column": "job.role.Product manager",
+        "kind": "multi_option",
+        "group": "job.role",
+        "option": "Product manager",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列值等于列名选项",
+        "year": 2020
+      },
+      {
+        "column": "job.role.CIO / CEO / CTO",
+        "kind": "multi_option",
+        "group": "job.role",
+        "option": "CIO / CEO / CTO",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列值等于列名选项",
+        "year": 2020
+      },
+      {
+        "column": "job.role.Systems analyst",
+        "kind": "multi_option",
+        "group": "job.role",
+        "option": "Systems analyst",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列值等于列名选项",
+        "year": 2020
+      },
+      {
+        "column": "job.role.Other",
+        "kind": "multi_option",
+        "group": "job.role",
+        "option": "Other",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列值等于列名选项",
+        "year": 2020
+      },
+      {
+        "column": "age",
+        "kind": "multi_option",
+        "group": "age",
+        "option": "21–29",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列值等于列名选项",
+        "year": 2020
+      },
+      {
+        "column": "country.live",
+        "kind": "multi_option",
+        "group": "country.live",
+        "option": "United States",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列值等于列名选项",
+        "year": 2020
+      }
+    ]
+  }
+}

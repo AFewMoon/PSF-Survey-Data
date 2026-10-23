@@ -1,0 +1,185 @@
+{
+  "stage": "clean_semantics",
+  "model": "qwen3.5:4b",
+  "model_digest": "d8b0f5e9760cd168",
+  "prompt_version": "clean-semantics-v2",
+  "input_hash": "a2f8697877bc1fedaf90617cb759ba53",
+  "created_at": "2026-10-23T18:31:47",
+  "duration_s": 11.79,
+  "output_tokens": 903,
+  "fallback": false,
+  "error": "",
+  "manual_edit": false,
+  "reviewed": false,
+  "payload_summary": {
+    "year": 2024,
+    "batch": "other.purposes.DevOps / systems administration / writing automation scripts…how.involved.DevOps / systems administration / writing automation scripts",
+    "n": 18
+  },
+  "response": {
+    "columns": [
+      {
+        "column": "other.purposes.DevOps / systems administration / writing automation scripts",
+        "kind": "multi_option",
+        "group": "other.purposes",
+        "option": "DevOps / systems administration / writing automation scripts",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列值等于列名",
+        "year": 2024
+      },
+      {
+        "column": "other.purposes.Software testing / Writing automated tests",
+        "kind": "multi_option",
+        "group": "other.purposes",
+        "option": "Software testing / Writing automated tests",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列值等于列名",
+        "year": 2024
+      },
+      {
+        "column": "other.purposes.Software prototyping",
+        "kind": "multi_option",
+        "group": "other.purposes",
+        "option": "Software prototyping",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列值等于列名",
+        "year": 2024
+      },
+      {
+        "column": "other.purposes.Web development",
+        "kind": "multi_option",
+        "group": "other.purposes",
+        "option": "Web development",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列值等于列名",
+        "year": 2024
+      },
+      {
+        "column": "other.purposes.Machine learning",
+        "kind": "multi_option",
+        "group": "other.purposes",
+        "option": "Machine learning",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列值等于列名",
+        "year": 2024
+      },
+      {
+        "column": "other.purposes.Mobile development",
+        "kind": "multi_option",
+        "group": "other.purposes",
+        "option": "Mobile development",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列值等于列名",
+        "year": 2024
+      },
+      {
+        "column": "other.purposes.Desktop development",
+        "kind": "multi_option",
+        "group": "other.purposes",
+        "option": "Desktop development",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列值等于列名",
+        "year": 2024
+      },
+      {
+        "column": "other.purposes.Computer graphics",
+        "kind": "multi_option",
+        "group": "other.purposes",
+        "option": "Computer graphics",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列值等于列名",
+        "year": 2024
+      },
+      {
+        "column": "other.purposes.Network programming",
+        "kind": "multi_option",
+        "group": "other.purposes",
+        "option": "Network programming",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列值等于列名",
+        "year": 2024
+      },
+      {
+        "column": "other.purposes.Game development",
+        "kind": "multi_option",
+        "group": "other.purposes",
+        "option": "Game development",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列值等于列名",
+        "year": 2024
+      },
+      {
+        "column": "other.purposes.Multimedia applications development (apps handling various types of multimedia content, e_g_ audio, graphics, etc_)",
+        "kind": "multi_option",
+        "group": "other.purposes",
+        "option": "Multimedia applications development (apps handling various types of multimedia content, e_g_ audio, graphics, etc_)",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列值等于列名",
+        "year": 2024
+      },
+      {
+        "column": "other.purposes.Embedded development",
+        "kind": "multi_option",
+        "group": "other.purposes",
+        "option": "Embedded development",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列值等于列名",
+        "year": 2024
+      },
+      {
+        "column": "other.purposes.Programming of web parsers / scrapers / crawlers",
+        "kind": "multi_option",
+        "group": "other.purposes",
+        "option": "Programming of web parsers / scrapers / crawlers",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列值等于列名",
+        "year": 2024
+      },
+      {
+        "column": "other.purposes.Other",
+        "kind": "multi_option",
+        "group": "other.purposes",
+        "option": "Other",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列值等于列名",
+        "year": 2024
+      },
+      {
+        "column": "use.python.most",
+        "kind": "free_text",
+        "group": "use.python",
+        "option": "",
+        "missing_tokens": [],
+        "reason": "多值列且非程度网格，视为自由文本",
+        "year": 2024
+      },
+      {
+        "column": "how.involved.Educational purposes",
+        "kind": "multi_level",
+        "group": "how.involved",
+        "option": "Educational purposes : primary activity",
+        "missing_tokens": [],
+        "reason": "flags 为 level_like，含程度标识",
+        "year": 2024
+      },
+      {
+        "column": "how.involved.Data analysis",
+        "kind": "multi_level",
+        "group": "how.involved",
+        "option": "Data analysis : primary activity",
+        "missing_tokens": [],
+        "reason": "flags 为 level_like，含程度标识",
+        "year": 2024
+      },
+      {
+        "column": "how.involved.DevOps / systems administration / writing automation scripts",
+        "kind": "multi_level",
+        "group": "how.involved",
+        "option": "DevOps / systems administration / writing automation scripts : primary activity",
+        "missing_tokens": [],
+        "reason": "flags 为 level_like，含程度标识",
+        "year": 2024
+      }
+    ]
+  }
+}

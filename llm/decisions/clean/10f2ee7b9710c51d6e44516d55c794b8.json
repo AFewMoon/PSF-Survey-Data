@@ -1,0 +1,185 @@
+{
+  "stage": "clean_semantics",
+  "model": "qwen3.5:4b",
+  "model_digest": "d8b0f5e9760cd168",
+  "prompt_version": "clean-semantics-v2",
+  "input_hash": "10f2ee7b9710c51d6e44516d55c794b8",
+  "created_at": "2026-10-23T19:02:42",
+  "duration_s": 10.4,
+  "output_tokens": 770,
+  "fallback": false,
+  "error": "",
+  "manual_edit": false,
+  "reviewed": false,
+  "payload_summary": {
+    "year": 2023,
+    "batch": "ci.CruiseControl…documentation.tool.None",
+    "n": 18
+  },
+  "response": {
+    "columns": [
+      {
+        "column": "ci.CruiseControl",
+        "kind": "multi_option",
+        "group": "ci.CruiseControl",
+        "option": "CruiseControl",
+        "missing_tokens": [],
+        "reason": "全列值等于列名，符合 multi_like 特征",
+        "year": 2023
+      },
+      {
+        "column": "ci.GitHub Actions",
+        "kind": "multi_option",
+        "group": "ci.GitHub Actions",
+        "option": "GitHub Actions",
+        "missing_tokens": [],
+        "reason": "全列值等于列名，符合 multi_like 特征",
+        "year": 2023
+      },
+      {
+        "column": "ci.Gitlab CI",
+        "kind": "multi_option",
+        "group": "ci.Gitlab CI",
+        "option": "Gitlab CI",
+        "missing_tokens": [],
+        "reason": "全列值等于列名，符合 multi_like 特征",
+        "year": 2023
+      },
+      {
+        "column": "ci.Google Cloud Build",
+        "kind": "multi_option",
+        "group": "ci.Google Cloud Build",
+        "option": "Google Cloud Build",
+        "missing_tokens": [],
+        "reason": "全列值等于列名，符合 multi_like 特征",
+        "year": 2023
+      },
+      {
+        "column": "ci.Jenkins / Hudson",
+        "kind": "multi_option",
+        "group": "ci.Jenkins / Hudson",
+        "option": "Jenkins / Hudson",
+        "missing_tokens": [],
+        "reason": "全列值等于列名，符合 multi_like 特征",
+        "year": 2023
+      },
+      {
+        "column": "ci.JetBrains Space",
+        "kind": "multi_option",
+        "group": "ci.JetBrains Space",
+        "option": "JetBrains Space",
+        "missing_tokens": [],
+        "reason": "全列值等于列名，符合 multi_like 特征",
+        "year": 2023
+      },
+      {
+        "column": "ci.TeamCity",
+        "kind": "multi_option",
+        "group": "ci.TeamCity",
+        "option": "TeamCity",
+        "missing_tokens": [],
+        "reason": "全列值等于列名，符合 multi_like 特征",
+        "year": 2023
+      },
+      {
+        "column": "ci.Travis CI",
+        "kind": "multi_option",
+        "group": "ci.Travis CI",
+        "option": "Travis CI",
+        "missing_tokens": [],
+        "reason": "全列值等于列名，符合 multi_like 特征",
+        "year": 2023
+      },
+      {
+        "column": "ci.A custom tool",
+        "kind": "multi_option",
+        "group": "ci.A custom tool",
+        "option": "A custom tool",
+        "missing_tokens": [],
+        "reason": "全列值等于列名，符合 multi_like 特征",
+        "year": 2023
+      },
+      {
+        "column": "ci.Other",
+        "kind": "multi_option",
+        "group": "ci.Other",
+        "option": "Other",
+        "missing_tokens": [],
+        "reason": "全列值等于列名，符合 multi_like 特征",
+        "year": 2023
+      },
+      {
+        "column": "configuration.management.None",
+        "kind": "multi_option",
+        "group": "configuration.management",
+        "option": "None",
+        "missing_tokens": [],
+        "reason": "全列值等于列名，符合 multi_like 特征",
+        "year": 2023
+      },
+      {
+        "column": "configuration.management.Salt",
+        "kind": "multi_option",
+        "group": "configuration.management",
+        "option": "Salt",
+        "missing_tokens": [],
+        "reason": "全列值等于列名，符合 multi_like 特征",
+        "year": 2023
+      },
+      {
+        "column": "configuration.management.Puppet",
+        "kind": "multi_option",
+        "group": "configuration.management",
+        "option": "Puppet",
+        "missing_tokens": [],
+        "reason": "全列值等于列名，符合 multi_like 特征",
+        "year": 2023
+      },
+      {
+        "column": "configuration.management.Chef",
+        "kind": "multi_option",
+        "group": "configuration.management",
+        "option": "Chef",
+        "missing_tokens": [],
+        "reason": "全列值等于列名，符合 multi_like 特征",
+        "year": 2023
+      },
+      {
+        "column": "configuration.management.Ansible",
+        "kind": "multi_option",
+        "group": "configuration.management",
+        "option": "Ansible",
+        "missing_tokens": [],
+        "reason": "全列值等于列名，符合 multi_like 特征",
+        "year": 2023
+      },
+      {
+        "column": "configuration.management.A custom solution",
+        "kind": "multi_option",
+        "group": "configuration.management",
+        "option": "A custom solution",
+        "missing_tokens": [],
+        "reason": "全列值等于列名，符合 multi_like 特征",
+        "year": 2023
+      },
+      {
+        "column": "configuration.management.Other",
+        "kind": "multi_option",
+        "group": "configuration.management",
+        "option": "Other",
+        "missing_tokens": [],
+        "reason": "全列值等于列名，符合 multi_like 特征",
+        "year": 2023
+      },
+      {
+        "column": "documentation.tool.None",
+        "kind": "multi_option",
+        "group": "documentation.tool",
+        "option": "None",
+        "missing_tokens": [],
+        "reason": "全列值等于列名，符合 multi_like 特征",
+        "year": 2023
+      }
+    ]
+  }
+}

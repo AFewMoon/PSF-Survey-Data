@@ -1,0 +1,219 @@
+{
+  "stage": "clean_semantics",
+  "model": "qwen3.5:4b",
+  "model_digest": "d8b0f5e9760cd168",
+  "prompt_version": "clean-semantics-v2",
+  "input_hash": "f7587f973dbd0e3159929abda27bb591",
+  "created_at": "2026-10-23T18:43:43",
+  "duration_s": 13.11,
+  "output_tokens": 972,
+  "fallback": false,
+  "error": "",
+  "manual_edit": false,
+  "reviewed": false,
+  "payload_summary": {
+    "year": 2019,
+    "batch": "Travis CI:Which Continuous Integration (CI) system(s) do you regularly use?…JupyterLab:What editors/IDEs do you use for Python development in addition to your primary IDE?",
+    "n": 18
+  },
+  "response": {
+    "columns": [
+      {
+        "column": "Travis CI:Which Continuous Integration (CI) system(s) do you regularly use?",
+        "kind": "multi_option",
+        "group": "ide.ci",
+        "option": "Travis CI",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "flags 显示全列恒等于选项文本",
+        "year": 2019
+      },
+      {
+        "column": "Ansible:Which configuration management tools do you use, if any?",
+        "kind": "multi_option",
+        "group": "frameworks.cm",
+        "option": "Ansible",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "flags 显示全列恒等于选项文本",
+        "year": 2019
+      },
+      {
+        "column": "Chef:Which configuration management tools do you use, if any?",
+        "kind": "multi_option",
+        "group": "frameworks.cm",
+        "option": "Chef",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "flags 显示全列恒等于选项文本",
+        "year": 2019
+      },
+      {
+        "column": "Custom solution:Which configuration management tools do you use, if any?",
+        "kind": "multi_option",
+        "group": "frameworks.cm",
+        "option": "Custom solution",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "flags 显示全列恒等于选项文本",
+        "year": 2019
+      },
+      {
+        "column": "None:Which configuration management tools do you use, if any?",
+        "kind": "multi_option",
+        "group": "frameworks.cm",
+        "option": "None",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "flags 显示全列恒等于选项文本",
+        "year": 2019
+      },
+      {
+        "column": "Other – Write In::Which configuration management tools do you use, if any?",
+        "kind": "free_text",
+        "group": "frameworks.cm",
+        "option": "",
+        "missing_tokens": [],
+        "reason": "flags 显示为自由文本结构，非固定选项",
+        "year": 2019
+      },
+      {
+        "column": "Puppet:Which configuration management tools do you use, if any?",
+        "kind": "multi_option",
+        "group": "frameworks.cm",
+        "option": "Puppet",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "flags 显示全列恒等于选项文本",
+        "year": 2019
+      },
+      {
+        "column": "Salt:Which configuration management tools do you use, if any?",
+        "kind": "multi_option",
+        "group": "frameworks.cm",
+        "option": "Salt",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "flags 显示全列恒等于选项文本",
+        "year": 2019
+      },
+      {
+        "column": "What is the main editor you use for your current Python development?",
+        "kind": "single_choice",
+        "group": "ide.editor",
+        "option": "",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "单选题，列名即题目，n_unique 高值符合单选分布",
+        "year": 2019
+      },
+      {
+        "column": "Aptana:What editors/IDEs do you use for Python development in addition to your primary IDE?",
+        "kind": "multi_option",
+        "group": "ide.editor",
+        "option": "Aptana",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "flags 显示全列恒等于选项文本",
+        "year": 2019
+      },
+      {
+        "column": "Atom:What editors/IDEs do you use for Python development in addition to your primary IDE?",
+        "kind": "multi_option",
+        "group": "ide.editor",
+        "option": "Atom",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "flags 显示全列恒等于选项文本",
+        "year": 2019
+      },
+      {
+        "column": "Eclipse + Pydev:What editors/IDEs do you use for Python development in addition to your primary IDE?",
+        "kind": "multi_option",
+        "group": "ide.editor",
+        "option": "Eclipse + Pydev",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "flags 显示全列恒等于选项文本",
+        "year": 2019
+      },
+      {
+        "column": "Emacs:What editors/IDEs do you use for Python development in addition to your primary IDE?",
+        "kind": "multi_option",
+        "group": "ide.editor",
+        "option": "Emacs",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "flags 显示全列恒等于选项文本",
+        "year": 2019
+      },
+      {
+        "column": "Gedit:What editors/IDEs do you use for Python development in addition to your primary IDE?",
+        "kind": "multi_option",
+        "group": "ide.editor",
+        "option": "Gedit",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "flags 显示全列恒等于选项文本",
+        "year": 2019
+      },
+      {
+        "column": "IDLE:What editors/IDEs do you use for Python development in addition to your primary IDE?",
+        "kind": "multi_option",
+        "group": "ide.editor",
+        "option": "IDLE",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "flags 显示全列恒等于选项文本",
+        "year": 2019
+      },
+      {
+        "column": "IntelliJ IDEA:What editors/IDEs do you use for Python development in addition to your primary IDE?",
+        "kind": "multi_option",
+        "group": "ide.editor",
+        "option": "IntelliJ IDEA",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "flags 显示全列恒等于选项文本",
+        "year": 2019
+      },
+      {
+        "column": "Jupyter Notebook:What editors/IDEs do you use for Python development in addition to your primary IDE?",
+        "kind": "multi_option",
+        "group": "ide.editor",
+        "option": "Jupyter Notebook",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "flags 显示全列恒等于选项文本",
+        "year": 2019
+      },
+      {
+        "column": "JupyterLab:What editors/IDEs do you use for Python development in addition to your primary IDE?",
+        "kind": "multi_option",
+        "group": "ide.editor",
+        "option": "JupyterLab",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "flags 显示全列恒等于选项文本",
+        "year": 2019
+      }
+    ]
+  }
+}

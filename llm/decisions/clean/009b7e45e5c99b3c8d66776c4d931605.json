@@ -1,0 +1,176 @@
+{
+  "stage": "clean_semantics",
+  "model": "qwen3.5:4b",
+  "model_digest": "d8b0f5e9760cd168",
+  "prompt_version": "clean-semantics-v2",
+  "input_hash": "009b7e45e5c99b3c8d66776c4d931605",
+  "created_at": "2026-10-23T19:03:37",
+  "duration_s": 11.24,
+  "output_tokens": 841,
+  "fallback": false,
+  "error": "",
+  "manual_edit": false,
+  "reviewed": false,
+  "payload_summary": {
+    "year": 2023,
+    "batch": "dependency.store.requirements_txt…packages.install.from.GitLab",
+    "n": 18
+  },
+  "response": {
+    "columns": [
+      {
+        "column": "dependency.store.requirements_txt",
+        "kind": "single_choice",
+        "group": "dependency.store",
+        "option": "requirements_txt",
+        "missing_tokens": [],
+        "reason": "全列值等于列名，符合 multi_like 特征。",
+        "year": 2023
+      },
+      {
+        "column": "dependency.store.pyproject_toml",
+        "kind": "single_choice",
+        "group": "dependency.store",
+        "option": "pyproject_toml",
+        "missing_tokens": [],
+        "reason": "全列值等于列名，符合 multi_like 特征。",
+        "year": 2023
+      },
+      {
+        "column": "dependency.store.Pipfile",
+        "kind": "single_choice",
+        "group": "dependency.store",
+        "option": "Pipfile",
+        "missing_tokens": [],
+        "reason": "全列值等于列名，符合 multi_like 特征。",
+        "year": 2023
+      },
+      {
+        "column": "dependency.store.hatch_toml",
+        "kind": "single_choice",
+        "group": "dependency.store",
+        "option": "hatch_toml",
+        "missing_tokens": [],
+        "reason": "全列值等于列名，符合 multi_like 特征。",
+        "year": 2023
+      },
+      {
+        "column": "dependency.store.environment_yml",
+        "kind": "single_choice",
+        "group": "dependency.store",
+        "option": "environment_yml",
+        "missing_tokens": [],
+        "reason": "全列值等于列名，符合 multi_like 特征。",
+        "year": 2023
+      },
+      {
+        "column": "dependency.store.setup_py",
+        "kind": "single_choice",
+        "group": "dependency.store",
+        "option": "setup_py",
+        "missing_tokens": [],
+        "reason": "全列值等于列名，符合 multi_like 特征。",
+        "year": 2023
+      },
+      {
+        "column": "dependency.store.setup_cfg",
+        "kind": "single_choice",
+        "group": "dependency.store",
+        "option": "setup_cfg",
+        "missing_tokens": [],
+        "reason": "全列值等于列名，符合 multi_like 特征。",
+        "year": 2023
+      },
+      {
+        "column": "dependency.store.Other",
+        "kind": "single_choice",
+        "group": "dependency.store",
+        "option": "Other",
+        "missing_tokens": [],
+        "reason": "全列值等于列名，符合 multi_like 特征。",
+        "year": 2023
+      },
+      {
+        "column": "packages.install.from.PyPI",
+        "kind": "single_choice",
+        "group": "packages.install.from",
+        "option": "PyPI",
+        "missing_tokens": [],
+        "reason": "全列值等于列名，符合 multi_like 特征。",
+        "year": 2023
+      },
+      {
+        "column": "packages.install.from.A local source",
+        "kind": "single_choice",
+        "group": "packages.install.from",
+        "option": "A local source",
+        "missing_tokens": [],
+        "reason": "全列值等于列名，符合 multi_like 特征。",
+        "year": 2023
+      },
+      {
+        "column": "packages.install.from.An internal mirror of PyPI",
+        "kind": "single_choice",
+        "group": "packages.install.from",
+        "option": "An internal mirror of PyPI",
+        "missing_tokens": [],
+        "reason": "全列值等于列名，符合 multi_like 特征。",
+        "year": 2023
+      },
+      {
+        "column": "packages.install.from.A private Python Package Index",
+        "kind": "single_choice",
+        "group": "packages.install.from",
+        "option": "A private Python Package Index",
+        "missing_tokens": [],
+        "reason": "全列值等于列名，符合 multi_like 特征。",
+        "year": 2023
+      },
+      {
+        "column": "packages.install.from.Anaconda",
+        "kind": "single_choice",
+        "group": "packages.install.from",
+        "option": "Anaconda",
+        "missing_tokens": [],
+        "reason": "全列值等于列名，符合 multi_like 特征。",
+        "year": 2023
+      },
+      {
+        "column": "packages.install.from.Other Conda channels (conda-forge or similar)",
+        "kind": "single_choice",
+        "group": "packages.install.from",
+        "option": "Other Conda channels (conda-forge or similar)",
+        "missing_tokens": [],
+        "reason": "全列值等于列名，符合 multi_like 特征。",
+        "year": 2023
+      },
+      {
+        "column": "packages.install.from.GitHub",
+        "kind": "single_choice",
+        "group": "packages.install.from",
+        "option": "GitHub",
+        "missing_tokens": [],
+        "reason": "全列值等于列名，符合 multi_like 特征。",
+        "year": 2023
+      },
+      {
+        "column": "packages.install.from.Artifactory",
+        "kind": "single_choice",
+        "group": "packages.install.from",
+        "option": "Artifactory",
+        "missing_tokens": [],
+        "reason": "全列值等于列名，符合 multi_like 特征。",
+        "year": 2023
+      },
+      {
+        "column": "packages.install.from.GitLab",
+        "kind": "single_choice",
+        "group": "packages.install.from",
+        "option": "GitLab",
+        "missing_tokens": [],
+        "reason": "全列值等于列名，符合 multi_like 特征。",
+        "year": 2023
+      }
+    ]
+  }
+}

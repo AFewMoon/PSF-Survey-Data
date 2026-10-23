@@ -1,0 +1,185 @@
+{
+  "stage": "clean_semantics",
+  "model": "qwen3.5:4b",
+  "model_digest": "d8b0f5e9760cd168",
+  "prompt_version": "clean-semantics-v2",
+  "input_hash": "e95fe91ec2f6fd1daaa3852847ea4901",
+  "created_at": "2026-10-23T18:45:50",
+  "duration_s": 10.89,
+  "output_tokens": 789,
+  "fallback": false,
+  "error": "",
+  "manual_edit": false,
+  "reviewed": false,
+  "payload_summary": {
+    "year": 2020,
+    "batch": "is.python.main…other.lang.Clojure",
+    "n": 18
+  },
+  "response": {
+    "columns": [
+      {
+        "column": "is.python.main",
+        "kind": "single_choice",
+        "group": "ide.editor",
+        "option": "Yes",
+        "missing_tokens": [],
+        "reason": "flags 显示多选项特征，但列名含 Yes/No 且非空率 76.6%，视为单选题主选项。",
+        "year": 2020
+      },
+      {
+        "column": "other.lang.None",
+        "kind": "multi_option",
+        "group": "ide.editor",
+        "option": "None",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列唯一值即选项文本。",
+        "year": 2020
+      },
+      {
+        "column": "other.lang.Java",
+        "kind": "multi_option",
+        "group": "ide.editor",
+        "option": "Java",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列唯一值即选项文本。",
+        "year": 2020
+      },
+      {
+        "column": "other.lang.JavaScript",
+        "kind": "multi_option",
+        "group": "ide.editor",
+        "option": "JavaScript",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列唯一值即选项文本。",
+        "year": 2020
+      },
+      {
+        "column": "other.lang.C/C++",
+        "kind": "multi_option",
+        "group": "ide.editor",
+        "option": "C/C++",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列唯一值即选项文本。",
+        "year": 2020
+      },
+      {
+        "column": "other.lang.PHP",
+        "kind": "multi_option",
+        "group": "ide.editor",
+        "option": "PHP",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列唯一值即选项文本。",
+        "year": 2020
+      },
+      {
+        "column": "other.lang.C#",
+        "kind": "multi_option",
+        "group": "ide.editor",
+        "option": "C#",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列唯一值即选项文本。",
+        "year": 2020
+      },
+      {
+        "column": "other.lang.Ruby",
+        "kind": "multi_option",
+        "group": "ide.editor",
+        "option": "Ruby",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列唯一值即选项文本。",
+        "year": 2020
+      },
+      {
+        "column": "other.lang.Bash / Shell",
+        "kind": "multi_option",
+        "group": "ide.editor",
+        "option": "Bash / Shell",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列唯一值即选项文本。",
+        "year": 2020
+      },
+      {
+        "column": "other.lang.Objective-C",
+        "kind": "multi_option",
+        "group": "ide.editor",
+        "option": "Objective-C",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列唯一值即选项文本。",
+        "year": 2020
+      },
+      {
+        "column": "other.lang.Go",
+        "kind": "multi_option",
+        "group": "ide.editor",
+        "option": "Go",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列唯一值即选项文本。",
+        "year": 2020
+      },
+      {
+        "column": "other.lang.Visual Basic",
+        "kind": "multi_option",
+        "group": "ide.editor",
+        "option": "Visual Basic",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列唯一值即选项文本。",
+        "year": 2020
+      },
+      {
+        "column": "other.lang.Scala",
+        "kind": "multi_option",
+        "group": "ide.editor",
+        "option": "Scala",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列唯一值即选项文本。",
+        "year": 2020
+      },
+      {
+        "column": "other.lang.SQL",
+        "kind": "multi_option",
+        "group": "ide.editor",
+        "option": "SQL",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列唯一值即选项文本。",
+        "year": 2020
+      },
+      {
+        "column": "other.lang.Kotlin",
+        "kind": "multi_option",
+        "group": "ide.editor",
+        "option": "Kotlin",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列唯一值即选项文本。",
+        "year": 2020
+      },
+      {
+        "column": "other.lang.R",
+        "kind": "multi_option",
+        "group": "ide.editor",
+        "option": "R",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列唯一值即选项文本。",
+        "year": 2020
+      },
+      {
+        "column": "other.lang.Swift",
+        "kind": "multi_option",
+        "group": "ide.editor",
+        "option": "Swift",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列唯一值即选项文本。",
+        "year": 2020
+      },
+      {
+        "column": "other.lang.Clojure",
+        "kind": "multi_option",
+        "group": "ide.editor",
+        "option": "Clojure",
+        "missing_tokens": [],
+        "reason": "flags 为 multi_like，全列唯一值即选项文本。",
+        "year": 2020
+      }
+    ]
+  }
+}

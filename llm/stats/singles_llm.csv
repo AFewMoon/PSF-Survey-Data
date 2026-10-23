@@ -1,0 +1,15 @@
+column,year,value,n,pct
+ide.python_version,2019,Yes,27999,79.46
+ide.python_version,2019,"No, I use Python as a secondary language",5399,15.32
+ide.python_version,2019,"No, I don’t use Python for my current projects",1837,5.21
+ide.python_version,2020,Yes,30630,81.18
+ide.python_version,2020,"No, I use Python as a secondary language",5574,14.77
+ide.python_version,2020,"No, I don’t use Python for my current projects",1528,4.05
+ide.python_version,2021,Yes,19432,83.84
+ide.python_version,2021,"No, I use Python as a secondary language",3746,16.16
+ide.python_version,2022,Yes,19471,84.71
+ide.python_version,2022,"No, I use Python as a secondary language",3514,15.29
+ide.python_version,2023,Yes,21588,85.25
+ide.python_version,2023,"No, I use Python as a secondary language",3736,14.75
+ide.python_version,2024,Yes,24887,85.83
+ide.python_version,2024,"No, I use Python as a secondary language",4108,14.17

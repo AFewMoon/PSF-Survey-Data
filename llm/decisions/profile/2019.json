@@ -1,0 +1,4822 @@
+{
+  "year": 2019,
+  "profile_version": 4,
+  "rows": 47308,
+  "cols": 290,
+  "empty_rows": 0,
+  "empty_cols": [],
+  "dup_rows": 0,
+  "dup_col_groups": [],
+  "columns": [
+    {
+      "name": "response_id",
+      "non_empty_pct": 100.0,
+      "n_unique": 47308,
+      "top_share": 0.0,
+      "numeric_like": true,
+      "binary_like": false,
+      "multi_like": false,
+      "level_like": false,
+      "redacted": true,
+      "col_hash": "2e1d455c749e52f6",
+      "value_shape": {
+        "note": "自由文本，样本已脱敏，仅给出结构特征",
+        "len_min": 2,
+        "len_median": 5,
+        "len_max": 5
+      }
+    },
+    {
+      "name": "Is Python the main language you use for your current projects?",
+      "non_empty_pct": 100.0,
+      "n_unique": 4,
+      "top_share": 59.2,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": false,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "ecf8c253b866c5eb",
+      "top": [
+        "Yes",
+        "NA",
+        "No, I use Python as a secondary language",
+        "No, I don’t use Python for my current projects"
+      ]
+    },
+    {
+      "name": "Bash / Shell:What other language(s) do you use?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 72.6,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "d8a7d50292828082",
+      "top": [
+        "NA",
+        "Bash / Shell"
+      ]
+    },
+    {
+      "name": "C/C++:What other language(s) do you use?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 78.3,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "bdcbf70175388931",
+      "top": [
+        "NA",
+        "C/C++"
+      ]
+    },
+    {
+      "name": "C#:What other language(s) do you use?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 91.6,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "8cbed1f12d207bdd",
+      "top": [
+        "NA",
+        "C#"
+      ]
+    },
+    {
+      "name": "Clojure:What other language(s) do you use?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 99.3,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "3ce8321f1662c00d",
+      "top": [
+        "NA",
+        "Clojure"
+      ]
+    },
+    {
+      "name": "CoffeeScript:What other language(s) do you use?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 99.4,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "161a1cedc478136d",
+      "top": [
+        "NA",
+        "CoffeeScript"
+      ]
+    },
+    {
+      "name": "Go:What other language(s) do you use?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 93.3,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "ca93a10b16b73b72",
+      "top": [
+        "NA",
+        "Go"
+      ]
+    },
+    {
+      "name": "Groovy:What other language(s) do you use?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 98.6,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "b452e113e1936de0",
+      "top": [
+        "NA",
+        "Groovy"
+      ]
+    },
+    {
+      "name": "HTML/CSS:What other language(s) do you use?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 72.2,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "6ee55fb38a724ae6",
+      "top": [
+        "NA",
+        "HTML/CSS"
+      ]
+    },
+    {
+      "name": "Java:What other language(s) do you use?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 84.1,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "e1302f69356c94cb",
+      "top": [
+        "NA",
+        "Java"
+      ]
+    },
+    {
+      "name": "JavaScript:What other language(s) do you use?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 68.8,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "673fd7af0f65f040",
+      "top": [
+        "NA",
+        "JavaScript"
+      ]
+    },
+    {
+      "name": "Kotlin:What other language(s) do you use?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 97.7,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "4f84ba03480acc3e",
+      "top": [
+        "NA",
+        "Kotlin"
+      ]
+    },
+    {
+      "name": "None:What other language(s) do you use?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 91.2,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "28cbc26b6c8024cc",
+      "top": [
+        "NA",
+        "None"
+      ]
+    },
+    {
+      "name": "Objective-C:What other language(s) do you use?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 98.8,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "9711c3bc652edab7",
+      "top": [
+        "NA",
+        "Objective-C"
+      ]
+    },
+    {
+      "name": "Other - Write In::What other language(s) do you use?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 93.4,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": false,
+      "level_like": false,
+      "redacted": true,
+      "col_hash": "7cfaa718b3c02065",
+      "value_shape": {
+        "note": "自由文本，样本已脱敏，仅给出结构特征",
+        "len_min": 2,
+        "len_median": 2,
+        "len_max": 17
+      }
+    },
+    {
+      "name": "Perl:What other language(s) do you use?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 98.1,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "96a409ba44bfba8a",
+      "top": [
+        "NA",
+        "Perl"
+      ]
+    },
+    {
+      "name": "PHP:What other language(s) do you use?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 91.8,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "66d1b661fcb9ea4c",
+      "top": [
+        "NA",
+        "PHP"
+      ]
+    },
+    {
+      "name": "R:What other language(s) do you use?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 95.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "fd32ba83d2580244",
+      "top": [
+        "NA",
+        "R"
+      ]
+    },
+    {
+      "name": "Ruby:What other language(s) do you use?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 97.3,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "28c82325957ace41",
+      "top": [
+        "NA",
+        "Ruby"
+      ]
+    },
+    {
+      "name": "Rust:What other language(s) do you use?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 96.5,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "ebef1935750c8e38",
+      "top": [
+        "NA",
+        "Rust"
+      ]
+    },
+    {
+      "name": "Scala:What other language(s) do you use?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 97.9,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "9db2a874f50145b4",
+      "top": [
+        "NA",
+        "Scala"
+      ]
+    },
+    {
+      "name": "SQL:What other language(s) do you use?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 74.4,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "5db57822160d37ed",
+      "top": [
+        "NA",
+        "SQL"
+      ]
+    },
+    {
+      "name": "Swift:What other language(s) do you use?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 98.2,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "88fe6282bc90b1dd",
+      "top": [
+        "NA",
+        "Swift"
+      ]
+    },
+    {
+      "name": "TypeScript:What other language(s) do you use?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 93.9,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "3941e138b1577e8f",
+      "top": [
+        "NA",
+        "TypeScript"
+      ]
+    },
+    {
+      "name": "Visual Basic:What other language(s) do you use?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 97.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "b7cff0dc30549456",
+      "top": [
+        "NA",
+        "Visual Basic"
+      ]
+    },
+    {
+      "name": "How long have you been programming in Python?",
+      "non_empty_pct": 100.0,
+      "n_unique": 6,
+      "top_share": 35.3,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": false,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "69c3274d4a714a20",
+      "top": [
+        "NA",
+        "3–5 years",
+        "1–2 years",
+        "Less than 1 year",
+        "6–10 years",
+        "11+ years"
+      ]
+    },
+    {
+      "name": "How many years of professional coding experience do you have?",
+      "non_empty_pct": 100.0,
+      "n_unique": 6,
+      "top_share": 35.5,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": false,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "54d5c028c005417a",
+      "top": [
+        "NA",
+        "Less than 1 year",
+        "3–5 years",
+        "1–2 years",
+        "11+ years",
+        "6–10 years"
+      ]
+    },
+    {
+      "name": "For what purposes do you mainly use Python?",
+      "non_empty_pct": 100.0,
+      "n_unique": 4,
+      "top_share": 37.6,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": false,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "a6672129bd431a87",
+      "top": [
+        "Both for work and personal",
+        "NA",
+        "For personal, educational  or side projects",
+        "For work"
+      ]
+    },
+    {
+      "name": "Computer graphics: What do you use Python for?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 91.4,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "f1e5486c4016f1b4",
+      "top": [
+        "NA",
+        "Computer graphics"
+      ]
+    },
+    {
+      "name": "Data analysis: What do you use Python for?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 62.7,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "a43027e9c00b1a85",
+      "top": [
+        "NA",
+        "Data analysis"
+      ]
+    },
+    {
+      "name": "Desktop development: What do you use Python for?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 88.2,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "8b2051355b6278e7",
+      "top": [
+        "NA",
+        "Desktop development"
+      ]
+    },
+    {
+      "name": "DevOps / System administration / Writing automation scripts: What do you use Python for?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 74.7,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "28429c82e19843da",
+      "top": [
+        "NA",
+        "DevOps / System administration / Writing automat"
+      ]
+    },
+    {
+      "name": "Educational purposes: What do you use Python for?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 83.6,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "ce1b42e50327f794",
+      "top": [
+        "NA",
+        "Educational purposes"
+      ]
+    },
+    {
+      "name": "Embedded development: What do you use Python for?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 94.6,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "cee30374d3bea7d9",
+      "top": [
+        "NA",
+        "Embedded development"
+      ]
+    },
+    {
+      "name": "Game development: What do you use Python for?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 95.3,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "707751df975c0602",
+      "top": [
+        "NA",
+        "Game development"
+      ]
+    },
+    {
+      "name": "Machine learning: What do you use Python for?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 75.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "527ef0a26bb79a46",
+      "top": [
+        "NA",
+        "Machine learning"
+      ]
+    },
+    {
+      "name": "Mobile development: What do you use Python for?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 96.4,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "61de1ecad6a9db83",
+      "top": [
+        "NA",
+        "Mobile development"
+      ]
+    },
+    {
+      "name": "Multimedia applications development: What do you use Python for?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 97.4,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "3826395e9347d5c9",
+      "top": [
+        "NA",
+        "Multimedia applications development"
+      ]
+    },
+    {
+      "name": "Network programming: What do you use Python for?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 86.9,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "56916987f03e7e5a",
+      "top": [
+        "NA",
+        "Network programming"
+      ]
+    },
+    {
+      "name": "Other - Write In:: What do you use Python for?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 95.9,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": false,
+      "level_like": false,
+      "redacted": true,
+      "col_hash": "ddd4a58530dfe8c8",
+      "value_shape": {
+        "note": "自由文本，样本已脱敏，仅给出结构特征",
+        "len_min": 2,
+        "len_median": 2,
+        "len_max": 17
+      }
+    },
+    {
+      "name": "Programming of web parsers / scrapers / crawlers: What do you use Python for?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 77.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "94483a580abf7340",
+      "top": [
+        "NA",
+        "Programming of web parsers / scrapers / crawlers"
+      ]
+    },
+    {
+      "name": "Software prototyping: What do you use Python for?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 83.3,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "d55e9f8817604b72",
+      "top": [
+        "NA",
+        "Software prototyping"
+      ]
+    },
+    {
+      "name": "Software testing / Writing automated tests: What do you use Python for?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 80.4,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "3a62acf1aecd801b",
+      "top": [
+        "NA",
+        "Software testing / Writing automated tests"
+      ]
+    },
+    {
+      "name": "Web development: What do you use Python for?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 68.4,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "be95da0d99d9126d",
+      "top": [
+        "NA",
+        "Web development"
+      ]
+    },
+    {
+      "name": "Computer graphics:To what extent are you involved in the following activities?",
+      "non_empty_pct": 100.0,
+      "n_unique": 4,
+      "top_share": 92.4,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": false,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "4a2ee8649813f0b3",
+      "top": [
+        "NA",
+        "primary activity",
+        "hobby",
+        "secondary activity"
+      ]
+    },
+    {
+      "name": "Data analysis:To what extent are you involved in the following activities?",
+      "non_empty_pct": 100.0,
+      "n_unique": 4,
+      "top_share": 64.5,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": false,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "bd15ab0b57aada95",
+      "top": [
+        "NA",
+        "primary activity",
+        "secondary activity",
+        "hobby"
+      ]
+    },
+    {
+      "name": "Desktop development:To what extent are you involved in the following activities?",
+      "non_empty_pct": 100.0,
+      "n_unique": 4,
+      "top_share": 89.1,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": false,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "bdb3b76c0d6ce7e5",
+      "top": [
+        "NA",
+        "primary activity",
+        "secondary activity",
+        "hobby"
+      ]
+    },
+    {
+      "name": "DevOps / System administration / Writing automation scripts:To what extent are you involved in the following activities?",
+      "non_empty_pct": 100.0,
+      "n_unique": 4,
+      "top_share": 75.8,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": false,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "b18de4da2dd2371f",
+      "top": [
+        "NA",
+        "secondary activity",
+        "primary activity",
+        "hobby"
+      ]
+    },
+    {
+      "name": "Educational purposes:To what extent are you involved in the following activities?",
+      "non_empty_pct": 100.0,
+      "n_unique": 4,
+      "top_share": 84.6,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": false,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "6eb3028f878e7da7",
+      "top": [
+        "NA",
+        "primary activity",
+        "hobby",
+        "secondary activity"
+      ]
+    },
+    {
+      "name": "Embedded development:To what extent are you involved in the following activities?",
+      "non_empty_pct": 100.0,
+      "n_unique": 4,
+      "top_share": 95.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": false,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "57efc4db3d169366",
+      "top": [
+        "NA",
+        "primary activity",
+        "hobby",
+        "secondary activity"
+      ]
+    },
+    {
+      "name": "Game development:To what extent are you involved in the following activities?",
+      "non_empty_pct": 100.0,
+      "n_unique": 4,
+      "top_share": 95.9,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": false,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "2dd5ab25dd5f5a50",
+      "top": [
+        "NA",
+        "hobby",
+        "primary activity",
+        "secondary activity"
+      ]
+    },
+    {
+      "name": "Machine learning:To what extent are you involved in the following activities?",
+      "non_empty_pct": 100.0,
+      "n_unique": 4,
+      "top_share": 76.2,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": false,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "2b04752906d185d5",
+      "top": [
+        "NA",
+        "primary activity",
+        "secondary activity",
+        "hobby"
+      ]
+    },
+    {
+      "name": "Mobile development:To what extent are you involved in the following activities?",
+      "non_empty_pct": 100.0,
+      "n_unique": 4,
+      "top_share": 96.9,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": false,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "6cd8e3c778aa31e2",
+      "top": [
+        "NA",
+        "primary activity",
+        "hobby",
+        "secondary activity"
+      ]
+    },
+    {
+      "name": "Multimedia applications development:To what extent are you involved in the following activities?",
+      "non_empty_pct": 100.0,
+      "n_unique": 4,
+      "top_share": 97.7,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": false,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "3b1d05713ee2025e",
+      "top": [
+        "NA",
+        "hobby",
+        "primary activity",
+        "secondary activity"
+      ]
+    },
+    {
+      "name": "Network programming:To what extent are you involved in the following activities?",
+      "non_empty_pct": 100.0,
+      "n_unique": 4,
+      "top_share": 87.8,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": false,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "c539153c462df992",
+      "top": [
+        "NA",
+        "primary activity",
+        "secondary activity",
+        "hobby"
+      ]
+    },
+    {
+      "name": "Other:To what extent are you involved in the following activities?",
+      "non_empty_pct": 100.0,
+      "n_unique": 4,
+      "top_share": 96.1,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": false,
+      "level_like": false,
+      "redacted": true,
+      "col_hash": "7fbe93825eefbd99",
+      "value_shape": {
+        "note": "自由文本，样本已脱敏，仅给出结构特征",
+        "len_min": 2,
+        "len_median": 2,
+        "len_max": 18
+      }
+    },
+    {
+      "name": "Programming of web parsers / scrapers / crawlers:To what extent are you involved in the following activities?",
+      "non_empty_pct": 100.0,
+      "n_unique": 4,
+      "top_share": 78.2,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": false,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "df253ae6c997f95b",
+      "top": [
+        "NA",
+        "secondary activity",
+        "hobby",
+        "primary activity"
+      ]
+    },
+    {
+      "name": "Software prototyping:To what extent are you involved in the following activities?",
+      "non_empty_pct": 100.0,
+      "n_unique": 4,
+      "top_share": 84.2,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": false,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "f1c8c060fd8fb990",
+      "top": [
+        "NA",
+        "primary activity",
+        "secondary activity",
+        "hobby"
+      ]
+    },
+    {
+      "name": "Software testing / Writing automated tests:To what extent are you involved in the following activities?",
+      "non_empty_pct": 100.0,
+      "n_unique": 4,
+      "top_share": 81.4,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": false,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "9974a3fb3c9eae32",
+      "top": [
+        "NA",
+        "secondary activity",
+        "primary activity",
+        "hobby"
+      ]
+    },
+    {
+      "name": "Web development:To what extent are you involved in the following activities?",
+      "non_empty_pct": 100.0,
+      "n_unique": 4,
+      "top_share": 69.7,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": false,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "f6befc183a2ad602",
+      "top": [
+        "NA",
+        "primary activity",
+        "secondary activity",
+        "hobby"
+      ]
+    },
+    {
+      "name": "What do you use Python for the most?",
+      "non_empty_pct": 100.0,
+      "n_unique": 17,
+      "top_share": 48.2,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": false,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "652eb04cd8305753",
+      "top": [
+        "NA",
+        "Web development",
+        "Data analysis",
+        "Machine learning",
+        "DevOps / System administration / Writing automat",
+        "Educational purposes"
+      ]
+    },
+    {
+      "name": "Do you consider yourself as a Data-Scientist?",
+      "non_empty_pct": 100.0,
+      "n_unique": 4,
+      "top_share": 60.4,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": false,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "2688d4485dfa04f3",
+      "top": [
+        "NA",
+        "No",
+        "Yes",
+        "Other – Write In:"
+      ]
+    },
+    {
+      "name": "Which version of Python do you use the most?",
+      "non_empty_pct": 100.0,
+      "n_unique": 3,
+      "top_share": 52.1,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": false,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "d30f6a0b0acfaca7",
+      "top": [
+        "Python 3",
+        "NA",
+        "Python 2"
+      ]
+    },
+    {
+      "name": "Which version of Python 2 do you use the most?",
+      "non_empty_pct": 100.0,
+      "n_unique": 9,
+      "top_share": 94.1,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": false,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "60e262c4fb427bda",
+      "top": [
+        "NA",
+        "Python 2.7",
+        "Python 2.0",
+        "Python 2.6",
+        "Python 2.1",
+        "Python 2.3"
+      ]
+    },
+    {
+      "name": "Which version of Python 3 do you use the most?",
+      "non_empty_pct": 100.0,
+      "n_unique": 11,
+      "top_share": 48.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": false,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "c0d4e7f9ee6cc83f",
+      "top": [
+        "NA",
+        "Python 3.7",
+        "Python 3.6",
+        "Python 3.8",
+        "Python 3.5",
+        "Python 3.9"
+      ]
+    },
+    {
+      "name": "ActivePython:What do you typically use to upgrade your Python version?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 99.4,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "f34dffd3a7958dc4",
+      "top": [
+        "NA",
+        "ActivePython"
+      ]
+    },
+    {
+      "name": "Anaconda:What do you typically use to upgrade your Python version?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 88.4,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "a721a6eff4e2d7e3",
+      "top": [
+        "NA",
+        "Anaconda"
+      ]
+    },
+    {
+      "name": "Automatic upgrade via cloud provider:What do you typically use to upgrade your Python version?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 98.5,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "c9d22dc3eba321bc",
+      "top": [
+        "NA",
+        "Automatic upgrade via cloud provider"
+      ]
+    },
+    {
+      "name": "Build from source:What do you typically use to upgrade your Python version?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 96.2,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "9a9eb51a08a09534",
+      "top": [
+        "NA",
+        "Build from source"
+      ]
+    },
+    {
+      "name": "Enthought:What do you typically use to upgrade your Python version?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 99.8,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "2283cdc6b679ca93",
+      "top": [
+        "NA",
+        "Enthought"
+      ]
+    },
+    {
+      "name": "I don’t update:What do you typically use to upgrade your Python version?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 93.2,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "89c7fefcf569ab71",
+      "top": [
+        "NA",
+        "I don’t update"
+      ]
+    },
+    {
+      "name": "I use Docker containers:What do you typically use to upgrade your Python version?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 90.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "76e9cfac189bd605",
+      "top": [
+        "NA",
+        "I use Docker containers"
+      ]
+    },
+    {
+      "name": "Intel Distribution for Python:What do you typically use to upgrade your Python version?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 99.5,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "b495ef5a42a95d94",
+      "top": [
+        "NA",
+        "Intel Distribution for Python"
+      ]
+    },
+    {
+      "name": "OS-provided Python (via apt-get, yum, homebrew, etc.):What do you typically use to upgrade your Python version?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 79.6,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "4c7f127acc8c5f06",
+      "top": [
+        "NA",
+        "OS-provided Python (via apt-get, yum, homebrew, "
+      ]
+    },
+    {
+      "name": "Other – Write In::What do you typically use to upgrade your Python version?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 98.3,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": false,
+      "level_like": false,
+      "redacted": true,
+      "col_hash": "b815024f3fa13e1f",
+      "value_shape": {
+        "note": "自由文本，样本已脱敏，仅给出结构特征",
+        "len_min": 2,
+        "len_median": 2,
+        "len_max": 17
+      }
+    },
+    {
+      "name": "pyenv:What do you typically use to upgrade your Python version?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 91.2,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "1ff7e340cb73d5f3",
+      "top": [
+        "NA",
+        "pyenv"
+      ]
+    },
+    {
+      "name": "Python.org:What do you typically use to upgrade your Python version?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 82.2,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "37e5bcc98e727931",
+      "top": [
+        "NA",
+        "Python.org"
+      ]
+    },
+    {
+      "name": "pythonz:What do you typically use to upgrade your Python version?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 99.6,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "0de40ec859951099",
+      "top": [
+        "NA",
+        "pythonz"
+      ]
+    },
+    {
+      "name": "Somebody else manages Python updates for me:What do you typically use to upgrade your Python version?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 97.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "fe98189c3ef1d578",
+      "top": [
+        "NA",
+        "Somebody else manages Python updates for me"
+      ]
+    },
+    {
+      "name": "Conda:Do you use any of the following tools to isolate Python environments, if any?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 86.8,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "72801c3258011747",
+      "top": [
+        "NA",
+        "Conda"
+      ]
+    },
+    {
+      "name": "Docker:Do you use any of the following tools to isolate Python environments, if any?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 80.8,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "3b3fb0c60f0e4bed",
+      "top": [
+        "NA",
+        "Docker"
+      ]
+    },
+    {
+      "name": "None:Do you use any of the following tools to isolate Python environments, if any?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 88.4,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "653e7f4397060a04",
+      "top": [
+        "NA",
+        "None"
+      ]
+    },
+    {
+      "name": "Other – Write In::Do you use any of the following tools to isolate Python environments, if any?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 98.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": false,
+      "level_like": false,
+      "redacted": true,
+      "col_hash": "79d50e28e17d745c",
+      "value_shape": {
+        "note": "自由文本，样本已脱敏，仅给出结构特征",
+        "len_min": 2,
+        "len_median": 2,
+        "len_max": 17
+      }
+    },
+    {
+      "name": "Pipenv:Do you use any of the following tools to isolate Python environments, if any?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 88.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "fe571ceae9bdf385",
+      "top": [
+        "NA",
+        "Pipenv"
+      ]
+    },
+    {
+      "name": "Poetry:Do you use any of the following tools to isolate Python environments, if any?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 97.4,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "9491aebe73d0315b",
+      "top": [
+        "NA",
+        "Poetry"
+      ]
+    },
+    {
+      "name": "Vagrant  / virtual machines:Do you use any of the following tools to isolate Python environments, if any?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 96.4,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "dfe9b3fa7c99b60c",
+      "top": [
+        "NA",
+        "Vagrant  / virtual machines"
+      ]
+    },
+    {
+      "name": "Virtualenv:Do you use any of the following tools to isolate Python environments, if any?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 67.7,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "58546046bc661a92",
+      "top": [
+        "NA",
+        "Virtualenv"
+      ]
+    },
+    {
+      "name": "Bottle:What web frameworks / libraries do you use in addition to Python?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 98.1,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "a590d1186f768238",
+      "top": [
+        "NA",
+        "Bottle"
+      ]
+    },
+    {
+      "name": "CherryPy :What web frameworks / libraries do you use in addition to Python?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 98.5,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "70ff3d321e01d51c",
+      "top": [
+        "NA",
+        "CherryPy "
+      ]
+    },
+    {
+      "name": "Django:What web frameworks / libraries do you use in addition to Python?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 76.1,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "685a4fbab911c6c3",
+      "top": [
+        "NA",
+        "Django"
+      ]
+    },
+    {
+      "name": "Falcon:What web frameworks / libraries do you use in addition to Python?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 98.7,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "d1f4afb5ed68e533",
+      "top": [
+        "NA",
+        "Falcon"
+      ]
+    },
+    {
+      "name": "Flask :What web frameworks / libraries do you use in addition to Python?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 73.5,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "5dca84a6f0d2c446",
+      "top": [
+        "NA",
+        "Flask "
+      ]
+    },
+    {
+      "name": "Hug:What web frameworks / libraries do you use in addition to Python?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 99.5,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "171beb111bfa7c81",
+      "top": [
+        "NA",
+        "Hug"
+      ]
+    },
+    {
+      "name": "None:What web frameworks / libraries do you use in addition to Python?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 85.9,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "1bbd5482aecc145b",
+      "top": [
+        "NA",
+        "None"
+      ]
+    },
+    {
+      "name": "Other – Write In::What web frameworks / libraries do you use in addition to Python?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 95.8,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": false,
+      "level_like": false,
+      "redacted": true,
+      "col_hash": "aeadd7aee98e6663",
+      "value_shape": {
+        "note": "自由文本，样本已脱敏，仅给出结构特征",
+        "len_min": 2,
+        "len_median": 2,
+        "len_max": 17
+      }
+    },
+    {
+      "name": "Pyramid :What web frameworks / libraries do you use in addition to Python?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 98.5,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "501b637a13657c41",
+      "top": [
+        "NA",
+        "Pyramid "
+      ]
+    },
+    {
+      "name": "Tornado:What web frameworks / libraries do you use in addition to Python?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 97.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "4a6a59ab1e67b06a",
+      "top": [
+        "NA",
+        "Tornado"
+      ]
+    },
+    {
+      "name": "TurboGears:What web frameworks / libraries do you use in addition to Python?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 99.7,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "b61c556c8c167441",
+      "top": [
+        "NA",
+        "TurboGears"
+      ]
+    },
+    {
+      "name": "web2py:What web frameworks / libraries do you use in addition to Python?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 98.3,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "385cd8ebff5a7a2e",
+      "top": [
+        "NA",
+        "web2py"
+      ]
+    },
+    {
+      "name": "Gensim:What data science framework(s) do you use in addition to Python?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 97.1,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "d2f2021b11146f08",
+      "top": [
+        "NA",
+        "Gensim"
+      ]
+    },
+    {
+      "name": "Keras:What data science framework(s) do you use in addition to Python?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 89.3,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "4475ceac22405ff3",
+      "top": [
+        "NA",
+        "Keras"
+      ]
+    },
+    {
+      "name": "Matplotlib:What data science framework(s) do you use in addition to Python?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 74.9,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "e388fde68e8d1ef1",
+      "top": [
+        "NA",
+        "Matplotlib"
+      ]
+    },
+    {
+      "name": "MXNet:What data science framework(s) do you use in addition to Python?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 99.2,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "8d3465a36b44e539",
+      "top": [
+        "NA",
+        "MXNet"
+      ]
+    },
+    {
+      "name": "NLTK:What data science framework(s) do you use in addition to Python?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 92.4,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "39d9a75651f23229",
+      "top": [
+        "NA",
+        "NLTK"
+      ]
+    },
+    {
+      "name": "None:What data science framework(s) do you use in addition to Python?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 86.2,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "a3679f5a93d2da67",
+      "top": [
+        "NA",
+        "None"
+      ]
+    },
+    {
+      "name": "NumPy:What data science framework(s) do you use in addition to Python?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 65.2,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "f57b84cec5d2669d",
+      "top": [
+        "NA",
+        "NumPy"
+      ]
+    },
+    {
+      "name": "Other - Write In::What data science framework(s) do you use in addition to Python?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 97.8,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": false,
+      "level_like": false,
+      "redacted": true,
+      "col_hash": "c61c22dfa544b02c",
+      "value_shape": {
+        "note": "自由文本，样本已脱敏，仅给出结构特征",
+        "len_min": 2,
+        "len_median": 2,
+        "len_max": 17
+      }
+    },
+    {
+      "name": "Pandas:What data science framework(s) do you use in addition to Python?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 69.5,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "3248e5ce2ccbb2c2",
+      "top": [
+        "NA",
+        "Pandas"
+      ]
+    },
+    {
+      "name": "PyTorch:What data science framework(s) do you use in addition to Python?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 91.9,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "03cabc86093c7148",
+      "top": [
+        "NA",
+        "PyTorch"
+      ]
+    },
+    {
+      "name": "SciKit-Learn:What data science framework(s) do you use in addition to Python?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 82.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "7874a0e13b479f0f",
+      "top": [
+        "NA",
+        "SciKit-Learn"
+      ]
+    },
+    {
+      "name": "SciPy:What data science framework(s) do you use in addition to Python?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 80.3,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "0e7f7fded31acd94",
+      "top": [
+        "NA",
+        "SciPy"
+      ]
+    },
+    {
+      "name": "Seaborn:What data science framework(s) do you use in addition to Python?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 90.8,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "18fc1f0b760d04fd",
+      "top": [
+        "NA",
+        "Seaborn"
+      ]
+    },
+    {
+      "name": "TensorFlow:What data science framework(s) do you use in addition to Python?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 85.6,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "6eae953bd388622e",
+      "top": [
+        "NA",
+        "TensorFlow"
+      ]
+    },
+    {
+      "name": "Theano:What data science framework(s) do you use in addition to Python?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 98.8,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "98d27425b70f492a",
+      "top": [
+        "NA",
+        "Theano"
+      ]
+    },
+    {
+      "name": "aiohttp:Which of the following frameworks / libraries do you use in addition to Python?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 93.2,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "2e0b2ca3e9231272",
+      "top": [
+        "NA",
+        "aiohttp"
+      ]
+    },
+    {
+      "name": "Asyncio:Which of the following frameworks / libraries do you use in addition to Python?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 88.5,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "67af088282ccaed3",
+      "top": [
+        "NA",
+        "Asyncio"
+      ]
+    },
+    {
+      "name": "Kivy:Which of the following frameworks / libraries do you use in addition to Python?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 97.2,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "c16a449bc5a7aa43",
+      "top": [
+        "NA",
+        "Kivy"
+      ]
+    },
+    {
+      "name": "None:Which of the following frameworks / libraries do you use in addition to Python?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 90.5,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "291abb99a7df959f",
+      "top": [
+        "NA",
+        "None"
+      ]
+    },
+    {
+      "name": "Other – Write In::Which of the following frameworks / libraries do you use in addition to Python?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 95.9,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": false,
+      "level_like": false,
+      "redacted": true,
+      "col_hash": "f82fcf8934e319e5",
+      "value_shape": {
+        "note": "自由文本，样本已脱敏，仅给出结构特征",
+        "len_min": 2,
+        "len_median": 2,
+        "len_max": 17
+      }
+    },
+    {
+      "name": "Pillow:Which of the following frameworks / libraries do you use in addition to Python?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 82.6,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "35cff3228c0a7109",
+      "top": [
+        "NA",
+        "Pillow"
+      ]
+    },
+    {
+      "name": "Pygame:Which of the following frameworks / libraries do you use in addition to Python?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 94.8,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "478a98ab74feae03",
+      "top": [
+        "NA",
+        "Pygame"
+      ]
+    },
+    {
+      "name": "PyGTK:Which of the following frameworks / libraries do you use in addition to Python?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 98.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "89a6abd442bc8660",
+      "top": [
+        "NA",
+        "PyGTK"
+      ]
+    },
+    {
+      "name": "PyQT:Which of the following frameworks / libraries do you use in addition to Python?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 91.5,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "e7aa0085233fbbce",
+      "top": [
+        "NA",
+        "PyQT"
+      ]
+    },
+    {
+      "name": "Requests:Which of the following frameworks / libraries do you use in addition to Python?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 69.4,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "a4b88bccefd047ac",
+      "top": [
+        "NA",
+        "Requests"
+      ]
+    },
+    {
+      "name": "Scrapy:Which of the following frameworks / libraries do you use in addition to Python?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 90.4,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "a1aa20f3b2d91bb6",
+      "top": [
+        "NA",
+        "Scrapy"
+      ]
+    },
+    {
+      "name": "Six:Which of the following frameworks / libraries do you use in addition to Python?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 93.1,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "77f8124a7d2d62a0",
+      "top": [
+        "NA",
+        "Six"
+      ]
+    },
+    {
+      "name": "Tkinter:Which of the following frameworks / libraries do you use in addition to Python?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 90.8,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "0efc28adcb9460ab",
+      "top": [
+        "NA",
+        "Tkinter"
+      ]
+    },
+    {
+      "name": "Twisted:Which of the following frameworks / libraries do you use in addition to Python?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 97.5,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "7be4c1beb4073bc3",
+      "top": [
+        "NA",
+        "Twisted"
+      ]
+    },
+    {
+      "name": "wxPython:Which of the following frameworks / libraries do you use in addition to Python?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 97.4,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "6513ed4025d9717e",
+      "top": [
+        "NA",
+        "wxPython"
+      ]
+    },
+    {
+      "name": "AWS:Which of the following cloud platforms do you use?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 80.4,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "68051ec350214589",
+      "top": [
+        "NA",
+        "AWS"
+      ]
+    },
+    {
+      "name": "DigitalOcean:Which of the following cloud platforms do you use?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 92.4,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "0069def2f5311c39",
+      "top": [
+        "NA",
+        "DigitalOcean"
+      ]
+    },
+    {
+      "name": "Google Cloud Platform:Which of the following cloud platforms do you use?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 88.8,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "6bd8569879417692",
+      "top": [
+        "NA",
+        "Google Cloud Platform"
+      ]
+    },
+    {
+      "name": "Heroku:Which of the following cloud platforms do you use?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 93.1,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "04cc3c5beef50271",
+      "top": [
+        "NA",
+        "Heroku"
+      ]
+    },
+    {
+      "name": "Linode:Which of the following cloud platforms do you use?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 98.1,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "2e6aea38b988ee88",
+      "top": [
+        "NA",
+        "Linode"
+      ]
+    },
+    {
+      "name": "Microsoft Azure:Which of the following cloud platforms do you use?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 93.5,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "6a9b8c54f3f02c62",
+      "top": [
+        "NA",
+        "Microsoft Azure"
+      ]
+    },
+    {
+      "name": "None:Which of the following cloud platforms do you use?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 81.8,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "962f216f84d79d72",
+      "top": [
+        "NA",
+        "None"
+      ]
+    },
+    {
+      "name": "OpenShift:Which of the following cloud platforms do you use?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 98.8,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "b9a9a1d6db2f634e",
+      "top": [
+        "NA",
+        "OpenShift"
+      ]
+    },
+    {
+      "name": "OpenStack:Which of the following cloud platforms do you use?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 98.1,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "e5fb260428732f50",
+      "top": [
+        "NA",
+        "OpenStack"
+      ]
+    },
+    {
+      "name": "Other – Write In::Which of the following cloud platforms do you use?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 97.4,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": false,
+      "level_like": false,
+      "redacted": true,
+      "col_hash": "1dc69ea8b620e854",
+      "value_shape": {
+        "note": "自由文本，样本已脱敏，仅给出结构特征",
+        "len_min": 2,
+        "len_median": 2,
+        "len_max": 17
+      }
+    },
+    {
+      "name": "PythonAnywhere:Which of the following cloud platforms do you use?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 96.2,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "0eea33f0115375fc",
+      "top": [
+        "NA",
+        "PythonAnywhere"
+      ]
+    },
+    {
+      "name": "Rackspace:Which of the following cloud platforms do you use?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 99.5,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "5810188a9ff790b1",
+      "top": [
+        "NA",
+        "Rackspace"
+      ]
+    },
+    {
+      "name": "In virtual machines:How do you run code in the cloud (in the production environment)?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 84.2,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "d1a9f5a27c0837b5",
+      "top": [
+        "NA",
+        "In virtual machines"
+      ]
+    },
+    {
+      "name": "None of the following:How do you run code in the cloud (in the production environment)?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 96.2,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "959d73c9345c55ad",
+      "top": [
+        "NA",
+        "None of the following"
+      ]
+    },
+    {
+      "name": "On a Platform-as-a-Service (such as Heroku or Google App Engine):How do you run code in the cloud (in the production environment)?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 91.3,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "f6e66b2861510e6f",
+      "top": [
+        "NA",
+        "On a Platform-as-a-Service (such as Heroku or Go"
+      ]
+    },
+    {
+      "name": "Other – Write In::How do you run code in the cloud (in the production environment)?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 99.2,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": false,
+      "level_like": false,
+      "redacted": true,
+      "col_hash": "a22cb947220fbc09",
+      "value_shape": {
+        "note": "自由文本，样本已脱敏，仅给出结构特征",
+        "len_min": 2,
+        "len_median": 2,
+        "len_max": 17
+      }
+    },
+    {
+      "name": "Serverless (such as AWS Lambda or Cloud Functions):How do you run code in the cloud (in the production environment)?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 91.6,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "41f2b5970661218f",
+      "top": [
+        "NA",
+        "Serverless (such as AWS Lambda or Cloud Function"
+      ]
+    },
+    {
+      "name": "Within containers:How do you run code in the cloud (in the production environment)?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 83.8,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "7fc9c677c47136a3",
+      "top": [
+        "NA",
+        "Within containers"
+      ]
+    },
+    {
+      "name": "Directly in the production environment:How do you develop for the cloud?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 97.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "ba7acb424c7bfa02",
+      "top": [
+        "NA",
+        "Directly in the production environment"
+      ]
+    },
+    {
+      "name": "In Docker containers:How do you develop for the cloud?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 85.8,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "844c5664c674933c",
+      "top": [
+        "NA",
+        "In Docker containers"
+      ]
+    },
+    {
+      "name": "In remote development environments:How do you develop for the cloud?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 94.1,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "5363e0e19d8151dd",
+      "top": [
+        "NA",
+        "In remote development environments"
+      ]
+    },
+    {
+      "name": "In virtual machines:How do you develop for the cloud?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 92.4,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "39a39c613a4b2a13",
+      "top": [
+        "NA",
+        "In virtual machines"
+      ]
+    },
+    {
+      "name": "Locally with virtualenv (or similar):How do you develop for the cloud?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 80.6,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "0779e7ddbacdc4f1",
+      "top": [
+        "NA",
+        "Locally with virtualenv (or similar)"
+      ]
+    },
+    {
+      "name": "None of the following:How do you develop for the cloud?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 97.1,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "e4c493a53e32c5de",
+      "top": [
+        "NA",
+        "None of the following"
+      ]
+    },
+    {
+      "name": "Other – Write In::How do you develop for the cloud?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 99.7,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": false,
+      "level_like": false,
+      "redacted": true,
+      "col_hash": "329fcebf374fdc20",
+      "value_shape": {
+        "note": "自由文本，样本已脱敏，仅给出结构特征",
+        "len_min": 2,
+        "len_median": 2,
+        "len_max": 17
+      }
+    },
+    {
+      "name": "With local system interpreter:How do you develop for the cloud?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 93.9,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "f82f63cf920e3d1d",
+      "top": [
+        "NA",
+        "With local system interpreter"
+      ]
+    },
+    {
+      "name": "BSD:What operating system(s) are your development environment?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 99.1,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "85290844aa8219b0",
+      "top": [
+        "NA",
+        "BSD"
+      ]
+    },
+    {
+      "name": "Linux:What operating system(s) are your development environment?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 63.4,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "a0fcfe1841943b93",
+      "top": [
+        "NA",
+        "Linux"
+      ]
+    },
+    {
+      "name": "macOS:What operating system(s) are your development environment?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 84.1,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "a1b08e8b6b2db8ea",
+      "top": [
+        "NA",
+        "macOS"
+      ]
+    },
+    {
+      "name": "Other – Write In::What operating system(s) are your development environment?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 99.4,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": false,
+      "level_like": false,
+      "redacted": true,
+      "col_hash": "8b6504ec8c0b9eca",
+      "value_shape": {
+        "note": "自由文本，样本已脱敏，仅给出结构特征",
+        "len_min": 2,
+        "len_median": 2,
+        "len_max": 17
+      }
+    },
+    {
+      "name": "Windows:What operating system(s) are your development environment?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 75.3,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "1184a93061dcbd06",
+      "top": [
+        "NA",
+        "Windows"
+      ]
+    },
+    {
+      "name": "doctest:Which Python unit-testing framework(s) do you use, if any?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 97.5,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "5486732999711788",
+      "top": [
+        "NA",
+        "doctest"
+      ]
+    },
+    {
+      "name": "Hypothesis:Which Python unit-testing framework(s) do you use, if any?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 98.1,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "e4d3121999ae040e",
+      "top": [
+        "NA",
+        "Hypothesis"
+      ]
+    },
+    {
+      "name": "mock:Which Python unit-testing framework(s) do you use, if any?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 92.1,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "58a05f6d9ca8e2e4",
+      "top": [
+        "NA",
+        "mock"
+      ]
+    },
+    {
+      "name": "None:Which Python unit-testing framework(s) do you use, if any?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 81.9,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "1092a6ac43cc27b6",
+      "top": [
+        "NA",
+        "None"
+      ]
+    },
+    {
+      "name": "nose:Which Python unit-testing framework(s) do you use, if any?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 96.7,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "d91d2cc188efa1d0",
+      "top": [
+        "NA",
+        "nose"
+      ]
+    },
+    {
+      "name": "Other – Write In::Which Python unit-testing framework(s) do you use, if any?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 99.2,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": false,
+      "level_like": false,
+      "redacted": true,
+      "col_hash": "2baf3d7b7957dc94",
+      "value_shape": {
+        "note": "自由文本，样本已脱敏，仅给出结构特征",
+        "len_min": 2,
+        "len_median": 2,
+        "len_max": 17
+      }
+    },
+    {
+      "name": "pytest:Which Python unit-testing framework(s) do you use, if any?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 73.9,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "6e2ac473da5ee4ac",
+      "top": [
+        "NA",
+        "pytest"
+      ]
+    },
+    {
+      "name": "Tox:Which Python unit-testing framework(s) do you use, if any?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 96.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "4333fcac3d6c5f92",
+      "top": [
+        "NA",
+        "Tox"
+      ]
+    },
+    {
+      "name": "unittest:Which Python unit-testing framework(s) do you use, if any?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 83.9,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "6e403e6030ea1cac",
+      "top": [
+        "NA",
+        "unittest"
+      ]
+    },
+    {
+      "name": "Dejavu:What ORM(s) do you use together with Python, if any?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 99.6,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "68c65a7fa30d8ace",
+      "top": [
+        "NA",
+        "Dejavu"
+      ]
+    },
+    {
+      "name": "Django ORM:What ORM(s) do you use together with Python, if any?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 83.7,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "c4de0dda104fcf0c",
+      "top": [
+        "NA",
+        "Django ORM"
+      ]
+    },
+    {
+      "name": "None:What ORM(s) do you use together with Python, if any?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 78.5,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "6c3565192dbee6f9",
+      "top": [
+        "NA",
+        "None"
+      ]
+    },
+    {
+      "name": "Other – Write In::What ORM(s) do you use together with Python, if any?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 99.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": false,
+      "level_like": false,
+      "redacted": true,
+      "col_hash": "5c0894b925c97865",
+      "value_shape": {
+        "note": "自由文本，样本已脱敏，仅给出结构特征",
+        "len_min": 2,
+        "len_median": 2,
+        "len_max": 17
+      }
+    },
+    {
+      "name": "Peewee:What ORM(s) do you use together with Python, if any?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 98.3,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "8785cc9820311639",
+      "top": [
+        "NA",
+        "Peewee"
+      ]
+    },
+    {
+      "name": "PonyORM:What ORM(s) do you use together with Python, if any?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 99.3,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "70971ff4e5aa3dae",
+      "top": [
+        "NA",
+        "PonyORM"
+      ]
+    },
+    {
+      "name": "SQLAlchemy:What ORM(s) do you use together with Python, if any?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 82.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "125b27ddc3a0ea8c",
+      "top": [
+        "NA",
+        "SQLAlchemy"
+      ]
+    },
+    {
+      "name": "SQLObject:What ORM(s) do you use together with Python, if any?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 98.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "a3ab209a6b041dc2",
+      "top": [
+        "NA",
+        "SQLObject"
+      ]
+    },
+    {
+      "name": "Tortoise ORM:What ORM(s) do you use together with Python, if any?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 99.6,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "8fe1026fce3eb461",
+      "top": [
+        "NA",
+        "Tortoise ORM"
+      ]
+    },
+    {
+      "name": "Amazon Redshift:Which database(s) do you regularly use, if any?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 98.4,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "5051ae05db92486c",
+      "top": [
+        "NA",
+        "Amazon Redshift"
+      ]
+    },
+    {
+      "name": "Cassandra:Which database(s) do you regularly use, if any?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 98.8,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "3bd88375f7cc52d9",
+      "top": [
+        "NA",
+        "Cassandra"
+      ]
+    },
+    {
+      "name": "Couchbase:Which database(s) do you regularly use, if any?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 99.5,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "8d4ed9b7176139f3",
+      "top": [
+        "NA",
+        "Couchbase"
+      ]
+    },
+    {
+      "name": "DB2:Which database(s) do you regularly use, if any?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 99.3,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "009ecbc81f176226",
+      "top": [
+        "NA",
+        "DB2"
+      ]
+    },
+    {
+      "name": "h2:Which database(s) do you regularly use, if any?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 99.6,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "44745411156b6262",
+      "top": [
+        "NA",
+        "h2"
+      ]
+    },
+    {
+      "name": "HBase:Which database(s) do you regularly use, if any?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 99.3,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "d7046779e3a08524",
+      "top": [
+        "NA",
+        "HBase"
+      ]
+    },
+    {
+      "name": "MongoDB:Which database(s) do you regularly use, if any?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 89.9,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "40f9275fd416aeea",
+      "top": [
+        "NA",
+        "MongoDB"
+      ]
+    },
+    {
+      "name": "MS SQL Server:Which database(s) do you regularly use, if any?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 94.8,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "f0a75b3e34a055a3",
+      "top": [
+        "NA",
+        "MS SQL Server"
+      ]
+    },
+    {
+      "name": "MySQL:Which database(s) do you regularly use, if any?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 80.4,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "66650ffd09bcb7b6",
+      "top": [
+        "NA",
+        "MySQL"
+      ]
+    },
+    {
+      "name": "Neo4j:Which database(s) do you regularly use, if any?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 98.8,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "31695175120fa01c",
+      "top": [
+        "NA",
+        "Neo4j"
+      ]
+    },
+    {
+      "name": "None:Which database(s) do you regularly use, if any?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 92.3,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "37171d88cdeb4f1e",
+      "top": [
+        "NA",
+        "None"
+      ]
+    },
+    {
+      "name": "Oracle Database:Which database(s) do you regularly use, if any?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 96.8,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "6e4d17c230ab487c",
+      "top": [
+        "NA",
+        "Oracle Database"
+      ]
+    },
+    {
+      "name": "Other – Write In::Which database(s) do you regularly use, if any?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 96.5,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": false,
+      "level_like": false,
+      "redacted": true,
+      "col_hash": "e7e3a67a29ef6e81",
+      "value_shape": {
+        "note": "自由文本，样本已脱敏，仅给出结构特征",
+        "len_min": 2,
+        "len_median": 2,
+        "len_max": 17
+      }
+    },
+    {
+      "name": "PostgreSQL:Which database(s) do you regularly use, if any?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 76.4,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "e6ecfdf1e3a70fda",
+      "top": [
+        "NA",
+        "PostgreSQL"
+      ]
+    },
+    {
+      "name": "Redis:Which database(s) do you regularly use, if any?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 90.1,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "a0e12610cf444d59",
+      "top": [
+        "NA",
+        "Redis"
+      ]
+    },
+    {
+      "name": "SQLite:Which database(s) do you regularly use, if any?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 80.5,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "756a34ced58a2e62",
+      "top": [
+        "NA",
+        "SQLite"
+      ]
+    },
+    {
+      "name": "Apache Beam:Which of the following Big Data tool(s) do you use, if any?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 99.3,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "b1e867f4bd863662",
+      "top": [
+        "NA",
+        "Apache Beam"
+      ]
+    },
+    {
+      "name": "Apache Flink:Which of the following Big Data tool(s) do you use, if any?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 99.4,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "65349134c350963f",
+      "top": [
+        "NA",
+        "Apache Flink"
+      ]
+    },
+    {
+      "name": "Apache Hadoop/MapReduce:Which of the following Big Data tool(s) do you use, if any?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 96.5,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "e4a1324fdb3755dd",
+      "top": [
+        "NA",
+        "Apache Hadoop/MapReduce"
+      ]
+    },
+    {
+      "name": "Apache Hive:Which of the following Big Data tool(s) do you use, if any?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 97.8,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "cd0d6386e0356cf1",
+      "top": [
+        "NA",
+        "Apache Hive"
+      ]
+    },
+    {
+      "name": "Apache Kafka:Which of the following Big Data tool(s) do you use, if any?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 95.4,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "7505fb2d385659c6",
+      "top": [
+        "NA",
+        "Apache Kafka"
+      ]
+    },
+    {
+      "name": "Apache Samza:Which of the following Big Data tool(s) do you use, if any?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 99.7,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "ffeb1108d5ea9a38",
+      "top": [
+        "NA",
+        "Apache Samza"
+      ]
+    },
+    {
+      "name": "Apache Spark:Which of the following Big Data tool(s) do you use, if any?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 93.6,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "894f626ed776475c",
+      "top": [
+        "NA",
+        "Apache Spark"
+      ]
+    },
+    {
+      "name": "Apache Tez:Which of the following Big Data tool(s) do you use, if any?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 99.6,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "2c000f6ecbc03ce4",
+      "top": [
+        "NA",
+        "Apache Tez"
+      ]
+    },
+    {
+      "name": "ClickHouse:Which of the following Big Data tool(s) do you use, if any?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 99.3,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "857ddfe9c312b5f7",
+      "top": [
+        "NA",
+        "ClickHouse"
+      ]
+    },
+    {
+      "name": "Dask:Which of the following Big Data tool(s) do you use, if any?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 97.4,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "a1b180d9fddda535",
+      "top": [
+        "NA",
+        "Dask"
+      ]
+    },
+    {
+      "name": "None:Which of the following Big Data tool(s) do you use, if any?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 62.6,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "076cc05026b0928f",
+      "top": [
+        "NA",
+        "None"
+      ]
+    },
+    {
+      "name": "Other – Write In::Which of the following Big Data tool(s) do you use, if any?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 99.2,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": false,
+      "level_like": false,
+      "redacted": true,
+      "col_hash": "45f99443473139d3",
+      "value_shape": {
+        "note": "自由文本，样本已脱敏，仅给出结构特征",
+        "len_min": 2,
+        "len_median": 2,
+        "len_max": 17
+      }
+    },
+    {
+      "name": "AppVeyor:Which Continuous Integration (CI) system(s) do you regularly use?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 98.9,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "b979c426c69d48fa",
+      "top": [
+        "NA",
+        "AppVeyor"
+      ]
+    },
+    {
+      "name": "Bamboo:Which Continuous Integration (CI) system(s) do you regularly use?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 98.7,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "fca6321623f806fb",
+      "top": [
+        "NA",
+        "Bamboo"
+      ]
+    },
+    {
+      "name": "CircleCI:Which Continuous Integration (CI) system(s) do you regularly use?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 95.8,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "ee3840d3a56b4736",
+      "top": [
+        "NA",
+        "CircleCI"
+      ]
+    },
+    {
+      "name": "CruiseControl:Which Continuous Integration (CI) system(s) do you regularly use?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 99.7,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "a808d6dace6e612f",
+      "top": [
+        "NA",
+        "CruiseControl"
+      ]
+    },
+    {
+      "name": "Gitlab CI:Which Continuous Integration (CI) system(s) do you regularly use?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 88.5,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "492010911cc310a7",
+      "top": [
+        "NA",
+        "Gitlab CI"
+      ]
+    },
+    {
+      "name": "Jenkins / Hudson:Which Continuous Integration (CI) system(s) do you regularly use?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 87.7,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "643b82dd3f6fca27",
+      "top": [
+        "NA",
+        "Jenkins / Hudson"
+      ]
+    },
+    {
+      "name": "None:Which Continuous Integration (CI) system(s) do you regularly use?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 78.6,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "492f95374b1f2857",
+      "top": [
+        "NA",
+        "None"
+      ]
+    },
+    {
+      "name": "Other – Write In::Which Continuous Integration (CI) system(s) do you regularly use?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 96.4,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": false,
+      "level_like": false,
+      "redacted": true,
+      "col_hash": "1532bc1254faa3c9",
+      "value_shape": {
+        "note": "自由文本，样本已脱敏，仅给出结构特征",
+        "len_min": 2,
+        "len_median": 2,
+        "len_max": 17
+      }
+    },
+    {
+      "name": "TeamCity:Which Continuous Integration (CI) system(s) do you regularly use?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 98.7,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "8b021d1edc9c5238",
+      "top": [
+        "NA",
+        "TeamCity"
+      ]
+    },
+    {
+      "name": "Travis CI:Which Continuous Integration (CI) system(s) do you regularly use?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 92.3,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "4dfb2b0a4634c944",
+      "top": [
+        "NA",
+        "Travis CI"
+      ]
+    },
+    {
+      "name": "Ansible:Which configuration management tools do you use, if any?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 90.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "72a932607b38010b",
+      "top": [
+        "NA",
+        "Ansible"
+      ]
+    },
+    {
+      "name": "Chef:Which configuration management tools do you use, if any?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 98.5,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "d5cec95e283262ef",
+      "top": [
+        "NA",
+        "Chef"
+      ]
+    },
+    {
+      "name": "Custom solution:Which configuration management tools do you use, if any?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 95.4,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "df76d9f5b18880e6",
+      "top": [
+        "NA",
+        "Custom solution"
+      ]
+    },
+    {
+      "name": "None:Which configuration management tools do you use, if any?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 67.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "3fee060a92f5dbf7",
+      "top": [
+        "NA",
+        "None"
+      ]
+    },
+    {
+      "name": "Other – Write In::Which configuration management tools do you use, if any?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 98.5,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": false,
+      "level_like": false,
+      "redacted": true,
+      "col_hash": "bf488e55dd0be30f",
+      "value_shape": {
+        "note": "自由文本，样本已脱敏，仅给出结构特征",
+        "len_min": 2,
+        "len_median": 2,
+        "len_max": 17
+      }
+    },
+    {
+      "name": "Puppet:Which configuration management tools do you use, if any?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 97.6,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "a9507a4fadb59d43",
+      "top": [
+        "NA",
+        "Puppet"
+      ]
+    },
+    {
+      "name": "Salt:Which configuration management tools do you use, if any?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 98.2,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "cf5fa1d752334ab9",
+      "top": [
+        "NA",
+        "Salt"
+      ]
+    },
+    {
+      "name": "What is the main editor you use for your current Python development?",
+      "non_empty_pct": 100.0,
+      "n_unique": 25,
+      "top_share": 50.2,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": false,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "b2ae3fd36a318cad",
+      "top": [
+        "NA",
+        "VS Code",
+        "PyCharm Professional Edition",
+        "PyCharm Community Edition",
+        "Vim",
+        "Sublime Text"
+      ]
+    },
+    {
+      "name": "Aptana:What editors/IDEs do you use for Python development in addition to your primary IDE?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 99.9,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "3d351c1603cf57d3",
+      "top": [
+        "NA",
+        "Aptana"
+      ]
+    },
+    {
+      "name": "Atom:What editors/IDEs do you use for Python development in addition to your primary IDE?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 95.8,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "535c53cfe80bc7d0",
+      "top": [
+        "NA",
+        "Atom"
+      ]
+    },
+    {
+      "name": "Eclipse + Pydev:What editors/IDEs do you use for Python development in addition to your primary IDE?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 99.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "73abf8bb5bc1f993",
+      "top": [
+        "NA",
+        "Eclipse + Pydev"
+      ]
+    },
+    {
+      "name": "Emacs:What editors/IDEs do you use for Python development in addition to your primary IDE?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 98.7,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "4f012cf9d2d3c563",
+      "top": [
+        "NA",
+        "Emacs"
+      ]
+    },
+    {
+      "name": "Gedit:What editors/IDEs do you use for Python development in addition to your primary IDE?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 98.3,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "28a8fca4f90db41c",
+      "top": [
+        "NA",
+        "Gedit"
+      ]
+    },
+    {
+      "name": "IDLE:What editors/IDEs do you use for Python development in addition to your primary IDE?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 96.6,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "3ab6ca53adbc3c1c",
+      "top": [
+        "NA",
+        "IDLE"
+      ]
+    },
+    {
+      "name": "IntelliJ IDEA:What editors/IDEs do you use for Python development in addition to your primary IDE?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 98.3,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "a77c3b2076475a3e",
+      "top": [
+        "NA",
+        "IntelliJ IDEA"
+      ]
+    },
+    {
+      "name": "Jupyter Notebook:What editors/IDEs do you use for Python development in addition to your primary IDE?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 88.7,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "dab981dea8d9f15a",
+      "top": [
+        "NA",
+        "Jupyter Notebook"
+      ]
+    },
+    {
+      "name": "JupyterLab:What editors/IDEs do you use for Python development in addition to your primary IDE?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 95.3,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "fd34ef6e8234c2e4",
+      "top": [
+        "NA",
+        "JupyterLab"
+      ]
+    },
+    {
+      "name": "Komodo Editor:What editors/IDEs do you use for Python development in addition to your primary IDE?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 99.8,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "f7e3d9dca4b6b65c",
+      "top": [
+        "NA",
+        "Komodo Editor"
+      ]
+    },
+    {
+      "name": "Komodo IDE:What editors/IDEs do you use for Python development in addition to your primary IDE?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 99.8,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "1139d1e5d87817d2",
+      "top": [
+        "NA",
+        "Komodo IDE"
+      ]
+    },
+    {
+      "name": "NetBeans:What editors/IDEs do you use for Python development in addition to your primary IDE?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 99.5,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "dfdd036aec10b1cd",
+      "top": [
+        "NA",
+        "NetBeans"
+      ]
+    },
+    {
+      "name": "Ninja-IDE:What editors/IDEs do you use for Python development in addition to your primary IDE?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 99.8,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "8f4a55e3fcd3f6da",
+      "top": [
+        "NA",
+        "Ninja-IDE"
+      ]
+    },
+    {
+      "name": "None:What editors/IDEs do you use for Python development in addition to your primary IDE?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 93.2,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "a0af886209aae0fe",
+      "top": [
+        "NA",
+        "None"
+      ]
+    },
+    {
+      "name": "NotePad++:What editors/IDEs do you use for Python development in addition to your primary IDE?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 93.3,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "963e970ce78c1266",
+      "top": [
+        "NA",
+        "NotePad++"
+      ]
+    },
+    {
+      "name": "Other – Write In::What editors/IDEs do you use for Python development in addition to your primary IDE?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 97.6,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": false,
+      "level_like": false,
+      "redacted": true,
+      "col_hash": "d4aafdbee86e2993",
+      "value_shape": {
+        "note": "自由文本，样本已脱敏，仅给出结构特征",
+        "len_min": 2,
+        "len_median": 2,
+        "len_max": 17
+      }
+    },
+    {
+      "name": "PyCharm Community Edition:What editors/IDEs do you use for Python development in addition to your primary IDE?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 92.6,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "69d5516172772879",
+      "top": [
+        "NA",
+        "PyCharm Community Edition"
+      ]
+    },
+    {
+      "name": "PyCharm Professional Edition:What editors/IDEs do you use for Python development in addition to your primary IDE?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 96.4,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "b33d79ec597ac3a1",
+      "top": [
+        "NA",
+        "PyCharm Professional Edition"
+      ]
+    },
+    {
+      "name": "Python Tools for Visual Studio (PTVS):What editors/IDEs do you use for Python development in addition to your primary IDE?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 98.5,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "7f6dc3d851e73c11",
+      "top": [
+        "NA",
+        "Python Tools for Visual Studio (PTVS)"
+      ]
+    },
+    {
+      "name": "Rodeo:What editors/IDEs do you use for Python development in addition to your primary IDE?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 99.9,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "a7018ad95a1a2c7a",
+      "top": [
+        "NA",
+        "Rodeo"
+      ]
+    },
+    {
+      "name": "Spyder:What editors/IDEs do you use for Python development in addition to your primary IDE?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 97.3,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "c581f179f7d4a533",
+      "top": [
+        "NA",
+        "Spyder"
+      ]
+    },
+    {
+      "name": "Sublime Text:What editors/IDEs do you use for Python development in addition to your primary IDE?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 91.7,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "35d86d0faddd48c9",
+      "top": [
+        "NA",
+        "Sublime Text"
+      ]
+    },
+    {
+      "name": "TextMate:What editors/IDEs do you use for Python development in addition to your primary IDE?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 99.6,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "9b6872a6d25b1dee",
+      "top": [
+        "NA",
+        "TextMate"
+      ]
+    },
+    {
+      "name": "Vim:What editors/IDEs do you use for Python development in addition to your primary IDE?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 87.4,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "e9dcfedcd3331695",
+      "top": [
+        "NA",
+        "Vim"
+      ]
+    },
+    {
+      "name": "VS Code:What editors/IDEs do you use for Python development in addition to your primary IDE?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 89.1,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "971bddfa9e9fc308",
+      "top": [
+        "NA",
+        "VS Code"
+      ]
+    },
+    {
+      "name": "Wing IDE:What editors/IDEs do you use for Python development in addition to your primary IDE?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 99.7,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "bf0f1036cd0e6b24",
+      "top": [
+        "NA",
+        "Wing IDE"
+      ]
+    },
+    {
+      "name": "Do you regularly work on multiple projects at the same time?",
+      "non_empty_pct": 100.0,
+      "n_unique": 4,
+      "top_share": 51.6,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": false,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "d1fd5f5ff605415d",
+      "top": [
+        "NA",
+        "Yes, I work on many different projects",
+        "Yes, I work on one main and several side project",
+        "No,  I only work on one project"
+      ]
+    },
+    {
+      "name": "use autocompletion  in your editor:When developing in Python, how often do you …?",
+      "non_empty_pct": 100.0,
+      "n_unique": 4,
+      "top_share": 61.7,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": false,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "367da06f0995ab56",
+      "top": [
+        "NA",
+        "Often",
+        "From time<br />to time",
+        "Never or<br />Almost never"
+      ]
+    },
+    {
+      "name": "use a debugger:When developing in Python, how often do you …?",
+      "non_empty_pct": 100.0,
+      "n_unique": 4,
+      "top_share": 61.8,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": false,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "f05c7c91792f5ff1",
+      "top": [
+        "NA",
+        "Often",
+        "From time<br />to time",
+        "Never or<br />Almost never"
+      ]
+    },
+    {
+      "name": "refactor your code:When developing in Python, how often do you …?",
+      "non_empty_pct": 100.0,
+      "n_unique": 4,
+      "top_share": 61.8,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": false,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "7bd2d468c48ec072",
+      "top": [
+        "NA",
+        "Often",
+        "From time<br />to time",
+        "Never or<br />Almost never"
+      ]
+    },
+    {
+      "name": "use Version Control Systems:When developing in Python, how often do you …?",
+      "non_empty_pct": 100.0,
+      "n_unique": 4,
+      "top_share": 61.6,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": false,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "6a40ae175ff0916c",
+      "top": [
+        "NA",
+        "Often",
+        "From time<br />to time",
+        "Never or<br />Almost never"
+      ]
+    },
+    {
+      "name": "use code linting (programs that analyze code for potential errors):When developing in Python, how often do you …?",
+      "non_empty_pct": 100.0,
+      "n_unique": 4,
+      "top_share": 62.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": false,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "56d45790ce2494c1",
+      "top": [
+        "NA",
+        "Often",
+        "From time<br />to time",
+        "Never or<br />Almost never"
+      ]
+    },
+    {
+      "name": "use Python virtual environments for your projects:When developing in Python, how often do you …?",
+      "non_empty_pct": 100.0,
+      "n_unique": 4,
+      "top_share": 61.5,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": false,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "478a34e48e8719c4",
+      "top": [
+        "NA",
+        "Often",
+        "From time<br />to time",
+        "Never or<br />Almost never"
+      ]
+    },
+    {
+      "name": "use SQL databases :When developing in Python, how often do you …?",
+      "non_empty_pct": 100.0,
+      "n_unique": 4,
+      "top_share": 61.5,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": false,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "442976f36a3d2538",
+      "top": [
+        "NA",
+        "Often",
+        "From time<br />to time",
+        "Never or<br />Almost never"
+      ]
+    },
+    {
+      "name": "use NoSQL databases:When developing in Python, how often do you …?",
+      "non_empty_pct": 100.0,
+      "n_unique": 4,
+      "top_share": 62.2,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": false,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "be78195a52e311e8",
+      "top": [
+        "NA",
+        "Never or<br />Almost never",
+        "From time<br />to time",
+        "Often"
+      ]
+    },
+    {
+      "name": "run / debug or edit code on remote machines (remote hosts, VMs, etc.):When developing in Python, how often do you …?",
+      "non_empty_pct": 100.0,
+      "n_unique": 4,
+      "top_share": 62.1,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": false,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "0c7c0093455cc185",
+      "top": [
+        "NA",
+        "Never or<br />Almost never",
+        "From time<br />to time",
+        "Often"
+      ]
+    },
+    {
+      "name": "use a Python profiler:When developing in Python, how often do you …?",
+      "non_empty_pct": 100.0,
+      "n_unique": 4,
+      "top_share": 62.3,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": false,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "2492c1865b9e3378",
+      "top": [
+        "NA",
+        "Never or<br />Almost never",
+        "From time<br />to time",
+        "Often"
+      ]
+    },
+    {
+      "name": "write tests for your code:When developing in Python, how often do you …?",
+      "non_empty_pct": 100.0,
+      "n_unique": 4,
+      "top_share": 61.7,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": false,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "5e0e2ac34a707e04",
+      "top": [
+        "NA",
+        "Often",
+        "From time<br />to time",
+        "Never or<br />Almost never"
+      ]
+    },
+    {
+      "name": "use code coverage:When developing in Python, how often do you …?",
+      "non_empty_pct": 100.0,
+      "n_unique": 4,
+      "top_share": 62.3,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": false,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "20b9f338a5f9642a",
+      "top": [
+        "NA",
+        "Never or<br />Almost never",
+        "From time<br />to time",
+        "Often"
+      ]
+    },
+    {
+      "name": "use optional type hinting:When developing in Python, how often do you …?",
+      "non_empty_pct": 100.0,
+      "n_unique": 4,
+      "top_share": 62.2,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": false,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "6740a9825893903c",
+      "top": [
+        "NA",
+        "Never or<br />Almost never",
+        "Often",
+        "From time<br />to time"
+      ]
+    },
+    {
+      "name": "use Continuous Integration tools:When developing in Python, how often do you …?",
+      "non_empty_pct": 100.0,
+      "n_unique": 4,
+      "top_share": 62.2,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": false,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "83757e463e8de6e7",
+      "top": [
+        "NA",
+        "Never or<br />Almost never",
+        "Often",
+        "From time<br />to time"
+      ]
+    },
+    {
+      "name": "use Issue Trackers:When developing in Python, how often do you …?",
+      "non_empty_pct": 100.0,
+      "n_unique": 4,
+      "top_share": 62.3,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": false,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "9a90f2a0b8e0d352",
+      "top": [
+        "NA",
+        "Often",
+        "Never or<br />Almost never",
+        "From time<br />to time"
+      ]
+    },
+    {
+      "name": "How did you first learn about your primary IDE?",
+      "non_empty_pct": 100.0,
+      "n_unique": 10,
+      "top_share": 53.4,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": false,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "ec33db43708cc25d",
+      "top": [
+        "NA",
+        "Friend / Colleague",
+        "I don't remember",
+        "School / University",
+        "Search engines",
+        "Technical review / Forum / Blog"
+      ]
+    },
+    {
+      "name": "How often do you use your primary IDE?",
+      "non_empty_pct": 100.0,
+      "n_unique": 5,
+      "top_share": 53.5,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": false,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "ae7342bc83d5b9c8",
+      "top": [
+        "NA",
+        "Daily",
+        "Weekly",
+        "Monthly",
+        "Less frequently"
+      ]
+    },
+    {
+      "name": "Most of the time, do you ...? ",
+      "non_empty_pct": 100.0,
+      "n_unique": 4,
+      "top_share": 51.4,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": false,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "142ff5a2d0a4db26",
+      "top": [
+        "NA",
+        "Work in a team",
+        "Work on your own project(s) independently",
+        "Work as an external consultant or trainer"
+      ]
+    },
+    {
+      "name": "How many people are in your project team?",
+      "non_empty_pct": 100.0,
+      "n_unique": 6,
+      "top_share": 74.9,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": false,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "cdf1acec719b6445",
+      "top": [
+        "NA",
+        "2-7 people",
+        "8-12 people",
+        "13-20 people",
+        "21-40 people",
+        "More than 40 people"
+      ]
+    },
+    {
+      "name": "What is your employment status?",
+      "non_empty_pct": 100.0,
+      "n_unique": 9,
+      "top_share": 51.4,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": false,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "7ab23114c740b5c3",
+      "top": [
+        "NA",
+        "Fully employed by a company / organization",
+        "Student",
+        "Working student",
+        "Self-employed <em>(a person earning income direc",
+        "Freelancer <em>(a person pursuing a profession w"
+      ]
+    },
+    {
+      "name": "How many people work for your company / organization?",
+      "non_empty_pct": 100.0,
+      "n_unique": 9,
+      "top_share": 60.6,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": false,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "c8f56efedb2354bb",
+      "top": [
+        "NA",
+        "51–500",
+        "11–50",
+        "More than 5,000",
+        "2–10",
+        "1,001–5,000"
+      ]
+    },
+    {
+      "name": "Architect:Which of the following best describes your job role(s)?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 93.1,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "525a01bc05e86a9b",
+      "top": [
+        "NA",
+        "Architect"
+      ]
+    },
+    {
+      "name": "Business analyst:Which of the following best describes your job role(s)?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 98.2,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "6695a44c5aeab9c1",
+      "top": [
+        "NA",
+        "Business analyst"
+      ]
+    },
+    {
+      "name": "CIO / CEO / CTO:Which of the following best describes your job role(s)?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 97.4,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "841fd6725a205bfb",
+      "top": [
+        "NA",
+        "CIO / CEO / CTO"
+      ]
+    },
+    {
+      "name": "Data analyst:Which of the following best describes your job role(s)?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 92.9,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "9cd164d934ab5513",
+      "top": [
+        "NA",
+        "Data analyst"
+      ]
+    },
+    {
+      "name": "DBA:Which of the following best describes your job role(s)?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 98.4,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "8afc279739c0154c",
+      "top": [
+        "NA",
+        "DBA"
+      ]
+    },
+    {
+      "name": "Developer / Programmer:Which of the following best describes your job role(s)?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 72.1,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "ed07c1707bc907b7",
+      "top": [
+        "NA",
+        "Developer / Programmer"
+      ]
+    },
+    {
+      "name": "Other – Write In::Which of the following best describes your job role(s)?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 95.1,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": false,
+      "level_like": false,
+      "redacted": true,
+      "col_hash": "fed8caf913c1b4d7",
+      "value_shape": {
+        "note": "自由文本，样本已脱敏，仅给出结构特征",
+        "len_min": 2,
+        "len_median": 2,
+        "len_max": 17
+      }
+    },
+    {
+      "name": "Product manager:Which of the following best describes your job role(s)?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 97.7,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "08541d8dddf618e2",
+      "top": [
+        "NA",
+        "Product manager"
+      ]
+    },
+    {
+      "name": "QA engineer:Which of the following best describes your job role(s)?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 97.9,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "d6eb3084865a282b",
+      "top": [
+        "NA",
+        "QA engineer"
+      ]
+    },
+    {
+      "name": "Systems analyst:Which of the following best describes your job role(s)?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 97.2,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "69e7083ad7272e6b",
+      "top": [
+        "NA",
+        "Systems analyst"
+      ]
+    },
+    {
+      "name": "Team lead:Which of the following best describes your job role(s)?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 92.9,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "17f571b2b6a7990b",
+      "top": [
+        "NA",
+        "Team lead"
+      ]
+    },
+    {
+      "name": "Technical support:Which of the following best describes your job role(s)?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 96.6,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "b2862a76ea70c5e9",
+      "top": [
+        "NA",
+        "Technical support"
+      ]
+    },
+    {
+      "name": "Technical writer:Which of the following best describes your job role(s)?",
+      "non_empty_pct": 100.0,
+      "n_unique": 2,
+      "top_share": 99.0,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": true,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "6dbb9ee00f11fde8",
+      "top": [
+        "NA",
+        "Technical writer"
+      ]
+    },
+    {
+      "name": "Which of the following industries best describes your company's business?",
+      "non_empty_pct": 39.2,
+      "n_unique": 24,
+      "top_share": 41.6,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": false,
+      "level_like": false,
+      "redacted": true,
+      "col_hash": "37cfaf55e47afcc9",
+      "value_shape": {
+        "note": "自由文本，样本已脱敏，仅给出结构特征",
+        "len_min": 3,
+        "len_median": 32,
+        "len_max": 45
+      }
+    },
+    {
+      "name": "Which of the following industries do you develop for?",
+      "non_empty_pct": 16.3,
+      "n_unique": 24,
+      "top_share": 45.2,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": false,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "2cdb7a9687a73e2a",
+      "top": [
+        "Information Technology / Software Development",
+        "Other",
+        "Accounting / Finance / Insurance",
+        "Sales / Distribution / Business Development",
+        "Banking / Real Estate / Mortgage Financing",
+        "Medicine / Health"
+      ]
+    },
+    {
+      "name": "Could you tell us your age range?",
+      "non_empty_pct": 100.0,
+      "n_unique": 7,
+      "top_share": 52.3,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": false,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "75a9d0a6be3e7543",
+      "top": [
+        "NA",
+        "21–29",
+        "30–39",
+        "40–49",
+        "18–20",
+        "50–59"
+      ]
+    },
+    {
+      "name": "What country do you live in?",
+      "non_empty_pct": 100.0,
+      "n_unique": 92,
+      "top_share": 52.3,
+      "numeric_like": false,
+      "binary_like": false,
+      "multi_like": false,
+      "level_like": false,
+      "redacted": false,
+      "col_hash": "cfa1ac41fbec91e5",
+      "top": [
+        "NA",
+        "United States",
+        "India",
+        "Germany",
+        "United Kingdom",
+        "France"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,185 @@
+{
+  "stage": "clean_semantics",
+  "model": "qwen3.5:4b",
+  "model_digest": "d8b0f5e9760cd168",
+  "prompt_version": "clean-semantics-v2",
+  "input_hash": "eb61a8d89b48cdf3d55fcfc99d3c2d8e",
+  "created_at": "2026-10-23T18:53:35",
+  "duration_s": 9.82,
+  "output_tokens": 743,
+  "fallback": false,
+  "error": "",
+  "manual_edit": false,
+  "reviewed": false,
+  "payload_summary": {
+    "year": 2021,
+    "batch": "dependency.store.requirements_txt…dependency.update.Other",
+    "n": 18
+  },
+  "response": {
+    "columns": [
+      {
+        "column": "dependency.store.requirements_txt",
+        "kind": "multi_option",
+        "group": "dependency.store",
+        "option": "requirements_txt",
+        "missing_tokens": [],
+        "reason": "flags 显示全列恒等于选项文本",
+        "year": 2021
+      },
+      {
+        "column": "dependency.store.pyproject_toml",
+        "kind": "multi_option",
+        "group": "dependency.store",
+        "option": "pyproject_toml",
+        "missing_tokens": [],
+        "reason": "flags 显示全列恒等于选项文本",
+        "year": 2021
+      },
+      {
+        "column": "dependency.store.pipfile_lock",
+        "kind": "multi_option",
+        "group": "dependency.store",
+        "option": "pipfile_lock",
+        "missing_tokens": [],
+        "reason": "flags 显示全列恒等于选项文本",
+        "year": 2021
+      },
+      {
+        "column": "dependency.store.poetry_lock",
+        "kind": "multi_option",
+        "group": "dependency.store",
+        "option": "poetry_lock",
+        "missing_tokens": [],
+        "reason": "flags 显示全列恒等于选项文本",
+        "year": 2021
+      },
+      {
+        "column": "dependency.store.Conda environment_yml",
+        "kind": "multi_option",
+        "group": "dependency.store",
+        "option": "Conda environment_yml",
+        "missing_tokens": [],
+        "reason": "flags 显示全列恒等于选项文本",
+        "year": 2021
+      },
+      {
+        "column": "dependency.store.pip constraints_txt",
+        "kind": "multi_option",
+        "group": "dependency.store",
+        "option": "pip constraints_txt",
+        "missing_tokens": [],
+        "reason": "flags 显示全列恒等于选项文本",
+        "year": 2021
+      },
+      {
+        "column": "dependency.store.Other",
+        "kind": "multi_option",
+        "group": "dependency.store",
+        "option": "Other",
+        "missing_tokens": [],
+        "reason": "flags 显示全列恒等于选项文本",
+        "year": 2021
+      },
+      {
+        "column": "dependency.tools.None",
+        "kind": "multi_option",
+        "group": "dependency.tools",
+        "option": "None",
+        "missing_tokens": [],
+        "reason": "flags 显示全列恒等于选项文本",
+        "year": 2021
+      },
+      {
+        "column": "dependency.tools.pipenv",
+        "kind": "multi_option",
+        "group": "dependency.tools",
+        "option": "pipenv",
+        "missing_tokens": [],
+        "reason": "flags 显示全列恒等于选项文本",
+        "year": 2021
+      },
+      {
+        "column": "dependency.tools.poetry",
+        "kind": "multi_option",
+        "group": "dependency.tools",
+        "option": "poetry",
+        "missing_tokens": [],
+        "reason": "flags 显示全列恒等于选项文本",
+        "year": 2021
+      },
+      {
+        "column": "dependency.tools.pip-tools",
+        "kind": "multi_option",
+        "group": "dependency.tools",
+        "option": "pip-tools",
+        "missing_tokens": [],
+        "reason": "flags 显示全列恒等于选项文本",
+        "year": 2021
+      },
+      {
+        "column": "dependency.tools.Other",
+        "kind": "multi_option",
+        "group": "dependency.tools",
+        "option": "Other",
+        "missing_tokens": [],
+        "reason": "flags 显示全列恒等于选项文本",
+        "year": 2021
+      },
+      {
+        "column": "dependency.update.None",
+        "kind": "multi_option",
+        "group": "dependency.update",
+        "option": "None",
+        "missing_tokens": [],
+        "reason": "flags 显示全列恒等于选项文本",
+        "year": 2021
+      },
+      {
+        "column": "dependency.update.Dependabot",
+        "kind": "multi_option",
+        "group": "dependency.update",
+        "option": "Dependabot",
+        "missing_tokens": [],
+        "reason": "flags 显示全列恒等于选项文本",
+        "year": 2021
+      },
+      {
+        "column": "dependency.update.PyUp",
+        "kind": "multi_option",
+        "group": "dependency.update",
+        "option": "PyUp",
+        "missing_tokens": [],
+        "reason": "flags 显示全列恒等于选项文本",
+        "year": 2021
+      },
+      {
+        "column": "dependency.update.Custom tools, e_g_ a cron job or scheduled CI task",
+        "kind": "multi_option",
+        "group": "dependency.update",
+        "option": "Custom tools, e_g_ a cron job or scheduled CI task",
+        "missing_tokens": [],
+        "reason": "flags 显示全列恒等于选项文本",
+        "year": 2021
+      },
+      {
+        "column": "dependency.update.No, my application dependencies are updated manually",
+        "kind": "multi_option",
+        "group": "dependency.update",
+        "option": "No, my application dependencies are updated manually",
+        "missing_tokens": [],
+        "reason": "flags 显示全列恒等于选项文本",
+        "year": 2021
+      },
+      {
+        "column": "dependency.update.Other",
+        "kind": "multi_option",
+        "group": "dependency.update",
+        "option": "Other",
+        "missing_tokens": [],
+        "reason": "flags 显示全列恒等于选项文本",
+        "year": 2021
+      }
+    ]
+  }
+}
