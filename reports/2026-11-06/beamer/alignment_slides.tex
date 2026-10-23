@@ -1,0 +1,247 @@
+% !TEX program = xelatex
+% 组会汇报：PSF 调查 2019–2024 跨年对齐（7 页，16:9）
+% 编译：xelatex alignment_slides.tex（跑两遍以正确显示总页数）
+\documentclass[aspectratio=169,11pt]{ctexbeamer}
+
+\usetheme[progressbar=frametitle,numbering=fraction,block=fill]{metropolis}
+
+\usepackage{booktabs}
+\usepackage{graphicx}
+\usepackage{tikz}
+\usetikzlibrary{chains,positioning}
+\usepackage{tcolorbox}
+\tcbuselibrary{skins}
+
+% ---------------------------------------------------------------- 配色与字体
+\definecolor{ink}{HTML}{14213D}
+\definecolor{muted}{HTML}{5A6472}
+\definecolor{panel}{HTML}{F5F7FA}
+\definecolor{border}{HTML}{E3E8EF}
+\definecolor{accent}{HTML}{DD8452}
+\definecolor{calm}{HTML}{4C72B0}
+\definecolor{good}{HTML}{55A868}
+\definecolor{warn}{HTML}{C44E52}
+
+\setbeamercolor{frametitle}{bg=ink,fg=white}
+\setbeamercolor{progress bar}{fg=accent,bg=ink!25}
+\setbeamercolor{normal text}{fg=black!88}
+\setbeamercolor{structure}{fg=calm}
+\setbeamerfont{frametitle}{size=\large,series=\bfseries}
+\setbeamertemplate{navigation symbols}{}
+
+\setmonofont{Consolas}[Scale=0.92]
+
+% ---------------------------------------------------------------- 版式组件
+\newcommand{\lead}[1]{\vspace*{-1.2mm}{\color{muted}\small #1}\par\vspace{3.2mm}}
+\newcommand{\code}[1]{{\ttfamily\upshape #1}}
+\newcommand{\src}[1]{\vfill{\tiny\color{muted}#1}}
+
+\newcommand{\kpi}[3]{%
+  \begin{tcolorbox}[enhanced,colback=panel,colframe=panel,boxrule=0pt,arc=1.2mm,
+      left=2.6mm,right=2mm,top=2mm,bottom=2mm,width=\linewidth,valign=center]
+    {\color{#3}\bfseries\LARGE #1}\\[0.4mm]{\scriptsize\color{black!75}#2}
+  \end{tcolorbox}}
+
+\title{从 153 列到 40 列}
+\subtitle{跨年对齐：人工映射与本地小模型的两条路}
+\author{汇报人：曾子睿}
+\date{2026 年 11 月}
+
+\begin{document}
+
+% ---------------------------------------------------------------- 01 封面
+\begin{frame}[plain]
+  \vspace*{1mm}
+  {\color{ink}\bfseries\fontsize{26}{30}\selectfont 从 153 列到 40 列\par}
+  \vspace{2mm}
+  {\large\color{muted}跨年对齐：人工映射与本地小模型的两条路\par}
+  \vspace{4mm}
+
+  \begin{center}
+    \begin{tikzpicture}[x=1cm,y=1cm]
+      \fill[panel] (0,0) rectangle (12.3,2.5);
+      \node[anchor=west,font=\scriptsize,text=muted] at (0.5,2.05) {2019--2024 六份原始表};
+      \node[anchor=west,font=\bfseries\large,text=ink] at (0.5,1.25) {42 个跨年共有列};
+      \draw[->,line width=1.3pt,calm] (4.8,1.35) -- (7.0,1.35);
+      \node[anchor=west,font=\bfseries\large,text=calm] at (7.2,1.35) {153（人工）};
+      \node[anchor=west,font=\small,text=accent] at (7.2,0.65) {40（本地 4B 模型）};
+      \node[anchor=west,font=\scriptsize,text=muted] at (0.5,0.55) {203,643 行 → 185,632 行};
+    \end{tikzpicture}
+  \end{center}
+
+  \vfill
+  {\small 汇报人：曾子睿 \hfill 2026 年 11 月}\\[1mm]
+  {\tiny\color{muted}原始数据版权归 JetBrains / PSF 所有，此处只涉及对齐口径与脚本。}
+\end{frame}
+
+% ---------------------------------------------------------------- 02 成果
+\begin{frame}{一页看清成果}
+  \lead{人工路线交付完整总表；LLM 路线列数少，但两边都有的 36 列几乎逐格一致。}
+
+  \begin{columns}[T,onlytextwidth]
+    \column{0.235\textwidth}\kpi{153}{跨年共有列（原 42）}{calm}
+    \column{0.235\textwidth}\kpi{382}{列名重命名}{good}
+    \column{0.235\textwidth}\kpi{109,745}{取值统一记录}{accent}
+    \column{0.235\textwidth}\kpi{185,632}{总表行数}{ink}
+  \end{columns}
+
+  \vspace{1.2mm}
+  \begin{columns}[T,onlytextwidth]
+    \column{0.54\textwidth}
+      \includegraphics[width=\linewidth,height=0.28\textheight,keepaspectratio]{../figures/f1_coverage.png}
+    \column{0.44\textwidth}
+      {\scriptsize
+        LLM：40 列 · 171 条重命名\\
+        9 个同义簇 · 取值 0 条\\
+        36 列重叠，非空率差 $\geq$1pp：\textbf{0 条}\\
+        同主题最大差 \textbf{0.1pp}（12 条对比）\\
+        总行数 185,586，比人工少 46
+      }
+  \end{columns}
+
+  \src{来源：\code{aligned/alignment\_report.md}；\code{llm/reports/alignment\_report.md}；\code{llm/reports/parity\_report.md}}
+\end{frame}
+
+% ---------------------------------------------------------------- 03 手搓路径
+\begin{frame}{手搓对齐：先归组，再改名，最后动取值}
+  \lead{顺序不能反。先改列名再归组，前面的改动会被后一步覆盖。}
+
+  \begin{center}
+    \begin{tikzpicture}[start chain=going right,node distance=0.38cm,
+        st/.style={on chain,draw=border,fill=panel,rounded corners=0.8mm,align=center,
+            text width=1.95cm,inner sep=2pt,minimum height=1.25cm,font=\scriptsize},
+        every join/.style={->,draw=border,line width=0.9pt}]
+      \node[st]{\textbf{01}\\[0.6mm]文本归一};
+      \node[st,join]{\textbf{02}\\[0.6mm]组路径重映射};
+      \node[st,join]{\textbf{03}\\[0.6mm]列名统一};
+      \node[st,join]{\textbf{04}\\[0.6mm]取值文案统一};
+      \node[st,join]{\textbf{05}\\[0.6mm]取交集 153 列};
+    \end{tikzpicture}
+  \end{center}
+
+  \vspace{2mm}
+  {\scriptsize
+    \begin{tabular}{@{}p{6.4cm}p{5.2cm}@{}}
+      \toprule
+      {\bfseries 改之前} & {\bfseries 改之后} \\
+      \midrule
+      \code{isolate.environments.Docker} & \code{environments.isolate.Docker} \\
+      \code{what\_other\_language\_s...[Other]} & \code{other.lang.Other - Write In} \\
+      \code{OS-provided Python (via apt-get...)} & \code{OS-provided Python} \\
+      \bottomrule
+    \end{tabular}
+  }
+
+  \vspace{1.6mm}
+  {\scriptsize\color{muted}撞名先回退确定性归一，再撞才加 \code{\_\_dupN}；取值只合并同一选项的不同写法。}
+
+  \src{来源：\code{aligned/alignment\_report.md}；\code{align\_survey.py}}
+\end{frame}
+
+% ---------------------------------------------------------------- 04 代价
+\begin{frame}{手搓的代价：2019 一年改了 201 个列名}
+  \lead{成本集中在第一次遇到新题型；后面五年加起来 181 条，维护靠同义词表逐年补。}
+
+  \begin{center}
+    \includegraphics[width=0.88\textwidth,height=0.42\textheight,keepaspectratio]{../figures/f2_mapping_scale.png}
+  \end{center}
+
+  \vspace{0.4mm}
+  {\scriptsize 分年重命名：2019 \textbf{201} · 31 · 48 · 43 · 25 · 34；2019 列名是整句问句，等于没有命名规范。}
+
+  \src{来源：\code{aligned/alignment\_report.md} 分年统计；\code{llm/reports/alignment\_report.md} 校验提示}
+\end{frame}
+
+% ---------------------------------------------------------------- 05 LLM 路线
+\begin{frame}{小模型：只动嘴，不动手}
+  \lead{模型输出可校验的决策 JSON；执行、护栏、缓存都在 Python 里。}
+
+  \begin{center}
+    \begin{tikzpicture}[start chain=going right,node distance=0.5cm,
+        st/.style={on chain,draw=border,fill=panel,rounded corners=0.8mm,align=center,
+            text width=2.35cm,inner sep=2pt,minimum height=1.15cm,font=\scriptsize},
+        every join/.style={->,draw=border,line width=0.9pt}]
+      \node[st]{\textbf{01}\\[0.6mm]列画像\\（脱敏）};
+      \node[st,join]{\textbf{02}\\[0.6mm]决策 JSON};
+      \node[st,join]{\textbf{03}\\[0.6mm]确定性护栏};
+      \node[st,join]{\textbf{04}\\[0.6mm]执行 / 缓存};
+    \end{tikzpicture}
+  \end{center}
+
+  \vspace{2mm}
+  \begin{columns}[T,onlytextwidth]
+    \column{0.49\textwidth}
+      {\scriptsize
+        \textbf{230 个决策文件}：clean 149、align 58、stats 14，其余 9 个。\\
+        首次全量约 30 分钟；命中缓存 2.6 分钟。
+      }
+    \column{0.49\textwidth}
+      {\scriptsize
+        组路径 21 处改道、选项同义簇 9 个；\\
+        取值统一 0 条——4B 的归并建议几乎都是整列塌缩，被护栏全部拒绝。
+      }
+  \end{columns}
+
+  \vspace{1.8mm}
+  {\scriptsize\color{muted}
+    护栏：路径必须合法 · 选项簇 $\leq$4 且 $\leq$50\% · 整组塌缩一律拒 · 删行 $\leq$60\% · 删列 $\leq$20\%。}
+
+  \src{来源：\code{llm/README.md}；\code{llm/decisions/} 计数；\code{llm/reports/alignment\_report.md}}
+\end{frame}
+
+% ---------------------------------------------------------------- 06 对账
+\begin{frame}{对账：覆盖差 113 列，重叠部分几乎一样}
+  \lead{名字对了、语义错了，比没对齐更难发现。}
+
+  \begin{center}
+    \includegraphics[width=0.90\textwidth,height=0.35\textheight,keepaspectratio]{../figures/f3_parity.png}
+  \end{center}
+
+  \begin{columns}[T,onlytextwidth]
+    \column{0.47\textwidth}
+      {\scriptsize
+        并集 157 = 36 匹配 + 117 仅人工 + 4 仅 LLM；Jaccard 22.9\%。\\
+        36 个匹配列非空率差 $\geq$1pp：\textbf{0 条}；同主题最大差 0.1pp。
+      }
+    \column{0.50\textwidth}
+      {\scriptsize
+        反例：\code{is.python.main} 被映射成 \code{ide.python\_version}。\\
+        路径合法，但语义是“是否以 Python 为主”，不是版本；\\
+        2019 年五个来源列并成一组，四个版本列变 \code{\_\_dup}。
+      }
+  \end{columns}
+
+  \src{来源：\code{llm/reports/parity\_report.md}；\code{llm/reports/alignment\_report.md}}
+\end{frame}
+
+% ---------------------------------------------------------------- 07 结论
+\begin{frame}{结论：交付走人工，模型做候选与核对}
+  \lead{两条路可以并存；模型写得最顺的差异解释，反而最不能直接信。}
+
+  \begin{columns}[T,onlytextwidth]
+    \column{0.47\textwidth}
+      {\bfseries\color{good} 能交给模型}\\[1.5mm]
+      {\scriptsize
+        \begin{itemize}\setlength{\itemsep}{0.8mm}
+          \item 新一年的组路径候选，人工只审 diff。
+          \item 对账时的第二双眼睛：先让它找差异，再回代码验。
+          \item 把差异写成解释草稿，数字由脚本回填。
+        \end{itemize}}
+    \column{0.49\textwidth}
+      {\bfseries\color{warn} 必须留给人}\\[1.5mm]
+      {\scriptsize
+        \begin{itemize}\setlength{\itemsep}{0.8mm}
+          \item 取值归并终审：4B 只会整列塌缩。
+          \item 删行删列：宁可少删，不能误删。
+          \item 数字与结论：叙述可润色，数值以 CSV 为准。
+        \end{itemize}}
+  \end{columns}
+
+  \vspace{2mm}
+  {\scriptsize\color{muted}
+    下一步：组路径映射加选项级证据（看到 Yes/No 就拒绝“版本”路径）；parity 从 36 列扩到 153 列的分主题抽样。}
+
+  \src{谢谢大家！}
+\end{frame}
+
+\end{document}
