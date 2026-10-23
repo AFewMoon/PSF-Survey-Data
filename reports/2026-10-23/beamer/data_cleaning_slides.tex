@@ -49,7 +49,7 @@
 
 \title{从原始 CSV 到干净数据表}
 \subtitle{PSF 开发者调查数据清洗的两周实践}
-\author{汇报人：（待填）}
+\author{汇报人：曾子睿}
 \date{2026 年 10 月}
 
 \begin{document}
@@ -75,13 +75,13 @@
   \end{center}
 
   \vfill
-  {\small 汇报人：（待填）\hfill 2026 年 10 月}\\[1mm]
+  {\small 汇报人：曾子睿 \hfill 2026 年 10 月}\\[1mm]
   {\tiny\color{muted}原始数据版权归 JetBrains / PSF 所有，此处只涉及清洗脚本与统计口径。}
 \end{frame}
 
 % ---------------------------------------------------------------- 02 关键数字
-\begin{frame}{这两周交付了什么}
-  \lead{把六份原始 CSV 洗成六份能直接读的表，脚本可以重跑。}
+\begin{frame}{这两周学习了什么}
+  \lead{初步学习了数据清洗，把六份原始 CSV 洗成六份能直接读的表}
 
   \begin{columns}[T,onlytextwidth]
     \column{0.235\textwidth}\kpi{6}{个年份，2019--2024}{calm}
@@ -91,7 +91,7 @@
   \end{columns}
 
   \vspace{2.5mm}
-  {\small 行数从 203,643 变成 185,632。删掉的都是空行和重复行，没有按规则筛人。}
+  {\small 行数从 203,643 变成 185,632，删掉的都是空行和重复行。}
 
   \src{来源：\code{cleaned/cleaning\_report.md}}
 \end{frame}
@@ -108,8 +108,8 @@
 \end{frame}
 
 % ---------------------------------------------------------------- 04 学习路径
-\begin{frame}{两周的路径}
-  \lead{不套模板，从数据本身的问题出发，一个问题一个问题往下问。}
+\begin{frame}{两周的学习}
+  \lead{从数据本身的问题出发，一个问题一个问题解决。}
 
   \begin{columns}[T,onlytextwidth]
     \column{0.235\textwidth}\raggedright
@@ -119,7 +119,7 @@
     \column{0.235\textwidth}\raggedright
       {\color{calm}\bfseries\Large 02}\\[1mm]{\bfseries 定口径}\\[0.6mm]
       {\scriptsize\color{muted}缺失怎么算？}\\[1.6mm]
-      {\scriptsize 没回答、写了 NA、答了 None 是三件事，定了再动手。}
+      {\scriptsize 没回答、写了 NA、答了 None 是三件事，做好区分。}
     \column{0.235\textwidth}\raggedright
       {\color{accent}\bfseries\Large 03}\\[1mm]{\bfseries 洗单元格}\\[0.6mm]
       {\scriptsize\color{muted}哪些行是废的？}\\[1.6mm]
@@ -131,7 +131,7 @@
   \end{columns}
 
   \vspace{3mm}
-  {\small 顺序是问题推出来的，不是抄来的。每问完一步就回数据里数一遍，数不对就说明上一步的口径错了。}
+  {\small 每问完一步就回数据里数一遍，数不对就说明上一步的口径错了。}
 
   \src{数据：仓库根目录六份原始 CSV 与 \code{cleaned/} 下的清洗产物}
 \end{frame}
@@ -165,7 +165,7 @@
 \end{frame}
 
 % ---------------------------------------------------------------- 06 流水线
-\begin{frame}{六步洗下来}
+\begin{frame}{六步清洗}
   \lead{顺序不能乱，每一步只解决一类问题。}
 
   \begin{center}
@@ -229,7 +229,7 @@
   {\small 2019 年一共改了 289 个列名。重名的两列在旧列名后加 \code{\_\_dup} 后缀，不合并。}
 
   \vspace{1.5mm}
-  {\small 没解决的是组路径：环境隔离 2020 年挂在 \code{isolate.environments}，2023 年挂在 \code{environments.isolate}。这属于跨年对齐，还没做到。}
+  {\small 没解决的是组路径：环境隔离 2020 年挂在 \code{isolate.environments}，2023 年挂在 \code{environments.isolate}；后续将研究如何合并。}
 
   \src{来源：\code{clean\_survey.py}（\code{rename\_columns}）、\code{cleaned/cleaning\_report.md}}
 \end{frame}
@@ -241,14 +241,14 @@
     {\scriptsize\color{muted}2024 年 573 个列的缺失率分布：横轴是缺失率区间，纵轴是列数}
   \end{center}
 
-  {\small 代价在这里：二值化以后，\code{0} 既表示「没勾」，也表示「这题没答」。2024 年 573 列里有 493 列因此看不出缺失。}
+  {\small 代价是：二值化以后，\code{0} 既表示「没勾」，也表示「这题没答」。2024 年 573 列里有 493 列因此看不出缺失。}
 
   \src{来源：\code{clean\_survey.py}（\code{binarize\_multiselect}）；缺失率由 \code{cleaned\_2024.csv} 实测。}
 \end{frame}
 
 % ---------------------------------------------------------------- 10 复盘
 \begin{frame}{复盘：学会了什么，还没做什么}
-  \lead{清洗这一段算是走通了，但整个流程只完成了三分之一。}
+  \lead{清洗这一段算是走通了，但整个流程只完成了开头。}
 
   \begin{columns}[T,onlytextwidth]
     \column{0.47\textwidth}
@@ -272,7 +272,7 @@
   \vspace{2.5mm}
   {\small 下一步先把对齐补上，再谈跨年比较。}
 
-  \src{汇报到这里，欢迎提问。}
+  \src{谢谢大家！}
 \end{frame}
 
 \end{document}

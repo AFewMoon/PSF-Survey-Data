@@ -1,11 +1,11 @@
-"""reports/build_figures.py — 组会汇报用清洗过程图（3 张，按 beamer 版面尺寸定制）。
+"""reports/2026-10-23/build_figures.py — 组会汇报用清洗过程图（3 张，按 beamer 版面尺寸定制）。
 
-只读仓库既有产物，写入 reports/figures/，不改动 charts/ 下已有 8 张图。
+只读仓库既有产物，写入 reports/2026-10-23/figures/，不改动 charts/ 下已有 8 张图。
 画布按幻灯片正文宽度（约 5.7 in）设计，导出后在 beamer 里按 1:1 插入，
 避免整图缩小导致字号过小。
 
 用法：
-    python reports/build_figures.py
+    python reports/2026-10-23/build_figures.py
 """
 from __future__ import annotations
 
@@ -21,9 +21,9 @@ import pandas as pd
 # ---------------------------------------------------------------------------
 # 配置区：路径、年份、配色、尺寸
 # ---------------------------------------------------------------------------
-ROOT = Path(__file__).resolve().parent.parent
-REPORTS_DIR = ROOT / "reports"
-FIG_DIR = REPORTS_DIR / "figures"
+HERE = Path(__file__).resolve().parent
+ROOT = HERE.parent.parent
+FIG_DIR = HERE / "figures"
 
 CLEANING_MD = ROOT / "cleaned" / "cleaning_report.md"
 CLEANED_2024 = ROOT / "cleaned" / "cleaned_2024.csv"
