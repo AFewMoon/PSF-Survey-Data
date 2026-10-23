@@ -1,0 +1,21 @@
+{
+  "stage": "parity_note",
+  "model": "qwen3.5:4b",
+  "model_digest": "d8b0f5e9760cd168",
+  "prompt_version": "parity-note-v1",
+  "input_hash": "c3cb688d197bbc6aad4f63b1509f2bde",
+  "created_at": "2026-10-23T22:55:31",
+  "duration_s": 2.32,
+  "output_tokens": 157,
+  "fallback": false,
+  "error": "",
+  "manual_edit": false,
+  "reviewed": false,
+  "payload_summary": {
+    "rule": 153,
+    "llm": 107
+  },
+  "response": {
+    "text": "两条管线在列覆盖上存在显著差异，规则管线包含大量开发环境隔离细节，而 LLM 管线则补充了公司规模、就业状态及 Python 版本等宏观属性。\n主要分歧源于规则管线对特定开发场景的细粒度描述，而 LLM 管线倾向于提取更通用的业务特征，且两者在部分同义词映射上判定标准不同。\n尽管行数在 2021 年和 2022 年存在微小出入，但核心统计指标如编程语言偏好和编辑器选择的比例高度一致。\n综合来看，LLM 管线因能覆盖更多元的数据维度，在构建完整画像时更具参考价值，但需人工复核其新增字段的数据准确性。"
+  }
+}

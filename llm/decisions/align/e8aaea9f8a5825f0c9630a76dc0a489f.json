@@ -1,0 +1,40 @@
+{
+  "stage": "pair_judge",
+  "model": "qwen3.5:4b",
+  "model_digest": "d8b0f5e9760cd168",
+  "prompt_version": "pair-judge-v1",
+  "input_hash": "e8aaea9f8a5825f0c9630a76dc0a489f",
+  "created_at": "2026-10-23T22:52:24",
+  "duration_s": 1.03,
+  "output_tokens": 81,
+  "fallback": false,
+  "error": "",
+  "manual_edit": false,
+  "reviewed": false,
+  "payload_summary": {
+    "unit": "dependency.store",
+    "n_pairs": 3
+  },
+  "response": {
+    "pairs": [
+      {
+        "id": "p1",
+        "same": true,
+        "canonical": "Conda environment_yml",
+        "reason": "Conda 环境配置文件标准名"
+      },
+      {
+        "id": "p2",
+        "same": false,
+        "canonical": "",
+        "reason": "Pipfile 与 pipfile_lock 不同对象"
+      },
+      {
+        "id": "p3",
+        "same": false,
+        "canonical": "",
+        "reason": "pipfile_lock 与 poetry_lock 不同对象"
+      }
+    ]
+  }
+}

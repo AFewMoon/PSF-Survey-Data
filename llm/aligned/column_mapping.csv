@@ -1,123 +1,262 @@
 year,original,canonical,level
-2019,is.python.main,ide.python_version,llm
-2019,other.-.write.in.Other - Write In,other.write.in.Other - Write In,normalized
-2019,ide.python_use,ide.python_version__dup1,llm
-2019,ide.python_version,ide.python_version__dup2,llm
-2019,ide.python2_version,ide.python_version__dup3,llm
-2019,ide.python3_version,ide.python_version__dup4,llm
-2019,ide.upgrade.I don’t update,ide.upgrade.I don't update,normalized
-2019,"ide.upgrade.OS-provided Python (via apt-get, yum, homebrew, etc.)",ide.upgrade.OS-provided Python,normalized
-2019,ide.upgrade.Other – Write In,ide.upgrade.Other - Write In,normalized
-2019,ide.isolate.Other – Write In,ide.isolate.Other - Write In,normalized
+2019,ide.python2_version,python2.version.most,llm
+2019,ide.python3_version,python3.version.most,llm
+2019,ide.upgrade.ActivePython,python.version.upgrade.ActivePython,llm
+2019,ide.upgrade.Anaconda,python.version.upgrade.Anaconda,llm
+2019,ide.upgrade.Automatic upgrade via cloud provider,python.version.upgrade.Automatic upgrade via cloud provider,llm
+2019,ide.upgrade.Build from source,python.version.upgrade.Build from source,llm
+2019,ide.upgrade.Enthought,python.version.upgrade.Enthought,llm
+2019,ide.upgrade.I don’t update,python.version.upgrade.I don't update,llm
+2019,ide.upgrade.I use Docker containers,python.version.upgrade.I use Docker containers,llm
+2019,ide.upgrade.Intel Distribution for Python,python.version.upgrade.Intel Distribution for Python,llm
+2019,"ide.upgrade.OS-provided Python (via apt-get, yum, homebrew, etc.)",python.version.upgrade.OS-provided Python,llm
+2019,ide.upgrade.Other – Write In,python.version.upgrade.Other - Write In,llm
+2019,ide.upgrade.pyenv,python.version.upgrade.pyenv,llm
+2019,ide.upgrade.Python.org,python.version.upgrade.Python.org,llm
+2019,ide.upgrade.pythonz,python.version.upgrade.pythonz,llm
+2019,ide.upgrade.Somebody else manages Python updates for me,python.version.upgrade.Somebody else manages Python updates for me,llm
+2019,ide.isolate.Conda,environments.isolate.Conda,llm
+2019,ide.isolate.Docker,environments.isolate.Docker,llm
+2019,ide.isolate.None,environments.isolate.None,llm
+2019,ide.isolate.Other – Write In,environments.isolate.Other - Write In,llm
+2019,ide.isolate.Pipenv,environments.isolate.Pipenv,llm
+2019,ide.isolate.Poetry,environments.isolate.Poetry,llm
+2019,ide.isolate.Vagrant / virtual machines,environments.isolate.Vagrant / virtual machines,llm
+2019,ide.isolate.Virtualenv,environments.isolate.Virtualenv,llm
+2019,frameworks.web.Bottle,web.frameworks.Bottle,llm
+2019,frameworks.web.CherryPy,web.frameworks.CherryPy,llm
+2019,frameworks.web.Django,web.frameworks.Django,llm
+2019,frameworks.web.Falcon,web.frameworks.Falcon,llm
+2019,frameworks.web.Flask,web.frameworks.Flask,llm
+2019,frameworks.web.Hug,web.frameworks.Hug,llm
+2019,frameworks.web.None,web.frameworks.None,llm
 2019,other.write.in.what.web.frameworks.libraries.do.you.use.in.addition.to.python.Other – Write In,other.write.in.what.web.frameworks.libraries.do.you.use.in.addition.to.python.Other - Write In,normalized
-2019,other.-.write.in.what.data.science.framework.s.do.you.use.in.addition.to.python.Other - Write In,other.write.in.what.data.science.frameworks.do.you.use.in.addition.to.python.Other - Write In,normalized
+2019,frameworks.web.Pyramid,web.frameworks.Pyramid,llm
+2019,frameworks.web.Tornado,web.frameworks.Tornado,llm
+2019,frameworks.web.TurboGears,web.frameworks.TurboGears,llm
+2019,frameworks.web.web2py,web.frameworks.web2py,llm
+2019,frameworks.data.Gensim,frameworks.Gensim,llm
+2019,frameworks.data.Keras,frameworks.Keras,llm
+2019,frameworks.data.Matplotlib,frameworks.Matplotlib,llm
+2019,frameworks.data.MXNet,frameworks.MXNet,llm
+2019,frameworks.data.NLTK,frameworks.NLTK,llm
+2019,frameworks.data.None,frameworks.None,llm
+2019,frameworks.data.NumPy,frameworks.NumPy,llm
+2019,frameworks.data.Pandas,frameworks.Pandas,llm
+2019,frameworks.data.PyTorch,frameworks.PyTorch,llm
+2019,frameworks.data.SciKit-Learn,frameworks.SciKit-Learn,llm
+2019,frameworks.data.SciPy,frameworks.SciPy,llm
+2019,frameworks.data.Seaborn,frameworks.Seaborn,llm
+2019,frameworks.data.TensorFlow,frameworks.TensorFlow,llm
+2019,frameworks.data.Theano,frameworks.Theano,llm
 2019,frameworks.ml.Other – Write In,frameworks.ml.Other - Write In,normalized
-2019,cloud.platforms.Other – Write In,cloud.platforms.Other - Write In,normalized
+2019,cloud.platforms.AWS,cloud.platform.AWS,llm
+2019,cloud.platforms.DigitalOcean,cloud.platform.DigitalOcean,llm
+2019,cloud.platforms.Google Cloud Platform,cloud.platform.Google Cloud Platform,llm
+2019,cloud.platforms.Heroku,cloud.platform.Heroku,llm
+2019,cloud.platforms.Linode,cloud.platform.Linode,llm
+2019,cloud.platforms.Microsoft Azure,cloud.platform.Microsoft Azure,llm
+2019,cloud.platforms.None,cloud.platform.None,llm
+2019,cloud.platforms.OpenShift,cloud.platform.OpenShift,llm
+2019,cloud.platforms.OpenStack,cloud.platform.OpenStack,llm
+2019,cloud.platforms.Other – Write In,cloud.platform.Other - Write In,llm
+2019,cloud.platforms.PythonAnywhere,cloud.platform.PythonAnywhere,llm
+2019,cloud.platforms.Rackspace,cloud.platform.Rackspace,llm
 2019,ide.editor.On a Platform-as-a-Service (such as Heroku or Google App Engine),ide.editor.On a Platform-as-a-Service,normalized
 2019,ide.editor.Other – Write In,ide.editor.Other - Write In,normalized
 2019,ide.editor.Serverless (such as AWS Lambda or Cloud Functions),ide.editor.Serverless,normalized
 2019,ide.editor.Locally with virtualenv (or similar),ide.editor.Locally with virtualenv,normalized
 2019,ide.editor.Other – Write In__dup1,ide.editor.Other - Write In__dup1,normalized
-2019,ide.os.Other – Write In,ide.os.Other - Write In,normalized
+2019,ide.os.BSD,devenv.os.BSD,llm
+2019,ide.os.Linux,devenv.os.Linux,llm
+2019,ide.os.macOS,devenv.os.macOS,llm
+2019,ide.os.Other – Write In,devenv.os.Other - Write In,llm
+2019,ide.os.Windows,devenv.os.Windows,llm
 2019,ide.editor.Other – Write In__dup2,ide.editor.Other - Write In__dup2,normalized
 2019,frameworks.ml.Other – Write In__dup1,frameworks.ml.Other - Write In__dup1,normalized
-2019,ide.databases.Other – Write In,ide.databases.Other - Write In,normalized
-2019,ide.tools.bigdata.Other – Write In,ide.tools.bigdata.Other - Write In,normalized
-2019,ide.tools.ci.Other – Write In,ide.tools.ci.Other - Write In,normalized
-2019,frameworks.cm.Other – Write In,frameworks.cm.Other - Write In,normalized
+2019,ide.databases.Amazon Redshift,database.Amazon Redshift,llm
+2019,ide.databases.Cassandra,database.Cassandra,llm
+2019,ide.databases.Couchbase,database.Couchbase,llm
+2019,ide.databases.DB2,database.DB2,llm
+2019,ide.databases.h2,database.h2,llm
+2019,ide.databases.HBase,database.HBase,llm
+2019,ide.databases.MongoDB,database.MongoDB,llm
+2019,ide.databases.MS SQL Server,database.MS SQL Server,llm
+2019,ide.databases.MySQL,database.MySQL,llm
+2019,ide.databases.Neo4j,database.Neo4j,llm
+2019,ide.databases.None,database.None,llm
+2019,ide.databases.Oracle Database,database.Oracle Database,llm
+2019,ide.databases.Other – Write In,database.Other - Write In,llm
+2019,ide.databases.PostgreSQL,database.PostgreSQL,llm
+2019,ide.databases.Redis,database.Redis,llm
+2019,ide.databases.SQLite,database.SQLite,llm
+2019,ide.tools.bigdata.Apache Beam,bigdata.Apache Beam,llm
+2019,ide.tools.bigdata.Apache Flink,bigdata.Apache Flink,llm
+2019,ide.tools.bigdata.Apache Hadoop/MapReduce,bigdata.Apache Hadoop/MapReduce,llm
+2019,ide.tools.bigdata.Apache Hive,bigdata.Apache Hive,llm
+2019,ide.tools.bigdata.Apache Kafka,bigdata.Apache Kafka,llm
+2019,ide.tools.bigdata.Apache Samza,bigdata.Apache Samza,llm
+2019,ide.tools.bigdata.Apache Spark,bigdata.Apache Spark,llm
+2019,ide.tools.bigdata.Apache Tez,bigdata.Apache Tez,llm
+2019,ide.tools.bigdata.ClickHouse,bigdata.ClickHouse,llm
+2019,ide.tools.bigdata.Dask,bigdata.Dask,llm
+2019,ide.tools.bigdata.None,bigdata.None,llm
+2019,ide.tools.bigdata.Other – Write In,bigdata.Other - Write In,llm
+2019,ide.tools.ci.AppVeyor,ci.AppVeyor,llm
+2019,ide.tools.ci.Bamboo,ci.Bamboo,llm
+2019,ide.tools.ci.CircleCI,ci.CircleCI,llm
+2019,ide.tools.ci.CruiseControl,ci.CruiseControl,llm
+2019,ide.tools.ci.Gitlab CI,ci.Gitlab CI,llm
+2019,ide.tools.ci.Jenkins / Hudson,ci.Jenkins / Hudson,llm
+2019,ide.tools.ci.None,ci.None,llm
+2019,ide.tools.ci.Other – Write In,ci.Other - Write In,llm
+2019,ide.tools.ci.TeamCity,ci.TeamCity,llm
+2019,ide.tools.ci.Travis CI,ci.Travis CI,llm
+2019,frameworks.cm.Ansible,configuration.management.Ansible,llm
+2019,frameworks.cm.Chef,configuration.management.Chef,llm
+2019,frameworks.cm.Custom solution,configuration.management.Custom solution,llm
+2019,frameworks.cm.None,configuration.management.None,llm
+2019,frameworks.cm.Other – Write In,configuration.management.Other - Write In,llm
+2019,frameworks.cm.Puppet,configuration.management.Puppet,llm
+2019,frameworks.cm.Salt,configuration.management.Salt,llm
 2019,other.write.in.what.editors.ides.do.you.use.for.python.development.in.addition.to.your.primary.ide.Other – Write In,other.write.in.what.editors.ides.do.you.use.for.python.development.in.addition.to.your.primary.ide.Other - Write In,normalized
 2019,ide.editor.Python Tools for Visual Studio (PTVS),ide.editor.Python Tools for Visual Studio,normalized
 2019,ide.editor.use code linting (programs that analyze code for potential errors),ide.editor.use code linting,normalized
 2019,"ide.editor.run / debug or edit code on remote machines (remote hosts, VMs, etc.)",ide.editor.run / debug or edit code on remote machines,normalized
+2019,most.of.the.time.do.you,most_of_the_time_do_you,normalized
+2019,role.architect.Architect,job.role.Architect,llm
+2019,role.architect.Business analyst,job.role.Business analyst,llm
+2019,role.architect.CIO / CEO / CTO,job.role.CIO / CEO / CTO,llm
+2019,role.architect.Data analyst,job.role.Data analyst,llm
+2019,role.architect.DBA,job.role.DBA,llm
+2019,role.architect.Developer / Programmer,job.role.Developer / Programmer,llm
 2019,role.other.Other – Write In,role.other.Other - Write In,normalized
-2019,Which of the following industries best describes your company's business?,industry.company,llm
-2019,industry.development,industry.company__dup1,llm
-2020,is.python.main,ide.python_version,llm
+2019,role.architect.Product manager,job.role.Product manager,llm
+2019,role.architect.QA engineer,job.role.QA engineer,llm
+2019,role.architect.Systems analyst,job.role.Systems analyst,llm
+2019,role.architect.Team lead,job.role.Team lead,llm
+2019,role.architect.Technical support,job.role.Technical support,llm
+2019,role.architect.Technical writer,job.role.Technical writer,llm
+2019,Which of the following industries best describes your company's business?,which_of_the_following_industries_do_you_develop_for,llm
+2020,other.lang.Other,other.lang.Other - Write In,llm
 2020,python.version.upgrade.I don’t update,python.version.upgrade.I don't update,normalized
 2020,"python.version.upgrade.OS-provided Python (via apt-get, yum, homebrew, etc_)",python.version.upgrade.OS-provided Python,normalized
-2020,isolate.environments.None,ide.isolate.None,llm
-2020,isolate.environments.Virtualenv,ide.isolate.Virtualenv,llm
-2020,isolate.environments.Pipenv,ide.isolate.Pipenv,llm
-2020,isolate.environments.Poetry,ide.isolate.Poetry,llm
-2020,isolate.environments.Conda,ide.isolate.Conda,llm
-2020,isolate.environments.Docker,ide.isolate.Docker,llm
-2020,isolate.environments.Vagrant / virtual machines,ide.isolate.Vagrant / virtual machines,llm
-2020,isolate.environments.Other,ide.isolate.Other,llm
-2020,run.in.cloud.On a Platform-as-a-Service (such as Heroku or Google App Engine),run.in.cloud.On a Platform-as-a-Service,normalized
+2020,python.version.upgrade.Other,python.version.upgrade.Other - Write In,llm
+2020,isolate.environments.None,environments.isolate.None,llm
+2020,isolate.environments.Virtualenv,environments.isolate.virtualenv,llm
+2020,isolate.environments.Pipenv,environments.isolate.Pipenv,llm
+2020,isolate.environments.Poetry,environments.isolate.Poetry,llm
+2020,isolate.environments.Conda,environments.isolate.Conda,llm
+2020,isolate.environments.Docker,environments.isolate.Docker,llm
+2020,isolate.environments.Vagrant / virtual machines,environments.isolate.Vagrant / virtual machines,llm
+2020,isolate.environments.Other,environments.isolate.Other,llm
+2020,data.frameworks.None,frameworks.None,llm
+2020,data.frameworks.PyTorch,frameworks.PyTorch,llm
+2020,data.frameworks.NumPy,frameworks.NumPy,llm
+2020,data.frameworks.SciPy,frameworks.SciPy,llm
+2020,data.frameworks.Pandas,frameworks.Pandas,llm
+2020,data.frameworks.Matplotlib,frameworks.Matplotlib,llm
+2020,data.frameworks.Seaborn,frameworks.Seaborn,llm
+2020,data.frameworks.SciKit-Learn,frameworks.SciKit-Learn,llm
+2020,data.frameworks.Keras,frameworks.Keras,llm
+2020,data.frameworks.TensorFlow,frameworks.TensorFlow,llm
+2020,data.frameworks.Theano,frameworks.Theano,llm
+2020,data.frameworks.NLTK,frameworks.NLTK,llm
+2020,data.frameworks.MXNet,frameworks.MXNet,llm
+2020,data.frameworks.Gensim,frameworks.Gensim,llm
+2020,data.frameworks.Other,frameworks.Other,llm
+2020,cloud.platform.Other,cloud.platform.Other - Write In,llm
+2020,run.in.cloud.On a Platform-as-a-Service (such as Heroku or Google App Engine),run.in.cloud.On a platform-as-a-service,normalized
 2020,run.in.cloud.Serverless (such as AWS Lambda or Cloud Functions),run.in.cloud.Serverless,normalized
 2020,develop.for.cloud.Locally with virtualenv (or similar),develop.for.cloud.Locally with virtualenv,normalized
+2020,devenv.os.Other,devenv.os.Other - Write In,llm
+2020,unittesting.Tox,unittesting.tox,normalized
+2020,bigdata.Other,bigdata.Other - Write In,llm
+2020,ci.Other,ci.Other - Write In,llm
+2020,configuration.management.Other,configuration.management.Other - Write In,llm
+2020,ide.editor.VS Code,ide.editor.Visual Studio Code,llm
 2020,ide.editor.Python Tools for Visual Studio (PTVS),ide.editor.Python Tools for Visual Studio,normalized
-2020,first.learn.about.main.ide,learning.source,llm
-2020,how.often.use.main.ide,how.often.use.main,llm
-2020,missing.features.main.ide,missing.features.main,llm
-2021,is.python.main,ide.python_version,llm
 2021,python.version.upgrade.I don’t update,python.version.upgrade.I don't update,normalized
 2021,"python.version.upgrade.OS-provided Python (via apt-get, yum, homebrew, etc_)",python.version.upgrade.OS-provided Python,normalized
-2021,isolate.environments.None,ide.isolate.None,llm
-2021,isolate.environments.Virtualenv,ide.isolate.Virtualenv,llm
-2021,isolate.environments.Pipenv,ide.isolate.Pipenv,llm
-2021,isolate.environments.Poetry,ide.isolate.Poetry,llm
-2021,isolate.environments.Conda,ide.isolate.Conda,llm
-2021,isolate.environments.Docker,ide.isolate.Docker,llm
-2021,isolate.environments.Vagrant / virtual machines,ide.isolate.Vagrant / virtual machines,llm
-2021,isolate.environments.Other,ide.isolate.Other,llm
+2021,isolate.environments.None,environments.isolate.None,llm
+2021,isolate.environments.Virtualenv,environments.isolate.Virtualenv,llm
+2021,isolate.environments.Pipenv,environments.isolate.Pipenv,llm
+2021,isolate.environments.Poetry,environments.isolate.Poetry,llm
+2021,isolate.environments.Conda,environments.isolate.Conda,llm
+2021,isolate.environments.Docker,environments.isolate.Docker,llm
+2021,isolate.environments.Vagrant / virtual machines,environments.isolate.Vagrant / virtual machines,llm
+2021,isolate.environments.Other,environments.isolate.Other,llm
+2021,data.frameworks.None,frameworks.None,llm
+2021,data.frameworks.PyTorch,frameworks.PyTorch,llm
+2021,data.frameworks.NumPy,frameworks.NumPy,llm
+2021,data.frameworks.SciPy,frameworks.SciPy,llm
+2021,data.frameworks.Pandas,frameworks.Pandas,llm
+2021,data.frameworks.Matplotlib,frameworks.Matplotlib,llm
+2021,data.frameworks.Seaborn,frameworks.Seaborn,llm
+2021,data.frameworks.SciKit-Learn,frameworks.SciKit-Learn,llm
+2021,data.frameworks.Keras,frameworks.Keras,llm
+2021,data.frameworks.TensorFlow,frameworks.TensorFlow,llm
+2021,data.frameworks.Theano,frameworks.Theano,llm
+2021,data.frameworks.NLTK,frameworks.NLTK,llm
+2021,data.frameworks.MXNet,frameworks.MXNet,llm
+2021,data.frameworks.Gensim,frameworks.Gensim,llm
+2021,data.frameworks.Other,frameworks.Other,llm
 2021,run.in.cloud.On a Platform-as-a-Service (such as Heroku or Google App Engine),run.in.cloud.On a Platform-as-a-Service,normalized
 2021,run.in.cloud.Serverless (such as AWS Lambda or Cloud Functions),run.in.cloud.Serverless,normalized
 2021,develop.for.cloud.Locally with virtualenv (or similar),develop.for.cloud.Locally with virtualenv,normalized
 2021,documentation.tool.I don’t use any documentation tools,documentation.tool.I don't use any documentation tools,normalized
 2021,ide.editor.Python Tools for Visual Studio (PTVS),ide.editor.Python Tools for Visual Studio,normalized
-2021,first.learn.about.main.ide,learning.source.ide,llm
 2021,"issue.report.Yes, I’ve submitted a pull request on GitHub","issue.report.Yes, I've submitted a pull request on GitHub",normalized
 2021,"issue.report.Yes, I’ve reported an issue on bugs_python_org","issue.report.Yes, I've reported an issue on bugs_python_org",normalized
 2021,"issue.report.Yes, I’ve asked on mailing lists","issue.report.Yes, I've asked on mailing lists",normalized
 2021,"issue.report.Yes, I’ve asked on Discourse","issue.report.Yes, I've asked on Discourse",normalized
 2021,"issue.report.Yes, I’ve asked elsewhere","issue.report.Yes, I've asked elsewhere",normalized
 2021,communicate.channels.I’ve never contacted the core developers,communicate.channels.I've never contacted the core developers,normalized
+2021,environments.isolate.Poetry,environments.isolate.Poetry__dup1,llm
+2021,environments.isolate.Conda,environments.isolate.Conda__dup1,llm
 2021,venv.I don’t know,venv.I don't know,normalized
 2021,packaging.tools.venv (standard library),packaging.tools.venv,normalized
 2021,packaging.tools.Containers (eg via Docker),packaging.tools.Containers,normalized
 2021,packages.install.from.I’m not sure,packages.install.from.I'm not sure,normalized
-2021,how.involved.fixed.Other,how.involved.Other,llm
-2021,how.involved.fixed.DevOps / System administration / Writing automation scripts,how.involved.DevOps / System administration / Writing automation scripts,llm
-2021,how.involved.fixed.Software testing / Writing automated tests,how.involved.Software testing / Writing automated tests,llm
-2021,how.involved.fixed.Web development,how.involved.Web development,llm
-2021,how.involved.fixed.Educational purposes,how.involved.Educational purposes,llm
-2021,how.involved.fixed.Desktop development,how.involved.Desktop development,llm
-2021,how.involved.fixed.Data analysis,how.involved.Data analysis,llm
-2021,how.involved.fixed.Software prototyping,how.involved.Software prototyping,llm
-2021,how.involved.fixed.Network programming,how.involved.Network programming,llm
-2021,how.involved.fixed.Programming of web parsers / scrapers / crawlers,how.involved.Programming of web parsers / scrapers / crawlers,llm
-2021,how.involved.fixed.Embedded development,how.involved.Embedded development,llm
-2021,how.involved.fixed.Mobile development,how.involved.Mobile development,llm
-2021,how.involved.fixed.Machine learning,how.involved.Machine learning,llm
-2021,how.involved.fixed.Game development,how.involved.Game development,llm
-2021,how.involved.fixed.Computer graphics,how.involved.Computer graphics,llm
-2021,how.involved.fixed.Multimedia applications development,how.involved.Multimedia applications development,llm
-2022,is.python.main,ide.python_version,llm
-2022,how.involved.Other - Write In:,how.involved,llm
+2021,job.team,employment.status.team,llm
 2022,python.version.upgrade.I don’t update,python.version.upgrade.I don't update,normalized
 2022,"python.version.upgrade.OS-provided Python (via apt-get, yum, homebrew, etc_)",python.version.upgrade.OS-provided Python,normalized
-2022,isolate.environments.None,ide.isolate.None,llm
-2022,isolate.environments.Virtualenv,ide.isolate.Virtualenv,llm
-2022,isolate.environments.Pipenv,ide.isolate.Pipenv,llm
-2022,isolate.environments.Poetry,ide.isolate.Poetry,llm
-2022,isolate.environments.Conda,ide.isolate.Conda,llm
-2022,isolate.environments.Docker,ide.isolate.Docker,llm
-2022,isolate.environments.Vagrant / virtual machines,ide.isolate.Vagrant / virtual machines,llm
-2022,isolate.environments.Other,ide.isolate.Other,llm
+2022,isolate.environments.None,environments.isolate.None,llm
+2022,isolate.environments.Virtualenv,environments.isolate.Virtualenv,llm
+2022,isolate.environments.Pipenv,environments.isolate.Pipenv,llm
+2022,isolate.environments.Poetry,environments.isolate.Poetry,llm
+2022,isolate.environments.Conda,environments.isolate.Conda,llm
+2022,isolate.environments.Docker,environments.isolate.Docker,llm
+2022,isolate.environments.Vagrant / virtual machines,environments.isolate.Vagrant / virtual machines,llm
+2022,isolate.environments.Other,environments.isolate.Other,llm
+2022,data.frameworks.None,frameworks.None,llm
+2022,data.frameworks.PyTorch,frameworks.PyTorch,llm
+2022,data.frameworks.NumPy,frameworks.NumPy,llm
+2022,data.frameworks.SciPy,frameworks.SciPy,llm
+2022,data.frameworks.Pandas,frameworks.Pandas,llm
+2022,data.frameworks.Matplotlib,frameworks.Matplotlib,llm
+2022,data.frameworks.Seaborn,frameworks.Seaborn,llm
+2022,data.frameworks.SciKit-Learn,frameworks.SciKit-Learn,llm
+2022,data.frameworks.Keras,frameworks.Keras,llm
+2022,data.frameworks.TensorFlow,frameworks.TensorFlow,llm
+2022,data.frameworks.Theano,frameworks.Theano,llm
+2022,data.frameworks.NLTK,frameworks.NLTK,llm
+2022,data.frameworks.MXNet,frameworks.MXNet,llm
+2022,data.frameworks.Gensim,frameworks.Gensim,llm
+2022,data.frameworks.Other,frameworks.Other,llm
 2022,run.in.cloud.On a Platform-as-a-Service (such as Heroku or Google App Engine),run.in.cloud.On a Platform-as-a-Service,normalized
 2022,run.in.cloud.Serverless (such as AWS Lambda or Cloud Functions),run.in.cloud.Serverless,normalized
 2022,develop.for.cloud.Locally with virtualenv (or similar),develop.for.cloud.Locally with virtualenv,normalized
 2022,documentation.tool.I don’t use any documentation tools,documentation.tool.I don't use any documentation tools,normalized
 2022,ide.editor.Python Tools for Visual Studio (PTVS),ide.editor.Python Tools for Visual Studio,normalized
+2022,environments.isolate.Poetry,environments.isolate.Poetry__dup1,llm
+2022,environments.isolate.Conda,environments.isolate.Conda__dup1,llm
 2022,venv.I don’t know,venv.I don't know,normalized
 2022,packaging.tools.venv (standard library),packaging.tools.venv,normalized
 2022,packaging.tools.Containers (eg via Docker),packaging.tools.Containers,normalized
 2022,packages.install.from.I’m not sure,packages.install.from.I'm not sure,normalized
-2023,is.python.main,ide.python_version,llm
+2022,job.team,employment.status.team,llm
 2023,"other.purposes.Multimedia applications development (apps handling various types of multimedia content, e_g_ audio, graphics, etc_)",other.purposes.Multimedia applications development,normalized
-2023,"how.involved.Multimedia applications development (apps handling various types of multimedia content, e.g. audio, graphics, etc.)",how.involved.),llm
-2023,"how.involved.Other, please specify:",how.involved,llm
 2023,python.version.upgrade.I don’t update,python.version.upgrade.I don't update,normalized
 2023,"python.version.upgrade.OS-wide package-management tool (via apt-get, yum, homebrew, etc_)",python.version.upgrade.OS-wide package-management tool,normalized
 2023,run.in.cloud.On a platform-as-a-service (such as Heroku or Google App Engine),run.in.cloud.On a platform-as-a-service,normalized
@@ -125,20 +264,18 @@ year,original,canonical,level
 2023,develop.for.cloud.Locally with virtualenv (or similar),develop.for.cloud.Locally with virtualenv,normalized
 2023,"develop.for.cloud.In remote development environments (like Gitpod, GitHub Codespaces, etc_)",develop.for.cloud.In remote development environments,normalized
 2023,orm.I don’t do database development,orm.I don't do database development,normalized
+2023,bigdata.work,bigdata,llm
+2023,bigdata.solution,bigdata__dup1,llm
 2023,documentation.tool.Swagger (OpenAPI),documentation.tool.Swagger,normalized
-2023,"documentation.tool.Other systems, please specify",documentation.tool.systems,llm
 2023,ide.editor.Python Tools for Visual Studio (PTVS),ide.editor.Python Tools for Visual Studio,normalized
 2023,ide.editor.features.Use code linting (programs that analyze code for potential errors),ide.editor.features.Use code linting,normalized
-2023,"ide.editor.features.Run / debug or edit code on remote machines (remote hosts, VMs, etc.)",ide.editor.features.),llm
 2023,environments.isolate.venv (standard library),environments.isolate.venv,normalized
 2023,environments.isolate.virtualenv (Python package),environments.isolate.virtualenv,normalized
 2023,dependency.store.I don’t store dependency information,dependency.store.I don't store dependency information,normalized
 2023,packages.install.from.Other Conda channels (conda-forge or similar),packages.install.from.Other Conda channels,normalized
 2023,"learning.source.Online coding schools and MOOCs (Codecademy, JetBrains Academy, Coursera, edX, Udacity, etc_)",learning.source.Online coding schools and MOOCs,normalized
-2024,is.python.main,ide.python_version,llm
+2023,job.team,employment.status.team,llm
 2024,"other.purposes.Multimedia applications development (apps handling various types of multimedia content, e_g_ audio, graphics, etc_)",other.purposes.Multimedia applications development,normalized
-2024,"how.involved.Multimedia applications development (apps handling various types of multimedia content, e.g. audio, graphics, etc.)",how.involved.),llm
-2024,"how.involved.Other, please specify:",how.involved,llm
 2024,python.version.upgrade.I don’t update,python.version.upgrade.I don't update,normalized
 2024,"python.version.upgrade.OS-wide package-management tool (via apt-get, yum, homebrew, etc_)",python.version.upgrade.OS-wide package-management tool,normalized
 2024,python.version.why.The version I’m using meets all my needs,python.version.why.The version I'm using meets all my needs,normalized
@@ -151,22 +288,19 @@ year,original,canonical,level
 2024,run.in.cloud.Serverless (such as via AWS Lambda or Cloud Functions),run.in.cloud.Serverless,normalized
 2024,develop.for.cloud.Locally with virtualenv (or similar),develop.for.cloud.Locally with virtualenv,normalized
 2024,"develop.for.cloud.In remote development environments (like Gitpod, GitHub Codespaces, etc_)",develop.for.cloud.In remote development environments,normalized
-2024,ml.cloud.cost.impact,ml.cloud.budget,llm
-2024,ml.cloud.budget,ml.cloud.budget__dup1,llm
 2024,"ai.tools.coding.CodeGPT plugin in JetBrains IDEs (IntelliJ IDEA, PyCharm, PhpStorm, etc_)",ai.tools.coding.CodeGPT plugin in JetBrains IDEs,normalized
 2024,ai.tools.coding.Google Gemini (previously Bard),ai.tools.coding.Google Gemini,normalized
 2024,ai.tools.coding.Amazon Q Developer (previously CodeWhisperer),ai.tools.coding.Amazon Q Developer,normalized
 2024,ai.tools.coding.Gemini Code Assist (previously Duet AI for Developers),ai.tools.coding.Gemini Code Assist,normalized
 2024,orm.I don’t do database development,orm.I don't do database development,normalized
+2024,bigdata.work,bigdata,llm
+2024,bigdata.solution,bigdata__dup1,llm
 2024,documentation.tool.Swagger (OpenAPI),documentation.tool.Swagger,normalized
-2024,"documentation.tool.Other systems, please specify",documentation.tool.systems,llm
 2024,ide.editor.Python Tools for Visual Studio (PTVS),ide.editor.Python Tools for Visual Studio,normalized
 2024,ide.editor.features.Use code linting (programs that analyze code for potential errors),ide.editor.features.Use code linting,normalized
-2024,"ide.editor.features.Run / debug or edit code on remote machines (remote hosts, VMs, etc.)",ide.editor.features.),llm
-2024,ide.editor.features.Use issue trackers,ide.editor.features,llm
-2024,ide.editor.features.Use NoSQL databases,ide.editor.features__dup1,llm
 2024,environments.isolate.venv (standard library),environments.isolate.venv,normalized
 2024,environments.isolate.virtualenv (Python package),environments.isolate.virtualenv,normalized
 2024,dependency.store.I don’t store dependency information,dependency.store.I don't store dependency information,normalized
 2024,packages.install.from.Other Conda channels (conda-forge or similar),packages.install.from.Other Conda channels,normalized
 2024,"learning.source.Online coding schools and MOOCs (Codecademy, JetBrains Academy, Coursera, edX, Udacity, etc_)",learning.source.Online coding schools and MOOCs,normalized
+2024,job.team,employment.status.team,llm

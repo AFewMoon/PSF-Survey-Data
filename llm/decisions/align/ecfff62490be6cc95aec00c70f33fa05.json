@@ -1,0 +1,40 @@
+{
+  "stage": "pair_judge",
+  "model": "qwen3.5:4b",
+  "model_digest": "d8b0f5e9760cd168",
+  "prompt_version": "pair-judge-v1",
+  "input_hash": "ecfff62490be6cc95aec00c70f33fa05",
+  "created_at": "2026-10-23T22:52:50",
+  "duration_s": 0.88,
+  "output_tokens": 67,
+  "fallback": false,
+  "error": "",
+  "manual_edit": false,
+  "reviewed": false,
+  "payload_summary": {
+    "unit": "employment.status",
+    "n_pairs": 3
+  },
+  "response": {
+    "pairs": [
+      {
+        "id": "p1",
+        "same": false,
+        "canonical": "",
+        "reason": "就业状态不同，非同一事物"
+      },
+      {
+        "id": "p2",
+        "same": false,
+        "canonical": "",
+        "reason": "学生身份与在职学生不同"
+      },
+      {
+        "id": "p3",
+        "same": false,
+        "canonical": "",
+        "reason": "普通其他与需填写的其他不同"
+      }
+    ]
+  }
+}

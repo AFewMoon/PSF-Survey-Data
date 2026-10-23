@@ -12,7 +12,7 @@ from typing import Any
 
 import pandas as pd
 
-from . import config, decision_schema, prompts, reporting
+from . import config, decision_schema, fewshot, prompts, reporting
 from .cache import CacheStore
 from .dataio import read_cleaned, read_json, write_csv, write_json
 from .ollama_client import ChatMeta, OllamaClient
@@ -32,6 +32,11 @@ class AlignResult:
     problems: list[str] = field(default_factory=list)
     cache_lines: list[str] = field(default_factory=list)
     missing_meta: int = 0
+    holdout_years: list[int] = field(default_factory=list)
+    path_candidates: int = 0
+    fewshot_notes: list[str] = field(default_factory=list)
+    pairs_judged: int = 0
+    pairs_accepted: int = 0
 
 
 # ---------------------------------------------------------------- 读取
@@ -98,102 +103,242 @@ def _chunk_by_chars(
 
 
 def _unify_groups(
-    inventory: dict[str, dict[str, Any]], client: OllamaClient, refresh: bool
-) -> tuple[dict[str, str], list[str], str]:
-    """跨年组路径统一：模型给出每个组的标准路径（分批请求后合并）。"""
+    inventory: dict[str, dict[str, Any]], client: OllamaClient, refresh: bool,
+    bundle: fewshot.FewShotBundle,
+    fingerprints: dict[str, dict[str, Any]] | None = None,
+) -> tuple[dict[str, str], list[str], str, int, int, int]:
+    """跨年组路径统一，三段式（证据 → 判定 → 命名）：
+
+    1. **快对齐（不问模型）**：`norm_key` 命中人工词表、或多选选项 Jaccard ≥ GROUP_SNAP_STRONG，
+       直接定案。人工对齐靠维护同义词表，这里用「人工词表 + 选项证据」替代。
+    2. **判定**：只有证据处于 [WEAK, STRONG) 的组对交模型做「是否同一道题」的二元判断。
+    3. **命名**：仍未对齐的组，从封闭候选词表里选标准写法，缺省 keep。
+
+    理由：让 4B「自由选择标准路径」时它习惯性输出 keep（实测 164 组仅 1 处改动）；
+    而「两组选项重合 70%，是否同题」是它能稳定判定的分类任务。合并关系由数据与词表决定，
+    模型只处理两边都不确定的边界，且始终没有机会自造路径。
+    """
     names = sorted(inventory)
-    payload = [
-        {
-            "name": name,
-            "years": sorted(inventory[name]["years"]),
-            "n_options": inventory[name]["n_options"],
-            "sample": inventory[name]["sample"][:3],
-        }
-        for name in names
-    ]
-    cache = CacheStore("group_path", client.digest, refresh=refresh)
-    mapping: dict[str, str] = {}
     problems: list[str] = []
-    for chunk in _chunk_by_chars(payload, config.BATCH_CHAR_BUDGET, 60):
-        chunk_names = [row["name"] for row in chunk]
-        system, user = prompts.group_messages(chunk)
-        key = cache.key({"groups": chunk_names}, config.PROMPT_VERSION["group_path"])
+    snapped, ambiguous = fewshot.match_groups(inventory, bundle)
 
-        def call(sys_msg=system, usr_msg=user, n=len(chunk_names)) -> tuple[dict[str, Any], ChatMeta]:
-            return client.chat_json(sys_msg, usr_msg, num_predict=max(600, n * 32),
-                                    tag="group-path")
-
-        response, _, _ = cache.get_or_call(
-            key, config.PROMPT_VERSION["group_path"], {"n_groups": len(chunk_names)}, call,
-            fallback=lambda: {"groups": []},
+    # 第二段：证据不足的组对，逐对问模型（不外推、不批量重排）
+    cache_pair = CacheStore("group_pair", client.digest, refresh=refresh)
+    judges = 0
+    accepted: list[dict[str, str]] = []
+    snap_years: dict[str, set[int]] = {}
+    for name, target in snapped.items():
+        snap_years.setdefault(target, set()).update(inventory[name]["years"])
+    for batch in _chunk_pairs(ambiguous, config.BATCH_CHAR_BUDGET, config.PAIR_BATCH_SIZE):
+        payload = [
+            {
+                "id": f"p{i + 1}",
+                "a": name,
+                "b": target,
+                "a_years": sorted(inventory[name]["years"]),
+                "b_years": sorted(snap_years.get(target, set())),
+                "a_sample": inventory[name]["sample"][:5],
+                "b_sample": list(bundle.vocab_options.get(target, ()))[:5],
+            }
+            for i, (name, target) in enumerate(batch)
+        ]
+        system, user = prompts.group_pair_messages(payload)
+        key = cache_pair.key(
+            {"pairs": [list(p) for p in batch], "holdout": sorted(bundle.holdout_years)},
+            config.PROMPT_VERSION["group_pair"],
         )
-        chunk_map, chunk_problems = decision_schema.validate_group_map(response, chunk_names)
+        judges += len(batch)
+
+        def call(sys_msg=system, usr_msg=user,
+                 n=len(batch)) -> tuple[dict[str, Any], ChatMeta]:
+            return client.chat_json(sys_msg, usr_msg, num_predict=max(500, n * 70),
+                                    tag="group-pair")
+
+        response, _, _ = cache_pair.get_or_call(
+            key, config.PROMPT_VERSION["group_pair"], {"n_pairs": len(batch)}, call,
+            fallback=lambda: {"pairs": []},
+        )
+        ok, chunk_problems = decision_schema.validate_group_pairs(response, payload)
         problems += chunk_problems
-        for name in chunk_names:
-            target = chunk_map.get(name, name)
-            if name in mapping and mapping[name] != target:
-                problems.append(
-                    f"组路径映射冲突：{name} -> {mapping[name]} / {target}，保留首个"
-                )
-                continue
-            mapping[name] = target
-    for name in names:
-        mapping.setdefault(name, name)
-    return mapping, problems, cache.report()
+        accepted += ok
+
+    cluster_map, cluster_problems = decision_schema.clusters_from_pairs(
+        accepted, names + [target for _name, target in ambiguous], "groups")
+    problems += cluster_problems
+    merged = {name: cluster_map.get(norm_key(name), snapped.get(name, name)) for name in names}
+
+    # 第三段：封闭候选词表命名，只处理「快对齐与判定都没定案」的组
+    vocab = set(bundle.path_vocab)
+    pending = sorted({target for target in merged.values() if target not in vocab})
+    candidates = fewshot.build_path_candidates(bundle, []) if pending else []
+    cache_name = CacheStore("group_path", client.digest, refresh=refresh)
+    renamed: dict[str, str] = {}
+    if pending:
+        payload = [
+            {
+                "name": name,
+                "years": sorted({y for src, dst in merged.items() if dst == name
+                                 for y in inventory[src]["years"]}),
+                "n_options": sum(inventory[src]["n_options"] for src, dst in merged.items()
+                                 if dst == name),
+                "sample": sorted({opt for src, dst in merged.items() if dst == name
+                                  for opt in inventory[src]["sample"]})[:6],
+            }
+            for name in pending
+        ]
+        for chunk in _chunk_by_chars(payload, config.BATCH_CHAR_BUDGET, 40):
+            chunk_names = [row["name"] for row in chunk]
+            shortlist = fewshot.path_shortlist(candidates, chunk_names)
+            shortlist = fewshot.filter_candidates(shortlist, chunk_names, inventory)
+            system, user = prompts.group_messages(
+                chunk, shortlist, list(bundle.path_examples), list(bundle.value_examples)
+            )
+            key = cache_name.key(
+                {"groups": chunk_names, "candidates": shortlist, "mode": "closed",
+                 "holdout": sorted(bundle.holdout_years)},
+                config.PROMPT_VERSION["group_path"],
+            )
+
+            def call(sys_msg=system, usr_msg=user,
+                     n=len(chunk_names)) -> tuple[dict[str, Any], ChatMeta]:
+                return client.chat_json(sys_msg, usr_msg, num_predict=max(600, n * 32),
+                                        tag="group-path")
+
+            response, _, _ = cache_name.get_or_call(
+                key, config.PROMPT_VERSION["group_path"],
+                {"n_groups": len(chunk_names), "n_candidates": len(shortlist)}, call,
+                fallback=lambda: {"groups": []},
+            )
+            chunk_map, chunk_problems = decision_schema.validate_group_map_closed(
+                response, chunk_names, shortlist, fingerprints
+            )
+            problems += chunk_problems
+            for src, dst in chunk_map.items():
+                if dst == src:
+                    continue
+                options = tuple(inventory.get(src, {}).get("options", ()))
+                if not fewshot.compatible_target(src, options, dst):
+                    problems.append(
+                        f"{src} → {dst}: 目标路径会与本组选项重复拼接，已保留原名"
+                    )
+                    continue
+                renamed[src] = dst
+
+    final = {
+        name: (target if target in vocab else renamed.get(target, target))
+        for name, target in merged.items()
+    }
+    # 兜底护栏：整条映射再过一遍取值指纹（防止快对齐/命名绕开语义检查）
+    final, guard_problems = decision_schema.guard_group_mapping(final, fingerprints or {})
+    problems += guard_problems
+    cache_line = cache_pair.report()
+    if pending:
+        cache_line += f"；{cache_name.report()}"
+    return final, problems, cache_line, len(candidates), judges, len(accepted)
 
 
-def _chunk_units(
-    units: dict[str, list[str]], budget: int, max_units: int
-) -> list[dict[str, list[str]]]:
-    """按字符预算切批（同一批内才可能被模型判为同义）。"""
-    chunks: list[dict[str, list[str]]] = []
-    current: dict[str, list[str]] = {}
+def _chunk_pairs(
+    pairs: list[tuple[str, str]],
+    budget: int = config.BATCH_CHAR_BUDGET,
+    max_items: int = config.PAIR_BATCH_SIZE,
+) -> list[list[tuple[str, str]]]:
+    """候选对切批：控制单次请求的对数与字符量。"""
+    chunks: list[list[tuple[str, str]]] = []
+    current: list[tuple[str, str]] = []
     size = 0
-    for name, values in units.items():
-        if not values:
-            continue
-        cost = len(name) + sum(len(v) + 4 for v in values)
-        if current and (size + cost > budget or len(current) >= max_units):
+    for left, right in pairs:
+        cost = len(left) + len(right) + 24
+        if current and (size + cost > budget or len(current) >= max_items):
             chunks.append(current)
-            current, size = {}, 0
-        current[name] = values
+            current, size = [], 0
+        current.append((left, right))
         size += cost
     if current:
         chunks.append(current)
     return chunks
 
 
-def _cluster_units(
-    units: dict[str, list[str]], client: OllamaClient, refresh: bool, stage: str,
-    batch_units: int = 10,
-) -> tuple[dict[str, dict[str, str]], int, list[str], str]:
-    """批量聚类（多选选项文本 / 单选取值），返回 ({组: {norm_key: 标准文本}}, 簇数, problems, 缓存行)。"""
-    cache = CacheStore(stage, client.digest, refresh=refresh)
+def _dedup_units(
+    values: list[str], counts: dict[tuple[str, str], int] | None = None, unit: str = ""
+) -> tuple[list[str], dict[str, str]]:
+    """确定性第一段：`norm_key` 相同的写法先合并（大小写/标点/空白），返回代表值与本段映射。"""
+    by_key: dict[str, list[str]] = {}
+    for value in values:
+        key = norm_key(value)
+        if key:
+            by_key.setdefault(key, []).append(value)
+    reps: list[str] = []
+    mapping: dict[str, str] = {}
+    for key, group in by_key.items():
+        canonical = max(
+            group,
+            key=lambda v: ((counts or {}).get((unit, v), 0), len(v), v),
+        )
+        reps.append(canonical)
+        for value in group:
+            mapping[key] = canonical
+    return sorted(reps), mapping
+
+
+def _judge_units(
+    units: dict[str, list[str]], client: OllamaClient, refresh: bool, kind: str,
+    counts: dict[tuple[str, str], int] | None = None,
+) -> tuple[dict[str, dict[str, str]], int, int, int, list[str], str]:
+    """两段式归并：确定性 norm_key 合并 → 候选对逐对判断 → 并查集聚簇。
+
+    返回 ({单元: {norm_key: 标准文本}}, 簇数, 判定对数, 接受对数, problems, 缓存行)。
+    逐对判断替代整组开放聚类：4B 只会整列塌缩，但判断「两个文本是否同义」是可靠分类任务。
+    """
+    cache = CacheStore("pair_judge", client.digest, refresh=refresh)
     merged: dict[str, dict[str, str]] = {}
     problems: list[str] = []
     clusters = 0
-    for chunk_units in _chunk_units(units, config.BATCH_CHAR_BUDGET, batch_units):
-        chunk = list(chunk_units)
-        system, user = prompts.cluster_messages(chunk_units)
-        key = cache.key({"units": chunk_units}, config.PROMPT_VERSION["option_alias"])
-        size = sum(len(v) for v in chunk_units.values())
+    judged = 0
+    accepted_n = 0
+    for unit, values in units.items():
+        reps, det_map = _dedup_units(values, counts, unit)
+        pairs = fewshot.candidate_pairs(reps)
+        cluster_map: dict[str, str] = {}
+        if pairs:
+            accepted: list[dict[str, str]] = []
+            for batch in _chunk_pairs(pairs):
+                payload = [
+                    {"id": f"p{i + 1}", "group": unit, "a": left, "b": right}
+                    for i, (left, right) in enumerate(batch)
+                ]
+                system, user = prompts.pair_judge_messages(payload)
+                key = cache.key(
+                    {"unit": unit, "kind": kind, "pairs": [list(p) for p in batch]},
+                    config.PROMPT_VERSION["pair_judge"],
+                )
+                judged += len(batch)
 
-        def call(units_chunk=chunk_units, sys_msg=system, usr_msg=user,
-                 n=size) -> tuple[dict[str, Any], ChatMeta]:
-            return client.chat_json(sys_msg, usr_msg, num_predict=max(700, n * 55),
-                                    tag=f"cluster-{stage}")
+                def call(sys_msg=system, usr_msg=user,
+                         n=len(batch)) -> tuple[dict[str, Any], ChatMeta]:
+                    return client.chat_json(sys_msg, usr_msg, num_predict=max(400, n * 60),
+                                            tag=f"pair-{kind}")
 
-        response, _, _ = cache.get_or_call(
-            key, config.PROMPT_VERSION["option_alias"],
-            {"groups": len(chunk), "values": size}, call,
-            fallback=lambda: {"groups": []},
-        )
-        mapping, chunk_problems = decision_schema.validate_cluster_batch(response, chunk_units)
-        problems += chunk_problems
-        for name, value_map in mapping.items():
-            merged[name] = value_map
-            clusters += len({v for v in value_map.values()})
-    return merged, clusters, problems, cache.report()
+                response, _, _ = cache.get_or_call(
+                    key, config.PROMPT_VERSION["pair_judge"],
+                    {"unit": unit, "n_pairs": len(batch)}, call,
+                    fallback=lambda: {"pairs": []},
+                )
+                ok, chunk_problems = decision_schema.validate_pair_judgments(response, payload)
+                problems += chunk_problems
+                accepted += ok
+            accepted_n += len(accepted)
+            cluster_map, cluster_problems = decision_schema.clusters_from_pairs(
+                accepted, reps, unit
+            )
+            problems += cluster_problems
+            clusters += len(set(cluster_map.values()))
+        final: dict[str, str] = {}
+        for key, det_canon in det_map.items():
+            target = cluster_map.get(norm_key(det_canon), det_canon)
+            final[key] = cluster_map.get(key, target)
+        if final:
+            merged[unit] = final
+    return merged, clusters, judged, accepted_n, problems, cache.report()
 
 
 def dry_run_group_map(inventory: dict[str, dict[str, Any]]) -> dict[str, str]:
@@ -204,12 +349,77 @@ def dry_run_group_map(inventory: dict[str, dict[str, Any]]) -> dict[str, str]:
     return {name: by_key[norm_key(name)] for name in inventory}
 
 
+def build_fingerprints(
+    years: list[int],
+    dfs: dict[int, pd.DataFrame],
+    group_by_year: dict[int, dict[str, str]],
+    kind_by_year: dict[int, dict[str, str]],
+    inventory: dict[str, dict[str, Any]],
+) -> dict[str, dict[str, Any]]:
+    """组级取值指纹：多选题用选项名，单选题用单元格 top 值，另记 Yes/No 占比。
+
+    用途：组映射合并前后指纹应当相似；指纹完全不重合说明「名字像、内容不像」，
+    这正是 `is.python.main → ide.python_version` 类错误的可检测信号。
+    """
+    acc: dict[str, dict[str, Any]] = {}
+    for year in years:
+        df = dfs[year]
+        for col, group in group_by_year[year].items():
+            if kind_by_year[year].get(col) != "single_choice":
+                continue
+            series = df[col]
+            if series.dtype.kind in "biuf":
+                continue
+            texts = series.map(lambda v: str(v).strip())
+            texts = texts[texts != ""]
+            if texts.empty:
+                continue
+            counts = texts.value_counts()
+            entry = acc.setdefault(group, {"values": {}, "yesno": 0, "total": 0})
+            for text, count in counts.head(5).items():
+                key = norm_key(str(text))
+                if key:
+                    entry["values"][key] = entry["values"].get(key, 0) + int(count)
+            entry["total"] += int(counts.sum())
+            entry["yesno"] += int(
+                sum(c for t, c in counts.items() if norm_key(str(t)).startswith(("yes", "no")))
+            )
+    for name, entry in inventory.items():
+        values: dict[str, int] = {}
+        for option in entry.get("options", ()):
+            key = norm_key(option)
+            if key:
+                values[key] = values.get(key, 0) + 1
+        merged = acc.setdefault(name, {"values": {}, "yesno": 0, "total": 0})
+        for key, count in values.items():
+            merged["values"][key] = merged["values"].get(key, 0) + count
+    kind_acc: dict[str, set[str]] = {}
+    for year in years:
+        for col, group in group_by_year[year].items():
+            kind = kind_by_year[year].get(col) or ""
+            if kind:
+                kind_acc.setdefault(group, set()).add(kind)
+    fingerprints: dict[str, dict[str, Any]] = {}
+    for name, entry in acc.items():
+        total = int(entry["total"])
+        top = sorted(entry["values"].items(), key=lambda kv: (-kv[1], kv[0]))[:8]
+        fingerprints[name] = {
+            "values": [key for key, _count in top],
+            "yesno_share": (entry["yesno"] / total) if total else 0.0,
+            "kinds": sorted(kind_acc.get(name, ())),
+        }
+    return fingerprints
+
+
 # ---------------------------------------------------------------- 主流程
 
 
 def run(years: list[int], client: OllamaClient | None, refresh: bool,
-        dry_run: bool = False) -> AlignResult:
+        dry_run: bool = False, holdout_years: set[int] | None = None) -> AlignResult:
     result = AlignResult()
+    bundle = fewshot.load_manual_mappings(holdout_years)
+    result.holdout_years = sorted(bundle.holdout_years)
+    result.fewshot_notes = list(bundle.notes)
     dfs: dict[int, pd.DataFrame] = {}
     metas: dict[int, dict[str, dict[str, Any]]] = {}
     group_by_year: dict[int, dict[str, str]] = {}
@@ -245,7 +455,15 @@ def run(years: list[int], client: OllamaClient | None, refresh: bool,
         group_map = dry_run_group_map(inventory)
         result.cache_lines.append("group_path: 离线模式（归一键合并）")
     else:
-        group_map, problems, cache_line = _unify_groups(inventory, client, refresh)
+        fingerprints = build_fingerprints(
+            years, dfs, group_by_year, kind_by_year, inventory
+        )
+        group_map, problems, cache_line, n_candidates, judged, accepted = _unify_groups(
+            inventory, client, refresh, bundle, fingerprints
+        )
+        result.path_candidates = n_candidates
+        result.pairs_judged += judged
+        result.pairs_accepted += accepted
         result.problems += problems
         result.cache_lines.append(cache_line)
     result.group_merges = [
@@ -269,13 +487,29 @@ def run(years: list[int], client: OllamaClient | None, refresh: bool,
 
     if dry_run or client is None:
         option_clusters: dict[str, dict[str, str]] = {}
-        result.cache_lines.append("option_alias: 离线模式（不做同义归并）")
+        result.cache_lines.append("pair_judge: 离线模式（只做归一键合并）")
     else:
-        option_clusters, n_clusters, problems, cache_line = _cluster_units(
-            option_units, client, refresh, "option_alias", batch_units=8)
+        option_clusters, n_clusters, judged, accepted, problems, cache_line = _judge_units(
+            option_units, client, refresh, "option")
         result.option_clusters = n_clusters
+        result.pairs_judged += judged
+        result.pairs_accepted += accepted
         result.problems += problems
         result.cache_lines.append(cache_line)
+
+    # 选项写法对齐人工词表（闭集）：模型只判同义，写哪个用哪个人工词表说了算
+    option_final: dict[str, dict[str, str]] = {}
+    for group, values in option_units.items():
+        option_final[group] = fewshot.snap_option_names(
+            group, values, bundle, option_clusters.get(group, {})
+        )
+    snapped_options = sum(
+        1 for group, mapping in option_final.items()
+        for key, text in mapping.items()
+        if text != option_clusters.get(group, {}).get(key, "")
+    )
+    if snapped_options:
+        result.cache_lines.append(f"option_vocab: 按人工词表统一写法 {snapped_options} 处")
 
     # ---- 3. 重命名 ----
     col_map_rows: list[dict[str, Any]] = []
@@ -288,7 +522,8 @@ def run(years: list[int], client: OllamaClient | None, refresh: bool,
             group = canon_group_by_year[year][col]
             option = option_by_year[year].get(col, "")
             if option:
-                canon_option = option_clusters.get(group, {}).get(norm_key(option), norm_text(option))
+                canon_option = option_final.get(group, {}).get(
+                    norm_key(option), norm_text(option))
                 proposed.append(f"{group}.{canon_option}")
             else:
                 proposed.append(group or col)
@@ -314,7 +549,7 @@ def run(years: list[int], client: OllamaClient | None, refresh: bool,
             option = option_by_year[year].get(col, "")
             canon_option = ""
             if option:
-                canon_option = option_clusters.get(canon_group, {}).get(
+                canon_option = option_final.get(canon_group, {}).get(
                     norm_key(option), norm_text(option))
             meta_by_new[year][renames[col]] = {
                 "kind": kind_by_year[year].get(col, ""),
@@ -354,11 +589,12 @@ def run(years: list[int], client: OllamaClient | None, refresh: bool,
     if dry_run or client is None:
         value_clusters: dict[str, dict[str, str]] = {}
     else:
-        model_value_clusters, _, problems, cache_line = _cluster_units(
-            value_units, client, refresh, "option_alias", batch_units=10)
+        value_clusters, _, judged, accepted, problems, cache_line = _judge_units(
+            value_units, client, refresh, "value", counts=value_counts)
+        result.pairs_judged += judged
+        result.pairs_accepted += accepted
         result.problems += problems
         result.cache_lines.append(f"{cache_line}（取值）")
-        value_clusters = _merge_value_maps(value_units, value_counts, model_value_clusters)
 
     value_rows: list[dict[str, Any]] = []
     for year in years:
@@ -404,46 +640,6 @@ def run(years: list[int], client: OllamaClient | None, refresh: bool,
     return result
 
 
-def _related(a: str, b: str) -> bool:
-    """两个 norm_key 是否「同一实体的不同写法」：互相包含即视为相关。"""
-    if not a or not b or a == b:
-        return False
-    return a in b or b in a
-
-
-def _merge_value_maps(
-    units: dict[str, list[str]],
-    counts: dict[tuple[str, str], int],
-    model_clusters: dict[str, dict[str, str]],
-) -> dict[str, dict[str, str]]:
-    """合并单选取值：确定性归一（大小写/标点/空白）打底，模型建议只在文本相关时采纳。
-
-    4B 模型在单选取值上倾向「整列塌缩」（把 24 个取值并成一个），此处用文本相关性把
-    建议裁剪到安全范围内，宁可少合并也不误合并。
-    """
-    merged: dict[str, dict[str, str]] = {}
-    for col, values in units.items():
-        mapping: dict[str, str] = {}
-        by_key: dict[str, list[str]] = {}
-        for value in values:
-            by_key.setdefault(norm_key(value), []).append(value)
-        for key, group in by_key.items():
-            if len(group) < 2:
-                continue
-            canonical = max(group, key=lambda v: (counts.get((col, v), 0), len(v)))
-            for value in group:
-                mapping[norm_key(value)] = canonical
-        for key, canonical in (model_clusters.get(col) or {}).items():
-            if key in mapping or key == norm_key(canonical):
-                continue
-            if not _related(key, norm_key(canonical)):
-                continue
-            mapping[key] = canonical
-        if mapping:
-            merged[col] = mapping
-    return merged
-
-
 def _canon_value(value: Any, mapping: dict[str, str]) -> str:
     text = str(value).strip()
     if not text:
@@ -456,18 +652,27 @@ def write_report(result: AlignResult, years: list[int], master_rows: int,
     lines = ["# LLM 驱动跨年对齐报告", "", f"生成时间：{reporting.now_str()}", ""]
     lines.append(
         f"模型：`{config.MODEL}`（temperature={config.TEMPERATURE}, seed={config.SEED}）｜"
-        "管线：模型统一组路径 → 模型归并选项写法 → 重命名 → 模型归并单选取值 → 共有列纵向合并"
+        "管线：封闭集选组路径 → 候选对逐对归并选项 → 重命名 → 逐对归并单选取值 → 共有列纵向合并"
     )
     lines += ["", "## 对齐统计", ""]
     lines.append(f"- 跨年共有列：{len(result.common_cols)}")
-    lines.append(f"- 题目组：{result.groups} 个（其中 {len(result.group_merges)} 个被模型映射到其他标准路径）")
+    lines.append(f"- 题目组：{result.groups} 个（其中 {len(result.group_merges)} 个被映射到其他标准路径）")
+    lines.append(f"- 封闭候选路径：{result.path_candidates} 个")
     lines.append(f"- 列名重命名：{result.renames}")
     lines.append(f"- 选项同义簇：{result.option_clusters}")
+    lines.append(f"- 候选对判定：{result.pairs_judged} 对（接受 {result.pairs_accepted} 对）")
     lines.append(f"- 取值统一记录：{result.value_changes}")
     lines.append(f"- `__dup` 冲突列：{result.dup_cols}")
     lines.append(f"- 总表行数：{master_rows}")
     if result.missing_meta:
         lines.append(f"- 缺少清洗阶段元数据的列：{result.missing_meta}（按表头结构退化处理）")
+
+    lines += ["", "## Few-shot 与评测口径", ""]
+    lines.append(
+        f"- 留出年份：{','.join(str(y) for y in result.holdout_years) or '无'}"
+        "（这些年份的人工映射**不进入**提示词，仅用于对账）"
+    )
+    lines += [f"- {note}" for note in result.fewshot_notes]
 
     lines += ["", "## 各年列数", "", reporting.md_table(
         ["年份", "对齐后列数", "进入总表的列数"],
@@ -503,8 +708,8 @@ def write_report(result: AlignResult, years: list[int], master_rows: int,
             "本轮没有产生单选取值统一：",
             "- 确定性部分只合并 `norm_key` 完全相同（仅大小写/标点/空白差异）的取值；"
             "清洗阶段已做单元格归一，剩余变体为零",
-            "- 4B 模型的取值归并建议普遍是「整列塌缩」（把该列全部取值并成一个），"
-            "被 `validate_cluster_batch` 的塌缩护栏全部拒绝，拒绝记录见「校验提示」",
+            "- 候选对（difflib 相似度 / 缩写一致 / 词元包含）未命中任何可合并的取值，"
+            "或模型判定全部不同义；拒绝记录见「校验提示」",
         ]
 
     if result.problems:

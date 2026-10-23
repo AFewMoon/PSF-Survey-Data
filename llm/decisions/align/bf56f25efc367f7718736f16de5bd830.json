@@ -1,0 +1,317 @@
+{
+  "stage": "group_path",
+  "model": "qwen3.5:4b",
+  "model_digest": "d8b0f5e9760cd168",
+  "prompt_version": "group-path-v2",
+  "input_hash": "bf56f25efc367f7718736f16de5bd830",
+  "created_at": "2026-10-23T22:33:48",
+  "duration_s": 16.7,
+  "output_tokens": 1392,
+  "fallback": false,
+  "error": "",
+  "manual_edit": false,
+  "reviewed": false,
+  "payload_summary": {
+    "n_groups": 59,
+    "n_candidates": 80
+  },
+  "response": {
+    "groups": [
+      {
+        "name": "first.learn.about.main",
+        "canonical": "first.learn.about.main",
+        "reason": "样本为 ide，符合候选语义。"
+      },
+      {
+        "name": "first.learn.about.main.ide",
+        "canonical": "keep",
+        "reason": "样本为空，无候选匹配。"
+      },
+      {
+        "name": "frameworks.cm",
+        "canonical": "frameworks.cm",
+        "reason": "样本为 Ansible/Chef，符合配置管理框架语义。"
+      },
+      {
+        "name": "frameworks.data",
+        "canonical": "frameworks.data",
+        "reason": "样本为 Gensim/Keras，符合数据框架语义。"
+      },
+      {
+        "name": "frameworks.ml",
+        "canonical": "frameworks.ml",
+        "reason": "样本为 MXNet/CatBoost，符合 ML 框架语义。"
+      },
+      {
+        "name": "frameworks.support",
+        "canonical": "frameworks.support",
+        "reason": "样本为 BeautifulSoup/Django，符合支持库语义。"
+      },
+      {
+        "name": "frameworks.web",
+        "canonical": "frameworks.web",
+        "reason": "样本为 Bottle/Django，符合 Web 框架语义。"
+      },
+      {
+        "name": "gender",
+        "canonical": "keep",
+        "reason": "样本为空，无候选匹配。"
+      },
+      {
+        "name": "how.involved",
+        "canonical": "keep",
+        "reason": "样本为学术/图形等，无对应标准路径。"
+      },
+      {
+        "name": "how.involved.Multimedia applications development (apps handling various types of multimedia content, e.g. audio, graphics, etc",
+        "canonical": "keep",
+        "reason": "样本为括号，无对应标准路径。"
+      },
+      {
+        "name": "how.involved.Other - Write In:",
+        "canonical": "keep",
+        "reason": "样本为空，无候选匹配。"
+      },
+      {
+        "name": "how.involved.Other, please specify:",
+        "canonical": "keep",
+        "reason": "样本为空，无候选匹配。"
+      },
+      {
+        "name": "how.involved.fixed",
+        "canonical": "keep",
+        "reason": "样本为开发类型，无对应标准路径。"
+      },
+      {
+        "name": "how.often.use.main",
+        "canonical": "keep",
+        "reason": "样本为 ide，无对应频率标准路径。"
+      },
+      {
+        "name": "how.often.use.main.ide",
+        "canonical": "keep",
+        "reason": "样本为空，无候选匹配。"
+      },
+      {
+        "name": "ide",
+        "canonical": "ide",
+        "reason": "样本为 main，符合 IDE 主路径语义。"
+      },
+      {
+        "name": "ide.data_scientist",
+        "canonical": "keep",
+        "reason": "样本为空，无候选匹配。"
+      },
+      {
+        "name": "ide.databases",
+        "canonical": "ide.databases",
+        "reason": "样本为数据库，符合 IDE 数据库语义。"
+      },
+      {
+        "name": "ide.editor",
+        "canonical": "ide.editor",
+        "reason": "样本为 Aptana/Atom，符合编辑器语义。"
+      },
+      {
+        "name": "ide.editor.features",
+        "canonical": "keep",
+        "reason": "样本为功能描述，无对应标准路径。"
+      },
+      {
+        "name": "ide.editor.features.Run / debug or edit code on remote machines (remote hosts, VMs, etc",
+        "canonical": "keep",
+        "reason": "样本为括号，无对应标准路径。"
+      },
+      {
+        "name": "ide.editor.features.Use NoSQL databases",
+        "canonical": "keep",
+        "reason": "样本为空，无候选匹配。"
+      },
+      {
+        "name": "ide.editor.features.Use issue trackers",
+        "canonical": "keep",
+        "reason": "样本为空，无候选匹配。"
+      },
+      {
+        "name": "ide.file.edit",
+        "canonical": "keep",
+        "reason": "样本为空，无候选匹配。"
+      },
+      {
+        "name": "ide.history",
+        "canonical": "keep",
+        "reason": "样本为空，无候选匹配。"
+      },
+      {
+        "name": "ide.isolate",
+        "canonical": "ide.isolate",
+        "reason": "样本为 Conda/Docker，符合隔离语义。"
+      },
+      {
+        "name": "ide.main",
+        "canonical": "keep",
+        "reason": "样本为空，无候选匹配。"
+      },
+      {
+        "name": "ide.os",
+        "canonical": "keep",
+        "reason": "样本为操作系统，无对应标准路径。"
+      },
+      {
+        "name": "ide.other",
+        "canonical": "keep",
+        "reason": "样本为 Other，无对应标准路径。"
+      },
+      {
+        "name": "ide.python2_version",
+        "canonical": "keep",
+        "reason": "样本为空，无候选匹配。"
+      },
+      {
+        "name": "ide.python3_version",
+        "canonical": "keep",
+        "reason": "样本为空，无候选匹配。"
+      },
+      {
+        "name": "ide.python_use",
+        "canonical": "keep",
+        "reason": "样本为空，无候选匹配。"
+      },
+      {
+        "name": "ide.python_version",
+        "canonical": "keep",
+        "reason": "样本为空，无候选匹配。"
+      },
+      {
+        "name": "ide.tools.bigdata",
+        "canonical": "ide.tools.bigdata",
+        "reason": "样本为 Beam/Flink，符合大数据工具语义。"
+      },
+      {
+        "name": "ide.tools.ci",
+        "canonical": "ide.tools.ci",
+        "reason": "样本为 AppVeyor/CircleCI，符合 CI 工具语义。"
+      },
+      {
+        "name": "ide.upgrade",
+        "canonical": "keep",
+        "reason": "样本为升级方式，无对应标准路径。"
+      },
+      {
+        "name": "industry.company",
+        "canonical": "keep",
+        "reason": "样本为空，无候选匹配。"
+      },
+      {
+        "name": "industry.development",
+        "canonical": "keep",
+        "reason": "样本为空，无候选匹配。"
+      },
+      {
+        "name": "is.python.main",
+        "canonical": "keep",
+        "reason": "样本为空，无候选匹配。"
+      },
+      {
+        "name": "isolate.environments",
+        "canonical": "isolate.environments",
+        "reason": "样本为 Conda/Docker，符合隔离语义。"
+      },
+      {
+        "name": "issue",
+        "canonical": "keep",
+        "reason": "样本为 solved，无对应标准路径。"
+      },
+      {
+        "name": "issue.report",
+        "canonical": "keep",
+        "reason": "样本为 Yes/No，无对应标准路径。"
+      },
+      {
+        "name": "job",
+        "canonical": "keep",
+        "reason": "样本为 team，无对应标准路径。"
+      },
+      {
+        "name": "job.role",
+        "canonical": "keep",
+        "reason": "样本为角色，无对应标准路径。"
+      },
+      {
+        "name": "job.team",
+        "canonical": "keep",
+        "reason": "样本为空，无候选匹配。"
+      },
+      {
+        "name": "jupyter",
+        "canonical": "keep",
+        "reason": "样本为 dataspell/IntelliJ，无对应标准路径。"
+      },
+      {
+        "name": "kubernetes",
+        "canonical": "keep",
+        "reason": "样本为空，无候选匹配。"
+      },
+      {
+        "name": "learning.source",
+        "canonical": "keep",
+        "reason": "样本为 AI 工具/博客，无对应标准路径。"
+      },
+      {
+        "name": "libraries",
+        "canonical": "keep",
+        "reason": "样本为 do/publish，无对应标准路径。"
+      },
+      {
+        "name": "libraries.publish.where",
+        "canonical": "keep",
+        "reason": "样本为 PyPI 镜像，无对应标准路径。"
+      },
+      {
+        "name": "libraries.tools",
+        "canonical": "keep",
+        "reason": "样本为 Enscons/Flit，无对应标准路径。"
+      },
+      {
+        "name": "main",
+        "canonical": "main",
+        "reason": "样本为 purposes，符合主路径语义。"
+      },
+      {
+        "name": "main.purposes",
+        "canonical": "keep",
+        "reason": "样本为空，无候选匹配。"
+      },
+      {
+        "name": "missing.features.main",
+        "canonical": "keep",
+        "reason": "样本为 ide，无对应标准路径。"
+      },
+      {
+        "name": "missing.features.main.ide",
+        "canonical": "keep",
+        "reason": "样本为空，无候选匹配。"
+      },
+      {
+        "name": "ml",
+        "canonical": "ml",
+        "reason": "样本为 deployment/training，符合 ML 语义。"
+      },
+      {
+        "name": "ml.cloud",
+        "canonical": "keep",
+        "reason": "样本为空，无候选匹配。"
+      },
+      {
+        "name": "ml.cloud.budget",
+        "canonical": "keep",
+        "reason": "样本为空，无候选匹配。"
+      },
+      {
+        "name": "ml.cloud.cost.impact",
+        "canonical": "keep",
+        "reason": "样本为空，无候选匹配。"
+      }
+    ]
+  }
+}

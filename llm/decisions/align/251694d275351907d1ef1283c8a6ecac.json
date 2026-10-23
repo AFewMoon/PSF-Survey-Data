@@ -1,0 +1,262 @@
+{
+  "stage": "group_path",
+  "model": "qwen3.5:4b",
+  "model_digest": "d8b0f5e9760cd168",
+  "prompt_version": "group-path-v3",
+  "input_hash": "251694d275351907d1ef1283c8a6ecac",
+  "created_at": "2026-10-23T22:38:11",
+  "duration_s": 15.3,
+  "output_tokens": 1251,
+  "fallback": false,
+  "error": "",
+  "manual_edit": false,
+  "reviewed": false,
+  "payload_summary": {
+    "n_groups": 48,
+    "n_candidates": 187
+  },
+  "response": {
+    "groups": [
+      {
+        "name": "job.role",
+        "canonical": "job.role",
+        "reason": "候选清单中无对应项，保留原名"
+      },
+      {
+        "name": "job.team",
+        "canonical": "job.team",
+        "reason": "候选清单中无对应项，保留原名"
+      },
+      {
+        "name": "jupyter",
+        "canonical": "jupyter",
+        "reason": "候选清单中无对应项，保留原名"
+      },
+      {
+        "name": "kubernetes",
+        "canonical": "kubernetes",
+        "reason": "候选清单中无对应项，保留原名"
+      },
+      {
+        "name": "learning.source",
+        "canonical": "learning.source",
+        "reason": "候选清单中无对应项，保留原名"
+      },
+      {
+        "name": "libraries",
+        "canonical": "libraries",
+        "reason": "候选清单中无对应项，保留原名"
+      },
+      {
+        "name": "libraries.publish.where",
+        "canonical": "libraries.publish.where",
+        "reason": "候选清单中无对应项，保留原名"
+      },
+      {
+        "name": "libraries.tools",
+        "canonical": "libraries.tools",
+        "reason": "候选清单中无对应项，保留原名"
+      },
+      {
+        "name": "main",
+        "canonical": "main",
+        "reason": "候选清单中无对应项，保留原名"
+      },
+      {
+        "name": "main.purposes",
+        "canonical": "main.purposes",
+        "reason": "候选清单中无对应项，保留原名"
+      },
+      {
+        "name": "missing.features.main",
+        "canonical": "missing.features.main",
+        "reason": "候选清单中无对应项，保留原名"
+      },
+      {
+        "name": "missing.features.main.ide",
+        "canonical": "missing.features.main.ide",
+        "reason": "候选清单中无对应项，保留原名"
+      },
+      {
+        "name": "ml",
+        "canonical": "ml",
+        "reason": "候选清单中无对应项，保留原名"
+      },
+      {
+        "name": "ml.cloud",
+        "canonical": "ml.cloud",
+        "reason": "候选清单中无对应项，保留原名"
+      },
+      {
+        "name": "ml.cloud.budget",
+        "canonical": "ml.cloud.budget",
+        "reason": "候选清单中无对应项，保留原名"
+      },
+      {
+        "name": "ml.cloud.cost.impact",
+        "canonical": "ml.cloud.cost.impact",
+        "reason": "候选清单中无对应项，保留原名"
+      },
+      {
+        "name": "ml.deployment",
+        "canonical": "ml.deployment",
+        "reason": "候选清单中无对应项，保留原名"
+      },
+      {
+        "name": "ml.training",
+        "canonical": "ml.training",
+        "reason": "候选清单中无对应项，保留原名"
+      },
+      {
+        "name": "monorepo",
+        "canonical": "monorepo",
+        "reason": "候选清单中无对应项，保留原名"
+      },
+      {
+        "name": "most.of.the.time.do.you",
+        "canonical": "most.of.the.time.do.you",
+        "reason": "候选清单中无对应项，保留原名"
+      },
+      {
+        "name": "nps.main.ide",
+        "canonical": "nps.main.ide",
+        "reason": "候选清单中无对应项，保留原名"
+      },
+      {
+        "name": "opensource",
+        "canonical": "opensource",
+        "reason": "候选清单中无对应项，保留原名"
+      },
+      {
+        "name": "opensource.description",
+        "canonical": "opensource.description",
+        "reason": "候选清单中无对应项，保留原名"
+      },
+      {
+        "name": "orm",
+        "canonical": "orm",
+        "reason": "候选清单中无对应项，保留原名"
+      },
+      {
+        "name": "other.-.write.in",
+        "canonical": "other.-.write.in",
+        "reason": "候选清单中无对应项，保留原名"
+      },
+      {
+        "name": "other.-.write.in.what.data.science.framework.s.do.you.use.in.addition.to.python",
+        "canonical": "other.-.write.in.what.data.science.framework.s.do.you.use.in.addition.to.python",
+        "reason": "候选清单中无对应项，保留原名"
+      },
+      {
+        "name": "other.frameworks",
+        "canonical": "other.frameworks",
+        "reason": "候选清单中无对应项，保留原名"
+      },
+      {
+        "name": "other.lang",
+        "canonical": "other.lang",
+        "reason": "候选清单中无对应项，保留原名"
+      },
+      {
+        "name": "other.purposes",
+        "canonical": "other.purposes",
+        "reason": "候选清单中无对应项，保留原名"
+      },
+      {
+        "name": "other.write.in.what.editors.ides.do.you.use.for.python.development.in.addition.to.your.primary.ide",
+        "canonical": "other.write.in.what.editors.ides.do.you.use.for.python.development.in.addition.to.your.primary.ide",
+        "reason": "候选清单中无对应项，保留原名"
+      },
+      {
+        "name": "other.write.in.what.web.frameworks.libraries.do.you.use.in.addition.to.python",
+        "canonical": "other.write.in.what.web.frameworks.libraries.do.you.use.in.addition.to.python",
+        "reason": "候选清单中无对应项，保留原名"
+      },
+      {
+        "name": "packages.install",
+        "canonical": "packages.install",
+        "reason": "候选清单中无对应项，保留原名"
+      },
+      {
+        "name": "packages.install.from",
+        "canonical": "packages.install.from",
+        "reason": "候选清单中无对应项，保留原名"
+      },
+      {
+        "name": "packaging.tools",
+        "canonical": "packaging.tools",
+        "reason": "候选清单中无对应项，保留原名"
+      },
+      {
+        "name": "purposes.python",
+        "canonical": "purposes.python",
+        "reason": "候选清单中无对应项，保留原名"
+      },
+      {
+        "name": "purposes.python.graphics",
+        "canonical": "purposes.python.graphics",
+        "reason": "候选清单中无对应项，保留原名"
+      },
+      {
+        "name": "python",
+        "canonical": "python",
+        "reason": "候选清单中无对应项，保留原名"
+      },
+      {
+        "name": "python.version",
+        "canonical": "python.version",
+        "reason": "候选清单中无对应项，保留原名"
+      },
+      {
+        "name": "python.version.most",
+        "canonical": "python.version.most",
+        "reason": "候选清单中无对应项，保留原名"
+      },
+      {
+        "name": "python.version.upgrade",
+        "canonical": "python.version.upgrade",
+        "reason": "候选清单中无对应项，保留原名"
+      },
+      {
+        "name": "python.version.why",
+        "canonical": "python.version.why",
+        "reason": "候选清单中无对应项，保留原名"
+      },
+      {
+        "name": "python.years",
+        "canonical": "python.years",
+        "reason": "候选清单中无对应项，保留原名"
+      },
+      {
+        "name": "python2.version",
+        "canonical": "python2.version",
+        "reason": "候选清单中无对应项，保留原名"
+      },
+      {
+        "name": "python2.version.most",
+        "canonical": "python2.version.most",
+        "reason": "候选清单中无对应项，保留原名"
+      },
+      {
+        "name": "python3.version",
+        "canonical": "python3.version",
+        "reason": "候选清单中无对应项，保留原名"
+      },
+      {
+        "name": "python3.version.most",
+        "canonical": "python3.version.most",
+        "reason": "候选清单中无对应项，保留原名"
+      },
+      {
+        "name": "region",
+        "canonical": "region",
+        "reason": "候选清单中无对应项，保留原名"
+      },
+      {
+        "name": "response_id",
+        "canonical": "response_id",
+        "reason": "候选清单中无对应项，保留原名"
+      }
+    ]
+  }
+}

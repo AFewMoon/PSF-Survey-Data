@@ -72,11 +72,14 @@ def stage_clean(years: list[int], client: OllamaClient | None, batch: int,
 
 
 def stage_align(years: list[int], client: OllamaClient | None, refresh: bool,
-                dry_run: bool) -> None:
-    result = align_stage.run(years, client, refresh, dry_run=dry_run)
+                dry_run: bool, holdout_years: set[int]) -> None:
+    result = align_stage.run(years, client, refresh, dry_run=dry_run,
+                             holdout_years=holdout_years)
     print(f"  共有列 {len(result.common_cols)}，组路径 {result.groups}，"
           f"统一映射 {len(result.group_merges)}，重命名 {result.renames}，"
           f"取值统一 {result.value_changes}，__dup {result.dup_cols}")
+    print(f"  候选路径 {result.path_candidates}，候选对 {result.pairs_judged}"
+          f"（接受 {result.pairs_accepted}），留出年份 {sorted(result.holdout_years)}")
     for line in result.cache_lines:
         print(f"      缓存：{line}")
 
@@ -97,8 +100,8 @@ def stage_charts(client: OllamaClient | None, refresh: bool) -> None:
         print(f"      提示：{problem}")
 
 
-def stage_parity(client: OllamaClient | None, refresh: bool) -> None:
-    result = parity.run(client, refresh)
+def stage_parity(client: OllamaClient | None, refresh: bool, holdout_years: set[int]) -> None:
+    result = parity.run(client, refresh, holdout_years)
     print(f"  规则列 {result.rule_cols} / LLM 列 {result.llm_cols} / 匹配 {result.matched}"
           f"（Jaccard {result.jaccard}%），缺失率差异 {len(result.missing_diffs)} 条，"
           f"占比差异 {len(result.topic_diffs)} 条")
@@ -116,6 +119,9 @@ def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
     parser.add_argument("--apply-review", action="store_true",
                         help="执行 review_approved.json 中已确认的删列")
     parser.add_argument("--rebuild-profile", action="store_true", help="强制重算列画像")
+    parser.add_argument("--holdout-years", default=None,
+                        help="留出年份（人工映射不进提示词，默认 2023,2024，"
+                             "或环境变量 LLM_SURVEY_HOLDOUT）")
     return parser.parse_args(argv)
 
 
@@ -126,6 +132,10 @@ def main(argv: list[str] | None = None) -> int:
     if unknown:
         print(f"未知年份：{unknown}")
         return 2
+
+    holdout = config.HOLDOUT_YEARS
+    if args.holdout_years:
+        holdout = {int(y) for y in args.holdout_years.replace(" ", "").split(",") if y}
 
     started = time.perf_counter()
     client: OllamaClient | None = None
@@ -154,7 +164,7 @@ def main(argv: list[str] | None = None) -> int:
             stage_clean(years, client, args.batch_size, args.refresh, args.apply_review)
         if args.stage in {"align", "all"}:
             print("[align] 模型统一组路径与取值")
-            stage_align(years, client, args.refresh, args.dry_run)
+            stage_align(years, client, args.refresh, args.dry_run, holdout)
         if args.stage in {"stats", "all"}:
             print("[stats] 模型定口径 + 计算 + 解读")
             stage_stats(years, client, args.refresh, args.dry_run)
@@ -163,7 +173,7 @@ def main(argv: list[str] | None = None) -> int:
             stage_charts(client, args.refresh)
         if args.stage in {"parity", "all"}:
             print("[parity] 与规则管线核对")
-            stage_parity(client, args.refresh)
+            stage_parity(client, args.refresh, holdout)
     except OllamaError as exc:
         print(f"[错误] 模型调用失败：{exc}")
         return 2

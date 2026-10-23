@@ -1,0 +1,46 @@
+{
+  "stage": "pair_judge",
+  "model": "qwen3.5:4b",
+  "model_digest": "d8b0f5e9760cd168",
+  "prompt_version": "pair-judge-v1",
+  "input_hash": "8270d79c0566c31d577b3c9c1ca3d990",
+  "created_at": "2026-10-23T22:52:06",
+  "duration_s": 1.22,
+  "output_tokens": 100,
+  "fallback": false,
+  "error": "",
+  "manual_edit": false,
+  "reviewed": false,
+  "payload_summary": {
+    "unit": "frameworks.ml",
+    "n_pairs": 4
+  },
+  "response": {
+    "pairs": [
+      {
+        "id": "p1",
+        "same": true,
+        "canonical": "SciKit-Learn",
+        "reason": "同一框架，大小写差异"
+      },
+      {
+        "id": "p2",
+        "same": false,
+        "canonical": "",
+        "reason": "不同框架，SciPy 与 Scrapy"
+      },
+      {
+        "id": "p3",
+        "same": false,
+        "canonical": "",
+        "reason": "主框架与扩展库不同"
+      },
+      {
+        "id": "p4",
+        "same": true,
+        "canonical": "Other – Write In",
+        "reason": "后者为前者带说明的完整写法"
+      }
+    ]
+  }
+}

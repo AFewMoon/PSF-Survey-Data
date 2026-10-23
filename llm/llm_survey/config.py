@@ -81,13 +81,35 @@ MAX_DROP_ROW_SHARE = 0.60  # 删行不得超过 60%（防误删）
 MAX_CLUSTER_SIZE = 4  # 一次归并最多合并 4 种写法（超过多为误并）
 MAX_CLUSTER_SHARE = 0.50  # 一次归并不得吞并同组一半以上选项
 
+# ---------------------------------------------------------------- Few-shot 与封闭集
+# 留出年份：这些年份的人工映射不进提示词，只用于最终对账（公平比较）
+HOLDOUT_YEARS: set[int] = {
+    int(y) for y in os.environ.get("LLM_SURVEY_HOLDOUT", "2023,2024").replace(" ", "").split(",")
+    if y
+}
+FEWSHOT_PATH_EXAMPLES = 8     # 组路径映射范例条数（too many 会挤占 8k 上下文）
+FEWSHOT_VALUE_EXAMPLES = 6    # 取值写法范例条数
+PATH_CANDIDATE_MAX = 200      # 单批送入的封闭候选路径上限（超出按相似度剪枝）
+PAIR_SIM_THRESHOLD = 0.70     # difflib 相似度阈值：达到才生成候选对
+PAIR_BATCH_SIZE = 24          # 单次请求的候选对数量
+PAIR_TOKEN_MIN_SHARE = 0.50   # token 交集占短文本比例下限（防仅字符偶然相似）
+GROUP_SNAP_STRONG = 0.60      # 选项重合度 ≥ 该值：确定性对齐到人工标准路径
+GROUP_SNAP_WEAK = 0.40        # 介于强弱阈值之间：交给模型判定是否同题
+GROUP_SNAP_MARGIN = 0.10      # 第一与第二候选的差距低于该值即视为有歧义，交模型判定
+GROUP_NAME_SIM = 0.90         # 单选题按归一后名称相似度对齐的阈值
+GROUP_FP_JACCARD_MIN = 0.20   # 组映射前后取值指纹 Jaccard 下限，低于则拒绝合并
+GROUP_FP_MIN_ITEMS = 3        # 指纹条目少于此数时不据此否决（证据不足）
+YES_NO_SHARE_MAX = 0.60       # 源组取值 Yes/No 占比超过该值时，禁止映射到「版本」类路径
+
 # ---------------------------------------------------------------- 提示词版本
 # 修改任一提示词模板时必须同步升版本，否则缓存会复用旧决策
 PROMPT_VERSION: dict[str, str] = {
     "clean_semantics": "clean-semantics-v2",
     "clean_plan": "clean-plan-v1",
-    "group_path": "group-path-v1",
+    "group_path": "group-path-v3",
+    "group_pair": "group-pair-v1",
     "option_alias": "option-alias-v2",
+    "pair_judge": "pair-judge-v1",
     "stats_plan": "stats-plan-v1",
     "stats_narrative": "stats-narrative-v1",
     "chart_spec": "chart-spec-v1",

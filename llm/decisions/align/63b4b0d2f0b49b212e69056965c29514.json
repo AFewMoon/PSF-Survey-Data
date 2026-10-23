@@ -1,0 +1,70 @@
+{
+  "stage": "pair_judge",
+  "model": "qwen3.5:4b",
+  "model_digest": "d8b0f5e9760cd168",
+  "prompt_version": "pair-judge-v1",
+  "input_hash": "63b4b0d2f0b49b212e69056965c29514",
+  "created_at": "2026-10-23T22:52:01",
+  "duration_s": 1.99,
+  "output_tokens": 169,
+  "fallback": false,
+  "error": "",
+  "manual_edit": false,
+  "reviewed": false,
+  "payload_summary": {
+    "unit": "purposes.python.graphics",
+    "n_pairs": 8
+  },
+  "response": {
+    "pairs": [
+      {
+        "id": "p1",
+        "same": false,
+        "canonical": "",
+        "reason": "游戏与 Web 开发领域不同"
+      },
+      {
+        "id": "p2",
+        "same": false,
+        "canonical": "",
+        "reason": "游戏与移动开发领域不同"
+      },
+      {
+        "id": "p3",
+        "same": false,
+        "canonical": "",
+        "reason": "嵌入式与 Web 开发领域不同"
+      },
+      {
+        "id": "p4",
+        "same": false,
+        "canonical": "",
+        "reason": "移动与 Web 开发领域不同"
+      },
+      {
+        "id": "p5",
+        "same": false,
+        "canonical": "",
+        "reason": "桌面与 Web 开发领域不同"
+      },
+      {
+        "id": "p6",
+        "same": false,
+        "canonical": "",
+        "reason": "桌面与游戏开发领域不同"
+      },
+      {
+        "id": "p7",
+        "same": false,
+        "canonical": "",
+        "reason": "嵌入式与游戏开发领域不同"
+      },
+      {
+        "id": "p8",
+        "same": false,
+        "canonical": "",
+        "reason": "桌面与嵌入式开发领域不同"
+      }
+    ]
+  }
+}

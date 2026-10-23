@@ -1,0 +1,34 @@
+{
+  "stage": "pair_judge",
+  "model": "qwen3.5:4b",
+  "model_digest": "d8b0f5e9760cd168",
+  "prompt_version": "pair-judge-v1",
+  "input_hash": "57c605c28d4cc5b08e8abb7ba61bca83",
+  "created_at": "2026-10-23T22:52:51",
+  "duration_s": 0.79,
+  "output_tokens": 61,
+  "fallback": false,
+  "error": "",
+  "manual_edit": false,
+  "reviewed": false,
+  "payload_summary": {
+    "unit": "ide.main",
+    "n_pairs": 2
+  },
+  "response": {
+    "pairs": [
+      {
+        "id": "p1",
+        "same": true,
+        "canonical": "Eclipse + Pydev",
+        "reason": "PyDev 是 Pydev 的官方拼写"
+      },
+      {
+        "id": "p2",
+        "same": false,
+        "canonical": "",
+        "reason": "VS Code 与 Visual Studio Code 指向不同产品"
+      }
+    ]
+  }
+}

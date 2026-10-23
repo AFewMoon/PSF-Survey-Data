@@ -1,0 +1,21 @@
+{
+  "stage": "parity_note",
+  "model": "qwen3.5:4b",
+  "model_digest": "d8b0f5e9760cd168",
+  "prompt_version": "parity-note-v1",
+  "input_hash": "50e6ff975f8fe67bdaea3c6e600c80b6",
+  "created_at": "2026-10-23T22:59:21",
+  "duration_s": 2.27,
+  "output_tokens": 172,
+  "fallback": false,
+  "error": "",
+  "manual_edit": false,
+  "reviewed": false,
+  "payload_summary": {
+    "rule": 153,
+    "llm": 110
+  },
+  "response": {
+    "text": "两条管线在列集合上存在显著差异，规则管线多出 43 列涉及开发环境隔离细节，而 LLM 管线多出 5 列关于公司规模与语言版本的字段，导致整体 Jaccard 相似度仅为 66.5%。行数统计显示 2021 年和 2022 年存在微小差异，其余年份完全一致，表明数据源本身稳定但映射逻辑不同。同主题占比对比中，C/C++ 等核心语言数据高度吻合，差异主要源于命名粒度不一致及 LLM 对特定字段（如团队规模）的识别能力。鉴于规则管线在开发环境等具体场景下保留了更多原始分类信息，且核心统计指标一致，规则管线结果在细节覆盖上更可信。"
+  }
+}

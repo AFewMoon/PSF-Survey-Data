@@ -1,0 +1,70 @@
+{
+  "stage": "pair_judge",
+  "model": "qwen3.5:4b",
+  "model_digest": "d8b0f5e9760cd168",
+  "prompt_version": "pair-judge-v1",
+  "input_hash": "410ef92c5586b05057bcebd69a435090",
+  "created_at": "2026-10-23T22:34:14",
+  "duration_s": 2.29,
+  "output_tokens": 191,
+  "fallback": false,
+  "error": "",
+  "manual_edit": false,
+  "reviewed": false,
+  "payload_summary": {
+    "unit": "ide.tools.bigdata",
+    "n_pairs": 8
+  },
+  "response": {
+    "pairs": [
+      {
+        "id": "p1",
+        "same": false,
+        "canonical": "",
+        "reason": "Beam 与 Samza 是不同项目"
+      },
+      {
+        "id": "p2",
+        "same": false,
+        "canonical": "",
+        "reason": "Beam 与 Tez 是不同项目"
+      },
+      {
+        "id": "p3",
+        "same": false,
+        "canonical": "",
+        "reason": "Hive 与 Tez 是不同项目"
+      },
+      {
+        "id": "p4",
+        "same": false,
+        "canonical": "",
+        "reason": "Flink 与 Kafka 是不同项目"
+      },
+      {
+        "id": "p5",
+        "same": false,
+        "canonical": "",
+        "reason": "Kafka 与 Samza 是不同项目"
+      },
+      {
+        "id": "p6",
+        "same": false,
+        "canonical": "",
+        "reason": "Samza 与 Spark 是不同项目"
+      },
+      {
+        "id": "p7",
+        "same": false,
+        "canonical": "",
+        "reason": "Beam 与 Hive 是不同项目"
+      },
+      {
+        "id": "p8",
+        "same": false,
+        "canonical": "",
+        "reason": "Samza 与 Tez 是不同项目"
+      }
+    ]
+  }
+}

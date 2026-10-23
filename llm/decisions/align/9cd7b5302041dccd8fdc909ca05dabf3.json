@@ -1,0 +1,28 @@
+{
+  "stage": "pair_judge",
+  "model": "qwen3.5:4b",
+  "model_digest": "d8b0f5e9760cd168",
+  "prompt_version": "pair-judge-v1",
+  "input_hash": "9cd7b5302041dccd8fdc909ca05dabf3",
+  "created_at": "2026-10-23T22:52:40",
+  "duration_s": 0.47,
+  "output_tokens": 30,
+  "fallback": false,
+  "error": "",
+  "manual_edit": false,
+  "reviewed": false,
+  "payload_summary": {
+    "unit": "frameworks.support",
+    "n_pairs": 1
+  },
+  "response": {
+    "pairs": [
+      {
+        "id": "p1",
+        "same": false,
+        "canonical": "",
+        "reason": "Django 与 Django REST Framework 是不同框架"
+      }
+    ]
+  }
+}

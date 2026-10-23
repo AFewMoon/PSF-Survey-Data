@@ -13,7 +13,7 @@ ollama serve
 
 cd llm
 python run_llm_pipeline.py --stage ping           # 健康检查，打印模型名与 digest
-python run_llm_pipeline.py --stage selftest       # 离线自检（12 项，不调模型）
+python run_llm_pipeline.py --stage selftest       # 离线自检（17 项，不调模型）
 python run_llm_pipeline.py --stage all            # 全流程（命中缓存约 2.6 分钟）
 python run_llm_pipeline.py --stage clean --years 2023 2024
 python run_llm_pipeline.py --stage all --refresh  # 忽略缓存重算（约 30 分钟）
@@ -33,6 +33,7 @@ python run_llm_pipeline.py --stage clean --apply-review  # 执行已人工确认
 | `--batch-size` | 每批列数（默认 18，按字符预算二次切批） |
 | `--apply-review` | 执行 `decisions/review_approved.json` 中已确认的删列 |
 | `--rebuild-profile` | 强制重算列画像 |
+| `--holdout-years` | 留出年份（默认 `2023,2024`）：这些年的人工映射不进提示词，只用于对账 |
 
 ## 工作方式
 
@@ -45,8 +46,16 @@ python run_llm_pipeline.py --stage clean --apply-review  # 执行已人工确认
    binary / numeric / id / free_text / meta`）与清洗计划；算子白名单
    `keep/rename/binarize/to_numeric/normalize_cell/drop_empty_rows/drop_empty_cols/drop_dup_rows/drop_dup_cols/drop_col`，
    每条附理由。`drop_col` 一律进人工确认，不直接执行。
-3. **对齐**（`align_stage.py`）：三步——组路径统一 → 列名重命名（重名回退确定性归一，冲突列加
-   `__dup`）→ 单选取值统一；最后取各年列名**交集**纵向合并总表。
+3. **对齐**（`align_stage.py` + `fewshot.py`）：三步——组路径统一 → 列名重命名（重名回退确定性
+   归一，冲突列加 `__dup`）→ 单选取值统一；最后取各年列名**交集**纵向合并总表。
+   组路径与选项/取值统一都不再让模型「自由生成」，而是「证据 + 闭集 + 逐对判断」：
+   - **组路径**：选项重合度 ≥0.60 且明显领先第二候选 → 确定性对齐到人工词表；重合度中等或
+     前两名接近 → 逐对问模型「是否同一道题」；仍无定案 → 从封闭候选词表里选写法（缺省 `keep`）。
+   - **选项/取值**：`norm_key` 确定性合并在前，`difflib` + 缩写 + 词元包含生成候选对，模型逐对
+     做二元判断，再并查集聚簇（继承塌缩护栏），最后按人工词表统一写法。
+   - 护栏（`decision_schema.py`）：Yes/No 主导的组不得映射到版本类路径、`multi_level`（程度网格）
+     与 `multi_option`（勾选集合）不得合并、组取值指纹 Jaccard <0.2 拒绝合并、目标路径不得与本组
+     选项重复拼接（`python.version` + `most` → `python.version.most.most`）。
 4. **统计**（`stats_stage.py`）：模型给 `stats_plan`（主题→组前缀、Top-N、分母），Python 计算
    `stats/*.csv`，再逐主题请求解读，拼装 `reports/analysis_report.md`。
 5. **图表**（`chart_stage.py`）：模型给图表规格（类型/数据文件/标题/Top-N/理由），校验数据引用
@@ -64,7 +73,7 @@ python run_llm_pipeline.py --stage clean --apply-review  # 执行已人工确认
 llm/
 ├── run_llm_pipeline.py          # 唯一 CLI 入口
 ├── llm_survey/                  # 实现（config/textnorm/dataio/profiles/ollama_client/cache/
-│                                #  decision_schema/prompts/clean_stage/align_stage/
+│                                #  decision_schema/prompts/fewshot/clean_stage/align_stage/
 │                                #  stats_stage/chart_stage/parity/reporting/selftest）
 ├── decisions/                   # 模型决策缓存（profile/clean/align/stats/chart/parity）
 ├── cleaned/cleaned_llm_<year>.csv
@@ -111,28 +120,49 @@ llm/
 （54,462→37,793）；2021/2022/2023/2024 分别删重复行 438/302/377/271；多选题二值化
 218/227/356/344/417/492 列；六年均无待确认删列。
 
-**对齐**：164 个题目组，模型统一 21 个组路径、171 处列名重命名、9 个选项同义簇、16 个 `__dup`
-冲突列；跨年共有列 40，总表 185,586 行。
+**对齐**（`group-path-v3` / `group-pair-v1` / `pair-judge-v1`）：164 个题目组，统一 20 个组路径、
+305 处列名重命名、31 个选项同义簇、15 个 `__dup` 冲突列、**5,217 条取值统一记录**；跨年共有列
+**110**，总表 185,586 行。候选对 162（接受 34），按人工词表统一选项写法 78 处。
 
 **统计**：8 个主题、17 个统计 CSV、8 节模型解读。
 
 **图表**：10 张 PNG（6 张 2024 画像 + 4 张跨年趋势）。
 
-**一致性核对**：规则管线 153 列 / LLM 管线 40 列，归一后匹配 36 列（Jaccard 22.9%）；
-匹配列的非空率差异为 0 条，同主题占比差异 12 条且最大仅 0.1 pp —— 说明**同一列名下的执行结果与
-规则管线一致**，差异主要来自「哪些列被认定为同一题」以及行级去重口径（2021/2022 各差 23 行）。
+**一致性核对**（口径：留出年份 2023/2024 的人工映射未进入提示词）：规则管线 153 列 / LLM 管线
+110 列，归一后匹配 **105 列（Jaccard 66.5%，改造前 36 列 / 22.9%）**；匹配列的非空率差异 **0 条**，
+同主题占比差异 12 条且最大仅 0.1 pp —— 同一列名下的执行结果与规则管线一致，剩余差异集中在「哪些
+题目被认定为同一题」。
+
+## 改造前后对比（把「生成」换成「分类」）
+
+| 指标 | 改造前 | 改造后 | 规则管线 |
+|---|---|---|---|
+| 跨年共有列 | 40 | **110** | 153 |
+| 匹配列（Jaccard） | 36（22.9%） | **105（66.5%）** | — |
+| 取值统一记录 | 0 | **5,217** | 109,745 |
+| 组路径统一 | 21 | 20 | 382 处重命名 |
+| `__dup` 冲突列 | 9 | 15 | — |
+| 匹配列非空率差异 | 0 条 | 0 条 | — |
+| 对齐耗时（缓存后） | 2.6 分钟 | 2.7 分钟 | — |
+
+关键做法：把 4B 不可靠的**开放式生成**（自造路径、整组自由聚类）全部换成**封闭式分类**——
+候选由人工词表与数据证据给出，模型只回答「这两个是否同一事物」「选哪一个写法」，
+并且确定性可判的部分（`norm_key` 相等、选项重合度、题型一致）根本不问模型。
 
 ## 已知局限
 
-1. **选项级归并保守**：4B 模型在选项归并上频繁「整列塌缩」（把一列 24 个选项并成 1 个），被塌缩
-   护栏全部拒绝，因此 `value_mapping.csv` 本次为空；`alignment_report.md`「校验提示」列出了每条被拒
-   建议。宁可不合并，也不误合并。
-2. **组路径统一覆盖有限**：模型只对 21 个组路径做出高置信映射（如 `isolate.environments` →
-   `ide.isolate`），远少于规则管线内置的手工同义词表，故跨年共有列只有 40 列（规则管线 153 列）。
-3. **2019 年结构差异**：2019 表头是整句问句 + 网格题，模型给出的组名与 2020+ 并不总能对齐
-   （如 2019 的 `ide.editor.*` 与 2020 的 `ide.editor.*` 选项文本不同），进一步压缩了交集。
-4. **叙述类输出不稳定**：4B 在分节解读中偶有自相矛盾的表述（如「从 35.8% 上升至 30.9%」），
-   或把 `is.python.main`（是否以 Python 为主）当版本题解读；数值以 CSV 为准，文字仅作参考。
+1. **仍有 43 列差距，集中在「改名题」**：`develop.for.cloud.*`（6 列）、`orm.*`（5 列）、
+   `main.purposes` 等在部分年份叫 `run.in.cloud` / `ide.databases`，模型判为 `keep`。这类跨年改名
+   在证据带内要求「名称有共同词元」才交模型判定（否则会误并 `how.involved` 与 `other.purposes`），
+   故宁可漏并不误并。
+2. **选项写法依赖人工词表覆盖**：`vocab_options` 只覆盖非留出年份出现过的组，留出年份独有的选项
+   写法仍可能与规则管线不同（如 `environments.isolate.virtualenv`）。
+3. **2019 年结构差异**：2019 表头是整句问句 + 网格题，部分组的选项集合与 2020+ 同题不同（题型
+   由 `multi_level` 变 `multi_option`），题型冲突护栏会拒绝合并。
+4. **叙述类输出不稳定**：4B 在分节解读中偶有自相矛盾的表述（如「从 35.8% 上升至 30.9%」）；
+   数值以 CSV 为准，文字仅作参考。
 5. **统计计划有冗余**：模型给出的 8 个主题里 `preferred_language` 与 `programming_languages`
    都指向 `other.lang`，报告存在重复章节（保留模型原始计划，未做人工去重）。
 6. **只做元数据级决策**：所有判断基于列名与聚合统计，不逐行调用模型，因此无法发现行级异常值。
+7. **公平性口径**：词表与 few-shot 范例只取自 2019–2022，2023/2024 的人工映射仅用于对账；
+   若把留出年份也放进词表，共有列还会更高，但那不再是公平比较。

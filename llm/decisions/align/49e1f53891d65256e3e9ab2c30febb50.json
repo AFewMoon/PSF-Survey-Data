@@ -1,0 +1,267 @@
+{
+  "stage": "group_path",
+  "model": "qwen3.5:4b",
+  "model_digest": "d8b0f5e9760cd168",
+  "prompt_version": "group-path-v3",
+  "input_hash": "49e1f53891d65256e3e9ab2c30febb50",
+  "created_at": "2026-10-23T22:37:56",
+  "duration_s": 14.46,
+  "output_tokens": 1194,
+  "fallback": false,
+  "error": "",
+  "manual_edit": false,
+  "reviewed": false,
+  "payload_summary": {
+    "n_groups": 49,
+    "n_candidates": 187
+  },
+  "response": {
+    "groups": [
+      {
+        "name": "environments",
+        "canonical": "environments",
+        "reason": "候选中有完全匹配项，无需修改。"
+      },
+      {
+        "name": "environments.container",
+        "canonical": "environments.container",
+        "reason": "候选中有完全匹配项，无需修改。"
+      },
+      {
+        "name": "environments.isolate",
+        "canonical": "environments.isolate",
+        "reason": "候选中有完全匹配项，无需修改。"
+      },
+      {
+        "name": "experience.duration",
+        "canonical": "keep",
+        "reason": "候选中无对应语义项，保留原名。"
+      },
+      {
+        "name": "experiment.tools",
+        "canonical": "experiment.tools",
+        "reason": "候选中有完全匹配项，无需修改。"
+      },
+      {
+        "name": "exploration.tools",
+        "canonical": "exploration.tools",
+        "reason": "候选中有完全匹配项，无需修改。"
+      },
+      {
+        "name": "first.learn.about.main",
+        "canonical": "first.learn.about.main",
+        "reason": "候选中有完全匹配项，无需修改。"
+      },
+      {
+        "name": "first.learn.about.main.ide",
+        "canonical": "keep",
+        "reason": "候选中无对应语义项，保留原名。"
+      },
+      {
+        "name": "frameworks.cm",
+        "canonical": "frameworks.cm",
+        "reason": "候选中有完全匹配项，无需修改。"
+      },
+      {
+        "name": "frameworks.data",
+        "canonical": "frameworks.data",
+        "reason": "候选中有完全匹配项，无需修改。"
+      },
+      {
+        "name": "frameworks.ml",
+        "canonical": "frameworks.ml",
+        "reason": "候选中有完全匹配项，无需修改。"
+      },
+      {
+        "name": "frameworks.support",
+        "canonical": "frameworks.support",
+        "reason": "候选中有完全匹配项，无需修改。"
+      },
+      {
+        "name": "frameworks.web",
+        "canonical": "frameworks.web",
+        "reason": "候选中有完全匹配项，无需修改。"
+      },
+      {
+        "name": "gender",
+        "canonical": "keep",
+        "reason": "候选中无对应语义项，保留原名。"
+      },
+      {
+        "name": "how.involved",
+        "canonical": "keep",
+        "reason": "候选中无对应语义项，保留原名。"
+      },
+      {
+        "name": "how.involved.Multimedia applications development (apps handling various types of multimedia content, e.g. audio, graphics, etc",
+        "canonical": "keep",
+        "reason": "候选中无对应语义项，保留原名。"
+      },
+      {
+        "name": "how.involved.Other - Write In:",
+        "canonical": "keep",
+        "reason": "候选中无对应语义项，保留原名。"
+      },
+      {
+        "name": "how.involved.Other, please specify:",
+        "canonical": "keep",
+        "reason": "候选中无对应语义项，保留原名。"
+      },
+      {
+        "name": "how.involved.fixed",
+        "canonical": "keep",
+        "reason": "候选中无对应语义项，保留原名。"
+      },
+      {
+        "name": "how.often.use.main",
+        "canonical": "keep",
+        "reason": "候选中无对应语义项，保留原名。"
+      },
+      {
+        "name": "how.often.use.main.ide",
+        "canonical": "keep",
+        "reason": "候选中无对应语义项，保留原名。"
+      },
+      {
+        "name": "ide",
+        "canonical": "ide",
+        "reason": "候选中有完全匹配项，无需修改。"
+      },
+      {
+        "name": "ide.data_scientist",
+        "canonical": "keep",
+        "reason": "候选中无对应语义项，保留原名。"
+      },
+      {
+        "name": "ide.databases",
+        "canonical": "keep",
+        "reason": "候选中无对应语义项，保留原名。"
+      },
+      {
+        "name": "ide.editor",
+        "canonical": "ide.editor",
+        "reason": "候选中有完全匹配项，无需修改。"
+      },
+      {
+        "name": "ide.editor.features",
+        "canonical": "ide.editor.features",
+        "reason": "候选中有完全匹配项，无需修改。"
+      },
+      {
+        "name": "ide.editor.features.Run / debug or edit code on remote machines (remote hosts, VMs, etc",
+        "canonical": "keep",
+        "reason": "候选中无对应语义项，保留原名。"
+      },
+      {
+        "name": "ide.editor.features.Use NoSQL databases",
+        "canonical": "keep",
+        "reason": "候选中无对应语义项，保留原名。"
+      },
+      {
+        "name": "ide.editor.features.Use issue trackers",
+        "canonical": "keep",
+        "reason": "候选中无对应语义项，保留原名。"
+      },
+      {
+        "name": "ide.file.edit",
+        "canonical": "keep",
+        "reason": "候选中无对应语义项，保留原名。"
+      },
+      {
+        "name": "ide.history",
+        "canonical": "keep",
+        "reason": "候选中无对应语义项，保留原名。"
+      },
+      {
+        "name": "ide.isolate",
+        "canonical": "ide.isolate",
+        "reason": "候选中有完全匹配项，无需修改。"
+      },
+      {
+        "name": "ide.main",
+        "canonical": "keep",
+        "reason": "候选中无对应语义项，保留原名。"
+      },
+      {
+        "name": "ide.os",
+        "canonical": "keep",
+        "reason": "候选中无对应语义项，保留原名。"
+      },
+      {
+        "name": "ide.other",
+        "canonical": "keep",
+        "reason": "候选中无对应语义项，保留原名。"
+      },
+      {
+        "name": "ide.python2_version",
+        "canonical": "keep",
+        "reason": "候选中无对应语义项，保留原名。"
+      },
+      {
+        "name": "ide.python3_version",
+        "canonical": "keep",
+        "reason": "候选中无对应语义项，保留原名。"
+      },
+      {
+        "name": "ide.python_use",
+        "canonical": "keep",
+        "reason": "候选中无对应语义项，保留原名。"
+      },
+      {
+        "name": "ide.python_version",
+        "canonical": "keep",
+        "reason": "候选中无对应语义项，保留原名。"
+      },
+      {
+        "name": "ide.tools.bigdata",
+        "canonical": "ide.tools.bigdata",
+        "reason": "候选中有完全匹配项，无需修改。"
+      },
+      {
+        "name": "ide.tools.ci",
+        "canonical": "ide.tools.ci",
+        "reason": "候选中有完全匹配项，无需修改。"
+      },
+      {
+        "name": "ide.upgrade",
+        "canonical": "keep",
+        "reason": "候选中无对应语义项，保留原名。"
+      },
+      {
+        "name": "industry.company",
+        "canonical": "keep",
+        "reason": "候选中无对应语义项，保留原名。"
+      },
+      {
+        "name": "industry.development",
+        "canonical": "keep",
+        "reason": "候选中无对应语义项，保留原名。"
+      },
+      {
+        "name": "is.python.main",
+        "canonical": "keep",
+        "reason": "候选中无对应语义项，保留原名。"
+      },
+      {
+        "name": "isolate.environments",
+        "canonical": "keep",
+        "reason": "候选中无对应语义项，保留原名。"
+      },
+      {
+        "name": "issue",
+        "canonical": "keep",
+        "reason": "候选中无对应语义项，保留原名。"
+      },
+      {
+        "name": "issue.report",
+        "canonical": "keep",
+        "reason": "候选中无对应语义项，保留原名。"
+      },
+      {
+        "name": "job",
+        "canonical": "keep",
+        "reason": "候选中无对应语义项，保留原名。"
+      }
+    ]
+  }
+}

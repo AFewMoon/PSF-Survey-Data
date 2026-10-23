@@ -1,0 +1,222 @@
+{
+  "stage": "group_path",
+  "model": "qwen3.5:4b",
+  "model_digest": "d8b0f5e9760cd168",
+  "prompt_version": "group-path-v3",
+  "input_hash": "6174caf4a6959230bb26f93fbb80189a",
+  "created_at": "2026-10-23T22:46:44",
+  "duration_s": 12.67,
+  "output_tokens": 1092,
+  "fallback": false,
+  "error": "",
+  "manual_edit": false,
+  "reviewed": false,
+  "payload_summary": {
+    "n_groups": 40,
+    "n_candidates": 84
+  },
+  "response": {
+    "groups": [
+      {
+        "name": "ai.tools.coding",
+        "canonical": "keep",
+        "reason": "候选清单无 AI 工具相关项"
+      },
+      {
+        "name": "app.do",
+        "canonical": "keep",
+        "reason": "候选清单无 app.do 相关项"
+      },
+      {
+        "name": "app.publish",
+        "canonical": "app.publish.where",
+        "reason": "语义匹配，发布地点"
+      },
+      {
+        "name": "are.you",
+        "canonical": "are.you.datascientist",
+        "reason": "语义匹配，数据科学家身份"
+      },
+      {
+        "name": "bi.solutions",
+        "canonical": "keep",
+        "reason": "候选清单无 BI 解决方案相关项"
+      },
+      {
+        "name": "bigdata.solution",
+        "canonical": "bigdata",
+        "reason": "语义匹配，大数据解决方案即大数据"
+      },
+      {
+        "name": "bigdata.work",
+        "canonical": "bigdata",
+        "reason": "语义匹配，大数据工作即大数据"
+      },
+      {
+        "name": "binary.modules.creation",
+        "canonical": "keep",
+        "reason": "候选清单无二进制模块创建相关项"
+      },
+      {
+        "name": "binary.modules.language",
+        "canonical": "other.lang",
+        "reason": "语义匹配，编程语言即其他语言"
+      },
+      {
+        "name": "collaborative",
+        "canonical": "keep",
+        "reason": "候选清单无协作相关项，且 sample 仅为 development"
+      },
+      {
+        "name": "collaborative.development",
+        "canonical": "keep",
+        "reason": "候选清单无协作开发相关项"
+      },
+      {
+        "name": "company.develop",
+        "canonical": "company.develop.for",
+        "reason": "语义匹配，为公司开发即为公司开发 for"
+      },
+      {
+        "name": "company.industry",
+        "canonical": "keep",
+        "reason": "候选清单无公司行业相关项，且 sample 为空"
+      },
+      {
+        "name": "dashboard.creation",
+        "canonical": "keep",
+        "reason": "候选清单无仪表盘创建相关项"
+      },
+      {
+        "name": "dashboard.libraries",
+        "canonical": "keep",
+        "reason": "候选清单无仪表盘库相关项，虽含 Gradio 等但无对应 canonical"
+      },
+      {
+        "name": "data.exploration",
+        "canonical": "keep",
+        "reason": "候选清单无数据探索相关项"
+      },
+      {
+        "name": "demographics.age",
+        "canonical": "could_you_tell_us_your_age_range",
+        "reason": "语义匹配，人口统计年龄即询问年龄范围"
+      },
+      {
+        "name": "demographics.country",
+        "canonical": "what_country_do_you_live_in",
+        "reason": "语义匹配，人口统计国家即居住国家"
+      },
+      {
+        "name": "dependency",
+        "canonical": "dependency.version",
+        "reason": "语义匹配，依赖项即依赖版本（sample 为 version）"
+      },
+      {
+        "name": "deployment.tools",
+        "canonical": "keep",
+        "reason": "候选清单无部署工具相关项，虽含 Sagemaker 等但无对应 canonical"
+      },
+      {
+        "name": "documentation.tool.Other language, please specify",
+        "canonical": "keep",
+        "reason": "候选清单无文档工具其他语言相关项，且 sample 为空"
+      },
+      {
+        "name": "documentation.tool.Other systems, please specify",
+        "canonical": "keep",
+        "reason": "候选清单无文档工具其他系统相关项，且 sample 为空"
+      },
+      {
+        "name": "employment",
+        "canonical": "employment.status",
+        "reason": "语义匹配，就业即就业状态（sample 为 status）"
+      },
+      {
+        "name": "environments",
+        "canonical": "environments.container",
+        "reason": "语义匹配，环境即容器环境（sample 为 container）"
+      },
+      {
+        "name": "experience.duration",
+        "canonical": "keep",
+        "reason": "候选清单无经验时长相关项，且 sample 为空"
+      },
+      {
+        "name": "experiment.tools",
+        "canonical": "keep",
+        "reason": "候选清单无实验工具相关项，虽含 MLFlow 等但无对应 canonical"
+      },
+      {
+        "name": "exploration.tools",
+        "canonical": "keep",
+        "reason": "候选清单无探索工具相关项，虽含 Airflow 等但无对应 canonical"
+      },
+      {
+        "name": "first.learn.about.main",
+        "canonical": "keep",
+        "reason": "候选清单无首次学习主 IDE 相关项，且 sample 仅为 ide"
+      },
+      {
+        "name": "first.learn.about.main.ide",
+        "canonical": "keep",
+        "reason": "候选清单无首次学习主 IDE 相关项，且 sample 为空"
+      },
+      {
+        "name": "frameworks.support",
+        "canonical": "other.frameworks",
+        "reason": "语义匹配，框架支持即其他框架（sample 含 Django 等）"
+      },
+      {
+        "name": "how.involved.Multimedia applications development...",
+        "canonical": "keep",
+        "reason": "候选清单无多媒体应用开发相关项，且 sample 仅为括号"
+      },
+      {
+        "name": "how.involved.Other - Write In:",
+        "canonical": "keep",
+        "reason": "候选清单无其他填写相关项，且 sample 为空"
+      },
+      {
+        "name": "how.involved.Other, please specify:",
+        "canonical": "keep",
+        "reason": "候选清单无其他填写相关项，且 sample 为空"
+      },
+      {
+        "name": "how.often.use.main",
+        "canonical": "how_often_do_you_use_your_primary_ide",
+        "reason": "语义匹配，使用主 IDE 频率即使用主 IDE 频率"
+      },
+      {
+        "name": "how.often.use.main.ide",
+        "canonical": "how_often_do_you_use_your_primary_ide",
+        "reason": "语义匹配，使用主 IDE 频率即使用主 IDE 频率"
+      },
+      {
+        "name": "ide",
+        "canonical": "ide.main",
+        "reason": "语义匹配，IDE 即主 IDE（sample 为 main）"
+      },
+      {
+        "name": "ide.data_scientist",
+        "canonical": "keep",
+        "reason": "候选清单无 IDE 数据科学家相关项，且 sample 为空"
+      },
+      {
+        "name": "ide.editor.features.Run / debug...",
+        "canonical": "keep",
+        "reason": "候选清单无 IDE 编辑器运行调试相关项，且 sample 仅为括号"
+      },
+      {
+        "name": "ide.editor.features.Use NoSQL databases",
+        "canonical": "keep",
+        "reason": "候选清单无 IDE 编辑器 NoSQL 数据库相关项，且 sample 为空"
+      },
+      {
+        "name": "ide.editor.features.Use issue trackers",
+        "canonical": "keep",
+        "reason": "候选清单无 IDE 编辑器问题追踪器相关项，且 sample 为空"
+      }
+    ]
+  }
+}

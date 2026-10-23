@@ -166,6 +166,146 @@ def _test_evidence_rules() -> None:
                2019)["kind"] == "multi_option"
 
 
+def _test_fewshot_isolation() -> None:
+    from . import fewshot
+    bundle = fewshot.load_manual_mappings({2023, 2024})
+    assert bundle.path_vocab, "应能从非留出年份构建候选词表"
+    assert not (set(bundle.years_used) & {2023, 2024}), "留出年份不得进入 few-shot"
+    assert any("留出年份" in note for note in bundle.notes), "报告需标注留出口径"
+    candidates = fewshot.build_path_candidates(bundle, ["model.group"])
+    assert "model.group" in candidates, "模型自身组名必须留在候选集内"
+
+
+def _test_candidate_pairs() -> None:
+    from . import fewshot
+    pairs = fewshot.candidate_pairs(
+        ["VS Code", "Visual Studio Code", "PyCharm", "PyCharm Professional",
+         "Python 2", "Python 3", "Less than 1 year", "< 1 year"]
+    )
+    assert ("VS Code", "Visual Studio Code") in pairs or (
+        "Visual Studio Code", "VS Code") in pairs, "缩写必须被召回"
+    assert ("PyCharm", "PyCharm Professional") not in pairs, "不同版本层级不得成为候选"
+    assert ("Python 2", "Python 3") not in pairs, "数字不同不得成为候选"
+    assert any("1 year" in a or "1 year" in b for a, b in pairs), "包含关系应被召回"
+
+
+def _test_closed_group_validation() -> None:
+    candidates = ["is.python.main", "ide.python_version", "ide.editor"]
+    fingerprints = {
+        "is.python.main": {"values": ["yes", "no"], "yesno_share": 0.95,
+                           "kinds": ["single_choice"]},
+        "ide.python_version": {"values": ["37", "38", "39"], "yesno_share": 0.0,
+                               "kinds": ["single_choice"]},
+        "env.a": {"values": ["docker", "conda", "venv"], "yesno_share": 0.0,
+                  "kinds": ["multi_option"]},
+        "ide.editor": {"values": ["vscode", "pycharm", "vim"], "yesno_share": 0.0,
+                       "kinds": ["multi_option"]},
+    }
+    response = {"groups": [
+        {"name": "is.python.main", "canonical": "ide.python_version"},
+        {"name": "env.a", "canonical": "ide.editor"},
+        {"name": "ide.editor", "canonical": "made.up.path"},
+    ]}
+    mapping, problems = decision_schema.validate_group_map_closed(
+        response, ["is.python.main", "env.a", "ide.editor"], candidates, fingerprints
+    )
+    assert mapping["is.python.main"] == "is.python.main", "Yes/No 组不得映射到版本类路径"
+    assert mapping["env.a"] == "env.a", "取值指纹不重合不得合并"
+    assert mapping["ide.editor"] == "ide.editor", "越界 canonical 必须回退原名"
+    assert len(problems) == 3
+
+
+def _test_group_snap() -> None:
+    from . import fewshot
+    bundle = fewshot.FewShotBundle(
+        path_vocab=("data.frameworks", "ide.editor", "is.python.main"),
+        vocab_options={
+            "data.frameworks": ("django", "flask", "fastapi", "numpy"),
+            "ide.editor": ("vs code", "pycharm", "vim"),
+        },
+    )
+    inventory = {
+        # 选项重合 3/5 = 0.60 → 证据充分，直接对齐，不问模型
+        "frameworks.data": {"years": {2020}, "options": {"Django", "Flask", "FastAPI", "pandas"}},
+        # 选项重合 2/5 = 0.40 → 落在 [WEAK, STRONG) 区间，交模型判定
+        "ide.isolate": {"years": {2020},
+                        "options": {"VS Code", "PyCharm", "Docker", "Jupyter"}},
+        # 名称归一后命中词表 → 直接对齐
+        "is.python.main": {"years": {2021}, "options": set()},
+        # 与任何候选都不像 → 保留原名
+        "zzz.unknown": {"years": {2022}, "options": set()},
+    }
+    snapped, ambiguous = fewshot.match_groups(inventory, bundle)
+    assert snapped["frameworks.data"] == "data.frameworks", "高重合度必须确定性对齐"
+    assert snapped["is.python.main"] == "is.python.main", "名称命中词表不得改名"
+    assert snapped["zzz.unknown"] == "zzz.unknown", "无证据必须保留原名"
+    assert ("ide.isolate", "ide.editor") in ambiguous, "中等证据应进模型判定队列"
+
+    # 兜底护栏：快对齐/命名之后整体再过一遍取值指纹
+    mapping = {
+        "is.python.main": "ide.python_version",
+        "data.frameworks": "frameworks.data",
+        "ide.editor": "ide.editor",
+    }
+    fingerprints = {
+        "is.python.main": {"values": ["yes", "no"], "yesno_share": 0.92,
+                           "kinds": ["single_choice"]},
+        "ide.python_version": {"values": ["37", "38"], "yesno_share": 0.0,
+                               "kinds": ["single_choice"]},
+        "data.frameworks": {"values": ["django", "flask"], "yesno_share": 0.0,
+                            "kinds": ["multi_option"]},
+        "frameworks.data": {"values": ["django", "flask", "numpy"], "yesno_share": 0.0,
+                            "kinds": ["multi_option"]},
+    }
+    final, guard_problems = decision_schema.guard_group_mapping(mapping, fingerprints)
+    assert final["is.python.main"] == "is.python.main", "Yes/No 组不得改道到版本题"
+    assert final["data.frameworks"] == "frameworks.data", "同题指纹相近必须放行"
+    assert guard_problems
+
+    # 题型冲突：multi_level（程度网格）与 multi_option（勾选集合）选项清单相同也不能合并
+    level_fps = {
+        "computer.graphics": {"values": ["academic research", "hobby"], "yesno_share": 0.0,
+                              "kinds": ["multi_level"]},
+        "other.purposes": {"values": ["academic research", "hobby"], "yesno_share": 0.0,
+                          "kinds": ["multi_option"]},
+    }
+    merged, kind_problems = decision_schema.guard_group_mapping(
+        {"computer.graphics": "other.purposes"}, level_fps)
+    assert merged["computer.graphics"] == "computer.graphics", "题型冲突必须拒绝合并"
+    assert kind_problems
+
+    # 结构兼容：组名 + 选项拼接后不得重复（python.version + most → python.version.most.most）
+    assert not fewshot.compatible_target("python.version", ("most",), "python.version.most")
+    assert not fewshot.compatible_target("company.develop", ("for",), "company.develop.for")
+    assert fewshot.compatible_target("frameworks.data", ("Django", "Flask"), "frameworks")
+    assert fewshot.compatible_target("ide.isolate", ("Docker", "conda"), "environments.isolate")
+
+
+def _test_pair_judgment() -> None:
+    pairs = [
+        {"id": "p1", "group": "ide", "a": "VS Code", "b": "Visual Studio Code"},
+        {"id": "p2", "group": "ide", "a": "PyCharm", "b": "PyCharm Professional"},
+    ]
+    response = {"pairs": [
+        {"id": "p1", "same": True, "canonical": "Visual Studio Code"},
+        {"id": "p2", "same": True, "canonical": "PyCharm Professional Edition"},
+    ]}
+    accepted, problems = decision_schema.validate_pair_judgments(response, pairs)
+    assert len(accepted) == 1, "canonical 不取自该对时必须忽略"
+    assert problems
+    mapping, probs = decision_schema.clusters_from_pairs(
+        accepted, ["VS Code", "Visual Studio Code", "PyCharm"], "ide")
+    assert mapping[norm_key("VS Code")] == "Visual Studio Code"
+    assert not probs
+
+    chain = [{"group": "g", "a": f"v{i}", "b": f"v{i + 1}", "canonical": f"v{i}"}
+             for i in range(4)]
+    collapsed, collapse_problems = decision_schema.clusters_from_pairs(
+        chain, [f"v{i}" for i in range(5)], "g")
+    assert not collapsed, "超过簇上限的归并必须拒绝"
+    assert collapse_problems
+
+
 def _test_option_from_header() -> None:
     from .textnorm import option_from_header
     assert option_from_header("Bash / Shell:What other language(s) do you use?") == "Bash / Shell"
@@ -180,7 +320,12 @@ TESTS: list[tuple[str, Callable[[], None]]] = [
     ("文本归一", _test_textnorm),
     ("语义校验", _test_semantics_validation),
     ("清洗计划白名单与阈值", _test_clean_plan),
-    ("选项聚类校验", _test_cluster),
+    ("选项聚类校验（备用路径）", _test_cluster),
+    ("few-shot 留出年份隔离", _test_fewshot_isolation),
+    ("候选对召回规则", _test_candidate_pairs),
+    ("封闭集组映射校验", _test_closed_group_validation),
+    ("组路径证据快对齐与指纹兜底", _test_group_snap),
+    ("逐对判断与聚簇护栏", _test_pair_judgment),
     ("统计计划校验", _test_stats_plan),
     ("图表规格校验", _test_chart_specs),
     ("统计分母口径", _test_group_stats),

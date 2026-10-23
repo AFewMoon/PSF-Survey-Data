@@ -5,9 +5,9 @@
       "group": "response_id",
       "option": ""
     },
-    "ide.python_version": {
+    "is.python.main": {
       "kind": "single_choice",
-      "group": "ide.python_version",
+      "group": "is.python.main",
       "option": ""
     },
     "other.lang.Bash / Shell": {
@@ -18,12 +18,12 @@
     "other.lang.C/C++": {
       "kind": "multi_option",
       "group": "other.lang",
-      "option": "C++"
+      "option": "C/C++"
     },
     "other.lang.C#": {
       "kind": "multi_option",
       "group": "other.lang",
-      "option": "C++"
+      "option": "C#"
     },
     "other.lang.Clojure": {
       "kind": "multi_option",
@@ -78,7 +78,7 @@
     "other.lang.Other - Write In": {
       "kind": "free_text",
       "group": "other.lang",
-      "option": "Other"
+      "option": "Other - Write In"
     },
     "other.lang.Perl": {
       "kind": "multi_option",
@@ -200,9 +200,9 @@
       "group": "purposes.python.graphics",
       "option": "Network programming"
     },
-    "other.write.in.Other - Write In": {
+    "other.-.write.in.Other - Write In": {
       "kind": "free_text",
-      "group": "other.write.in",
+      "group": "other.-.write.in",
       "option": "Other - Write In"
     },
     "purposes.python.graphics.Programming of web parsers / scrapers / crawlers": {
@@ -305,9 +305,9 @@
       "group": "computer.graphics",
       "option": "Web development"
     },
-    "ide.python_version__dup1": {
+    "ide.python_use": {
       "kind": "single_choice",
-      "group": "ide.python_version",
+      "group": "ide.python_use",
       "option": ""
     },
     "ide.data_scientist": {
@@ -315,164 +315,164 @@
       "group": "ide.data_scientist",
       "option": ""
     },
-    "ide.python_version__dup2": {
+    "ide.python_version": {
       "kind": "single_choice",
       "group": "ide.python_version",
       "option": ""
     },
-    "ide.python_version__dup3": {
+    "python2.version.most": {
       "kind": "single_choice",
-      "group": "ide.python_version",
+      "group": "python2.version.most",
       "option": ""
     },
-    "ide.python_version__dup4": {
+    "python3.version.most": {
       "kind": "single_choice",
-      "group": "ide.python_version",
+      "group": "python3.version.most",
       "option": ""
     },
-    "ide.upgrade.ActivePython": {
+    "python.version.upgrade.ActivePython": {
       "kind": "multi_option",
-      "group": "ide.upgrade",
+      "group": "python.version.upgrade",
       "option": "ActivePython"
     },
-    "ide.upgrade.Anaconda": {
+    "python.version.upgrade.Anaconda": {
       "kind": "multi_option",
-      "group": "ide.upgrade",
+      "group": "python.version.upgrade",
       "option": "Anaconda"
     },
-    "ide.upgrade.Automatic upgrade via cloud provider": {
+    "python.version.upgrade.Automatic upgrade via cloud provider": {
       "kind": "multi_option",
-      "group": "ide.upgrade",
+      "group": "python.version.upgrade",
       "option": "Automatic upgrade via cloud provider"
     },
-    "ide.upgrade.Build from source": {
+    "python.version.upgrade.Build from source": {
       "kind": "multi_option",
-      "group": "ide.upgrade",
+      "group": "python.version.upgrade",
       "option": "Build from source"
     },
-    "ide.upgrade.Enthought": {
+    "python.version.upgrade.Enthought": {
       "kind": "multi_option",
-      "group": "ide.upgrade",
+      "group": "python.version.upgrade",
       "option": "Enthought"
     },
-    "ide.upgrade.I don't update": {
+    "python.version.upgrade.I don't update": {
       "kind": "multi_option",
-      "group": "ide.upgrade",
+      "group": "python.version.upgrade",
       "option": "I don't update"
     },
-    "ide.upgrade.I use Docker containers": {
+    "python.version.upgrade.I use Docker containers": {
       "kind": "multi_option",
-      "group": "ide.upgrade",
+      "group": "python.version.upgrade",
       "option": "I use Docker containers"
     },
-    "ide.upgrade.Intel Distribution for Python": {
+    "python.version.upgrade.Intel Distribution for Python": {
       "kind": "multi_option",
-      "group": "ide.upgrade",
+      "group": "python.version.upgrade",
       "option": "Intel Distribution for Python"
     },
-    "ide.upgrade.OS-provided Python": {
+    "python.version.upgrade.OS-provided Python": {
       "kind": "multi_option",
-      "group": "ide.upgrade",
+      "group": "python.version.upgrade",
       "option": "OS-provided Python"
     },
-    "ide.upgrade.Other - Write In": {
+    "python.version.upgrade.Other - Write In": {
       "kind": "free_text",
-      "group": "ide.upgrade",
+      "group": "python.version.upgrade",
       "option": "Other - Write In"
     },
-    "ide.upgrade.pyenv": {
+    "python.version.upgrade.pyenv": {
       "kind": "multi_option",
-      "group": "ide.upgrade",
+      "group": "python.version.upgrade",
       "option": "pyenv"
     },
-    "ide.upgrade.Python.org": {
+    "python.version.upgrade.Python.org": {
       "kind": "multi_option",
-      "group": "ide.upgrade",
-      "option": "Python.org"
+      "group": "python.version.upgrade",
+      "option": "Python_org"
     },
-    "ide.upgrade.pythonz": {
+    "python.version.upgrade.pythonz": {
       "kind": "multi_option",
-      "group": "ide.upgrade",
+      "group": "python.version.upgrade",
       "option": "pythonz"
     },
-    "ide.upgrade.Somebody else manages Python updates for me": {
+    "python.version.upgrade.Somebody else manages Python updates for me": {
       "kind": "multi_option",
-      "group": "ide.upgrade",
+      "group": "python.version.upgrade",
       "option": "Somebody else manages Python updates for me"
     },
-    "ide.isolate.Conda": {
+    "environments.isolate.Conda": {
       "kind": "multi_option",
-      "group": "ide.isolate",
+      "group": "environments.isolate",
       "option": "Conda"
     },
-    "ide.isolate.Docker": {
+    "environments.isolate.Docker": {
       "kind": "multi_option",
-      "group": "ide.isolate",
+      "group": "environments.isolate",
       "option": "Docker"
     },
-    "ide.isolate.None": {
+    "environments.isolate.None": {
       "kind": "multi_option",
-      "group": "ide.isolate",
+      "group": "environments.isolate",
       "option": "None"
     },
-    "ide.isolate.Other - Write In": {
+    "environments.isolate.Other - Write In": {
       "kind": "free_text",
-      "group": "ide.isolate",
+      "group": "environments.isolate",
       "option": "Other - Write In"
     },
-    "ide.isolate.Pipenv": {
+    "environments.isolate.Pipenv": {
       "kind": "multi_option",
-      "group": "ide.isolate",
+      "group": "environments.isolate",
       "option": "Pipenv"
     },
-    "ide.isolate.Poetry": {
+    "environments.isolate.Poetry": {
       "kind": "multi_option",
-      "group": "ide.isolate",
+      "group": "environments.isolate",
       "option": "Poetry"
     },
-    "ide.isolate.Vagrant / virtual machines": {
+    "environments.isolate.Vagrant / virtual machines": {
       "kind": "multi_option",
-      "group": "ide.isolate",
+      "group": "environments.isolate",
       "option": "Vagrant / virtual machines"
     },
-    "ide.isolate.Virtualenv": {
+    "environments.isolate.Virtualenv": {
       "kind": "multi_option",
-      "group": "ide.isolate",
-      "option": "Virtualenv"
+      "group": "environments.isolate",
+      "option": "virtualenv"
     },
-    "frameworks.web.Bottle": {
+    "web.frameworks.Bottle": {
       "kind": "multi_option",
-      "group": "frameworks.web",
+      "group": "web.frameworks",
       "option": "Bottle"
     },
-    "frameworks.web.CherryPy": {
+    "web.frameworks.CherryPy": {
       "kind": "multi_option",
-      "group": "frameworks.web",
+      "group": "web.frameworks",
       "option": "CherryPy"
     },
-    "frameworks.web.Django": {
+    "web.frameworks.Django": {
       "kind": "multi_option",
-      "group": "frameworks.web",
+      "group": "web.frameworks",
       "option": "Django"
     },
-    "frameworks.web.Falcon": {
+    "web.frameworks.Falcon": {
       "kind": "multi_option",
-      "group": "frameworks.web",
+      "group": "web.frameworks",
       "option": "Falcon"
     },
-    "frameworks.web.Flask": {
+    "web.frameworks.Flask": {
       "kind": "multi_option",
-      "group": "frameworks.web",
+      "group": "web.frameworks",
       "option": "Flask"
     },
-    "frameworks.web.Hug": {
+    "web.frameworks.Hug": {
       "kind": "multi_option",
-      "group": "frameworks.web",
+      "group": "web.frameworks",
       "option": "Hug"
     },
-    "frameworks.web.None": {
+    "web.frameworks.None": {
       "kind": "multi_option",
-      "group": "frameworks.web",
+      "group": "web.frameworks",
       "option": "None"
     },
     "other.write.in.what.web.frameworks.libraries.do.you.use.in.addition.to.python.Other - Write In": {
@@ -480,99 +480,99 @@
       "group": "other.write.in.what.web.frameworks.libraries.do.you.use.in.addition.to.python",
       "option": "Other - Write In"
     },
-    "frameworks.web.Pyramid": {
+    "web.frameworks.Pyramid": {
       "kind": "multi_option",
-      "group": "frameworks.web",
+      "group": "web.frameworks",
       "option": "Pyramid"
     },
-    "frameworks.web.Tornado": {
+    "web.frameworks.Tornado": {
       "kind": "multi_option",
-      "group": "frameworks.web",
+      "group": "web.frameworks",
       "option": "Tornado"
     },
-    "frameworks.web.TurboGears": {
+    "web.frameworks.TurboGears": {
       "kind": "multi_option",
-      "group": "frameworks.web",
+      "group": "web.frameworks",
       "option": "TurboGears"
     },
-    "frameworks.web.web2py": {
+    "web.frameworks.web2py": {
       "kind": "multi_option",
-      "group": "frameworks.web",
+      "group": "web.frameworks",
       "option": "web2py"
     },
-    "frameworks.data.Gensim": {
+    "frameworks.Gensim": {
       "kind": "multi_option",
-      "group": "frameworks.data",
+      "group": "frameworks",
       "option": "Gensim"
     },
-    "frameworks.data.Keras": {
+    "frameworks.Keras": {
       "kind": "multi_option",
-      "group": "frameworks.data",
+      "group": "frameworks",
       "option": "Keras"
     },
-    "frameworks.data.Matplotlib": {
+    "frameworks.Matplotlib": {
       "kind": "multi_option",
-      "group": "frameworks.data",
+      "group": "frameworks",
       "option": "Matplotlib"
     },
-    "frameworks.data.MXNet": {
+    "frameworks.MXNet": {
       "kind": "multi_option",
-      "group": "frameworks.data",
+      "group": "frameworks",
       "option": "MXNet"
     },
-    "frameworks.data.NLTK": {
+    "frameworks.NLTK": {
       "kind": "multi_option",
-      "group": "frameworks.data",
+      "group": "frameworks",
       "option": "NLTK"
     },
-    "frameworks.data.None": {
+    "frameworks.None": {
       "kind": "multi_option",
-      "group": "frameworks.data",
+      "group": "frameworks",
       "option": "None"
     },
-    "frameworks.data.NumPy": {
+    "frameworks.NumPy": {
       "kind": "multi_option",
-      "group": "frameworks.data",
+      "group": "frameworks",
       "option": "NumPy"
     },
-    "other.write.in.what.data.science.frameworks.do.you.use.in.addition.to.python.Other - Write In": {
+    "other.-.write.in.what.data.science.framework.s.do.you.use.in.addition.to.python.Other - Write In": {
       "kind": "free_text",
-      "group": "other.write.in.what.data.science.frameworks.do.you.use.in.addition.to.python",
+      "group": "other.-.write.in.what.data.science.framework.s.do.you.use.in.addition.to.python",
       "option": "Other - Write In"
     },
-    "frameworks.data.Pandas": {
+    "frameworks.Pandas": {
       "kind": "multi_option",
-      "group": "frameworks.data",
+      "group": "frameworks",
       "option": "Pandas"
     },
-    "frameworks.data.PyTorch": {
+    "frameworks.PyTorch": {
       "kind": "multi_option",
-      "group": "frameworks.data",
+      "group": "frameworks",
       "option": "PyTorch"
     },
-    "frameworks.data.SciKit-Learn": {
+    "frameworks.SciKit-Learn": {
       "kind": "multi_option",
-      "group": "frameworks.data",
+      "group": "frameworks",
       "option": "SciKit-Learn"
     },
-    "frameworks.data.SciPy": {
+    "frameworks.SciPy": {
       "kind": "multi_option",
-      "group": "frameworks.data",
+      "group": "frameworks",
       "option": "SciPy"
     },
-    "frameworks.data.Seaborn": {
+    "frameworks.Seaborn": {
       "kind": "multi_option",
-      "group": "frameworks.data",
+      "group": "frameworks",
       "option": "Seaborn"
     },
-    "frameworks.data.TensorFlow": {
+    "frameworks.TensorFlow": {
       "kind": "multi_option",
-      "group": "frameworks.data",
+      "group": "frameworks",
       "option": "TensorFlow"
     },
-    "frameworks.data.Theano": {
+    "frameworks.Theano": {
       "kind": "multi_option",
-      "group": "frameworks.data",
+      "group": "frameworks",
       "option": "Theano"
     },
     "frameworks.ml.aiohttp": {
@@ -650,64 +650,64 @@
       "group": "frameworks.ml",
       "option": "wxPython"
     },
-    "cloud.platforms.AWS": {
+    "cloud.platform.AWS": {
       "kind": "multi_option",
-      "group": "cloud.platforms",
+      "group": "cloud.platform",
       "option": "AWS"
     },
-    "cloud.platforms.DigitalOcean": {
+    "cloud.platform.DigitalOcean": {
       "kind": "multi_option",
-      "group": "cloud.platforms",
+      "group": "cloud.platform",
       "option": "DigitalOcean"
     },
-    "cloud.platforms.Google Cloud Platform": {
+    "cloud.platform.Google Cloud Platform": {
       "kind": "multi_option",
-      "group": "cloud.platforms",
+      "group": "cloud.platform",
       "option": "Google Cloud Platform"
     },
-    "cloud.platforms.Heroku": {
+    "cloud.platform.Heroku": {
       "kind": "multi_option",
-      "group": "cloud.platforms",
+      "group": "cloud.platform",
       "option": "Heroku"
     },
-    "cloud.platforms.Linode": {
+    "cloud.platform.Linode": {
       "kind": "multi_option",
-      "group": "cloud.platforms",
+      "group": "cloud.platform",
       "option": "Linode"
     },
-    "cloud.platforms.Microsoft Azure": {
+    "cloud.platform.Microsoft Azure": {
       "kind": "multi_option",
-      "group": "cloud.platforms",
+      "group": "cloud.platform",
       "option": "Microsoft Azure"
     },
-    "cloud.platforms.None": {
+    "cloud.platform.None": {
       "kind": "multi_option",
-      "group": "cloud.platforms",
+      "group": "cloud.platform",
       "option": "None"
     },
-    "cloud.platforms.OpenShift": {
+    "cloud.platform.OpenShift": {
       "kind": "multi_option",
-      "group": "cloud.platforms",
+      "group": "cloud.platform",
       "option": "OpenShift"
     },
-    "cloud.platforms.OpenStack": {
+    "cloud.platform.OpenStack": {
       "kind": "multi_option",
-      "group": "cloud.platforms",
+      "group": "cloud.platform",
       "option": "OpenStack"
     },
-    "cloud.platforms.Other - Write In": {
+    "cloud.platform.Other - Write In": {
       "kind": "free_text",
-      "group": "cloud.platforms",
+      "group": "cloud.platform",
       "option": "Other - Write In"
     },
-    "cloud.platforms.PythonAnywhere": {
+    "cloud.platform.PythonAnywhere": {
       "kind": "multi_option",
-      "group": "cloud.platforms",
+      "group": "cloud.platform",
       "option": "PythonAnywhere"
     },
-    "cloud.platforms.Rackspace": {
+    "cloud.platform.Rackspace": {
       "kind": "multi_option",
-      "group": "cloud.platforms",
+      "group": "cloud.platform",
       "option": "Rackspace"
     },
     "ide.editor.In virtual machines": {
@@ -723,7 +723,7 @@
     "ide.editor.On a Platform-as-a-Service": {
       "kind": "multi_option",
       "group": "ide.editor",
-      "option": "On a Platform-as-a-Service"
+      "option": "On a Platform-as-a-Service (such as Heroku or Google App Engine)"
     },
     "ide.editor.Other - Write In": {
       "kind": "free_text",
@@ -733,7 +733,7 @@
     "ide.editor.Serverless": {
       "kind": "multi_option",
       "group": "ide.editor",
-      "option": "Serverless"
+      "option": "Serverless (such as AWS Lambda or Cloud Functions)"
     },
     "ide.editor.Within containers": {
       "kind": "multi_option",
@@ -763,7 +763,7 @@
     "ide.editor.Locally with virtualenv": {
       "kind": "multi_option",
       "group": "ide.editor",
-      "option": "Locally with virtualenv"
+      "option": "Locally with virtualenv (or similar)"
     },
     "ide.editor.None of the following__dup1": {
       "kind": "multi_option",
@@ -780,29 +780,29 @@
       "group": "ide.editor",
       "option": "With local system interpreter"
     },
-    "ide.os.BSD": {
+    "devenv.os.BSD": {
       "kind": "multi_option",
-      "group": "ide.os",
+      "group": "devenv.os",
       "option": "BSD"
     },
-    "ide.os.Linux": {
+    "devenv.os.Linux": {
       "kind": "multi_option",
-      "group": "ide.os",
+      "group": "devenv.os",
       "option": "Linux"
     },
-    "ide.os.macOS": {
+    "devenv.os.macOS": {
       "kind": "multi_option",
-      "group": "ide.os",
+      "group": "devenv.os",
       "option": "macOS"
     },
-    "ide.os.Other - Write In": {
+    "devenv.os.Other - Write In": {
       "kind": "free_text",
-      "group": "ide.os",
+      "group": "devenv.os",
       "option": "Other - Write In"
     },
-    "ide.os.Windows": {
+    "devenv.os.Windows": {
       "kind": "multi_option",
-      "group": "ide.os",
+      "group": "devenv.os",
       "option": "Windows"
     },
     "ide.editor.doctest": {
@@ -895,229 +895,229 @@
       "group": "frameworks.ml",
       "option": "Tortoise ORM"
     },
-    "ide.databases.Amazon Redshift": {
+    "database.Amazon Redshift": {
       "kind": "multi_option",
-      "group": "ide.databases",
+      "group": "database",
       "option": "Amazon Redshift"
     },
-    "ide.databases.Cassandra": {
+    "database.Cassandra": {
       "kind": "multi_option",
-      "group": "ide.databases",
+      "group": "database",
       "option": "Cassandra"
     },
-    "ide.databases.Couchbase": {
+    "database.Couchbase": {
       "kind": "multi_option",
-      "group": "ide.databases",
+      "group": "database",
       "option": "Couchbase"
     },
-    "ide.databases.DB2": {
+    "database.DB2": {
       "kind": "multi_option",
-      "group": "ide.databases",
+      "group": "database",
       "option": "DB2"
     },
-    "ide.databases.h2": {
+    "database.h2": {
       "kind": "multi_option",
-      "group": "ide.databases",
+      "group": "database",
       "option": "h2"
     },
-    "ide.databases.HBase": {
+    "database.HBase": {
       "kind": "multi_option",
-      "group": "ide.databases",
+      "group": "database",
       "option": "HBase"
     },
-    "ide.databases.MongoDB": {
+    "database.MongoDB": {
       "kind": "multi_option",
-      "group": "ide.databases",
+      "group": "database",
       "option": "MongoDB"
     },
-    "ide.databases.MS SQL Server": {
+    "database.MS SQL Server": {
       "kind": "multi_option",
-      "group": "ide.databases",
+      "group": "database",
       "option": "MS SQL Server"
     },
-    "ide.databases.MySQL": {
+    "database.MySQL": {
       "kind": "multi_option",
-      "group": "ide.databases",
+      "group": "database",
       "option": "MySQL"
     },
-    "ide.databases.Neo4j": {
+    "database.Neo4j": {
       "kind": "multi_option",
-      "group": "ide.databases",
+      "group": "database",
       "option": "Neo4j"
     },
-    "ide.databases.None": {
+    "database.None": {
       "kind": "multi_option",
-      "group": "ide.databases",
+      "group": "database",
       "option": "None"
     },
-    "ide.databases.Oracle Database": {
+    "database.Oracle Database": {
       "kind": "multi_option",
-      "group": "ide.databases",
+      "group": "database",
       "option": "Oracle Database"
     },
-    "ide.databases.Other - Write In": {
+    "database.Other - Write In": {
       "kind": "free_text",
-      "group": "ide.databases",
+      "group": "database",
       "option": "Other - Write In"
     },
-    "ide.databases.PostgreSQL": {
+    "database.PostgreSQL": {
       "kind": "multi_option",
-      "group": "ide.databases",
+      "group": "database",
       "option": "PostgreSQL"
     },
-    "ide.databases.Redis": {
+    "database.Redis": {
       "kind": "multi_option",
-      "group": "ide.databases",
+      "group": "database",
       "option": "Redis"
     },
-    "ide.databases.SQLite": {
+    "database.SQLite": {
       "kind": "multi_option",
-      "group": "ide.databases",
+      "group": "database",
       "option": "SQLite"
     },
-    "ide.tools.bigdata.Apache Beam": {
+    "bigdata.Apache Beam": {
       "kind": "multi_option",
-      "group": "ide.tools.bigdata",
+      "group": "bigdata",
       "option": "Apache Beam"
     },
-    "ide.tools.bigdata.Apache Flink": {
+    "bigdata.Apache Flink": {
       "kind": "multi_option",
-      "group": "ide.tools.bigdata",
+      "group": "bigdata",
       "option": "Apache Flink"
     },
-    "ide.tools.bigdata.Apache Hadoop/MapReduce": {
+    "bigdata.Apache Hadoop/MapReduce": {
       "kind": "multi_option",
-      "group": "ide.tools.bigdata",
+      "group": "bigdata",
       "option": "Apache Hadoop/MapReduce"
     },
-    "ide.tools.bigdata.Apache Hive": {
+    "bigdata.Apache Hive": {
       "kind": "multi_option",
-      "group": "ide.tools.bigdata",
+      "group": "bigdata",
       "option": "Apache Hive"
     },
-    "ide.tools.bigdata.Apache Kafka": {
+    "bigdata.Apache Kafka": {
       "kind": "multi_option",
-      "group": "ide.tools.bigdata",
+      "group": "bigdata",
       "option": "Apache Kafka"
     },
-    "ide.tools.bigdata.Apache Samza": {
+    "bigdata.Apache Samza": {
       "kind": "multi_option",
-      "group": "ide.tools.bigdata",
+      "group": "bigdata",
       "option": "Apache Samza"
     },
-    "ide.tools.bigdata.Apache Spark": {
+    "bigdata.Apache Spark": {
       "kind": "multi_option",
-      "group": "ide.tools.bigdata",
+      "group": "bigdata",
       "option": "Apache Spark"
     },
-    "ide.tools.bigdata.Apache Tez": {
+    "bigdata.Apache Tez": {
       "kind": "multi_option",
-      "group": "ide.tools.bigdata",
+      "group": "bigdata",
       "option": "Apache Tez"
     },
-    "ide.tools.bigdata.ClickHouse": {
+    "bigdata.ClickHouse": {
       "kind": "multi_option",
-      "group": "ide.tools.bigdata",
+      "group": "bigdata",
       "option": "ClickHouse"
     },
-    "ide.tools.bigdata.Dask": {
+    "bigdata.Dask": {
       "kind": "multi_option",
-      "group": "ide.tools.bigdata",
+      "group": "bigdata",
       "option": "Dask"
     },
-    "ide.tools.bigdata.None": {
+    "bigdata.None": {
       "kind": "multi_option",
-      "group": "ide.tools.bigdata",
+      "group": "bigdata",
       "option": "None"
     },
-    "ide.tools.bigdata.Other - Write In": {
+    "bigdata.Other - Write In": {
       "kind": "free_text",
-      "group": "ide.tools.bigdata",
+      "group": "bigdata",
       "option": "Other - Write In"
     },
-    "ide.tools.ci.AppVeyor": {
+    "ci.AppVeyor": {
       "kind": "multi_option",
-      "group": "ide.tools.ci",
+      "group": "ci",
       "option": "AppVeyor"
     },
-    "ide.tools.ci.Bamboo": {
+    "ci.Bamboo": {
       "kind": "multi_option",
-      "group": "ide.tools.ci",
+      "group": "ci",
       "option": "Bamboo"
     },
-    "ide.tools.ci.CircleCI": {
+    "ci.CircleCI": {
       "kind": "multi_option",
-      "group": "ide.tools.ci",
+      "group": "ci",
       "option": "CircleCI"
     },
-    "ide.tools.ci.CruiseControl": {
+    "ci.CruiseControl": {
       "kind": "multi_option",
-      "group": "ide.tools.ci",
+      "group": "ci",
       "option": "CruiseControl"
     },
-    "ide.tools.ci.Gitlab CI": {
+    "ci.Gitlab CI": {
       "kind": "multi_option",
-      "group": "ide.tools.ci",
+      "group": "ci",
       "option": "Gitlab CI"
     },
-    "ide.tools.ci.Jenkins / Hudson": {
+    "ci.Jenkins / Hudson": {
       "kind": "multi_option",
-      "group": "ide.tools.ci",
+      "group": "ci",
       "option": "Jenkins / Hudson"
     },
-    "ide.tools.ci.None": {
+    "ci.None": {
       "kind": "multi_option",
-      "group": "ide.tools.ci",
+      "group": "ci",
       "option": "None"
     },
-    "ide.tools.ci.Other - Write In": {
+    "ci.Other - Write In": {
       "kind": "free_text",
-      "group": "ide.tools.ci",
+      "group": "ci",
       "option": "Other - Write In"
     },
-    "ide.tools.ci.TeamCity": {
+    "ci.TeamCity": {
       "kind": "multi_option",
-      "group": "ide.tools.ci",
+      "group": "ci",
       "option": "TeamCity"
     },
-    "ide.tools.ci.Travis CI": {
+    "ci.Travis CI": {
       "kind": "multi_option",
-      "group": "ide.tools.ci",
+      "group": "ci",
       "option": "Travis CI"
     },
-    "frameworks.cm.Ansible": {
+    "configuration.management.Ansible": {
       "kind": "multi_option",
-      "group": "frameworks.cm",
+      "group": "configuration.management",
       "option": "Ansible"
     },
-    "frameworks.cm.Chef": {
+    "configuration.management.Chef": {
       "kind": "multi_option",
-      "group": "frameworks.cm",
+      "group": "configuration.management",
       "option": "Chef"
     },
-    "frameworks.cm.Custom solution": {
+    "configuration.management.Custom solution": {
       "kind": "multi_option",
-      "group": "frameworks.cm",
+      "group": "configuration.management",
       "option": "Custom solution"
     },
-    "frameworks.cm.None": {
+    "configuration.management.None": {
       "kind": "multi_option",
-      "group": "frameworks.cm",
+      "group": "configuration.management",
       "option": "None"
     },
-    "frameworks.cm.Other - Write In": {
+    "configuration.management.Other - Write In": {
       "kind": "free_text",
-      "group": "frameworks.cm",
+      "group": "configuration.management",
       "option": "Other - Write In"
     },
-    "frameworks.cm.Puppet": {
+    "configuration.management.Puppet": {
       "kind": "multi_option",
-      "group": "frameworks.cm",
+      "group": "configuration.management",
       "option": "Puppet"
     },
-    "frameworks.cm.Salt": {
+    "configuration.management.Salt": {
       "kind": "multi_option",
-      "group": "frameworks.cm",
+      "group": "configuration.management",
       "option": "Salt"
     },
     "ide.editor": {
@@ -1283,7 +1283,7 @@
     "ide.editor.use code linting": {
       "kind": "single_choice",
       "group": "ide.editor",
-      "option": "use code linting"
+      "option": "use code linting (programs that analyze code for potential errors)"
     },
     "ide.editor.use Python virtual environments for your projects": {
       "kind": "single_choice",
@@ -1303,7 +1303,7 @@
     "ide.editor.run / debug or edit code on remote machines": {
       "kind": "single_choice",
       "group": "ide.editor",
-      "option": "run / debug or edit code on remote machines"
+      "option": "run / debug or edit code on remote machines (remote hosts, VMs, etc.)"
     },
     "ide.editor.use a Python profiler": {
       "kind": "single_choice",
@@ -1345,9 +1345,9 @@
       "group": "ide.history",
       "option": ""
     },
-    "most.of.the.time.do.you": {
+    "most_of_the_time_do_you": {
       "kind": "single_choice",
-      "group": "most.of.the.time.do.you",
+      "group": "most_of_the_time_do_you",
       "option": ""
     },
     "team.size": {
@@ -1365,34 +1365,34 @@
       "group": "company.size",
       "option": ""
     },
-    "role.architect.Architect": {
+    "job.role.Architect": {
       "kind": "multi_option",
-      "group": "role.architect",
+      "group": "job.role",
       "option": "Architect"
     },
-    "role.architect.Business analyst": {
+    "job.role.Business analyst": {
       "kind": "multi_option",
-      "group": "role.architect",
+      "group": "job.role",
       "option": "Business analyst"
     },
-    "role.architect.CIO / CEO / CTO": {
+    "job.role.CIO / CEO / CTO": {
       "kind": "multi_option",
-      "group": "role.architect",
+      "group": "job.role",
       "option": "CIO / CEO / CTO"
     },
-    "role.architect.Data analyst": {
+    "job.role.Data analyst": {
       "kind": "multi_option",
-      "group": "role.architect",
+      "group": "job.role",
       "option": "Data analyst"
     },
-    "role.architect.DBA": {
+    "job.role.DBA": {
       "kind": "multi_option",
-      "group": "role.architect",
+      "group": "job.role",
       "option": "DBA"
     },
-    "role.architect.Developer / Programmer": {
+    "job.role.Developer / Programmer": {
       "kind": "multi_option",
-      "group": "role.architect",
+      "group": "job.role",
       "option": "Developer / Programmer"
     },
     "role.other.Other - Write In": {
@@ -1400,44 +1400,44 @@
       "group": "role.other",
       "option": "Other - Write In"
     },
-    "role.architect.Product manager": {
+    "job.role.Product manager": {
       "kind": "multi_option",
-      "group": "role.architect",
+      "group": "job.role",
       "option": "Product manager"
     },
-    "role.architect.QA engineer": {
+    "job.role.QA engineer": {
       "kind": "multi_option",
-      "group": "role.architect",
+      "group": "job.role",
       "option": "QA engineer"
     },
-    "role.architect.Systems analyst": {
+    "job.role.Systems analyst": {
       "kind": "multi_option",
-      "group": "role.architect",
+      "group": "job.role",
       "option": "Systems analyst"
     },
-    "role.architect.Team lead": {
+    "job.role.Team lead": {
       "kind": "multi_option",
-      "group": "role.architect",
+      "group": "job.role",
       "option": "Team lead"
     },
-    "role.architect.Technical support": {
+    "job.role.Technical support": {
       "kind": "multi_option",
-      "group": "role.architect",
+      "group": "job.role",
       "option": "Technical support"
     },
-    "role.architect.Technical writer": {
+    "job.role.Technical writer": {
       "kind": "multi_option",
-      "group": "role.architect",
+      "group": "job.role",
       "option": "Technical writer"
     },
-    "industry.company": {
+    "which_of_the_following_industries_do_you_develop_for": {
       "kind": "free_text",
-      "group": "industry.company",
+      "group": "which_of_the_following_industries_do_you_develop_for",
       "option": ""
     },
-    "industry.company__dup1": {
+    "industry.development": {
       "kind": "single_choice",
-      "group": "industry.company",
+      "group": "industry.development",
       "option": ""
     },
     "demographics.age": {
@@ -1452,9 +1452,9 @@
     }
   },
   "2020": {
-    "ide.python_version": {
+    "is.python.main": {
       "kind": "single_choice",
-      "group": "ide.python_version",
+      "group": "is.python.main",
       "option": ""
     },
     "other.lang.None": {
@@ -1475,7 +1475,7 @@
     "other.lang.C/C++": {
       "kind": "multi_option",
       "group": "other.lang",
-      "option": "C++"
+      "option": "C/C++"
     },
     "other.lang.PHP": {
       "kind": "multi_option",
@@ -1485,7 +1485,7 @@
     "other.lang.C#": {
       "kind": "multi_option",
       "group": "other.lang",
-      "option": "C++"
+      "option": "C#"
     },
     "other.lang.Ruby": {
       "kind": "multi_option",
@@ -1572,10 +1572,10 @@
       "group": "other.lang",
       "option": "HTML/CSS"
     },
-    "other.lang.Other": {
+    "other.lang.Other - Write In": {
       "kind": "multi_option",
       "group": "other.lang",
-      "option": "Other"
+      "option": "Other - Write In"
     },
     "python.years": {
       "kind": "numeric",
@@ -1832,49 +1832,49 @@
       "group": "python.version.upgrade",
       "option": "I use Docker containers"
     },
-    "python.version.upgrade.Other": {
+    "python.version.upgrade.Other - Write In": {
       "kind": "multi_option",
       "group": "python.version.upgrade",
-      "option": "Other"
+      "option": "Other - Write In"
     },
-    "ide.isolate.None": {
+    "environments.isolate.None": {
       "kind": "multi_option",
-      "group": "ide.isolate",
+      "group": "environments.isolate",
       "option": "None"
     },
-    "ide.isolate.Virtualenv": {
+    "environments.isolate.virtualenv": {
       "kind": "multi_option",
-      "group": "ide.isolate",
-      "option": "Virtualenv"
+      "group": "environments.isolate",
+      "option": "virtualenv"
     },
-    "ide.isolate.Pipenv": {
+    "environments.isolate.Pipenv": {
       "kind": "multi_option",
-      "group": "ide.isolate",
+      "group": "environments.isolate",
       "option": "Pipenv"
     },
-    "ide.isolate.Poetry": {
+    "environments.isolate.Poetry": {
       "kind": "multi_option",
-      "group": "ide.isolate",
+      "group": "environments.isolate",
       "option": "Poetry"
     },
-    "ide.isolate.Conda": {
+    "environments.isolate.Conda": {
       "kind": "multi_option",
-      "group": "ide.isolate",
+      "group": "environments.isolate",
       "option": "Conda"
     },
-    "ide.isolate.Docker": {
+    "environments.isolate.Docker": {
       "kind": "multi_option",
-      "group": "ide.isolate",
+      "group": "environments.isolate",
       "option": "Docker"
     },
-    "ide.isolate.Vagrant / virtual machines": {
+    "environments.isolate.Vagrant / virtual machines": {
       "kind": "multi_option",
-      "group": "ide.isolate",
+      "group": "environments.isolate",
       "option": "Vagrant / virtual machines"
     },
-    "ide.isolate.Other": {
+    "environments.isolate.Other": {
       "kind": "multi_option",
-      "group": "ide.isolate",
+      "group": "environments.isolate",
       "option": "Other"
     },
     "web.frameworks.None": {
@@ -1937,79 +1937,79 @@
       "group": "web.frameworks",
       "option": "Other"
     },
-    "data.frameworks.None": {
+    "frameworks.None": {
       "kind": "multi_option",
-      "group": "data.frameworks",
+      "group": "frameworks",
       "option": "None"
     },
-    "data.frameworks.PyTorch": {
+    "frameworks.PyTorch": {
       "kind": "multi_option",
-      "group": "data.frameworks",
+      "group": "frameworks",
       "option": "PyTorch"
     },
-    "data.frameworks.NumPy": {
+    "frameworks.NumPy": {
       "kind": "multi_option",
-      "group": "data.frameworks",
+      "group": "frameworks",
       "option": "NumPy"
     },
-    "data.frameworks.SciPy": {
+    "frameworks.SciPy": {
       "kind": "multi_option",
-      "group": "data.frameworks",
+      "group": "frameworks",
       "option": "SciPy"
     },
-    "data.frameworks.Pandas": {
+    "frameworks.Pandas": {
       "kind": "multi_option",
-      "group": "data.frameworks",
+      "group": "frameworks",
       "option": "Pandas"
     },
-    "data.frameworks.Matplotlib": {
+    "frameworks.Matplotlib": {
       "kind": "multi_option",
-      "group": "data.frameworks",
+      "group": "frameworks",
       "option": "Matplotlib"
     },
-    "data.frameworks.Seaborn": {
+    "frameworks.Seaborn": {
       "kind": "multi_option",
-      "group": "data.frameworks",
+      "group": "frameworks",
       "option": "Seaborn"
     },
-    "data.frameworks.SciKit-Learn": {
+    "frameworks.SciKit-Learn": {
       "kind": "multi_option",
-      "group": "data.frameworks",
+      "group": "frameworks",
       "option": "SciKit-Learn"
     },
-    "data.frameworks.Keras": {
+    "frameworks.Keras": {
       "kind": "multi_option",
-      "group": "data.frameworks",
+      "group": "frameworks",
       "option": "Keras"
     },
-    "data.frameworks.TensorFlow": {
+    "frameworks.TensorFlow": {
       "kind": "multi_option",
-      "group": "data.frameworks",
+      "group": "frameworks",
       "option": "TensorFlow"
     },
-    "data.frameworks.Theano": {
+    "frameworks.Theano": {
       "kind": "multi_option",
-      "group": "data.frameworks",
+      "group": "frameworks",
       "option": "Theano"
     },
-    "data.frameworks.NLTK": {
+    "frameworks.NLTK": {
       "kind": "multi_option",
-      "group": "data.frameworks",
+      "group": "frameworks",
       "option": "NLTK"
     },
-    "data.frameworks.MXNet": {
+    "frameworks.MXNet": {
       "kind": "multi_option",
-      "group": "data.frameworks",
+      "group": "frameworks",
       "option": "MXNet"
     },
-    "data.frameworks.Gensim": {
+    "frameworks.Gensim": {
       "kind": "multi_option",
-      "group": "data.frameworks",
+      "group": "frameworks",
       "option": "Gensim"
     },
-    "data.frameworks.Other": {
+    "frameworks.Other": {
       "kind": "multi_option",
-      "group": "data.frameworks",
+      "group": "frameworks",
       "option": "Other"
     },
     "other.frameworks.None": {
@@ -2142,10 +2142,10 @@
       "group": "cloud.platform",
       "option": "OpenStack"
     },
-    "cloud.platform.Other": {
+    "cloud.platform.Other - Write In": {
       "kind": "multi_option",
       "group": "cloud.platform",
-      "option": "Other"
+      "option": "Other - Write In"
     },
     "run.in.cloud.None of the following": {
       "kind": "multi_option",
@@ -2162,10 +2162,10 @@
       "group": "run.in.cloud",
       "option": "Within containers"
     },
-    "run.in.cloud.On a Platform-as-a-Service": {
+    "run.in.cloud.On a platform-as-a-service": {
       "kind": "multi_option",
       "group": "run.in.cloud",
-      "option": "On a Platform-as-a-Service"
+      "option": "On a platform-as-a-service"
     },
     "run.in.cloud.Serverless": {
       "kind": "multi_option",
@@ -2237,10 +2237,10 @@
       "group": "devenv.os",
       "option": "BSD"
     },
-    "devenv.os.Other": {
+    "devenv.os.Other - Write In": {
       "kind": "multi_option",
       "group": "devenv.os",
-      "option": "Other"
+      "option": "Other - Write In"
     },
     "unittesting.None": {
       "kind": "multi_option",
@@ -2267,10 +2267,10 @@
       "group": "unittesting",
       "option": "doctest"
     },
-    "unittesting.Tox": {
+    "unittesting.tox": {
       "kind": "multi_option",
       "group": "unittesting",
-      "option": "Tox"
+      "option": "tox"
     },
     "unittesting.Hypothesis": {
       "kind": "multi_option",
@@ -2472,10 +2472,10 @@
       "group": "bigdata",
       "option": "ClickHouse"
     },
-    "bigdata.Other": {
+    "bigdata.Other - Write In": {
       "kind": "multi_option",
       "group": "bigdata",
-      "option": "Other"
+      "option": "Other - Write In"
     },
     "ci.None": {
       "kind": "multi_option",
@@ -2522,10 +2522,10 @@
       "group": "ci",
       "option": "AppVeyor"
     },
-    "ci.Other": {
+    "ci.Other - Write In": {
       "kind": "multi_option",
       "group": "ci",
-      "option": "Other"
+      "option": "Other - Write In"
     },
     "configuration.management.None": {
       "kind": "multi_option",
@@ -2557,10 +2557,10 @@
       "group": "configuration.management",
       "option": "Custom solution"
     },
-    "configuration.management.Other": {
+    "configuration.management.Other - Write In": {
       "kind": "multi_option",
       "group": "configuration.management",
-      "option": "Other"
+      "option": "Other - Write In"
     },
     "ide.main": {
       "kind": "single_choice",
@@ -2602,7 +2602,7 @@
       "group": "ide.editor",
       "option": "Atom"
     },
-    "ide.editor.VS Code": {
+    "ide.editor.Visual Studio Code": {
       "kind": "multi_option",
       "group": "ide.editor",
       "option": "Visual Studio Code"
@@ -2657,19 +2657,19 @@
       "group": "several.projects",
       "option": ""
     },
-    "learning.source": {
+    "first.learn.about.main.ide": {
       "kind": "single_choice",
-      "group": "learning.source",
+      "group": "first.learn.about.main.ide",
       "option": ""
     },
-    "how.often.use.main": {
+    "how.often.use.main.ide": {
       "kind": "single_choice",
-      "group": "how.often.use.main",
+      "group": "how.often.use.main.ide",
       "option": ""
     },
-    "missing.features.main": {
+    "missing.features.main.ide": {
       "kind": "single_choice",
-      "group": "missing.features.main",
+      "group": "missing.features.main.ide",
       "option": ""
     },
     "nps.main.ide": {
@@ -2774,9 +2774,9 @@
     }
   },
   "2021": {
-    "ide.python_version": {
+    "is.python.main": {
       "kind": "single_choice",
-      "group": "ide.python_version",
+      "group": "is.python.main",
       "option": ""
     },
     "other.lang.None": {
@@ -2797,7 +2797,7 @@
     "other.lang.C/C++": {
       "kind": "multi_option",
       "group": "other.lang",
-      "option": "C++"
+      "option": "C/C++"
     },
     "other.lang.PHP": {
       "kind": "multi_option",
@@ -2807,7 +2807,7 @@
     "other.lang.C#": {
       "kind": "multi_option",
       "group": "other.lang",
-      "option": "C++"
+      "option": "C#"
     },
     "other.lang.Ruby": {
       "kind": "multi_option",
@@ -2897,7 +2897,7 @@
     "other.lang.Other": {
       "kind": "multi_option",
       "group": "other.lang",
-      "option": "Other"
+      "option": "Other - Write In"
     },
     "python.years": {
       "kind": "multi_option",
@@ -3082,46 +3082,46 @@
     "python.version.upgrade.Other": {
       "kind": "multi_option",
       "group": "python.version.upgrade",
-      "option": "Other"
+      "option": "Other - Write In"
     },
-    "ide.isolate.None": {
+    "environments.isolate.None": {
       "kind": "multi_option",
-      "group": "ide.isolate",
+      "group": "environments.isolate",
       "option": "None"
     },
-    "ide.isolate.Virtualenv": {
+    "environments.isolate.Virtualenv": {
       "kind": "multi_option",
-      "group": "ide.isolate",
-      "option": "Virtualenv"
+      "group": "environments.isolate",
+      "option": "virtualenv"
     },
-    "ide.isolate.Pipenv": {
+    "environments.isolate.Pipenv": {
       "kind": "multi_option",
-      "group": "ide.isolate",
+      "group": "environments.isolate",
       "option": "Pipenv"
     },
-    "ide.isolate.Poetry": {
+    "environments.isolate.Poetry": {
       "kind": "multi_option",
-      "group": "ide.isolate",
+      "group": "environments.isolate",
       "option": "Poetry"
     },
-    "ide.isolate.Conda": {
+    "environments.isolate.Conda": {
       "kind": "multi_option",
-      "group": "ide.isolate",
+      "group": "environments.isolate",
       "option": "Conda"
     },
-    "ide.isolate.Docker": {
+    "environments.isolate.Docker": {
       "kind": "multi_option",
-      "group": "ide.isolate",
+      "group": "environments.isolate",
       "option": "Docker"
     },
-    "ide.isolate.Vagrant / virtual machines": {
+    "environments.isolate.Vagrant / virtual machines": {
       "kind": "multi_option",
-      "group": "ide.isolate",
+      "group": "environments.isolate",
       "option": "Vagrant / virtual machines"
     },
-    "ide.isolate.Other": {
+    "environments.isolate.Other": {
       "kind": "multi_option",
-      "group": "ide.isolate",
+      "group": "environments.isolate",
       "option": "Other"
     },
     "web.frameworks.None": {
@@ -3184,79 +3184,79 @@
       "group": "web.frameworks",
       "option": "Other"
     },
-    "data.frameworks.None": {
+    "frameworks.None": {
       "kind": "multi_option",
-      "group": "data.frameworks",
+      "group": "frameworks",
       "option": "None"
     },
-    "data.frameworks.PyTorch": {
+    "frameworks.PyTorch": {
       "kind": "multi_option",
-      "group": "data.frameworks",
+      "group": "frameworks",
       "option": "PyTorch"
     },
-    "data.frameworks.NumPy": {
+    "frameworks.NumPy": {
       "kind": "multi_option",
-      "group": "data.frameworks",
+      "group": "frameworks",
       "option": "NumPy"
     },
-    "data.frameworks.SciPy": {
+    "frameworks.SciPy": {
       "kind": "multi_option",
-      "group": "data.frameworks",
+      "group": "frameworks",
       "option": "SciPy"
     },
-    "data.frameworks.Pandas": {
+    "frameworks.Pandas": {
       "kind": "multi_option",
-      "group": "data.frameworks",
+      "group": "frameworks",
       "option": "Pandas"
     },
-    "data.frameworks.Matplotlib": {
+    "frameworks.Matplotlib": {
       "kind": "multi_option",
-      "group": "data.frameworks",
+      "group": "frameworks",
       "option": "Matplotlib"
     },
-    "data.frameworks.Seaborn": {
+    "frameworks.Seaborn": {
       "kind": "multi_option",
-      "group": "data.frameworks",
+      "group": "frameworks",
       "option": "Seaborn"
     },
-    "data.frameworks.SciKit-Learn": {
+    "frameworks.SciKit-Learn": {
       "kind": "multi_option",
-      "group": "data.frameworks",
+      "group": "frameworks",
       "option": "SciKit-Learn"
     },
-    "data.frameworks.Keras": {
+    "frameworks.Keras": {
       "kind": "multi_option",
-      "group": "data.frameworks",
+      "group": "frameworks",
       "option": "Keras"
     },
-    "data.frameworks.TensorFlow": {
+    "frameworks.TensorFlow": {
       "kind": "multi_option",
-      "group": "data.frameworks",
+      "group": "frameworks",
       "option": "TensorFlow"
     },
-    "data.frameworks.Theano": {
+    "frameworks.Theano": {
       "kind": "multi_option",
-      "group": "data.frameworks",
+      "group": "frameworks",
       "option": "Theano"
     },
-    "data.frameworks.NLTK": {
+    "frameworks.NLTK": {
       "kind": "multi_option",
-      "group": "data.frameworks",
+      "group": "frameworks",
       "option": "NLTK"
     },
-    "data.frameworks.MXNet": {
+    "frameworks.MXNet": {
       "kind": "multi_option",
-      "group": "data.frameworks",
+      "group": "frameworks",
       "option": "MXNet"
     },
-    "data.frameworks.Gensim": {
+    "frameworks.Gensim": {
       "kind": "multi_option",
-      "group": "data.frameworks",
+      "group": "frameworks",
       "option": "Gensim"
     },
-    "data.frameworks.Other": {
+    "frameworks.Other": {
       "kind": "multi_option",
-      "group": "data.frameworks",
+      "group": "frameworks",
       "option": "Other"
     },
     "other.frameworks.None": {
@@ -3397,7 +3397,7 @@
     "cloud.platform.Other": {
       "kind": "multi_option",
       "group": "cloud.platform",
-      "option": "Other"
+      "option": "Other - Write In"
     },
     "run.in.cloud.None of the following": {
       "kind": "multi_option",
@@ -3417,7 +3417,7 @@
     "run.in.cloud.On a Platform-as-a-Service": {
       "kind": "multi_option",
       "group": "run.in.cloud",
-      "option": "On a Platform-as-a-Service"
+      "option": "On a platform-as-a-service"
     },
     "run.in.cloud.Serverless": {
       "kind": "multi_option",
@@ -3492,7 +3492,7 @@
     "devenv.os.Other": {
       "kind": "multi_option",
       "group": "devenv.os",
-      "option": "Other"
+      "option": "Other - Write In"
     },
     "unittesting.None": {
       "kind": "multi_option",
@@ -3727,7 +3727,7 @@
     "bigdata.Other": {
       "kind": "multi_option",
       "group": "bigdata",
-      "option": "Other"
+      "option": "Other - Write In"
     },
     "ci.None": {
       "kind": "multi_option",
@@ -3787,7 +3787,7 @@
     "ci.Other": {
       "kind": "multi_option",
       "group": "ci",
-      "option": "Other"
+      "option": "Other - Write In"
     },
     "configuration.management.None": {
       "kind": "multi_option",
@@ -3822,7 +3822,7 @@
     "configuration.management.Other": {
       "kind": "multi_option",
       "group": "configuration.management",
-      "option": "Other"
+      "option": "Other - Write In"
     },
     "documentation.tool.I don't use any documentation tools": {
       "kind": "multi_option",
@@ -3944,9 +3944,9 @@
       "group": "several.projects",
       "option": ""
     },
-    "learning.source.ide": {
+    "first.learn.about.main.ide": {
       "kind": "multi_option",
-      "group": "learning.source",
+      "group": "first.learn.about.main",
       "option": "ide"
     },
     "how.often.use.main.ide": {
@@ -4057,9 +4057,9 @@
     "environments.isolate.hatch": {
       "kind": "multi_option",
       "group": "environments.isolate",
-      "option": "hatch"
+      "option": "Hatch"
     },
-    "environments.isolate.Poetry": {
+    "environments.isolate.Poetry__dup1": {
       "kind": "multi_option",
       "group": "environments.isolate",
       "option": "Poetry"
@@ -4067,9 +4067,9 @@
     "environments.isolate.pipenv": {
       "kind": "multi_option",
       "group": "environments.isolate",
-      "option": "pipenv"
+      "option": "Pipenv"
     },
-    "environments.isolate.Conda": {
+    "environments.isolate.Conda__dup1": {
       "kind": "multi_option",
       "group": "environments.isolate",
       "option": "Conda"
@@ -4107,7 +4107,7 @@
     "venv.I use it via virtualenv": {
       "kind": "multi_option",
       "group": "venv",
-      "option": "I use it via virtualenv"
+      "option": "I use it via Pipenv"
     },
     "venv.I use it via tox": {
       "kind": "multi_option",
@@ -4257,12 +4257,12 @@
     "dependency.tools.pipenv": {
       "kind": "multi_option",
       "group": "dependency.tools",
-      "option": "pipenv"
+      "option": "Pipenv"
     },
     "dependency.tools.poetry": {
       "kind": "multi_option",
       "group": "dependency.tools",
-      "option": "poetry"
+      "option": "Poetry"
     },
     "dependency.tools.pip-tools": {
       "kind": "multi_option",
@@ -4562,7 +4562,7 @@
     "libraries.tools.PDM-PEP517": {
       "kind": "multi_option",
       "group": "libraries.tools",
-      "option": "PDM"
+      "option": "PDM-PEP517"
     },
     "libraries.tools.Other": {
       "kind": "multi_option",
@@ -4599,9 +4599,9 @@
       "group": "libraries.publish.where",
       "option": "Other"
     },
-    "job.team": {
+    "employment.status.team": {
       "kind": "multi_option",
-      "group": "job",
+      "group": "employment.status",
       "option": "team"
     },
     "team.size": {
@@ -4629,91 +4629,91 @@
       "group": "country",
       "option": "live"
     },
-    "how.involved.Other": {
+    "how.involved.fixed.Other": {
       "kind": "multi_option",
-      "group": "how.involved",
+      "group": "how.involved.fixed",
       "option": "Other"
     },
-    "how.involved.DevOps / System administration / Writing automation scripts": {
+    "how.involved.fixed.DevOps / System administration / Writing automation scripts": {
       "kind": "multi_option",
-      "group": "how.involved",
+      "group": "how.involved.fixed",
       "option": "DevOps / System administration / Writing automation scripts"
     },
-    "how.involved.Software testing / Writing automated tests": {
+    "how.involved.fixed.Software testing / Writing automated tests": {
       "kind": "multi_option",
-      "group": "how.involved",
+      "group": "how.involved.fixed",
       "option": "Software testing / Writing automated tests"
     },
-    "how.involved.Web development": {
+    "how.involved.fixed.Web development": {
       "kind": "multi_option",
-      "group": "how.involved",
+      "group": "how.involved.fixed",
       "option": "Web development"
     },
-    "how.involved.Educational purposes": {
+    "how.involved.fixed.Educational purposes": {
       "kind": "multi_option",
-      "group": "how.involved",
+      "group": "how.involved.fixed",
       "option": "Educational purposes"
     },
-    "how.involved.Desktop development": {
+    "how.involved.fixed.Desktop development": {
       "kind": "multi_option",
-      "group": "how.involved",
+      "group": "how.involved.fixed",
       "option": "Desktop development"
     },
-    "how.involved.Data analysis": {
+    "how.involved.fixed.Data analysis": {
       "kind": "multi_option",
-      "group": "how.involved",
+      "group": "how.involved.fixed",
       "option": "Data analysis"
     },
-    "how.involved.Software prototyping": {
+    "how.involved.fixed.Software prototyping": {
       "kind": "multi_option",
-      "group": "how.involved",
+      "group": "how.involved.fixed",
       "option": "Software prototyping"
     },
-    "how.involved.Network programming": {
+    "how.involved.fixed.Network programming": {
       "kind": "multi_option",
-      "group": "how.involved",
+      "group": "how.involved.fixed",
       "option": "Network programming"
     },
-    "how.involved.Programming of web parsers / scrapers / crawlers": {
+    "how.involved.fixed.Programming of web parsers / scrapers / crawlers": {
       "kind": "multi_option",
-      "group": "how.involved",
+      "group": "how.involved.fixed",
       "option": "Programming of web parsers / scrapers / crawlers"
     },
-    "how.involved.Embedded development": {
+    "how.involved.fixed.Embedded development": {
       "kind": "multi_option",
-      "group": "how.involved",
+      "group": "how.involved.fixed",
       "option": "Embedded development"
     },
-    "how.involved.Mobile development": {
+    "how.involved.fixed.Mobile development": {
       "kind": "multi_option",
-      "group": "how.involved",
+      "group": "how.involved.fixed",
       "option": "Mobile development"
     },
-    "how.involved.Machine learning": {
+    "how.involved.fixed.Machine learning": {
       "kind": "multi_option",
-      "group": "how.involved",
+      "group": "how.involved.fixed",
       "option": "Machine learning"
     },
-    "how.involved.Game development": {
+    "how.involved.fixed.Game development": {
       "kind": "multi_option",
-      "group": "how.involved",
+      "group": "how.involved.fixed",
       "option": "Game development"
     },
-    "how.involved.Computer graphics": {
+    "how.involved.fixed.Computer graphics": {
       "kind": "multi_option",
-      "group": "how.involved",
+      "group": "how.involved.fixed",
       "option": "Computer graphics"
     },
-    "how.involved.Multimedia applications development": {
+    "how.involved.fixed.Multimedia applications development": {
       "kind": "multi_option",
-      "group": "how.involved",
+      "group": "how.involved.fixed",
       "option": "Multimedia applications development"
     }
   },
   "2022": {
-    "ide.python_version": {
+    "is.python.main": {
       "kind": "single_choice",
-      "group": "ide.python_version",
+      "group": "is.python.main",
       "option": ""
     },
     "other.lang.None": {
@@ -4734,7 +4734,7 @@
     "other.lang.C/C++": {
       "kind": "multi_option",
       "group": "other.lang",
-      "option": "C++"
+      "option": "C/C++"
     },
     "other.lang.PHP": {
       "kind": "multi_option",
@@ -4744,7 +4744,7 @@
     "other.lang.C#": {
       "kind": "multi_option",
       "group": "other.lang",
-      "option": "C++"
+      "option": "C#"
     },
     "other.lang.Ruby": {
       "kind": "multi_option",
@@ -4834,7 +4834,7 @@
     "other.lang.Other": {
       "kind": "multi_option",
       "group": "other.lang",
-      "option": "Other"
+      "option": "Other - Write In"
     },
     "python.years": {
       "kind": "numeric",
@@ -5011,9 +5011,9 @@
       "group": "how.involved",
       "option": "Programming of web parsers / scrapers / crawlers"
     },
-    "how.involved": {
+    "how.involved.Other - Write In:": {
       "kind": "free_text",
-      "group": "how.involved",
+      "group": "how.involved.Other - Write In:",
       "option": ""
     },
     "are.you.datascientist": {
@@ -5099,46 +5099,46 @@
     "python.version.upgrade.Other": {
       "kind": "multi_option",
       "group": "python.version.upgrade",
-      "option": "Other"
+      "option": "Other - Write In"
     },
-    "ide.isolate.None": {
+    "environments.isolate.None": {
       "kind": "multi_option",
-      "group": "ide.isolate",
+      "group": "environments.isolate",
       "option": "None"
     },
-    "ide.isolate.Virtualenv": {
+    "environments.isolate.Virtualenv": {
       "kind": "multi_option",
-      "group": "ide.isolate",
-      "option": "Virtualenv"
+      "group": "environments.isolate",
+      "option": "virtualenv"
     },
-    "ide.isolate.Pipenv": {
+    "environments.isolate.Pipenv": {
       "kind": "multi_option",
-      "group": "ide.isolate",
+      "group": "environments.isolate",
       "option": "Pipenv"
     },
-    "ide.isolate.Poetry": {
+    "environments.isolate.Poetry": {
       "kind": "multi_option",
-      "group": "ide.isolate",
+      "group": "environments.isolate",
       "option": "Poetry"
     },
-    "ide.isolate.Conda": {
+    "environments.isolate.Conda": {
       "kind": "multi_option",
-      "group": "ide.isolate",
+      "group": "environments.isolate",
       "option": "Conda"
     },
-    "ide.isolate.Docker": {
+    "environments.isolate.Docker": {
       "kind": "multi_option",
-      "group": "ide.isolate",
+      "group": "environments.isolate",
       "option": "Docker"
     },
-    "ide.isolate.Vagrant / virtual machines": {
+    "environments.isolate.Vagrant / virtual machines": {
       "kind": "multi_option",
-      "group": "ide.isolate",
+      "group": "environments.isolate",
       "option": "Vagrant / virtual machines"
     },
-    "ide.isolate.Other": {
+    "environments.isolate.Other": {
       "kind": "multi_option",
-      "group": "ide.isolate",
+      "group": "environments.isolate",
       "option": "Other"
     },
     "web.frameworks.None": {
@@ -5201,79 +5201,79 @@
       "group": "web.frameworks",
       "option": "Other"
     },
-    "data.frameworks.None": {
+    "frameworks.None": {
       "kind": "multi_option",
-      "group": "data.frameworks",
+      "group": "frameworks",
       "option": "None"
     },
-    "data.frameworks.PyTorch": {
+    "frameworks.PyTorch": {
       "kind": "multi_option",
-      "group": "data.frameworks",
+      "group": "frameworks",
       "option": "PyTorch"
     },
-    "data.frameworks.NumPy": {
+    "frameworks.NumPy": {
       "kind": "multi_option",
-      "group": "data.frameworks",
+      "group": "frameworks",
       "option": "NumPy"
     },
-    "data.frameworks.SciPy": {
+    "frameworks.SciPy": {
       "kind": "multi_option",
-      "group": "data.frameworks",
+      "group": "frameworks",
       "option": "SciPy"
     },
-    "data.frameworks.Pandas": {
+    "frameworks.Pandas": {
       "kind": "multi_option",
-      "group": "data.frameworks",
+      "group": "frameworks",
       "option": "Pandas"
     },
-    "data.frameworks.Matplotlib": {
+    "frameworks.Matplotlib": {
       "kind": "multi_option",
-      "group": "data.frameworks",
+      "group": "frameworks",
       "option": "Matplotlib"
     },
-    "data.frameworks.Seaborn": {
+    "frameworks.Seaborn": {
       "kind": "multi_option",
-      "group": "data.frameworks",
+      "group": "frameworks",
       "option": "Seaborn"
     },
-    "data.frameworks.SciKit-Learn": {
+    "frameworks.SciKit-Learn": {
       "kind": "multi_option",
-      "group": "data.frameworks",
+      "group": "frameworks",
       "option": "SciKit-Learn"
     },
-    "data.frameworks.Keras": {
+    "frameworks.Keras": {
       "kind": "multi_option",
-      "group": "data.frameworks",
+      "group": "frameworks",
       "option": "Keras"
     },
-    "data.frameworks.TensorFlow": {
+    "frameworks.TensorFlow": {
       "kind": "multi_option",
-      "group": "data.frameworks",
+      "group": "frameworks",
       "option": "TensorFlow"
     },
-    "data.frameworks.Theano": {
+    "frameworks.Theano": {
       "kind": "multi_option",
-      "group": "data.frameworks",
+      "group": "frameworks",
       "option": "Theano"
     },
-    "data.frameworks.NLTK": {
+    "frameworks.NLTK": {
       "kind": "multi_option",
-      "group": "data.frameworks",
+      "group": "frameworks",
       "option": "NLTK"
     },
-    "data.frameworks.MXNet": {
+    "frameworks.MXNet": {
       "kind": "multi_option",
-      "group": "data.frameworks",
+      "group": "frameworks",
       "option": "MXNet"
     },
-    "data.frameworks.Gensim": {
+    "frameworks.Gensim": {
       "kind": "multi_option",
-      "group": "data.frameworks",
+      "group": "frameworks",
       "option": "Gensim"
     },
-    "data.frameworks.Other": {
+    "frameworks.Other": {
       "kind": "multi_option",
-      "group": "data.frameworks",
+      "group": "frameworks",
       "option": "Other"
     },
     "other.frameworks.None": {
@@ -5414,7 +5414,7 @@
     "cloud.platform.Other": {
       "kind": "multi_option",
       "group": "cloud.platform",
-      "option": "Other"
+      "option": "Other - Write In"
     },
     "run.in.cloud.None of the following": {
       "kind": "multi_option",
@@ -5434,7 +5434,7 @@
     "run.in.cloud.On a Platform-as-a-Service": {
       "kind": "multi_option",
       "group": "run.in.cloud",
-      "option": "On a Platform-as-a-Service"
+      "option": "On a platform-as-a-service"
     },
     "run.in.cloud.Serverless": {
       "kind": "multi_option",
@@ -5509,7 +5509,7 @@
     "devenv.os.Other": {
       "kind": "multi_option",
       "group": "devenv.os",
-      "option": "Other"
+      "option": "Other - Write In"
     },
     "unittesting.None": {
       "kind": "multi_option",
@@ -5744,7 +5744,7 @@
     "bigdata.Other": {
       "kind": "multi_option",
       "group": "bigdata",
-      "option": "Other"
+      "option": "Other - Write In"
     },
     "ci.None": {
       "kind": "multi_option",
@@ -5804,7 +5804,7 @@
     "ci.Other": {
       "kind": "multi_option",
       "group": "ci",
-      "option": "Other"
+      "option": "Other - Write In"
     },
     "configuration.management.None": {
       "kind": "multi_option",
@@ -5839,7 +5839,7 @@
     "configuration.management.Other": {
       "kind": "multi_option",
       "group": "configuration.management",
-      "option": "Other"
+      "option": "Other - Write In"
     },
     "documentation.tool.I don't use any documentation tools": {
       "kind": "multi_option",
@@ -6074,9 +6074,9 @@
     "environments.isolate.hatch": {
       "kind": "multi_option",
       "group": "environments.isolate",
-      "option": "hatch"
+      "option": "Hatch"
     },
-    "environments.isolate.Poetry": {
+    "environments.isolate.Poetry__dup1": {
       "kind": "multi_option",
       "group": "environments.isolate",
       "option": "Poetry"
@@ -6084,9 +6084,9 @@
     "environments.isolate.pipenv": {
       "kind": "multi_option",
       "group": "environments.isolate",
-      "option": "pipenv"
+      "option": "Pipenv"
     },
-    "environments.isolate.Conda": {
+    "environments.isolate.Conda__dup1": {
       "kind": "multi_option",
       "group": "environments.isolate",
       "option": "Conda"
@@ -6124,7 +6124,7 @@
     "venv.I use it via virtualenv": {
       "kind": "multi_option",
       "group": "venv",
-      "option": "I use it via virtualenv"
+      "option": "I use it via Pipenv"
     },
     "venv.I use it via tox": {
       "kind": "multi_option",
@@ -6274,12 +6274,12 @@
     "dependency.tools.pipenv": {
       "kind": "multi_option",
       "group": "dependency.tools",
-      "option": "pipenv"
+      "option": "Pipenv"
     },
     "dependency.tools.poetry": {
       "kind": "multi_option",
       "group": "dependency.tools",
-      "option": "poetry"
+      "option": "Poetry"
     },
     "dependency.tools.pip-tools": {
       "kind": "multi_option",
@@ -6579,7 +6579,7 @@
     "libraries.tools.PDM-PEP517": {
       "kind": "multi_option",
       "group": "libraries.tools",
-      "option": "PDM"
+      "option": "PDM-PEP517"
     },
     "libraries.tools.Other": {
       "kind": "multi_option",
@@ -6616,9 +6616,9 @@
       "group": "libraries.publish.where",
       "option": "Other"
     },
-    "job.team": {
+    "employment.status.team": {
       "kind": "multi_option",
-      "group": "job",
+      "group": "employment.status",
       "option": "team"
     },
     "team.size": {
@@ -6728,9 +6728,9 @@
     }
   },
   "2023": {
-    "ide.python_version": {
+    "is.python.main": {
       "kind": "single_choice",
-      "group": "ide.python_version",
+      "group": "is.python.main",
       "option": ""
     },
     "other.lang.None": {
@@ -6751,7 +6751,7 @@
     "other.lang.C/C++": {
       "kind": "multi_option",
       "group": "other.lang",
-      "option": "C++"
+      "option": "C/C++"
     },
     "other.lang.PHP": {
       "kind": "multi_option",
@@ -6761,7 +6761,7 @@
     "other.lang.C#": {
       "kind": "multi_option",
       "group": "other.lang",
-      "option": "C++"
+      "option": "C#"
     },
     "other.lang.Ruby": {
       "kind": "multi_option",
@@ -6861,7 +6861,7 @@
     "other.lang.Other": {
       "kind": "multi_option",
       "group": "other.lang",
-      "option": "Other"
+      "option": "Other - Write In"
     },
     "python.years": {
       "kind": "multi_option",
@@ -6911,7 +6911,7 @@
     "other.purposes.DevOps / systems administration / writing automation scripts": {
       "kind": "multi_option",
       "group": "other.purposes",
-      "option": "DevOps / systems administration / writing automation scripts"
+      "option": "DevOps / System administration / Writing automation scripts"
     },
     "other.purposes.Software testing / Writing automated tests": {
       "kind": "multi_option",
@@ -6996,7 +6996,7 @@
     "how.involved.DevOps / systems administration / writing automation scripts": {
       "kind": "multi_level",
       "group": "how.involved",
-      "option": "DevOps / systems administration / writing automation scripts"
+      "option": "DevOps / System administration / Writing automation scripts"
     },
     "how.involved.Software testing / Writing automated tests": {
       "kind": "multi_level",
@@ -7043,9 +7043,9 @@
       "group": "how.involved",
       "option": "Game development"
     },
-    "how.involved.)": {
+    "how.involved.Multimedia applications development (apps handling various types of multimedia content, e.g. audio, graphics, etc.)": {
       "kind": "multi_level",
-      "group": "how.involved",
+      "group": "how.involved.Multimedia applications development (apps handling various types of multimedia content, e.g. audio, graphics, etc",
       "option": ")"
     },
     "how.involved.Embedded development": {
@@ -7058,9 +7058,9 @@
       "group": "how.involved",
       "option": "Programming of web parsers / scrapers / crawlers"
     },
-    "how.involved": {
+    "how.involved.Other, please specify:": {
       "kind": "free_text",
-      "group": "how.involved",
+      "group": "how.involved.Other, please specify:",
       "option": ""
     },
     "how.involved.MLOps": {
@@ -7181,7 +7181,7 @@
     "python.version.upgrade.OS-wide package-management tool": {
       "kind": "multi_option",
       "group": "python.version.upgrade",
-      "option": "OS-wide package-management tool"
+      "option": "OS-wide package-management tool (via apt-get, yum, homebrew, etc_)"
     },
     "python.version.upgrade.pyenv": {
       "kind": "multi_option",
@@ -7201,7 +7201,7 @@
     "python.version.upgrade.Other": {
       "kind": "multi_option",
       "group": "python.version.upgrade",
-      "option": "Other"
+      "option": "Other - Write In"
     },
     "web.frameworks.None": {
       "kind": "multi_option",
@@ -7511,7 +7511,7 @@
     "cloud.platform.Other": {
       "kind": "multi_option",
       "group": "cloud.platform",
-      "option": "Other"
+      "option": "Other - Write In"
     },
     "run.in.cloud.In virtual machines": {
       "kind": "multi_option",
@@ -7636,7 +7636,7 @@
     "devenv.os.Other": {
       "kind": "multi_option",
       "group": "devenv.os",
-      "option": "Other"
+      "option": "Other - Write In"
     },
     "data.exploration": {
       "kind": "single_choice",
@@ -7831,7 +7831,7 @@
     "frameworks.ml.Sklearn": {
       "kind": "multi_option",
       "group": "frameworks.ml",
-      "option": "Sklearn"
+      "option": "SciKit-Learn"
     },
     "frameworks.ml.DeepSpeed": {
       "kind": "multi_option",
@@ -7896,7 +7896,7 @@
     "frameworks.ml.Other": {
       "kind": "multi_option",
       "group": "frameworks.ml",
-      "option": "Other"
+      "option": "Other - Write In"
     },
     "experiment.tools.None": {
       "kind": "multi_option",
@@ -8101,7 +8101,7 @@
     "orm.I don't do database development": {
       "kind": "multi_option",
       "group": "orm",
-      "option": "I don't do database development"
+      "option": "I don’t do database development"
     },
     "orm.Raw SQL": {
       "kind": "multi_option",
@@ -8273,9 +8273,9 @@
       "group": "database",
       "option": "Other"
     },
-    "bigdata.work": {
+    "bigdata": {
       "kind": "single_choice",
-      "group": "bigdata.work",
+      "group": "bigdata",
       "option": ""
     },
     "bigdata.PySpark": {
@@ -8301,16 +8301,16 @@
     "bigdata.Other": {
       "kind": "multi_option",
       "group": "bigdata",
-      "option": "Other"
+      "option": "Other - Write In"
     },
     "bigdata.None": {
       "kind": "multi_option",
       "group": "bigdata",
       "option": "None"
     },
-    "bigdata.solution": {
+    "bigdata__dup1": {
       "kind": "single_choice",
-      "group": "bigdata.solution",
+      "group": "bigdata",
       "option": ""
     },
     "ci.None": {
@@ -8396,7 +8396,7 @@
     "ci.Other": {
       "kind": "multi_option",
       "group": "ci",
-      "option": "Other"
+      "option": "Other - Write In"
     },
     "configuration.management.None": {
       "kind": "multi_option",
@@ -8426,12 +8426,12 @@
     "configuration.management.A custom solution": {
       "kind": "multi_option",
       "group": "configuration.management",
-      "option": "A custom solution"
+      "option": "Custom solution"
     },
     "configuration.management.Other": {
       "kind": "multi_option",
       "group": "configuration.management",
-      "option": "Other"
+      "option": "Other - Write In"
     },
     "documentation.tool.None": {
       "kind": "multi_option",
@@ -8456,7 +8456,7 @@
     "documentation.tool.Swagger": {
       "kind": "multi_option",
       "group": "documentation.tool",
-      "option": "Swagger"
+      "option": "Swagger (OpenAPI)"
     },
     "documentation.tool.MKDocs": {
       "kind": "multi_option",
@@ -8468,9 +8468,9 @@
       "group": "documentation.tool",
       "option": "Doxygen"
     },
-    "documentation.tool.systems": {
+    "documentation.tool.Other systems, please specify": {
       "kind": "free_text",
-      "group": "documentation.tool.systems",
+      "group": "documentation.tool.Other systems, please specify",
       "option": ""
     },
     "documentation.tool.rST": {
@@ -8561,7 +8561,7 @@
     "ide.editor.Eclipse with PyDev": {
       "kind": "multi_option",
       "group": "ide.editor",
-      "option": "Eclipse with PyDev"
+      "option": "Eclipse + Pydev"
     },
     "ide.editor.JupyterLab": {
       "kind": "multi_option",
@@ -8631,17 +8631,17 @@
     "ide.editor.features.Use autocompletion in your editor": {
       "kind": "multi_option",
       "group": "ide.editor.features",
-      "option": "Use autocompletion in your editor"
+      "option": "autocompletion"
     },
     "ide.editor.features.Use a debugger": {
       "kind": "multi_level",
       "group": "ide.editor.features",
-      "option": "Use a debugger"
+      "option": "debugger"
     },
     "ide.editor.features.Refactor your code": {
       "kind": "multi_level",
       "group": "ide.editor.features",
-      "option": "Refactor your code"
+      "option": "refactor"
     },
     "ide.editor.features.Use version control systems": {
       "kind": "multi_level",
@@ -8651,7 +8651,7 @@
     "ide.editor.features.Use code linting": {
       "kind": "multi_level",
       "group": "ide.editor.features",
-      "option": "Use code linting"
+      "option": "linting"
     },
     "ide.editor.features.Use Python virtual environments for your projects": {
       "kind": "multi_level",
@@ -8661,32 +8661,32 @@
     "ide.editor.features.Use SQL databases": {
       "kind": "multi_level",
       "group": "ide.editor.features",
-      "option": "Use SQL databases"
+      "option": "sql"
     },
-    "ide.editor.features.)": {
+    "ide.editor.features.Run / debug or edit code on remote machines (remote hosts, VMs, etc.)": {
       "kind": "multi_level",
-      "group": "ide.editor.features",
+      "group": "ide.editor.features.Run / debug or edit code on remote machines (remote hosts, VMs, etc",
       "option": ")"
     },
     "ide.editor.features.Use a Python profiler": {
       "kind": "multi_level",
       "group": "ide.editor.features",
-      "option": "Use a Python profiler"
+      "option": "profiler"
     },
     "ide.editor.features.Write tests for your code": {
       "kind": "multi_level",
       "group": "ide.editor.features",
-      "option": "Write tests for your code"
+      "option": "tests"
     },
     "ide.editor.features.Use code coverage": {
       "kind": "multi_level",
       "group": "ide.editor.features",
-      "option": "Use code coverage"
+      "option": "coverage"
     },
     "ide.editor.features.Use type hinting": {
       "kind": "multi_level",
       "group": "ide.editor.features",
-      "option": "Use type hinting"
+      "option": "typehint"
     },
     "ide.editor.features.Use Continuous Integration tools": {
       "kind": "multi_level",
@@ -8696,12 +8696,12 @@
     "ide.editor.features.Use issue trackers": {
       "kind": "multi_level",
       "group": "ide.editor.features",
-      "option": "Use issue trackers"
+      "option": "issue"
     },
     "ide.editor.features.Use NoSQL databases": {
       "kind": "multi_level",
       "group": "ide.editor.features",
-      "option": "Use NoSQL databases"
+      "option": "nosql"
     },
     "nps.main.ide": {
       "kind": "numeric",
@@ -8756,7 +8756,7 @@
     "dependency.tools.Pip": {
       "kind": "multi_option",
       "group": "dependency.tools",
-      "option": "Pip"
+      "option": "pip"
     },
     "dependency.tools.Conda": {
       "kind": "multi_option",
@@ -8821,7 +8821,7 @@
     "dependency.store.environment_yml": {
       "kind": "multi_option",
       "group": "dependency.store",
-      "option": "environment_yml"
+      "option": "Conda environment_yml"
     },
     "dependency.store.setup_py": {
       "kind": "multi_option",
@@ -8841,7 +8841,7 @@
     "dependency.store.I don't store dependency information": {
       "kind": "multi_option",
       "group": "dependency.store",
-      "option": "I don't store dependency information"
+      "option": "I don’t store dependency information"
     },
     "packages.install.from.PyPI": {
       "kind": "multi_option",
@@ -8851,17 +8851,17 @@
     "packages.install.from.A local source": {
       "kind": "multi_option",
       "group": "packages.install.from",
-      "option": "A local source"
+      "option": "Local source"
     },
     "packages.install.from.An internal mirror of PyPI": {
       "kind": "multi_option",
       "group": "packages.install.from",
-      "option": "An internal mirror of PyPI"
+      "option": "Internal mirror of PyPI"
     },
     "packages.install.from.A private Python Package Index": {
       "kind": "multi_option",
       "group": "packages.install.from",
-      "option": "A private Python Package Index"
+      "option": "Private Python Package Index"
     },
     "packages.install.from.Anaconda": {
       "kind": "multi_option",
@@ -8871,7 +8871,7 @@
     "packages.install.from.Other Conda channels": {
       "kind": "multi_option",
       "group": "packages.install.from",
-      "option": "Other Conda channels"
+      "option": "Other Conda channel"
     },
     "packages.install.from.GitHub": {
       "kind": "multi_option",
@@ -8951,7 +8951,7 @@
     "binary.modules.language.C": {
       "kind": "multi_option",
       "group": "binary.modules.language",
-      "option": "C"
+      "option": "C++"
     },
     "binary.modules.language.C++": {
       "kind": "multi_option",
@@ -9036,7 +9036,7 @@
     "learning.source.Online coding schools and MOOCs": {
       "kind": "multi_option",
       "group": "learning.source",
-      "option": "Online coding schools and MOOCs"
+      "option": "Online coding schools and MOOCs (Codecademy, JetBrains Academy, Coursera, edX, Udacity, etc_)"
     },
     "learning.source.Paid trainer / consultant / mentor": {
       "kind": "multi_option",
@@ -9058,9 +9058,9 @@
       "group": "learning.source",
       "option": "Other"
     },
-    "job.team": {
+    "employment.status.team": {
       "kind": "multi_option",
-      "group": "job",
+      "group": "employment.status",
       "option": "team"
     },
     "team.size": {
@@ -9185,9 +9185,9 @@
     }
   },
   "2024": {
-    "ide.python_version": {
+    "is.python.main": {
       "kind": "single_choice",
-      "group": "ide.python_version",
+      "group": "is.python.main",
       "option": ""
     },
     "other.lang.None": {
@@ -9208,7 +9208,7 @@
     "other.lang.C/C++": {
       "kind": "multi_option",
       "group": "other.lang",
-      "option": "C++"
+      "option": "C/C++"
     },
     "other.lang.PHP": {
       "kind": "multi_option",
@@ -9218,7 +9218,7 @@
     "other.lang.C#": {
       "kind": "multi_option",
       "group": "other.lang",
-      "option": "C++"
+      "option": "C#"
     },
     "other.lang.Ruby": {
       "kind": "multi_option",
@@ -9318,7 +9318,7 @@
     "other.lang.Other": {
       "kind": "multi_option",
       "group": "other.lang",
-      "option": "Other"
+      "option": "Other - Write In"
     },
     "python.years": {
       "kind": "multi_option",
@@ -9368,7 +9368,7 @@
     "other.purposes.DevOps / systems administration / writing automation scripts": {
       "kind": "multi_option",
       "group": "other.purposes",
-      "option": "DevOps / systems administration / writing automation scripts"
+      "option": "DevOps / System administration / Writing automation scripts"
     },
     "other.purposes.Software testing / Writing automated tests": {
       "kind": "multi_option",
@@ -9453,7 +9453,7 @@
     "how.involved.DevOps / systems administration / writing automation scripts": {
       "kind": "multi_level",
       "group": "how.involved",
-      "option": "DevOps / systems administration / writing automation scripts"
+      "option": "DevOps / System administration / Writing automation scripts"
     },
     "how.involved.Software testing / Writing automated tests": {
       "kind": "multi_level",
@@ -9500,9 +9500,9 @@
       "group": "how.involved",
       "option": "Game development"
     },
-    "how.involved.)": {
+    "how.involved.Multimedia applications development (apps handling various types of multimedia content, e.g. audio, graphics, etc.)": {
       "kind": "multi_level",
-      "group": "how.involved",
+      "group": "how.involved.Multimedia applications development (apps handling various types of multimedia content, e.g. audio, graphics, etc",
       "option": ")"
     },
     "how.involved.Embedded development": {
@@ -9515,9 +9515,9 @@
       "group": "how.involved",
       "option": "Programming of web parsers / scrapers / crawlers"
     },
-    "how.involved": {
+    "how.involved.Other, please specify:": {
       "kind": "free_text",
-      "group": "how.involved",
+      "group": "how.involved.Other, please specify:",
       "option": ""
     },
     "how.involved.MLOps": {
@@ -9638,7 +9638,7 @@
     "python.version.upgrade.OS-wide package-management tool": {
       "kind": "multi_option",
       "group": "python.version.upgrade",
-      "option": "OS-wide package-management tool"
+      "option": "OS-wide package-management tool (via apt-get, yum, homebrew, etc_)"
     },
     "python.version.upgrade.pyenv": {
       "kind": "multi_option",
@@ -9658,7 +9658,7 @@
     "python.version.upgrade.Other": {
       "kind": "multi_option",
       "group": "python.version.upgrade",
-      "option": "Other"
+      "option": "Other - Write In"
     },
     "python.version.why.My projects are not compatible with the latest Python version": {
       "kind": "multi_option",
@@ -9668,32 +9668,32 @@
     "python.version.why.The version I'm using meets all my needs": {
       "kind": "multi_option",
       "group": "python.version.why",
-      "option": "The version I'm using meets all my needs"
+      "option": "The version I’m using meets all my needs"
     },
     "python.version.why.I haven't had the time to update": {
       "kind": "multi_option",
       "group": "python.version.why",
-      "option": "I haven't had the time to update"
+      "option": "I haven’t had the time to update"
     },
     "python.version.why.I'm concerned about the stability of the latest Python version": {
       "kind": "multi_option",
       "group": "python.version.why",
-      "option": "I'm concerned about the stability of the latest Python version"
+      "option": "I’m concerned about the stability of the latest Python version"
     },
     "python.version.why.It is our organization's policy to only use a specific Python version": {
       "kind": "multi_option",
       "group": "python.version.why",
-      "option": "It is our organization's policy to only use a specific Python version"
+      "option": "It is our organization’s policy to only use a specific Python version"
     },
     "python.version.why.I wasn't aware that the latest Python version is available": {
       "kind": "multi_option",
       "group": "python.version.why",
-      "option": "I wasn't aware that the latest Python version is available"
+      "option": "I wasn’t aware that the latest Python version is available"
     },
     "python.version.why.I don't have the necessary permission(s) to update my Python version": {
       "kind": "multi_option",
       "group": "python.version.why",
-      "option": "I don't have the necessary permission(s) to update my Python version"
+      "option": "I don’t have the necessary permission(s) to update my Python version"
     },
     "python.version.why.Other": {
       "kind": "multi_option",
@@ -10148,7 +10148,7 @@
     "cloud.platform.Other": {
       "kind": "multi_option",
       "group": "cloud.platform",
-      "option": "Other"
+      "option": "Other - Write In"
     },
     "run.in.cloud.In virtual machines": {
       "kind": "multi_option",
@@ -10273,7 +10273,7 @@
     "devenv.os.Other": {
       "kind": "multi_option",
       "group": "devenv.os",
-      "option": "Other"
+      "option": "Other - Write In"
     },
     "data.exploration": {
       "kind": "single_choice",
@@ -10548,7 +10548,7 @@
     "frameworks.ml.Sklearn": {
       "kind": "multi_option",
       "group": "frameworks.ml",
-      "option": "Sklearn"
+      "option": "SciKit-Learn"
     },
     "frameworks.ml.DeepSpeed": {
       "kind": "multi_option",
@@ -10613,7 +10613,7 @@
     "frameworks.ml.Other": {
       "kind": "multi_option",
       "group": "frameworks.ml",
-      "option": "Other"
+      "option": "Other - Write In"
     },
     "experiment.tools.None": {
       "kind": "multi_option",
@@ -10815,12 +10815,12 @@
       "group": "ml.cloud",
       "option": ""
     },
-    "ml.cloud.budget": {
+    "ml.cloud.cost.impact": {
       "kind": "single_choice",
-      "group": "ml.cloud.budget",
+      "group": "ml.cloud.cost.impact",
       "option": ""
     },
-    "ml.cloud.budget__dup1": {
+    "ml.cloud.budget": {
       "kind": "single_choice",
       "group": "ml.cloud.budget",
       "option": ""
@@ -10838,7 +10838,7 @@
     "ai.tools.coding.CodeGPT plugin in JetBrains IDEs": {
       "kind": "multi_option",
       "group": "ai.tools.coding",
-      "option": "CodeGPT plugin in VS Code"
+      "option": "CodeGPT plugin in JetBrains IDEs (IntelliJ IDEA, PyCharm, PhpStorm, etc_)"
     },
     "ai.tools.coding.GitHub Copilot": {
       "kind": "multi_option",
@@ -10848,7 +10848,7 @@
     "ai.tools.coding.Google Gemini": {
       "kind": "multi_option",
       "group": "ai.tools.coding",
-      "option": "Google Gemini"
+      "option": "Google Gemini (previously Bard)"
     },
     "ai.tools.coding.JetBrains AI Assistant": {
       "kind": "multi_option",
@@ -10873,7 +10873,7 @@
     "ai.tools.coding.Amazon Q Developer": {
       "kind": "multi_option",
       "group": "ai.tools.coding",
-      "option": "Amazon Q Developer"
+      "option": "Amazon Q Developer (previously CodeWhisperer)"
     },
     "ai.tools.coding.Anthropic Claude": {
       "kind": "multi_option",
@@ -10903,7 +10903,7 @@
     "ai.tools.coding.Gemini Code Assist": {
       "kind": "multi_option",
       "group": "ai.tools.coding",
-      "option": "Gemini Code Assist"
+      "option": "Gemini Code Assist (previously Duet AI for Developers)"
     },
     "ai.tools.coding.Cursor": {
       "kind": "multi_option",
@@ -10933,7 +10933,7 @@
     "orm.I don't do database development": {
       "kind": "multi_option",
       "group": "orm",
-      "option": "I don't do database development"
+      "option": "I don’t do database development"
     },
     "orm.Raw SQL": {
       "kind": "multi_option",
@@ -11105,9 +11105,9 @@
       "group": "database",
       "option": "Other"
     },
-    "bigdata.work": {
+    "bigdata": {
       "kind": "single_choice",
-      "group": "bigdata.work",
+      "group": "bigdata",
       "option": ""
     },
     "bigdata.PySpark": {
@@ -11133,16 +11133,16 @@
     "bigdata.Other": {
       "kind": "multi_option",
       "group": "bigdata",
-      "option": "Other"
+      "option": "Other - Write In"
     },
     "bigdata.None": {
       "kind": "multi_option",
       "group": "bigdata",
       "option": "None"
     },
-    "bigdata.solution": {
+    "bigdata__dup1": {
       "kind": "single_choice",
-      "group": "bigdata.solution",
+      "group": "bigdata",
       "option": ""
     },
     "ci.None": {
@@ -11228,7 +11228,7 @@
     "ci.Other": {
       "kind": "multi_option",
       "group": "ci",
-      "option": "Other"
+      "option": "Other - Write In"
     },
     "configuration.management.None": {
       "kind": "multi_option",
@@ -11258,12 +11258,12 @@
     "configuration.management.A custom solution": {
       "kind": "multi_option",
       "group": "configuration.management",
-      "option": "A custom solution"
+      "option": "Custom solution"
     },
     "configuration.management.Other": {
       "kind": "multi_option",
       "group": "configuration.management",
-      "option": "Other"
+      "option": "Other - Write In"
     },
     "documentation.tool.None": {
       "kind": "multi_option",
@@ -11288,7 +11288,7 @@
     "documentation.tool.Swagger": {
       "kind": "multi_option",
       "group": "documentation.tool",
-      "option": "Swagger"
+      "option": "Swagger (OpenAPI)"
     },
     "documentation.tool.MKDocs": {
       "kind": "multi_option",
@@ -11300,9 +11300,9 @@
       "group": "documentation.tool",
       "option": "Doxygen"
     },
-    "documentation.tool.systems": {
+    "documentation.tool.Other systems, please specify": {
       "kind": "free_text",
-      "group": "documentation.tool.systems",
+      "group": "documentation.tool.Other systems, please specify",
       "option": ""
     },
     "documentation.tool.rST": {
@@ -11393,7 +11393,7 @@
     "ide.editor.Eclipse with PyDev": {
       "kind": "multi_option",
       "group": "ide.editor",
-      "option": "Eclipse with PyDev"
+      "option": "Eclipse + Pydev"
     },
     "ide.editor.JupyterLab": {
       "kind": "multi_option",
@@ -11463,17 +11463,17 @@
     "ide.editor.features.Use autocompletion in your editor": {
       "kind": "multi_option",
       "group": "ide.editor.features",
-      "option": "Use autocompletion in your editor"
+      "option": "autocompletion"
     },
     "ide.editor.features.Use a debugger": {
       "kind": "multi_level",
       "group": "ide.editor.features",
-      "option": "Use a debugger"
+      "option": "debugger"
     },
     "ide.editor.features.Refactor your code": {
       "kind": "multi_level",
       "group": "ide.editor.features",
-      "option": "Refactor your code"
+      "option": "refactor"
     },
     "ide.editor.features.Use version control systems": {
       "kind": "multi_level",
@@ -11483,7 +11483,7 @@
     "ide.editor.features.Use code linting": {
       "kind": "multi_level",
       "group": "ide.editor.features",
-      "option": "Use code linting"
+      "option": "linting"
     },
     "ide.editor.features.Use Python virtual environments for your projects": {
       "kind": "multi_level",
@@ -11493,46 +11493,46 @@
     "ide.editor.features.Use SQL databases": {
       "kind": "multi_level",
       "group": "ide.editor.features",
-      "option": "Use SQL databases"
+      "option": "sql"
     },
-    "ide.editor.features.)": {
+    "ide.editor.features.Run / debug or edit code on remote machines (remote hosts, VMs, etc.)": {
       "kind": "multi_level",
-      "group": "ide.editor.features",
+      "group": "ide.editor.features.Run / debug or edit code on remote machines (remote hosts, VMs, etc",
       "option": ")"
     },
     "ide.editor.features.Use a Python profiler": {
       "kind": "multi_level",
       "group": "ide.editor.features",
-      "option": "Use a Python profiler"
+      "option": "profiler"
     },
     "ide.editor.features.Write tests for your code": {
       "kind": "multi_level",
       "group": "ide.editor.features",
-      "option": "Write tests for your code"
+      "option": "tests"
     },
     "ide.editor.features.Use code coverage": {
       "kind": "multi_level",
       "group": "ide.editor.features",
-      "option": "Use code coverage"
+      "option": "coverage"
     },
     "ide.editor.features.Use type hinting": {
       "kind": "multi_level",
       "group": "ide.editor.features",
-      "option": "Use type hinting"
+      "option": "typehint"
     },
     "ide.editor.features.Use Continuous Integration tools": {
       "kind": "multi_level",
       "group": "ide.editor.features",
       "option": "Use Continuous Integration tools"
     },
-    "ide.editor.features": {
+    "ide.editor.features.Use issue trackers": {
       "kind": "single_choice",
-      "group": "ide.editor.features",
+      "group": "ide.editor.features.Use issue trackers",
       "option": ""
     },
-    "ide.editor.features__dup1": {
+    "ide.editor.features.Use NoSQL databases": {
       "kind": "single_choice",
-      "group": "ide.editor.features",
+      "group": "ide.editor.features.Use NoSQL databases",
       "option": ""
     },
     "ide.file.edit": {
@@ -11668,7 +11668,7 @@
     "dependency.store.environment_yml": {
       "kind": "multi_option",
       "group": "dependency.store",
-      "option": "environment_yml"
+      "option": "Conda environment_yml"
     },
     "dependency.store.setup_py": {
       "kind": "multi_option",
@@ -11688,7 +11688,7 @@
     "dependency.store.I don't store dependency information": {
       "kind": "multi_option",
       "group": "dependency.store",
-      "option": "I don't store dependency information"
+      "option": "I don’t store dependency information"
     },
     "packages.install.from.PyPI": {
       "kind": "multi_option",
@@ -11698,17 +11698,17 @@
     "packages.install.from.A local source": {
       "kind": "multi_option",
       "group": "packages.install.from",
-      "option": "A local source"
+      "option": "Local source"
     },
     "packages.install.from.An internal mirror of PyPI": {
       "kind": "multi_option",
       "group": "packages.install.from",
-      "option": "An internal mirror of PyPI"
+      "option": "Internal mirror of PyPI"
     },
     "packages.install.from.A private Python Package Index": {
       "kind": "multi_option",
       "group": "packages.install.from",
-      "option": "A private Python Package Index"
+      "option": "Private Python Package Index"
     },
     "packages.install.from.Anaconda": {
       "kind": "multi_option",
@@ -11718,7 +11718,7 @@
     "packages.install.from.Other Conda channels": {
       "kind": "multi_option",
       "group": "packages.install.from",
-      "option": "Other Conda channels"
+      "option": "Other Conda channel"
     },
     "packages.install.from.GitHub": {
       "kind": "multi_option",
@@ -11808,7 +11808,7 @@
     "binary.modules.language.C": {
       "kind": "multi_option",
       "group": "binary.modules.language",
-      "option": "C"
+      "option": "C++"
     },
     "binary.modules.language.C++": {
       "kind": "multi_option",
@@ -11893,7 +11893,7 @@
     "learning.source.Online coding schools and MOOCs": {
       "kind": "multi_option",
       "group": "learning.source",
-      "option": "Online coding schools and MOOCs"
+      "option": "Online coding schools and MOOCs (Codecademy, JetBrains Academy, Coursera, edX, Udacity, etc_)"
     },
     "learning.source.Paid trainer / consultant / mentor": {
       "kind": "multi_option",
@@ -11915,9 +11915,9 @@
       "group": "learning.source",
       "option": "Other"
     },
-    "job.team": {
+    "employment.status.team": {
       "kind": "multi_option",
-      "group": "job",
+      "group": "employment.status",
       "option": "team"
     },
     "team.size": {

@@ -1,0 +1,122 @@
+{
+  "stage": "group_path",
+  "model": "qwen3.5:4b",
+  "model_digest": "d8b0f5e9760cd168",
+  "prompt_version": "group-path-v3",
+  "input_hash": "abc6a071d84df7189a260957c13c1954",
+  "created_at": "2026-10-23T22:38:17",
+  "duration_s": 6.14,
+  "output_tokens": 464,
+  "fallback": false,
+  "error": "",
+  "manual_edit": false,
+  "reviewed": false,
+  "payload_summary": {
+    "n_groups": 20,
+    "n_candidates": 187
+  },
+  "response": {
+    "groups": [
+      {
+        "name": "role.architect",
+        "canonical": "role.architect",
+        "reason": "候选中有完全匹配项，无需修改。"
+      },
+      {
+        "name": "role.other",
+        "canonical": "role.other",
+        "reason": "候选中有完全匹配项，无需修改。"
+      },
+      {
+        "name": "run.in.cloud",
+        "canonical": "run.in.cloud",
+        "reason": "候选中有完全匹配项，无需修改。"
+      },
+      {
+        "name": "several",
+        "canonical": "several",
+        "reason": "候选中有完全匹配项，无需修改。"
+      },
+      {
+        "name": "several.projects",
+        "canonical": "several.projects",
+        "reason": "候选中有完全匹配项，无需修改。"
+      },
+      {
+        "name": "team",
+        "canonical": "team",
+        "reason": "候选中有完全匹配项，无需修改。"
+      },
+      {
+        "name": "team.size",
+        "canonical": "team.size",
+        "reason": "候选中有完全匹配项，无需修改。"
+      },
+      {
+        "name": "training.platforms",
+        "canonical": "training.platforms",
+        "reason": "候选中有完全匹配项，无需修改。"
+      },
+      {
+        "name": "trusted",
+        "canonical": "keep",
+        "reason": "候选清单中无对应语义项，保留原名。"
+      },
+      {
+        "name": "unittesting",
+        "canonical": "unittesting",
+        "reason": "候选中有完全匹配项，无需修改。"
+      },
+      {
+        "name": "use.python",
+        "canonical": "use.python",
+        "reason": "候选中有完全匹配项，无需修改。"
+      },
+      {
+        "name": "use.python.most",
+        "canonical": "use.python.most",
+        "reason": "候选中有完全匹配项，无需修改。"
+      },
+      {
+        "name": "used.tools",
+        "canonical": "used.tools",
+        "reason": "候选中有完全匹配项，无需修改。"
+      },
+      {
+        "name": "venv",
+        "canonical": "venv",
+        "reason": "候选中有完全匹配项，无需修改。"
+      },
+      {
+        "name": "versioning.tools",
+        "canonical": "versioning.tools",
+        "reason": "候选中有完全匹配项，无需修改。"
+      },
+      {
+        "name": "vscode",
+        "canonical": "vscode",
+        "reason": "候选中有完全匹配项，无需修改。"
+      },
+      {
+        "name": "web.frameworks",
+        "canonical": "web.frameworks",
+        "reason": "候选中有完全匹配项，无需修改。"
+      },
+      {
+        "name": "work.pattern",
+        "canonical": "keep",
+        "reason": "候选清单中无对应语义项，保留原名。"
+      },
+      {
+        "name": "years.of",
+        "canonical": "years.of",
+        "reason": "候选中有完全匹配项，无需修改。"
+      },
+      {
+        "name": "years.of.coding",
+        "canonical": "years.of.coding",
+        "reason": "候选中有完全匹配项，无需修改。"
+      }
+    ]
+  }
+}

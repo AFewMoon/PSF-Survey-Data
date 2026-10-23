@@ -1,0 +1,94 @@
+{
+  "stage": "pair_judge",
+  "model": "qwen3.5:4b",
+  "model_digest": "d8b0f5e9760cd168",
+  "prompt_version": "pair-judge-v1",
+  "input_hash": "864b2dc5afe5dad574f6be9a7b69409a",
+  "created_at": "2026-10-23T22:52:29",
+  "duration_s": 3.91,
+  "output_tokens": 345,
+  "fallback": false,
+  "error": "",
+  "manual_edit": false,
+  "reviewed": false,
+  "payload_summary": {
+    "unit": "packages.install.from",
+    "n_pairs": 12
+  },
+  "response": {
+    "pairs": [
+      {
+        "id": "p1",
+        "same": true,
+        "canonical": "A private Python Package Index",
+        "reason": "仅去掉了'private'一词，语义不同"
+      },
+      {
+        "id": "p2",
+        "same": true,
+        "canonical": "Other Conda channels (conda-forge or similar)",
+        "reason": "括号内为具体示例，语义等价"
+      },
+      {
+        "id": "p3",
+        "same": true,
+        "canonical": "A local source",
+        "reason": "仅去掉了'a'，语义等价"
+      },
+      {
+        "id": "p4",
+        "same": true,
+        "canonical": "An internal mirror of PyPI",
+        "reason": "仅去掉了'an'，语义等价"
+      },
+      {
+        "id": "p5",
+        "same": false,
+        "canonical": "",
+        "reason": "'Default'与'Other'指向不同对象"
+      },
+      {
+        "id": "p6",
+        "same": false,
+        "canonical": "",
+        "reason": "'Other'包含多种，'conda-forge'仅为其中一种"
+      },
+      {
+        "id": "p7",
+        "same": false,
+        "canonical": "",
+        "reason": "'Default'与'Other'指向不同对象"
+      },
+      {
+        "id": "p8",
+        "same": false,
+        "canonical": "",
+        "reason": "'Other'包含多种，'conda-forge'仅为其中一种"
+      },
+      {
+        "id": "p9",
+        "same": false,
+        "canonical": "",
+        "reason": "'Other'范围更广，'Other Conda channel'是特指"
+      },
+      {
+        "id": "p10",
+        "same": false,
+        "canonical": "",
+        "reason": "'Other'范围更广，'Other Conda...'是特指"
+      },
+      {
+        "id": "p11",
+        "same": false,
+        "canonical": "",
+        "reason": "'Internal mirror'是具体形式，'PyPI'是平台本身"
+      },
+      {
+        "id": "p12",
+        "same": false,
+        "canonical": "",
+        "reason": "'Internal mirror'是具体形式，'PyPI'是平台本身"
+      }
+    ]
+  }
+}

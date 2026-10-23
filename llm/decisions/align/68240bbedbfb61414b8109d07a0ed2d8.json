@@ -1,0 +1,282 @@
+{
+  "stage": "group_path",
+  "model": "qwen3.5:4b",
+  "model_digest": "d8b0f5e9760cd168",
+  "prompt_version": "group-path-v2",
+  "input_hash": "68240bbedbfb61414b8109d07a0ed2d8",
+  "created_at": "2026-10-23T22:34:02",
+  "duration_s": 14.38,
+  "output_tokens": 1188,
+  "fallback": false,
+  "error": "",
+  "manual_edit": false,
+  "reviewed": false,
+  "payload_summary": {
+    "n_groups": 52,
+    "n_candidates": 80
+  },
+  "response": {
+    "groups": [
+      {
+        "name": "ml.deployment",
+        "canonical": "keep",
+        "reason": "候选清单无对应项，保留原名。"
+      },
+      {
+        "name": "ml.training",
+        "canonical": "keep",
+        "reason": "候选清单无对应项，保留原名。"
+      },
+      {
+        "name": "monorepo",
+        "canonical": "keep",
+        "reason": "候选清单无对应项，保留原名。"
+      },
+      {
+        "name": "most.of.the.time.do.you",
+        "canonical": "keep",
+        "reason": "候选清单无对应项，保留原名。"
+      },
+      {
+        "name": "nps.main.ide",
+        "canonical": "keep",
+        "reason": "候选清单无对应项，保留原名。"
+      },
+      {
+        "name": "opensource",
+        "canonical": "opensource",
+        "reason": "直接匹配候选清单。"
+      },
+      {
+        "name": "opensource.description",
+        "canonical": "keep",
+        "reason": "候选清单无对应项，保留原名。"
+      },
+      {
+        "name": "orm",
+        "canonical": "keep",
+        "reason": "候选清单无对应项，保留原名。"
+      },
+      {
+        "name": "other.-.write.in",
+        "canonical": "keep",
+        "reason": "候选清单无对应项，保留原名。"
+      },
+      {
+        "name": "other.-.write.in.what.data.science.framework.s.do.you.use.in.addition.to.python",
+        "canonical": "keep",
+        "reason": "候选清单无对应项，保留原名。"
+      },
+      {
+        "name": "other.frameworks",
+        "canonical": "keep",
+        "reason": "候选清单无对应项，保留原名。"
+      },
+      {
+        "name": "other.lang",
+        "canonical": "keep",
+        "reason": "候选清单无对应项，保留原名。"
+      },
+      {
+        "name": "other.purposes",
+        "canonical": "keep",
+        "reason": "候选清单无对应项，保留原名。"
+      },
+      {
+        "name": "other.write.in.what.editors.ides.do.you.use.for.python.development.in.addition.to.your.primary.ide",
+        "canonical": "keep",
+        "reason": "候选清单无对应项，保留原名。"
+      },
+      {
+        "name": "other.write.in.what.web.frameworks.libraries.do.you.use.in.addition.to.python",
+        "canonical": "keep",
+        "reason": "候选清单无对应项，保留原名。"
+      },
+      {
+        "name": "packages.install",
+        "canonical": "keep",
+        "reason": "候选清单无对应项，保留原名。"
+      },
+      {
+        "name": "packages.install.from",
+        "canonical": "keep",
+        "reason": "候选清单无对应项，保留原名。"
+      },
+      {
+        "name": "packaging.tools",
+        "canonical": "keep",
+        "reason": "候选清单无对应项，保留原名。"
+      },
+      {
+        "name": "purposes.python",
+        "canonical": "keep",
+        "reason": "候选清单无对应项，保留原名。"
+      },
+      {
+        "name": "purposes.python.graphics",
+        "canonical": "keep",
+        "reason": "候选清单无对应项，保留原名。"
+      },
+      {
+        "name": "python",
+        "canonical": "keep",
+        "reason": "候选清单无对应项，保留原名。"
+      },
+      {
+        "name": "python.version",
+        "canonical": "keep",
+        "reason": "候选清单无对应项，保留原名。"
+      },
+      {
+        "name": "python.version.most",
+        "canonical": "keep",
+        "reason": "候选清单无对应项，保留原名。"
+      },
+      {
+        "name": "python.version.upgrade",
+        "canonical": "keep",
+        "reason": "候选清单无对应项，保留原名。"
+      },
+      {
+        "name": "python.version.why",
+        "canonical": "keep",
+        "reason": "候选清单无对应项，保留原名。"
+      },
+      {
+        "name": "python.years",
+        "canonical": "keep",
+        "reason": "候选清单无对应项，保留原名。"
+      },
+      {
+        "name": "python2.version",
+        "canonical": "keep",
+        "reason": "候选清单无对应项，保留原名。"
+      },
+      {
+        "name": "python2.version.most",
+        "canonical": "keep",
+        "reason": "候选清单无对应项，保留原名。"
+      },
+      {
+        "name": "python3.version",
+        "canonical": "keep",
+        "reason": "候选清单无对应项，保留原名。"
+      },
+      {
+        "name": "python3.version.most",
+        "canonical": "keep",
+        "reason": "候选清单无对应项，保留原名。"
+      },
+      {
+        "name": "region",
+        "canonical": "keep",
+        "reason": "候选清单无对应项，保留原名。"
+      },
+      {
+        "name": "response_id",
+        "canonical": "keep",
+        "reason": "候选清单无对应项，保留原名。"
+      },
+      {
+        "name": "role.architect",
+        "canonical": "keep",
+        "reason": "候选清单无对应项，保留原名。"
+      },
+      {
+        "name": "role.other",
+        "canonical": "keep",
+        "reason": "候选清单无对应项，保留原名。"
+      },
+      {
+        "name": "run.in.cloud",
+        "canonical": "keep",
+        "reason": "候选清单无对应项，保留原名。"
+      },
+      {
+        "name": "several",
+        "canonical": "keep",
+        "reason": "候选清单无对应项，保留原名。"
+      },
+      {
+        "name": "several.projects",
+        "canonical": "keep",
+        "reason": "候选清单无对应项，保留原名。"
+      },
+      {
+        "name": "team",
+        "canonical": "keep",
+        "reason": "候选清单无对应项，保留原名。"
+      },
+      {
+        "name": "team.size",
+        "canonical": "keep",
+        "reason": "候选清单无对应项，保留原名。"
+      },
+      {
+        "name": "training.platforms",
+        "canonical": "keep",
+        "reason": "候选清单无对应项，保留原名。"
+      },
+      {
+        "name": "trusted",
+        "canonical": "keep",
+        "reason": "候选清单无对应项，保留原名。"
+      },
+      {
+        "name": "unittesting",
+        "canonical": "keep",
+        "reason": "候选清单无对应项，保留原名。"
+      },
+      {
+        "name": "use.python",
+        "canonical": "keep",
+        "reason": "候选清单无对应项，保留原名。"
+      },
+      {
+        "name": "use.python.most",
+        "canonical": "keep",
+        "reason": "候选清单无对应项，保留原名。"
+      },
+      {
+        "name": "used.tools",
+        "canonical": "keep",
+        "reason": "候选清单无对应项，保留原名。"
+      },
+      {
+        "name": "venv",
+        "canonical": "keep",
+        "reason": "候选清单无对应项，保留原名。"
+      },
+      {
+        "name": "versioning.tools",
+        "canonical": "keep",
+        "reason": "候选清单无对应项，保留原名。"
+      },
+      {
+        "name": "vscode",
+        "canonical": "keep",
+        "reason": "候选清单无对应项，保留原名。"
+      },
+      {
+        "name": "web.frameworks",
+        "canonical": "keep",
+        "reason": "候选清单无对应项，保留原名。"
+      },
+      {
+        "name": "work.pattern",
+        "canonical": "keep",
+        "reason": "候选清单无对应项，保留原名。"
+      },
+      {
+        "name": "years.of",
+        "canonical": "keep",
+        "reason": "候选清单无对应项，保留原名。"
+      },
+      {
+        "name": "years.of.coding",
+        "canonical": "keep",
+        "reason": "候选清单无对应项，保留原名。"
+      }
+    ]
+  }
+}

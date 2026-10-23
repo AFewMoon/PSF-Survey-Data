@@ -1,0 +1,33 @@
+{
+  "stage": "group_pair",
+  "model": "qwen3.5:4b",
+  "model_digest": "d8b0f5e9760cd168",
+  "prompt_version": "group-pair-v1",
+  "input_hash": "c7251ca7a0fd41e903bf36ef98108775",
+  "created_at": "2026-10-23T22:51:29",
+  "duration_s": 1.11,
+  "output_tokens": 54,
+  "fallback": false,
+  "error": "",
+  "manual_edit": false,
+  "reviewed": false,
+  "payload_summary": {
+    "n_pairs": 2
+  },
+  "response": {
+    "pairs": [
+      {
+        "id": "p1",
+        "same": true,
+        "canonical": "a",
+        "reason": "选项重合度高，a 更短"
+      },
+      {
+        "id": "p2",
+        "same": true,
+        "canonical": "a",
+        "reason": "选项重合度高，a 更短"
+      }
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "stage": "pair_judge",
+  "model": "qwen3.5:4b",
+  "model_digest": "d8b0f5e9760cd168",
+  "prompt_version": "pair-judge-v1",
+  "input_hash": "418460fae2aee970a3bcdef8c00c2964",
+  "created_at": "2026-10-23T22:52:23",
+  "duration_s": 1.15,
+  "output_tokens": 88,
+  "fallback": false,
+  "error": "",
+  "manual_edit": false,
+  "reviewed": false,
+  "payload_summary": {
+    "unit": "venv",
+    "n_pairs": 3
+  },
+  "response": {
+    "pairs": [
+      {
+        "id": "p1",
+        "same": true,
+        "canonical": "I use it via Pipenv",
+        "reason": "Pipenv 是 virtualenv 的现代封装，语义等价"
+      },
+      {
+        "id": "p2",
+        "same": false,
+        "canonical": "",
+        "reason": "Poetry 与 tox 是两种不同的工具"
+      },
+      {
+        "id": "p3",
+        "same": false,
+        "canonical": "",
+        "reason": "Pipenv 与 Poetry 是两种不同的工具"
+      }
+    ]
+  }
+}

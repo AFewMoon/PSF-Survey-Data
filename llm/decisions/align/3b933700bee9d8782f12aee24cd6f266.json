@@ -1,0 +1,112 @@
+{
+  "stage": "pair_judge",
+  "model": "qwen3.5:4b",
+  "model_digest": "d8b0f5e9760cd168",
+  "prompt_version": "pair-judge-v1",
+  "input_hash": "3b933700bee9d8782f12aee24cd6f266",
+  "created_at": "2026-10-23T22:52:38",
+  "duration_s": 4.57,
+  "output_tokens": 365,
+  "fallback": false,
+  "error": "",
+  "manual_edit": false,
+  "reviewed": false,
+  "payload_summary": {
+    "unit": "ide.editor.features",
+    "n_pairs": 15
+  },
+  "response": {
+    "pairs": [
+      {
+        "id": "p1",
+        "same": false,
+        "canonical": "",
+        "reason": "SQL 与 NoSQL 是互斥概念"
+      },
+      {
+        "id": "p2",
+        "same": true,
+        "canonical": "Use a debugger",
+        "reason": "完整表述更通用"
+      },
+      {
+        "id": "p3",
+        "same": false,
+        "canonical": "",
+        "reason": "SQL 与 NoSQL 是互斥概念"
+      },
+      {
+        "id": "p4",
+        "same": true,
+        "canonical": "Use type hinting",
+        "reason": "完整表述更通用"
+      },
+      {
+        "id": "p5",
+        "same": false,
+        "canonical": "",
+        "reason": "linting 与 type hinting 语义不同"
+      },
+      {
+        "id": "p6",
+        "same": false,
+        "canonical": "",
+        "reason": "重构与写测试是不同行为"
+      },
+      {
+        "id": "p7",
+        "same": true,
+        "canonical": "Use code coverage",
+        "reason": "完整表述更通用"
+      },
+      {
+        "id": "p8",
+        "same": true,
+        "canonical": "Refactor your code",
+        "reason": "完整表述更通用"
+      },
+      {
+        "id": "p9",
+        "same": true,
+        "canonical": "Use code linting (programs that analyze code for potential errors)",
+        "reason": "完整表述更通用"
+      },
+      {
+        "id": "p10",
+        "same": true,
+        "canonical": "Use autocompletion in your editor",
+        "reason": "完整表述更通用"
+      },
+      {
+        "id": "p11",
+        "same": true,
+        "canonical": "Use a Python profiler",
+        "reason": "完整表述更通用"
+      },
+      {
+        "id": "p12",
+        "same": true,
+        "canonical": "Use issue trackers",
+        "reason": "完整表述更通用"
+      },
+      {
+        "id": "p13",
+        "same": true,
+        "canonical": "Use NoSQL databases",
+        "reason": "完整表述更通用"
+      },
+      {
+        "id": "p14",
+        "same": true,
+        "canonical": "Write tests for your code",
+        "reason": "完整表述更通用"
+      },
+      {
+        "id": "p15",
+        "same": true,
+        "canonical": "Use SQL databases",
+        "reason": "完整表述更通用"
+      }
+    ]
+  }
+}

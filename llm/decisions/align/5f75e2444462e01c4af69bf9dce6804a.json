@@ -1,0 +1,45 @@
+{
+  "stage": "group_pair",
+  "model": "qwen3.5:4b",
+  "model_digest": "d8b0f5e9760cd168",
+  "prompt_version": "group-pair-v1",
+  "input_hash": "5f75e2444462e01c4af69bf9dce6804a",
+  "created_at": "2026-10-23T22:46:31",
+  "duration_s": 1.68,
+  "output_tokens": 97,
+  "fallback": false,
+  "error": "",
+  "manual_edit": false,
+  "reviewed": false,
+  "payload_summary": {
+    "n_pairs": 4
+  },
+  "response": {
+    "pairs": [
+      {
+        "id": "p1",
+        "same": true,
+        "canonical": "a",
+        "reason": "选项完全一致，a 更短。"
+      },
+      {
+        "id": "p2",
+        "same": true,
+        "canonical": "a",
+        "reason": "选项完全一致，a 更短。"
+      },
+      {
+        "id": "p3",
+        "same": false,
+        "canonical": "a",
+        "reason": "选项指向不同事物。"
+      },
+      {
+        "id": "p4",
+        "same": false,
+        "canonical": "a",
+        "reason": "选项指向不同事物。"
+      }
+    ]
+  }
+}

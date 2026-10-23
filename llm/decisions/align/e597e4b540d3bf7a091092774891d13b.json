@@ -1,0 +1,72 @@
+{
+  "stage": "group_path",
+  "model": "qwen3.5:4b",
+  "model_digest": "d8b0f5e9760cd168",
+  "prompt_version": "group-path-v3",
+  "input_hash": "e597e4b540d3bf7a091092774891d13b",
+  "created_at": "2026-10-23T22:51:58",
+  "duration_s": 2.47,
+  "output_tokens": 206,
+  "fallback": false,
+  "error": "",
+  "manual_edit": false,
+  "reviewed": false,
+  "payload_summary": {
+    "n_groups": 10,
+    "n_candidates": 84
+  },
+  "response": {
+    "groups": [
+      {
+        "name": "several",
+        "canonical": "several.projects",
+        "reason": "选项含 projects，匹配候选。"
+      },
+      {
+        "name": "team",
+        "canonical": "team.size",
+        "reason": "选项含 size，匹配候选。"
+      },
+      {
+        "name": "training.platforms",
+        "canonical": "keep",
+        "reason": "无候选匹配，保留原名。"
+      },
+      {
+        "name": "trusted",
+        "canonical": "keep",
+        "reason": "无候选匹配，保留原名。"
+      },
+      {
+        "name": "use.python",
+        "canonical": "use.python.most",
+        "reason": "选项含 most，匹配候选。"
+      },
+      {
+        "name": "used.tools",
+        "canonical": "keep",
+        "reason": "无候选匹配，保留原名。"
+      },
+      {
+        "name": "versioning.tools",
+        "canonical": "keep",
+        "reason": "无候选匹配，保留原名。"
+      },
+      {
+        "name": "vscode",
+        "canonical": "keep",
+        "reason": "选项为 wrangler，与候选无关。"
+      },
+      {
+        "name": "work.pattern",
+        "canonical": "keep",
+        "reason": "无候选匹配，保留原名。"
+      },
+      {
+        "name": "years.of",
+        "canonical": "years.of.coding",
+        "reason": "选项含 coding，匹配候选。"
+      }
+    ]
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "stage": "pair_judge",
+  "model": "qwen3.5:4b",
+  "model_digest": "d8b0f5e9760cd168",
+  "prompt_version": "pair-judge-v1",
+  "input_hash": "767090535daa567bfd54051ae893ba3d",
+  "created_at": "2026-10-23T22:51:59",
+  "duration_s": 1.09,
+  "output_tokens": 55,
+  "fallback": false,
+  "error": "",
+  "manual_edit": false,
+  "reviewed": false,
+  "payload_summary": {
+    "unit": "other.lang",
+    "n_pairs": 2
+  },
+  "response": {
+    "pairs": [
+      {
+        "id": "p1",
+        "same": true,
+        "canonical": "Other - Write In",
+        "reason": "后者为前者补充说明的完整写法"
+      },
+      {
+        "id": "p2",
+        "same": false,
+        "canonical": "",
+        "reason": "C/C++与Objective-C指向不同语言"
+      }
+    ]
+  }
+}

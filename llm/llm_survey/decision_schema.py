@@ -182,6 +182,119 @@ def validate_global_plan(
 # ---------------------------------------------------------------- 对齐映射
 
 
+def _fingerprint_reject(
+    src: str, dst: str, fingerprints: dict[str, dict[str, Any]]
+) -> str:
+    """取值指纹护栏：用数据本身否决「结构合法、语义错误」的组映射。"""
+    if src == dst:
+        return ""
+    fsrc = fingerprints.get(src)
+    if not fsrc:
+        return ""  # 证据不足不拦，交给候选集与人工审核
+    if fsrc.get("yesno_share", 0.0) >= config.YES_NO_SHARE_MAX and any(
+        marker in segment
+        for segment in dst.split(".")
+        for marker in ("version", "release")
+    ):
+        return (
+            f"{src}: 取值以 Yes/No 为主（{fsrc['yesno_share']:.0%}），"
+            f"不能映射到版本类路径 {dst}，已保留原名"
+        )
+    fdst = fingerprints.get(dst)
+    if not fdst:
+        return ""
+    kinds_src = set(fsrc.get("kinds", ()))
+    kinds_dst = set(fdst.get("kinds", ()))
+    if (kinds_src == {"multi_level"} and kinds_dst == {"multi_option"}) or (
+        kinds_src == {"multi_option"} and kinds_dst == {"multi_level"}
+    ):
+        # 同一份选项清单可能来自不同题型：multi_level 是「程度网格」（primary/secondary/hobby），
+        # multi_option 是「勾选集合」。两者题目不同，选项重合再高也不能合并。
+        return (
+            f"{src} → {dst}: 题型冲突（{next(iter(kinds_src))} vs {next(iter(kinds_dst))}），"
+            "已保留原名"
+        )
+    if "multi_option" not in kinds_src and "multi_level" not in kinds_src:
+        # 单选取值随年份变化是常态（版本号、年限区间），集合不重合不代表题目不同；
+        # 只有多选题的选项文本才是稳定的「同题指纹」。
+        return ""
+    left = set(fsrc.get("values", []))
+    right = set(fdst.get("values", []))
+    if len(left) >= config.GROUP_FP_MIN_ITEMS and len(right) >= config.GROUP_FP_MIN_ITEMS:
+        union = left | right
+        jaccard = len(left & right) / len(union) if union else 0.0
+        if jaccard < config.GROUP_FP_JACCARD_MIN:
+            return (
+                f"{src} → {dst}: 取值指纹 Jaccard {jaccard:.2f} 低于 "
+                f"{config.GROUP_FP_JACCARD_MIN}，已保留原名"
+            )
+    return ""
+
+
+def validate_group_map_closed(
+    response: dict[str, Any],
+    groups: list[str],
+    candidates: list[str],
+    fingerprints: dict[str, dict[str, Any]] | None = None,
+) -> tuple[dict[str, str], list[str]]:
+    """封闭集分类：canonical 必须取自候选词表或 "keep"，并过取值指纹护栏。
+
+    与 validate_group_map 的区别：后者只要求「非空且无空格」，模型可自造路径；
+    这里把错误空间压到候选集内，越界一律回退原组名。
+    """
+    items = response.get("groups")
+    if not isinstance(items, list):
+        raise DecisionError("组路径决策缺少 groups 数组")
+    allowed_src = set(groups)
+    allowed_dst = set(candidates)
+    fps = fingerprints or {}
+    mapping: dict[str, str] = {}
+    problems: list[str] = []
+    for raw in items:
+        if not isinstance(raw, dict):
+            problems.append("groups 内含非对象元素")
+            continue
+        src = str(raw.get("name", "")).strip()
+        dst = str(raw.get("canonical", "")).strip()
+        if src not in allowed_src:
+            problems.append(f"未知组路径：{src!r}")
+            continue
+        if not dst or dst == "keep":
+            mapping[src] = src
+            continue
+        if dst not in allowed_dst:
+            problems.append(f"{src}: canonical 不在候选集（{dst!r}），已保留原名")
+            mapping[src] = src
+            continue
+        reject = _fingerprint_reject(src, dst, fps)
+        if reject:
+            problems.append(reject)
+            mapping[src] = src
+            continue
+        mapping[src] = dst
+    return mapping, problems
+
+
+def guard_group_mapping(
+    mapping: dict[str, str], fingerprints: dict[str, dict[str, Any]]
+) -> tuple[dict[str, str], list[str]]:
+    """对已有组映射做取值指纹兜底：不合法（证据与语义冲突）的条目回退原名。
+
+    快对齐与封闭集命名各有一段校验，这里保证最终写进数据的映射整体再过一次，
+    避免 「结构合法、语义错误」的改道（is.python.main → ide.python_version）漏网。
+    """
+    final: dict[str, str] = {}
+    problems: list[str] = []
+    for src, dst in mapping.items():
+        reject = _fingerprint_reject(src, dst, fingerprints)
+        if reject:
+            problems.append(reject)
+            final[src] = src
+        else:
+            final[src] = dst
+    return final, problems
+
+
 def validate_group_map(
     response: dict[str, Any], groups: list[str]
 ) -> tuple[dict[str, str], list[str]]:
@@ -306,6 +419,146 @@ def validate_cluster_batch(
                 per_group[key] = canonical
         if per_group:
             mapping[name] = per_group
+    return mapping, problems
+
+
+# ---------------------------------------------------------------- 逐对判断
+
+
+def validate_pair_judgments(
+    response: dict[str, Any], pairs: list[dict[str, str]]
+) -> tuple[list[dict[str, str]], list[str]]:
+    """逐对二元判断校验：id 必须存在且唯一，same=true 时 canonical 必须取自该对。
+
+    返回 [{"group","a","b","canonical"}]，只保留判为同义的条目。
+    """
+    items = response.get("pairs")
+    if not isinstance(items, list):
+        raise DecisionError("逐对判断缺少 pairs 数组")
+    by_id = {str(item["id"]): item for item in pairs}
+    seen: set[str] = set()
+    accepted: list[dict[str, str]] = []
+    problems: list[str] = []
+    for raw in items:
+        if not isinstance(raw, dict):
+            problems.append("pairs 内含非对象元素")
+            continue
+        pid = str(raw.get("id", "")).strip()
+        if pid not in by_id:
+            problems.append(f"未知候选对 id：{pid!r}")
+            continue
+        if pid in seen:
+            problems.append(f"候选对重复判断：{pid}")
+            continue
+        seen.add(pid)
+        if not bool(raw.get("same", False)):
+            continue
+        item = by_id[pid]
+        canonical = str(raw.get("canonical", "")).strip()
+        if canonical not in {item["a"], item["b"]}:
+            problems.append(f"{pid}: canonical 必须取自该对（{canonical!r}），已忽略")
+            continue
+        accepted.append(
+            {"group": item["group"], "a": item["a"], "b": item["b"],
+             "canonical": canonical, "reason": str(raw.get("reason", ""))[:120]}
+        )
+    return accepted, problems
+
+
+def validate_group_pairs(
+    response: dict[str, Any], pairs: list[dict[str, Any]]
+) -> tuple[list[dict[str, str]], list[str]]:
+    """组对判断校验：same=true 时 canonical 必须是 "a"/"b"，转成实际组路径。"""
+    items = response.get("pairs")
+    if not isinstance(items, list):
+        raise DecisionError("组对判断缺少 pairs 数组")
+    by_id = {str(item["id"]): item for item in pairs}
+    seen: set[str] = set()
+    accepted: list[dict[str, str]] = []
+    problems: list[str] = []
+    for raw in items:
+        if not isinstance(raw, dict):
+            problems.append("pairs 内含非对象元素")
+            continue
+        pid = str(raw.get("id", "")).strip()
+        if pid not in by_id:
+            problems.append(f"未知组对 id：{pid!r}")
+            continue
+        if pid in seen:
+            problems.append(f"组对重复判断：{pid}")
+            continue
+        seen.add(pid)
+        if not bool(raw.get("same", False)):
+            continue
+        choice = str(raw.get("canonical", "")).strip().lower()
+        if choice not in {"a", "b"}:
+            problems.append(f"{pid}: canonical 必须为 a 或 b（{choice!r}），已忽略")
+            continue
+        item = by_id[pid]
+        accepted.append(
+            {"group": "groups", "a": item["a"], "b": item["b"],
+             "canonical": item[choice], "reason": str(raw.get("reason", ""))[:120]}
+        )
+    return accepted, problems
+
+
+def clusters_from_pairs(
+    accepted: list[dict[str, str]], values: list[str], unit: str
+) -> tuple[dict[str, str], list[str]]:
+    """并查集聚簇：把逐对判断拼成簇，并继承塌缩护栏（≤4 项、不吞半数组）。"""
+    parent: dict[str, str] = {}
+
+    def find(key: str) -> str:
+        parent.setdefault(key, key)
+        while parent[key] != key:
+            parent[key] = parent[parent[key]]
+            key = parent[key]
+        return key
+
+    def union(left: str, right: str) -> None:
+        root_l, root_r = find(left), find(right)
+        if root_l != root_r:
+            parent[root_r] = root_l
+
+    edges: list[dict[str, str]] = []
+    for item in accepted:
+        left, right = norm_key(item["a"]), norm_key(item["b"])
+        if not left or not right or left == right:
+            continue
+        union(left, right)
+        edges.append(item)
+
+    components: dict[str, set[str]] = {}
+    for key in list(parent):
+        components.setdefault(find(key), set()).add(key)
+
+    total = len({norm_key(v) for v in values if norm_key(v)})
+    mapping: dict[str, str] = {}
+    problems: list[str] = []
+    for members in components.values():
+        if len(members) < 2:
+            continue
+        size = len(members)
+        if size > config.MAX_CLUSTER_SIZE:
+            problems.append(f"{unit}: 簇含 {size} 项，超过上限 {config.MAX_CLUSTER_SIZE}，已忽略")
+            continue
+        if total and size >= total:
+            problems.append(f"{unit}: 簇吞并全部 {total} 个取值，判定为塌缩，已忽略")
+            continue
+        if total and size >= 3 and size > total * config.MAX_CLUSTER_SHARE:
+            problems.append(
+                f"{unit}: 簇含 {size}/{total} 个取值，超过安全上限，已忽略"
+            )
+            continue
+        votes: dict[str, int] = {}
+        for item in edges:
+            if norm_key(item["a"]) in members and norm_key(item["b"]) in members:
+                votes[item["canonical"]] = votes.get(item["canonical"], 0) + 1
+        canonical = max(votes, key=lambda text: (votes[text], len(text))) if votes else ""
+        if not canonical:
+            continue
+        for member in members:
+            mapping[member] = canonical
     return mapping, problems
 
 

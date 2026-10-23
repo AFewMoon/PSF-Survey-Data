@@ -1,0 +1,52 @@
+{
+  "stage": "pair_judge",
+  "model": "qwen3.5:4b",
+  "model_digest": "d8b0f5e9760cd168",
+  "prompt_version": "pair-judge-v1",
+  "input_hash": "6a11673d00ee2f408be06f4cf39f61a7",
+  "created_at": "2026-10-23T22:52:56",
+  "duration_s": 1.83,
+  "output_tokens": 123,
+  "fallback": false,
+  "error": "",
+  "manual_edit": false,
+  "reviewed": false,
+  "payload_summary": {
+    "unit": "environments.container",
+    "n_pairs": 5
+  },
+  "response": {
+    "pairs": [
+      {
+        "id": "p1",
+        "same": false,
+        "canonical": "",
+        "reason": "否定与肯定语义相反"
+      },
+      {
+        "id": "p2",
+        "same": false,
+        "canonical": "",
+        "reason": "使用容器 vs 不使用容器，对象不同"
+      },
+      {
+        "id": "p3",
+        "same": false,
+        "canonical": "",
+        "reason": "仅回答 No 与具体解释 No，语义不完全等价"
+      },
+      {
+        "id": "p4",
+        "same": false,
+        "canonical": "",
+        "reason": "仅回答 Yes 与具体解释，语义不完全等价"
+      },
+      {
+        "id": "p5",
+        "same": false,
+        "canonical": "",
+        "reason": "仅回答 No 与具体解释，语义不完全等价"
+      }
+    ]
+  }
+}

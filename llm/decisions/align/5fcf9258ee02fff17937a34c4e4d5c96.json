@@ -1,0 +1,222 @@
+{
+  "stage": "group_path",
+  "model": "qwen3.5:4b",
+  "model_digest": "d8b0f5e9760cd168",
+  "prompt_version": "group-path-v3",
+  "input_hash": "5fcf9258ee02fff17937a34c4e4d5c96",
+  "created_at": "2026-10-23T22:51:43",
+  "duration_s": 14.11,
+  "output_tokens": 1173,
+  "fallback": false,
+  "error": "",
+  "manual_edit": false,
+  "reviewed": false,
+  "payload_summary": {
+    "n_groups": 40,
+    "n_candidates": 84
+  },
+  "response": {
+    "groups": [
+      {
+        "name": "ai.tools.coding",
+        "canonical": "keep",
+        "reason": "候选清单无 AI 工具相关项"
+      },
+      {
+        "name": "app.do",
+        "canonical": "keep",
+        "reason": "候选清单无 app.do 相关项"
+      },
+      {
+        "name": "app.publish",
+        "canonical": "app.publish.where",
+        "reason": "语义匹配，发布地点"
+      },
+      {
+        "name": "are.you",
+        "canonical": "are.you.datascientist",
+        "reason": "语义匹配，是否数据科学家"
+      },
+      {
+        "name": "bi.solutions",
+        "canonical": "keep",
+        "reason": "候选清单无 BI 解决方案相关项"
+      },
+      {
+        "name": "bigdata.solution",
+        "canonical": "bigdata",
+        "reason": "语义匹配，大数据解决方案归入大数据"
+      },
+      {
+        "name": "bigdata.work",
+        "canonical": "bigdata",
+        "reason": "语义匹配，大数据工作归入大数据"
+      },
+      {
+        "name": "binary.modules.creation",
+        "canonical": "keep",
+        "reason": "候选清单无二进制模块创建相关项"
+      },
+      {
+        "name": "binary.modules.language",
+        "canonical": "other.lang",
+        "reason": "语义匹配，编程语言归入其他语言"
+      },
+      {
+        "name": "collaborative",
+        "canonical": "keep",
+        "reason": "候选清单无协作相关项，且 sample 为 development 非标准路径"
+      },
+      {
+        "name": "collaborative.development",
+        "canonical": "keep",
+        "reason": "候选清单无协作开发相关项"
+      },
+      {
+        "name": "company.develop",
+        "canonical": "company.develop.for",
+        "reason": "语义匹配，为公司开发归入 for"
+      },
+      {
+        "name": "company.industry",
+        "canonical": "keep",
+        "reason": "候选清单无公司行业相关项，且 sample 为空"
+      },
+      {
+        "name": "computer.graphics",
+        "canonical": "keep",
+        "reason": "候选清单无计算机图形相关项，且为 2019 年长问句"
+      },
+      {
+        "name": "dashboard.creation",
+        "canonical": "keep",
+        "reason": "候选清单无仪表盘创建相关项"
+      },
+      {
+        "name": "dashboard.libraries",
+        "canonical": "keep",
+        "reason": "候选清单无仪表盘库相关项，虽含 Gradio 但无标准路径"
+      },
+      {
+        "name": "data.exploration",
+        "canonical": "keep",
+        "reason": "候选清单无数据探索相关项"
+      },
+      {
+        "name": "demographics.age",
+        "canonical": "keep",
+        "reason": "候选清单无人口统计年龄相关项，且为 2019 年长问句"
+      },
+      {
+        "name": "demographics.country",
+        "canonical": "keep",
+        "reason": "候选清单无人口统计国家相关项，且为 2019 年长问句"
+      },
+      {
+        "name": "dependency",
+        "canonical": "dependency.version",
+        "reason": "语义匹配，依赖项版本归入 version"
+      },
+      {
+        "name": "deployment.tools",
+        "canonical": "keep",
+        "reason": "候选清单无部署工具相关项，虽含 Sagemaker 但无标准路径"
+      },
+      {
+        "name": "documentation.tool.Other language, please specify",
+        "canonical": "keep",
+        "reason": "候选清单无文档工具其他语言相关项，且为长问句"
+      },
+      {
+        "name": "documentation.tool.Other systems, please specify",
+        "canonical": "keep",
+        "reason": "候选清单无文档工具其他系统相关项，且为长问句"
+      },
+      {
+        "name": "employment",
+        "canonical": "employment.status",
+        "reason": "语义匹配，就业状态归入 status"
+      },
+      {
+        "name": "environments",
+        "canonical": "environments.container",
+        "reason": "语义匹配，环境容器归入 container"
+      },
+      {
+        "name": "experience.duration",
+        "canonical": "keep",
+        "reason": "候选清单无经验时长相关项，且为 2019 年长问句"
+      },
+      {
+        "name": "experiment.tools",
+        "canonical": "keep",
+        "reason": "候选清单无实验工具相关项，虽含 MLFlow 但无标准路径"
+      },
+      {
+        "name": "exploration.tools",
+        "canonical": "keep",
+        "reason": "候选清单无探索工具相关项，虽含 Airflow 但无标准路径"
+      },
+      {
+        "name": "first.learn.about.main",
+        "canonical": "keep",
+        "reason": "候选清单无首次学习主 IDE 相关项，且为 2021 年短问句但无匹配项"
+      },
+      {
+        "name": "first.learn.about.main.ide",
+        "canonical": "keep",
+        "reason": "候选清单无首次学习主 IDE 相关项，且为 2020 年长问句"
+      },
+      {
+        "name": "frameworks.support",
+        "canonical": "keep",
+        "reason": "候选清单无框架支持相关项，虽含 FastAPI 但无标准路径"
+      },
+      {
+        "name": "how.involved.Multimedia applications development...",
+        "canonical": "keep",
+        "reason": "候选清单无多媒体开发相关项，且为 2023/2024 年长问句"
+      },
+      {
+        "name": "how.involved.Other - Write In:",
+        "canonical": "keep",
+        "reason": "候选清单无其他填写相关项，且为 2022 年长问句"
+      },
+      {
+        "name": "how.involved.Other, please specify:",
+        "canonical": "keep",
+        "reason": "候选清单无其他填写相关项，且为 2023/2024 年长问句"
+      },
+      {
+        "name": "how.often.use.main",
+        "canonical": "keep",
+        "reason": "候选清单无使用主 IDE 频率相关项，且为 2021 年短问句但无匹配项"
+      },
+      {
+        "name": "how.often.use.main.ide",
+        "canonical": "keep",
+        "reason": "候选清单无使用主 IDE 频率相关项，且为 2020 年长问句"
+      },
+      {
+        "name": "ide",
+        "canonical": "ide.main",
+        "reason": "语义匹配，主 IDE 归入 main"
+      },
+      {
+        "name": "ide.data_scientist",
+        "canonical": "keep",
+        "reason": "候选清单无 IDE 数据科学家相关项，且为 2019 年长问句"
+      },
+      {
+        "name": "ide.editor.features.Run / debug...",
+        "canonical": "keep",
+        "reason": "候选清单无 IDE 编辑器运行调试相关项，且为 2023/2024 年长问句"
+      },
+      {
+        "name": "ide.editor.features.Use NoSQL databases",
+        "canonical": "keep",
+        "reason": "候选清单无 IDE 编辑器 NoSQL 相关项，且为 2024 年长问句"
+      }
+    ]
+  }
+}

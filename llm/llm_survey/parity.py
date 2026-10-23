@@ -25,6 +25,7 @@ class ParityResult:
     topic_diffs: list[list[Any]] = field(default_factory=list)
     note: str = ""
     problems: list[str] = field(default_factory=list)
+    holdout_years: list[int] = field(default_factory=list)
 
 
 def _rule_master() -> pd.DataFrame | None:
@@ -49,8 +50,11 @@ def _non_empty_share(df: pd.DataFrame, col: str) -> float:
     return float((s != "").mean() * 100)
 
 
-def run(client: OllamaClient | None, refresh: bool) -> ParityResult:
+def run(client: OllamaClient | None, refresh: bool,
+        holdout_years: set[int] | None = None) -> ParityResult:
     result = ParityResult()
+    result.holdout_years = sorted(config.HOLDOUT_YEARS if holdout_years is None
+                                  else holdout_years)
     rule = _rule_master()
     llm = _llm_master()
     if rule is None or llm is None:
@@ -167,6 +171,10 @@ def _note(client: OllamaClient | None, refresh: bool, summary: dict[str, Any],
 
 def write_report(result: ParityResult, summary: dict[str, Any] | None = None) -> None:
     lines = ["# 规则管线 vs LLM 管线一致性核对", "", f"生成时间：{reporting.now_str()}", ""]
+    lines.append(
+        f"评测口径：留出年份 {','.join(str(y) for y in result.holdout_years) or '无'}"
+        "的人工映射未进入提示词；同名匹配列的一致性可视为留出测试结果。"
+    )
     if result.problems and result.rule_cols == 0:
         lines += [reporting.md_list(result.problems), ""]
         config.REPORTS_DIR.mkdir(parents=True, exist_ok=True)

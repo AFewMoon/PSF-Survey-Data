@@ -1,0 +1,70 @@
+{
+  "stage": "pair_judge",
+  "model": "qwen3.5:4b",
+  "model_digest": "d8b0f5e9760cd168",
+  "prompt_version": "pair-judge-v1",
+  "input_hash": "03fe2d9b1810f6184b92c5c2c7c23769",
+  "created_at": "2026-10-23T22:52:10",
+  "duration_s": 2.29,
+  "output_tokens": 195,
+  "fallback": false,
+  "error": "",
+  "manual_edit": false,
+  "reviewed": false,
+  "payload_summary": {
+    "unit": "ide.editor",
+    "n_pairs": 8
+  },
+  "response": {
+    "pairs": [
+      {
+        "id": "p1",
+        "same": false,
+        "canonical": "",
+        "reason": "SQL 与非 SQL 是互斥概念"
+      },
+      {
+        "id": "p2",
+        "same": true,
+        "canonical": "Eclipse with PyDev",
+        "reason": "PyDev 拼写统一，介词补充"
+      },
+      {
+        "id": "p3",
+        "same": false,
+        "canonical": "",
+        "reason": "None 与 nose 指向不同对象"
+      },
+      {
+        "id": "p4",
+        "same": false,
+        "canonical": "",
+        "reason": "容器内运行与 Docker 容器不同范围"
+      },
+      {
+        "id": "p5",
+        "same": false,
+        "canonical": "",
+        "reason": "重构代码与写测试是不同行为"
+      },
+      {
+        "id": "p6",
+        "same": false,
+        "canonical": "",
+        "reason": "普通其他与特定其他非等价"
+      },
+      {
+        "id": "p7",
+        "same": true,
+        "canonical": "VS Code",
+        "reason": "品牌缩写与全称等价，选通用"
+      },
+      {
+        "id": "p8",
+        "same": false,
+        "canonical": "",
+        "reason": "None 与 None of the following 语义不同"
+      }
+    ]
+  }
+}

@@ -1,0 +1,287 @@
+{
+  "stage": "group_path",
+  "model": "qwen3.5:4b",
+  "model_digest": "d8b0f5e9760cd168",
+  "prompt_version": "group-path-v2",
+  "input_hash": "e921140e468dec2cbcffe6c37828cb7b",
+  "created_at": "2026-10-23T22:33:31",
+  "duration_s": 24.85,
+  "output_tokens": 1199,
+  "fallback": false,
+  "error": "",
+  "manual_edit": false,
+  "reviewed": false,
+  "payload_summary": {
+    "n_groups": 53,
+    "n_candidates": 80
+  },
+  "response": {
+    "groups": [
+      {
+        "name": "age",
+        "canonical": "keep",
+        "reason": "候选清单无 age 项，保留原名。"
+      },
+      {
+        "name": "ai.tools.coding",
+        "canonical": "ai.tools.coding",
+        "reason": "候选清单包含该标准路径。"
+      },
+      {
+        "name": "app.do",
+        "canonical": "keep",
+        "reason": "候选清单无 app.do 项，保留原名。"
+      },
+      {
+        "name": "app.publish",
+        "canonical": "app.publish",
+        "reason": "候选清单包含该标准路径。"
+      },
+      {
+        "name": "app.publish.where",
+        "canonical": "app.publish.where",
+        "reason": "候选清单包含该标准路径。"
+      },
+      {
+        "name": "app.tools",
+        "canonical": "app.tools",
+        "reason": "候选清单包含该标准路径。"
+      },
+      {
+        "name": "are.you",
+        "canonical": "are.you",
+        "reason": "候选清单包含该标准路径。"
+      },
+      {
+        "name": "are.you.datascientist",
+        "canonical": "are.you.datascientist",
+        "reason": "候选清单包含该标准路径。"
+      },
+      {
+        "name": "bi.solutions",
+        "canonical": "keep",
+        "reason": "候选清单无 bi.solutions 项，保留原名。"
+      },
+      {
+        "name": "bigdata",
+        "canonical": "bigdata",
+        "reason": "候选清单包含该标准路径。"
+      },
+      {
+        "name": "bigdata.solution",
+        "canonical": "keep",
+        "reason": "候选清单无 bigdata.solution 项，保留原名。"
+      },
+      {
+        "name": "bigdata.work",
+        "canonical": "keep",
+        "reason": "候选清单无 bigdata.work 项，保留原名。"
+      },
+      {
+        "name": "binary.modules.creation",
+        "canonical": "keep",
+        "reason": "候选清单无 binary.modules.creation 项，保留原名。"
+      },
+      {
+        "name": "binary.modules.language",
+        "canonical": "keep",
+        "reason": "候选清单无 binary.modules.language 项，保留原名。"
+      },
+      {
+        "name": "ci",
+        "canonical": "ci",
+        "reason": "候选清单包含该标准路径。"
+      },
+      {
+        "name": "cloud.platform",
+        "canonical": "cloud.platform",
+        "reason": "候选清单包含该标准路径。"
+      },
+      {
+        "name": "cloud.platforms",
+        "canonical": "cloud.platforms",
+        "reason": "候选清单包含该标准路径。"
+      },
+      {
+        "name": "collaborative",
+        "canonical": "keep",
+        "reason": "候选清单无 collaborative 项，保留原名。"
+      },
+      {
+        "name": "collaborative.development",
+        "canonical": "keep",
+        "reason": "候选清单无 collaborative.development 项，保留原名。"
+      },
+      {
+        "name": "communicate.channels",
+        "canonical": "keep",
+        "reason": "候选清单无 communicate.channels 项，保留原名。"
+      },
+      {
+        "name": "company",
+        "canonical": "company",
+        "reason": "候选清单包含该标准路径。"
+      },
+      {
+        "name": "company.develop",
+        "canonical": "keep",
+        "reason": "候选清单无 company.develop 项，保留原名。"
+      },
+      {
+        "name": "company.industry",
+        "canonical": "keep",
+        "reason": "候选清单无 company.industry 项，保留原名。"
+      },
+      {
+        "name": "company.size",
+        "canonical": "keep",
+        "reason": "候选清单无 company.size 项，保留原名。"
+      },
+      {
+        "name": "computer.graphics",
+        "canonical": "keep",
+        "reason": "候选清单无 computer.graphics 项，保留原名。"
+      },
+      {
+        "name": "configuration.management",
+        "canonical": "configuration.management",
+        "reason": "候选清单包含该标准路径。"
+      },
+      {
+        "name": "country",
+        "canonical": "country",
+        "reason": "候选清单包含该标准路径。"
+      },
+      {
+        "name": "dashboard.creation",
+        "canonical": "keep",
+        "reason": "候选清单无 dashboard.creation 项，保留原名。"
+      },
+      {
+        "name": "dashboard.libraries",
+        "canonical": "keep",
+        "reason": "候选清单无 dashboard.libraries 项，保留原名。"
+      },
+      {
+        "name": "data.exploration",
+        "canonical": "keep",
+        "reason": "候选清单无 data.exploration 项，保留原名。"
+      },
+      {
+        "name": "data.frameworks",
+        "canonical": "data.frameworks",
+        "reason": "候选清单包含该标准路径。"
+      },
+      {
+        "name": "database",
+        "canonical": "database",
+        "reason": "候选清单包含该标准路径。"
+      },
+      {
+        "name": "demographics.age",
+        "canonical": "keep",
+        "reason": "候选清单无 demographics.age 项，保留原名。"
+      },
+      {
+        "name": "demographics.country",
+        "canonical": "keep",
+        "reason": "候选清单无 demographics.country 项，保留原名。"
+      },
+      {
+        "name": "dependency",
+        "canonical": "dependency",
+        "reason": "候选清单包含该标准路径。"
+      },
+      {
+        "name": "dependency.store",
+        "canonical": "dependency.store",
+        "reason": "候选清单包含该标准路径。"
+      },
+      {
+        "name": "dependency.tools",
+        "canonical": "dependency.tools",
+        "reason": "候选清单包含该标准路径。"
+      },
+      {
+        "name": "dependency.update",
+        "canonical": "keep",
+        "reason": "候选清单无 dependency.update 项，保留原名。"
+      },
+      {
+        "name": "deployment.tools",
+        "canonical": "deployment.tools",
+        "reason": "候选清单包含该标准路径。"
+      },
+      {
+        "name": "dev.in.residence",
+        "canonical": "keep",
+        "reason": "候选清单无 dev.in.residence 项，保留原名。"
+      },
+      {
+        "name": "develop.for.cloud",
+        "canonical": "develop.for.cloud",
+        "reason": "候选清单包含该标准路径。"
+      },
+      {
+        "name": "devenv.os",
+        "canonical": "devenv.os",
+        "reason": "候选清单包含该标准路径。"
+      },
+      {
+        "name": "documentation.tool",
+        "canonical": "documentation.tool",
+        "reason": "候选清单包含该标准路径。"
+      },
+      {
+        "name": "documentation.tool.Other language, please specify",
+        "canonical": "keep",
+        "reason": "候选清单无该项，保留原名。"
+      },
+      {
+        "name": "documentation.tool.Other systems, please specify",
+        "canonical": "keep",
+        "reason": "候选清单无该项，保留原名。"
+      },
+      {
+        "name": "employment",
+        "canonical": "employment",
+        "reason": "候选清单包含该标准路径。"
+      },
+      {
+        "name": "employment.status",
+        "canonical": "keep",
+        "reason": "候选清单无 employment.status 项，保留原名。"
+      },
+      {
+        "name": "environments",
+        "canonical": "environments",
+        "reason": "候选清单包含该标准路径。"
+      },
+      {
+        "name": "environments.container",
+        "canonical": "keep",
+        "reason": "候选清单无 environments.container 项，保留原名。"
+      },
+      {
+        "name": "environments.isolate",
+        "canonical": "environments.isolate",
+        "reason": "候选清单包含该标准路径。"
+      },
+      {
+        "name": "experience.duration",
+        "canonical": "keep",
+        "reason": "候选清单无 experience.duration 项，保留原名。"
+      },
+      {
+        "name": "experiment.tools",
+        "canonical": "keep",
+        "reason": "候选清单无 experiment.tools 项，保留原名。"
+      },
+      {
+        "name": "exploration.tools",
+        "canonical": "keep",
+        "reason": "候选清单无 exploration.tools 项，保留原名。"
+      }
+    ]
+  }
+}

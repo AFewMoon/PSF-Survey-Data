@@ -1,0 +1,222 @@
+{
+  "stage": "group_path",
+  "model": "qwen3.5:4b",
+  "model_digest": "d8b0f5e9760cd168",
+  "prompt_version": "group-path-v3",
+  "input_hash": "4407abac06281655310889463af152f0",
+  "created_at": "2026-10-23T22:46:55",
+  "duration_s": 10.92,
+  "output_tokens": 924,
+  "fallback": false,
+  "error": "",
+  "manual_edit": false,
+  "reviewed": false,
+  "payload_summary": {
+    "n_groups": 40,
+    "n_candidates": 84
+  },
+  "response": {
+    "groups": [
+      {
+        "name": "ide.file.edit",
+        "canonical": "keep",
+        "reason": "无候选匹配，保留原名"
+      },
+      {
+        "name": "ide.history",
+        "canonical": "keep",
+        "reason": "无候选匹配，保留原名"
+      },
+      {
+        "name": "ide.isolate",
+        "canonical": "environments.isolate",
+        "reason": "语义对应隔离环境，候选更标准"
+      },
+      {
+        "name": "ide.other",
+        "canonical": "keep",
+        "reason": "无候选匹配，保留原名"
+      },
+      {
+        "name": "ide.python2_version",
+        "canonical": "python2.version.most",
+        "reason": "语义对应 Python2 主要版本，候选更标准"
+      },
+      {
+        "name": "ide.python3_version",
+        "canonical": "python3.version.most",
+        "reason": "语义对应 Python3 主要版本，候选更标准"
+      },
+      {
+        "name": "ide.python_use",
+        "canonical": "use.python.most",
+        "reason": "语义对应主要使用 Python，候选更标准"
+      },
+      {
+        "name": "ide.python_version",
+        "canonical": "python.version.most",
+        "reason": "语义对应主要 Python 版本，候选更标准"
+      },
+      {
+        "name": "industry.company",
+        "canonical": "company.develop.for",
+        "reason": "语义对应开发对象，候选更标准"
+      },
+      {
+        "name": "industry.development",
+        "canonical": "keep",
+        "reason": "无候选匹配，保留原名"
+      },
+      {
+        "name": "isolate.environments",
+        "canonical": "environments.isolate",
+        "reason": "语义对应隔离环境，候选更标准"
+      },
+      {
+        "name": "issue",
+        "canonical": "issue.report",
+        "reason": "语义对应问题报告，候选更标准"
+      },
+      {
+        "name": "job",
+        "canonical": "job.role",
+        "reason": "语义对应工作角色，候选更标准"
+      },
+      {
+        "name": "jupyter",
+        "canonical": "keep",
+        "reason": "无候选匹配，保留原名"
+      },
+      {
+        "name": "kubernetes",
+        "canonical": "keep",
+        "reason": "无候选匹配，保留原名"
+      },
+      {
+        "name": "learning.source",
+        "canonical": "how_did_you_first_learn_about_your_primary_ide",
+        "reason": "语义对应学习来源，候选更标准"
+      },
+      {
+        "name": "main",
+        "canonical": "main.purposes",
+        "reason": "语义对应主要目的，候选更标准"
+      },
+      {
+        "name": "missing.features.main",
+        "canonical": "missing.features.main.ide",
+        "reason": "语义对应主要 IDE 缺失功能，候选更标准"
+      },
+      {
+        "name": "ml",
+        "canonical": "frameworks.ml",
+        "reason": "语义对应机器学习框架，候选更标准"
+      },
+      {
+        "name": "ml.cloud",
+        "canonical": "run.in.cloud",
+        "reason": "语义对应云端运行，候选更标准"
+      },
+      {
+        "name": "ml.cloud.budget",
+        "canonical": "keep",
+        "reason": "无候选匹配，保留原名"
+      },
+      {
+        "name": "ml.cloud.cost.impact",
+        "canonical": "keep",
+        "reason": "无候选匹配，保留原名"
+      },
+      {
+        "name": "ml.deployment",
+        "canonical": "keep",
+        "reason": "无候选匹配，保留原名"
+      },
+      {
+        "name": "ml.training",
+        "canonical": "keep",
+        "reason": "无候选匹配，保留原名"
+      },
+      {
+        "name": "monorepo",
+        "canonical": "keep",
+        "reason": "无候选匹配，保留原名"
+      },
+      {
+        "name": "opensource",
+        "canonical": "keep",
+        "reason": "无候选匹配，保留原名"
+      },
+      {
+        "name": "opensource.description",
+        "canonical": "keep",
+        "reason": "无候选匹配，保留原名"
+      },
+      {
+        "name": "other.-.write.in",
+        "canonical": "keep",
+        "reason": "无候选匹配，保留原名"
+      },
+      {
+        "name": "other.-.write.in.what.data.science.framework.s.do.you.use.in.addition.to.python",
+        "canonical": "keep",
+        "reason": "无候选匹配，保留原名"
+      },
+      {
+        "name": "other.write.in.what.editors.ides.do.you.use.for.python.development.in.addition.to.your.primary.ide",
+        "canonical": "keep",
+        "reason": "无候选匹配，保留原名"
+      },
+      {
+        "name": "other.write.in.what.web.frameworks.libraries.do.you.use.in.addition.to.python",
+        "canonical": "keep",
+        "reason": "无候选匹配，保留原名"
+      },
+      {
+        "name": "purposes.python",
+        "canonical": "keep",
+        "reason": "无候选匹配，保留原名"
+      },
+      {
+        "name": "purposes.python.graphics",
+        "canonical": "other.purposes",
+        "reason": "语义对应其他目的，候选更通用"
+      },
+      {
+        "name": "python",
+        "canonical": "python.version.most",
+        "reason": "语义对应主要 Python 版本，候选更标准"
+      },
+      {
+        "name": "python.version",
+        "canonical": "python.version.most",
+        "reason": "语义对应主要 Python 版本，候选更标准"
+      },
+      {
+        "name": "python.version.why",
+        "canonical": "keep",
+        "reason": "无候选匹配，保留原名"
+      },
+      {
+        "name": "python2.version",
+        "canonical": "python2.version.most",
+        "reason": "语义对应 Python2 主要版本，候选更标准"
+      },
+      {
+        "name": "python3.version",
+        "canonical": "python3.version.most",
+        "reason": "语义对应 Python3 主要版本，候选更标准"
+      },
+      {
+        "name": "region",
+        "canonical": "keep",
+        "reason": "无候选匹配，保留原名"
+      },
+      {
+        "name": "role.other",
+        "canonical": "keep",
+        "reason": "无候选匹配，保留原名"
+      }
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "stage": "pair_judge",
+  "model": "qwen3.5:4b",
+  "model_digest": "d8b0f5e9760cd168",
+  "prompt_version": "pair-judge-v1",
+  "input_hash": "921f0436df0752f7498d2d2ead2ce74a",
+  "created_at": "2026-10-23T22:52:10",
+  "duration_s": 0.44,
+  "output_tokens": 29,
+  "fallback": false,
+  "error": "",
+  "manual_edit": false,
+  "reviewed": false,
+  "payload_summary": {
+    "unit": "devenv.os",
+    "n_pairs": 1
+  },
+  "response": {
+    "pairs": [
+      {
+        "id": "p1",
+        "same": true,
+        "canonical": "Other – Write In",
+        "reason": "后者为前者补充说明"
+      }
+    ]
+  }
+}

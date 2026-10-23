@@ -1,11 +1,12 @@
 # 规则管线 vs LLM 管线一致性核对
 
-生成时间：2026-10-23 19:43
+生成时间：2026-10-23 22:59
 
+评测口径：留出年份 2023,2024的人工映射未进入提示词；同名匹配列的一致性可视为留出测试结果。
 | 指标 | 规则管线 | LLM 管线 |
 |---|---|---|
-| 总表列数（不含 year） | 153 | 40 |
-| 归一后匹配列（Jaccard %） | — | 36（22.9%） |
+| 总表列数（不含 year） | 153 | 110 |
+| 归一后匹配列（Jaccard %） | — | 105（66.5%） |
 
 ## 各年行数
 
@@ -37,36 +38,37 @@
 
 ## 仅规则管线存在的列（示例）
 
-- bigdata.None
-- ci.AppVeyor
-- ci.Bamboo
-- ci.CircleCI
-- ci.CruiseControl
-- ci.Gitlab CI
-- ci.Jenkins / Hudson
-- ci.None
-- ci.TeamCity
-- ci.Travis CI
-- cloud.platform.AWS
-- cloud.platform.DigitalOcean
-- cloud.platform.Google Cloud Platform
-- cloud.platform.Heroku
-- cloud.platform.Linode
+- develop.for.cloud.Directly in the production environment
+- develop.for.cloud.In Docker containers
+- develop.for.cloud.In remote development environments
+- develop.for.cloud.In virtual machines
+- develop.for.cloud.Locally with virtualenv
+- develop.for.cloud.With local system interpreter
+- environments.isolate.virtualenv
+- frameworks.ml.None
+- ide.editor.Visual Studio Code
+- main.purposes
+- orm.Dejavu
+- orm.Django ORM
+- orm.Peewee
+- orm.PonyORM
+- orm.SQLAlchemy
 
 ## 仅 LLM 管线存在的列（示例）
 
 - company.size
 - employment.status
-- ide.python_version
+- python2.version.most
+- python3.version.most
 - team.size
 
 ## 差异摘要（送入模型）
 
 ```json
-{'列集合': {'规则': 153, 'LLM': 40, '匹配': 36, 'Jaccard_pct': 22.9}, '仅规则管线有的列（示例）': ['bigdata.None', 'ci.AppVeyor', 'ci.Bamboo', 'ci.CircleCI', 'ci.CruiseControl', 'ci.Gitlab CI', 'ci.Jenkins / Hudson', 'ci.None'], '仅LLM管线有的列（示例）': ['company.size', 'employment.status', 'ide.python_version', 'team.size'], '行数差异': [[2019, 47308, 47308], [2020, 37793, 37793], [2021, 23201, 23178], [2022, 23009, 22986], [2023, 25324, 25324], [2024, 28997, 28997]], '缺失率差异_Top': [], '同主题占比差异_Top': [['preferred_language', 'other.lang', 'C/C++', 28.1, 28.2, -0.1], ['programming_languages', 'other.lang', 'C/C++', 28.1, 28.2, -0.1], ['editor_preferences', 'ide.editor', 'Jupyter Notebook', 12.2, 12.2, 0.0], ['editor_preferences', 'ide.editor', 'Vim', 9.7, 9.7, 0.0], ['editor_preferences', 'ide.editor', 'PyCharm Community Edition', 8.4, 8.4, 0.0], ['editor_preferences', 'ide.editor', 'NotePad++', 7.4, 7.4, 0.0], ['editor_preferences', 'ide.editor', 'JupyterLab', 7.0, 7.0, 0.0], ['editor_preferences', 'ide.editor', 'Sublime Text', 4.7, 4.7, 0.0]]}
+{'列集合': {'规则': 153, 'LLM': 110, '匹配': 105, 'Jaccard_pct': 66.5}, '仅规则管线有的列（示例）': ['develop.for.cloud.Directly in the production environment', 'develop.for.cloud.In Docker containers', 'develop.for.cloud.In remote development environments', 'develop.for.cloud.In virtual machines', 'develop.for.cloud.Locally with virtualenv', 'develop.for.cloud.With local system interpreter', 'environments.isolate.virtualenv', 'frameworks.ml.None'], '仅LLM管线有的列（示例）': ['company.size', 'employment.status', 'python2.version.most', 'python3.version.most', 'team.size'], '行数差异': [[2019, 47308, 47308], [2020, 37793, 37793], [2021, 23201, 23178], [2022, 23009, 22986], [2023, 25324, 25324], [2024, 28997, 28997]], '缺失率差异_Top': [], '同主题占比差异_Top': [['preferred_language', 'other.lang', 'C/C++', 28.1, 28.2, -0.1], ['programming_languages', 'other.lang', 'C/C++', 28.1, 28.2, -0.1], ['editor_preferences', 'ide.editor', 'Jupyter Notebook', 12.2, 12.2, 0.0], ['editor_preferences', 'ide.editor', 'Vim', 9.7, 9.7, 0.0], ['editor_preferences', 'ide.editor', 'PyCharm Community Edition', 8.4, 8.4, 0.0], ['editor_preferences', 'ide.editor', 'NotePad++', 7.4, 7.4, 0.0], ['editor_preferences', 'ide.editor', 'JupyterLab', 7.0, …
 ```
 
 ## 模型解读
 
-两条管线在列集合上存在显著差异，规则管线包含大量 CI 工具字段而 LLM 管线则多出公司规模、编程语言版本等上下文特征，导致 Jaccard 相似度仅为 22.9%。行数统计方面，2021 年和 2022 年存在微小差异，其余年份完全一致，表明 LLM 管线在特定年份的计数可能受命名粒度或同义词表覆盖不全的影响。同主题占比在编辑器偏好等核心字段上高度一致，但在编程语言分类上规则管线略低，反映出 LLM 在语义映射上的优势。综合来看，LLM 管线因能捕捉更多业务上下文且核心指标一致，其结果在统计推断上更为可信。
+两条管线在列集合上存在显著差异，规则管线多出 43 列涉及开发环境隔离细节，而 LLM 管线多出 5 列关于公司规模与语言版本的字段，导致整体 Jaccard 相似度仅为 66.5%。行数统计显示 2021 年和 2022 年存在微小差异，其余年份完全一致，表明数据源本身稳定但映射逻辑不同。同主题占比对比中，C/C++ 等核心语言数据高度吻合，差异主要源于命名粒度不一致及 LLM 对特定字段（如团队规模）的识别能力。鉴于规则管线在开发环境等具体场景下保留了更多原始分类信息，且核心统计指标一致，规则管线结果在细节覆盖上更可信。
 

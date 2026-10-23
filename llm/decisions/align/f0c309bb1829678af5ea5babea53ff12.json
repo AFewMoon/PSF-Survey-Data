@@ -1,0 +1,222 @@
+{
+  "stage": "group_path",
+  "model": "qwen3.5:4b",
+  "model_digest": "d8b0f5e9760cd168",
+  "prompt_version": "group-path-v3",
+  "input_hash": "f0c309bb1829678af5ea5babea53ff12",
+  "created_at": "2026-10-23T22:51:55",
+  "duration_s": 12.14,
+  "output_tokens": 999,
+  "fallback": false,
+  "error": "",
+  "manual_edit": false,
+  "reviewed": false,
+  "payload_summary": {
+    "n_groups": 40,
+    "n_candidates": 84
+  },
+  "response": {
+    "groups": [
+      {
+        "name": "ide.editor.features.Use issue trackers",
+        "canonical": "keep",
+        "reason": "无候选匹配，且非标准长问句"
+      },
+      {
+        "name": "ide.file.edit",
+        "canonical": "keep",
+        "reason": "无候选匹配，且非标准长问句"
+      },
+      {
+        "name": "ide.history",
+        "canonical": "keep",
+        "reason": "无候选匹配，且非标准长问句"
+      },
+      {
+        "name": "ide.other",
+        "canonical": "keep",
+        "reason": "无候选匹配，且非标准长问句"
+      },
+      {
+        "name": "ide.python2_version",
+        "canonical": "python2.version.most",
+        "reason": "选项为 most，匹配 python2.version.most"
+      },
+      {
+        "name": "ide.python3_version",
+        "canonical": "python3.version.most",
+        "reason": "选项为 most，匹配 python3.version.most"
+      },
+      {
+        "name": "ide.python_use",
+        "canonical": "keep",
+        "reason": "无候选匹配，且非标准长问句"
+      },
+      {
+        "name": "ide.python_version",
+        "canonical": "keep",
+        "reason": "无候选匹配，且非标准长问句"
+      },
+      {
+        "name": "industry.company",
+        "canonical": "which_of_the_following_industries_do_you_develop_for",
+        "reason": "选项为空，但语义对应开发行业"
+      },
+      {
+        "name": "industry.development",
+        "canonical": "keep",
+        "reason": "无候选匹配，且非标准长问句"
+      },
+      {
+        "name": "isolate.environments",
+        "canonical": "environments.isolate",
+        "reason": "选项含 Conda/Docker，匹配 environments.isolate"
+      },
+      {
+        "name": "issue",
+        "canonical": "issue.report",
+        "reason": "选项为 solved，匹配 issue.report"
+      },
+      {
+        "name": "job",
+        "canonical": "employment.status",
+        "reason": "选项为 team，语义不符，保留原名"
+      },
+      {
+        "name": "jupyter",
+        "canonical": "keep",
+        "reason": "无候选匹配，且非标准长问句"
+      },
+      {
+        "name": "kubernetes",
+        "canonical": "keep",
+        "reason": "无候选匹配，且非标准长问句"
+      },
+      {
+        "name": "learning.source",
+        "canonical": "keep",
+        "reason": "无候选匹配，且非标准长问句"
+      },
+      {
+        "name": "main",
+        "canonical": "main.purposes",
+        "reason": "选项为 purposes，匹配 main.purposes"
+      },
+      {
+        "name": "missing.features.main",
+        "canonical": "missing.features.main.ide",
+        "reason": "选项为 ide，匹配 missing.features.main.ide"
+      },
+      {
+        "name": "ml",
+        "canonical": "keep",
+        "reason": "无候选匹配，且非标准长问句"
+      },
+      {
+        "name": "ml.cloud",
+        "canonical": "keep",
+        "reason": "无候选匹配，且非标准长问句"
+      },
+      {
+        "name": "ml.cloud.budget",
+        "canonical": "keep",
+        "reason": "无候选匹配，且非标准长问句"
+      },
+      {
+        "name": "ml.cloud.cost.impact",
+        "canonical": "keep",
+        "reason": "无候选匹配，且非标准长问句"
+      },
+      {
+        "name": "ml.deployment",
+        "canonical": "keep",
+        "reason": "无候选匹配，且非标准长问句"
+      },
+      {
+        "name": "ml.training",
+        "canonical": "keep",
+        "reason": "无候选匹配，且非标准长问句"
+      },
+      {
+        "name": "monorepo",
+        "canonical": "keep",
+        "reason": "无候选匹配，且非标准长问句"
+      },
+      {
+        "name": "opensource",
+        "canonical": "keep",
+        "reason": "无候选匹配，且非标准长问句"
+      },
+      {
+        "name": "opensource.description",
+        "canonical": "keep",
+        "reason": "无候选匹配，且非标准长问句"
+      },
+      {
+        "name": "other.-.write.in",
+        "canonical": "keep",
+        "reason": "无候选匹配，且非标准长问句"
+      },
+      {
+        "name": "other.-.write.in.what.data.science.framework.s.do.you.use.in.addition.to.python",
+        "canonical": "keep",
+        "reason": "无候选匹配，且非标准长问句"
+      },
+      {
+        "name": "other.write.in.what.editors.ides.do.you.use.for.python.development.in.addition.to.your.primary.ide",
+        "canonical": "keep",
+        "reason": "无候选匹配，且非标准长问句"
+      },
+      {
+        "name": "other.write.in.what.web.frameworks.libraries.do.you.use.in.addition.to.python",
+        "canonical": "keep",
+        "reason": "无候选匹配，且非标准长问句"
+      },
+      {
+        "name": "purposes.python",
+        "canonical": "keep",
+        "reason": "无候选匹配，且非标准长问句"
+      },
+      {
+        "name": "purposes.python.graphics",
+        "canonical": "keep",
+        "reason": "无候选匹配，且非标准长问句"
+      },
+      {
+        "name": "python",
+        "canonical": "python.years",
+        "reason": "选项为 years，匹配 python.years"
+      },
+      {
+        "name": "python.version",
+        "canonical": "python.version.most",
+        "reason": "选项为 most，匹配 python.version.most"
+      },
+      {
+        "name": "python.version.why",
+        "canonical": "keep",
+        "reason": "无候选匹配，且非标准长问句"
+      },
+      {
+        "name": "python2.version",
+        "canonical": "python2.version.most",
+        "reason": "选项为 most，匹配 python2.version.most"
+      },
+      {
+        "name": "python3.version",
+        "canonical": "python3.version.most",
+        "reason": "选项为 most，匹配 python3.version.most"
+      },
+      {
+        "name": "region",
+        "canonical": "keep",
+        "reason": "无候选匹配，且非标准长问句"
+      },
+      {
+        "name": "role.other",
+        "canonical": "keep",
+        "reason": "无候选匹配，且非标准长问句"
+      }
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "stage": "pair_judge",
+  "model": "qwen3.5:4b",
+  "model_digest": "d8b0f5e9760cd168",
+  "prompt_version": "pair-judge-v1",
+  "input_hash": "4ca59bd209d34a5eb9fd8efe0690b5c7",
+  "created_at": "2026-10-23T22:47:13",
+  "duration_s": 0.84,
+  "output_tokens": 62,
+  "fallback": false,
+  "error": "",
+  "manual_edit": false,
+  "reviewed": false,
+  "payload_summary": {
+    "unit": "job.role",
+    "n_pairs": 3
+  },
+  "response": {
+    "pairs": [
+      {
+        "id": "p1",
+        "same": false,
+        "canonical": "",
+        "reason": "工程师岗位不同"
+      },
+      {
+        "id": "p2",
+        "same": false,
+        "canonical": "",
+        "reason": "支持岗与写作岗不同"
+      },
+      {
+        "id": "p3",
+        "same": false,
+        "canonical": "",
+        "reason": "层级与统称不同"
+      }
+    ]
+  }
+}

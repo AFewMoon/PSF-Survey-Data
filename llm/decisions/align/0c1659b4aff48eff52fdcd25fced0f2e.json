@@ -1,0 +1,76 @@
+{
+  "stage": "pair_judge",
+  "model": "qwen3.5:4b",
+  "model_digest": "d8b0f5e9760cd168",
+  "prompt_version": "pair-judge-v1",
+  "input_hash": "0c1659b4aff48eff52fdcd25fced0f2e",
+  "created_at": "2026-10-23T22:52:20",
+  "duration_s": 2.71,
+  "output_tokens": 195,
+  "fallback": false,
+  "error": "",
+  "manual_edit": false,
+  "reviewed": false,
+  "payload_summary": {
+    "unit": "how.involved",
+    "n_pairs": 9
+  },
+  "response": {
+    "pairs": [
+      {
+        "id": "p1",
+        "same": true,
+        "canonical": "DevOps / System administration / Writing automation scripts",
+        "reason": "仅大小写和空格差异"
+      },
+      {
+        "id": "p2",
+        "same": false,
+        "canonical": "",
+        "reason": "游戏开发与网页开发不同领域"
+      },
+      {
+        "id": "p3",
+        "same": false,
+        "canonical": "",
+        "reason": "游戏开发与移动开发不同领域"
+      },
+      {
+        "id": "p4",
+        "same": false,
+        "canonical": "",
+        "reason": "嵌入式开发与网页开发不同领域"
+      },
+      {
+        "id": "p5",
+        "same": false,
+        "canonical": "",
+        "reason": "移动开发与网页开发不同领域"
+      },
+      {
+        "id": "p6",
+        "same": false,
+        "canonical": "",
+        "reason": "桌面开发与网页开发不同领域"
+      },
+      {
+        "id": "p7",
+        "same": false,
+        "canonical": "",
+        "reason": "桌面开发与游戏开发不同领域"
+      },
+      {
+        "id": "p8",
+        "same": false,
+        "canonical": "",
+        "reason": "嵌入式开发与游戏开发不同领域"
+      },
+      {
+        "id": "p9",
+        "same": false,
+        "canonical": "",
+        "reason": "桌面开发与嵌入式开发不同领域"
+      }
+    ]
+  }
+}

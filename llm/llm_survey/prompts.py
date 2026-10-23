@@ -50,16 +50,42 @@ _CLEAN_PLAN_SYSTEM = """你是数据清洗决策者。输入是一年的数据�
 输出 JSON：
 {"ops":[{"op":"drop_empty_rows","apply":true,"reason":"..."},...],"drop_cols":["M1"],"reason":"≤40字总体说明"}"""
 
-_GROUP_SYSTEM = """你是跨年问卷对齐专家。输入是同一份年度调查在不同年份出现的「题目组路径」，
-同一道题在不同年份写法不同（如 data.frameworks 与 frameworks.ml、isolate.environments 与 environments.isolate）。
-请为每个组路径给出统一标准路径：语义相同的组必须映射到同一个标准路径。
+_GROUP_SYSTEM = """你是跨年问卷对齐专家。输入是一份「标准路径候选清单」和若干「题目组路径」。
+你的任务不是发明新名字，而是从候选清单中**选择**每个组路径的标准写法；没有任何候选合适时输出 "keep" 保留原名。
 
+判断依据：选项文本（sample 字段）> 取值范围 > 名称字面。
 规则：
-1. 标准路径只能用 小写字母/数字/点号，2-4 段，采用「主题.子主题」结构
-2. 若某个写法已是合理标准形式，就保留它（canonical 与 name 相同）
-3. 不要合并语义不同的组（如 ide.editor 与 ide.editor.features 不要合并成同一个）
-4. 必须覆盖输入中的每一个组路径，不得新增 name
-输出 JSON：{"groups":[{"name":"原路径","canonical":"标准路径","reason":"≤30字"}]}"""
+1. canonical 只能取候选清单中的一项，或字符串 "keep"；禁止自行拼接、改写、翻译候选。
+2. 本题库绝大多数组已经是正确写法；真正需要改的是两类：同一道题在不同年份的异名（选项文本高度重合但路径不同），以及 2019 年的整句长问句。
+3. 若某个候选的题目与本组 sample 选项重合过半，**必须选它**，不得 keep。
+4. keep 只用于「与所有候选都不同义」的情况，不是默认答案；先逐条比对候选再决定。
+5. 语义不同就不要合并。特别注意：值为 Yes/No 的「是否以 Python 为主」不是「Python 版本」题，也不是编辑器题。
+6. 必须覆盖输入中的每个 name，且每个 name 只出现一次，不得新增 name。
+输出 JSON：{"groups":[{"name":"原路径","canonical":"候选或 keep","reason":"≤30字"}]}"""
+
+_GROUP_PAIR_SYSTEM = """你是跨年问卷对齐专家。输入是一批「题目组对」，每对包含两个组路径、各自出现的年份与选项样本。
+请逐对判断：它们是不是同一道题在不同年份的不同写法。
+
+判据：选项文本重合度优先。以下情况一律 false：
+- 名称相似但选项指向不同事物（如「使用哪些框架」与「使用哪些云平台」）
+- 题目范围不同（子集/超集，如「编辑器」与「编辑器功能期望」）
+- 拿不准
+
+判 true 时 canonical 填 "a" 或 "b"：选更通用、更短、更像「主题.子主题」的那个；两者都合理时选出现年份更早的。
+必须覆盖每个 id，不得新增 id。
+输出 JSON：{"pairs":[{"id":"p1","same":true,"canonical":"a","reason":"≤20字"}]}"""
+
+_PAIR_JUDGE_SYSTEM = """你是问卷选项同义判断器。输入是一批「候选对」，每对包含两个在不同年份出现的选项或取值文本。
+请逐对判断：它们是不是同一事物的不同写法（缩写、大小写、括号补充、HTML 残留、更完整的表述）。
+
+只有在语义等价时才判 true。以下情况一律 false：
+- 同一产品的不同层级或版本（Professional / Community、Python 2 / Python 3、3.10 / 3.11）
+- 只是共享若干词但指向不同对象（Visual Studio 与 Visual Studio Code）
+- 拿不准的情况
+
+判 true 时，canonical 从该对的两个文本中选一个（选更完整、更通用、保留原有大小写的写法）；判 false 时 canonical 填空字符串。
+必须覆盖输入中的每个 id，不得新增 id，不得把一个文本同时判给两个不同 canonical。
+输出 JSON：{"pairs":[{"id":"p1","same":true,"canonical":"标准写法","reason":"≤20字"}]}"""
 
 _OPTION_SYSTEM = """你是问卷选项归并专家。输入是同一个题目组在各年份出现的选项文本。
 请找出「同一选项的不同写法」（如 "VS Code" 与 "Visual Studio Code"、"k8s" 与 "Kubernetes"），
@@ -150,12 +176,48 @@ def clean_plan_messages(year: int, evidence: dict[str, Any],
     return _CLEAN_PLAN_SYSTEM, user
 
 
-def group_messages(groups: list[dict[str, Any]]) -> tuple[str, str]:
+def group_messages(
+    groups: list[dict[str, Any]],
+    candidates: list[str] | None = None,
+    path_examples: list[tuple[str, str]] | None = None,
+    value_examples: list[tuple[str, str]] | None = None,
+) -> tuple[str, str]:
+    """封闭集分类：候选清单 + 往年范例 + 待处理组。"""
+    parts: list[str] = []
+    if candidates:
+        parts.append(
+            f"标准路径候选清单（{len(candidates)} 个，canonical 只能从中选择或填 keep）：\n"
+            f"{_json(candidates)}"
+        )
+    if path_examples:
+        parts.append(
+            "往年人工映射范例（原组 → 标准组，仅供理解命名习惯）：\n"
+            + "\n".join(f"- {a} → {b}" for a, b in path_examples)
+        )
+    if value_examples:
+        parts.append(
+            "往年选项写法范例（原写法 → 标准写法）：\n"
+            + "\n".join(f"- {a} → {b}" for a, b in value_examples)
+        )
+    parts.append(f"待处理的组路径（{len(groups)} 个）：\n{_json(groups)}")
+    parts.append("请为每个组路径给出标准路径，必须覆盖全部 name。")
+    return _GROUP_SYSTEM, "\n\n".join(parts)
+
+
+def group_pair_messages(pairs: list[dict[str, Any]]) -> tuple[str, str]:
     user = (
-        f"跨年题目组路径清单（{len(groups)} 个）：\n{_json(groups)}\n\n"
-        "请为每个组路径给出标准路径，必须覆盖全部 name。"
+        f"题目组对（{len(pairs)} 个）：\n{_json(pairs)}\n\n"
+        "请逐对判断，必须覆盖全部 id。"
     )
-    return _GROUP_SYSTEM, user
+    return _GROUP_PAIR_SYSTEM, user
+
+
+def pair_judge_messages(pairs: list[dict[str, str]]) -> tuple[str, str]:
+    user = (
+        f"候选对（{len(pairs)} 个）：\n{_json(pairs)}\n\n"
+        "请逐对判断，必须覆盖全部 id。"
+    )
+    return _PAIR_JUDGE_SYSTEM, user
 
 
 def option_messages(group: str, options: list[str]) -> tuple[str, str]:
