@@ -1,0 +1,32 @@
+{
+  "stage": "clean_semantics",
+  "model": "pangu-emb-7b",
+  "model_digest": "33125beabd8e1fe1",
+  "prompt_version": "clean-semantics-v2",
+  "input_hash": "51f489857e34ad7959cb30dc57de0f54",
+  "created_at": "2026-10-29T20:33:26",
+  "duration_s": 13.54,
+  "output_tokens": 857,
+  "fallback": false,
+  "error": "",
+  "manual_edit": false,
+  "reviewed": false,
+  "payload_summary": {
+    "year": 2019,
+    "batch": "Other – Write In::Which of the following cloud platforms do you use?…Other – Write In::Which of the following cloud platforms do you use?",
+    "n": 1
+  },
+  "response": {
+    "columns": [
+      {
+        "column": "Other – Write In::Which of the following cloud platforms do you use?",
+        "kind": "free_text",
+        "group": "other.write.in",
+        "option": "",
+        "missing_tokens": [],
+        "reason": "列值为自由文本，结构特征显示长度在2到17之间，符合自由文本特征",
+        "year": 2019
+      }
+    ]
+  }
+}

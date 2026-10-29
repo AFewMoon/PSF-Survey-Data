@@ -6,6 +6,7 @@
 from __future__ import annotations
 
 import json
+import sys
 import time
 from dataclasses import dataclass, field
 from typing import Any
@@ -172,6 +173,9 @@ class OllamaClient:
         self._session = requests.Session()
         self._digest: str | None = None
         self._supports_think = True
+        # 部分自定义架构（如 pangu-embedded）无法初始化 JSON grammar sampler，
+        # 传 format=json 会 400。首次失败后自动降级，改由 extract_json 兜底。
+        self._supports_format_json = True
 
     # ------------------------------------------------------------ 元信息
     def health(self) -> str:
@@ -236,7 +240,7 @@ class OllamaClient:
                 "presence_penalty": 0.0,
             },
         }
-        if force_json:
+        if force_json and self._supports_format_json:
             payload["format"] = "json"
         if self._supports_think:
             payload["think"] = self.think
@@ -250,11 +254,23 @@ class OllamaClient:
                     json=payload,
                     timeout=(CONNECT_TIMEOUT_S, self.timeout),
                 )
-                if resp.status_code == 400 and "think" in resp.text.lower() and self._supports_think:
-                    # 旧版本 Ollama 不认识 think 字段
-                    self._supports_think = False
-                    payload.pop("think", None)
-                    raise OllamaError("retry-without-think")
+                if resp.status_code == 400:
+                    lowered = resp.text.lower()
+                    if "think" in lowered and self._supports_think:
+                        # 旧版本 Ollama 不认识 think 字段
+                        self._supports_think = False
+                        payload.pop("think", None)
+                        raise OllamaError("retry-without-think")
+                    if force_json and self._supports_format_json and (
+                        "sampler" in lowered or "grammar" in lowered
+                    ):
+                        # 该架构不支持 JSON grammar 约束（实测 pangu-embedded 报
+                        # "Failed to initialize samplers"）。改用提示词约束 + extract_json。
+                        self._supports_format_json = False
+                        payload.pop("format", None)
+                        print(f"[warn] {self.model} 不支持 format=json，"
+                              f"已降级为提示词约束 + 容错解析", file=sys.stderr)
+                        raise OllamaError("retry-without-format")
                 resp.raise_for_status()
                 data = resp.json()
             except requests.RequestException as exc:
@@ -268,7 +284,7 @@ class OllamaClient:
                 time.sleep(RETRY_BACKOFF_S[min(attempt - 1, len(RETRY_BACKOFF_S) - 1)])
                 continue
             except OllamaError as exc:
-                if str(exc) == "retry-without-think":
+                if str(exc) in ("retry-without-think", "retry-without-format"):
                     return self._chat(system, user, num_predict, tag, force_json)
                 raise
 

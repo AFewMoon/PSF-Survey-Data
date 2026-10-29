@@ -1,0 +1,83 @@
+{
+  "summary": {
+    "model": "pangu-emb-1b",
+    "digest": "a8fd6e79a0a18806",
+    "rounds": 2,
+    "json_ok_rate": 1.0,
+    "mean_accuracy": 0.688,
+    "mean_tok_per_s": 217.8,
+    "mean_duration_s": 1.1,
+    "consistent": false,
+    "unanimous_ids": 7
+  },
+  "runs": [
+    {
+      "coverage": 8,
+      "total": 8,
+      "accuracy": 0.625,
+      "wrong": {
+        "p2": {
+          "model": false,
+          "truth": true
+        },
+        "p3": {
+          "model": false,
+          "truth": true
+        },
+        "p4": {
+          "model": false,
+          "truth": true
+        }
+      },
+      "round": 1,
+      "json_ok": true,
+      "schema_ok": true,
+      "duration_s": 1.15,
+      "output_tokens": 240,
+      "tok_per_s": 208.6,
+      "judged": {
+        "p1": true,
+        "p2": false,
+        "p3": false,
+        "p4": false,
+        "p5": false,
+        "p6": false,
+        "p7": false,
+        "p8": false
+      },
+      "raw_preview": "```json { \"pairs\": [ {\"id\": \"p1\", \"same\": true, \"canonical\": \"Amazon Web Services\", \"reason\": \"≤20字\"}, {\"id\": \"p2\", \"same\": false, \"canonical\": \"GCP\", \"reason\": \"不同产品\"}, {\"id\": \"p3\", \"same\": false, \"c"
+    },
+    {
+      "coverage": 8,
+      "total": 8,
+      "accuracy": 0.75,
+      "wrong": {
+        "p2": {
+          "model": false,
+          "truth": true
+        },
+        "p4": {
+          "model": false,
+          "truth": true
+        }
+      },
+      "round": 2,
+      "json_ok": true,
+      "schema_ok": true,
+      "duration_s": 1.06,
+      "output_tokens": 241,
+      "tok_per_s": 227.1,
+      "judged": {
+        "p1": true,
+        "p2": false,
+        "p3": true,
+        "p4": false,
+        "p5": false,
+        "p6": false,
+        "p7": false,
+        "p8": false
+      },
+      "raw_preview": "```json { \"pairs\": [ {\"id\": \"p1\", \"same\": true, \"canonical\": \"Amazon Web Services\", \"reason\": \"≤20字\"}, {\"id\": \"p2\", \"same\": false, \"canonical\": \"GCP\", \"reason\": \"不同产品\"}, {\"id\": \"p3\", \"same\": true, \"ca"
+    }
+  ]
+}

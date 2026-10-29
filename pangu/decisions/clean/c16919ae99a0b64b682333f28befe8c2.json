@@ -1,0 +1,32 @@
+{
+  "stage": "clean_semantics",
+  "model": "pangu-emb-7b",
+  "model_digest": "33125beabd8e1fe1",
+  "prompt_version": "clean-semantics-v2",
+  "input_hash": "c16919ae99a0b64b682333f28befe8c2",
+  "created_at": "2026-10-29T20:50:25",
+  "duration_s": 14.54,
+  "output_tokens": 912,
+  "fallback": false,
+  "error": "",
+  "manual_edit": false,
+  "reviewed": false,
+  "payload_summary": {
+    "year": 2019,
+    "batch": "PonyORM:What ORM(s) do you use together with Python, if any?…PonyORM:What ORM(s) do you use together with Python, if any?",
+    "n": 1
+  },
+  "response": {
+    "columns": [
+      {
+        "column": "PonyORM:What ORM(s) do you use together with Python, if any?",
+        "kind": "multi_option",
+        "group": "ponyorm",
+        "option": "ponyorm",
+        "missing_tokens": [],
+        "reason": "列名中的选项文本 'PonyORM' 全列取值恒等于该选项，flags标记为 multi_like，符合多选题选项列特征",
+        "year": 2019
+      }
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "stage": "clean_semantics",
+  "model": "pangu-emb-7b",
+  "model_digest": "33125beabd8e1fe1",
+  "prompt_version": "clean-semantics-v2",
+  "input_hash": "150abd3a57381f00f1fdd90522467260",
+  "created_at": "2026-10-29T20:44:44",
+  "duration_s": 13.79,
+  "output_tokens": 863,
+  "fallback": false,
+  "error": "",
+  "manual_edit": false,
+  "reviewed": false,
+  "payload_summary": {
+    "year": 2019,
+    "batch": "Other – Write In::Which Python unit-testing framework(s) do you use, if any?…Other – Write In::Which Python unit-testing framework(s) do you use, if any?",
+    "n": 1
+  },
+  "response": {
+    "columns": [
+      {
+        "column": "Other – Write In::Which Python unit-testing framework(s) do you use, if any?",
+        "kind": "free_text",
+        "group": "other.python.frameworks",
+        "option": "",
+        "missing_tokens": [],
+        "reason": "value_shape.note indicates free text input with structural features, no fixed options",
+        "year": 2019
+      }
+    ]
+  }
+}

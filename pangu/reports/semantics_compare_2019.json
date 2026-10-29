@@ -1,0 +1,765 @@
+{
+  "columns_compared": 138,
+  "exact_match": 7,
+  "exact_match_pct": 5.1,
+  "fields": {
+    "kind": {
+      "same": 133,
+      "pct": 96.4
+    },
+    "group": {
+      "same": 7,
+      "pct": 5.1
+    },
+    "option": {
+      "same": 98,
+      "pct": 71.0
+    }
+  },
+  "group_cardinality": {
+    "left": 40,
+    "right": 91
+  },
+  "by_batch_size": {
+    "1": {
+      "columns": 21,
+      "group_same": 0,
+      "group_same_pct": 0.0
+    },
+    "2": {
+      "columns": 8,
+      "group_same": 0,
+      "group_same_pct": 0.0
+    },
+    "4": {
+      "columns": 109,
+      "group_same": 7,
+      "group_same_pct": 6.4
+    }
+  },
+  "kind_confusion": [
+    {
+      "left": "free_text",
+      "right": "multi_option",
+      "n": 5
+    }
+  ],
+  "group_mismatch_top": [
+    {
+      "left": "ide.tools.ci",
+      "right": "ci.systems",
+      "n": 4
+    },
+    {
+      "left": "other.lang",
+      "right": "other.languages",
+      "n": 4
+    },
+    {
+      "left": "ide.editor",
+      "right": "cloud.development",
+      "n": 4
+    },
+    {
+      "left": "ide.editor",
+      "right": "what_ide editors_ide_s_python_development_in_addition_to_primary_ide",
+      "n": 4
+    },
+    {
+      "left": "frameworks.data",
+      "right": "frameworks.ml",
+      "n": 4
+    },
+    {
+      "left": "cloud.platforms",
+      "right": "cloud.platforms.do_you_use",
+      "n": 4
+    },
+    {
+      "left": "other.lang",
+      "right": "language.usage",
+      "n": 4
+    },
+    {
+      "left": "other.lang",
+      "right": "language_languages",
+      "n": 4
+    },
+    {
+      "left": "frameworks.cm",
+      "right": "configuration_management_tools",
+      "n": 4
+    },
+    {
+      "left": "ide.os",
+      "right": "operating_systems",
+      "n": 3
+    }
+  ],
+  "disagreements": [
+    {
+      "column": "AWS:Which of the following cloud platforms do you use?",
+      "left": {
+        "kind": "multi_option",
+        "group": "cloud.platforms",
+        "option": "AWS"
+      },
+      "right": {
+        "kind": "multi_option",
+        "group": "clouds",
+        "option": "AWS"
+      }
+    },
+    {
+      "column": "Ansible:Which configuration management tools do you use, if any?",
+      "left": {
+        "kind": "multi_option",
+        "group": "frameworks.cm",
+        "option": "Ansible"
+      },
+      "right": {
+        "kind": "multi_option",
+        "group": "ansible",
+        "option": "ansible"
+      }
+    },
+    {
+      "column": "Apache Beam:Which of the following Big Data tool(s) do you use, if any?",
+      "left": {
+        "kind": "multi_option",
+        "group": "ide.tools",
+        "option": "Apache Beam"
+      },
+      "right": {
+        "kind": "multi_option",
+        "group": "Apache Beam:Which of the following Big Data tool(s) do you use, if any?",
+        "option": "Apache Beam"
+      }
+    },
+    {
+      "column": "Apache Hive:Which of the following Big Data tool(s) do you use, if any?",
+      "left": {
+        "kind": "multi_option",
+        "group": "ide.tools.bigdata",
+        "option": "Apache Hive"
+      },
+      "right": {
+        "kind": "multi_option",
+        "group": "bigdata",
+        "option": "Apache Hive"
+      }
+    },
+    {
+      "column": "Apache Kafka:Which of the following Big Data tool(s) do you use, if any?",
+      "left": {
+        "kind": "multi_option",
+        "group": "ide.tools.bigdata",
+        "option": "Apache Kafka"
+      },
+      "right": {
+        "kind": "multi_option",
+        "group": "bigdata",
+        "option": "Apache Kafka"
+      }
+    },
+    {
+      "column": "Apache Samza:Which of the following Big Data tool(s) do you use, if any?",
+      "left": {
+        "kind": "multi_option",
+        "group": "ide.tools.bigdata",
+        "option": "Apache Samza"
+      },
+      "right": {
+        "kind": "multi_option",
+        "group": "apache.samza",
+        "option": "apache samza"
+      }
+    },
+    {
+      "column": "Apache Spark:Which of the following Big Data tool(s) do you use, if any?",
+      "left": {
+        "kind": "multi_option",
+        "group": "ide.tools.bigdata",
+        "option": "Apache Spark"
+      },
+      "right": {
+        "kind": "multi_option",
+        "group": "apache.spark",
+        "option": "apache spark"
+      }
+    },
+    {
+      "column": "Apache Tez:Which of the following Big Data tool(s) do you use, if any?",
+      "left": {
+        "kind": "multi_option",
+        "group": "ide.tools.bigdata",
+        "option": "Apache Tez"
+      },
+      "right": {
+        "kind": "multi_option",
+        "group": "apache.tez",
+        "option": "apache tez"
+      }
+    },
+    {
+      "column": "AppVeyor:Which Continuous Integration (CI) system(s) do you regularly use?",
+      "left": {
+        "kind": "multi_option",
+        "group": "ide.tools.ci",
+        "option": "AppVeyor"
+      },
+      "right": {
+        "kind": "multi_option",
+        "group": "appveyor",
+        "option": "AppVeyor"
+      }
+    },
+    {
+      "column": "Automatic upgrade via cloud provider:What do you typically use to upgrade your Python version?",
+      "left": {
+        "kind": "multi_option",
+        "group": "ide.upgrade.cloud",
+        "option": "Automatic upgrade via cloud provider"
+      },
+      "right": {
+        "kind": "multi_option",
+        "group": "python.version.upgrades",
+        "option": "Automatic upgrade via cloud provider"
+      }
+    },
+    {
+      "column": "BSD:What operating system(s) are your development environment?",
+      "left": {
+        "kind": "multi_option",
+        "group": "ide.os",
+        "option": "BSD"
+      },
+      "right": {
+        "kind": "multi_option",
+        "group": "operating_systems",
+        "option": "BSD"
+      }
+    },
+    {
+      "column": "Bamboo:Which Continuous Integration (CI) system(s) do you regularly use?",
+      "left": {
+        "kind": "multi_option",
+        "group": "ide.tools.ci",
+        "option": "Bamboo"
+      },
+      "right": {
+        "kind": "multi_option",
+        "group": "ci.systems",
+        "option": "bamboo"
+      }
+    },
+    {
+      "column": "Bash / Shell:What other language(s) do you use?",
+      "left": {
+        "kind": "multi_option",
+        "group": "other.lang",
+        "option": "Bash / Shell"
+      },
+      "right": {
+        "kind": "multi_option",
+        "group": "bash_shell_languages",
+        "option": "Bash / Shell"
+      }
+    },
+    {
+      "column": "Bottle:What web frameworks / libraries do you use in addition to Python?",
+      "left": {
+        "kind": "multi_option",
+        "group": "frameworks.web",
+        "option": "Bottle"
+      },
+      "right": {
+        "kind": "multi_option",
+        "group": "web.frameworks.bottle",
+        "option": "Bottle"
+      }
+    },
+    {
+      "column": "Build from source:What do you typically use to upgrade your Python version?",
+      "left": {
+        "kind": "multi_option",
+        "group": "ide.upgrade.source",
+        "option": "Build from source"
+      },
+      "right": {
+        "kind": "multi_option",
+        "group": "python.version.upgrades",
+        "option": "Build from source"
+      }
+    },
+    {
+      "column": "C#:What other language(s) do you use?",
+      "left": {
+        "kind": "multi_option",
+        "group": "other.lang",
+        "option": "C#"
+      },
+      "right": {
+        "kind": "multi_option",
+        "group": "other.languages",
+        "option": "C#"
+      }
+    },
+    {
+      "column": "C/C++:What other language(s) do you use?",
+      "left": {
+        "kind": "multi_option",
+        "group": "other.lang",
+        "option": "C/C++"
+      },
+      "right": {
+        "kind": "multi_option",
+        "group": "c_c_plusplus_languages",
+        "option": "C/C++"
+      }
+    },
+    {
+      "column": "Cassandra:Which database(s) do you regularly use, if any?",
+      "left": {
+        "kind": "multi_option",
+        "group": "ide.databases",
+        "option": "Cassandra"
+      },
+      "right": {
+        "kind": "multi_option",
+        "group": "cassandra",
+        "option": "Cassandra"
+      }
+    },
+    {
+      "column": "Chef:Which configuration management tools do you use, if any?",
+      "left": {
+        "kind": "multi_option",
+        "group": "frameworks.cm",
+        "option": "Chef"
+      },
+      "right": {
+        "kind": "multi_option",
+        "group": "chef",
+        "option": "chef"
+      }
+    },
+    {
+      "column": "CircleCI:Which Continuous Integration (CI) system(s) do you regularly use?",
+      "left": {
+        "kind": "multi_option",
+        "group": "ide.tools.ci",
+        "option": "CircleCI"
+      },
+      "right": {
+        "kind": "multi_option",
+        "group": "ci.systems",
+        "option": "circleci"
+      }
+    },
+    {
+      "column": "ClickHouse:Which of the following Big Data tool(s) do you use, if any?",
+      "left": {
+        "kind": "multi_option",
+        "group": "ide.tools.bigdata",
+        "option": "ClickHouse"
+      },
+      "right": {
+        "kind": "multi_option",
+        "group": "clickhouse",
+        "option": "clickhouse"
+      }
+    },
+    {
+      "column": "Clojure:What other language(s) do you use?",
+      "left": {
+        "kind": "multi_option",
+        "group": "other.lang",
+        "option": "Clojure"
+      },
+      "right": {
+        "kind": "multi_option",
+        "group": "other.languages",
+        "option": "Clojure"
+      }
+    },
+    {
+      "column": "CoffeeScript:What other language(s) do you use?",
+      "left": {
+        "kind": "multi_option",
+        "group": "other.lang",
+        "option": "CoffeeScript"
+      },
+      "right": {
+        "kind": "multi_option",
+        "group": "other.languages",
+        "option": "CoffeeScript"
+      }
+    },
+    {
+      "column": "Computer graphics: What do you use Python for?",
+      "left": {
+        "kind": "multi_option",
+        "group": "purposes.python.graphics",
+        "option": "Computer graphics"
+      },
+      "right": {
+        "kind": "multi_option",
+        "group": "Computer graphics",
+        "option": "Computer graphics"
+      }
+    },
+    {
+      "column": "CruiseControl:Which Continuous Integration (CI) system(s) do you regularly use?",
+      "left": {
+        "kind": "multi_option",
+        "group": "ide.tools.ci",
+        "option": "CruiseControl"
+      },
+      "right": {
+        "kind": "multi_option",
+        "group": "ci.systems",
+        "option": "cruisecontrol"
+      }
+    },
+    {
+      "column": "Custom solution:Which configuration management tools do you use, if any?",
+      "left": {
+        "kind": "multi_option",
+        "group": "frameworks.cm",
+        "option": "Custom solution"
+      },
+      "right": {
+        "kind": "multi_option",
+        "group": "custom_solution",
+        "option": "custom solution"
+      }
+    },
+    {
+      "column": "DB2:Which database(s) do you regularly use, if any?",
+      "left": {
+        "kind": "multi_option",
+        "group": "ide.databases",
+        "option": "DB2"
+      },
+      "right": {
+        "kind": "multi_option",
+        "group": "database.use",
+        "option": "DB2"
+      }
+    },
+    {
+      "column": "Dask:Which of the following Big Data tool(s) do you use, if any?",
+      "left": {
+        "kind": "multi_option",
+        "group": "ide.tools.bigdata",
+        "option": "Dask"
+      },
+      "right": {
+        "kind": "multi_option",
+        "group": "dask",
+        "option": "Dask"
+      }
+    },
+    {
+      "column": "Data analysis: What do you use Python for?",
+      "left": {
+        "kind": "multi_option",
+        "group": "purposes.python.data_analysis",
+        "option": "Data analysis"
+      },
+      "right": {
+        "kind": "multi_option",
+        "group": "data_analysis",
+        "option": "data analysis"
+      }
+    },
+    {
+      "column": "Desktop development: What do you use Python for?",
+      "left": {
+        "kind": "multi_option",
+        "group": "purposes.python.desktop",
+        "option": "Desktop development"
+      },
+      "right": {
+        "kind": "multi_option",
+        "group": "desktop_development",
+        "option": "desktop development"
+      }
+    },
+    {
+      "column": "DevOps / System administration / Writing automation scripts: What do you use Python for?",
+      "left": {
+        "kind": "multi_option",
+        "group": "purposes.python.devops",
+        "option": "DevOps / System administration / Writing automation scripts"
+      },
+      "right": {
+        "kind": "multi_option",
+        "group": "devops_python_use",
+        "option": "DevOps / System administration / Writing automation scripts"
+      }
+    },
+    {
+      "column": "DigitalOcean:Which of the following cloud platforms do you use?",
+      "left": {
+        "kind": "multi_option",
+        "group": "cloud.platforms",
+        "option": "DigitalOcean"
+      },
+      "right": {
+        "kind": "multi_option",
+        "group": "clouds",
+        "option": "DigitalOcean"
+      }
+    },
+    {
+      "column": "Directly in the production environment:How do you develop for the cloud?",
+      "left": {
+        "kind": "multi_option",
+        "group": "ide.editor",
+        "option": "Directly in the production environment"
+      },
+      "right": {
+        "kind": "multi_option",
+        "group": "cloud.development",
+        "option": "Directly in the production environment"
+      }
+    },
+    {
+      "column": "Django:What web frameworks / libraries do you use in addition to Python?",
+      "left": {
+        "kind": "multi_option",
+        "group": "frameworks.web",
+        "option": "Django"
+      },
+      "right": {
+        "kind": "multi_option",
+        "group": "web.frameworks.django",
+        "option": "Django"
+      }
+    },
+    {
+      "column": "Docker:Do you use any of the following tools to isolate Python environments, if any?",
+      "left": {
+        "kind": "multi_option",
+        "group": "ide.isolate",
+        "option": "Docker"
+      },
+      "right": {
+        "kind": "multi_option",
+        "group": "Docker",
+        "option": "Docker"
+      }
+    },
+    {
+      "column": "Educational purposes: What do you use Python for?",
+      "left": {
+        "kind": "multi_option",
+        "group": "purposes.python.educational",
+        "option": "Educational purposes"
+      },
+      "right": {
+        "kind": "multi_option",
+        "group": "education_python_use",
+        "option": "Educational purposes"
+      }
+    },
+    {
+      "column": "Emacs:What editors/IDEs do you use for Python development in addition to your primary IDE?",
+      "left": {
+        "kind": "multi_option",
+        "group": "ide.editor",
+        "option": "Emacs"
+      },
+      "right": {
+        "kind": "multi_option",
+        "group": "what_ide editors_ide_s_python_development_in_addition_to_primary_ide",
+        "option": "emacs"
+      }
+    },
+    {
+      "column": "Embedded development: What do you use Python for?",
+      "left": {
+        "kind": "multi_option",
+        "group": "purposes.python.embedded",
+        "option": "Embedded development"
+      },
+      "right": {
+        "kind": "multi_option",
+        "group": "embedded_python_use",
+        "option": "Embedded development"
+      }
+    },
+    {
+      "column": "Enthought:What do you typically use to upgrade your Python version?",
+      "left": {
+        "kind": "multi_option",
+        "group": "ide.upgrade.enthought",
+        "option": "Enthought"
+      },
+      "right": {
+        "kind": "multi_option",
+        "group": "python.version.upgrades",
+        "option": "Enthought"
+      }
+    },
+    {
+      "column": "Falcon:What web frameworks / libraries do you use in addition to Python?",
+      "left": {
+        "kind": "multi_option",
+        "group": "frameworks.web",
+        "option": "Falcon"
+      },
+      "right": {
+        "kind": "multi_option",
+        "group": "web.frameworks.falcon",
+        "option": "Falcon"
+      }
+    },
+    {
+      "column": "Game development: What do you use Python for?",
+      "left": {
+        "kind": "multi_option",
+        "group": "purposes.python.game",
+        "option": "Game development"
+      },
+      "right": {
+        "kind": "multi_option",
+        "group": "game_dev_python_use",
+        "option": "Game development"
+      }
+    },
+    {
+      "column": "Gedit:What editors/IDEs do you use for Python development in addition to your primary IDE?",
+      "left": {
+        "kind": "multi_option",
+        "group": "ide.editor",
+        "option": "Gedit"
+      },
+      "right": {
+        "kind": "multi_option",
+        "group": "what_ide editors_ide_s_python_development_in_addition_to_primary_ide",
+        "option": "gedit"
+      }
+    },
+    {
+      "column": "Gensim:What data science framework(s) do you use in addition to Python?",
+      "left": {
+        "kind": "multi_option",
+        "group": "frameworks.data",
+        "option": "Gensim"
+      },
+      "right": {
+        "kind": "multi_option",
+        "group": "frameworks.ml",
+        "option": "Gensim"
+      }
+    },
+    {
+      "column": "Gitlab CI:Which Continuous Integration (CI) system(s) do you regularly use?",
+      "left": {
+        "kind": "multi_option",
+        "group": "ide.tools.ci",
+        "option": "Gitlab CI"
+      },
+      "right": {
+        "kind": "multi_option",
+        "group": "ci.systems",
+        "option": "gitlab ci"
+      }
+    },
+    {
+      "column": "Go:What other language(s) do you use?",
+      "left": {
+        "kind": "multi_option",
+        "group": "other.lang",
+        "option": "Go"
+      },
+      "right": {
+        "kind": "multi_option",
+        "group": "other.languages",
+        "option": "Go"
+      }
+    },
+    {
+      "column": "Google Cloud Platform:Which of the following cloud platforms do you use?",
+      "left": {
+        "kind": "multi_option",
+        "group": "cloud.platforms",
+        "option": "Google Cloud Platform"
+      },
+      "right": {
+        "kind": "multi_option",
+        "group": "cloud.platforms.do_you_use",
+        "option": "Google Cloud Platform"
+      }
+    },
+    {
+      "column": "Groovy:What other language(s) do you use?",
+      "left": {
+        "kind": "multi_option",
+        "group": "other.lang",
+        "option": "Groovy"
+      },
+      "right": {
+        "kind": "multi_option",
+        "group": "language.usage",
+        "option": "Groovy"
+      }
+    },
+    {
+      "column": "HTML/CSS:What other language(s) do you use?",
+      "left": {
+        "kind": "multi_option",
+        "group": "other.lang",
+        "option": "HTML/CSS"
+      },
+      "right": {
+        "kind": "multi_option",
+        "group": "language.usage",
+        "option": "HTML/CSS"
+      }
+    },
+    {
+      "column": "Heroku:Which of the following cloud platforms do you use?",
+      "left": {
+        "kind": "multi_option",
+        "group": "cloud.platforms",
+        "option": "Heroku"
+      },
+      "right": {
+        "kind": "multi_option",
+        "group": "cloud.platforms.do_you_use",
+        "option": "Heroku"
+      }
+    },
+    {
+      "column": "IDLE:What editors/IDEs do you use for Python development in addition to your primary IDE?",
+      "left": {
+        "kind": "multi_option",
+        "group": "ide.editor",
+        "option": "IDLE"
+      },
+      "right": {
+        "kind": "multi_option",
+        "group": "what_ide editors_ide_s_python_development_in_addition_to_primary_ide",
+        "option": "idle"
+      }
+    }
+  ],
+  "disagreement_total": 131,
+  "year": 2019,
+  "left": {
+    "dir": "C:\\Users\\afewm\\Documents\\Projects\\PSF-Survey-Data\\llm\\decisions",
+    "columns": 282,
+    "duplicates": 0,
+    "model": "qwen3.5:4b"
+  },
+  "right": {
+    "dir": "C:\\Users\\afewm\\Documents\\Projects\\PSF-Survey-Data\\pangu\\decisions",
+    "columns": 142,
+    "duplicates": 9,
+    "model": "pangu-emb-7b"
+  }
+}

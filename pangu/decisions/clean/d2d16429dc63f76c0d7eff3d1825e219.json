@@ -1,0 +1,32 @@
+{
+  "stage": "clean_semantics",
+  "model": "pangu-emb-7b",
+  "model_digest": "33125beabd8e1fe1",
+  "prompt_version": "clean-semantics-v2",
+  "input_hash": "d2d16429dc63f76c0d7eff3d1825e219",
+  "created_at": "2026-10-29T19:49:10",
+  "duration_s": 15.33,
+  "output_tokens": 962,
+  "fallback": false,
+  "error": "",
+  "manual_edit": false,
+  "reviewed": false,
+  "payload_summary": {
+    "year": 2019,
+    "batch": "Software testing / Writing automated tests: What do you use Python for?…Software testing / Writing automated tests: What do you use Python for?",
+    "n": 1
+  },
+  "response": {
+    "columns": [
+      {
+        "column": "Software testing / Writing automated tests: What do you use Python for?",
+        "kind": "multi_option",
+        "group": "software_testing_writing_automated_tests",
+        "option": "Software testing / Writing automated tests",
+        "missing_tokens": [],
+        "reason": "全列取值恒等于列名中的选项文本，符合multi_option特征",
+        "year": 2019
+      }
+    ]
+  }
+}

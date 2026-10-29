@@ -1,0 +1,125 @@
+{
+  "years": [
+    2019
+  ],
+  "produced": {
+    "规则": [
+      2019
+    ],
+    "qwen4B": [
+      2019
+    ],
+    "pangu7B": []
+  },
+  "missing": {
+    "规则": [],
+    "qwen4B": [],
+    "pangu7B": [
+      2019
+    ]
+  },
+  "rows": [
+    {
+      "year": 2019,
+      "rows": {
+        "规则": 47308,
+        "qwen4B": 47308
+      },
+      "cols": {
+        "规则": 290,
+        "qwen4B": 290
+      }
+    }
+  ],
+  "pairs": [
+    {
+      "left": "规则",
+      "right": "qwen4B",
+      "left_cols": 290,
+      "right_cols": 290,
+      "matched": 190,
+      "jaccard": 48.7,
+      "recall": 65.5,
+      "missing_diffs": [
+        [
+          "which_of_the_following_industries_do_you_develop_for",
+          16.3,
+          39.2,
+          22.8
+        ],
+        [
+          "ide.editor.None",
+          6.8,
+          18.1,
+          11.3
+        ],
+        [
+          "frameworks.ml.Other - Write In__dup1",
+          4.1,
+          1.0,
+          -3.0
+        ],
+        [
+          "frameworks.ml.Other - Write In",
+          2.2,
+          4.1,
+          1.9
+        ],
+        [
+          "ide.editor.Other - Write In",
+          2.4,
+          0.8,
+          -1.5
+        ]
+      ]
+    }
+  ],
+  "common_all": {
+    "2019": 190
+  },
+  "common_sources": {
+    "2019": 2
+  },
+  "mappings": [
+    {
+      "source": "规则",
+      "column_mapping": 382,
+      "value_mapping": 109745,
+      "note": ""
+    },
+    {
+      "source": "qwen4B",
+      "column_mapping": 305,
+      "value_mapping": 5217,
+      "note": ""
+    },
+    {
+      "source": "pangu7B",
+      "column_mapping": 0,
+      "value_mapping": 0,
+      "note": "未产出映射表"
+    }
+  ],
+  "master_cols": {
+    "规则": 153,
+    "qwen4B": 110
+  },
+  "master_pairs": [
+    {
+      "left": "规则",
+      "right": "qwen4B",
+      "left_cols": 153,
+      "right_cols": 110,
+      "matched": 105,
+      "jaccard": 66.5,
+      "recall": 68.6,
+      "missing_diffs": []
+    }
+  ],
+  "master_missing": [
+    "pangu7B"
+  ],
+  "problems": [
+    "2019 年无法比对：pangu7B侧缺分年对齐表"
+  ]
+}

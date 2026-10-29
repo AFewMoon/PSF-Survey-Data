@@ -1,0 +1,41 @@
+{
+  "stage": "clean_semantics",
+  "model": "pangu-emb-7b",
+  "model_digest": "33125beabd8e1fe1",
+  "prompt_version": "clean-semantics-v2",
+  "input_hash": "3825b78c78304e424582858b5873696e",
+  "created_at": "2026-10-29T19:37:42",
+  "duration_s": 12.34,
+  "output_tokens": 771,
+  "fallback": false,
+  "error": "",
+  "manual_edit": false,
+  "reviewed": false,
+  "payload_summary": {
+    "year": 2019,
+    "batch": "Data analysis: What do you use Python for?…Desktop development: What do you use Python for?",
+    "n": 2
+  },
+  "response": {
+    "columns": [
+      {
+        "column": "Data analysis: What do you use Python for?",
+        "kind": "multi_option",
+        "group": "data_analysis",
+        "option": "data analysis",
+        "missing_tokens": [],
+        "reason": "全列取值恒等于列名中的选项文本（Data analysis），符合 multi_option 特征",
+        "year": 2019
+      },
+      {
+        "column": "Desktop development: What do you use Python for?",
+        "kind": "multi_option",
+        "group": "desktop_development",
+        "option": "desktop development",
+        "missing_tokens": [],
+        "reason": "全列取值恒等于列名中的选项文本（Desktop development），符合 multi_option 特征",
+        "year": 2019
+      }
+    ]
+  }
+}

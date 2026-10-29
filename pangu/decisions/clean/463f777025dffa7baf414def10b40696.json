@@ -1,0 +1,41 @@
+{
+  "stage": "clean_semantics",
+  "model": "pangu-emb-7b",
+  "model_digest": "33125beabd8e1fe1",
+  "prompt_version": "clean-semantics-v2",
+  "input_hash": "463f777025dffa7baf414def10b40696",
+  "created_at": "2026-10-29T20:55:35",
+  "duration_s": 23.02,
+  "output_tokens": 1204,
+  "fallback": false,
+  "error": "",
+  "manual_edit": false,
+  "reviewed": false,
+  "payload_summary": {
+    "year": 2019,
+    "batch": "DB2:Which database(s) do you regularly use, if any?…h2:Which database(s) do you regularly use, if any?",
+    "n": 2
+  },
+  "response": {
+    "columns": [
+      {
+        "column": "DB2:Which database(s) do you regularly use, if any?",
+        "kind": "multi_option",
+        "group": "database.use",
+        "option": "DB2",
+        "missing_tokens": [],
+        "reason": "multi_like flags and column name prefix indicate multi-option with DB2 as option",
+        "year": 2019
+      },
+      {
+        "column": "h2:Which database(s) do you regularly use, if any?",
+        "kind": "multi_option",
+        "group": "database.use",
+        "option": "h2",
+        "missing_tokens": [],
+        "reason": "multi_like flags and column name prefix indicate multi-option with h2 as option",
+        "year": 2019
+      }
+    ]
+  }
+}

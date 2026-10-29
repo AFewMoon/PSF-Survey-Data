@@ -1,0 +1,59 @@
+{
+  "stage": "clean_semantics",
+  "model": "pangu-emb-7b",
+  "model_digest": "33125beabd8e1fe1",
+  "prompt_version": "clean-semantics-v2",
+  "input_hash": "6e29644927ab2ce5fa662d269a55d9cd",
+  "created_at": "2026-10-29T19:19:28",
+  "duration_s": 24.03,
+  "output_tokens": 1505,
+  "fallback": false,
+  "error": "",
+  "manual_edit": false,
+  "reviewed": false,
+  "payload_summary": {
+    "year": 2019,
+    "batch": "C#:What other language(s) do you use?…Go:What other language(s) do you use?",
+    "n": 4
+  },
+  "response": {
+    "columns": [
+      {
+        "column": "C#:What other language(s) do you use?",
+        "kind": "multi_option",
+        "group": "other.languages",
+        "option": "C#",
+        "missing_tokens": [],
+        "reason": "全列取值恒等于列名中的选项文本（C#）",
+        "year": 2019
+      },
+      {
+        "column": "Clojure:What other language(s) do you use?",
+        "kind": "multi_option",
+        "group": "other.languages",
+        "option": "Clojure",
+        "missing_tokens": [],
+        "reason": "全列取值恒等于列名中的选项文本（Clojure）",
+        "year": 2019
+      },
+      {
+        "column": "CoffeeScript:What other language(s) do you use?",
+        "kind": "multi_option",
+        "group": "other.languages",
+        "option": "CoffeeScript",
+        "missing_tokens": [],
+        "reason": "全列取值恒等于列名中的选项文本（CoffeeScript）",
+        "year": 2019
+      },
+      {
+        "column": "Go:What other language(s) do you use?",
+        "kind": "multi_option",
+        "group": "other.languages",
+        "option": "Go",
+        "missing_tokens": [],
+        "reason": "全列取值恒等于列名中的选项文本（Go）",
+        "year": 2019
+      }
+    ]
+  }
+}

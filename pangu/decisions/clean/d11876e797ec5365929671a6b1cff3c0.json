@@ -1,0 +1,41 @@
+{
+  "stage": "clean_semantics",
+  "model": "pangu-emb-7b",
+  "model_digest": "33125beabd8e1fe1",
+  "prompt_version": "clean-semantics-v2",
+  "input_hash": "d11876e797ec5365929671a6b1cff3c0",
+  "created_at": "2026-10-29T21:03:13",
+  "duration_s": 26.24,
+  "output_tokens": 1636,
+  "fallback": false,
+  "error": "",
+  "manual_edit": false,
+  "reviewed": false,
+  "payload_summary": {
+    "year": 2019,
+    "batch": "Apache Hive:Which of the following Big Data tool(s) do you use, if any?…Apache Kafka:Which of the following Big Data tool(s) do you use, if any?",
+    "n": 2
+  },
+  "response": {
+    "columns": [
+      {
+        "column": "Apache Hive:Which of the following Big Data tool(s) do you use, if any?",
+        "kind": "multi_option",
+        "group": "bigdata",
+        "option": "Apache Hive",
+        "missing_tokens": [],
+        "reason": "列名包含工具名作为选项，且取值均为工具名+NA，符合multi_like特征",
+        "year": 2019
+      },
+      {
+        "column": "Apache Kafka:Which of the following Big Data tool(s) do you use, if any?",
+        "kind": "multi_option",
+        "group": "bigdata",
+        "option": "Apache Kafka",
+        "missing_tokens": [],
+        "reason": "列名包含工具名作为选项，且取值均为工具名+NA，符合multi_like特征",
+        "year": 2019
+      }
+    ]
+  }
+}

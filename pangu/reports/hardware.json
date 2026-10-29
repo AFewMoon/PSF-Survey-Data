@@ -1,0 +1,100 @@
+{
+  "host": {
+    "platform": "Windows-11-10.0.26200-SP0",
+    "cpu_count": 24,
+    "gpus": [
+      {
+        "name": "NVIDIA GeForce RTX 5070 Laptop GPU",
+        "vram_mib": 8151,
+        "vram_used_mib": 1584,
+        "driver": "616.92"
+      }
+    ],
+    "vram_gib": 7.96,
+    "ram_total_gib": 15.61,
+    "ram_available_gib": 6.17,
+    "disk_free_gib": 280.55
+  },
+  "candidates": [
+    {
+      "family": "openPangu-2.0-Flash (92B-A6B)",
+      "quant": "Q3_K_M",
+      "size_gib": 40.7,
+      "size_gb": 43.7,
+      "repo": "mrexodia/openPangu-2.0-Flash-GGUF",
+      "verdict": "NO",
+      "reason": "超出可用容量 2.3 倍，mmap 退化为磁盘换页",
+      "note": "MoE，6B 激活；用户指定的首选仓库"
+    },
+    {
+      "family": "openPangu-2.0-Flash (92B-A6B)",
+      "quant": "Q4_K_M",
+      "size_gib": 51.5,
+      "size_gb": 55.3,
+      "repo": "mrexodia/openPangu-2.0-Flash-GGUF",
+      "verdict": "NO",
+      "reason": "超出可用容量 3.0 倍，mmap 退化为磁盘换页",
+      "note": "perplexity 3.46，质量更好"
+    },
+    {
+      "family": "openPangu-Ultra-MoE (718B)",
+      "quant": "Int8",
+      "size_gib": 718.0,
+      "size_gb": 770.95,
+      "repo": "openpangu/openPangu-Ultra-MoE-718B-V1.1-Int8",
+      "verdict": "NO",
+      "reason": "超出可用容量 40.4 倍，mmap 退化为磁盘换页",
+      "note": "仅云端或数据中心"
+    },
+    {
+      "family": "openPangu-Embedded-7B-V1.1",
+      "quant": "Q8_0",
+      "size_gib": 7.95,
+      "size_gb": 8.54,
+      "repo": "mradermacher/openPangu-Embedded-7B-V1.1-GGUF",
+      "verdict": "MIXED",
+      "reason": "需显存+内存混合 offload，吞吐显著下降，须实测",
+      "note": "dense，近无损"
+    },
+    {
+      "family": "openPangu-Embedded-7B-V1.1",
+      "quant": "Q5_K_M",
+      "size_gib": 5.34,
+      "size_gb": 5.73,
+      "repo": "mradermacher/openPangu-Embedded-7B-V1.1-GGUF",
+      "verdict": "MIXED",
+      "reason": "需显存+内存混合 offload，吞吐显著下降，须实测",
+      "note": "dense"
+    },
+    {
+      "family": "openPangu-Embedded-7B-V1.1",
+      "quant": "Q4_K_M",
+      "size_gib": 4.59,
+      "size_gb": 4.93,
+      "repo": "mradermacher/openPangu-Embedded-7B-V1.1-GGUF",
+      "verdict": "GPU",
+      "reason": "权重与 KV cache 可全量驻留显存，单卡直跑",
+      "note": "dense，本次主力档"
+    },
+    {
+      "family": "openPangu-Embedded-7B-V1.1",
+      "quant": "Q3_K_M",
+      "size_gib": 3.77,
+      "size_gb": 4.05,
+      "repo": "mradermacher/openPangu-Embedded-7B-V1.1-GGUF",
+      "verdict": "GPU",
+      "reason": "权重与 KV cache 可全量驻留显存，单卡直跑",
+      "note": "dense，质量下限候选"
+    },
+    {
+      "family": "openPangu-Embedded-1B-V1.1",
+      "quant": "Q4_K_M",
+      "size_gib": 0.7,
+      "size_gb": 0.75,
+      "repo": "mradermacher/openPangu-Embedded-1B-V1.1-GGUF",
+      "verdict": "GPU",
+      "reason": "权重与 KV cache 可全量驻留显存，单卡直跑",
+      "note": "dense，最小可用档"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "stage": "clean_semantics",
+  "model": "pangu-emb-7b",
+  "model_digest": "33125beabd8e1fe1",
+  "prompt_version": "clean-semantics-v2",
+  "input_hash": "013819790a21b11af7eacd446a950f9a",
+  "created_at": "2026-10-29T20:35:54",
+  "duration_s": 14.56,
+  "output_tokens": 923,
+  "fallback": false,
+  "error": "",
+  "manual_edit": false,
+  "reviewed": false,
+  "payload_summary": {
+    "year": 2019,
+    "batch": "None of the following:How do you run code in the cloud (in the production environment)?…None of the following:How do you run code in the cloud (in the production environment)?",
+    "n": 1
+  },
+  "response": {
+    "columns": [
+      {
+        "column": "None of the following:How do you run code in the cloud (in the production environment)?",
+        "kind": "multi_option",
+        "group": "none_of_the_following",
+        "option": "None of the following",
+        "missing_tokens": [],
+        "reason": "全列取值恒等于选项文本'None of the following'，符合multi_option类型",
+        "year": 2019
+      }
+    ]
+  }
+}

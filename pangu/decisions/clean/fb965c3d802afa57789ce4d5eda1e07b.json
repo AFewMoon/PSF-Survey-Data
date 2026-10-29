@@ -1,0 +1,67 @@
+{
+  "stage": "clean_semantics",
+  "model": "pangu-emb-7b",
+  "model_digest": "33125beabd8e1fe1",
+  "prompt_version": "clean-semantics-v2",
+  "input_hash": "fb965c3d802afa57789ce4d5eda1e07b",
+  "created_at": "2026-10-29T19:41:14",
+  "duration_s": 11.98,
+  "output_tokens": 732,
+  "fallback": false,
+  "error": "",
+  "manual_edit": false,
+  "reviewed": false,
+  "payload_summary": {
+    "year": 2019,
+    "batch": "Groovy:What other language(s) do you use?…JavaScript:What other language(s) do you use?",
+    "n": 4
+  },
+  "response": {
+    "columns": [
+      {
+        "column": "Groovy:What other language(s) do you use?",
+        "kind": "multi_option",
+        "group": "language.usage",
+        "option": "Groovy",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "列名包含选项文本'Groovy'，flags为multi_like，符合多选题选项列特征",
+        "year": 2019
+      },
+      {
+        "column": "HTML/CSS:What other language(s) do you use?",
+        "kind": "multi_option",
+        "group": "language.usage",
+        "option": "HTML/CSS",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "列名包含选项文本'HTML/CSS'，flags为multi_like，符合多选题选项列特征",
+        "year": 2019
+      },
+      {
+        "column": "Java:What other language(s) do you use?",
+        "kind": "multi_option",
+        "group": "language.usage",
+        "option": "Java",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "列名包含选项文本'Java'，flags为multi_like，符合多选题选项列特征",
+        "year": 2019
+      },
+      {
+        "column": "JavaScript:What other language(s) do you use?",
+        "kind": "multi_option",
+        "group": "language.usage",
+        "option": "JavaScript",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "列名包含选项文本'JavaScript'，flags为multi_like，符合多选题选项列特征",
+        "year": 2019
+      }
+    ]
+  }
+}

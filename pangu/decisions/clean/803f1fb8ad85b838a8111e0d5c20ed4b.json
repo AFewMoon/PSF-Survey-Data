@@ -1,0 +1,59 @@
+{
+  "stage": "clean_semantics",
+  "model": "pangu-emb-7b",
+  "model_digest": "33125beabd8e1fe1",
+  "prompt_version": "clean-semantics-v2",
+  "input_hash": "803f1fb8ad85b838a8111e0d5c20ed4b",
+  "created_at": "2026-10-29T21:03:31",
+  "duration_s": 17.98,
+  "output_tokens": 1115,
+  "fallback": false,
+  "error": "",
+  "manual_edit": false,
+  "reviewed": false,
+  "payload_summary": {
+    "year": 2019,
+    "batch": "Apache Samza:Which of the following Big Data tool(s) do you use, if any?…ClickHouse:Which of the following Big Data tool(s) do you use, if any?",
+    "n": 4
+  },
+  "response": {
+    "columns": [
+      {
+        "column": "Apache Samza:Which of the following Big Data tool(s) do you use, if any?",
+        "kind": "multi_option",
+        "group": "apache.samza",
+        "option": "apache samza",
+        "missing_tokens": [],
+        "reason": "全列取值恒等于列名中的选项文本，符合multi_option定义",
+        "year": 2019
+      },
+      {
+        "column": "Apache Spark:Which of the following Big Data tool(s) do you use, if any?",
+        "kind": "multi_option",
+        "group": "apache.spark",
+        "option": "apache spark",
+        "missing_tokens": [],
+        "reason": "全列取值恒等于列名中的选项文本，符合multi_option定义",
+        "year": 2019
+      },
+      {
+        "column": "Apache Tez:Which of the following Big Data tool(s) do you use, if any?",
+        "kind": "multi_option",
+        "group": "apache.tez",
+        "option": "apache tez",
+        "missing_tokens": [],
+        "reason": "全列取值恒等于列名中的选项文本，符合multi_option定义",
+        "year": 2019
+      },
+      {
+        "column": "ClickHouse:Which of the following Big Data tool(s) do you use, if any?",
+        "kind": "multi_option",
+        "group": "clickhouse",
+        "option": "clickhouse",
+        "missing_tokens": [],
+        "reason": "全列取值恒等于列名中的选项文本，符合multi_option定义",
+        "year": 2019
+      }
+    ]
+  }
+}

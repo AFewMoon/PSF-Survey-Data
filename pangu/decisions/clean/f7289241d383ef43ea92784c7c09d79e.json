@@ -1,0 +1,32 @@
+{
+  "stage": "clean_semantics",
+  "model": "pangu-emb-7b",
+  "model_digest": "33125beabd8e1fe1",
+  "prompt_version": "clean-semantics-v2",
+  "input_hash": "f7289241d383ef43ea92784c7c09d79e",
+  "created_at": "2026-10-29T20:11:20",
+  "duration_s": 10.86,
+  "output_tokens": 684,
+  "fallback": false,
+  "error": "",
+  "manual_edit": false,
+  "reviewed": false,
+  "payload_summary": {
+    "year": 2019,
+    "batch": "pyenv:What do you typically use to upgrade your Python version?…pyenv:What do you typically use to upgrade your Python version?",
+    "n": 1
+  },
+  "response": {
+    "columns": [
+      {
+        "column": "pyenv:What do you typically use to upgrade your Python version?",
+        "kind": "multi_option",
+        "group": "pyenv",
+        "option": "pyenv",
+        "missing_tokens": [],
+        "reason": "列名冒号前为选项文本'pyenv'，flags标记为multi_like且取值匹配选项文本",
+        "year": 2019
+      }
+    ]
+  }
+}

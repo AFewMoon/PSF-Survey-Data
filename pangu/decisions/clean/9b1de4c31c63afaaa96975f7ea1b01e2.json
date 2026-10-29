@@ -1,0 +1,32 @@
+{
+  "stage": "clean_semantics",
+  "model": "pangu-emb-7b",
+  "model_digest": "33125beabd8e1fe1",
+  "prompt_version": "clean-semantics-v2",
+  "input_hash": "9b1de4c31c63afaaa96975f7ea1b01e2",
+  "created_at": "2026-10-29T20:21:53",
+  "duration_s": 13.8,
+  "output_tokens": 870,
+  "fallback": false,
+  "error": "",
+  "manual_edit": false,
+  "reviewed": false,
+  "payload_summary": {
+    "year": 2019,
+    "batch": "Pandas:What data science framework(s) do you use in addition to Python?…Pandas:What data science framework(s) do you use in addition to Python?",
+    "n": 1
+  },
+  "response": {
+    "columns": [
+      {
+        "column": "Pandas:What data science framework(s) do you use in addition to Python?",
+        "kind": "multi_option",
+        "group": "pandas_option",
+        "option": "pandas",
+        "missing_tokens": [],
+        "reason": "全列取值恒等于列名中的选项文本'Pandas'，符合multi_like条件，应归类为多选题选项列",
+        "year": 2019
+      }
+    ]
+  }
+}

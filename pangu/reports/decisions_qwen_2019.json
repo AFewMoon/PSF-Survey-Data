@@ -1,0 +1,45 @@
+{
+  "decisions": "C:\\Users\\afewm\\Documents\\Projects\\PSF-Survey-Data\\llm\\decisions",
+  "model": "qwen3.5:4b",
+  "years": [
+    2019
+  ],
+  "overall": {
+    "calls": 18,
+    "fallback": 0,
+    "fallback_pct": 0.0,
+    "errors": 0,
+    "duration_median_s": 13.0,
+    "duration_mean_s": 11.95,
+    "output_tokens_total": 16014,
+    "output_tokens_median": 975,
+    "tokens_per_item_median": 54.4,
+    "items_counted": 17
+  },
+  "stages": {
+    "clean_plan": {
+      "calls": 1,
+      "fallback": 0,
+      "fallback_pct": 0.0,
+      "errors": 0,
+      "duration_median_s": 2.39,
+      "duration_mean_s": 2.39,
+      "output_tokens_total": 137,
+      "output_tokens_median": 137,
+      "tokens_per_item_median": null,
+      "items_counted": 0
+    },
+    "clean_semantics": {
+      "calls": 17,
+      "fallback": 0,
+      "fallback_pct": 0.0,
+      "errors": 0,
+      "duration_median_s": 13.11,
+      "duration_mean_s": 12.51,
+      "output_tokens_total": 15877,
+      "output_tokens_median": 979,
+      "tokens_per_item_median": 54.4,
+      "items_counted": 17
+    }
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "stage": "clean_semantics",
+  "model": "pangu-emb-7b",
+  "model_digest": "33125beabd8e1fe1",
+  "prompt_version": "clean-semantics-v2",
+  "input_hash": "1ad47629161ac4d178cb4258adecc43a",
+  "created_at": "2026-10-29T21:19:00",
+  "duration_s": 18.81,
+  "output_tokens": 1079,
+  "fallback": false,
+  "error": "",
+  "manual_edit": false,
+  "reviewed": false,
+  "payload_summary": {
+    "year": 2019,
+    "batch": "Rodeo:What editors/IDEs do you use for Python development in addition to your primary IDE?…TextMate:What editors/IDEs do you use for Python development in addition to your primary IDE?",
+    "n": 4
+  },
+  "response": {
+    "columns": [
+      {
+        "column": "Rodeo:What editors/IDEs do you use for Python development in addition to your primary IDE?",
+        "kind": "multi_option",
+        "group": "rodeo",
+        "option": "rodeo",
+        "missing_tokens": [],
+        "reason": "全列取值恒等于列名中的选项文本，符合 multi_option 类型",
+        "year": 2019
+      },
+      {
+        "column": "Spyder:What editors/IDEs do you use for Python development in addition to your primary IDE?",
+        "kind": "multi_option",
+        "group": "spyder",
+        "option": "spyder",
+        "missing_tokens": [],
+        "reason": "全列取值恒等于列名中的选项文本，符合 multi_option 类型",
+        "year": 2019
+      },
+      {
+        "column": "Sublime Text:What editors/IDEs do you use for Python development in addition to your primary IDE?",
+        "kind": "multi_option",
+        "group": "sublime text",
+        "option": "sublime text",
+        "missing_tokens": [],
+        "reason": "全列取值恒等于列名中的选项文本，符合 multi_option 类型",
+        "year": 2019
+      },
+      {
+        "column": "TextMate:What editors/IDEs do you use for Python development in addition to your primary IDE?",
+        "kind": "multi_option",
+        "group": "textmate",
+        "option": "textmate",
+        "missing_tokens": [],
+        "reason": "全列取值恒等于列名中的选项文本，符合 multi_option 类型",
+        "year": 2019
+      }
+    ]
+  }
+}

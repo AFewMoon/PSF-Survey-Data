@@ -183,7 +183,7 @@ def main(argv: list[str] | None = None) -> int:
         return 1
 
     elapsed = time.perf_counter() - started
-    print(f"\n完成，用时 {elapsed / 60:.1f} 分钟。产物目录：llm/")
+    print(f"\n完成，用时 {elapsed / 60:.1f} 分钟。产物目录：{config.OUT_ROOT.name}/")
     if client is not None:
         print(client.usage.summary())
     return 0

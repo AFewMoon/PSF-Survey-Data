@@ -1,0 +1,41 @@
+{
+  "stage": "clean_semantics",
+  "model": "pangu-emb-7b",
+  "model_digest": "33125beabd8e1fe1",
+  "prompt_version": "clean-semantics-v2",
+  "input_hash": "080ca6d4326da1576c4190a6f5a118a7",
+  "created_at": "2026-10-29T20:44:01",
+  "duration_s": 19.72,
+  "output_tokens": 1224,
+  "fallback": false,
+  "error": "",
+  "manual_edit": false,
+  "reviewed": false,
+  "payload_summary": {
+    "year": 2019,
+    "batch": "None:Which Python unit-testing framework(s) do you use, if any?…nose:Which Python unit-testing framework(s) do you use, if any?",
+    "n": 2
+  },
+  "response": {
+    "columns": [
+      {
+        "column": "None:Which Python unit-testing framework(s) do you use, if any?",
+        "kind": "multi_option",
+        "group": "python.unit_testing",
+        "option": "None",
+        "missing_tokens": [],
+        "reason": "列名中的选项文本为None，符合multi_like特征且取值非空表示选中",
+        "year": 2019
+      },
+      {
+        "column": "nose:Which Python unit-testing framework(s) do you use, if any?",
+        "kind": "multi_option",
+        "group": "python.unit_testing",
+        "option": "nose",
+        "missing_tokens": [],
+        "reason": "列名中的选项文本为nose，符合multi_like特征且取值非空表示选中",
+        "year": 2019
+      }
+    ]
+  }
+}

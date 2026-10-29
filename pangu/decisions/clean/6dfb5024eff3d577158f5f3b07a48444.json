@@ -1,0 +1,59 @@
+{
+  "stage": "clean_semantics",
+  "model": "pangu-emb-7b",
+  "model_digest": "33125beabd8e1fe1",
+  "prompt_version": "clean-semantics-v2",
+  "input_hash": "6dfb5024eff3d577158f5f3b07a48444",
+  "created_at": "2026-10-29T20:23:36",
+  "duration_s": 27.18,
+  "output_tokens": 1693,
+  "fallback": false,
+  "error": "",
+  "manual_edit": false,
+  "reviewed": false,
+  "payload_summary": {
+    "year": 2019,
+    "batch": "Seaborn:What data science framework(s) do you use in addition to Python?…aiohttp:Which of the following frameworks / libraries do you use in addition to Python?",
+    "n": 4
+  },
+  "response": {
+    "columns": [
+      {
+        "column": "Seaborn:What data science framework(s) do you use in addition to Python?",
+        "kind": "multi_option",
+        "group": "seaborn",
+        "option": "Seaborn",
+        "missing_tokens": [],
+        "reason": "列名以选项开头，冒号后为问题，flags为multi_like，符合多选题选项列特征",
+        "year": 2019
+      },
+      {
+        "column": "TensorFlow:What data science framework(s) do you use in addition to Python?",
+        "kind": "multi_option",
+        "group": "tensorflow",
+        "option": "TensorFlow",
+        "missing_tokens": [],
+        "reason": "列名以选项开头，冒号后为问题，flags为multi_like，符合多选题选项列特征",
+        "year": 2019
+      },
+      {
+        "column": "Theano:What data science framework(s) do you use in addition to Python?",
+        "kind": "multi_option",
+        "group": "theano",
+        "option": "Theano",
+        "missing_tokens": [],
+        "reason": "列名以选项开头，冒号后为问题，flags为multi_like，符合多选题选项列特征",
+        "year": 2019
+      },
+      {
+        "column": "aiohttp:Which of the following frameworks / libraries do you use in addition to Python?",
+        "kind": "multi_option",
+        "group": "aiohttp",
+        "option": "aiohttp",
+        "missing_tokens": [],
+        "reason": "列名以选项开头，冒号后为问题，flags为multi_like，符合多选题选项列特征",
+        "year": 2019
+      }
+    ]
+  }
+}

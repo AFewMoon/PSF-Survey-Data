@@ -1,0 +1,1 @@
+[warn] pangu-emb-7b 不支持 format=json，已降级为提示词约束 + 容错解析

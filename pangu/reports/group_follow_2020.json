@@ -1,0 +1,53 @@
+{
+  "year": 2020,
+  "model": "pangu-emb-7b",
+  "digest": "33125beabd8e1fe1",
+  "prefix": "other.lang",
+  "columns_requested": [
+    "other.lang.None",
+    "other.lang.Java",
+    "other.lang.JavaScript",
+    "other.lang.C/C++",
+    "other.lang.PHP"
+  ],
+  "columns_returned": 5,
+  "distinct_groups": 1,
+  "top_group_share_pct": 100.0,
+  "groups": {
+    "other.lang": 5
+  },
+  "items": [
+    {
+      "column": "other.lang.None",
+      "kind": "multi_option",
+      "group": "other.lang",
+      "option": "None"
+    },
+    {
+      "column": "other.lang.Java",
+      "kind": "multi_option",
+      "group": "other.lang",
+      "option": "Java"
+    },
+    {
+      "column": "other.lang.JavaScript",
+      "kind": "multi_option",
+      "group": "other.lang",
+      "option": "JavaScript"
+    },
+    {
+      "column": "other.lang.C/C++",
+      "kind": "multi_option",
+      "group": "other.lang",
+      "option": "C/C++"
+    },
+    {
+      "column": "other.lang.PHP",
+      "kind": "multi_option",
+      "group": "other.lang",
+      "option": "PHP"
+    }
+  ],
+  "duration_s": 30.486318299999766,
+  "output_tokens": 829
+}

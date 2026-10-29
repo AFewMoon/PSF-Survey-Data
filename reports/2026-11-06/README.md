@@ -1,20 +1,21 @@
-# 2026-11-06 组会汇报：跨年对齐的两条路
+# 2026-11-06 组会汇报：跨年对齐的三种做法
 
-**主题**：2019–2024 PSF 调查数据的跨年对齐——先人工映射到 153 列，再用本地 `qwen3.5:4b` 独立跑一遍清洗与对齐，对账看差异。
+**主题**：2019–2024 PSF 调查数据的跨年对齐——先人工映射到 153 列，再用本地 `qwen3.5:4b` 独立跑一遍清洗与对齐，对账看差异；今年又换了盘古 7B 走同一条管线、同一套提示词，看更大模型能不能承担这块判断。
 
-**时长**：7 页 / 口播 1,091 字，约 5.5–6 分钟。附录不占讲述时间。
+**时长**：9 页 / 口播 1,661 字，约 8 分钟。附录不占讲述时间。
 
 ## 文件
 
 | 文件 | 说明 |
 |---|---|
-| `组会汇报稿_数据对齐与LLM尝试.md` | 逐页讲述稿：每节含【一句话】【要点】口播【来源】；附录 A 五个追问、附录 B 数字索引 |
+| `组会汇报稿_数据对齐与LLM尝试.md` | 逐页讲述稿：每节含【一句话】【要点】口播【来源】；附录 A 六个追问、附录 B 数字索引 |
 | `figures/f1_coverage.png` | 列覆盖：42 → 153（人工）/ 110（LLM）/ 105（同名匹配） |
 | `figures/f2_mapping_scale.png` | 映射规模：列名 382 vs 305；取值 109,745 vs 5,217（对数轴） |
 | `figures/f3_parity.png` | 对账结构：并集 158 = 105 匹配 + 48 仅人工 + 5 仅 LLM |
-| `beamer/alignment_slides.pdf` | 7 页 16:9 幻灯片（成品） |
+| `figures/f4_capability.png` | 判断层三方对比：8 对样本准确率 100% / 100%，耗时中位 4.7s vs 13.7s |
+| `beamer/alignment_slides.pdf` | 9 页 16:9 幻灯片（成品） |
 | `beamer/alignment_slides.tex` | 幻灯片源码，ctexbeamer + metropolis |
-| `build_figures.py` | 从四份机器报告与决策目录取数、画图，并打印 KPI 核对表 |
+| `build_figures.py` | 从四份机器报告、决策目录与两份能力探针取数、画图，并打印 KPI 核对表 |
 
 ## 重新生成
 
@@ -42,13 +43,22 @@ xelatex alignment_slides.tex
 | 105 匹配、Jaccard 66.5%、非空率差 0 条、同主题最大差 0.1pp；并集 158 = 105 + 48 + 5 | `llm/reports/parity_report.md` |
 | 2021 行数 23,201 vs 23,178；2022 23,009 vs 22,986 | `llm/reports/parity_report.md` |
 | 2020 清洗 54,462 → 37,793（空行 12,554、重复 4,115） | `llm/reports/cleaning_report.md` |
+| 盘古 8 对判定 100%、JSON 合法 100%、跨轮一致、中位 13.7 秒；4B 同组 100%、中位 4.7 秒（首轮含加载，故取中位数） | `pangu/reports/capability_7b.json`；`pangu/reports/capability_qwen.json` |
+| 盘古 1B 同组 68.8%（淘汰依据） | `pangu/reports/capability_1b.json` |
+| 盘古 7B Q4_K_M 4.59 GiB、57 tok/s 全 GPU；2.0 系列最小档 Q3_K_M 40.7 GiB 超本机内存 | `pangu/reports/hardware.json` |
+| 盘古 `format=json` 返回 400；`think=false` 无效（模板无 thinking 分支） | 探针运行记录；`ollama show pangu-emb-7b --template` |
+| 138 列：kind 96.4%、option 71.0%、group 5.1%、三项全同 5.1%；组名基数 40 对 91 | `pangu/reports/semantics_compare_2019.md` |
+| 2020 `other.lang`、`other.purposes` 各 5 列 5/5 同组 | `pangu/reports/group_follow_2020.json`；`pangu/reports/group_follow_2020_b.json` |
+| 盘古每列 407 token 对 55、纯推理 6.6 秒对 0.73 秒；墙钟 127 分钟里 112 分钟是调用间空档 | `pangu/decisions/`、`llm/decisions/` 决策缓存（2026-10-29 21:20 收数，盘古 156/290 列） |
+| 盘古跨年对齐未产出（2019 清洗到 156/290 列收尾） | `pangu/aligned/` 为空；`pangu/reports/clean_2019.log` |
 
 ## 替换点
 
 - **换年份**：讲述稿的"2019–2024"、`build_figures.py` 不用改（数字全从报告解析）；只需确认两份 `alignment_report.md` 已更新。
-- **换模型**：`llm/config.py` 的 `MODEL_NAME`；幻灯片封面"本地 4B 模型"与第 5 页的 304/30 分钟/2.7 分钟需同步。
+- **换模型**：`llm/llm_survey/config.py` 的 `MODEL`；幻灯片封面"本地 4B 模型"与第 5 页的 304/30 分钟/2.7 分钟需同步。
+- **换第三方模型**：`pangu/run_pangu.py` 用 `LLM_SURVEY_OUT_ROOT` 隔离产物；`f4_capability.png` 读 `pangu/reports/capability_7b.json` 与 `capability_qwen.json`，缺任一文件该图自动跳过（讲述稿 07 与幻灯片第 7 页要一起删，第 8 页的对账数据独立于该图）。
 - **改数字**：先改报告来源，再跑 `build_figures.py`，最后同步讲述稿、`.tex` 与 README 三处。
-- **调页数**：幻灯片按 7 页设计；删页时同步删讲述稿对应小节，口播保持在 900–1,100 字。
+- **调页数**：幻灯片按 9 页设计；删页时同步删讲述稿对应小节，口播保持在 1,500–1,800 字。
 
 ## 约定
 
@@ -58,4 +68,4 @@ xelatex alignment_slides.tex
 
 ## 与 2026-10-23 的关系
 
-上一期（`reports/2026-10-23/`）讲的是数据清洗：8.8% 的行怎么删、2024 年为什么多出 300 列。这一期接着讲清洗之后的对齐，以及本地小模型的尝试。两期的清洗数字（203,643 → 185,632）一致，可以直接衔接。
+上一期（`reports/2026-10-23/`）讲的是数据清洗：8.8% 的行怎么删、2024 年为什么多出 300 列。这一期接着讲清洗之后的对齐，以及本地小模型的两种尝试（4B 与盘古 7B）。两期的清洗数字（203,643 → 185,632）一致，可以直接衔接。

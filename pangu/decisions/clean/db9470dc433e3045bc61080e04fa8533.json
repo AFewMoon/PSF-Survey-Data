@@ -1,0 +1,59 @@
+{
+  "stage": "clean_semantics",
+  "model": "pangu-emb-7b",
+  "model_digest": "33125beabd8e1fe1",
+  "prompt_version": "clean-semantics-v2",
+  "input_hash": "db9470dc433e3045bc61080e04fa8533",
+  "created_at": "2026-10-29T21:08:11",
+  "duration_s": 33.56,
+  "output_tokens": 2049,
+  "fallback": false,
+  "error": "",
+  "manual_edit": false,
+  "reviewed": false,
+  "payload_summary": {
+    "year": 2019,
+    "batch": "Travis CI:Which Continuous Integration (CI) system(s) do you regularly use?…Custom solution:Which configuration management tools do you use, if any?",
+    "n": 4
+  },
+  "response": {
+    "columns": [
+      {
+        "column": "Travis CI:Which Continuous Integration (CI) system(s) do you regularly use?",
+        "kind": "multi_option",
+        "group": "travis_ci",
+        "option": "travis ci",
+        "missing_tokens": [],
+        "reason": "multi_like标志且取值恒等于列名中的选项文本",
+        "year": 2019
+      },
+      {
+        "column": "Ansible:Which configuration management tools do you use, if any?",
+        "kind": "multi_option",
+        "group": "ansible",
+        "option": "ansible",
+        "missing_tokens": [],
+        "reason": "multi_like标志且取值恒等于列名中的选项文本",
+        "year": 2019
+      },
+      {
+        "column": "Chef:Which configuration management tools do you use, if any?",
+        "kind": "multi_option",
+        "group": "chef",
+        "option": "chef",
+        "missing_tokens": [],
+        "reason": "multi_like标志且取值恒等于列名中的选项文本",
+        "year": 2019
+      },
+      {
+        "column": "Custom solution:Which configuration management tools do you use, if any?",
+        "kind": "multi_option",
+        "group": "custom_solution",
+        "option": "custom solution",
+        "missing_tokens": [],
+        "reason": "multi_like标志且取值恒等于列名中的选项文本",
+        "year": 2019
+      }
+    ]
+  }
+}

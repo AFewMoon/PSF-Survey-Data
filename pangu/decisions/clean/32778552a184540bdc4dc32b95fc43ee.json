@@ -1,0 +1,59 @@
+{
+  "stage": "clean_semantics",
+  "model": "pangu-emb-7b",
+  "model_digest": "33125beabd8e1fe1",
+  "prompt_version": "clean-semantics-v2",
+  "input_hash": "32778552a184540bdc4dc32b95fc43ee",
+  "created_at": "2026-10-29T20:29:53",
+  "duration_s": 12.82,
+  "output_tokens": 803,
+  "fallback": false,
+  "error": "",
+  "manual_edit": false,
+  "reviewed": false,
+  "payload_summary": {
+    "year": 2019,
+    "batch": "Requests:Which of the following frameworks / libraries do you use in addition to Python?…Tkinter:Which of the following frameworks / libraries do you use in addition to Python?",
+    "n": 4
+  },
+  "response": {
+    "columns": [
+      {
+        "column": "Requests:Which of the following frameworks / libraries do you use in addition to Python?",
+        "kind": "multi_option",
+        "group": "frameworks.ml",
+        "option": "Requests",
+        "missing_tokens": [],
+        "reason": "全列取值恒等于列名中的选项文本，符合multi_option特征",
+        "year": 2019
+      },
+      {
+        "column": "Scrapy:Which of the following frameworks / libraries do you use in addition to Python?",
+        "kind": "multi_option",
+        "group": "frameworks.ml",
+        "option": "Scrapy",
+        "missing_tokens": [],
+        "reason": "全列取值恒等于列名中的选项文本，符合multi_option特征",
+        "year": 2019
+      },
+      {
+        "column": "Six:Which of the following frameworks / libraries do you use in addition to Python?",
+        "kind": "multi_option",
+        "group": "frameworks.ml",
+        "option": "Six",
+        "missing_tokens": [],
+        "reason": "全列取值恒等于列名中的选项文本，符合multi_option特征",
+        "year": 2019
+      },
+      {
+        "column": "Tkinter:Which of the following frameworks / libraries do you use in addition to Python?",
+        "kind": "multi_option",
+        "group": "frameworks.ml",
+        "option": "Tkinter",
+        "missing_tokens": [],
+        "reason": "全列取值恒等于列名中的选项文本，符合multi_option特征",
+        "year": 2019
+      }
+    ]
+  }
+}

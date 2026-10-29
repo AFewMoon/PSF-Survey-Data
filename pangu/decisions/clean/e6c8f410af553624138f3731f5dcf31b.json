@@ -1,0 +1,59 @@
+{
+  "stage": "clean_semantics",
+  "model": "pangu-emb-7b",
+  "model_digest": "33125beabd8e1fe1",
+  "prompt_version": "clean-semantics-v2",
+  "input_hash": "e6c8f410af553624138f3731f5dcf31b",
+  "created_at": "2026-10-29T20:18:00",
+  "duration_s": 20.19,
+  "output_tokens": 1262,
+  "fallback": false,
+  "error": "",
+  "manual_edit": false,
+  "reviewed": false,
+  "payload_summary": {
+    "year": 2019,
+    "batch": "Bottle:What web frameworks / libraries do you use in addition to Python?…Falcon:What web frameworks / libraries do you use in addition to Python?",
+    "n": 4
+  },
+  "response": {
+    "columns": [
+      {
+        "column": "Bottle:What web frameworks / libraries do you use in addition to Python?",
+        "kind": "multi_option",
+        "group": "web.frameworks.bottle",
+        "option": "Bottle",
+        "missing_tokens": [],
+        "reason": "列名冒号前为选项文本，flags为multi_like，且取值恒等于选项",
+        "year": 2019
+      },
+      {
+        "column": "CherryPy :What web frameworks / libraries do you use in addition to Python?",
+        "kind": "multi_option",
+        "group": "web.frameworks.cherrypy",
+        "option": "CherryPy",
+        "missing_tokens": [],
+        "reason": "列名冒号前为选项文本，flags为multi_like，且取值恒等于选项",
+        "year": 2019
+      },
+      {
+        "column": "Django:What web frameworks / libraries do you use in addition to Python?",
+        "kind": "multi_option",
+        "group": "web.frameworks.django",
+        "option": "Django",
+        "missing_tokens": [],
+        "reason": "列名冒号前为选项文本，flags为multi_like，且取值恒等于选项",
+        "year": 2019
+      },
+      {
+        "column": "Falcon:What web frameworks / libraries do you use in addition to Python?",
+        "kind": "multi_option",
+        "group": "web.frameworks.falcon",
+        "option": "Falcon",
+        "missing_tokens": [],
+        "reason": "列名冒号前为选项文本，flags为multi_like，且取值恒等于选项",
+        "year": 2019
+      }
+    ]
+  }
+}

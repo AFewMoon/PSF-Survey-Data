@@ -1,0 +1,32 @@
+{
+  "stage": "clean_semantics",
+  "model": "pangu-emb-7b",
+  "model_digest": "33125beabd8e1fe1",
+  "prompt_version": "clean-semantics-v2",
+  "input_hash": "370970db6469d4b00977302c97dce7da",
+  "created_at": "2026-10-29T21:01:14",
+  "duration_s": 16.7,
+  "output_tokens": 941,
+  "fallback": false,
+  "error": "",
+  "manual_edit": false,
+  "reviewed": false,
+  "payload_summary": {
+    "year": 2019,
+    "batch": "Other – Write In::Which database(s) do you regularly use, if any?…Other – Write In::Which database(s) do you regularly use, if any?",
+    "n": 1
+  },
+  "response": {
+    "columns": [
+      {
+        "column": "Other – Write In::Which database(s) do you regularly use, if any?",
+        "kind": "free_text",
+        "group": "other.database_usage",
+        "option": "",
+        "missing_tokens": [],
+        "reason": "列内容为自由文本，无固定选项，符合free_text类型",
+        "year": 2019
+      }
+    ]
+  }
+}

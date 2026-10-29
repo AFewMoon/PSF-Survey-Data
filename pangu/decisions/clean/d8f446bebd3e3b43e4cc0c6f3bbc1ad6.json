@@ -1,0 +1,41 @@
+{
+  "stage": "clean_semantics",
+  "model": "pangu-emb-7b",
+  "model_digest": "33125beabd8e1fe1",
+  "prompt_version": "clean-semantics-v2",
+  "input_hash": "d8f446bebd3e3b43e4cc0c6f3bbc1ad6",
+  "created_at": "2026-10-29T19:13:56",
+  "duration_s": 9.57,
+  "output_tokens": 597,
+  "fallback": false,
+  "error": "",
+  "manual_edit": false,
+  "reviewed": false,
+  "payload_summary": {
+    "year": 2019,
+    "batch": "Clojure:What other language(s) do you use?…CoffeeScript:What other language(s) do you use?",
+    "n": 2
+  },
+  "response": {
+    "columns": [
+      {
+        "column": "Clojure:What other language(s) do you use?",
+        "kind": "multi_option",
+        "group": "language use",
+        "option": "Clojure",
+        "missing_tokens": [],
+        "reason": "multi_like flags indicate options match column name prefix, non_empty_pct=100 confirms valid options",
+        "year": 2019
+      },
+      {
+        "column": "CoffeeScript:What other language(s) do you use?",
+        "kind": "multi_option",
+        "group": "language use",
+        "option": "CoffeeScript",
+        "missing_tokens": [],
+        "reason": "multi_like flags indicate options match column name prefix, non_empty_pct=100 confirms valid options",
+        "year": 2019
+      }
+    ]
+  }
+}

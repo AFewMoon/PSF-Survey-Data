@@ -1,0 +1,59 @@
+{
+  "stage": "clean_semantics",
+  "model": "pangu-emb-7b",
+  "model_digest": "33125beabd8e1fe1",
+  "prompt_version": "clean-semantics-v2",
+  "input_hash": "e13035ec78cd6cf9abdc3b89f35242a2",
+  "created_at": "2026-10-29T19:38:12",
+  "duration_s": 29.93,
+  "output_tokens": 1843,
+  "fallback": false,
+  "error": "",
+  "manual_edit": false,
+  "reviewed": false,
+  "payload_summary": {
+    "year": 2019,
+    "batch": "DevOps / System administration / Writing automation scripts: What do you use Python for?…Game development: What do you use Python for?",
+    "n": 4
+  },
+  "response": {
+    "columns": [
+      {
+        "column": "DevOps / System administration / Writing automation scripts: What do you use Python for?",
+        "kind": "multi_option",
+        "group": "devops_python_use",
+        "option": "DevOps / System administration / Writing automation scripts",
+        "missing_tokens": [],
+        "reason": "全列取值恒等于列名中的选项文本（DevOps / System administration / Writing automation scripts），符合multi_option条件",
+        "year": 2019
+      },
+      {
+        "column": "Educational purposes: What do you use Python for?",
+        "kind": "multi_option",
+        "group": "education_python_use",
+        "option": "Educational purposes",
+        "missing_tokens": [],
+        "reason": "全列取值恒等于列名中的选项文本（Educational purposes），符合multi_option条件",
+        "year": 2019
+      },
+      {
+        "column": "Embedded development: What do you use Python for?",
+        "kind": "multi_option",
+        "group": "embedded_python_use",
+        "option": "Embedded development",
+        "missing_tokens": [],
+        "reason": "全列取值恒等于列名中的选项文本（Embedded development），符合multi_option条件",
+        "year": 2019
+      },
+      {
+        "column": "Game development: What do you use Python for?",
+        "kind": "multi_option",
+        "group": "game_dev_python_use",
+        "option": "Game development",
+        "missing_tokens": [],
+        "reason": "全列取值恒等于列名中的选项文本（Game development），符合multi_option条件",
+        "year": 2019
+      }
+    ]
+  }
+}

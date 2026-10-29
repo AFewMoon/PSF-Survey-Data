@@ -1,0 +1,59 @@
+{
+  "stage": "clean_semantics",
+  "model": "pangu-emb-7b",
+  "model_digest": "33125beabd8e1fe1",
+  "prompt_version": "clean-semantics-v2",
+  "input_hash": "4defdfd33db2d733491b8550e4a8bc7f",
+  "created_at": "2026-10-29T20:20:10",
+  "duration_s": 11.26,
+  "output_tokens": 700,
+  "fallback": false,
+  "error": "",
+  "manual_edit": false,
+  "reviewed": false,
+  "payload_summary": {
+    "year": 2019,
+    "batch": "Gensim:What data science framework(s) do you use in addition to Python?…MXNet:What data science framework(s) do you use in addition to Python?",
+    "n": 4
+  },
+  "response": {
+    "columns": [
+      {
+        "column": "Gensim:What data science framework(s) do you use in addition to Python?",
+        "kind": "multi_option",
+        "group": "frameworks.ml",
+        "option": "Gensim",
+        "missing_tokens": [],
+        "reason": "flags=multi_like, 取值恒等于选项文本",
+        "year": 2019
+      },
+      {
+        "column": "Keras:What data science framework(s) do you use in addition to Python?",
+        "kind": "multi_option",
+        "group": "frameworks.ml",
+        "option": "Keras",
+        "missing_tokens": [],
+        "reason": "flags=multi_like, 取值恒等于选项文本",
+        "year": 2019
+      },
+      {
+        "column": "Matplotlib:What data science framework(s) do you use in addition to Python?",
+        "kind": "multi_option",
+        "group": "frameworks.ml",
+        "option": "Matplotlib",
+        "missing_tokens": [],
+        "reason": "flags=multi_like, 取值恒等于选项文本",
+        "year": 2019
+      },
+      {
+        "column": "MXNet:What data science framework(s) do you use in addition to Python?",
+        "kind": "multi_option",
+        "group": "frameworks.ml",
+        "option": "MXNet",
+        "missing_tokens": [],
+        "reason": "flags=multi_like, 取值恒等于选项文本",
+        "year": 2019
+      }
+    ]
+  }
+}

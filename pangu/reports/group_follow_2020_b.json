@@ -1,0 +1,53 @@
+{
+  "year": 2020,
+  "model": "pangu-emb-7b",
+  "digest": "33125beabd8e1fe1",
+  "prefix": "other.purposes",
+  "columns_requested": [
+    "other.purposes.Educational purposes",
+    "other.purposes.Data analysis",
+    "other.purposes.DevOps / System administration / Writing automation scripts",
+    "other.purposes.Software testing / Writing automated tests",
+    "other.purposes.Software prototyping"
+  ],
+  "columns_returned": 5,
+  "distinct_groups": 1,
+  "top_group_share_pct": 100.0,
+  "groups": {
+    "other.purposes": 5
+  },
+  "items": [
+    {
+      "column": "other.purposes.Educational purposes",
+      "kind": "multi_option",
+      "group": "other.purposes",
+      "option": "Educational purposes"
+    },
+    {
+      "column": "other.purposes.Data analysis",
+      "kind": "multi_option",
+      "group": "other.purposes",
+      "option": "Data analysis"
+    },
+    {
+      "column": "other.purposes.DevOps / System administration / Writing automation scripts",
+      "kind": "multi_option",
+      "group": "other.purposes",
+      "option": "DevOps / System administration / Writing automation scripts"
+    },
+    {
+      "column": "other.purposes.Software testing / Writing automated tests",
+      "kind": "multi_option",
+      "group": "other.purposes",
+      "option": "Software testing / Writing automated tests"
+    },
+    {
+      "column": "other.purposes.Software prototyping",
+      "kind": "multi_option",
+      "group": "other.purposes",
+      "option": "Software prototyping"
+    }
+  ],
+  "duration_s": 28.407256599999528,
+  "output_tokens": 789
+}

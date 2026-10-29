@@ -1,0 +1,32 @@
+{
+  "stage": "clean_semantics",
+  "model": "pangu-emb-7b",
+  "model_digest": "33125beabd8e1fe1",
+  "prompt_version": "clean-semantics-v2",
+  "input_hash": "bf329f16624c8f6834f11f3337852635",
+  "created_at": "2026-10-29T20:49:25",
+  "duration_s": 15.62,
+  "output_tokens": 978,
+  "fallback": false,
+  "error": "",
+  "manual_edit": false,
+  "reviewed": false,
+  "payload_summary": {
+    "year": 2019,
+    "batch": "Other – Write In::What ORM(s) do you use together with Python, if any?…Other – Write In::What ORM(s) do you use together with Python, if any?",
+    "n": 1
+  },
+  "response": {
+    "columns": [
+      {
+        "column": "Other – Write In::What ORM(s) do you use together with Python, if any?",
+        "kind": "free_text",
+        "group": "orm.python",
+        "option": "",
+        "missing_tokens": [],
+        "reason": "自由文本，样本已脱敏，仅给出结构特征",
+        "year": 2019
+      }
+    ]
+  }
+}

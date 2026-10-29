@@ -1,0 +1,59 @@
+{
+  "stage": "clean_semantics",
+  "model": "pangu-emb-7b",
+  "model_digest": "33125beabd8e1fe1",
+  "prompt_version": "clean-semantics-v2",
+  "input_hash": "e4cd410b2e6b6f514b661100d1ce70a4",
+  "created_at": "2026-10-29T19:32:33",
+  "duration_s": 13.08,
+  "output_tokens": 814,
+  "fallback": false,
+  "error": "",
+  "manual_edit": false,
+  "reviewed": false,
+  "payload_summary": {
+    "year": 2019,
+    "batch": "Rust:What other language(s) do you use?…Swift:What other language(s) do you use?",
+    "n": 4
+  },
+  "response": {
+    "columns": [
+      {
+        "column": "Rust:What other language(s) do you use?",
+        "kind": "multi_option",
+        "group": "other.lang",
+        "option": "Rust",
+        "missing_tokens": [],
+        "reason": "列名中的选项文本为Rust，取值恒等于选项文本，符合multi_like条件",
+        "year": 2019
+      },
+      {
+        "column": "Scala:What other language(s) do you use?",
+        "kind": "multi_option",
+        "group": "other.lang",
+        "option": "Scala",
+        "missing_tokens": [],
+        "reason": "列名中的选项文本为Scala，取值恒等于选项文本，符合multi_like条件",
+        "year": 2019
+      },
+      {
+        "column": "SQL:What other language(s) do you use?",
+        "kind": "multi_option",
+        "group": "other.lang",
+        "option": "SQL",
+        "missing_tokens": [],
+        "reason": "列名中的选项文本为SQL，取值恒等于选项文本，符合multi_like条件",
+        "year": 2019
+      },
+      {
+        "column": "Swift:What other language(s) do you use?",
+        "kind": "multi_option",
+        "group": "other.lang",
+        "option": "Swift",
+        "missing_tokens": [],
+        "reason": "列名中的选项文本为Swift，取值恒等于选项文本，符合multi_like条件",
+        "year": 2019
+      }
+    ]
+  }
+}

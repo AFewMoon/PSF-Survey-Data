@@ -1,0 +1,32 @@
+{
+  "stage": "clean_semantics",
+  "model": "pangu-emb-7b",
+  "model_digest": "33125beabd8e1fe1",
+  "prompt_version": "clean-semantics-v2",
+  "input_hash": "6198f277effa459d39ce0643ecc3e4b0",
+  "created_at": "2026-10-29T21:07:07",
+  "duration_s": 15.16,
+  "output_tokens": 833,
+  "fallback": false,
+  "error": "",
+  "manual_edit": false,
+  "reviewed": false,
+  "payload_summary": {
+    "year": 2019,
+    "batch": "Other – Write In::Which Continuous Integration (CI) system(s) do you regularly use?…Other – Write In::Which Continuous Integration (CI) system(s) do you regularly use?",
+    "n": 1
+  },
+  "response": {
+    "columns": [
+      {
+        "column": "Other – Write In::Which Continuous Integration (CI) system(s) do you regularly use?",
+        "kind": "free_text",
+        "group": "ci.systems.use",
+        "option": "",
+        "missing_tokens": [],
+        "reason": "自由文本类型，结构特征显示样本已脱敏且为开放式回答",
+        "year": 2019
+      }
+    ]
+  }
+}

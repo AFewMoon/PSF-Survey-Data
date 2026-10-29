@@ -1,0 +1,67 @@
+{
+  "stage": "clean_semantics",
+  "model": "pangu-emb-7b",
+  "model_digest": "33125beabd8e1fe1",
+  "prompt_version": "clean-semantics-v2",
+  "input_hash": "8c46462e9330b2d1b03965a67b589c1e",
+  "created_at": "2026-10-29T20:36:36",
+  "duration_s": 41.73,
+  "output_tokens": 2563,
+  "fallback": false,
+  "error": "",
+  "manual_edit": false,
+  "reviewed": false,
+  "payload_summary": {
+    "year": 2019,
+    "batch": "On a Platform-as-a-Service (such as Heroku or Google App Engine):How do you run code in the cloud (in the production environment)?…Within containers:How do you run code in the cloud (in the production environment)?",
+    "n": 4
+  },
+  "response": {
+    "columns": [
+      {
+        "column": "On a Platform-as-a-Service (such as Heroku or Google App Engine):How do you run code in the cloud (in the production environment)?",
+        "kind": "multi_option",
+        "group": "Platform-as-a-Service (such as Heroku or Google App Engine)",
+        "option": "Platform-as-a-Service (such as Heroku or Google App Engine)",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "flags multi_like indicates all values match the option text in the column name",
+        "year": 2019
+      },
+      {
+        "column": "Other – Write In::How do you run code in the cloud (in the production environment)?",
+        "kind": "multi_option",
+        "group": "Other – Write In",
+        "option": "Other – Write In",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "flags multi_like indicates all values match the option text in the column name",
+        "year": 2019
+      },
+      {
+        "column": "Serverless (such as AWS Lambda or Cloud Functions):How do you run code in the cloud (in the production environment)?",
+        "kind": "multi_option",
+        "group": "Serverless (such as AWS Lambda or Cloud Functions)",
+        "option": "Serverless (such as AWS Lambda or Cloud Functions)",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "flags multi_like indicates all values match the option text in the column name",
+        "year": 2019
+      },
+      {
+        "column": "Within containers:How do you run code in the cloud (in the production environment)?",
+        "kind": "multi_option",
+        "group": "Within containers",
+        "option": "Within containers",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "flags multi_like indicates all values match the option text in the column name",
+        "year": 2019
+      }
+    ]
+  }
+}

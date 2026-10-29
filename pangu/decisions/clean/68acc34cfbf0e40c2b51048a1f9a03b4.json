@@ -1,0 +1,32 @@
+{
+  "stage": "clean_semantics",
+  "model": "pangu-emb-7b",
+  "model_digest": "33125beabd8e1fe1",
+  "prompt_version": "clean-semantics-v2",
+  "input_hash": "68acc34cfbf0e40c2b51048a1f9a03b4",
+  "created_at": "2026-10-29T20:35:40",
+  "duration_s": 9.34,
+  "output_tokens": 582,
+  "fallback": false,
+  "error": "",
+  "manual_edit": false,
+  "reviewed": false,
+  "payload_summary": {
+    "year": 2019,
+    "batch": "In virtual machines:How do you run code in the cloud (in the production environment)?…In virtual machines:How do you run code in the cloud (in the production environment)?",
+    "n": 1
+  },
+  "response": {
+    "columns": [
+      {
+        "column": "In virtual machines:How do you run code in the cloud (in the production environment)?",
+        "kind": "multi_option",
+        "group": "virtual_machines",
+        "option": "In virtual machines",
+        "missing_tokens": [],
+        "reason": "列名包含选项文本且flags为multi_like，符合multi_option类型",
+        "year": 2019
+      }
+    ]
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "stage": "clean_semantics",
+  "model": "pangu-emb-7b",
+  "model_digest": "33125beabd8e1fe1",
+  "prompt_version": "clean-semantics-v2",
+  "input_hash": "254f1128e229c2aa5880cbe0d8bbc975",
+  "created_at": "2026-10-29T20:30:11",
+  "duration_s": 17.82,
+  "output_tokens": 1118,
+  "fallback": false,
+  "error": "",
+  "manual_edit": false,
+  "reviewed": false,
+  "payload_summary": {
+    "year": 2019,
+    "batch": "Twisted:Which of the following frameworks / libraries do you use in addition to Python?…DigitalOcean:Which of the following cloud platforms do you use?",
+    "n": 4
+  },
+  "response": {
+    "columns": [
+      {
+        "column": "Twisted:Which of the following frameworks / libraries do you use in addition to Python?",
+        "kind": "multi_option",
+        "group": "frameworks.ml",
+        "option": "Twisted",
+        "missing_tokens": [],
+        "reason": "全列取值恒等于列名中的选项文本（Twisted），符合multi_option定义",
+        "year": 2019
+      },
+      {
+        "column": "wxPython:Which of the following frameworks / libraries do you use in addition to Python?",
+        "kind": "multi_option",
+        "group": "frameworks.ml",
+        "option": "wxPython",
+        "missing_tokens": [],
+        "reason": "全列取值恒等于列名中的选项文本（wxPython），符合multi_option定义",
+        "year": 2019
+      },
+      {
+        "column": "AWS:Which of the following cloud platforms do you use?",
+        "kind": "multi_option",
+        "group": "clouds",
+        "option": "AWS",
+        "missing_tokens": [],
+        "reason": "全列取值恒等于列名中的选项文本（AWS），符合multi_option定义",
+        "year": 2019
+      },
+      {
+        "column": "DigitalOcean:Which of the following cloud platforms do you use?",
+        "kind": "multi_option",
+        "group": "clouds",
+        "option": "DigitalOcean",
+        "missing_tokens": [],
+        "reason": "全列取值恒等于列名中的选项文本（DigitalOcean），符合multi_option定义",
+        "year": 2019
+      }
+    ]
+  }
+}

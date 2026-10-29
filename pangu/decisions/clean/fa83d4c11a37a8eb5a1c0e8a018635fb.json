@@ -1,0 +1,63 @@
+{
+  "stage": "clean_semantics",
+  "model": "pangu-emb-7b",
+  "model_digest": "33125beabd8e1fe1",
+  "prompt_version": "clean-semantics-v2",
+  "input_hash": "fa83d4c11a37a8eb5a1c0e8a018635fb",
+  "created_at": "2026-10-29T19:19:04",
+  "duration_s": 14.18,
+  "output_tokens": 896,
+  "fallback": false,
+  "error": "",
+  "manual_edit": false,
+  "reviewed": false,
+  "payload_summary": {
+    "year": 2019,
+    "batch": "response_id…C/C++:What other language(s) do you use?",
+    "n": 4
+  },
+  "response": {
+    "columns": [
+      {
+        "column": "response_id",
+        "kind": "identifier",
+        "group": "",
+        "option": "",
+        "missing_tokens": [],
+        "reason": "唯一标识符，非语义答案",
+        "year": 2019
+      },
+      {
+        "column": "Is Python the main language you use for your current projects?",
+        "kind": "single_choice",
+        "group": "is.python.main",
+        "option": "Yes, No, No, I use Python as a secondary language, No, I don’t use Python for my current projects",
+        "missing_tokens": [],
+        "reason": "单选题，取值均为标准选项文本",
+        "year": 2019
+      },
+      {
+        "column": "Bash / Shell:What other language(s) do you use?",
+        "kind": "multi_option",
+        "group": "bash_shell_languages",
+        "option": "Bash / Shell",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "全列取值恒等于选项文本（Bash / Shell/NA），符合multi_option特征",
+        "year": 2019
+      },
+      {
+        "column": "C/C++:What other language(s) do you use?",
+        "kind": "multi_option",
+        "group": "c_c_plusplus_languages",
+        "option": "C/C++",
+        "missing_tokens": [
+          "NA"
+        ],
+        "reason": "全列取值恒等于选项文本（C/C++/NA），符合multi_option特征",
+        "year": 2019
+      }
+    ]
+  }
+}

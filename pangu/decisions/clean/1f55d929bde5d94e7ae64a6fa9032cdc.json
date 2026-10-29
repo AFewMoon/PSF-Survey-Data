@@ -1,0 +1,59 @@
+{
+  "stage": "clean_semantics",
+  "model": "pangu-emb-7b",
+  "model_digest": "33125beabd8e1fe1",
+  "prompt_version": "clean-semantics-v2",
+  "input_hash": "1f55d929bde5d94e7ae64a6fa9032cdc",
+  "created_at": "2026-10-29T21:03:47",
+  "duration_s": 15.96,
+  "output_tokens": 970,
+  "fallback": false,
+  "error": "",
+  "manual_edit": false,
+  "reviewed": false,
+  "payload_summary": {
+    "year": 2019,
+    "batch": "Dask:Which of the following Big Data tool(s) do you use, if any?…AppVeyor:Which Continuous Integration (CI) system(s) do you regularly use?",
+    "n": 4
+  },
+  "response": {
+    "columns": [
+      {
+        "column": "Dask:Which of the following Big Data tool(s) do you use, if any?",
+        "kind": "multi_option",
+        "group": "dask",
+        "option": "Dask",
+        "missing_tokens": [],
+        "reason": "flags显示multi_like，列名中选项文本为'Dask'且全列取值恒等于该选项",
+        "year": 2019
+      },
+      {
+        "column": "None:Which of the following Big Data tool(s) do you use, if any?",
+        "kind": "multi_option",
+        "group": "none",
+        "option": "None",
+        "missing_tokens": [],
+        "reason": "flags显示multi_like，列名中选项文本为'None'且全列取值恒等于该选项",
+        "year": 2019
+      },
+      {
+        "column": "Other – Write In::Which of the following Big Data tool(s) do you use, if any?",
+        "kind": "multi_option",
+        "group": "other_write_in",
+        "option": "Other – Write In",
+        "missing_tokens": [],
+        "reason": "flags显示multi_like，列名中选项文本为'Other – Write In'且全列取值恒等于该选项",
+        "year": 2019
+      },
+      {
+        "column": "AppVeyor:Which Continuous Integration (CI) system(s) do you regularly use?",
+        "kind": "multi_option",
+        "group": "appveyor",
+        "option": "AppVeyor",
+        "missing_tokens": [],
+        "reason": "flags显示multi_like，列名中选项文本为'AppVeyor'且全列取值恒等于该选项",
+        "year": 2019
+      }
+    ]
+  }
+}

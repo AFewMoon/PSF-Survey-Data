@@ -1,0 +1,59 @@
+{
+  "stage": "clean_semantics",
+  "model": "pangu-emb-7b",
+  "model_digest": "33125beabd8e1fe1",
+  "prompt_version": "clean-semantics-v2",
+  "input_hash": "9ecb9151a436fe181419cc4371dd0a01",
+  "created_at": "2026-10-29T19:41:27",
+  "duration_s": 13.1,
+  "output_tokens": 804,
+  "fallback": false,
+  "error": "",
+  "manual_edit": false,
+  "reviewed": false,
+  "payload_summary": {
+    "year": 2019,
+    "batch": "Kotlin:What other language(s) do you use?…Other - Write In::What other language(s) do you use?",
+    "n": 4
+  },
+  "response": {
+    "columns": [
+      {
+        "column": "Kotlin:What other language(s) do you use?",
+        "kind": "multi_option",
+        "group": "language_languages",
+        "option": "Kotlin",
+        "missing_tokens": [],
+        "reason": "列名格式为'选项:问题'，提取选项文本'Kotlin'，flags为multi_like且取值均为选项文本",
+        "year": 2019
+      },
+      {
+        "column": "None:What other language(s) do you use?",
+        "kind": "multi_option",
+        "group": "language_languages",
+        "option": "None",
+        "missing_tokens": [],
+        "reason": "列名格式为'选项:问题'，提取选项文本'None'，flags为multi_like且取值均为选项文本",
+        "year": 2019
+      },
+      {
+        "column": "Objective-C:What other language(s) do you use?",
+        "kind": "multi_option",
+        "group": "language_languages",
+        "option": "Objective-C",
+        "missing_tokens": [],
+        "reason": "列名格式为'选项:问题'，提取选项文本'Objective-C'，flags为multi_like且取值均为选项文本",
+        "year": 2019
+      },
+      {
+        "column": "Other - Write In::What other language(s) do you use?",
+        "kind": "multi_option",
+        "group": "language_languages",
+        "option": "Other - Write In",
+        "missing_tokens": [],
+        "reason": "列名格式为'选项:问题'，提取选项文本'Other - Write In'，flags为multi_like且取值均为选项文本",
+        "year": 2019
+      }
+    ]
+  }
+}

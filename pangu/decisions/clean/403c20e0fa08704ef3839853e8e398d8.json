@@ -1,0 +1,41 @@
+{
+  "stage": "clean_semantics",
+  "model": "pangu-emb-7b",
+  "model_digest": "33125beabd8e1fe1",
+  "prompt_version": "clean-semantics-v2",
+  "input_hash": "403c20e0fa08704ef3839853e8e398d8",
+  "created_at": "2026-10-29T19:12:22",
+  "duration_s": 8.48,
+  "output_tokens": 527,
+  "fallback": false,
+  "error": "",
+  "manual_edit": false,
+  "reviewed": false,
+  "payload_summary": {
+    "year": 2019,
+    "batch": "response_id…Is Python the main language you use for your current projects?",
+    "n": 2
+  },
+  "response": {
+    "columns": [
+      {
+        "column": "response_id",
+        "kind": "identifier",
+        "group": "response_id",
+        "option": "",
+        "missing_tokens": [],
+        "reason": "取值唯一标识符，非数值型",
+        "year": 2019
+      },
+      {
+        "column": "Is Python the main language you use for your current projects?",
+        "kind": "multi_option",
+        "group": "is.python.main",
+        "option": "['Yes', 'NA', 'No, I use Python as a secondary language', 'No, I don’t use Python for my current projects']",
+        "missing_tokens": [],
+        "reason": "取值全为选项文本，符合多选题特征",
+        "year": 2019
+      }
+    ]
+  }
+}

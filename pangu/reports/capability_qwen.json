@@ -1,0 +1,84 @@
+{
+  "summary": {
+    "model": "qwen3.5:4b",
+    "digest": "d8b0f5e9760cd168",
+    "rounds": 3,
+    "json_ok_rate": 1.0,
+    "mean_accuracy": 1.0,
+    "mean_tok_per_s": 60.0,
+    "mean_duration_s": 6.4,
+    "consistent": true,
+    "unanimous_ids": 8
+  },
+  "runs": [
+    {
+      "coverage": 8,
+      "total": 8,
+      "accuracy": 1.0,
+      "wrong": {},
+      "round": 1,
+      "json_ok": true,
+      "schema_ok": true,
+      "duration_s": 9.6,
+      "output_tokens": 342,
+      "tok_per_s": 35.6,
+      "judged": {
+        "p1": true,
+        "p2": true,
+        "p3": true,
+        "p4": true,
+        "p5": false,
+        "p6": false,
+        "p7": false,
+        "p8": false
+      },
+      "raw_preview": "```json { \"pairs\": [ { \"id\": \"p1\", \"same\": true, \"canonical\": \"Amazon Web Services\", \"reason\": \"全称与缩写等价\" }, { \"id\": \"p2\", \"same\": true, \"canonical\": \"Google Cloud Platform\", \"reason\": \"全称与缩写等价\" }, { \""
+    },
+    {
+      "coverage": 8,
+      "total": 8,
+      "accuracy": 1.0,
+      "wrong": {},
+      "round": 2,
+      "json_ok": true,
+      "schema_ok": true,
+      "duration_s": 4.74,
+      "output_tokens": 342,
+      "tok_per_s": 72.1,
+      "judged": {
+        "p1": true,
+        "p2": true,
+        "p3": true,
+        "p4": true,
+        "p5": false,
+        "p6": false,
+        "p7": false,
+        "p8": false
+      },
+      "raw_preview": "```json { \"pairs\": [ { \"id\": \"p1\", \"same\": true, \"canonical\": \"Amazon Web Services\", \"reason\": \"全称与缩写等价\" }, { \"id\": \"p2\", \"same\": true, \"canonical\": \"Google Cloud Platform\", \"reason\": \"全称与缩写等价\" }, { \""
+    },
+    {
+      "coverage": 8,
+      "total": 8,
+      "accuracy": 1.0,
+      "wrong": {},
+      "round": 3,
+      "json_ok": true,
+      "schema_ok": true,
+      "duration_s": 4.74,
+      "output_tokens": 342,
+      "tok_per_s": 72.2,
+      "judged": {
+        "p1": true,
+        "p2": true,
+        "p3": true,
+        "p4": true,
+        "p5": false,
+        "p6": false,
+        "p7": false,
+        "p8": false
+      },
+      "raw_preview": "```json { \"pairs\": [ { \"id\": \"p1\", \"same\": true, \"canonical\": \"Amazon Web Services\", \"reason\": \"全称与缩写等价\" }, { \"id\": \"p2\", \"same\": true, \"canonical\": \"Google Cloud Platform\", \"reason\": \"全称与缩写等价\" }, { \""
+    }
+  ]
+}

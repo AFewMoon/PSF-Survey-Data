@@ -1,0 +1,32 @@
+{
+  "stage": "clean_semantics",
+  "model": "pangu-emb-7b",
+  "model_digest": "33125beabd8e1fe1",
+  "prompt_version": "clean-semantics-v2",
+  "input_hash": "26b26d24b0452d91d0aaeb673fb48780",
+  "created_at": "2026-10-29T19:32:09",
+  "duration_s": 13.22,
+  "output_tokens": 832,
+  "fallback": false,
+  "error": "",
+  "manual_edit": false,
+  "reviewed": false,
+  "payload_summary": {
+    "year": 2019,
+    "batch": "Other - Write In::What other language(s) do you use?…Other - Write In::What other language(s) do you use?",
+    "n": 1
+  },
+  "response": {
+    "columns": [
+      {
+        "column": "Other - Write In::What other language(s) do you use?",
+        "kind": "free_text",
+        "group": "other.write_in",
+        "option": "",
+        "missing_tokens": [],
+        "reason": "列名包含完整问句文本，且数据为自由文本格式（value_shape显示自由文本特征），不符合多选/单选/数值类型",
+        "year": 2019
+      }
+    ]
+  }
+}

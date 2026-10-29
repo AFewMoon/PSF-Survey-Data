@@ -1,4 +1,4 @@
-"""reports/2026-11-06/build_figures.py — 组会汇报配图（3 张，按 beamer 正文宽度定制）。
+"""reports/2026-11-06/build_figures.py — 组会汇报配图（3 张主图 + 1 张能力探针对比图）。
 
 只读仓库既有报告与决策缓存，写入本目录 figures/，不改动 charts/ 与 llm/ 下产物。
 画布 5.7 × 2.45 in，插入 beamer 时按 1:1 使用，避免整图缩放导致字号过小。
@@ -9,7 +9,9 @@
 from __future__ import annotations
 
 import ast
+import json
 import re
+import statistics
 from pathlib import Path
 
 import matplotlib
@@ -29,6 +31,7 @@ RULE_ALIGN_MD = ROOT / "aligned" / "alignment_report.md"
 LLM_ALIGN_MD = ROOT / "llm" / "reports" / "alignment_report.md"
 LLM_PARITY_MD = ROOT / "llm" / "reports" / "parity_report.md"
 LLM_DECISIONS = ROOT / "llm" / "decisions"
+PANGU_REPORTS = ROOT / "pangu" / "reports"
 
 INK = "#14213D"
 MUTED = "#5A6472"
@@ -280,6 +283,57 @@ def fig_parity(parity: dict[str, object], path: Path) -> Path:
     return _finish(fig, path)
 
 
+def load_capability(filename: str) -> dict[str, object] | None:
+    """读取能力探针整份结果（summary + runs）；文件缺失时返回 None，由图函数跳过该图。"""
+    path = PANGU_REPORTS / filename
+    if not path.exists():
+        return None
+    return json.loads(path.read_text(encoding="utf-8"))
+
+
+def fig_capability(qwen: dict[str, object], pangu: dict[str, object], path: Path) -> Path:
+    """同一条管线、同一组 8 对样本：4B 与盘古 7B 质量接近，耗时差近三倍。
+
+    耗时取各轮中位数：首轮含模型加载（4B 首次 9.6s，稳态 4.7s），用均值会把加载
+    算进推理成本。画布刻意做成扁条（5.6 × 1.55 in）并放大字号，插入幻灯片后
+    仍有 10pt 上下，图上的数字就是这页的主证据。
+    """
+    labels = ["4B", "7B"]
+    accuracy = [float(qwen["summary"]["mean_accuracy"]) * 100,
+                float(pangu["summary"]["mean_accuracy"]) * 100]
+    duration = [statistics.median(r["duration_s"] for r in model["runs"]) for model in (qwen, pangu)]
+    colors = [CALM, ACCENT]
+
+    fig, axes = plt.subplots(1, 2, figsize=(5.6, 1.55))
+
+    ax = axes[0]
+    ax.bar(labels, accuracy, color=colors, width=0.46, zorder=3)
+    for idx, value in enumerate(accuracy):
+        ax.text(idx, value + 3, f"{value:.0f}%", ha="center", va="bottom",
+                fontsize=13, fontweight="bold", color=INK)
+    ax.set_ylim(0, 128)
+    ax.set_title("8 对判定准确率（%）", fontsize=11, color=INK, pad=3)
+    ax.set_yticks([])
+    ax.tick_params(axis="x", labelsize=12)
+    ax.grid(False)
+    _strip(ax)
+
+    ax = axes[1]
+    ax.bar(labels, duration, color=colors, width=0.46, zorder=3)
+    for idx, value in enumerate(duration):
+        ax.text(idx, value + max(duration) * 0.04, f"{value:.1f}s", ha="center", va="bottom",
+                fontsize=13, fontweight="bold", color=INK)
+    ax.set_ylim(0, max(duration) * 1.32)
+    ax.set_title("耗时（秒，中位数）", fontsize=11, color=INK, pad=3)
+    ax.set_yticks([])
+    ax.tick_params(axis="x", labelsize=12)
+    ax.grid(False)
+    _strip(ax)
+
+    fig.subplots_adjust(left=0.035, right=0.985, top=0.84, bottom=0.11, wspace=0.10)
+    return _finish(fig, path)
+
+
 # ---------------------------------------------------------------------------
 # 入口
 # ---------------------------------------------------------------------------
@@ -304,6 +358,17 @@ def main() -> None:
         fig_mapping_scale(rule, llm, FIG_DIR / "f2_mapping_scale.png"),
         fig_parity(parity, FIG_DIR / "f3_parity.png"),
     ]
+
+    cap_qwen = load_capability("capability_qwen.json")
+    cap_pangu = load_capability("capability_7b.json")
+    if cap_qwen and cap_pangu:
+        made.append(fig_capability(cap_qwen, cap_pangu, FIG_DIR / "f4_capability.png"))
+        for name, data in (("4B", cap_qwen), ("7B", cap_pangu)):
+            print("[kpi] 能力探针 %s  准确率 %.0f%%；JSON 合法 %.0f%%；中位耗时 %.1fs；轮数 %d"
+                  % (name, float(data["summary"]["mean_accuracy"]) * 100,
+                     float(data["summary"]["json_ok_rate"]) * 100,
+                     statistics.median(r["duration_s"] for r in data["runs"]),
+                     int(data["summary"]["rounds"])))
 
     print("[kpi] 规则管线  列 %d → %d；重命名 %d；取值统一 %d；行 %d"
           % (rule["before"], rule["shared"], rule["renamed"], rule["values"], rule["rows"]))

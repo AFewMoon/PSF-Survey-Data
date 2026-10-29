@@ -1,0 +1,33 @@
+{
+  "decisions": "C:\\Users\\afewm\\Documents\\Projects\\PSF-Survey-Data\\pangu\\decisions",
+  "model": "pangu-emb-7b",
+  "years": [
+    2019
+  ],
+  "overall": {
+    "calls": 51,
+    "fallback": 0,
+    "fallback_pct": 0.0,
+    "errors": 0,
+    "duration_median_s": 13.8,
+    "duration_mean_s": 15.89,
+    "output_tokens_total": 50172,
+    "output_tokens_median": 870,
+    "tokens_per_item_median": 602.0,
+    "items_counted": 51
+  },
+  "stages": {
+    "clean_semantics": {
+      "calls": 51,
+      "fallback": 0,
+      "fallback_pct": 0.0,
+      "errors": 0,
+      "duration_median_s": 13.8,
+      "duration_mean_s": 15.89,
+      "output_tokens_total": 50172,
+      "output_tokens_median": 870,
+      "tokens_per_item_median": 602.0,
+      "items_counted": 51
+    }
+  }
+}

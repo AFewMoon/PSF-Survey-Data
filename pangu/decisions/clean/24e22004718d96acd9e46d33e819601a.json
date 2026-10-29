@@ -1,0 +1,32 @@
+{
+  "stage": "clean_semantics",
+  "model": "pangu-emb-7b",
+  "model_digest": "33125beabd8e1fe1",
+  "prompt_version": "clean-semantics-v2",
+  "input_hash": "24e22004718d96acd9e46d33e819601a",
+  "created_at": "2026-10-29T20:14:19",
+  "duration_s": 14.19,
+  "output_tokens": 896,
+  "fallback": false,
+  "error": "",
+  "manual_edit": false,
+  "reviewed": false,
+  "payload_summary": {
+    "year": 2019,
+    "batch": "Docker:Do you use any of the following tools to isolate Python environments, if any?…Docker:Do you use any of the following tools to isolate Python environments, if any?",
+    "n": 1
+  },
+  "response": {
+    "columns": [
+      {
+        "column": "Docker:Do you use any of the following tools to isolate Python environments, if any?",
+        "kind": "multi_option",
+        "group": "Docker",
+        "option": "Docker",
+        "missing_tokens": [],
+        "reason": "flags multi_like indicates the column value matches the option text in the column name (Docker)",
+        "year": 2019
+      }
+    ]
+  }
+}

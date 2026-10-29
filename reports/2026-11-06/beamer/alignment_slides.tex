@@ -1,5 +1,5 @@
 % !TEX program = xelatex
-% 组会汇报：PSF 调查 2019–2024 跨年对齐（7 页，16:9）
+% 组会汇报：PSF 调查 2019–2024 跨年对齐（9 页，16:9）
 % 编译：xelatex alignment_slides.tex（跑两遍以正确显示总页数）
 \documentclass[aspectratio=169,11pt]{ctexbeamer}
 
@@ -43,7 +43,7 @@
   \end{tcolorbox}}
 
 \title{从 153 列到 110 列}
-\subtitle{跨年对齐：人工映射与本地小模型的两条路}
+\subtitle{跨年对齐：人工映射、4B 模型与盘古 7B 的三种做法}
 \author{汇报人：曾子睿}
 \date{2026 年 11 月}
 
@@ -52,20 +52,21 @@
 % ---------------------------------------------------------------- 01 封面
 \begin{frame}[plain]
   \vspace*{1mm}
-  {\color{ink}\bfseries\fontsize{26}{30}\selectfont 从 153 列到 110 列\par}
+  {\color{ink}\bfseries\fontsize{26}{30}\selectfont 153 列、110 列，与第三条路\par}
   \vspace{2mm}
-  {\large\color{muted}跨年对齐：人工映射与本地小模型的两条路\par}
-  \vspace{4mm}
+  {\large\color{muted}跨年对齐：人工映射、4B 模型与盘古 7B 的三种做法\par}
+  \vspace{3mm}
 
   \begin{center}
     \begin{tikzpicture}[x=1cm,y=1cm]
-      \fill[panel] (0,0) rectangle (12.3,2.5);
-      \node[anchor=west,font=\scriptsize,text=muted] at (0.5,2.05) {2019--2024 六份原始表};
-      \node[anchor=west,font=\bfseries\large,text=ink] at (0.5,1.25) {42 个跨年共有列};
-      \draw[->,line width=1.3pt,calm] (4.8,1.35) -- (7.0,1.35);
-      \node[anchor=west,font=\bfseries\large,text=calm] at (7.2,1.35) {153（人工）};
-      \node[anchor=west,font=\small,text=accent] at (7.2,0.65) {110（本地 4B 模型）};
-      \node[anchor=west,font=\scriptsize,text=muted] at (0.5,0.55) {203,643 行 → 185,632 行};
+      \fill[panel] (0,0) rectangle (12.3,2.9);
+      \node[anchor=west,font=\scriptsize,text=muted] at (0.5,2.45) {2019--2024 六份原始表};
+      \node[anchor=west,font=\bfseries\large,text=ink] at (0.5,1.60) {42 个跨年共有列};
+      \draw[->,line width=1.3pt,calm] (4.8,1.70) -- (7.0,1.70);
+      \node[anchor=west,font=\bfseries\large,text=calm] at (7.2,1.70) {153（人工）};
+      \node[anchor=west,font=\small,text=accent] at (7.2,1.05) {110（本地 4B 模型）};
+      \node[anchor=west,font=\small,text=muted] at (7.2,0.45) {判断打平、归组失准（盘古 7B）};
+      \node[anchor=west,font=\scriptsize,text=muted] at (0.5,0.62) {203,643 行 → 185,632 行};
     \end{tikzpicture}
   \end{center}
 
@@ -76,7 +77,7 @@
 
 % ---------------------------------------------------------------- 02 成果
 \begin{frame}{一页看清成果}
-  \lead{人工路线交付完整总表；LLM 路线少 43 列，但两边都有的 105 列几乎逐格一致。}
+  \lead{人工路线交付完整总表；LLM 路线少 43 列，但两边都有的 105 列几乎逐格一致；盘古 7B 只到清洗层。}
 
   \begin{columns}[T,onlytextwidth]
     \column{0.235\textwidth}\kpi{153}{跨年共有列（原 42）}{calm}
@@ -95,11 +96,12 @@
         31 个同义簇 · 取值 5,217 条（单元格）\\
         105 列重叠，非空率差 $\geq$1pp：\textbf{0 条}\\
         同主题最大差 \textbf{0.1pp}（12 条对比）\\
-        总行数 185,586，比人工少 46
+        总行数 185,586，比人工少 46\\
+        盘古 7B：8 对判定 100\%，单次 \textbf{13.7s}（4B 4.7s）
       }
   \end{columns}
 
-  \src{来源：\code{aligned/alignment\_report.md}；\code{llm/reports/alignment\_report.md}；\code{llm/reports/parity\_report.md}}
+  \src{来源：\code{aligned/alignment\_report.md}；\code{llm/reports/alignment\_report.md}；\code{llm/reports/parity\_report.md}；\code{pangu/reports/capability\_7b.json}}
 \end{frame}
 
 % ---------------------------------------------------------------- 03 手搓路径
@@ -191,11 +193,11 @@
 \end{frame}
 
 % ---------------------------------------------------------------- 06 对账
-\begin{frame}{对账：覆盖差 43 列，重叠部分几乎一样}
-  \lead{名字对了、语义错了，比没对齐更难发现。}
+\begin{frame}{对账：两条能对账，第三条只能对到列}
+  \lead{第三条没有对齐产物，只能在清洗语义这一层逐列比；名字对了、语义错了更难发现。}
 
   \begin{center}
-    \includegraphics[width=0.90\textwidth,height=0.35\textheight,keepaspectratio]{../figures/f3_parity.png}
+    \includegraphics[width=0.90\textwidth,height=0.30\textheight,keepaspectratio]{../figures/f3_parity.png}
   \end{center}
 
   \begin{columns}[T,onlytextwidth]
@@ -203,7 +205,7 @@
       {\scriptsize
         并集 158 = 105 匹配 + 48 仅人工 + 5 仅 LLM；Jaccard 66.5\%。\\
         105 个匹配列非空率差 $\geq$1pp：\textbf{0 条}；同主题最大差 0.1pp。\\
-        2023/2024 人工映射未进提示词，105 是留出测试成绩。
+        2023/2024 映射未进提示词，105 是留出成绩。
       }
     \column{0.50\textwidth}
       {\scriptsize
@@ -217,13 +219,68 @@
   \src{来源：\code{llm/reports/parity\_report.md}；\code{llm/reports/alignment\_report.md}}
 \end{frame}
 
-% ---------------------------------------------------------------- 07 结论
-\begin{frame}{结论：交付走人工，模型做候选与核对}
-  \lead{两条路可以并存；模型写得最顺的差异解释，反而最不能直接信。}
+% ---------------------------------------------------------------- 07 第三条路
+\begin{frame}{第三条路：盘古 7B 走到了哪一步}
+  \lead{同一条管线、同一套提示词只换模型：8 对边界样本判断打平，成本高一个量级。}
+
+  \begin{center}
+    \includegraphics[width=0.70\textwidth]{../figures/f4_capability.png}
+  \end{center}
+
+  {\scriptsize
+    \textbf{选型}：Q4\_K\_M 4.59 GiB 全 GPU、57 tok/s；2.0 最小档 40.7 GiB，本机装不下。\\
+    \textbf{不兼容}：\code{format=json} 报 400、\code{think=false} 空转，每列多 300--400 token 推理正文。\\
+    \textbf{同口径成本}（2019 清洗 156 列）：每列 407 token 对 55（\textbf{7.4 倍}），纯推理 6.6 s 对 0.7 s（\textbf{9 倍}）。\\
+    \hspace*{18mm}墙钟跨度 127 分钟里 112 分钟是两次调用之间的空档，不算模型开销。
+  }
+
+  \src{来源：\code{pangu/reports/capability\_7b.json}；\code{pangu/reports/hardware.json}；成本取 \code{pangu/reports/benchmark.md}（2026-10-29 21:20 快照）}
+\end{frame}
+
+% ---------------------------------------------------------------- 08 扩样对账
+\begin{frame}{样本扩到 138 列：题型对得上，题目组对不上}
+  \lead{8 对样本看不出差别，换成 2019 年两侧都判过的 138 列，三项判定逐列比。}
+
+  \begin{columns}[T,onlytextwidth]
+    \column{0.41\textwidth}
+      {\scriptsize
+        \begin{tabular}{@{}lrr@{}}
+          \toprule
+          {\bfseries 判定项} & {\bfseries 一致} & {\bfseries 占比} \\
+          \midrule
+          kind（题型）    & 133 & 96.4\% \\
+          option（选项名）& 98  & 71.0\% \\
+          group（题目组） & 7   & 5.1\% \\
+          \midrule
+          三项全同        & 7   & 5.1\% \\
+          \bottomrule
+        \end{tabular}
+      }
+
+      \vspace{2.2mm}
+      {\scriptsize\color{muted}只读决策缓存；未覆盖的列不参与分母。}
+
+    \column{0.57\textwidth}
+      {\scriptsize
+        \textbf{组名基数}：138 列上 4B 给 40 个 group，7B 给 91 个。\\
+        \textbf{不是看不见兄弟列}：4 列一批的 109 列一致率 6.4\%，1 列一批的 21 列全 0\%。\\
+        \textbf{只发生在 2019}：2020 表头自带组路径，两个前缀各 5 列都是 5/5 同组；\\
+        2019 的表头是「选项:问句」，没有锚点可抄。\\
+        \textbf{一个例子}：Big Data 工具题 9 个选项，4B 归 1 组，7B 拆成 8 组。\\
+        \textbf{代码兜住结构}：\code{\_stabilize\_2019\_groups} 按问句多数票并组，组名退化成某个选项名。
+      }
+  \end{columns}
+
+  \src{来源：\code{pangu/reports/semantics\_compare\_2019.md}；\code{pangu/reports/group\_follow\_2020.json}；\code{llm/llm\_survey/clean\_stage.py}}
+\end{frame}
+
+% ---------------------------------------------------------------- 09 结论
+\begin{frame}{结论：人工交付，4B 出候选，7B 只做仲裁}
+  \lead{三条路各有位置；模型写得最顺的差异解释，反而最不能直接信。}
 
   \begin{columns}[T,onlytextwidth]
     \column{0.47\textwidth}
-      {\bfseries\color{good} 能交给模型}\\[1.5mm]
+      {\bfseries\color{good} 能交给 4B}\\[1.5mm]
       {\scriptsize
         \begin{itemize}\setlength{\itemsep}{0.8mm}
           \item 逐对判同题、判同义：只答 a/b，聚簇交给代码。
@@ -240,9 +297,12 @@
         \end{itemize}}
   \end{columns}
 
-  \vspace{2mm}
+  \vspace{1.8mm}
+  {\scriptsize\textbf{盘古 7B}：kind 对得上（96.4\%），组路径对不上（5.1\%）；token 7.4 倍、无 JSON 约束、推理关不掉——只对少数高风险判断做二次确认。}
+
+  \vspace{1.2mm}
   {\scriptsize\color{muted}
-    下一步：给跨年改名题补名称证据（\code{develop.for.cloud}、\code{orm}、\code{unittesting} 仍判 \code{keep}）；被拒映射进人工确认队列；统计与图表跟对齐产物自动重跑。}
+    下一步：给跨年改名题补名称证据（\code{develop.for.cloud}、\code{orm}、\code{unittesting} 仍判 \code{keep}）；被拒映射进人工确认队列；盘古若要进主线，先解决 2019 的组路径锚点与推理正文抑制这两件事。}
 
   \src{谢谢大家！}
 \end{frame}

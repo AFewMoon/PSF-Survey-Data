@@ -94,7 +94,20 @@ def _semantics_batch(
         right, p2 = _semantics_batch(year, batch[mid:], profile, client, cache, depth + 1)
         return left + right, p1 + p2
 
-    items, problems = decision_schema.validate_semantics(response, batch, year)
+    items: list[dict[str, Any]] = []
+    problems: list[str] = []
+    try:
+        items, problems = decision_schema.validate_semantics(response, batch, year)
+    except decision_schema.DecisionError as exc:
+        problems = [str(exc)]
+    if not items and len(batch) > 1 and depth < 2:
+        # 模型整批返回空数组或 columns 非数组（盘古会偶发）：拆半重试，
+        # 否则这一批的列被静默丢弃，最终在 clean_year 处才报错。
+        # 与截断处理同级，属无效输出的降级而非改判定标准。
+        mid = len(batch) // 2
+        left, p1 = _semantics_batch(year, batch[:mid], profile, client, cache, depth + 1)
+        right, p2 = _semantics_batch(year, batch[mid:], profile, client, cache, depth + 1)
+        return left + right, p1 + p2 + problems
     record = cache.record(
         "clean_semantics", config.PROMPT_VERSION["clean_semantics"],
         {"year": year, "batch": f"{batch[0]}…{batch[-1]}", "n": len(batch)},

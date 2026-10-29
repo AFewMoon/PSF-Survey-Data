@@ -25,7 +25,12 @@ RAW_FILES: dict[int, str] = {
 
 RAW_ENC = "utf-8-sig"
 
-DECISIONS_DIR = LLM_DIR / "decisions"
+# 输出根目录。默认与代码同目录，保持既有 qwen 实验行为不变；
+# 设置 LLM_SURVEY_OUT_ROOT 可把全部产物（决策缓存/中间表/报告）重定向到独立目录，
+# 使不同模型的实验并行进行且缓存互不污染。
+OUT_ROOT = Path(os.environ.get("LLM_SURVEY_OUT_ROOT") or LLM_DIR).expanduser().resolve()
+
+DECISIONS_DIR = OUT_ROOT / "decisions"
 PROFILE_DIR = DECISIONS_DIR / "profile"
 CLEAN_DECISIONS_DIR = DECISIONS_DIR / "clean"
 ALIGN_DECISIONS_DIR = DECISIONS_DIR / "align"
@@ -34,11 +39,11 @@ CHART_DECISIONS_DIR = DECISIONS_DIR / "chart"
 PARITY_DECISIONS_DIR = DECISIONS_DIR / "parity"
 REVIEW_FILE = DECISIONS_DIR / "review_approved.json"
 
-CLEANED_DIR = LLM_DIR / "cleaned"
-ALIGNED_DIR = LLM_DIR / "aligned"
-STATS_DIR = LLM_DIR / "stats"
-CHARTS_DIR = LLM_DIR / "charts"
-REPORTS_DIR = LLM_DIR / "reports"
+CLEANED_DIR = OUT_ROOT / "cleaned"
+ALIGNED_DIR = OUT_ROOT / "aligned"
+STATS_DIR = OUT_ROOT / "stats"
+CHARTS_DIR = OUT_ROOT / "charts"
+REPORTS_DIR = OUT_ROOT / "reports"
 
 # 规则管线产物（只读，用于一致性核对）
 RULE_ALIGNED_DIR = ROOT / "aligned"
@@ -49,9 +54,11 @@ MODEL = os.environ.get("LLM_SURVEY_MODEL", "qwen3.5:4b")
 OLLAMA_HOST = os.environ.get("OLLAMA_HOST", "http://127.0.0.1:11434").rstrip("/")
 TEMPERATURE = 0.0
 SEED = 42
-NUM_CTX = 8192
-NUM_PREDICT_MIN = 512
-NUM_PREDICT_PER_COL = 90
+# 三个生成预算均可由环境变量覆盖：盘古系模型会在正文输出推理过程，
+# 每列实际消耗约 300–400 token，是 qwen 的数倍，必须单独放宽而无需改代码。
+NUM_CTX = int(os.environ.get("LLM_SURVEY_NUM_CTX", "8192"))
+NUM_PREDICT_MIN = int(os.environ.get("LLM_SURVEY_PREDICT_MIN", "512"))
+NUM_PREDICT_PER_COL = int(os.environ.get("LLM_SURVEY_PREDICT_PER_COL", "90"))
 KEEP_ALIVE = "30m"
 # qwen3.5 默认 thinking=true 时单次调用可达 80s+，管线必须关闭思考链
 THINK = False

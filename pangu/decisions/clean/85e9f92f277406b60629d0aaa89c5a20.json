@@ -1,0 +1,22 @@
+{
+  "stage": "clean_semantics",
+  "model": "pangu-emb-7b",
+  "model_digest": "33125beabd8e1fe1",
+  "prompt_version": "clean-semantics-v2",
+  "input_hash": "85e9f92f277406b60629d0aaa89c5a20",
+  "created_at": "2026-10-29T20:18:57",
+  "duration_s": 12.23,
+  "output_tokens": 770,
+  "fallback": false,
+  "error": "",
+  "manual_edit": false,
+  "reviewed": false,
+  "payload_summary": {
+    "year": 2019,
+    "batch": "Pyramid :What web frameworks / libraries do you use in addition to Python?…Pyramid :What web frameworks / libraries do you use in addition to Python?",
+    "n": 1
+  },
+  "response": {
+    "columns": []
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "stage": "clean_semantics",
+  "model": "pangu-emb-7b",
+  "model_digest": "33125beabd8e1fe1",
+  "prompt_version": "clean-semantics-v2",
+  "input_hash": "a31723b620bd0fc22545c0785056ec13",
+  "created_at": "2026-10-29T19:32:20",
+  "duration_s": 11.66,
+  "output_tokens": 726,
+  "fallback": false,
+  "error": "",
+  "manual_edit": false,
+  "reviewed": false,
+  "payload_summary": {
+    "year": 2019,
+    "batch": "Perl:What other language(s) do you use?…Ruby:What other language(s) do you use?",
+    "n": 4
+  },
+  "response": {
+    "columns": [
+      {
+        "column": "Perl:What other language(s) do you use?",
+        "kind": "multi_option",
+        "group": "language.use",
+        "option": "Perl",
+        "missing_tokens": [],
+        "reason": "multi_like flags indicate multi_option, options extracted from column name prefix",
+        "year": 2019
+      },
+      {
+        "column": "PHP:What other language(s) do you use?",
+        "kind": "multi_option",
+        "group": "language.use",
+        "option": "PHP",
+        "missing_tokens": [],
+        "reason": "multi_like flags indicate multi_option, options extracted from column name prefix",
+        "year": 2019
+      },
+      {
+        "column": "R:What other language(s) do you use?",
+        "kind": "multi_option",
+        "group": "language.use",
+        "option": "R",
+        "missing_tokens": [],
+        "reason": "multi_like flags indicate multi_option, options extracted from column name prefix",
+        "year": 2019
+      },
+      {
+        "column": "Ruby:What other language(s) do you use?",
+        "kind": "multi_option",
+        "group": "language.use",
+        "option": "Ruby",
+        "missing_tokens": [],
+        "reason": "multi_like flags indicate multi_option, options extracted from column name prefix",
+        "year": 2019
+      }
+    ]
+  }
+}

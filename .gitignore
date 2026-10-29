@@ -13,3 +13,18 @@ Desktop.ini
 
 # 临时调试脚本
 _*.py
+
+# 模型权重：体积大且受上游许可约束，不入库（脚本与报告照常入库）
+pangu/models/
+*.gguf
+
+# LaTeX 编译中间产物
+reports/**/beamer/*.aux
+reports/**/beamer/*.log
+reports/**/beamer/*.nav
+reports/**/beamer/*.out
+reports/**/beamer/*.snm
+reports/**/beamer/*.toc
+
+# IDE 会话数据
+.codebuddy/

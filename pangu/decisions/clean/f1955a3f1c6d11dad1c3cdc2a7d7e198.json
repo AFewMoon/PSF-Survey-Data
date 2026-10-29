@@ -1,0 +1,32 @@
+{
+  "stage": "clean_semantics",
+  "model": "pangu-emb-7b",
+  "model_digest": "33125beabd8e1fe1",
+  "prompt_version": "clean-semantics-v2",
+  "input_hash": "f1955a3f1c6d11dad1c3cdc2a7d7e198",
+  "created_at": "2026-10-29T19:48:03",
+  "duration_s": 15.02,
+  "output_tokens": 927,
+  "fallback": false,
+  "error": "",
+  "manual_edit": false,
+  "reviewed": false,
+  "payload_summary": {
+    "year": 2019,
+    "batch": "Other - Write In:: What do you use Python for?…Other - Write In:: What do you use Python for?",
+    "n": 1
+  },
+  "response": {
+    "columns": [
+      {
+        "column": "Other - Write In:: What do you use Python for?",
+        "kind": "free_text",
+        "group": "other.py_usage",
+        "option": "",
+        "missing_tokens": [],
+        "reason": "自由文本类型，问题为开放式，无预设选项，样本已脱敏，结构特征符合自由文本要求。",
+        "year": 2019
+      }
+    ]
+  }
+}

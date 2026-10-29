@@ -1,0 +1,59 @@
+{
+  "stage": "clean_semantics",
+  "model": "pangu-emb-7b",
+  "model_digest": "33125beabd8e1fe1",
+  "prompt_version": "clean-semantics-v2",
+  "input_hash": "ebaa010b8e6db8c0627e2db1bc9f1dc3",
+  "created_at": "2026-10-29T21:01:27",
+  "duration_s": 12.58,
+  "output_tokens": 755,
+  "fallback": false,
+  "error": "",
+  "manual_edit": false,
+  "reviewed": false,
+  "payload_summary": {
+    "year": 2019,
+    "batch": "PostgreSQL:Which database(s) do you regularly use, if any?…Apache Beam:Which of the following Big Data tool(s) do you use, if any?",
+    "n": 4
+  },
+  "response": {
+    "columns": [
+      {
+        "column": "PostgreSQL:Which database(s) do you regularly use, if any?",
+        "kind": "multi_option",
+        "group": "PostgreSQL:Which database(s) do you regularly use, if any?",
+        "option": "PostgreSQL",
+        "missing_tokens": [],
+        "reason": "列名中的选项文本与取值完全一致，符合multi_option定义",
+        "year": 2019
+      },
+      {
+        "column": "Redis:Which database(s) do you regularly use, if any?",
+        "kind": "multi_option",
+        "group": "Redis:Which database(s) do you regularly use, if any?",
+        "option": "Redis",
+        "missing_tokens": [],
+        "reason": "列名中的选项文本与取值完全一致，符合multi_option定义",
+        "year": 2019
+      },
+      {
+        "column": "SQLite:Which database(s) do you regularly use, if any?",
+        "kind": "multi_option",
+        "group": "SQLite:Which database(s) do you regularly use, if any?",
+        "option": "SQLite",
+        "missing_tokens": [],
+        "reason": "列名中的选项文本与取值完全一致，符合multi_option定义",
+        "year": 2019
+      },
+      {
+        "column": "Apache Beam:Which of the following Big Data tool(s) do you use, if any?",
+        "kind": "multi_option",
+        "group": "Apache Beam:Which of the following Big Data tool(s) do you use, if any?",
+        "option": "Apache Beam",
+        "missing_tokens": [],
+        "reason": "列名中的选项文本与取值完全一致，符合multi_option定义",
+        "year": 2019
+      }
+    ]
+  }
+}

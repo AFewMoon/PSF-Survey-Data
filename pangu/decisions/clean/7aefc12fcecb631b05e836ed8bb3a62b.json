@@ -1,0 +1,59 @@
+{
+  "stage": "clean_semantics",
+  "model": "pangu-emb-7b",
+  "model_digest": "33125beabd8e1fe1",
+  "prompt_version": "clean-semantics-v2",
+  "input_hash": "7aefc12fcecb631b05e836ed8bb3a62b",
+  "created_at": "2026-10-29T21:15:26",
+  "duration_s": 11.35,
+  "output_tokens": 692,
+  "fallback": false,
+  "error": "",
+  "manual_edit": false,
+  "reviewed": false,
+  "payload_summary": {
+    "year": 2019,
+    "batch": "NetBeans:What editors/IDEs do you use for Python development in addition to your primary IDE?…NotePad++:What editors/IDEs do you use for Python development in addition to your primary IDE?",
+    "n": 4
+  },
+  "response": {
+    "columns": [
+      {
+        "column": "NetBeans:What editors/IDEs do you use for Python development in addition to your primary IDE?",
+        "kind": "multi_option",
+        "group": "NetBeans",
+        "option": "NetBeans",
+        "missing_tokens": [],
+        "reason": "列名中选项文本为NetBeans，取值恒等于选项文本，符合multi_like特征",
+        "year": 2019
+      },
+      {
+        "column": "Ninja-IDE:What editors/IDEs do you use for Python development in addition to your primary IDE?",
+        "kind": "multi_option",
+        "group": "Ninja-IDE",
+        "option": "Ninja-IDE",
+        "missing_tokens": [],
+        "reason": "列名中选项文本为Ninja-IDE，取值恒等于选项文本，符合multi_like特征",
+        "year": 2019
+      },
+      {
+        "column": "None:What editors/IDEs do you use for Python development in addition to your primary IDE?",
+        "kind": "multi_option",
+        "group": "None",
+        "option": "None",
+        "missing_tokens": [],
+        "reason": "列名中选项文本为None，取值恒等于选项文本，符合multi_like特征",
+        "year": 2019
+      },
+      {
+        "column": "NotePad++:What editors/IDEs do you use for Python development in addition to your primary IDE?",
+        "kind": "multi_option",
+        "group": "NotePad++",
+        "option": "NotePad++",
+        "missing_tokens": [],
+        "reason": "列名中选项文本为NotePad++，取值恒等于选项文本，符合multi_like特征",
+        "year": 2019
+      }
+    ]
+  }
+}
